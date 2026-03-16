@@ -11,11 +11,11 @@
   {
     "date": "2026-03-15",
     "sport": "NBA",
-    "game": "TBD",
-    "pick": "TBD",
+    "game": "Golden State Warriors @ New York Knicks",
+    "pick": "New York Knicks",
     "edge": 0,
-    "ccr": 0,
-    "result": null,
-    "units": 1.0
+    "ccr": 80,
+    "result": "W",
+    "units": 2.0
   }
 ]
