@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CerSports Outro Frame</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;background:#07090d;overflow:hidden}
+  body{font-family:'Barlow Condensed',sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+  .grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(230,57,70,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(230,57,70,.04) 1px,transparent 1px);background-size:48px 48px;z-index:0}
+  .glow{position:absolute;width:700px;height:700px;background:radial-gradient(circle,rgba(230,57,70,.1) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);z-index:0}
+  .content{position:relative;z-index:1;text-align:center;padding:2rem;display:flex;flex-direction:column;align-items:center;gap:1.25rem}
+  .brand{font-size:clamp(3.5rem,8vw,7rem);font-weight:800;letter-spacing:-1px;text-transform:uppercase;color:#e2e8f0;line-height:1}
+  .brand span{color:#e63946}
+  .divider{width:80px;height:2px;background:var(--r,#e63946);margin:.5rem auto}
+  .cta-main{font-family:'JetBrains Mono',monospace;font-size:clamp(11px,1.8vw,18px);letter-spacing:3px;text-transform:uppercase;color:#e2e8f0}
+  .cta-sub{font-family:'JetBrains Mono',monospace;font-size:clamp(9px,1.3vw,13px);letter-spacing:2px;text-transform:uppercase;color:#64748b}
+  .handles{display:flex;gap:2rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
+  .handle{font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.4vw,14px);letter-spacing:1px;color:#e63946;border:1px solid rgba(230,57,70,.3);padding:8px 18px;border-radius:4px;background:rgba(230,57,70,.06)}
+  .ccr-note{font-family:'JetBrains Mono',monospace;font-size:clamp(8px,1.1vw,11px);letter-spacing:1.5px;text-transform:uppercase;color:#1e2d3d;margin-top:1rem}
+  .corner{position:absolute;width:28px;height:28px;border-color:#e63946;border-style:solid;opacity:.35}
+  .c-tl{top:24px;left:24px;border-width:2px 0 0 2px}
+  .c-tr{top:24px;right:24px;border-width:2px 2px 0 0}
+  .c-bl{bottom:24px;left:24px;border-width:0 0 2px 2px}
+  .c-br{bottom:24px;right:24px;border-width:0 2px 2px 0}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="glow"></div>
+  <div class="corner c-tl"></div>
+  <div class="corner c-tr"></div>
+  <div class="corner c-bl"></div>
+  <div class="corner c-br"></div>
+  <div class="content">
+    <div class="brand">CER<span>SPORTS</span></div>
+    <div class="divider"></div>
+    <div class="cta-main">Follow For Daily Picks</div>
+    <div class="cta-sub">Free · Model-Driven · CCR-Rated</div>
+    <div class="handles">
+      <div class="handle">@cersports</div>
+      <div class="handle">cersports.com</div>
+    </div>
+    <div class="ccr-note pulse">Model runs daily · 8:05 AM</div>
+  </div>
+</body>
+</html>

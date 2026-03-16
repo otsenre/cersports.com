@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-03-16",
+    "sport": "NBA",
+    "game": "Dallas Mavericks @ New Orleans Pelicans",
+    "pick": "New Orleans Pelicans",
+    "edge": 14.5,
+    "ccr": 87,
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-15",
+    "sport": "NBA",
+    "game": "TBD",
+    "pick": "TBD",
+    "edge": 0,
+    "ccr": 0,
+    "result": null,
+    "units": 1.0
+  }
+]

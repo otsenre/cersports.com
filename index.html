@@ -3,142 +3,451 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CERSports — Sharp, Data-Driven Sports Handicapping</title>
-
-  <!-- SEO -->
-  <meta name="description" content="CERSports delivers data-driven sports handicapping, free daily picks, and bankroll-smart betting education." />
+  <title>CERSports — Data-Driven Sports Intelligence</title>
+  <meta name="description" content="CerSports delivers daily model-driven sports picks powered by a 100-point CCR rating system. NBA, NHL, MLS and more. Transparent. Accountable. Sharp." />
   <link rel="canonical" href="https://cersports.com/" />
-
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cersports.com/" />
-  <meta property="og:title" content="CERSports — Sharp, Data-Driven Sports Handicapping" />
-  <meta property="og:description" content="Join 1M+ bettors who ride with our transparent, edge-focused picks." />
+  <meta property="og:title" content="CERSports — Data-Driven Sports Intelligence" />
+  <meta property="og:description" content="The model runs every morning at 8:05. Sharp picks. Transparent results. CCR-rated daily." />
   <meta property="og:image" content="https://cersports.com/og-image.jpg" />
-
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CERSports — Sharp, Data-Driven Sports Handicapping" />
-  <meta name="twitter:description" content="Join 1M+ bettors who ride with our transparent, edge-focused picks." />
+  <meta name="twitter:title" content="CERSports — Data-Driven Sports Intelligence" />
+  <meta name="twitter:description" content="The model runs every morning at 8:05. Sharp picks. Transparent results. CCR-rated daily." />
   <meta name="twitter:image" content="https://cersports.com/og-image.jpg" />
-
-  <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Google Analytics (GA‑4) -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Google Analytics GA-4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y50XTWMNSD"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
     gtag('config', 'G-Y50XTWMNSD');
   </script>
-
   <style>
-    :root { --clr-dark:#0a0a0a; --clr-light:#ffffff; --clr-accent:#e11d48; --clr-muted:#9ca3af; --max-width:1100px; --radius:0.75rem; }
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:'Inter',system-ui,sans-serif;background:var(--clr-dark);color:var(--clr-light);line-height:1.6}
-    a{color:inherit;text-decoration:none}
-
-    /* Navigation */
-    header{background:rgba(10,10,10,0.9);position:sticky;top:0;z-index:1000;backdrop-filter:blur(8px)}
-    .nav{max-width:var(--max-width);margin:auto;padding:1rem 1.25rem;display:flex;justify-content:space-between;align-items:center}
-    .nav__brand{font-weight:700;font-size:1.25rem;letter-spacing:0.5px}
-    .nav__links{list-style:none;display:flex;gap:1.25rem}
-    .nav__links a:hover{color:var(--clr-accent)}
-
-    /* Utility */
-    .btn{display:inline-block;padding:0.75rem 1.25rem;background:var(--clr-accent);color:var(--clr-light);border-radius:var(--radius);font-weight:600;transition:filter 0.2s ease}
-    .btn:hover{filter:brightness(1.15)}
-    .section{padding:4.5rem 1.25rem}
-    .section--center{max-width:var(--max-width);margin:auto}
-
-    /* Hero */
-    .hero{min-height:60vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=70') center/cover no-repeat;position:relative}
-    .hero::before{content:"";position:absolute;inset:0;background:rgba(10,10,10,0.6)}
-    .hero__content{position:relative;z-index:1;max-width:700px;padding:0 1rem}
-    .hero h1{font-size:clamp(2.5rem,5vw+1rem,4rem);font-weight:700;margin-bottom:1rem;line-height:1.15}
-    .hero p{font-size:1.1rem;margin-bottom:2rem}
-
-    /* Cards & Grid */
-    h2{font-size:2rem;font-weight:700;margin-bottom:1rem}
-    .grid{display:grid;gap:2rem}
-    @media(min-width:768px){.grid--two{grid-template-columns:repeat(2,1fr)}.grid--three{grid-template-columns:repeat(3,1fr)}}
-    .card{background:#111827;border-radius:var(--radius);padding:1.75rem 1.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform 0.2s ease}
-    .card:hover{transform:translateY(-4px)}
-    .card h3{font-size:1.25rem;font-weight:600;margin-bottom:0.5rem}
-    .card p{font-size:0.95rem;color:var(--clr-muted)}
-
-    /* Footer */
-    footer{background:#111111;padding:2rem 1.25rem;text-align:center;font-size:0.875rem;color:var(--clr-muted)}
-    .socials{margin:1rem 0 0.5rem;display:flex;justify-content:center;gap:1.25rem;font-size:1.25rem}
+    :root{--bg:#07090d;--bg2:#0d1117;--bg3:#111820;--border:#1e2d3d;--red:#e63946;--red-dim:rgba(230,57,70,0.12);--gold:#f4a261;--text:#e2e8f0;--muted:#64748b;--mono:'JetBrains Mono',monospace;--display:'Barlow Condensed',sans-serif;--body:'Outfit',sans-serif}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.35}
+    .ticker-wrap{background:var(--bg2);border-bottom:1px solid var(--border);overflow:hidden;height:34px;display:flex;align-items:center;position:relative;z-index:100}
+    .ticker-label{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:1.5px;color:var(--red);padding:0 14px;white-space:nowrap;background:var(--bg2);border-right:1px solid var(--border);height:100%;display:flex;align-items:center;z-index:2}
+    .ticker-track{display:flex;animation:ticker 30s linear infinite;white-space:nowrap}
+    .ticker-item{font-family:var(--mono);font-size:11px;color:var(--muted);padding:0 22px;border-right:1px solid var(--border);height:34px;display:flex;align-items:center;gap:8px}
+    .t-team{color:var(--text);font-weight:600}
+    .t-ccr{color:var(--gold)}
+    .t-live{color:#2dd4bf}
+    @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+    header{position:sticky;top:0;z-index:99;background:rgba(7,9,13,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    nav{max-width:1140px;margin:auto;padding:0 1.5rem;height:60px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-family:var(--display);font-size:1.5rem;font-weight:800;letter-spacing:1px;display:flex;align-items:center;gap:4px;text-decoration:none;color:var(--text)}
+    .brand em{color:var(--red);font-style:normal}
+    .brand-badge{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:1.5px;background:var(--red-dim);color:var(--red);border:1px solid rgba(230,57,70,.3);border-radius:3px;padding:2px 6px;margin-left:6px}
+    .nav-links{list-style:none;display:flex;gap:2rem}
+    .nav-links a{font-size:.825rem;font-weight:500;letter-spacing:.5px;color:var(--muted);text-decoration:none;transition:color .2s;text-transform:uppercase}
+    .nav-links a:hover{color:var(--text)}
+    .nav-cta{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--red);border:1px solid rgba(230,57,70,.4);padding:8px 16px;border-radius:4px;text-decoration:none;transition:background .2s}
+    .nav-cta:hover{background:var(--red-dim)}
+    .hero{min-height:92vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1140px;margin:auto;padding:5rem 1.5rem;gap:4rem;position:relative;z-index:1}
+    .hero-eyebrow{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);margin-bottom:1.25rem;display:flex;align-items:center;gap:8px}
+    .hero-eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--red)}
+    .hero h1{font-family:var(--display);font-size:clamp(3.5rem,7vw,6rem);font-weight:800;line-height:.92;letter-spacing:-1px;text-transform:uppercase;margin-bottom:1.5rem}
+    .hero h1 em{font-style:normal;color:var(--red)}
+    .hero-sub{font-size:1.05rem;color:var(--muted);line-height:1.75;max-width:480px;margin-bottom:2.5rem}
+    .hero-sub strong{color:var(--text)}
+    .hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
+    .btn-primary{font-family:var(--mono);font-size:.8rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:var(--red);color:#fff;padding:14px 28px;border-radius:4px;text-decoration:none;transition:filter .2s;white-space:nowrap}
+    .btn-primary:hover{filter:brightness(1.15)}
+    .btn-secondary{font-family:var(--mono);font-size:.8rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border:1px solid var(--border);padding:14px 28px;border-radius:4px;text-decoration:none;transition:color .2s,border-color .2s}
+    .btn-secondary:hover{color:var(--text);border-color:var(--text)}
+    .hero-terminal{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.6),0 0 0 1px rgba(230,57,70,.04);animation:fadeUp .8s ease .3s both}
+    .t-bar{background:var(--bg3);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;gap:8px}
+    .t-dot{width:11px;height:11px;border-radius:50%}
+    .t-dot:nth-child(1){background:#e63946}
+    .t-dot:nth-child(2){background:#f4a261}
+    .t-dot:nth-child(3){background:#2dd4bf}
+    .t-title{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:8px;letter-spacing:1px}
+    .t-body{padding:20px}
+    .t-row{font-family:var(--mono);font-size:12px;padding:8px 0;border-bottom:1px solid rgba(30,45,61,.5);display:grid;grid-template-columns:1fr auto auto auto;gap:12px;align-items:center}
+    .t-row:last-of-type{border-bottom:none}
+    .t-game{color:var(--text);font-size:11px}
+    .t-pick{color:var(--gold);font-weight:600;font-size:11px}
+    .t-lbl{color:var(--muted);font-size:10px}
+    .badge{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:3px}
+    .b-hi{background:rgba(230,57,70,.15);color:#e63946;border:1px solid rgba(230,57,70,.3)}
+    .b-md{background:rgba(244,162,97,.12);color:#f4a261;border:1px solid rgba(244,162,97,.25)}
+    .b-lo{background:rgba(100,116,139,.12);color:#64748b;border:1px solid rgba(100,116,139,.2)}
+    .t-foot{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:16px;padding-top:12px;border-top:1px solid var(--border);display:flex;justify-content:space-between}
+    .t-ok{color:#2dd4bf}
+    .stats-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;z-index:1}
+    .stats-inner{max-width:1140px;margin:auto;padding:0 1.5rem;display:grid;grid-template-columns:repeat(4,1fr)}
+    .stat-item{padding:2rem 1.5rem;border-right:1px solid var(--border);text-align:center}
+    .stat-item:last-child{border-right:none}
+    .stat-num{font-family:var(--display);font-size:3rem;font-weight:800;letter-spacing:-1px;line-height:1;color:var(--text)}
+    .stat-num span{color:var(--red)}
+    .stat-lbl{font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:6px}
+    section{position:relative;z-index:1}
+    .wrap{max-width:1140px;margin:auto;padding:5rem 1.5rem}
+    .eyebrow{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);margin-bottom:1rem}
+    .sec-title{font-family:var(--display);font-size:clamp(2.5rem,5vw,4rem);font-weight:800;text-transform:uppercase;letter-spacing:-.5px;line-height:1;margin-bottom:1.25rem}
+    .sec-sub{font-size:1rem;color:var(--muted);line-height:1.75;max-width:600px}
+    .ccr-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    .ccr-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+    .ccr-meter{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:2rem}
+    .ccr-meter-title{font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem}
+    .ccr-scale{display:flex;flex-direction:column;gap:12px}
+    .ccr-row{display:grid;grid-template-columns:80px 1fr 55px;align-items:center;gap:12px}
+    .ccr-lbl{font-family:var(--mono);font-size:11px;font-weight:600}
+    .ccr-bar-bg{background:rgba(255,255,255,.04);border-radius:2px;height:6px;overflow:hidden}
+    .ccr-bar{height:100%;border-radius:2px;transition:width .6s ease}
+    .ccr-range{font-family:var(--mono);font-size:10px;color:var(--muted);text-align:right}
+    .tier-1 .ccr-lbl{color:#e63946}.tier-1 .ccr-bar{background:#e63946;width:100%}
+    .tier-2 .ccr-lbl{color:#f4a261}.tier-2 .ccr-bar{background:#f4a261;width:80%}
+    .tier-3 .ccr-lbl{color:#facc15}.tier-3 .ccr-bar{background:#facc15;width:62%}
+    .tier-4 .ccr-lbl{color:#64748b}.tier-4 .ccr-bar{background:#64748b;width:44%}
+    .ccr-bullets{list-style:none;display:flex;flex-direction:column;gap:1.25rem;margin-top:2rem}
+    .ccr-bullets li{display:flex;gap:1rem;align-items:flex-start;font-size:.95rem;color:var(--muted);line-height:1.6}
+    .ccr-bullets li::before{content:'//';font-family:var(--mono);font-size:12px;color:var(--red);flex-shrink:0;margin-top:2px}
+    .ccr-bullets strong{color:var(--text)}
+    .pipe-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:3rem}
+    .p-step{background:var(--bg2);padding:2rem 1.75rem;transition:background .2s}
+    .p-step:hover{background:var(--bg3)}
+    .p-num{font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:1px;margin-bottom:.75rem}
+    .p-title{font-family:var(--display);font-size:1.35rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:.5rem}
+    .p-desc{font-size:.875rem;color:var(--muted);line-height:1.65}
+    .sports-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:3rem}
+    .sport-card{background:var(--bg2);padding:2rem 1.5rem;text-align:center;transition:background .2s}
+    .sport-card:hover{background:var(--bg3)}
+    .sport-icon{font-size:2.25rem;margin-bottom:.75rem}
+    .sport-name{font-family:var(--display);font-size:1.25rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:.25rem}
+    .sport-status{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase}
+    .s-live{color:#2dd4bf}
+    .s-soon{color:var(--muted)}
+    .follow-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    .soc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:3rem}
+    .soc-card{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:1.75rem 1.5rem;text-align:center;text-decoration:none;color:var(--text);transition:border-color .2s,transform .2s;display:block}
+    .soc-card:hover{border-color:var(--red);transform:translateY(-3px)}
+    .soc-icon{font-size:2rem;margin-bottom:.75rem}
+    .soc-platform{font-family:var(--display);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:.25rem}
+    .soc-handle{font-family:var(--mono);font-size:11px;color:var(--muted)}
+    .soc-action{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin-top:1rem}
+    .cta-band{background:linear-gradient(135deg,var(--bg3) 0%,rgba(230,57,70,.06) 100%);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    .cta-inner{max-width:1140px;margin:auto;padding:5rem 1.5rem;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
+    .cta-h{font-family:var(--display);font-size:clamp(2rem,4vw,3.5rem);font-weight:800;text-transform:uppercase;line-height:1;letter-spacing:-.5px}
+    .cta-h span{color:var(--red)}
+    .cta-sub{font-size:.95rem;color:var(--muted);margin-top:.75rem}
+    footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .foot-inner{max-width:1140px;margin:auto}
+    .foot-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+    .foot-brand{font-family:var(--display);font-size:2rem;font-weight:800;letter-spacing:1px}
+    .foot-brand span{color:var(--red)}
+    .foot-tag{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:1px}
+    .foot-links{display:flex;flex-direction:column;gap:.5rem;align-items:flex-end}
+    .foot-links a{font-size:.875rem;color:var(--muted);text-decoration:none;transition:color .2s}
+    .foot-links a:hover{color:var(--text)}
+    .foot-bottom{padding-top:2rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+    .foot-copy{font-family:var(--mono);font-size:11px;color:var(--muted)}
+    .foot-disc{font-size:11px;color:var(--muted);max-width:460px;text-align:right;line-height:1.5}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+    .fi{animation:fadeUp .7s ease both}
+    .fi-1{animation-delay:.1s}.fi-2{animation-delay:.25s}.fi-3{animation-delay:.4s}.fi-4{animation-delay:.55s}
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr;min-height:auto;gap:3rem}
+      .hero-terminal{display:none}
+      .stats-inner{grid-template-columns:repeat(2,1fr)}
+      .stat-item:nth-child(2){border-right:none}
+      .ccr-grid{grid-template-columns:1fr}
+      .pipe-grid{grid-template-columns:1fr}
+      .sports-grid{grid-template-columns:repeat(2,1fr)}
+      .soc-grid{grid-template-columns:repeat(2,1fr)}
+      .cta-inner{grid-template-columns:1fr}
+      .foot-top{flex-direction:column;gap:1.5rem}
+      .foot-links{align-items:flex-start}
+      .foot-bottom{flex-direction:column;gap:1rem;text-align:center}
+      .foot-disc{text-align:center}
+      .nav-links{display:none}
+    }
   </style>
 </head>
 <body>
-  <!-- Navigation -->
+
+  <!-- Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker-label">LIVE PICKS</div>
+    <div style="overflow:hidden;flex:1">
+      <div class="ticker-track">
+        <div class="ticker-item"><span class="t-team">Pelicans</span><span class="t-ccr">CCR 87</span><span class="badge b-hi">⚡ STRONG</span></div>
+        <div class="ticker-item"><span class="t-team">Trail Blazers</span><span class="t-ccr">CCR 80</span><span style="color:#f4a261">B2B ALERT</span></div>
+        <div class="ticker-item">Model ran 8:05 AM · 8 games analyzed · 2 qualifiers</div>
+        <div class="ticker-item"><span class="t-team">NBA</span><span class="t-ccr">Mar 16 Slate</span></div>
+        <div class="ticker-item">NHL · MLS · Expanding Soon</div>
+        <div class="ticker-item"><span class="t-team">CerSports</span><span class="t-live">● SYSTEM LIVE</span></div>
+        <div class="ticker-item"><span class="t-team">Pelicans</span><span class="t-ccr">CCR 87</span><span class="badge b-hi">⚡ STRONG</span></div>
+        <div class="ticker-item"><span class="t-team">Trail Blazers</span><span class="t-ccr">CCR 80</span><span style="color:#f4a261">B2B ALERT</span></div>
+        <div class="ticker-item">Model ran 8:05 AM · 8 games analyzed · 2 qualifiers</div>
+        <div class="ticker-item"><span class="t-team">NBA</span><span class="t-ccr">Mar 16 Slate</span></div>
+        <div class="ticker-item">NHL · MLS · Expanding Soon</div>
+        <div class="ticker-item"><span class="t-team">CerSports</span><span class="t-live">● SYSTEM LIVE</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav -->
   <header>
-    <nav class="nav">
-      <div class="nav__brand">CERSports</div>
-      <ul class="nav__links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#picks">Free Picks</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav>
+      <a href="#" class="brand">CER<em>SPORTS</em><div class="brand-badge">CCR™</div></a>
+      <ul class="nav-links">
+        <li><a href="#model">The Model</a></li>
+        <li><a href="#ccr">What is CCR</a></li>
+        <li><a href="#sports">Coverage</a></li>
+        <li><a href="#follow">Follow</a></li>
       </ul>
+      <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="nav-cta">Today's Pick →</a>
     </nav>
   </header>
 
   <!-- Hero -->
-  <section class="hero" id="home">
-    <div class="hero__content">
-      <h1>Data-Driven Sports Handicapping</h1>
-      <p>Sharp edges. Relentless research. Transparent results. Join our run to <strong>1,000,000</strong> followers and bet smarter today.</p>
-      <a href="#picks" class="btn">Get Today’s Top Pick</a>
+  <div class="hero">
+    <div>
+      <div class="hero-eyebrow fi fi-1">Sports Intelligence · Est. 2024</div>
+      <h1 class="fi fi-2">The<br>Model<br><em>Runs.</em></h1>
+      <p class="hero-sub fi fi-3">
+        Every morning at <strong>8:05 AM</strong>, our system scrapes live data, runs three independent models, and outputs CCR-rated picks — before you've had your first coffee. <strong>No gut calls. No touts. Just edge.</strong>
+      </p>
+      <div class="hero-actions fi fi-4">
+        <a href="#follow" class="btn-primary">Follow the Picks</a>
+        <a href="#ccr" class="btn-secondary">What is CCR?</a>
+      </div>
+    </div>
+
+    <div class="hero-terminal">
+      <div class="t-bar">
+        <div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div>
+        <div class="t-title" id="terminal-date">cersports_edge_report — loading...</div>
+      </div>
+      <div class="t-body" id="terminal-body">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--muted);padding:1rem 0">Fetching today's pick...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Record tracker -->
+  <div style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;z-index:1" id="record-section">
+    <div style="max-width:1140px;margin:auto;padding:1.5rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)">Season Record · Best Bet of the Day</div>
+      <div style="display:flex;gap:1.5rem;align-items:center" id="record-display">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--muted)">Loading record...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  // ── Dynamic picks.json loader ──────────────────────────────────────────────
+  (function() {
+    function ccrBadgeClass(ccr) {
+      if (ccr >= 90) return 'b-hi';
+      if (ccr >= 80) return 'b-md';
+      return 'b-lo';
+    }
+    function resultBadge(result) {
+      if (result === 'W') return '<span style="font-family:var(--mono);font-size:11px;font-weight:700;color:#2dd4bf;padding:2px 8px;border:1px solid rgba(45,212,191,.3);border-radius:3px;background:rgba(45,212,191,.08)">W</span>';
+      if (result === 'L') return '<span style="font-family:var(--mono);font-size:11px;font-weight:700;color:#e63946;padding:2px 8px;border:1px solid rgba(230,57,70,.3);border-radius:3px;background:rgba(230,57,70,.08)">L</span>';
+      return '<span style="font-family:var(--mono);font-size:10px;color:var(--muted)">TBD</span>';
+    }
+
+    fetch('/picks.json?v=' + Date.now())
+      .then(r => r.json())
+      .then(picks => {
+        if (!picks || !picks.length) return;
+
+        // ── Terminal card: today's pick (most recent) ──
+        const today = picks[0];
+        const dateLabel = today.date || '';
+        document.getElementById('terminal-date').textContent =
+          'cersports_best_bet — ' + dateLabel;
+
+        const bc = ccrBadgeClass(today.ccr || 0);
+        // Build recent picks rows (up to 4)
+        let rows = picks.slice(0, 4).map(p => {
+          const gameParts = p.game ? p.game.split(' @ ') : ['—', '—'];
+          const shortGame = gameParts.length === 2
+            ? gameParts[0].split(' ').map(w=>w[0]).join('') + ' @ ' + gameParts[1].split(' ').map(w=>w[0]).join('')
+            : p.game;
+          const bc2 = ccrBadgeClass(p.ccr || 0);
+          return `<div class="t-row">
+            <span class="t-game">${shortGame}</span>
+            <span class="t-pick">${p.pick}</span>
+            <span class="t-lbl">CCR</span>
+            <span class="badge ${bc2}">${p.ccr}</span>
+          </div>`;
+        }).join('');
+
+        const wins   = picks.filter(p => p.result === 'W').length;
+        const losses = picks.filter(p => p.result === 'L').length;
+        const pend   = picks.filter(p => !p.result).length;
+
+        document.getElementById('terminal-body').innerHTML = rows +
+          `<div class="t-foot">
+            <span>${picks.length} picks tracked · ${pend} pending</span>
+            <span class="t-ok">● ${wins}W-${losses}L</span>
+          </div>`;
+
+        // ── Record bar ──
+        const winPct = (wins + losses) > 0
+          ? Math.round(wins / (wins + losses) * 100) + '%'
+          : '—';
+        document.getElementById('record-display').innerHTML = `
+          <span style="font-family:var(--mono);font-size:13px;font-weight:600;color:#2dd4bf">${wins}W</span>
+          <span style="font-family:var(--mono);font-size:13px;color:var(--muted)">-</span>
+          <span style="font-family:var(--mono);font-size:13px;font-weight:600;color:#e63946">${losses}L</span>
+          <span style="font-family:var(--mono);font-size:11px;color:var(--muted);padding-left:.5rem">${winPct} · ${picks.length} picks · Best Bet only</span>
+        `;
+
+        // ── Update ticker with today's pick ──
+        const tickerTeam = document.querySelector('.ticker-track');
+        if (tickerTeam && today.pick) {
+          const newItem = document.createElement('div');
+          newItem.className = 'ticker-item';
+          newItem.innerHTML = `<span class="t-team">TODAY: ${today.pick}</span><span class="t-ccr">CCR ${today.ccr}</span>`;
+          tickerTeam.prepend(newItem);
+        }
+      })
+      .catch(() => {
+        // Graceful fallback — static content shows if fetch fails
+        document.getElementById('terminal-body').innerHTML =
+          '<div style="font-family:var(--mono);font-size:11px;color:var(--muted);padding:.5rem 0">Pick posted daily at 8:05 AM. Follow @cersports for alerts.</div>';
+      });
+  })();
+  </script>
+
+  <!-- Stats bar -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item"><div class="stat-num">100<span>pt</span></div><div class="stat-lbl">CCR Scoring System</div></div>
+      <div class="stat-item"><div class="stat-num">8<span>:05</span></div><div class="stat-lbl">Daily Runtime · AM</div></div>
+      <div class="stat-item"><div class="stat-num">3<span>+</span></div><div class="stat-lbl">Independent Models</div></div>
+      <div class="stat-item"><div class="stat-num">4<span>x</span></div><div class="stat-lbl">Platforms · Daily</div></div>
+    </div>
+  </div>
+
+  <!-- Pipeline -->
+  <section id="model">
+    <div class="wrap">
+      <div class="eyebrow">Under The Hood</div>
+      <h2 class="sec-title">How The Model Works</h2>
+      <p class="sec-sub">Three independent engines feed a consensus layer every morning. The output is a single CCR score per game — we post the ones above the threshold.</p>
+      <div class="pipe-grid">
+        <div class="p-step"><div class="p-num">STEP 01</div><div class="p-title">Data Scrape</div><div class="p-desc">Live game logs, rest days, back-to-backs, team ratings, and injury context pulled fresh from Basketball Reference every morning via Playwright.</div></div>
+        <div class="p-step"><div class="p-num">STEP 02</div><div class="p-title">Rule Engine</div><div class="p-desc">Upgraded rule-based model scores every matchup — net rating, pace, shot profile, fatigue index, and recent form all weighted and combined.</div></div>
+        <div class="p-step"><div class="p-num">STEP 03</div><div class="p-title">ELO + XGBoost</div><div class="p-desc">A trained XGBoost model on a decade of game data produces win probability and predicted margin for every game on the day's slate.</div></div>
+        <div class="p-step"><div class="p-num">STEP 04</div><div class="p-title">Live Odds</div><div class="p-desc">Current market lines pulled via The Odds API. Spread and ML edge calculated in real time against our model's projected margins.</div></div>
+        <div class="p-step"><div class="p-num">STEP 05</div><div class="p-title">Consensus Pick</div><div class="p-desc">All three model outputs cross-referenced. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify for publication.</div></div>
+        <div class="p-step"><div class="p-num">STEP 06</div><div class="p-title">Publish</div><div class="p-desc">HTML report generated. Social cards rendered. CCR-branded captions written. Published daily to YouTube, Instagram, TikTok, and X.</div></div>
+      </div>
     </div>
   </section>
 
-  <!-- About -->
-  <section class="section section--center" id="about">
-    <h2>Who We Are</h2>
-    <p>CERSports blends advanced analytics, insider information, and decades of odds‑smashing experience to deliver the sharpest sports picks in the game. From NBA player props to MLS totals, our models uncover value others miss—so you can bet with confidence and consistency.</p>
-  </section>
-
-  <!-- Services -->
-  <section class="section section--center" id="services">
-    <h2>What We Offer</h2>
-    <div class="grid grid--three">
-      <div class="card">
-        <h3>Daily Free Pick</h3>
-        <p>A single high‑edge play delivered straight to your feed. Always transparent. Always free.</p>
-      </div>
-      <div class="card">
-        <h3>Premium Membership <span style="color:var(--clr-accent);">(Coming Soon)</span></h3>
-        <p>Full‑slate breakdowns, model projections, and exclusive PowerPlays—back‑tested for ROI.</p>
-      </div>
-      <div class="card">
-        <h3>Educational Content</h3>
-        <p>Master bankroll management, line shopping, and advanced stats with tutorials & short‑form videos.</p>
+  <!-- CCR -->
+  <section class="ccr-section" id="ccr">
+    <div class="wrap">
+      <div class="ccr-grid">
+        <div>
+          <div class="eyebrow">Our Proprietary Rating</div>
+          <h2 class="sec-title">What is CCR?</h2>
+          <p class="sec-sub">The CerSports Confidence Rating is a 0–100 score assigned to every pick by our consensus model. It measures how much edge our system has detected across all three models combined.</p>
+          <ul class="ccr-bullets">
+            <li><strong>CCR 90+</strong> — All models in full agreement. Elite edge. Rare, and worth noting when it hits.</li>
+            <li><strong>CCR 80–89</strong> — Strong multi-model consensus. Our standard qualifier for posted picks.</li>
+            <li><strong>CCR 68–79</strong> — Solid data lean. Worth tracking but below our posting threshold.</li>
+            <li><strong>Below 68</strong> — Noise. We don't post what the model doesn't believe in.</li>
+          </ul>
+        </div>
+        <div class="ccr-meter">
+          <div class="ccr-meter-title">CCR Scale — CerSports Confidence Rating</div>
+          <div class="ccr-scale">
+            <div class="ccr-row tier-1"><div class="ccr-lbl">🔥 ELITE</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">90–100</div></div>
+            <div class="ccr-row tier-2"><div class="ccr-lbl">⚡ STRONG</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">80–89</div></div>
+            <div class="ccr-row tier-3"><div class="ccr-lbl">✅ SOLID</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">68–79</div></div>
+            <div class="ccr-row tier-4"><div class="ccr-lbl">📊 LEAN</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">58–67</div></div>
+          </div>
+          <div style="margin-top:1.75rem;padding-top:1.5rem;border-top:1px solid var(--border)">
+            <div style="font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:.75rem">Today's Qualifying Picks</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <span class="badge b-hi" style="font-size:12px;padding:5px 12px">CCR 87 · Pelicans</span>
+              <span class="badge b-md" style="font-size:12px;padding:5px 12px">CCR 80 · Trail Blazers</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Free Picks -->
-  <section class="section section--center" id="picks">
-    <h2>Today’s Free Pick</h2>
-    <p><em>Pick posted daily at 9:00 AM PST. Follow us on social for real‑time alerts.</em></p>
-    <a class="btn" href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener">Follow on TikTok</a>
+  <!-- Sports -->
+  <section id="sports">
+    <div class="wrap">
+      <div class="eyebrow">Coverage</div>
+      <h2 class="sec-title">Sports We Cover</h2>
+      <p class="sec-sub">NBA is live and running daily. NHL and MLS are in development — same CCR system, new data feeds.</p>
+      <div class="sports-grid">
+        <div class="sport-card"><div class="sport-icon">🏀</div><div class="sport-name">NBA</div><div class="sport-status s-live">● Live Daily</div></div>
+        <div class="sport-card"><div class="sport-icon">🏒</div><div class="sport-name">NHL</div><div class="sport-status s-soon">Coming Soon</div></div>
+        <div class="sport-card"><div class="sport-icon">⚽</div><div class="sport-name">MLS</div><div class="sport-status s-soon">Coming Soon</div></div>
+        <div class="sport-card"><div class="sport-icon">🏈</div><div class="sport-name">NFL</div><div class="sport-status s-soon">2026 Season</div></div>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact -->
-  <section class="section section--center" id="contact">
-    <h2>Contact Us</h2>
-    <p>Questions, media inquiries, or partnerships? Hit us up—let’s connect!</p>
-    <p>Email: <a href="mailto:info@cersports.com" style="color:var(--clr-accent);">info@cersports.com</a></p>
+  <!-- Follow -->
+  <section class="follow-section" id="follow">
+    <div class="wrap">
+      <div class="eyebrow">Free Picks · Daily</div>
+      <h2 class="sec-title">Follow The Model</h2>
+      <p class="sec-sub">Picks drop every morning after the 8:05 run. Follow us, turn on notifications, and never miss a qualifying CCR play.</p>
+      <div class="soc-grid">
+        <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📱</div><div class="soc-platform">TikTok</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
+        <a href="https://www.instagram.com/cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📷</div><div class="soc-platform">Instagram</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
+        <a href="https://www.youtube.com/@cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📺</div><div class="soc-platform">YouTube</div><div class="soc-handle">@cersports</div><div class="soc-action">Subscribe →</div></a>
+        <a href="https://x.com/cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">🐦</div><div class="soc-platform">X / Twitter</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="cta-inner">
+      <div>
+        <div class="cta-h">The Model Ran<br><span>This Morning.</span></div>
+        <div class="cta-sub">Did you see the picks? Follow CerSports for daily CCR-rated plays — always free, always model-backed.</div>
+      </div>
+      <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="btn-primary">Get Today's Pick →</a>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <div class="socials">
-      <a href="https://www.youtube.com/@cersports" target="_blank" rel="noopener" title="YouTube">📺</a>
-      <a href="https://www.instagram.com/cersports" target="_blank" rel="noopener" title="Instagram">📷
+    <div class="foot-inner">
+      <div class="foot-top">
+        <div>
+          <div class="foot-brand">CER<span>SPORTS</span></div>
+          <div class="foot-tag">DATA-DRIVEN SPORTS INTELLIGENCE · CCR™ RATED PICKS</div>
+        </div>
+        <div class="foot-links">
+          <a href="mailto:info@cersports.com">info@cersports.com</a>
+          <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.instagram.com/cersports" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@cersports" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://x.com/cersports" target="_blank" rel="noopener">X / Twitter</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div class="foot-copy">© 2026 CerSports. All rights reserved.</div>
+        <div class="foot-disc">For entertainment purposes only. Sports betting involves risk. Past model performance does not guarantee future results. Please gamble responsibly.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

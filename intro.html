@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CerSports Intro Frame</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  /* Designed to render at 1080x1920 (9:16) or 1920x1080 (16:9) */
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;background:#07090d;overflow:hidden}
+  body{font-family:'Barlow Condensed',sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+  .grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(230,57,70,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(230,57,70,.04) 1px,transparent 1px);background-size:48px 48px;z-index:0}
+  .glow{position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(230,57,70,.12) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);z-index:0}
+  .content{position:relative;z-index:1;text-align:center;padding:2rem}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.4vw,14px);letter-spacing:4px;text-transform:uppercase;color:#e63946;margin-bottom:1.5rem;display:flex;align-items:center;justify-content:center;gap:12px}
+  .eyebrow::before,.eyebrow::after{content:'';display:block;width:40px;height:1px;background:#e63946}
+  .brand{font-size:clamp(5rem,12vw,10rem);font-weight:800;line-height:.9;letter-spacing:-2px;text-transform:uppercase;color:#e2e8f0}
+  .brand span{color:#e63946}
+  .tagline{font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.6vw,16px);letter-spacing:3px;text-transform:uppercase;color:#64748b;margin-top:2rem}
+  .ccr-badge{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:clamp(9px,1.2vw,12px);font-weight:600;letter-spacing:2px;background:rgba(230,57,70,.15);color:#e63946;border:1px solid rgba(230,57,70,.35);border-radius:4px;padding:6px 16px;margin-top:1.5rem}
+  .scan-line{position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(230,57,70,.6),transparent);animation:scan 3s ease-in-out infinite;z-index:2}
+  @keyframes scan{0%{top:0;opacity:0}10%{opacity:1}90%{opacity:.3}100%{top:100%;opacity:0}}
+  .corner{position:absolute;width:28px;height:28px;border-color:#e63946;border-style:solid;opacity:.4}
+  .c-tl{top:24px;left:24px;border-width:2px 0 0 2px}
+  .c-tr{top:24px;right:24px;border-width:2px 2px 0 0}
+  .c-bl{bottom:24px;left:24px;border-width:0 0 2px 2px}
+  .c-br{bottom:24px;right:24px;border-width:0 2px 2px 0}
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="glow"></div>
+  <div class="scan-line"></div>
+  <div class="corner c-tl"></div>
+  <div class="corner c-tr"></div>
+  <div class="corner c-bl"></div>
+  <div class="corner c-br"></div>
+  <div class="content">
+    <div class="eyebrow">Sports Intelligence</div>
+    <div class="brand">CER<span>SPORTS</span></div>
+    <div class="tagline">Data-Driven · CCR-Rated · Daily</div>
+    <div class="ccr-badge">CCR™ POWERED PICKS</div>
+  </div>
+</body>
+</html>
