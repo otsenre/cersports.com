@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-17",
+    "sport": "NBA",
+    "game": "Detroit Pistons @ Washington Wizards",
+    "pick": "Detroit Pistons",
+    "bet_type": "ML",
+    "line": "+950",
+    "pick_display": "Washington Wizards ML (+950)",
+    "edge": 0.13,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-16",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Houston Rockets",
