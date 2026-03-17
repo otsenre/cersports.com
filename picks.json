@@ -3,15 +3,15 @@
     "date": "2026-03-17",
     "sport": "NBA",
     "game": "Philadelphia 76ers @ Denver Nuggets",
-    "pick": "Denver Nuggets",
-    "bet_type": "ATS",
-    "line": "-15.5",
-    "pick_display": "Denver Nuggets -15.5 (ML -950 \u2014 too juiced)",
-    "edge": 4.38,
-    "ccr": 70,
+    "pick": "No Play",
+    "bet_type": "NONE",
+    "line": "N/A",
+    "pick_display": "No qualifying edge today",
+    "edge": 0,
+    "ccr": 0,
     "tier": "B",
-    "result": null,
-    "units": 1.0
+    "result": "N/A",
+    "units": 0
   },
   {
     "date": "2026-03-16",
