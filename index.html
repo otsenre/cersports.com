@@ -934,7 +934,7 @@ function buildRecord(picks) {
     card.innerHTML = `
       <div class="record-date">${p.sport} · ${dateStr}</div>
       <div class="record-pick">${p.pick}</div>
-      <div class="record-game" style="color:var(--gold);font-size:12px;margin-bottom:4px">${p.bet_type ? p.bet_type + (p.line ? ' ' + p.line : '') : ''}</div>
+      <div class="record-game" style="color:var(--gold);font-size:12px;margin-bottom:4px">${p.bet_type && p.bet_type !== 'NONE' ? (p.bet_type === 'ML' ? 'ML' : p.bet_type + (p.line && p.line !== 'ML' && p.line !== 'N/A' ? ' ' + p.line : '')) : ''}</div>
       <div class="record-game">${p.game || ''}</div>
       <div class="record-meta">
         ${p.result ? `<span class="result-badge ${resultClass}">${resultText}</span>` : ''}
