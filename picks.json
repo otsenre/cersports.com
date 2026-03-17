@@ -14,6 +14,19 @@
     "units": 0
   },
   {
+    "date": "2026-03-17",
+    "sport": "NHL",
+    "game": "Boston Bruins @ Montreal Canadiens",
+    "pick": "Montreal Canadiens",
+    "bet_type": "ML",
+    "line": "ML",
+    "pick_display": "MTL ML \u2014 Boston Bruins @ Montreal Canadiens",
+    "edge": 0,
+    "ccr": 85,
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-16",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Houston Rockets",
