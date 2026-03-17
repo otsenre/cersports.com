@@ -3,19 +3,26 @@
     "date": "2026-03-16",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Houston Rockets",
-    "pick": "Houston Rockets -2.5",
+    "pick": "Houston Rockets",
+    "bet_type": "ML",
+    "line": "-127",
+    "pick_display": "Houston Rockets ML (-127)",
+    "edge": 14.74,
     "ccr": 80,
     "result": "L",
-    "units": 2.0
+    "units": -2.0
   },
   {
     "date": "2026-03-15",
     "sport": "NBA",
     "game": "Golden State Warriors @ New York Knicks",
-    "pick": "New York Knicks -16.5",
+    "pick": "Golden State Warriors",
+    "bet_type": "ML",
+    "line": "+625",
+    "pick_display": "Golden State Warriors ML (+625)",
     "edge": 0,
     "ccr": 80,
     "result": "L",
-    "units": 2.0
+    "units": -2.0
   }
 ]
