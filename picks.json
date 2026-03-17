@@ -2,16 +2,16 @@
   {
     "date": "2026-03-17",
     "sport": "NBA",
-    "game": "Detroit Pistons @ Washington Wizards",
-    "pick": "Detroit Pistons",
-    "bet_type": "ML",
-    "line": "-1561",
-    "pick_display": "Detroit Pistons ML (-1561)",
-    "edge": 0.13,
-    "ccr": 90,
-    "tier": "A",
+    "game": "Philadelphia 76ers @ Denver Nuggets",
+    "pick": "Denver Nuggets",
+    "bet_type": "ATS",
+    "line": "-15.5",
+    "pick_display": "Denver Nuggets -15.5 (ML -950 \u2014 too juiced)",
+    "edge": 4.38,
+    "ccr": 70,
+    "tier": "B",
     "result": null,
-    "units": 2.0
+    "units": 1.0
   },
   {
     "date": "2026-03-16",
