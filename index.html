@@ -950,8 +950,8 @@ function buildRecord(picks) {
   const losses = picks.filter(p => p.result === 'L').length;
   const total = wins + losses;
   const units = picks.reduce((sum, p) => {
-    if (p.result === 'W') return sum + (p.units || 0);
-    if (p.result === 'L') return sum - (p.units || 0);
+    if (p.result === 'W') return sum + Math.abs(p.units || 0);
+    if (p.result === 'L') return sum - Math.abs(p.units || 0);
     return sum;
   }, 0);
 
