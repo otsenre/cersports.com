@@ -1,453 +1,1031 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CERSports — Data-Driven Sports Intelligence</title>
-  <meta name="description" content="CerSports delivers daily model-driven sports picks powered by a 100-point CCR rating system. NBA, NHL, MLS and more. Transparent. Accountable. Sharp." />
-  <link rel="canonical" href="https://cersports.com/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://cersports.com/" />
-  <meta property="og:title" content="CERSports — Data-Driven Sports Intelligence" />
-  <meta property="og:description" content="The model runs every morning at 8:05. Sharp picks. Transparent results. CCR-rated daily." />
-  <meta property="og:image" content="https://cersports.com/og-image.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CERSports — Data-Driven Sports Intelligence" />
-  <meta name="twitter:description" content="The model runs every morning at 8:05. Sharp picks. Transparent results. CCR-rated daily." />
-  <meta name="twitter:image" content="https://cersports.com/og-image.jpg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <!-- Google Analytics GA-4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y50XTWMNSD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y50XTWMNSD');
-  </script>
-  <style>
-    :root{--bg:#07090d;--bg2:#0d1117;--bg3:#111820;--border:#1e2d3d;--red:#e63946;--red-dim:rgba(230,57,70,0.12);--gold:#f4a261;--text:#e2e8f0;--muted:#64748b;--mono:'JetBrains Mono',monospace;--display:'Barlow Condensed',sans-serif;--body:'Outfit',sans-serif}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
-    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.35}
-    .ticker-wrap{background:var(--bg2);border-bottom:1px solid var(--border);overflow:hidden;height:34px;display:flex;align-items:center;position:relative;z-index:100}
-    .ticker-label{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:1.5px;color:var(--red);padding:0 14px;white-space:nowrap;background:var(--bg2);border-right:1px solid var(--border);height:100%;display:flex;align-items:center;z-index:2}
-    .ticker-track{display:flex;animation:ticker 30s linear infinite;white-space:nowrap}
-    .ticker-item{font-family:var(--mono);font-size:11px;color:var(--muted);padding:0 22px;border-right:1px solid var(--border);height:34px;display:flex;align-items:center;gap:8px}
-    .t-team{color:var(--text);font-weight:600}
-    .t-ccr{color:var(--gold)}
-    .t-live{color:#2dd4bf}
-    @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-    header{position:sticky;top:0;z-index:99;background:rgba(7,9,13,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-    nav{max-width:1140px;margin:auto;padding:0 1.5rem;height:60px;display:flex;align-items:center;justify-content:space-between}
-    .brand{font-family:var(--display);font-size:1.5rem;font-weight:800;letter-spacing:1px;display:flex;align-items:center;gap:4px;text-decoration:none;color:var(--text)}
-    .brand em{color:var(--red);font-style:normal}
-    .brand-badge{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:1.5px;background:var(--red-dim);color:var(--red);border:1px solid rgba(230,57,70,.3);border-radius:3px;padding:2px 6px;margin-left:6px}
-    .nav-links{list-style:none;display:flex;gap:2rem}
-    .nav-links a{font-size:.825rem;font-weight:500;letter-spacing:.5px;color:var(--muted);text-decoration:none;transition:color .2s;text-transform:uppercase}
-    .nav-links a:hover{color:var(--text)}
-    .nav-cta{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--red);border:1px solid rgba(230,57,70,.4);padding:8px 16px;border-radius:4px;text-decoration:none;transition:background .2s}
-    .nav-cta:hover{background:var(--red-dim)}
-    .hero{min-height:92vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1140px;margin:auto;padding:5rem 1.5rem;gap:4rem;position:relative;z-index:1}
-    .hero-eyebrow{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);margin-bottom:1.25rem;display:flex;align-items:center;gap:8px}
-    .hero-eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--red)}
-    .hero h1{font-family:var(--display);font-size:clamp(3.5rem,7vw,6rem);font-weight:800;line-height:.92;letter-spacing:-1px;text-transform:uppercase;margin-bottom:1.5rem}
-    .hero h1 em{font-style:normal;color:var(--red)}
-    .hero-sub{font-size:1.05rem;color:var(--muted);line-height:1.75;max-width:480px;margin-bottom:2.5rem}
-    .hero-sub strong{color:var(--text)}
-    .hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
-    .btn-primary{font-family:var(--mono);font-size:.8rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:var(--red);color:#fff;padding:14px 28px;border-radius:4px;text-decoration:none;transition:filter .2s;white-space:nowrap}
-    .btn-primary:hover{filter:brightness(1.15)}
-    .btn-secondary{font-family:var(--mono);font-size:.8rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border:1px solid var(--border);padding:14px 28px;border-radius:4px;text-decoration:none;transition:color .2s,border-color .2s}
-    .btn-secondary:hover{color:var(--text);border-color:var(--text)}
-    .hero-terminal{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.6),0 0 0 1px rgba(230,57,70,.04);animation:fadeUp .8s ease .3s both}
-    .t-bar{background:var(--bg3);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;gap:8px}
-    .t-dot{width:11px;height:11px;border-radius:50%}
-    .t-dot:nth-child(1){background:#e63946}
-    .t-dot:nth-child(2){background:#f4a261}
-    .t-dot:nth-child(3){background:#2dd4bf}
-    .t-title{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:8px;letter-spacing:1px}
-    .t-body{padding:20px}
-    .t-row{font-family:var(--mono);font-size:12px;padding:8px 0;border-bottom:1px solid rgba(30,45,61,.5);display:grid;grid-template-columns:1fr auto auto auto;gap:12px;align-items:center}
-    .t-row:last-of-type{border-bottom:none}
-    .t-game{color:var(--text);font-size:11px}
-    .t-pick{color:var(--gold);font-weight:600;font-size:11px}
-    .t-lbl{color:var(--muted);font-size:10px}
-    .badge{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:3px}
-    .b-hi{background:rgba(230,57,70,.15);color:#e63946;border:1px solid rgba(230,57,70,.3)}
-    .b-md{background:rgba(244,162,97,.12);color:#f4a261;border:1px solid rgba(244,162,97,.25)}
-    .b-lo{background:rgba(100,116,139,.12);color:#64748b;border:1px solid rgba(100,116,139,.2)}
-    .t-foot{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:16px;padding-top:12px;border-top:1px solid var(--border);display:flex;justify-content:space-between}
-    .t-ok{color:#2dd4bf}
-    .stats-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;z-index:1}
-    .stats-inner{max-width:1140px;margin:auto;padding:0 1.5rem;display:grid;grid-template-columns:repeat(4,1fr)}
-    .stat-item{padding:2rem 1.5rem;border-right:1px solid var(--border);text-align:center}
-    .stat-item:last-child{border-right:none}
-    .stat-num{font-family:var(--display);font-size:3rem;font-weight:800;letter-spacing:-1px;line-height:1;color:var(--text)}
-    .stat-num span{color:var(--red)}
-    .stat-lbl{font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:6px}
-    section{position:relative;z-index:1}
-    .wrap{max-width:1140px;margin:auto;padding:5rem 1.5rem}
-    .eyebrow{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);margin-bottom:1rem}
-    .sec-title{font-family:var(--display);font-size:clamp(2.5rem,5vw,4rem);font-weight:800;text-transform:uppercase;letter-spacing:-.5px;line-height:1;margin-bottom:1.25rem}
-    .sec-sub{font-size:1rem;color:var(--muted);line-height:1.75;max-width:600px}
-    .ccr-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-    .ccr-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
-    .ccr-meter{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:2rem}
-    .ccr-meter-title{font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem}
-    .ccr-scale{display:flex;flex-direction:column;gap:12px}
-    .ccr-row{display:grid;grid-template-columns:80px 1fr 55px;align-items:center;gap:12px}
-    .ccr-lbl{font-family:var(--mono);font-size:11px;font-weight:600}
-    .ccr-bar-bg{background:rgba(255,255,255,.04);border-radius:2px;height:6px;overflow:hidden}
-    .ccr-bar{height:100%;border-radius:2px;transition:width .6s ease}
-    .ccr-range{font-family:var(--mono);font-size:10px;color:var(--muted);text-align:right}
-    .tier-1 .ccr-lbl{color:#e63946}.tier-1 .ccr-bar{background:#e63946;width:100%}
-    .tier-2 .ccr-lbl{color:#f4a261}.tier-2 .ccr-bar{background:#f4a261;width:80%}
-    .tier-3 .ccr-lbl{color:#facc15}.tier-3 .ccr-bar{background:#facc15;width:62%}
-    .tier-4 .ccr-lbl{color:#64748b}.tier-4 .ccr-bar{background:#64748b;width:44%}
-    .ccr-bullets{list-style:none;display:flex;flex-direction:column;gap:1.25rem;margin-top:2rem}
-    .ccr-bullets li{display:flex;gap:1rem;align-items:flex-start;font-size:.95rem;color:var(--muted);line-height:1.6}
-    .ccr-bullets li::before{content:'//';font-family:var(--mono);font-size:12px;color:var(--red);flex-shrink:0;margin-top:2px}
-    .ccr-bullets strong{color:var(--text)}
-    .pipe-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:3rem}
-    .p-step{background:var(--bg2);padding:2rem 1.75rem;transition:background .2s}
-    .p-step:hover{background:var(--bg3)}
-    .p-num{font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:1px;margin-bottom:.75rem}
-    .p-title{font-family:var(--display);font-size:1.35rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:.5rem}
-    .p-desc{font-size:.875rem;color:var(--muted);line-height:1.65}
-    .sports-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:3rem}
-    .sport-card{background:var(--bg2);padding:2rem 1.5rem;text-align:center;transition:background .2s}
-    .sport-card:hover{background:var(--bg3)}
-    .sport-icon{font-size:2.25rem;margin-bottom:.75rem}
-    .sport-name{font-family:var(--display);font-size:1.25rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:.25rem}
-    .sport-status{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase}
-    .s-live{color:#2dd4bf}
-    .s-soon{color:var(--muted)}
-    .follow-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-    .soc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:3rem}
-    .soc-card{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:1.75rem 1.5rem;text-align:center;text-decoration:none;color:var(--text);transition:border-color .2s,transform .2s;display:block}
-    .soc-card:hover{border-color:var(--red);transform:translateY(-3px)}
-    .soc-icon{font-size:2rem;margin-bottom:.75rem}
-    .soc-platform{font-family:var(--display);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:.25rem}
-    .soc-handle{font-family:var(--mono);font-size:11px;color:var(--muted)}
-    .soc-action{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin-top:1rem}
-    .cta-band{background:linear-gradient(135deg,var(--bg3) 0%,rgba(230,57,70,.06) 100%);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-    .cta-inner{max-width:1140px;margin:auto;padding:5rem 1.5rem;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
-    .cta-h{font-family:var(--display);font-size:clamp(2rem,4vw,3.5rem);font-weight:800;text-transform:uppercase;line-height:1;letter-spacing:-.5px}
-    .cta-h span{color:var(--red)}
-    .cta-sub{font-size:.95rem;color:var(--muted);margin-top:.75rem}
-    footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .foot-inner{max-width:1140px;margin:auto}
-    .foot-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-    .foot-brand{font-family:var(--display);font-size:2rem;font-weight:800;letter-spacing:1px}
-    .foot-brand span{color:var(--red)}
-    .foot-tag{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:1px}
-    .foot-links{display:flex;flex-direction:column;gap:.5rem;align-items:flex-end}
-    .foot-links a{font-size:.875rem;color:var(--muted);text-decoration:none;transition:color .2s}
-    .foot-links a:hover{color:var(--text)}
-    .foot-bottom{padding-top:2rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
-    .foot-copy{font-family:var(--mono);font-size:11px;color:var(--muted)}
-    .foot-disc{font-size:11px;color:var(--muted);max-width:460px;text-align:right;line-height:1.5}
-    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-    .fi{animation:fadeUp .7s ease both}
-    .fi-1{animation-delay:.1s}.fi-2{animation-delay:.25s}.fi-3{animation-delay:.4s}.fi-4{animation-delay:.55s}
-    @media(max-width:900px){
-      .hero{grid-template-columns:1fr;min-height:auto;gap:3rem}
-      .hero-terminal{display:none}
-      .stats-inner{grid-template-columns:repeat(2,1fr)}
-      .stat-item:nth-child(2){border-right:none}
-      .ccr-grid{grid-template-columns:1fr}
-      .pipe-grid{grid-template-columns:1fr}
-      .sports-grid{grid-template-columns:repeat(2,1fr)}
-      .soc-grid{grid-template-columns:repeat(2,1fr)}
-      .cta-inner{grid-template-columns:1fr}
-      .foot-top{flex-direction:column;gap:1.5rem}
-      .foot-links{align-items:flex-start}
-      .foot-bottom{flex-direction:column;gap:1rem;text-align:center}
-      .foot-disc{text-align:center}
-      .nav-links{display:none}
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CERSports — Data-Driven Sports Intelligence</title>
+<meta name="description" content="CCR-rated sports picks powered by three independent models. Daily NBA, NHL and more. Join thousands of sharp bettors.">
+<meta property="og:title" content="CERSports — Certified Picks">
+<meta property="og:description" content="Model-backed CCR picks. Runs at 8:05 AM daily.">
+<meta property="og:image" content="https://cersports.com/og-image.jpg">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://js.stripe.com/v3/"></script>
+<style>
+/* ── RESET & BASE ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black: #080808;
+  --surface: #101010;
+  --surface2: #161616;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.14);
+  --white: #ffffff;
+  --off-white: #e8e8e8;
+  --muted: #666666;
+  --muted2: #444444;
+  --gold: #c9a84c;
+  --gold-light: #e8c96a;
+  --red: #c0392b;
+  --green: #1a7a4a;
+  --green-light: #22c55e;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black);
+  color: var(--off-white);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ── GRAIN OVERLAY ── */
+body::after {
+  content: '';
+  position: fixed; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  border-bottom: 1px solid var(--border);
+  background: rgba(8,8,8,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.nav-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px; height: 56px;
+}
+.nav-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px; letter-spacing: 3px; color: var(--white);
+  text-decoration: none;
+}
+.nav-brand span { color: var(--gold); }
+.nav-links { display: flex; align-items: center; gap: 28px; }
+.nav-links a {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; transition: color .2s;
+}
+.nav-links a:hover { color: var(--white); }
+.nav-cta {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  background: var(--white); color: var(--black);
+  padding: 7px 18px; text-decoration: none; transition: background .2s;
+}
+.nav-cta:hover { background: var(--off-white); }
+
+/* ── HERO ── */
+.hero {
+  min-height: 100vh;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 100px 24px 60px;
+  position: relative; overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 70% 50%, rgba(201,168,76,0.04) 0%, transparent 70%),
+    linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(8,8,8,0.8) 100%);
+}
+/* Grid lines */
+.hero-grid {
+  position: absolute; inset: 0; overflow: hidden; opacity: 0.4;
+}
+.hero-grid::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.hero-inner {
+  max-width: 1100px; margin: 0 auto; width: 100%;
+  position: relative; z-index: 1;
+}
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 24px;
+}
+.live-dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--green-light);
+  animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink { 0%,100%{opacity:1}50%{opacity:.3} }
+
+.hero-headline {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(72px, 10vw, 140px);
+  line-height: 0.9; letter-spacing: 2px; color: var(--white);
+  margin-bottom: 8px;
+}
+.hero-headline em { color: var(--gold); font-style: normal; }
+.hero-sub {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(18px, 3vw, 28px); font-weight: 400;
+  color: var(--muted); margin-bottom: 48px; letter-spacing: 1px;
+}
+
+/* ── TODAY'S FREE PICK ── */
+.free-pick-card {
+  display: inline-block;
+  border: 1px solid var(--border2);
+  background: var(--surface);
+  padding: 28px 32px;
+  margin-bottom: 40px;
+  position: relative;
+  max-width: 480px;
+}
+.free-pick-card::before {
+  content: 'TODAY\'S FREE PICK';
+  position: absolute; top: -1px; left: -1px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px; font-weight: 700; letter-spacing: 3px;
+  background: var(--white); color: var(--black);
+  padding: 3px 12px;
+}
+.pick-sport-date {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--muted); margin-top: 8px; margin-bottom: 10px;
+}
+.pick-team {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px; letter-spacing: 2px; color: var(--white);
+  line-height: 1; margin-bottom: 12px;
+}
+.pick-meta { display: flex; align-items: center; gap: 12px; }
+.ccr-badge {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 700; letter-spacing: 1px;
+  padding: 4px 12px; border: 1px solid;
+}
+.ccr-strong { color: var(--gold); border-color: var(--gold); }
+.ccr-elite { color: var(--white); border-color: var(--white); }
+.pick-tag {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted);
+}
+.pick-locked {
+  margin-top: 16px; padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 12px; color: var(--muted);
+  font-family: 'Barlow Condensed', sans-serif; letter-spacing: 1px;
+}
+.pick-locked a { color: var(--gold); text-decoration: none; }
+.pick-locked a:hover { text-decoration: underline; }
+
+.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-primary {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  background: var(--white); color: var(--black);
+  padding: 14px 32px; text-decoration: none; border: none; cursor: pointer;
+  transition: background .2s, transform .1s;
+  display: inline-block;
+}
+.btn-primary:hover { background: var(--off-white); transform: translateY(-1px); }
+.btn-ghost {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  background: none; color: var(--muted); border: 1px solid var(--border2);
+  padding: 14px 32px; text-decoration: none; cursor: pointer;
+  transition: color .2s, border-color .2s;
+  display: inline-block;
+}
+.btn-ghost:hover { color: var(--white); border-color: var(--white); }
+
+/* ── STAT STRIP ── */
+.stat-strip {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.stat-strip-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  divide-x: 1px solid var(--border);
+}
+.stat-item {
+  padding: 20px 28px;
+  border-right: 1px solid var(--border);
+}
+.stat-item:last-child { border-right: none; }
+.stat-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px; letter-spacing: 2px; color: var(--white); line-height: 1;
+}
+.stat-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--muted); margin-top: 3px;
+}
+
+/* ── SECTIONS ── */
+section { padding: 80px 24px; }
+.section-inner { max-width: 1100px; margin: 0 auto; }
+.section-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 12px;
+  display: flex; align-items: center; gap: 12px;
+}
+.section-label::after {
+  content: ''; flex: 1; height: 1px; background: var(--border);
+}
+.section-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(42px, 6vw, 72px); letter-spacing: 2px; color: var(--white);
+  line-height: 0.95; margin-bottom: 16px;
+}
+.section-title em { color: var(--gold); font-style: normal; }
+.section-body {
+  font-size: 16px; color: var(--muted); line-height: 1.8; max-width: 560px;
+}
+
+/* ── RECORD SECTION ── */
+.record-section { background: var(--surface); }
+.record-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+  background: var(--border); margin-top: 40px;
+}
+.record-card { background: var(--black); padding: 24px; }
+.record-date {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 6px;
+}
+.record-pick {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 4px;
+}
+.record-game { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.record-meta { display: flex; align-items: center; gap: 10px; }
+.result-badge {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 1px; padding: 2px 10px;
+}
+.result-w { background: rgba(26,122,74,0.2); color: var(--green-light); border: 1px solid rgba(26,122,74,0.4); }
+.result-l { background: rgba(192,57,43,0.2); color: #e74c3c; border: 1px solid rgba(192,57,43,0.4); }
+.record-ccr {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; color: var(--muted); letter-spacing: 1px;
+}
+.record-summary {
+  margin-top: 24px; padding: 20px; background: var(--surface2);
+  border: 1px solid var(--border); display: flex; gap: 32px; align-items: center;
+}
+.rec-sum-num {
+  font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: var(--white);
+}
+.rec-sum-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted);
+}
+.honesty-note {
+  margin-top: 16px; font-size: 12px; color: var(--muted);
+  font-style: italic; border-left: 2px solid var(--border2); padding-left: 12px;
+}
+
+/* ── PRICING ── */
+.pricing-section { background: var(--black); }
+.pricing-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1px; background: var(--border); margin-top: 48px;
+}
+.price-card {
+  background: var(--surface); padding: 28px 24px;
+  position: relative; display: flex; flex-direction: column;
+  transition: background .2s;
+}
+.price-card:hover { background: var(--surface2); }
+.price-card.featured {
+  background: var(--surface2);
+  border: 1px solid rgba(201,168,76,0.3);
+  margin: -1px;
+  z-index: 1;
+}
+.price-card.featured::before {
+  content: 'MOST POPULAR';
+  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 9px; font-weight: 700; letter-spacing: 3px;
+  background: var(--gold); color: var(--black);
+  padding: 3px 14px; white-space: nowrap;
+}
+.price-tier {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 16px; margin-top: 12px;
+}
+.price-card.featured .price-tier { color: var(--gold); }
+.price-amount {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 52px; letter-spacing: 1px; color: var(--white); line-height: 1;
+}
+.price-period {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; color: var(--muted); letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.price-daily {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; color: var(--gold); letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.price-divider { height: 1px; background: var(--border); margin-bottom: 20px; }
+.price-features { flex: 1; margin-bottom: 24px; }
+.price-feature {
+  font-size: 13px; color: var(--muted); padding: 5px 0;
+  display: flex; align-items: flex-start; gap: 8px;
+}
+.price-feature::before { content: '—'; color: var(--border2); flex-shrink: 0; }
+.price-feature.highlight { color: var(--off-white); }
+.price-feature.highlight::before { content: '✓'; color: var(--gold); }
+.price-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  width: 100%; padding: 12px; border: none; cursor: pointer;
+  transition: all .2s; text-align: center; text-decoration: none;
+  display: block;
+}
+.price-btn-default {
+  background: none; color: var(--muted); border: 1px solid var(--border2);
+}
+.price-btn-default:hover { color: var(--white); border-color: var(--white); }
+.price-btn-featured {
+  background: var(--gold); color: var(--black);
+}
+.price-btn-featured:hover { background: var(--gold-light); }
+.price-fulfillment {
+  font-size: 11px; color: var(--muted2); text-align: center;
+  margin-top: 8px; font-style: italic;
+}
+
+/* ── HOW IT WORKS ── */
+.how-section { background: var(--surface); }
+.steps-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: var(--border); margin-top: 48px;
+}
+.step-card { background: var(--black); padding: 28px 24px; }
+.step-num {
+  font-family: 'Bebas Neue', sans-serif; font-size: 56px;
+  color: var(--border2); line-height: 1; margin-bottom: 12px;
+}
+.step-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--white); margin-bottom: 8px;
+}
+.step-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+
+/* ── CCR EXPLAINER ── */
+.ccr-section { background: var(--black); }
+.ccr-scale {
+  display: flex; gap: 1px; background: var(--border);
+  margin-top: 40px;
+}
+.ccr-tier { flex: 1; padding: 20px 16px; background: var(--surface); text-align: center; }
+.ccr-range {
+  font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1px;
+  line-height: 1; margin-bottom: 6px;
+}
+.ccr-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.ccr-desc { font-size: 11px; color: var(--muted); line-height: 1.5; }
+.ccr-t1 .ccr-range { color: var(--white); }
+.ccr-t1 .ccr-name { color: var(--white); }
+.ccr-t2 .ccr-range { color: var(--gold); }
+.ccr-t2 .ccr-name { color: var(--gold); }
+.ccr-t3 .ccr-range, .ccr-t4 .ccr-range { color: var(--muted); }
+.ccr-t3 .ccr-name, .ccr-t4 .ccr-name { color: var(--muted); }
+
+/* ── FOLLOW ── */
+.follow-section { background: var(--surface); }
+.social-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1px; background: var(--border); margin-top: 40px;
+}
+.social-card {
+  background: var(--black); padding: 24px;
+  text-decoration: none; display: block;
+  transition: background .2s;
+}
+.social-card:hover { background: var(--surface2); }
+.social-platform {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 6px;
+}
+.social-handle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px; letter-spacing: 2px; color: var(--white);
+}
+.social-cta {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; color: var(--muted); letter-spacing: 1px; margin-top: 6px;
+}
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 24px;
+}
+.footer-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 16px;
+}
+.footer-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px; letter-spacing: 3px; color: var(--muted);
+}
+.footer-links { display: flex; gap: 20px; }
+.footer-links a {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted2); text-decoration: none;
+}
+.footer-links a:hover { color: var(--muted); }
+.footer-disclaimer {
+  width: 100%; font-size: 11px; color: var(--muted2); line-height: 1.6;
+  border-top: 1px solid var(--border); padding-top: 16px; margin-top: 8px;
+}
+
+/* ── MEMBERS MODAL ── */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; z-index: 200;
+  background: rgba(0,0,0,0.92);
+  align-items: center; justify-content: center;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--surface); border: 1px solid var(--border2);
+  padding: 40px; max-width: 480px; width: 90%; position: relative;
+}
+.modal-close {
+  position: absolute; top: 16px; right: 16px;
+  font-size: 20px; color: var(--muted); cursor: pointer; background: none; border: none;
+  line-height: 1;
+}
+.modal-close:hover { color: var(--white); }
+.modal-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px; letter-spacing: 2px; color: var(--white); margin-bottom: 8px;
+}
+.modal-sub { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+.modal-input {
+  width: 100%; background: var(--black); border: 1px solid var(--border2);
+  color: var(--white); font-family: 'Barlow', sans-serif; font-size: 14px;
+  padding: 12px 16px; margin-bottom: 12px; outline: none;
+}
+.modal-input:focus { border-color: var(--gold); }
+.modal-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+  background: var(--white); color: var(--black); border: none;
+  width: 100%; padding: 12px; cursor: pointer;
+}
+.modal-btn:hover { background: var(--off-white); }
+.modal-err { font-size: 12px; color: #e74c3c; margin-top: 8px; display: none; }
+.modal-note {
+  margin-top: 16px; font-size: 11px; color: var(--muted); text-align: center;
+  line-height: 1.6;
+}
+.modal-note a { color: var(--gold); text-decoration: none; }
+
+/* ── SUCCESS STATES ── */
+.success-banner {
+  display: none; background: rgba(26,122,74,0.15);
+  border: 1px solid rgba(26,122,74,0.3); padding: 12px 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; letter-spacing: 1px; color: var(--green-light);
+  margin-bottom: 20px; text-align: center;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .pricing-grid { grid-template-columns: 1fr 1fr; }
+  .steps-grid { grid-template-columns: 1fr; }
+  .social-grid { grid-template-columns: 1fr 1fr; }
+  .stat-strip-inner { grid-template-columns: 1fr 1fr; }
+  .record-grid { grid-template-columns: 1fr; }
+  .ccr-scale { flex-wrap: wrap; }
+  .ccr-tier { min-width: 50%; }
+  .nav-links { display: none; }
+}
+@media (max-width: 500px) {
+  .pricing-grid { grid-template-columns: 1fr; }
+  .social-grid { grid-template-columns: 1fr; }
+}
+</style>
 </head>
 <body>
 
-  <!-- Ticker -->
-  <div class="ticker-wrap">
-    <div class="ticker-label">LIVE PICKS</div>
-    <div style="overflow:hidden;flex:1">
-      <div class="ticker-track">
-        <div class="ticker-item"><span class="t-team">Pelicans</span><span class="t-ccr">CCR 87</span><span class="badge b-hi">⚡ STRONG</span></div>
-        <div class="ticker-item"><span class="t-team">Trail Blazers</span><span class="t-ccr">CCR 80</span><span style="color:#f4a261">B2B ALERT</span></div>
-        <div class="ticker-item">Model ran 8:05 AM · 8 games analyzed · 2 qualifiers</div>
-        <div class="ticker-item"><span class="t-team">NBA</span><span class="t-ccr">Mar 16 Slate</span></div>
-        <div class="ticker-item">NHL · MLS · Expanding Soon</div>
-        <div class="ticker-item"><span class="t-team">CerSports</span><span class="t-live">● SYSTEM LIVE</span></div>
-        <div class="ticker-item"><span class="t-team">Pelicans</span><span class="t-ccr">CCR 87</span><span class="badge b-hi">⚡ STRONG</span></div>
-        <div class="ticker-item"><span class="t-team">Trail Blazers</span><span class="t-ccr">CCR 80</span><span style="color:#f4a261">B2B ALERT</span></div>
-        <div class="ticker-item">Model ran 8:05 AM · 8 games analyzed · 2 qualifiers</div>
-        <div class="ticker-item"><span class="t-team">NBA</span><span class="t-ccr">Mar 16 Slate</span></div>
-        <div class="ticker-item">NHL · MLS · Expanding Soon</div>
-        <div class="ticker-item"><span class="t-team">CerSports</span><span class="t-live">● SYSTEM LIVE</span></div>
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">CER<span>SPORTS</span></a>
+    <div class="nav-links">
+      <a href="#record">Record</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#how">The Model</a>
+      <a href="#ccr">CCR</a>
+      <a href="#follow">Follow</a>
+    </div>
+    <a href="#pricing" class="nav-cta">Get Full Report</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="live-dot"></span>
+      Model ran · 8:05 AM · System live
+    </div>
+    <h1 class="hero-headline">THE<br><em>MODEL</em><br>RUNS.</h1>
+    <p class="hero-sub">Data-driven CCR picks. Every morning. No gut calls.</p>
+
+    <div class="free-pick-card" id="freePickCard">
+      <div class="pick-sport-date" id="pickSportDate">NBA · Loading...</div>
+      <div class="pick-team" id="pickTeam">—</div>
+      <div class="pick-meta">
+        <span class="ccr-badge ccr-strong" id="pickCCR">CCR —</span>
+        <span class="pick-tag" id="pickTag"></span>
       </div>
+      <div class="pick-locked">
+        Full analysis, all games, props & parlays →
+        <a href="#pricing">Unlock full report</a>
+      </div>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#pricing" class="btn-primary">Get Full Report</a>
+      <a href="#how" class="btn-ghost">How It Works</a>
     </div>
   </div>
+</section>
 
-  <!-- Nav -->
-  <header>
-    <nav>
-      <a href="#" class="brand">CER<em>SPORTS</em><div class="brand-badge">CCR™</div></a>
-      <ul class="nav-links">
-        <li><a href="#model">The Model</a></li>
-        <li><a href="#ccr">What is CCR</a></li>
-        <li><a href="#sports">Coverage</a></li>
-        <li><a href="#follow">Follow</a></li>
-      </ul>
-      <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="nav-cta">Today's Pick →</a>
-    </nav>
-  </header>
-
-  <!-- Hero -->
-  <div class="hero">
-    <div>
-      <div class="hero-eyebrow fi fi-1">Sports Intelligence · Est. 2024</div>
-      <h1 class="fi fi-2">The<br>Model<br><em>Runs.</em></h1>
-      <p class="hero-sub fi fi-3">
-        Every morning at <strong>8:05 AM</strong>, our system scrapes live data, runs three independent models, and outputs CCR-rated picks — before you've had your first coffee. <strong>No gut calls. No touts. Just edge.</strong>
-      </p>
-      <div class="hero-actions fi fi-4">
-        <a href="#follow" class="btn-primary">Follow the Picks</a>
-        <a href="#ccr" class="btn-secondary">What is CCR?</a>
-      </div>
+<!-- STAT STRIP -->
+<div class="stat-strip">
+  <div class="stat-strip-inner">
+    <div class="stat-item">
+      <div class="stat-num">8:05</div>
+      <div class="stat-label">Daily Runtime · AM</div>
     </div>
-
-    <div class="hero-terminal">
-      <div class="t-bar">
-        <div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div>
-        <div class="t-title" id="terminal-date">cersports_edge_report — loading...</div>
-      </div>
-      <div class="t-body" id="terminal-body">
-        <div style="font-family:var(--mono);font-size:11px;color:var(--muted);padding:1rem 0">Fetching today's pick...</div>
-      </div>
+    <div class="stat-item">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Independent Models</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="statGames">—</div>
+      <div class="stat-label">Games Analyzed Today</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="statRecord">—</div>
+      <div class="stat-label">Season Record</div>
     </div>
   </div>
+</div>
 
-  <!-- Record tracker -->
-  <div style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;z-index:1" id="record-section">
-    <div style="max-width:1140px;margin:auto;padding:1.5rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem">
-      <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)">Season Record · Best Bet of the Day</div>
-      <div style="display:flex;gap:1.5rem;align-items:center" id="record-display">
-        <div style="font-family:var(--mono);font-size:11px;color:var(--muted)">Loading record...</div>
-      </div>
+<!-- RECORD -->
+<section class="record-section" id="record">
+  <div class="section-inner">
+    <div class="section-label">Track record</div>
+    <h2 class="section-title">THE <em>LEDGER</em></h2>
+    <p class="section-body">Every pick posted publicly. Every result recorded. We don't cherry-pick wins.</p>
+
+    <div class="record-grid" id="recordGrid">
+      <div class="record-card" style="color:var(--muted);font-size:13px;padding:24px">Loading picks...</div>
     </div>
-  </div>
 
-  <script>
-  // ── Dynamic picks.json loader ──────────────────────────────────────────────
-  (function() {
-    function ccrBadgeClass(ccr) {
-      if (ccr >= 90) return 'b-hi';
-      if (ccr >= 80) return 'b-md';
-      return 'b-lo';
-    }
-    function resultBadge(result) {
-      if (result === 'W') return '<span style="font-family:var(--mono);font-size:11px;font-weight:700;color:#2dd4bf;padding:2px 8px;border:1px solid rgba(45,212,191,.3);border-radius:3px;background:rgba(45,212,191,.08)">W</span>';
-      if (result === 'L') return '<span style="font-family:var(--mono);font-size:11px;font-weight:700;color:#e63946;padding:2px 8px;border:1px solid rgba(230,57,70,.3);border-radius:3px;background:rgba(230,57,70,.08)">L</span>';
-      return '<span style="font-family:var(--mono);font-size:10px;color:var(--muted)">TBD</span>';
-    }
-
-    fetch('/picks.json?v=' + Date.now())
-      .then(r => r.json())
-      .then(picks => {
-        if (!picks || !picks.length) return;
-
-        // ── Terminal card: today's pick (most recent) ──
-        const today = picks[0];
-        const dateLabel = today.date || '';
-        document.getElementById('terminal-date').textContent =
-          'cersports_best_bet — ' + dateLabel;
-
-        const bc = ccrBadgeClass(today.ccr || 0);
-        // Build recent picks rows (up to 4)
-        let rows = picks.slice(0, 4).map(p => {
-          const gameParts = p.game ? p.game.split(' @ ') : ['—', '—'];
-          const shortGame = gameParts.length === 2
-            ? gameParts[0].split(' ').map(w=>w[0]).join('') + ' @ ' + gameParts[1].split(' ').map(w=>w[0]).join('')
-            : p.game;
-          const bc2 = ccrBadgeClass(p.ccr || 0);
-          return `<div class="t-row">
-            <span class="t-game">${shortGame}</span>
-            <span class="t-pick">${p.pick}</span>
-            <span class="t-lbl">CCR</span>
-            <span class="badge ${bc2}">${p.ccr}</span>
-          </div>`;
-        }).join('');
-
-        const wins   = picks.filter(p => p.result === 'W').length;
-        const losses = picks.filter(p => p.result === 'L').length;
-        const pend   = picks.filter(p => !p.result).length;
-
-        document.getElementById('terminal-body').innerHTML = rows +
-          `<div class="t-foot">
-            <span>${picks.length} picks tracked · ${pend} pending</span>
-            <span class="t-ok">● ${wins}W-${losses}L</span>
-          </div>`;
-
-        // ── Record bar ──
-        const winPct = (wins + losses) > 0
-          ? Math.round(wins / (wins + losses) * 100) + '%'
-          : '—';
-        document.getElementById('record-display').innerHTML = `
-          <span style="font-family:var(--mono);font-size:13px;font-weight:600;color:#2dd4bf">${wins}W</span>
-          <span style="font-family:var(--mono);font-size:13px;color:var(--muted)">-</span>
-          <span style="font-family:var(--mono);font-size:13px;font-weight:600;color:#e63946">${losses}L</span>
-          <span style="font-family:var(--mono);font-size:11px;color:var(--muted);padding-left:.5rem">${winPct} · ${picks.length} picks · Best Bet only</span>
-        `;
-
-        // ── Update ticker with today's pick ──
-        const tickerTeam = document.querySelector('.ticker-track');
-        if (tickerTeam && today.pick) {
-          const newItem = document.createElement('div');
-          newItem.className = 'ticker-item';
-          newItem.innerHTML = `<span class="t-team">TODAY: ${today.pick}</span><span class="t-ccr">CCR ${today.ccr}</span>`;
-          tickerTeam.prepend(newItem);
-        }
-      })
-      .catch(() => {
-        // Graceful fallback — static content shows if fetch fails
-        document.getElementById('terminal-body').innerHTML =
-          '<div style="font-family:var(--mono);font-size:11px;color:var(--muted);padding:.5rem 0">Pick posted daily at 8:05 AM. Follow @cersports for alerts.</div>';
-      });
-  })();
-  </script>
-
-  <!-- Stats bar -->
-  <div class="stats-bar">
-    <div class="stats-inner">
-      <div class="stat-item"><div class="stat-num">100<span>pt</span></div><div class="stat-lbl">CCR Scoring System</div></div>
-      <div class="stat-item"><div class="stat-num">8<span>:05</span></div><div class="stat-lbl">Daily Runtime · AM</div></div>
-      <div class="stat-item"><div class="stat-num">3<span>+</span></div><div class="stat-lbl">Independent Models</div></div>
-      <div class="stat-item"><div class="stat-num">4<span>x</span></div><div class="stat-lbl">Platforms · Daily</div></div>
-    </div>
-  </div>
-
-  <!-- Pipeline -->
-  <section id="model">
-    <div class="wrap">
-      <div class="eyebrow">Under The Hood</div>
-      <h2 class="sec-title">How The Model Works</h2>
-      <p class="sec-sub">Three independent engines feed a consensus layer every morning. The output is a single CCR score per game — we post the ones above the threshold.</p>
-      <div class="pipe-grid">
-        <div class="p-step"><div class="p-num">STEP 01</div><div class="p-title">Data Scrape</div><div class="p-desc">Live game logs, rest days, back-to-backs, team ratings, and injury context pulled fresh from Basketball Reference every morning via Playwright.</div></div>
-        <div class="p-step"><div class="p-num">STEP 02</div><div class="p-title">Rule Engine</div><div class="p-desc">Upgraded rule-based model scores every matchup — net rating, pace, shot profile, fatigue index, and recent form all weighted and combined.</div></div>
-        <div class="p-step"><div class="p-num">STEP 03</div><div class="p-title">ELO + XGBoost</div><div class="p-desc">A trained XGBoost model on a decade of game data produces win probability and predicted margin for every game on the day's slate.</div></div>
-        <div class="p-step"><div class="p-num">STEP 04</div><div class="p-title">Live Odds</div><div class="p-desc">Current market lines pulled via The Odds API. Spread and ML edge calculated in real time against our model's projected margins.</div></div>
-        <div class="p-step"><div class="p-num">STEP 05</div><div class="p-title">Consensus Pick</div><div class="p-desc">All three model outputs cross-referenced. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify for publication.</div></div>
-        <div class="p-step"><div class="p-num">STEP 06</div><div class="p-title">Publish</div><div class="p-desc">HTML report generated. Social cards rendered. CCR-branded captions written. Published daily to YouTube, Instagram, TikTok, and X.</div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CCR -->
-  <section class="ccr-section" id="ccr">
-    <div class="wrap">
-      <div class="ccr-grid">
-        <div>
-          <div class="eyebrow">Our Proprietary Rating</div>
-          <h2 class="sec-title">What is CCR?</h2>
-          <p class="sec-sub">The CerSports Confidence Rating is a 0–100 score assigned to every pick by our consensus model. It measures how much edge our system has detected across all three models combined.</p>
-          <ul class="ccr-bullets">
-            <li><strong>CCR 90+</strong> — All models in full agreement. Elite edge. Rare, and worth noting when it hits.</li>
-            <li><strong>CCR 80–89</strong> — Strong multi-model consensus. Our standard qualifier for posted picks.</li>
-            <li><strong>CCR 68–79</strong> — Solid data lean. Worth tracking but below our posting threshold.</li>
-            <li><strong>Below 68</strong> — Noise. We don't post what the model doesn't believe in.</li>
-          </ul>
-        </div>
-        <div class="ccr-meter">
-          <div class="ccr-meter-title">CCR Scale — CerSports Confidence Rating</div>
-          <div class="ccr-scale">
-            <div class="ccr-row tier-1"><div class="ccr-lbl">🔥 ELITE</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">90–100</div></div>
-            <div class="ccr-row tier-2"><div class="ccr-lbl">⚡ STRONG</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">80–89</div></div>
-            <div class="ccr-row tier-3"><div class="ccr-lbl">✅ SOLID</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">68–79</div></div>
-            <div class="ccr-row tier-4"><div class="ccr-lbl">📊 LEAN</div><div class="ccr-bar-bg"><div class="ccr-bar"></div></div><div class="ccr-range">58–67</div></div>
-          </div>
-          <div style="margin-top:1.75rem;padding-top:1.5rem;border-top:1px solid var(--border)">
-            <div style="font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:.75rem">Today's Qualifying Picks</div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap">
-              <span class="badge b-hi" style="font-size:12px;padding:5px 12px">CCR 87 · Pelicans</span>
-              <span class="badge b-md" style="font-size:12px;padding:5px 12px">CCR 80 · Trail Blazers</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sports -->
-  <section id="sports">
-    <div class="wrap">
-      <div class="eyebrow">Coverage</div>
-      <h2 class="sec-title">Sports We Cover</h2>
-      <p class="sec-sub">NBA is live and running daily. NHL and MLS are in development — same CCR system, new data feeds.</p>
-      <div class="sports-grid">
-        <div class="sport-card"><div class="sport-icon">🏀</div><div class="sport-name">NBA</div><div class="sport-status s-live">● Live Daily</div></div>
-        <div class="sport-card"><div class="sport-icon">🏒</div><div class="sport-name">NHL</div><div class="sport-status s-soon">Coming Soon</div></div>
-        <div class="sport-card"><div class="sport-icon">⚽</div><div class="sport-name">MLS</div><div class="sport-status s-soon">Coming Soon</div></div>
-        <div class="sport-card"><div class="sport-icon">🏈</div><div class="sport-name">NFL</div><div class="sport-status s-soon">2026 Season</div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Follow -->
-  <section class="follow-section" id="follow">
-    <div class="wrap">
-      <div class="eyebrow">Free Picks · Daily</div>
-      <h2 class="sec-title">Follow The Model</h2>
-      <p class="sec-sub">Picks drop every morning after the 8:05 run. Follow us, turn on notifications, and never miss a qualifying CCR play.</p>
-      <div class="soc-grid">
-        <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📱</div><div class="soc-platform">TikTok</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
-        <a href="https://www.instagram.com/cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📷</div><div class="soc-platform">Instagram</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
-        <a href="https://www.youtube.com/@cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">📺</div><div class="soc-platform">YouTube</div><div class="soc-handle">@cersports</div><div class="soc-action">Subscribe →</div></a>
-        <a href="https://x.com/cersports" target="_blank" rel="noopener" class="soc-card"><div class="soc-icon">🐦</div><div class="soc-platform">X / Twitter</div><div class="soc-handle">@cersports</div><div class="soc-action">Follow →</div></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-band">
-    <div class="cta-inner">
+    <div class="record-summary" id="recordSummary" style="display:none">
       <div>
-        <div class="cta-h">The Model Ran<br><span>This Morning.</span></div>
-        <div class="cta-sub">Did you see the picks? Follow CerSports for daily CCR-rated plays — always free, always model-backed.</div>
+        <div class="rec-sum-num" id="sumRecord">—</div>
+        <div class="rec-sum-label">Overall Record</div>
       </div>
-      <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener" class="btn-primary">Get Today's Pick →</a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="foot-inner">
-      <div class="foot-top">
-        <div>
-          <div class="foot-brand">CER<span>SPORTS</span></div>
-          <div class="foot-tag">DATA-DRIVEN SPORTS INTELLIGENCE · CCR™ RATED PICKS</div>
-        </div>
-        <div class="foot-links">
-          <a href="mailto:info@cersports.com">info@cersports.com</a>
-          <a href="https://www.tiktok.com/@cersports" target="_blank" rel="noopener">TikTok</a>
-          <a href="https://www.instagram.com/cersports" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.youtube.com/@cersports" target="_blank" rel="noopener">YouTube</a>
-          <a href="https://x.com/cersports" target="_blank" rel="noopener">X / Twitter</a>
-        </div>
+      <div>
+        <div class="rec-sum-num" id="sumUnits">—</div>
+        <div class="rec-sum-label">Units P&L</div>
       </div>
-      <div class="foot-bottom">
-        <div class="foot-copy">© 2026 CerSports. All rights reserved.</div>
-        <div class="foot-disc">For entertainment purposes only. Sports betting involves risk. Past model performance does not guarantee future results. Please gamble responsibly.</div>
+      <div>
+        <div class="rec-sum-num" id="sumWinPct">—</div>
+        <div class="rec-sum-label">Win %</div>
       </div>
     </div>
-  </footer>
 
+    <p class="honesty-note" id="honestyNote"></p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="pricing">
+  <div class="section-inner">
+    <div class="section-label">Access</div>
+    <h2 class="section-title">FULL <em>REPORT</em></h2>
+    <p class="section-body">Every game. Every edge. Props, parlays, PrizePicks grades. The complete picture — not just the teaser.</p>
+
+    <div class="pricing-grid">
+
+      <!-- DAY PASS -->
+      <div class="price-card">
+        <div class="price-tier">Day Pass</div>
+        <div class="price-amount">$2<span style="font-size:28px">.99</span></div>
+        <div class="price-period">one-time</div>
+        <div class="price-daily">$2.99 / day</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature highlight">Full today's report</div>
+          <div class="price-feature highlight">All games analyzed</div>
+          <div class="price-feature highlight">Props & parlays</div>
+          <div class="price-feature highlight">PrizePicks grades</div>
+          <div class="price-feature">Access via email link</div>
+        </div>
+        <a href="#" class="price-btn price-btn-default" onclick="checkout('day');return false;">Buy Day Pass</a>
+        <div class="price-fulfillment">Report delivered by email</div>
+      </div>
+
+      <!-- WEEK PASS -->
+      <div class="price-card">
+        <div class="price-tier">Week Pass</div>
+        <div class="price-amount">$9<span style="font-size:28px">.99</span></div>
+        <div class="price-period">7 days</div>
+        <div class="price-daily">$1.43 / day · save 52%</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature highlight">7 days of full reports</div>
+          <div class="price-feature highlight">All games analyzed</div>
+          <div class="price-feature highlight">Props & parlays</div>
+          <div class="price-feature highlight">PrizePicks grades</div>
+          <div class="price-feature">Access via email link</div>
+        </div>
+        <a href="#" class="price-btn price-btn-default" onclick="checkout('week');return false;">Buy Week Pass</a>
+        <div class="price-fulfillment">Report delivered by email</div>
+      </div>
+
+      <!-- MONTHLY -->
+      <div class="price-card featured">
+        <div class="price-tier">Monthly</div>
+        <div class="price-amount">$24<span style="font-size:28px">.99</span></div>
+        <div class="price-period">per month · auto-renews</div>
+        <div class="price-daily">$0.83 / day · save 72%</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature highlight">30 days of full reports</div>
+          <div class="price-feature highlight">All games analyzed</div>
+          <div class="price-feature highlight">Props & parlays</div>
+          <div class="price-feature highlight">PrizePicks grades</div>
+          <div class="price-feature highlight">Instant member access</div>
+          <div class="price-feature highlight">Cancel anytime</div>
+        </div>
+        <a href="#" class="price-btn price-btn-featured" onclick="checkout('monthly');return false;">Subscribe Monthly</a>
+        <div class="price-fulfillment">Instant access · cancel anytime</div>
+      </div>
+
+      <!-- ANNUAL -->
+      <div class="price-card">
+        <div class="price-tier">Annual</div>
+        <div class="price-amount">$149<span style="font-size:22px">.99</span></div>
+        <div class="price-period">per year · best value</div>
+        <div class="price-daily">$0.41 / day · save 86%</div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature highlight">Full year of reports</div>
+          <div class="price-feature highlight">All games analyzed</div>
+          <div class="price-feature highlight">Props & parlays</div>
+          <div class="price-feature highlight">PrizePicks grades</div>
+          <div class="price-feature highlight">Instant member access</div>
+          <div class="price-feature highlight">Priority support</div>
+        </div>
+        <a href="#" class="price-btn price-btn-default" onclick="checkout('annual');return false;">Subscribe Annual</a>
+        <div class="price-fulfillment">Instant access · best value</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section" id="how">
+  <div class="section-inner">
+    <div class="section-label">Under the hood</div>
+    <h2 class="section-title">HOW THE <em>MODEL</em> WORKS</h2>
+    <p class="section-body">Three independent engines run every morning. One consensus output. No opinions.</p>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-title">Data Scrape</div>
+        <div class="step-body">Live game logs, rest days, back-to-backs, team ratings, injury context, and historical matchup data pulled fresh every morning via Playwright.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-title">Rule Engine + ELO</div>
+        <div class="step-body">A rule-based model scores every matchup on net rating, pace, fatigue index, and form. An ELO + XGBoost model trained on a decade of data produces win probability and predicted margin.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-title">Consensus + Publish</div>
+        <div class="step-body">All three outputs cross-referenced. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by 8:05 AM.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CCR -->
+<section class="ccr-section" id="ccr">
+  <div class="section-inner">
+    <div class="section-label">Our rating system</div>
+    <h2 class="section-title">WHAT IS <em>CCR?</em></h2>
+    <p class="section-body">The CERSports Confidence Rating is a 0–100 score produced by our consensus model. It measures how much edge the system has detected across all three models combined.</p>
+
+    <div class="ccr-scale">
+      <div class="ccr-tier ccr-t1">
+        <div class="ccr-range">90+</div>
+        <div class="ccr-name">Elite</div>
+        <div class="ccr-desc">Full model agreement. Rare. Maximum edge detected.</div>
+      </div>
+      <div class="ccr-tier ccr-t2">
+        <div class="ccr-range">80–89</div>
+        <div class="ccr-name">Strong</div>
+        <div class="ccr-desc">Standard qualifier for posted picks. Strong consensus.</div>
+      </div>
+      <div class="ccr-tier ccr-t3">
+        <div class="ccr-range">68–79</div>
+        <div class="ccr-name">Solid</div>
+        <div class="ccr-desc">Solid data lean. Below our posting threshold.</div>
+      </div>
+      <div class="ccr-tier ccr-t4">
+        <div class="ccr-range">&lt;68</div>
+        <div class="ccr-name">Noise</div>
+        <div class="ccr-desc">We don't post what the model doesn't believe in.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOLLOW -->
+<section class="follow-section" id="follow">
+  <div class="section-inner">
+    <div class="section-label">Free picks daily</div>
+    <h2 class="section-title">FOLLOW THE <em>MODEL</em></h2>
+    <p class="section-body">Picks drop every morning after the 8:05 run. Follow us on every platform and never miss a qualifying CCR play.</p>
+
+    <div class="social-grid">
+      <a href="https://www.tiktok.com/@cersports" target="_blank" class="social-card">
+        <div class="social-platform">TikTok</div>
+        <div class="social-handle">@CERSPORTS</div>
+        <div class="social-cta">Follow →</div>
+      </a>
+      <a href="https://www.instagram.com/cersports" target="_blank" class="social-card">
+        <div class="social-platform">Instagram</div>
+        <div class="social-handle">@CERSPORTS</div>
+        <div class="social-cta">Follow →</div>
+      </a>
+      <a href="https://www.youtube.com/@cersports" target="_blank" class="social-card">
+        <div class="social-platform">YouTube</div>
+        <div class="social-handle">@CERSPORTS</div>
+        <div class="social-cta">Subscribe →</div>
+      </a>
+      <a href="https://x.com/cersports" target="_blank" class="social-card">
+        <div class="social-platform">X / Twitter</div>
+        <div class="social-handle">@CERSPORTS</div>
+        <div class="social-cta">Follow →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">CERSports</div>
+    <div class="footer-links">
+      <a href="mailto:info@cersports.com">Contact</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#record">Record</a>
+    </div>
+    <div class="footer-disclaimer">
+      © 2026 CERSports. All rights reserved. For entertainment purposes only.
+      Sports betting involves risk. Past model performance does not guarantee future results.
+      Please gamble responsibly. CERSports does not accept wagers.
+    </div>
+  </div>
+</footer>
+
+<!-- CHECKOUT MODAL (day/week — manual fulfillment) -->
+<div class="modal-overlay" id="manualModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-title" id="modalTitle">DAY PASS</div>
+    <p class="modal-sub" id="modalSub">Complete payment below. Your report will be sent to your email within 15 minutes.</p>
+    <div class="success-banner" id="modalSuccess">
+      ✓ Payment complete — check your email for access details
+    </div>
+    <div id="modalPayArea">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px">You'll be redirected to Stripe's secure checkout. After payment, your report is delivered by email.</p>
+      <button class="modal-btn" id="modalPayBtn" onclick="doCheckout()">Proceed to Payment →</button>
+      <p class="modal-err" id="modalErr">Something went wrong. Please try again or email info@cersports.com</p>
+    </div>
+    <p class="modal-note">
+      Questions? <a href="mailto:info@cersports.com">info@cersports.com</a><br>
+      Secure checkout powered by Stripe
+    </p>
+  </div>
+</div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────────────────
+const STRIPE_PK = 'pk_live_vr5kStRpnl19OqbbkptZjldh';
+
+// Stripe Payment Links — CREATE THESE IN STRIPE DASHBOARD
+// Dashboard → Payment Links → + New → select product → copy link
+// Replace the placeholder URLs below with your actual payment links
+const PAYMENT_LINKS = {
+  day:     'REPLACE_WITH_STRIPE_PAYMENT_LINK_DAY',     // $2.99 day pass
+  week:    'REPLACE_WITH_STRIPE_PAYMENT_LINK_WEEK',    // $9.99 week pass
+  monthly: 'REPLACE_WITH_STRIPE_PAYMENT_LINK_MONTHLY', // $24.99/mo subscription
+  annual:  'REPLACE_WITH_STRIPE_PAYMENT_LINK_ANNUAL',  // $149.99/yr subscription
+};
+
+const TIER_INFO = {
+  day:     { title: 'DAY PASS — $2.99',     sub: 'Full report delivered to your email within 15 minutes of payment.' },
+  week:    { title: 'WEEK PASS — $9.99',    sub: '7 days of full reports delivered to your email. Access begins immediately.' },
+  monthly: { title: 'MONTHLY — $24.99/mo',  sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
+  annual:  { title: 'ANNUAL — $149.99/yr',  sub: 'Best value. Instant recurring access. Cancel anytime.' },
+};
+
+// ── PICKS DATA ───────────────────────────────────────────────────────────────
+const PICKS_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/picks.json';
+
+async function loadPicks() {
+  try {
+    const res = await fetch(PICKS_URL + '?t=' + Date.now());
+    const picks = await res.json();
+
+    // Sort by date descending
+    picks.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // Free pick — most recent
+    const latest = picks[0];
+    if (latest) {
+      document.getElementById('pickSportDate').textContent =
+        `${latest.sport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'})}`;
+      document.getElementById('pickTeam').textContent = latest.pick;
+
+      const ccr = latest.ccr;
+      const ccrEl = document.getElementById('pickCCR');
+      ccrEl.textContent = `CCR ${ccr}`;
+      ccrEl.className = 'ccr-badge ' + (ccr >= 90 ? 'ccr-elite' : 'ccr-strong');
+
+      // Tag
+      const tagEl = document.getElementById('pickTag');
+      if (ccr >= 90) tagEl.textContent = '⚡ ELITE';
+      else if (ccr >= 80) tagEl.textContent = '⚡ STRONG';
+      else tagEl.textContent = '✓ QUALIFIED';
+    }
+
+    // Record grid
+    buildRecord(picks);
+
+    // Stats
+    document.getElementById('statRecord').textContent =
+      picks.filter(p=>p.result==='W').length + '-' + picks.filter(p=>p.result==='L').length;
+
+  } catch(e) {
+    console.error('Failed to load picks:', e);
+    document.getElementById('pickTeam').textContent = 'See TikTok';
+    document.getElementById('pickSportDate').textContent = 'Follow @cersports';
+  }
+}
+
+function buildRecord(picks) {
+  const grid = document.getElementById('recordGrid');
+  grid.innerHTML = '';
+
+  picks.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'record-card';
+    const resultClass = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
+    const resultText = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS' : 'PENDING';
+    const dateStr = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US',
+      {weekday:'short', month:'short', day:'numeric'});
+
+    card.innerHTML = `
+      <div class="record-date">${p.sport} · ${dateStr}</div>
+      <div class="record-pick">${p.pick}</div>
+      <div class="record-game">${p.game || ''}</div>
+      <div class="record-meta">
+        ${p.result ? `<span class="result-badge ${resultClass}">${resultText}</span>` : ''}
+        <span class="record-ccr">CCR ${p.ccr}</span>
+        ${p.units ? `<span class="record-ccr">${p.units > 0 ? '+' : ''}${p.units}u</span>` : ''}
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+
+  // Summary
+  const wins = picks.filter(p => p.result === 'W').length;
+  const losses = picks.filter(p => p.result === 'L').length;
+  const total = wins + losses;
+  const units = picks.reduce((sum, p) => {
+    if (p.result === 'W') return sum + (p.units || 0);
+    if (p.result === 'L') return sum - (p.units || 0);
+    return sum;
+  }, 0);
+
+  if (total > 0) {
+    document.getElementById('sumRecord').textContent = `${wins}-${losses}`;
+    document.getElementById('sumUnits').textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
+    document.getElementById('sumWinPct').textContent = Math.round((wins/total)*100) + '%';
+    document.getElementById('recordSummary').style.display = 'flex';
+    document.getElementById('statRecord').textContent = `${wins}-${losses}`;
+    document.getElementById('statGames').textContent = total;
+  }
+
+  // Honesty note
+  if (losses > 0 || wins === 0) {
+    document.getElementById('honestyNote').textContent =
+      'Every result posted as-is. No retroactive changes. Honesty is the only long game.';
+  }
+}
+
+// ── CHECKOUT ─────────────────────────────────────────────────────────────────
+let currentTier = null;
+
+function checkout(tier) {
+  currentTier = tier;
+  const info = TIER_INFO[tier];
+  document.getElementById('modalTitle').textContent = info.title;
+  document.getElementById('modalSub').textContent = info.sub;
+  document.getElementById('modalSuccess').style.display = 'none';
+  document.getElementById('modalPayArea').style.display = 'block';
+  document.getElementById('modalErr').style.display = 'none';
+  document.getElementById('modal-overlay') // reset
+  document.getElementById('manualModal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('manualModal').classList.remove('open');
+  currentTier = null;
+}
+
+function doCheckout() {
+  if (!currentTier) return;
+
+  const link = PAYMENT_LINKS[currentTier];
+
+  if (link.startsWith('REPLACE_WITH')) {
+    // Payment links not yet configured — show instructions
+    document.getElementById('modalErr').textContent =
+      'Payment links being configured. Email info@cersports.com to purchase.';
+    document.getElementById('modalErr').style.display = 'block';
+    return;
+  }
+
+  // Redirect to Stripe Payment Link
+  window.location.href = link;
+}
+
+// Close modal on overlay click
+document.getElementById('manualModal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+loadPicks();
+
+// Check for success redirect from Stripe
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('success') === '1') {
+  // Show success message at top
+  const banner = document.createElement('div');
+  banner.style.cssText = 'position:fixed;top:56px;left:0;right:0;z-index:150;background:rgba(26,122,74,0.95);color:#fff;text-align:center;padding:12px;font-family:Barlow Condensed,sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;';
+  banner.textContent = '✓ Payment received — check your email for access. Questions? info@cersports.com';
+  document.body.prepend(banner);
+  // Clean URL
+  window.history.replaceState({}, '', window.location.pathname);
+}
+</script>
 </body>
 </html>
