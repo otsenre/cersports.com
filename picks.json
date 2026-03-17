@@ -37,8 +37,8 @@
     "edge": 5.03,
     "ccr": 80,
     "tier": "A",
-    "result": null,
-    "units": 2.0
+    "result": "L",
+    "units": -2.0
   },
   {
     "date": "2026-03-15",
