@@ -3,19 +3,19 @@
     "date": "2026-03-16",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Houston Rockets",
-    "pick": "Houston Rockets",
+    "pick": "Houston Rockets -2.5",
     "ccr": 80,
-    "result": "W",
+    "result": "L",
     "units": 2.0
   },
   {
     "date": "2026-03-15",
     "sport": "NBA",
     "game": "Golden State Warriors @ New York Knicks",
-    "pick": "New York Knicks",
+    "pick": "New York Knicks -16.5",
     "edge": 0,
     "ccr": 80,
-    "result": "W",
+    "result": "L",
     "units": 2.0
   }
 ]
