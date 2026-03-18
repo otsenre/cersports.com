@@ -2,16 +2,17 @@
   {
     "date": "2026-03-18",
     "sport": "NHL",
-    "game": "Pittsburgh Penguins @ Carolina Hurricanes",
-    "pick": "Carolina Hurricanes ML",
+    "game": "Dallas Stars @ Colorado Avalanche",
+    "pick": "Colorado Avalanche ML",
     "bet_type": "ML",
-    "line": null,
-    "pick_display": "Carolina Hurricanes ML \u2014 Pittsburgh Penguins @ Carolina Hurricanes",
+    "line": "-150",
+    "pick_display": "Colorado Avalanche ML \u2014 Dallas Stars @ Colorado Avalanche",
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
+    "consensus_reports": 2,
     "source_reports": [
+      "chatgpt",
       "claude"
     ],
     "tier": "A",
