@@ -1,23 +1,17 @@
 [
   {
     "date": "2026-03-18",
-    "sport": "NHL",
-    "game": "Dallas Stars @ Colorado Avalanche",
-    "pick": "Colorado Avalanche ML",
-    "bet_type": "ML",
-    "line": "-150",
-    "pick_display": "Colorado Avalanche ML \u2014 Dallas Stars @ Colorado Avalanche",
-    "edge": 0,
-    "ccr": 80,
-    "ccr_avg": 80,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "claude"
-    ],
-    "tier": "A",
+    "sport": "NBA",
+    "game": "Golden State Warriors @ Boston Celtics",
+    "pick": "Boston Celtics",
+    "bet_type": "ATS",
+    "line": "-11.5",
+    "pick_display": "Boston Celtics -11.5 (ML -588 \u2014 too juiced)",
+    "edge": 4.4,
+    "ccr": 70,
+    "tier": "B",
     "result": null,
-    "units": 2.0
+    "units": 1.0
   },
   {
     "date": "2026-03-17",
