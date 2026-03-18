@@ -1,16 +1,21 @@
 [
   {
-    "date": "2026-03-17",
-    "sport": "NBA",
-    "game": "Philadelphia 76ers @ Denver Nuggets",
-    "pick": "Denver Nuggets",
-    "bet_type": "ATS",
-    "line": "-15.0",
-    "pick_display": "Denver Nuggets -15.0 (ML -1115 \u2014 too juiced)",
-    "edge": 4.38,
-    "ccr": 70,
-    "tier": "B",
-    "result": "W",
+    "date": "2026-03-18",
+    "sport": "NHL",
+    "game": "Pittsburgh Penguins @ Carolina Hurricanes",
+    "pick": "Carolina Hurricanes ML",
+    "bet_type": "ML",
+    "line": null,
+    "pick_display": "Carolina Hurricanes ML \u2014 Pittsburgh Penguins @ Carolina Hurricanes",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "claude"
+    ],
+    "tier": "A",
+    "result": null,
     "units": 2.0
   },
   {
@@ -23,6 +28,20 @@
     "pick_display": "MTL ML \u2014 Boston Bruins @ Montreal Canadiens",
     "edge": 0,
     "ccr": 85,
+    "result": "W",
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-17",
+    "sport": "NBA",
+    "game": "Philadelphia 76ers @ Denver Nuggets",
+    "pick": "Denver Nuggets",
+    "bet_type": "ATS",
+    "line": "-15.0",
+    "pick_display": "Denver Nuggets -15.0 (ML -1115 \u2014 too juiced)",
+    "edge": 4.38,
+    "ccr": 70,
+    "tier": "B",
     "result": "W",
     "units": 2.0
   },
