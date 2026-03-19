@@ -16,7 +16,7 @@
       "claude"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -30,7 +30,7 @@
     "edge": 4.404,
     "ccr": 70,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
