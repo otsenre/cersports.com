@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-19",
+    "sport": "NBA",
+    "game": "Orlando Magic @ Charlotte Hornets",
+    "pick": "Orlando Magic",
+    "bet_type": "ATS",
+    "line": "+5.0",
+    "pick_display": "Orlando Magic ATS +5.0 (ML also +188)",
+    "edge": 10.952,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-18",
     "sport": "NHL",
     "game": "Dallas Stars @ Colorado Avalanche",
