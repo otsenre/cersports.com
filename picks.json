@@ -1,6 +1,25 @@
 [
   {
     "date": "2026-03-19",
+    "sport": "NHL",
+    "game": "New York Rangers @ Columbus Blue Jackets",
+    "pick": "CBJ ML",
+    "bet_type": "ML",
+    "line": "-218",
+    "pick_display": "CBJ ML -218 \u2014 New York Rangers @ Columbus Blue Jackets",
+    "edge": 0,
+    "ccr": 87,
+    "ccr_avg": 87,
+    "consensus_reports": 1,
+    "source_reports": [
+      "chatgpt"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-19",
     "sport": "NBA",
     "game": "Orlando Magic @ Charlotte Hornets",
     "pick": "Orlando Magic",
