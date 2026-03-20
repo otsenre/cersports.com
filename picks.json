@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-20",
+    "sport": "NBA",
+    "game": "Atlanta Hawks @ Houston Rockets",
+    "pick": "Houston Rockets",
+    "bet_type": "ATS",
+    "line": "-3.5",
+    "pick_display": "Houston Rockets ATS -3.5 (ML also -155)",
+    "edge": 4.736,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-19",
     "sport": "NHL",
     "game": "New York Rangers @ Columbus Blue Jackets",
