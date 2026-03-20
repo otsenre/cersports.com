@@ -15,7 +15,7 @@
       "chatgpt"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -29,7 +29,7 @@
     "edge": 10.952,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
