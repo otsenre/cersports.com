@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-03-21",
+    "sport": "NHL",
+    "game": "Toronto Maple Leafs @ Ottawa Senators",
+    "pick": "OTT ML",
+    "bet_type": "ML",
+    "line": "-185",
+    "pick_display": "OTT ML -185 \u2014 Toronto Maple Leafs @ Ottawa Senators",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 2,
+    "source_reports": [
+      "claude",
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-21",
     "sport": "NBA",
     "game": "\u2014",
     "pick": "No Play",
