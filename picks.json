@@ -1,22 +1,17 @@
 [
   {
     "date": "2026-03-22",
-    "sport": "NHL",
-    "game": "Nashville Predators @ Chicago Blackhawks",
-    "pick": "NSH ML",
-    "bet_type": "ML",
-    "line": "-180",
-    "pick_display": "NSH ML -180 \u2014 Nashville Predators @ Chicago Blackhawks",
+    "sport": "NBA",
+    "game": "\u2014",
+    "pick": "No Play",
+    "bet_type": "NONE",
+    "line": "N/A",
+    "pick_display": "No qualifying edge today \u2014 model threshold not met",
     "edge": 0,
-    "ccr": 80,
-    "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
-    "tier": "A",
-    "result": null,
-    "units": 2.0
+    "ccr": 0,
+    "tier": "\u2014",
+    "result": "N/A",
+    "units": 0
   },
   {
     "date": "2026-03-22",
