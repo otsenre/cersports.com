@@ -1214,19 +1214,25 @@ if (urlParams.get('success') === '1') {
     }, 100);
   }
 
-  // Render with static fallback immediately
-  renderTicker(buildItems(null));
-
-  // Then fetch live data
-  fetch(MARKET_URL + '?t=' + Date.now())
+  // Render with static fallback immediately, then fetch live data
+  function init() {
+    renderTicker(buildItems(null));
+    fetch(MARKET_URL + '?t=' + Date.now())
     .then(r => r.json())
     .then(data => {
       console.log('[ticker] market data loaded', data);
       renderTicker(buildItems(data));
     })
-    .catch(err => {
-      console.log('[ticker] market data unavailable, using fallback');
-    });
+      .catch(err => {
+        console.log('[ticker] market data unavailable, using fallback');
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
 
 </script>
