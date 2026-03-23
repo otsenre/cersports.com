@@ -1151,9 +1151,7 @@ if (urlParams.get('success') === '1') {
     return '<span class="ticker-item"><span class="t-name">'+i[0]+'</span> <span class="t-val '+i[2]+'">'+i[1]+'</span></span><span class="ticker-sep"></span>';
   }).join('');
   track.innerHTML = html + html;
-  var w = track.scrollWidth / 2;
-  var dur = Math.round(w / 60);
-  track.style.animationDuration = dur + 's';
+  track.style.animationDuration = '35s';
 })();
 </script>
 </body>
