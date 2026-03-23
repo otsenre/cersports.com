@@ -15,10 +15,9 @@
       "gemini"
     ],
     "tier": "A",
-    "result": "W",
+    "result": null,
     "units": 2.0
   },
-  
   {
     "date": "2026-03-22",
     "sport": "NBA",
