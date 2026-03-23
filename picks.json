@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-23",
+    "sport": "NBA",
+    "game": "Los Angeles Lakers @ Detroit Pistons",
+    "pick": "Detroit Pistons",
+    "bet_type": "ATS",
+    "line": "+2.5",
+    "pick_display": "Detroit Pistons ATS +2.5 (ML also +135)",
+    "edge": 11.605,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-22",
     "sport": "NHL",
     "game": "Nashville Predators @ Chicago Blackhawks",
