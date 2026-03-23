@@ -33,6 +33,21 @@
     "units": 0
   },
   {
+    "date": "2026-03-22",
+    "sport": "BEST",
+    "game": "Nashville Predators @ Chicago Blackhawks",
+    "pick": "NSH ML",
+    "bet_type": "ML",
+    "line": "-180",
+    "pick_display": "NSH ML -180 \u2014 Nashville Predators @ Chicago Blackhawks",
+    "edge": 0,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-21",
     "sport": "NHL",
     "game": "Toronto Maple Leafs @ Ottawa Senators",
