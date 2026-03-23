@@ -535,6 +535,92 @@ footer {
   .pricing-grid { grid-template-columns: 1fr; }
   .social-grid { grid-template-columns: 1fr; }
 }
+<!-- TICKER STYLES — add inside existing <style> block -->
+<style id="ticker-styles">
+.ticker-wrap {
+  width: 100%;
+  background: #0a0c10;
+  border-bottom: 1px solid #1e2530;
+  overflow: hidden;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.ticker-label {
+  background: #e63946;
+  color: #fff;
+  font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 14px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ticker-track {
+  display: flex;
+  white-space: nowrap;
+  animation: ticker-scroll 40s linear infinite;
+  will-change: transform;
+}
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 28px 0 0;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 11px;
+  color: #778;
+  white-space: nowrap;
+}
+.ticker-item .t-name {
+  font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #aaa;
+  text-transform: uppercase;
+}
+.ticker-item .t-val {
+  font-size: 12px;
+  font-weight: 700;
+}
+.ticker-item .t-val.up   { color: #2ecc71; }
+.ticker-item .t-val.down { color: #e63946; }
+.ticker-item .t-val.gold { color: #f0a500; }
+.ticker-item .t-val.white{ color: #e8e8e8; }
+.ticker-item .t-arrow { font-size: 10px; }
+.ticker-sep {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: #1e2530;
+  margin: 0 20px 0 0;
+  vertical-align: middle;
+}
+</style>
+
+<!-- TICKER HTML — place immediately after <body> tag -->
+<div class="ticker-wrap">
+  <div class="ticker-label">LIVE</div>
+  <div style="overflow:hidden;flex:1;position:relative;">
+    <div class="ticker-track" id="tickerTrack">
+      <!-- items injected by JS, duplicated for seamless loop -->
+    </div>
+  </div>
+</div>
 </style>
 </head>
 <body>
@@ -1031,6 +1117,112 @@ if (urlParams.get('success') === '1') {
   // Clean URL
   window.history.replaceState({}, '', window.location.pathname);
 }
+
+
+
+</script>
+
+
+<script id="ticker-script">
+(function(){
+  const MARKET_URL = '/market_data.json';
+
+  const STATIC_ITEMS = [
+    { name: 'PIPELINE',  val: '8:05 AM',  cls: 'white',  suffix: '' },
+    { name: 'MODELS',    val: '3',         cls: 'white',  suffix: ' independent' },
+    { name: 'SPORTS',    val: 'NBA · NHL · MLB · MLS', cls: 'white', suffix: '' },
+  ];
+
+  function arrow(n) {
+    if (n == null) return '';
+    return n >= 0 ? '<span class="t-arrow" style="color:#2ecc71">▲</span>'
+                  : '<span class="t-arrow" style="color:#e63946">▼</span>';
+  }
+
+  function buildItems(data) {
+    const items = [];
+    const cer = data && data.cer   ? data.cer   : null;
+    const sp  = data && data.sp500 ? data.sp500 : null;
+
+    if (cer) {
+      items.push({ name: 'CER RECORD',  val: `${cer.wins}W-${cer.losses}L`,    cls: 'white' });
+      items.push({ name: 'CER WIN RATE',val: `${cer.win_rate}%`,               cls: cer.win_rate >= 60 ? 'up' : 'down' });
+      items.push({ name: 'CER NET',     val: `+${cer.profit_units}u`,           cls: 'up' });
+      items.push({ name: 'CER ROI',     val: `+${cer.roi_pct}%`,               cls: 'up', arrow: true });
+    } else {
+      items.push({ name: 'CER RECORD',  val: '17W-4L',   cls: 'white' });
+      items.push({ name: 'CER WIN RATE',val: '80.9%',    cls: 'up' });
+      items.push({ name: 'CER NET',     val: '+13.82u',  cls: 'up' });
+      items.push({ name: 'CER ROI',     val: '+57.6%',   cls: 'up' });
+    }
+
+    if (sp && sp.ytd_pct != null) {
+      const spCls = sp.ytd_pct >= 0 ? 'up' : 'down';
+      const spSign = sp.ytd_pct >= 0 ? '+' : '';
+      items.push({ name: 'S&P 500 YTD', val: `${spSign}${sp.ytd_pct}%`, cls: spCls, arrow: true });
+      items.push({ name: 'S&P 500',     val: sp.price ? sp.price.toLocaleString() : '—', cls: 'white' });
+
+      // The key comparison
+      if (cer && cer.roi_pct != null) {
+        const diff = (cer.roi_pct - sp.ytd_pct).toFixed(1);
+        items.push({ name: 'CER vs S&P', val: `+${diff}%`, cls: 'gold', suffix: ' outperformance' });
+      }
+    } else {
+      items.push({ name: 'S&P 500 YTD', val: 'LOADING', cls: 'white' });
+    }
+
+    STATIC_ITEMS.forEach(i => items.push(i));
+
+    if (cer && cer.pending > 0) {
+      items.push({ name: 'PENDING', val: `${cer.pending}`, cls: 'gold', suffix: ' picks today' });
+    }
+
+    return items;
+  }
+
+  function renderTicker(items) {
+    const track = document.getElementById('tickerTrack');
+    if (!track) return;
+
+    function makeHTML(items) {
+      return items.map(item => `
+        <span class="ticker-item">
+          <span class="t-name">${item.name}</span>
+          <span class="t-val ${item.cls}">${item.val}${item.suffix || ''}</span>
+          ${item.arrow ? arrow(parseFloat(item.val)) : ''}
+        </span>
+        <span class="ticker-sep"></span>
+      `).join('');
+    }
+
+    // Duplicate for seamless infinite scroll
+    const html = makeHTML(items);
+    track.innerHTML = html + html;
+
+    // Adjust animation duration based on content width
+    setTimeout(() => {
+      const trackWidth = track.scrollWidth / 2;
+      const speed = 80; // px per second
+      const duration = Math.round(trackWidth / speed);
+      track.style.animationDuration = `${duration}s`;
+    }, 100);
+  }
+
+  // Render with static fallback immediately
+  renderTicker(buildItems(null));
+
+  // Then fetch live data
+  fetch(MARKET_URL + '?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      console.log('[ticker] market data loaded', data);
+      renderTicker(buildItems(data));
+    })
+    .catch(err => {
+      console.log('[ticker] market data unavailable, using fallback');
+    });
+})();
+
 </script>
 </body>
 </html>
