@@ -1129,112 +1129,31 @@ if (urlParams.get('success') === '1') {
 </script>
 
 
-<script id="ticker-script">
+<script>
+// Populate ticker with hardcoded data — regenerated daily by pipeline
 (function(){
-  const MARKET_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/market_data.json';
-
-  const STATIC_ITEMS = [
-    { name: 'PIPELINE',  val: '8:05 AM',  cls: 'white',  suffix: '' },
-    { name: 'MODELS',    val: '3',         cls: 'white',  suffix: ' independent' },
-    { name: 'SPORTS',    val: 'NBA · NHL · MLB · MLS', cls: 'white', suffix: '' },
+  var track = document.getElementById('tickerTrack');
+  if (!track) return;
+  var items = [
+    ['CER RECORD', '17W-4L', 'white'],
+    ['CER WIN RATE', '81.0%', 'up'],
+    ['CER NET', '+13.82u', 'up'],
+    ['CER ROI', '+57.6%', 'up'],
+    ['S&P 500 YTD', '-3.63%', 'down'],
+    ['CER vs S&P', '+61.2%', 'gold'],
+    ['OUTPERFORMANCE', 'vs S&P 500', 'gold'],
+    ['PIPELINE', '8:05 AM', 'white'],
+    ['SPORTS', 'NBA · NHL · MLB · MLS', 'white'],
+    ['MODELS', '3 independent', 'white'],
+    ['SEASON', '2025-26', 'white'],
   ];
-
-  function arrow(n) {
-    if (n == null) return '';
-    return n >= 0 ? '<span class="t-arrow" style="color:#2ecc71">▲</span>'
-                  : '<span class="t-arrow" style="color:#e63946">▼</span>';
-  }
-
-  function buildItems(data) {
-    const items = [];
-    const cer = data && data.cer   ? data.cer   : null;
-    const sp  = data && data.sp500 ? data.sp500 : null;
-
-    if (cer) {
-      items.push({ name: 'CER RECORD',  val: `${cer.wins}W-${cer.losses}L`,    cls: 'white' });
-      items.push({ name: 'CER WIN RATE',val: `${cer.win_rate}%`,               cls: cer.win_rate >= 60 ? 'up' : 'down' });
-      items.push({ name: 'CER NET',     val: `+${cer.profit_units}u`,           cls: 'up' });
-      items.push({ name: 'CER ROI',     val: `+${cer.roi_pct}%`,               cls: 'up', arrow: true });
-    } else {
-      items.push({ name: 'CER RECORD',  val: '17W-4L',   cls: 'white' });
-      items.push({ name: 'CER WIN RATE',val: '80.9%',    cls: 'up' });
-      items.push({ name: 'CER NET',     val: '+13.82u',  cls: 'up' });
-      items.push({ name: 'CER ROI',     val: '+57.6%',   cls: 'up' });
-    }
-
-    if (sp && sp.ytd_pct != null) {
-      const spCls = sp.ytd_pct >= 0 ? 'up' : 'down';
-      const spSign = sp.ytd_pct >= 0 ? '+' : '';
-      items.push({ name: 'S&P 500 YTD', val: `${spSign}${sp.ytd_pct}%`, cls: spCls, arrow: true });
-      items.push({ name: 'S&P 500',     val: sp.price ? sp.price.toLocaleString() : '—', cls: 'white' });
-
-      // The key comparison
-      if (cer && cer.roi_pct != null) {
-        const diff = (cer.roi_pct - sp.ytd_pct).toFixed(1);
-        items.push({ name: 'CER vs S&P', val: `+${diff}%`, cls: 'gold', suffix: ' outperformance' });
-      }
-    } else {
-      items.push({ name: 'S&P 500 YTD', val: 'LOADING', cls: 'white' });
-    }
-
-    STATIC_ITEMS.forEach(i => items.push(i));
-
-    if (cer && cer.pending > 0) {
-      items.push({ name: 'PENDING', val: `${cer.pending}`, cls: 'gold', suffix: ' picks today' });
-    }
-
-    return items;
-  }
-
-  function renderTicker(items) {
-    const track = document.getElementById('tickerTrack');
-    if (!track) return;
-
-    function makeHTML(items) {
-      return items.map(item => `
-        <span class="ticker-item">
-          <span class="t-name">${item.name}</span>
-          <span class="t-val ${item.cls}">${item.val}${item.suffix || ''}</span>
-          ${item.arrow ? arrow(parseFloat(item.val)) : ''}
-        </span>
-        <span class="ticker-sep"></span>
-      `).join('');
-    }
-
-    // Duplicate for seamless infinite scroll
-    const html = makeHTML(items);
-    track.innerHTML = html + html;
-
-    // Adjust animation duration based on content width
-    setTimeout(() => {
-      const trackWidth = track.scrollWidth / 2;
-      const speed = 80; // px per second
-      const duration = Math.round(trackWidth / speed);
-      track.style.animationDuration = `${duration}s`;
-    }, 100);
-  }
-
-  // Render with static fallback immediately, then fetch live data
-  function init() {
-    renderTicker(buildItems(null));
-    fetch(MARKET_URL + '?t=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
-      console.log('[ticker] market data loaded', data);
-      renderTicker(buildItems(data));
-    })
-      .catch(err => {
-        console.log('[ticker] market data unavailable, using fallback');
-      });
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  var html = items.map(function(i){
+    return '<span class="ticker-item"><span class="t-name">'+i[0]+'</span> <span class="t-val '+i[2]+'">'+i[1]+'</span></span><span class="ticker-sep"></span>';
+  }).join('');
+  track.innerHTML = html + html;
+  var w = track.scrollWidth / 2;
+  var dur = Math.round(w / 60);
+  track.style.animationDuration = dur + 's';
 })();
-
 </script>
 </body>
-</html>
