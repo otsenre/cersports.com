@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-03-23T12:09:20.564522",
+  "sp500": {
+    "price": 6611.92,
+    "ytd_pct": -3.59,
+    "as_of": "2026-03-23",
+    "source": "yahoo_finance"
+  },
+  "cer": {
+    "wins": 7,
+    "losses": 4,
+    "graded": 11,
+    "pending": 2,
+    "profit_units": 1.11,
+    "units_risked": 12.0,
+    "roi_pct": 9.3,
+    "win_rate": 63.6,
+    "latest_pick": "OTT ML -192 \u2014 Ottawa Senators @ New York Rangers"
+  }
+}
