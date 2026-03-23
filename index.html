@@ -539,6 +539,10 @@ footer {
 <!-- TICKER STYLES — add inside existing <style> block -->
 <style id="ticker-styles">
 .ticker-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   background: #0a0c10;
   border-bottom: 1px solid #1e2530;
@@ -546,6 +550,7 @@ footer {
   height: 32px;
   display: flex;
   align-items: center;
+  z-index: 200;
 }
 .ticker-label {
   background: #e63946;
