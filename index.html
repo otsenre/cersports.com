@@ -886,12 +886,14 @@ async function loadPicks() {
     // Sort by date descending
     picks.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    // Free pick — most recent
-    const latest = picks[0];
+    // Free pick — use daily_best entry if available, else most recent real pick
+    const bestEntry = picks.find(p => p.sport === 'BEST');
+    const latest = bestEntry || picks.find(p => p.sport !== 'BEST' && p.pick !== 'No Play');
     if (latest) {
+      const displaySport = latest.source_sport || latest.sport;
       document.getElementById('pickSportDate').textContent =
-        `${latest.sport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'})}`;
-      document.getElementById('pickTeam').textContent = latest.pick;
+        `${displaySport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'})}`;
+      document.getElementById('pickTeam').textContent = latest.pick_display || latest.pick;
 
       const ccr = latest.ccr;
       const ccrEl = document.getElementById('pickCCR');
