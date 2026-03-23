@@ -911,8 +911,9 @@ async function loadPicks() {
     buildRecord(picks);
 
     // Stats
+    const gradedPicks = picks.filter(p => p.sport !== 'BEST');
     document.getElementById('statRecord').textContent =
-      picks.filter(p=>p.result==='W').length + '-' + picks.filter(p=>p.result==='L').length;
+      gradedPicks.filter(p=>p.result==='W').length + '-' + gradedPicks.filter(p=>p.result==='L').length;
 
   } catch(e) {
     console.error('Failed to load picks:', e);
@@ -925,7 +926,7 @@ function buildRecord(picks) {
   const grid = document.getElementById('recordGrid');
   grid.innerHTML = '';
 
-  picks.forEach(p => {
+  picks.filter(p => p.sport !== 'BEST').forEach(p => {
     const card = document.createElement('div');
     card.className = 'record-card';
     const resultClass = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
@@ -947,11 +948,12 @@ function buildRecord(picks) {
     grid.appendChild(card);
   });
 
-  // Summary
-  const wins = picks.filter(p => p.result === 'W').length;
-  const losses = picks.filter(p => p.result === 'L').length;
+  // Summary — exclude BEST entries from stats
+  const realPicks = picks.filter(p => p.sport !== 'BEST');
+  const wins = realPicks.filter(p => p.result === 'W').length;
+  const losses = realPicks.filter(p => p.result === 'L').length;
   const total = wins + losses;
-  const units = picks.reduce((sum, p) => {
+  const units = realPicks.reduce((sum, p) => {
     if (p.result === 'W') return sum + Math.abs(p.units || 0);
     if (p.result === 'L') return sum - Math.abs(p.units || 0);
     return sum;

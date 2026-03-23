@@ -15,8 +15,9 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
-    "units": 2.0
+    "result": "W",
+    "units": 2.0,
+    "profit_units": 1.11
   },
   {
     "date": "2026-03-22",
@@ -43,9 +44,10 @@
     "edge": 0,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit_units": 1.11
   },
   {
     "date": "2026-03-21",
