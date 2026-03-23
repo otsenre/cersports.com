@@ -41,6 +41,7 @@ body {
 }
 
 /* ── GRAIN OVERLAY ── */
+body { padding-top: 32px; }
 body::after {
   content: '';
   position: fixed; inset: 0;
@@ -51,7 +52,7 @@ body::after {
 
 /* ── NAV ── */
 nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  position: fixed; top: 32px; left: 0; right: 0; z-index: 100;
   border-bottom: 1px solid var(--border);
   background: rgba(8,8,8,0.92);
   backdrop-filter: blur(12px);
@@ -560,7 +561,7 @@ footer {
   align-items: center;
   white-space: nowrap;
   flex-shrink: 0;
-  z-index: 1;
+  z-index: 200;
 }
 .ticker-track {
   display: flex;
