@@ -34,6 +34,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-24",
+    "sport": "BEST",
+    "game": "Toronto Maple Leafs @ Boston Bruins",
+    "pick": "BOS ML",
+    "bet_type": "ML",
+    "line": "-189",
+    "pick_display": "BOS ML -189 \u2014 Toronto Maple Leafs @ Boston Bruins",
+    "edge": 0,
+    "ccr": 82,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-23",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Detroit Pistons",
