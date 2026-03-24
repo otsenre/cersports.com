@@ -1,5 +1,18 @@
 [
-  
+  {
+    "date": "2026-03-24",
+    "sport": "NBA",
+    "game": "Orlando Magic @ Cleveland Cavaliers",
+    "pick": "Cleveland Cavaliers",
+    "bet_type": "ATS",
+    "line": "-10.5",
+    "pick_display": "Cleveland Cavaliers ATS -10.5",
+    "edge": 7.176,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
   {
     "date": "2026-03-23",
     "sport": "NBA",
