@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-03-24",
+    "sport": "NHL",
+    "game": "Toronto Maple Leafs @ Boston Bruins",
+    "pick": "BOS ML",
+    "bet_type": "ML",
+    "line": "-189",
+    "pick_display": "BOS ML -189 \u2014 Toronto Maple Leafs @ Boston Bruins",
+    "edge": 0,
+    "ccr": 82,
+    "ccr_avg": 81,
+    "consensus_reports": 2,
+    "source_reports": [
+      "gemini",
+      "claude"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-24",
     "sport": "NBA",
     "game": "Orlando Magic @ Cleveland Cavaliers",
     "pick": "Cleveland Cavaliers",
