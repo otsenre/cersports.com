@@ -1,24 +1,5 @@
 [
-  {
-    "date": "2026-03-23",
-    "sport": "NHL",
-    "game": "Ottawa Senators @ New York Rangers",
-    "pick": "OTT ML",
-    "bet_type": "ML",
-    "line": -192,
-    "pick_display": "OTT ML -192 \u2014 Ottawa Senators @ New York Rangers",
-    "edge": 0,
-    "ccr": 92,
-    "ccr_avg": 90,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "chatgpt"
-    ],
-    "tier": "A",
-    "result": null,
-    "units": 2.0
-  },
+  
   {
     "date": "2026-03-23",
     "sport": "NBA",
@@ -30,7 +11,7 @@
     "edge": 10.605,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -44,7 +25,7 @@
     "edge": 0,
     "ccr": 92,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL"
