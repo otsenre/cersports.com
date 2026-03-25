@@ -1,17 +1,23 @@
 [
   {
     "date": "2026-03-25",
-    "sport": "MLB",
-    "game": "New York Yankees @ San Francisco Giants",
-    "pick": "Yankees ML",
+    "sport": "NHL",
+    "game": "Boston Bruins @ Buffalo Sabres",
+    "pick": "BUF ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Yankees ML \u2014 New York Yankees @ San Francisco Giants",
+    "line": -205,
+    "pick_display": "BUF ML -205 \u2014 Boston Bruins @ Buffalo Sabres",
     "edge": 0,
-    "ccr": 70,
-    "tier": "B",
+    "ccr": 88,
+    "ccr_avg": 84,
+    "consensus_reports": 2,
+    "source_reports": [
+      "chatgpt",
+      "gemini"
+    ],
+    "tier": "A",
     "result": null,
-    "units": 1.0
+    "units": 2.0
   },
   {
     "date": "2026-03-25",
@@ -22,6 +28,20 @@
     "line": "-12.5",
     "pick_display": "Portland Trail Blazers ATS -12.5",
     "edge": 7.812,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-03-25",
+    "sport": "MLB",
+    "game": "New York Yankees @ San Francisco Giants",
+    "pick": "Yankees ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Yankees ML \u2014 New York Yankees @ San Francisco Giants",
+    "edge": 0,
     "ccr": 70,
     "tier": "B",
     "result": null,
