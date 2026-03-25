@@ -110,6 +110,21 @@
   },
   {
     "date": "2026-03-23",
+    "sport": "NHL",
+    "game": "Ottawa Senators @ New York Rangers",
+    "pick": "OTT ML",
+    "bet_type": "ML",
+    "line": "-192",
+    "pick_display": "OTT ML -192 \u2014 Ottawa Senators @ New York Rangers",
+    "edge": 0,
+    "ccr": 92,
+    "tier": "A",
+    "result": "W",
+    "profit_units": 1.04,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-23",
     "sport": "NBA",
     "game": "Los Angeles Lakers @ Detroit Pistons",
     "pick": "Detroit Pistons",
