@@ -48,6 +48,22 @@
     "units": 0.5
   },
   {
+    "date": "2026-03-25",
+    "sport": "BEST",
+    "game": "Boston Bruins @ Buffalo Sabres",
+    "pick": "BUF ML",
+    "bet_type": "ML",
+    "line": -205,
+    "pick_display": "BUF ML -205 \u2014 Boston Bruins @ Buffalo Sabres",
+    "edge": 0,
+    "ccr": 88,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-24",
     "sport": "NBA",
     "game": "Orlando Magic @ Cleveland Cavaliers",
