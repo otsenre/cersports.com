@@ -42,10 +42,10 @@
     "line": "",
     "pick_display": "Yankees ML \u2014 New York Yankees @ San Francisco Giants",
     "edge": 0,
-    "ccr": 70,
-    "tier": "B",
+    "ccr": 66,
+    "tier": "C",
     "result": null,
-    "units": 1.0
+    "units": 0.5
   },
   {
     "date": "2026-03-24",
