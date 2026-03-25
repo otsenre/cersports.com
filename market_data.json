@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-24T08:05:02.022418",
+  "generated_at": "2026-03-25T08:05:01.495238",
   "sp500": {
-    "price": 6574.76,
-    "ytd_pct": -4.14,
-    "as_of": "2026-03-24",
+    "price": 6613.6,
+    "ytd_pct": -3.57,
+    "as_of": "2026-03-25",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 23,
-    "losses": 6,
-    "graded": 29,
-    "pending": 3,
-    "profit_units": 27.17,
-    "units_risked": 34.0,
-    "roi_pct": 79.9,
-    "win_rate": 79.3,
-    "latest_pick": "OTT ML -192 \u2014 Ottawa Senators @ New York Rangers"
+    "wins": 25,
+    "losses": 8,
+    "graded": 33,
+    "pending": 5,
+    "profit_units": 30.94,
+    "units_risked": 38.0,
+    "roi_pct": 81.4,
+    "win_rate": 75.8,
+    "latest_pick": "BOS ML -189 \u2014 Toronto Maple Leafs @ Boston Bruins"
   }
 }
