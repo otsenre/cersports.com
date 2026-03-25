@@ -14,6 +14,20 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-25",
+    "sport": "NBA",
+    "game": "Milwaukee Bucks @ Portland Trail Blazers",
+    "pick": "Portland Trail Blazers",
+    "bet_type": "ATS",
+    "line": "-12.5",
+    "pick_display": "Portland Trail Blazers ATS -12.5",
+    "edge": 7.812,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-24",
     "sport": "NBA",
     "game": "Orlando Magic @ Cleveland Cavaliers",
