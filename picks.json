@@ -120,7 +120,8 @@
     "ccr": 80,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "profit_units": 0.91
   },
   {
     "date": "2026-03-23",
@@ -134,7 +135,7 @@
     "ccr": 92,
     "tier": "A",
     "result": "W",
-    "profit_units": null,
+    "profit_units": 1.04,
     "units": 2.0,
     "source_sport": "NHL"
   },
