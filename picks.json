@@ -22,16 +22,16 @@
   {
     "date": "2026-03-26",
     "sport": "NBA",
-    "game": "Sacramento Kings @ Orlando Magic",
-    "pick": "Orlando Magic",
+    "game": "New Orleans Pelicans @ Detroit Pistons",
+    "pick": "Detroit Pistons",
     "bet_type": "ATS",
-    "line": "-15.5",
-    "pick_display": "Orlando Magic ATS -15.5",
-    "edge": 7.186,
-    "ccr": 70,
-    "tier": "B",
+    "line": "-3.5",
+    "pick_display": "Detroit Pistons ATS -3.5",
+    "edge": 6.328,
+    "ccr": 80,
+    "tier": "A",
     "result": null,
-    "units": 1.0
+    "units": 2.0
   },
   {
     "date": "2026-03-26",
