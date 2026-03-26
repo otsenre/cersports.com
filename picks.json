@@ -35,6 +35,20 @@
   },
   {
     "date": "2026-03-26",
+    "sport": "MLB",
+    "game": "Chicago White Sox @ Milwaukee Brewers",
+    "pick": "Brewers ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Brewers ML \u2014 Chicago White Sox @ Milwaukee Brewers",
+    "edge": 0,
+    "ccr": 85,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-26",
     "sport": "BEST",
     "game": "Seattle Kraken @ Tampa Bay Lightning",
     "pick": "TB ML",
