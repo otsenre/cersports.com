@@ -34,6 +34,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-26",
+    "sport": "BEST",
+    "game": "Seattle Kraken @ Tampa Bay Lightning",
+    "pick": "TB ML",
+    "bet_type": "ML",
+    "line": "-180",
+    "pick_display": "TB ML -180 \u2014 Seattle Kraken @ Tampa Bay Lightning",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-25",
     "sport": "NHL",
     "game": "Boston Bruins @ Buffalo Sabres",
