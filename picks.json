@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-26",
+    "sport": "NBA",
+    "game": "Sacramento Kings @ Orlando Magic",
+    "pick": "Orlando Magic",
+    "bet_type": "ATS",
+    "line": "-15.5",
+    "pick_display": "Orlando Magic ATS -15.5",
+    "edge": 7.186,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-25",
     "sport": "NHL",
     "game": "Boston Bruins @ Buffalo Sabres",
