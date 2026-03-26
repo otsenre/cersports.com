@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-26T08:05:01.502441",
+  "generated_at": "2026-03-26T09:24:49.625446",
   "sp500": {
-    "price": 6547.11,
-    "ytd_pct": -4.54,
+    "price": 6527.88,
+    "ytd_pct": -4.82,
     "as_of": "2026-03-26",
     "source": "yahoo_finance"
   },
@@ -10,11 +10,11 @@
     "wins": 29,
     "losses": 14,
     "graded": 43,
-    "pending": 5,
+    "pending": 9,
     "profit_units": 18.05,
     "units_risked": 50.0,
     "roi_pct": 36.1,
     "win_rate": 67.4,
-    "latest_pick": "BUF ML -205 \u2014 Boston Bruins @ Buffalo Sabres"
+    "latest_pick": "TB ML -180 \u2014 Seattle Kraken @ Tampa Bay Lightning"
   }
 }
