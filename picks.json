@@ -16,7 +16,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -30,7 +30,7 @@
     "edge": 7.812,
     "ccr": 70,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -44,7 +44,7 @@
     "edge": 0,
     "ccr": 66,
     "tier": "C",
-    "result": null,
+    "result": "W",
     "units": 0.5
   },
   {
