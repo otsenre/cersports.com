@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-27",
+    "sport": "NBA",
+    "game": "Washington Wizards @ Golden State Warriors",
+    "pick": "Golden State Warriors",
+    "bet_type": "ATS",
+    "line": "-13.5",
+    "pick_display": "Golden State Warriors ATS -13.5",
+    "edge": 6.697,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-26",
     "sport": "NHL",
     "game": "Seattle Kraken @ Tampa Bay Lightning",
@@ -30,7 +44,7 @@
     "edge": 6.328,
     "ccr": 80,
     "tier": "A",
-    "result":"W",
+    "result": "W",
     "units": 2.0
   },
   {
