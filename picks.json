@@ -1,6 +1,25 @@
 [
   {
     "date": "2026-03-27",
+    "sport": "NHL",
+    "game": "Chicago Blackhawks @ New York Rangers",
+    "pick": "NY Rangers ML",
+    "bet_type": "ML",
+    "line": "-220",
+    "pick_display": "NY Rangers ML -220 \u2014 Chicago Blackhawks @ New York Rangers",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-27",
     "sport": "NBA",
     "game": "Washington Wizards @ Golden State Warriors",
     "pick": "Golden State Warriors",
