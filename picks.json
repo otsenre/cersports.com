@@ -47,6 +47,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-27",
+    "sport": "BEST",
+    "game": "Chicago Blackhawks @ New York Rangers",
+    "pick": "NY Rangers ML",
+    "bet_type": "ML",
+    "line": "-220",
+    "pick_display": "NY Rangers ML -220 \u2014 Chicago Blackhawks @ New York Rangers",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-26",
     "sport": "NHL",
     "game": "Seattle Kraken @ Tampa Bay Lightning",
