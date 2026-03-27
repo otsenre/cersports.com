@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-26T09:24:49.625446",
+  "generated_at": "2026-03-27T08:05:01.975673",
   "sp500": {
-    "price": 6527.88,
-    "ytd_pct": -4.82,
-    "as_of": "2026-03-26",
+    "price": 6432.02,
+    "ytd_pct": -6.22,
+    "as_of": "2026-03-27",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 29,
-    "losses": 14,
-    "graded": 43,
-    "pending": 9,
-    "profit_units": 18.05,
-    "units_risked": 50.0,
-    "roi_pct": 36.1,
-    "win_rate": 67.4,
+    "wins": 31,
+    "losses": 16,
+    "graded": 47,
+    "pending": 7,
+    "profit_units": 95.41,
+    "units_risked": 55.0,
+    "roi_pct": 173.5,
+    "win_rate": 66.0,
     "latest_pick": "TB ML -180 \u2014 Seattle Kraken @ Tampa Bay Lightning"
   }
 }
