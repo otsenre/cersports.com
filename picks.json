@@ -34,6 +34,20 @@
     "units": 2.0
   },
   {
+    "date": "2026-03-28",
+    "sport": "MLB",
+    "game": "Colorado Rockies @ Miami Marlins",
+    "pick": "Marlins ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Marlins ML \u2014 Colorado Rockies @ Miami Marlins",
+    "edge": 0,
+    "ccr": 69,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-27",
     "sport": "NHL",
     "game": "Chicago Blackhawks @ New York Rangers",
