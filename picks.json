@@ -48,6 +48,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-28",
+    "sport": "BEST",
+    "game": "Winnipeg Jets @ Colorado Avalanche",
+    "pick": "COL ML",
+    "bet_type": "ML",
+    "line": "-280",
+    "pick_display": "COL ML -280 \u2014 Winnipeg Jets @ Colorado Avalanche",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-27",
     "sport": "NHL",
     "game": "Chicago Blackhawks @ New York Rangers",
