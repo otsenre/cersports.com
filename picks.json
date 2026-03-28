@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-28",
+    "sport": "NBA",
+    "game": "Utah Jazz @ Phoenix Suns",
+    "pick": "Phoenix Suns",
+    "bet_type": "ATS",
+    "line": "-16.5",
+    "pick_display": "Phoenix Suns ATS -16.5",
+    "edge": 7.879,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-27",
     "sport": "NHL",
     "game": "Chicago Blackhawks @ New York Rangers",
