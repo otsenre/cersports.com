@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-03-28",
+    "sport": "NHL",
+    "game": "Winnipeg Jets @ Colorado Avalanche",
+    "pick": "COL ML",
+    "bet_type": "ML",
+    "line": "-280",
+    "pick_display": "COL ML -280 \u2014 Winnipeg Jets @ Colorado Avalanche",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 88,
+    "consensus_reports": 2,
+    "source_reports": [
+      "claude",
+      "chatgpt"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-28",
     "sport": "NBA",
     "game": "Utah Jazz @ Phoenix Suns",
     "pick": "Phoenix Suns",
