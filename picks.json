@@ -79,7 +79,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result":"W",
     "units": 2.0
   },
   {
@@ -93,7 +93,7 @@
     "edge": 6.697,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -107,7 +107,7 @@
     "edge": 0,
     "ccr": 77,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -122,7 +122,7 @@
     "ccr": 90,
     "tier": "A",
     "result": null,
-    "profit_units": null,
+    "profit_units": "W",
     "units": 2.0,
     "source_sport": "NHL"
   },
