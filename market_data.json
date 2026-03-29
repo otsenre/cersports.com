@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T08:05:02.823792",
+  "generated_at": "2026-03-29T08:05:02.313544",
   "sp500": {
     "price": 6368.85,
     "ytd_pct": -7.14,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 31,
-    "losses": 16,
-    "graded": 47,
-    "pending": 15,
-    "profit_units": 95.41,
-    "units_risked": 55.0,
-    "roi_pct": 173.5,
+    "wins": 35,
+    "losses": 18,
+    "graded": 53,
+    "pending": 16,
+    "profit_units": 13.21,
+    "units_risked": 62.0,
+    "roi_pct": 21.3,
     "win_rate": 66.0,
-    "latest_pick": "NY Rangers ML -220 \u2014 Chicago Blackhawks @ New York Rangers"
+    "latest_pick": "COL ML -280 \u2014 Winnipeg Jets @ Colorado Avalanche"
   }
 }
