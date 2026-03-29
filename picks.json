@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-29",
+    "sport": "NBA",
+    "game": "Washington Wizards @ Portland Trail Blazers",
+    "pick": "Portland Trail Blazers",
+    "bet_type": "ATS",
+    "line": "-16.5",
+    "pick_display": "Portland Trail Blazers ATS -16.5",
+    "edge": 11.395,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-03-28",
     "sport": "NHL",
     "game": "Winnipeg Jets @ Colorado Avalanche",
@@ -79,7 +93,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result":"W",
+    "result": "W",
     "units": 2.0
   },
   {
