@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-29T08:05:02.313544",
+  "generated_at": "2026-03-30T08:05:02.010182",
   "sp500": {
-    "price": 6368.85,
-    "ytd_pct": -7.14,
-    "as_of": "2026-03-27",
+    "price": 6408.12,
+    "ytd_pct": -6.57,
+    "as_of": "2026-03-30",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 35,
-    "losses": 18,
-    "graded": 53,
-    "pending": 16,
-    "profit_units": 13.21,
-    "units_risked": 62.0,
-    "roi_pct": 21.3,
-    "win_rate": 66.0,
-    "latest_pick": "COL ML -280 \u2014 Winnipeg Jets @ Colorado Avalanche"
+    "wins": 42,
+    "losses": 22,
+    "graded": 64,
+    "pending": 11,
+    "profit_units": 55.84,
+    "units_risked": 75.0,
+    "roi_pct": 74.4,
+    "win_rate": 65.6,
+    "latest_pick": "Portland Trail Blazers ATS -16.5"
   }
 }
