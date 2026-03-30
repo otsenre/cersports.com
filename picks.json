@@ -1,6 +1,25 @@
 [
   {
     "date": "2026-03-30",
+    "sport": "NHL",
+    "game": "Calgary Flames @ Colorado Avalanche",
+    "pick": "Colorado ML",
+    "bet_type": "ML",
+    "line": "-210",
+    "pick_display": "Colorado ML -210 \u2014 Calgary Flames @ Colorado Avalanche",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-30",
     "sport": "NBA",
     "game": "Philadelphia 76ers @ Miami Heat",
     "pick": "Miami Heat",
