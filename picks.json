@@ -10,7 +10,7 @@
     "edge": 11.395,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -24,7 +24,7 @@
     "edge": 11.395,
     "ccr": 80,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NBA"
