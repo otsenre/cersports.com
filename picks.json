@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-03-31",
+    "sport": "NHL",
+    "game": "Ottawa Senators @ Florida Panthers",
+    "pick": "OTT ML",
+    "bet_type": "ML",
+    "line": "-165",
+    "pick_display": "OTT ML -165 \u2014 Ottawa Senators @ Florida Panthers",
+    "edge": 0,
+    "ccr": 83,
+    "ccr_avg": 81,
+    "consensus_reports": 2,
+    "source_reports": [
+      "claude",
+      "chatgpt"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-03-31",
     "sport": "NBA",
     "game": "Toronto Raptors @ Detroit Pistons",
     "pick": "Detroit Pistons",
