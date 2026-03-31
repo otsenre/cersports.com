@@ -48,6 +48,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-31",
+    "sport": "BEST",
+    "game": "Ottawa Senators @ Florida Panthers",
+    "pick": "OTT ML",
+    "bet_type": "ML",
+    "line": "-165",
+    "pick_display": "OTT ML -165 \u2014 Ottawa Senators @ Florida Panthers",
+    "edge": 0,
+    "ccr": 83,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-03-30",
     "sport": "NHL",
     "game": "Calgary Flames @ Colorado Avalanche",
