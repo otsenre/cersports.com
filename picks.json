@@ -34,6 +34,20 @@
     "units": 1.0
   },
   {
+    "date": "2026-03-31",
+    "sport": "MLB",
+    "game": "Cleveland Guardians @ Los Angeles Dodgers",
+    "pick": "Dodgers ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Dodgers ML \u2014 Cleveland Guardians @ Los Angeles Dodgers",
+    "edge": 0,
+    "ccr": 76,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-30",
     "sport": "NHL",
     "game": "Calgary Flames @ Colorado Avalanche",
