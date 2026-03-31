@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-30T08:05:02.010182",
+  "generated_at": "2026-03-31T08:05:02.529012",
   "sp500": {
-    "price": 6408.12,
-    "ytd_pct": -6.57,
-    "as_of": "2026-03-30",
+    "price": 6424.03,
+    "ytd_pct": -6.33,
+    "as_of": "2026-03-31",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 42,
-    "losses": 22,
-    "graded": 64,
+    "wins": 46,
+    "losses": 25,
+    "graded": 71,
     "pending": 11,
-    "profit_units": 55.84,
-    "units_risked": 75.0,
-    "roi_pct": 74.4,
-    "win_rate": 65.6,
-    "latest_pick": "Portland Trail Blazers ATS -16.5"
+    "profit_units": 17.28,
+    "units_risked": 86.0,
+    "roi_pct": 20.1,
+    "win_rate": 64.8,
+    "latest_pick": "Dodgers ML \u2014 Cleveland Guardians @ Los Angeles Dodgers"
   }
 }
