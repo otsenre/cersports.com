@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-31",
+    "sport": "NBA",
+    "game": "Toronto Raptors @ Detroit Pistons",
+    "pick": "Detroit Pistons",
+    "bet_type": "ATS",
+    "line": "-2.5",
+    "pick_display": "Detroit Pistons ATS -2.5",
+    "edge": 5.405,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-03-30",
     "sport": "NHL",
     "game": "Calgary Flames @ Colorado Avalanche",
