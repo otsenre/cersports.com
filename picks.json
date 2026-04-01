@@ -16,7 +16,7 @@
       "chatgpt"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -30,7 +30,7 @@
     "edge": 5.405,
     "ccr": 70,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -44,7 +44,7 @@
     "edge": 0,
     "ccr": 76,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -58,7 +58,7 @@
     "edge": 0,
     "ccr": 83,
     "tier": "A",
-    "result": null,
+    "result": "L",
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL"
