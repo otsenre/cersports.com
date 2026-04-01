@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-31T08:05:02.529012",
+  "generated_at": "2026-04-01T08:05:02.382394",
   "sp500": {
-    "price": 6424.03,
-    "ytd_pct": -6.33,
-    "as_of": "2026-03-31",
+    "price": 6590.37,
+    "ytd_pct": -3.91,
+    "as_of": "2026-04-01",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 46,
+    "wins": 51,
     "losses": 25,
-    "graded": 71,
-    "pending": 11,
-    "profit_units": 17.28,
-    "units_risked": 86.0,
-    "roi_pct": 20.1,
-    "win_rate": 64.8,
-    "latest_pick": "Dodgers ML \u2014 Cleveland Guardians @ Los Angeles Dodgers"
+    "graded": 76,
+    "pending": 14,
+    "profit_units": 60.9,
+    "units_risked": 91.0,
+    "roi_pct": 66.9,
+    "win_rate": 67.1,
+    "latest_pick": "OTT ML -165 \u2014 Ottawa Senators @ Florida Panthers"
   }
 }
