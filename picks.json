@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-04-01",
+    "sport": "NHL",
+    "game": "Vancouver Canucks @ Colorado Avalanche",
+    "pick": "COL -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "COL -1.5 -1.5 \u2014 Vancouver Canucks @ Colorado Avalanche",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 88,
+    "consensus_reports": 2,
+    "source_reports": [
+      "chatgpt",
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-01",
     "sport": "NBA",
     "game": "Atlanta Hawks @ Orlando Magic",
     "pick": "Orlando Magic",
