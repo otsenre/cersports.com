@@ -50,18 +50,18 @@
   {
     "date": "2026-04-01",
     "sport": "BEST",
-    "game": "Atlanta Hawks @ Orlando Magic",
-    "pick": "Orlando Magic",
+    "game": "Vancouver Canucks @ Colorado Avalanche",
+    "pick": "COL -1.5",
     "bet_type": "ATS",
-    "line": "+4.5",
-    "pick_display": "Orlando Magic ATS +4.5",
-    "edge": 8.658,
-    "ccr": 70,
-    "tier": "B",
+    "line": -1.5,
+    "pick_display": "COL -1.5 -1.5 \u2014 Vancouver Canucks @ Colorado Avalanche",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
     "result": null,
     "profit_units": null,
-    "units": 1.0,
-    "source_sport": "NBA"
+    "units": 2.0,
+    "source_sport": "NHL"
   },
   {
     "date": "2026-03-31",
