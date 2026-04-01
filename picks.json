@@ -35,6 +35,20 @@
   },
   {
     "date": "2026-04-01",
+    "sport": "MLB",
+    "game": "Rockies @ Blue Jays",
+    "pick": "Blue Jays -1.5",
+    "bet_type": "ATS",
+    "line": "",
+    "pick_display": "Blue Jays -1.5 \u2014 Rockies @ Blue Jays",
+    "edge": 0,
+    "ccr": 78,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-01",
     "sport": "BEST",
     "game": "Atlanta Hawks @ Orlando Magic",
     "pick": "Orlando Magic",
