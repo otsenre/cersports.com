@@ -14,6 +14,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-04-01",
+    "sport": "BEST",
+    "game": "Atlanta Hawks @ Orlando Magic",
+    "pick": "Orlando Magic",
+    "bet_type": "ATS",
+    "line": "+4.5",
+    "pick_display": "Orlando Magic ATS +4.5",
+    "edge": 8.658,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "profit_units": null,
+    "units": 1.0,
+    "source_sport": "NBA"
+  },
+  {
     "date": "2026-03-31",
     "sport": "NHL",
     "game": "Ottawa Senators @ Florida Panthers",
