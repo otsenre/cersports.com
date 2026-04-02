@@ -20,6 +20,20 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-02",
+    "sport": "MLB",
+    "game": "Minnesota Twins @ Kansas City Royals",
+    "pick": "Royals ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Royals ML \u2014 Minnesota Twins @ Kansas City Royals",
+    "edge": 0,
+    "ccr": 77,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-01",
     "sport": "NHL",
     "game": "Vancouver Canucks @ Colorado Avalanche",
