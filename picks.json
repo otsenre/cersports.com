@@ -34,6 +34,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-02",
+    "sport": "BEST",
+    "game": "Columbus Blue Jackets @ Carolina Hurricanes",
+    "pick": "CAR ML",
+    "bet_type": "ML",
+    "line": "-170",
+    "pick_display": "CAR ML -170 \u2014 Columbus Blue Jackets @ Carolina Hurricanes",
+    "edge": 0,
+    "ccr": 81,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-04-01",
     "sport": "NHL",
     "game": "Vancouver Canucks @ Colorado Avalanche",
