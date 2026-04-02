@@ -36,16 +36,16 @@
   {
     "date": "2026-04-02",
     "sport": "MLB",
-    "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder ATS -8.5",
-    "bet_type": "ATS",
+    "game": "Minnesota Twins @ Kansas City Royals",
+    "pick": "Royals ML",
+    "bet_type": "ML",
     "line": "",
-    "pick_display": "Los Angeles Lakers ATS -8.5 \u2014 Oklahoma City Thunder",
-    "edge": 1.5,
-    "ccr": 56,
-    "tier": "C",
+    "pick_display": "Royals ML \u2014 Minnesota Twins @ Kansas City Royals",
+    "edge": 0,
+    "ccr": 77,
+    "tier": "A",
     "result": null,
-    "units": 1.0
+    "units": 2.0
   },
   {
     "date": "2026-04-02",
