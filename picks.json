@@ -2,36 +2,42 @@
   {
     "date": "2026-04-02",
     "sport": "NHL",
-    "game": "Columbus Blue Jackets @ Carolina Hurricanes",
-    "pick": "CAR ML",
-    "bet_type": "ML",
-    "line": "-170",
-    "pick_display": "CAR ML -170 \u2014 Columbus Blue Jackets @ Carolina Hurricanes",
+    "game": "Vancouver Canucks @ Minnesota Wild",
+    "pick": "MIN -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "MIN -1.5 -1.5 \u2014 Vancouver Canucks @ Minnesota Wild",
     "edge": 0,
-    "ccr": 81,
-    "ccr_avg": 80,
+    "ccr": 79,
+    "ccr_avg": 79,
     "consensus_reports": 2,
     "source_reports": [
-      "claude",
-      "chatgpt"
+      "chatgpt",
+      "claude"
     ],
-    "tier": "A",
+    "tier": "B",
     "result": null,
-    "units": 2.0
+    "units": 1.25
   },
   {
     "date": "2026-04-02",
     "sport": "NBA",
-    "game": "Minnesota Twins @ Kansas City Royals",
-    "pick": "Royals ML",
+    "game": "Cleveland Cavaliers @ Golden State Warriors",
+    "pick": "Cavaliers ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Royals ML \u2014 Minnesota Twins @ Kansas City Royals",
+    "line": 100,
+    "pick_display": "Cavaliers ML +100 \u2014 Cleveland Cavaliers @ Golden State Warriors",
     "edge": 0,
-    "ccr": 77,
-    "tier": "A",
+    "ccr": 72,
+    "ccr_avg": 72,
+    "consensus_reports": 2,
+    "source_reports": [
+      "claude",
+      "gemini"
+    ],
+    "tier": "B",
     "result": null,
-    "units": 2.0
+    "units": 1.0
   },
   {
     "date": "2026-04-02",
@@ -39,29 +45,61 @@
     "game": "Minnesota Twins @ Kansas City Royals",
     "pick": "Royals ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Royals ML \u2014 Minnesota Twins @ Kansas City Royals",
+    "line": -156,
+    "pick_display": "Royals ML -156 \u2014 Minnesota Twins @ Kansas City Royals",
     "edge": 0,
     "ccr": 77,
-    "tier": "A",
+    "ccr_avg": 77,
+    "consensus_reports": 3,
+    "source_reports": [
+      "chatgpt",
+      "claude",
+      "gemini"
+    ],
+    "tier": "B",
     "result": null,
-    "units": 2.0
+    "units": 1.5
   },
   {
     "date": "2026-04-02",
     "sport": "BEST",
-    "game": "Columbus Blue Jackets @ Carolina Hurricanes",
-    "pick": "CAR ML",
+    "game": "Minnesota Twins @ Kansas City Royals",
+    "pick": "Royals ML",
     "bet_type": "ML",
-    "line": "-170",
-    "pick_display": "CAR ML -170 \u2014 Columbus Blue Jackets @ Carolina Hurricanes",
+    "line": -156,
+    "pick_display": "Royals ML -156 \u2014 Minnesota Twins @ Kansas City Royals",
+    "edge": 0,
+    "ccr": 77,
+    "ccr_avg": 77,
+    "consensus_reports": 3,
+    "source_reports": [
+      "chatgpt",
+      "claude",
+      "gemini"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.5,
+    "source_sport": "MLB"
+  },
+  {
+    "date": "2026-04-02",
+    "sport": "ATP",
+    "game": "Rafael Jodar vs Tomas Machac",
+    "pick": "Tomas Machac ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Tomas Machac ML \u2014 Rafael Jodar vs Tomas Machac",
     "edge": 0,
     "ccr": 81,
+    "ccr_avg": 81,
+    "consensus_reports": 1,
+    "source_reports": [
+      "chatgpt"
+    ],
     "tier": "A",
     "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NHL"
+    "units": 1.5
   },
   {
     "date": "2026-04-01",
