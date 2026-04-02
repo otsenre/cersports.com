@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-02T08:05:01.739710",
+  "generated_at": "2026-04-02T11:26:00.837763",
   "sp500": {
-    "price": 6574.39,
-    "ytd_pct": -4.14,
+    "price": 6558.68,
+    "ytd_pct": -4.37,
     "as_of": "2026-04-02",
     "source": "yahoo_finance"
   },
@@ -10,11 +10,11 @@
     "wins": 52,
     "losses": 30,
     "graded": 82,
-    "pending": 16,
+    "pending": 21,
     "profit_units": 56.43,
     "units_risked": 97.0,
     "roi_pct": 58.2,
     "win_rate": 63.4,
-    "latest_pick": "COL -1.5 -1.5 \u2014 Vancouver Canucks @ Colorado Avalanche"
+    "latest_pick": "Royals ML -156 \u2014 Minnesota Twins @ Kansas City Royals"
   }
 }
