@@ -45,20 +45,13 @@
     "game": "Minnesota Twins @ Kansas City Royals",
     "pick": "Royals ML",
     "bet_type": "ML",
-    "line": -156,
-    "pick_display": "Royals ML -156 \u2014 Minnesota Twins @ Kansas City Royals",
+    "line": "",
+    "pick_display": "Royals ML \u2014 Minnesota Twins @ Kansas City Royals",
     "edge": 0,
     "ccr": 77,
-    "ccr_avg": 77,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
-    "tier": "B",
+    "tier": "A",
     "result": null,
-    "units": 1.5
+    "units": 2.0
   },
   {
     "date": "2026-04-02",
