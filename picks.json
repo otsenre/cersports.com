@@ -33,6 +33,20 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-03",
+    "sport": "MLB",
+    "game": "Los Angeles Dodgers @ Washington Nationals",
+    "pick": "Dodgers ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Dodgers ML \u2014 Los Angeles Dodgers @ Washington Nationals",
+    "edge": 0,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-02",
     "sport": "NHL",
     "game": "Vancouver Canucks @ Minnesota Wild",
