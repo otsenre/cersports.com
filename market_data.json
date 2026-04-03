@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T08:05:01.598830",
+  "generated_at": "2026-04-03T08:16:13.045838",
   "sp500": {
     "price": 6582.69,
     "ytd_pct": -4.02,
@@ -10,7 +10,7 @@
     "wins": 59,
     "losses": 37,
     "graded": 96,
-    "pending": 7,
+    "pending": 13,
     "profit_units": 56.43,
     "units_risked": 117.25,
     "roi_pct": 48.1,
