@@ -47,6 +47,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-03",
+    "sport": "BEST",
+    "game": "St. Louis Blues @ Anaheim Ducks",
+    "pick": "St. Louis Blues ML",
+    "bet_type": "ML",
+    "line": "-155",
+    "pick_display": "St. Louis Blues ML -155 \u2014 St. Louis Blues @ Anaheim Ducks",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NHL"
+  },
+  {
     "date": "2026-04-02",
     "sport": "NHL",
     "game": "Vancouver Canucks @ Minnesota Wild",
