@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T13:20:16.879744",
+  "generated_at": "2026-04-03T08:05:01.598830",
   "sp500": {
     "price": 6582.69,
     "ytd_pct": -4.02,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 52,
-    "losses": 30,
-    "graded": 82,
-    "pending": 21,
+    "wins": 59,
+    "losses": 37,
+    "graded": 96,
+    "pending": 7,
     "profit_units": 56.43,
-    "units_risked": 97.0,
-    "roi_pct": 58.2,
-    "win_rate": 63.4,
+    "units_risked": 117.25,
+    "roi_pct": 48.1,
+    "win_rate": 61.5,
     "latest_pick": "Royals ML -156 \u2014 Minnesota Twins @ Kansas City Royals"
   }
 }
