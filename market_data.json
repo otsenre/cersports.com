@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T08:05:01.676408",
+  "generated_at": "2026-04-04T08:19:26.134124",
   "sp500": {
     "price": 6582.69,
     "ytd_pct": -4.02,
@@ -10,11 +10,11 @@
     "wins": 68,
     "losses": 42,
     "graded": 110,
-    "pending": 13,
+    "pending": 18,
     "profit_units": 11.16,
     "units_risked": 139.25,
     "roi_pct": 8.0,
     "win_rate": 61.8,
-    "latest_pick": "Blue Jays ML -207 \u2014 Toronto Blue Jays @ Chicago White Sox"
+    "latest_pick": "CAR ML -240 \u2014 New York Islanders @ Carolina Hurricanes"
   }
 }
