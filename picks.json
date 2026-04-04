@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-04",
+    "sport": "NBA",
+    "game": "Detroit Pistons @ Philadelphia 76ers",
+    "pick": "Detroit Pistons",
+    "bet_type": "ATS",
+    "line": "-3.5",
+    "pick_display": "Detroit Pistons ATS -3.5",
+    "edge": 7.424,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-03",
     "sport": "WTA",
     "game": "Emiliana Arango vs Varvara Lepchenko",
