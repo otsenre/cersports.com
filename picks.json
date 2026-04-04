@@ -33,6 +33,20 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-04",
+    "sport": "MLB",
+    "game": "Toronto Blue Jays @ Chicago White Sox",
+    "pick": "Blue Jays ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Blue Jays ML \u2014 Toronto Blue Jays @ Chicago White Sox",
+    "edge": 0,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-03",
     "sport": "WTA",
     "game": "Emiliana Arango vs Varvara Lepchenko",
