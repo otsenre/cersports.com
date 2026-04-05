@@ -15,7 +15,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -54,7 +54,7 @@
       "claude"
     ],
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -136,7 +136,7 @@
       "claude"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 1.5
   },
   {
