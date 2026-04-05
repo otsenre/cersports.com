@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-05",
+    "sport": "NBA",
+    "game": "Los Angeles Lakers @ Dallas Mavericks",
+    "pick": "Los Angeles Lakers",
+    "bet_type": "ATS",
+    "line": "-2",
+    "pick_display": "Los Angeles Lakers ATS -2",
+    "edge": 7.595,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-04",
     "sport": "WTA",
     "game": "Camila Osorio vs Laura Pigossi",
