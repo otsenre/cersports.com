@@ -28,6 +28,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-05",
+    "sport": "BEST",
+    "game": "Los Angeles Dodgers @ Washington Nationals",
+    "pick": "Dodgers ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Dodgers ML \u2014 Los Angeles Dodgers @ Washington Nationals",
+    "edge": 0,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "MLB"
+  },
+  {
     "date": "2026-04-04",
     "sport": "WTA",
     "game": "Camila Osorio vs Laura Pigossi",
