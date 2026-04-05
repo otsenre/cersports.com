@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T08:19:26.134124",
+  "generated_at": "2026-04-05T08:05:02.841181",
   "sp500": {
     "price": 6582.69,
     "ytd_pct": -4.02,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 68,
-    "losses": 42,
-    "graded": 110,
-    "pending": 18,
-    "profit_units": 11.16,
-    "units_risked": 139.25,
-    "roi_pct": 8.0,
-    "win_rate": 61.8,
-    "latest_pick": "CAR ML -240 \u2014 New York Islanders @ Carolina Hurricanes"
+    "wins": 79,
+    "losses": 46,
+    "graded": 125,
+    "pending": 8,
+    "profit_units": 18.1,
+    "units_risked": 161.25,
+    "roi_pct": 11.2,
+    "win_rate": 63.2,
+    "latest_pick": "Toronto FC ML +105 \u2014 Colorado Rapids @ Toronto FC"
   }
 }
