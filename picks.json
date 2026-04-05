@@ -1,18 +1,18 @@
 [
   {
     "date": "2026-04-04",
-    "sport": "NHL",
-    "game": "New York Islanders @ Carolina Hurricanes",
-    "pick": "CAR ML",
-    "bet_type": "ML",
-    "line": "-240",
-    "pick_display": "CAR ML -240 \u2014 New York Islanders @ Carolina Hurricanes",
+    "sport": "WTA",
+    "game": "Camila Osorio vs Laura Pigossi",
+    "pick": "Camila Osorio",
+    "bet_type": "Game Spread",
+    "line": -4.5,
+    "pick_display": "Camila Osorio -4.5 \u2014 Camila Osorio vs Laura Pigossi",
     "edge": 0,
-    "ccr": 90,
-    "ccr_avg": 90,
+    "ccr": 85,
+    "ccr_avg": 85,
     "consensus_reports": 1,
     "source_reports": [
-      "claude"
+      "gemini"
     ],
     "tier": "A",
     "result": null,
@@ -20,17 +20,63 @@
   },
   {
     "date": "2026-04-04",
-    "sport": "NBA",
-    "game": "Detroit Pistons @ Philadelphia 76ers",
-    "pick": "Detroit Pistons",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Detroit Pistons ATS -3.5",
-    "edge": 7.424,
-    "ccr": 80,
+    "sport": "NHL",
+    "game": "Chicago Blackhawks @ Seattle Kraken",
+    "pick": "Seattle Kraken",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Seattle Kraken \u2014 Chicago Blackhawks @ Seattle Kraken",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "chatgpt"
+    ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
+  },
+  {
+    "date": "2026-04-04",
+    "sport": "NBA",
+    "game": "San Antonio Spurs @ Denver Nuggets",
+    "pick": "Nikola Jokic Over 27.5 Points",
+    "bet_type": "Prop",
+    "line": 27.5,
+    "pick_display": "Nikola Jokic Over 27.5 Points +27.5 \u2014 San Antonio Spurs @ Denver Nuggets",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 2,
+    "source_reports": [
+      "anthropic",
+      "claude"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-04",
+    "sport": "MLS",
+    "game": "Colorado Rapids @ Toronto FC",
+    "pick": "Toronto FC ML",
+    "bet_type": "ML",
+    "line": 105,
+    "pick_display": "Toronto FC ML +105 \u2014 Colorado Rapids @ Toronto FC",
+    "edge": 0,
+    "ccr": 72,
+    "ccr_avg": 72,
+    "consensus_reports": 3,
+    "source_reports": [
+      "chatgpt",
+      "claude",
+      "gemini"
+    ],
+    "tier": "B",
+    "result": "W",
+    "units": 1.25
   },
   {
     "date": "2026-04-04",
@@ -38,29 +84,60 @@
     "game": "Toronto Blue Jays @ Chicago White Sox",
     "pick": "Blue Jays ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Blue Jays ML \u2014 Toronto Blue Jays @ Chicago White Sox",
+    "line": -185,
+    "pick_display": "Blue Jays ML -185 \u2014 Toronto Blue Jays @ Chicago White Sox",
     "edge": 0,
     "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 2,
+    "source_reports": [
+      "chatgpt",
+      "claude"
+    ],
     "tier": "A",
-    "result": null,
-    "units": 2.0
+    "result": "L",
+    "units": 1.5
   },
   {
     "date": "2026-04-04",
     "sport": "BEST",
-    "game": "New York Islanders @ Carolina Hurricanes",
-    "pick": "CAR ML",
+    "game": "Colorado Rapids @ Toronto FC",
+    "pick": "Toronto FC ML",
     "bet_type": "ML",
-    "line": "-240",
-    "pick_display": "CAR ML -240 \u2014 New York Islanders @ Carolina Hurricanes",
+    "line": 105,
+    "pick_display": "Toronto FC ML +105 \u2014 Colorado Rapids @ Toronto FC",
     "edge": 0,
-    "ccr": 90,
+    "ccr": 72,
+    "ccr_avg": 72,
+    "consensus_reports": 3,
+    "source_reports": [
+      "chatgpt",
+      "claude",
+      "gemini"
+    ],
+    "tier": "B",
+    "result": "W",
+    "units": 1.25,
+    "source_sport": "MLS"
+  },
+  {
+    "date": "2026-04-04",
+    "sport": "ATP",
+    "game": "Luciano Darderi vs Marco Trungelliti",
+    "pick": "Darderi ML",
+    "bet_type": "ML",
+    "line": -323,
+    "pick_display": "Darderi ML -323 \u2014 Luciano Darderi vs Marco Trungelliti",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "claude"
+    ],
     "tier": "A",
     "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NHL"
+    "units": 1.5
   },
   {
     "date": "2026-04-03",
@@ -627,7 +704,7 @@
     "edge": 0,
     "ccr": 90,
     "tier": "A",
-    "result": null,
+    "result": "W",
     "profit_units": "W",
     "units": 2.0,
     "source_sport": "NHL"
