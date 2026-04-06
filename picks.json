@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-04-06",
+    "sport": "NHL",
+    "game": "Nashville Predators @ Los Angeles Kings",
+    "pick": "Los Angeles Kings ML",
+    "bet_type": "ML",
+    "line": -135,
+    "pick_display": "Los Angeles Kings ML -135 \u2014 Nashville Predators @ Los Angeles Kings",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-05",
     "sport": "NHL",
     "game": "Boston Bruins @ Philadelphia Flyers",
