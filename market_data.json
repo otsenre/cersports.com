@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-06T08:05:01.868202",
+  "generated_at": "2026-04-06T08:26:44.454721",
   "sp500": {
-    "price": 6598.55,
-    "ytd_pct": -3.79,
+    "price": 6593.68,
+    "ytd_pct": -3.86,
     "as_of": "2026-04-06",
     "source": "yahoo_finance"
   },
@@ -10,7 +10,7 @@
     "wins": 85,
     "losses": 50,
     "graded": 135,
-    "pending": 9,
+    "pending": 10,
     "profit_units": 17.89,
     "units_risked": 174.75,
     "roi_pct": 10.2,
