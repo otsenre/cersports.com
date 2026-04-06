@@ -1,17 +1,41 @@
 [
   {
     "date": "2026-04-05",
-    "sport": "NBA",
-    "game": "Los Angeles Lakers @ Dallas Mavericks",
-    "pick": "Los Angeles Lakers",
+    "sport": "NHL",
+    "game": "Boston Bruins @ Philadelphia Flyers",
+    "pick": "Boston Bruins -1.5",
     "bet_type": "ATS",
-    "line": "-2",
-    "pick_display": "Los Angeles Lakers ATS -2",
-    "edge": 7.595,
-    "ccr": 80,
+    "line": "",
+    "pick_display": "Boston Bruins -1.5 \u2014 Boston Bruins @ Philadelphia Flyers",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "A",
     "result": null,
     "units": 2.0
+  },
+  {
+    "date": "2026-04-05",
+    "sport": "NBA",
+    "game": "Houston Rockets @ Golden State Warriors",
+    "pick": "Warriors -8.5",
+    "bet_type": "ATS",
+    "line": 8.5,
+    "pick_display": "Warriors -8.5 +8.5 \u2014 Houston Rockets @ Golden State Warriors",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
   },
   {
     "date": "2026-04-05",
@@ -19,12 +43,17 @@
     "game": "Los Angeles Dodgers @ Washington Nationals",
     "pick": "Dodgers ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Dodgers ML \u2014 Los Angeles Dodgers @ Washington Nationals",
+    "line": -150,
+    "pick_display": "Dodgers ML -150 \u2014 Los Angeles Dodgers @ Washington Nationals",
     "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -33,13 +62,17 @@
     "game": "Los Angeles Dodgers @ Washington Nationals",
     "pick": "Dodgers ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Dodgers ML \u2014 Los Angeles Dodgers @ Washington Nationals",
+    "line": -150,
+    "pick_display": "Dodgers ML -150 \u2014 Los Angeles Dodgers @ Washington Nationals",
     "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "A",
-    "result": null,
-    "profit_units": null,
+    "result": "W",
     "units": 2.0,
     "source_sport": "MLB"
   },
