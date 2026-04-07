@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-07",
+    "sport": "NBA",
+    "game": "Sacramento Kings @ Golden State Warriors",
+    "pick": "Golden State Warriors",
+    "bet_type": "ATS",
+    "line": "-13.5",
+    "pick_display": "Golden State Warriors ATS -13.5",
+    "edge": 7.652,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-06",
     "sport": "NHL",
     "game": "Nashville Predators @ Los Angeles Kings",
