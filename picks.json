@@ -1,14 +1,57 @@
 [
   {
     "date": "2026-04-07",
-    "sport": "NBA",
-    "game": "Sacramento Kings @ Golden State Warriors",
-    "pick": "Golden State Warriors",
+    "sport": "NHL",
+    "game": "Edmonton Oilers @ Utah Mammoth",
+    "pick": "Edmonton Oilers -1.5",
     "bet_type": "ATS",
-    "line": "-13.5",
-    "pick_display": "Golden State Warriors ATS -13.5",
-    "edge": 7.652,
+    "line": -110,
+    "pick_display": "Edmonton Oilers -1.5 -110 \u2014 Edmonton Oilers @ Utah Mammoth",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-07",
+    "sport": "NBA",
+    "game": "Charlotte Hornets @ Boston Celtics",
+    "pick": "Celtics -16.5",
+    "bet_type": "ATS",
+    "line": -16.5,
+    "pick_display": "Celtics -16.5 -16.5 \u2014 Charlotte Hornets @ Boston Celtics",
+    "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-07",
+    "sport": "MLB",
+    "game": "Atlanta Braves @ Los Angeles Angels",
+    "pick": "Braves -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Braves -1.5 -1.5 \u2014 Atlanta Braves @ Los Angeles Angels",
+    "edge": 0,
+    "ccr": 95,
+    "ccr_avg": 95,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
     "tier": "A",
     "result": null,
     "units": 2.0
@@ -16,18 +59,41 @@
   {
     "date": "2026-04-07",
     "sport": "BEST",
-    "game": "Sacramento Kings @ Golden State Warriors",
-    "pick": "Golden State Warriors",
+    "game": "Atlanta Braves @ Los Angeles Angels",
+    "pick": "Braves -1.5",
     "bet_type": "ATS",
-    "line": "-13.5",
-    "pick_display": "Golden State Warriors ATS -13.5",
-    "edge": 7.652,
-    "ccr": 90,
+    "line": -1.5,
+    "pick_display": "Braves -1.5 -1.5 \u2014 Atlanta Braves @ Los Angeles Angels",
+    "edge": 0,
+    "ccr": 95,
+    "ccr_avg": 95,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
     "tier": "A",
     "result": null,
-    "profit_units": null,
     "units": 2.0,
-    "source_sport": "NBA"
+    "source_sport": "MLB"
+  },
+  {
+    "date": "2026-04-07",
+    "sport": "ATP",
+    "game": "Jannik Sinner vs Casper Ruud",
+    "pick": "Casper Ruud +3.5 Games",
+    "bet_type": "Game Spread",
+    "line": 3.5,
+    "pick_display": "Casper Ruud +3.5 Games +3.5 \u2014 Jannik Sinner vs Casper Ruud",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
   },
   {
     "date": "2026-04-06",
@@ -83,7 +149,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -118,7 +184,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "void",
     "units": 2.0
   },
   {
@@ -137,7 +203,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
