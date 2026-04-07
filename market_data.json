@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-06T08:26:44.454721",
+  "generated_at": "2026-04-07T08:05:01.394672",
   "sp500": {
-    "price": 6593.68,
-    "ytd_pct": -3.86,
-    "as_of": "2026-04-06",
+    "price": 6542.18,
+    "ytd_pct": -4.61,
+    "as_of": "2026-04-07",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 85,
-    "losses": 50,
-    "graded": 135,
-    "pending": 10,
-    "profit_units": 17.89,
-    "units_risked": 174.75,
-    "roi_pct": 10.2,
-    "win_rate": 63.0,
-    "latest_pick": "Dodgers ML -150 \u2014 Los Angeles Dodgers @ Washington Nationals"
+    "wins": 86,
+    "losses": 51,
+    "graded": 137,
+    "pending": 11,
+    "profit_units": 15.89,
+    "units_risked": 178.75,
+    "roi_pct": 8.9,
+    "win_rate": 62.8,
+    "latest_pick": "Los Angeles Kings ML \u2014 Nashville Predators @ Los Angeles Kings"
   }
 }
