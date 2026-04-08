@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-08",
+    "sport": "NBA",
+    "game": "Portland Trail Blazers @ San Antonio Spurs",
+    "pick": "San Antonio Spurs",
+    "bet_type": "ATS",
+    "line": "-3.5",
+    "pick_display": "San Antonio Spurs ATS -3.5",
+    "edge": 9.181,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-07",
     "sport": "NHL",
     "game": "Edmonton Oilers @ Utah Mammoth",
