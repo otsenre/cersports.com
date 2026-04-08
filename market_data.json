@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-07T08:05:01.394672",
+  "generated_at": "2026-04-08T08:05:01.935374",
   "sp500": {
-    "price": 6542.18,
-    "ytd_pct": -4.61,
-    "as_of": "2026-04-07",
+    "price": 6760.67,
+    "ytd_pct": -1.43,
+    "as_of": "2026-04-08",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 86,
-    "losses": 51,
-    "graded": 137,
-    "pending": 11,
-    "profit_units": 15.89,
-    "units_risked": 178.75,
-    "roi_pct": 8.9,
-    "win_rate": 62.8,
-    "latest_pick": "Los Angeles Kings ML \u2014 Nashville Predators @ Los Angeles Kings"
+    "wins": 90,
+    "losses": 58,
+    "graded": 148,
+    "pending": 13,
+    "profit_units": 11.76,
+    "units_risked": 193.75,
+    "roi_pct": 6.1,
+    "win_rate": 60.8,
+    "latest_pick": "Braves -1.5 -1.5 \u2014 Atlanta Braves @ Los Angeles Angels"
   }
 }
