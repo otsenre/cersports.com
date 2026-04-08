@@ -1,14 +1,57 @@
 [
   {
     "date": "2026-04-08",
+    "sport": "NHL",
+    "game": "Buffalo Sabres @ New York Rangers",
+    "pick": "New York Rangers",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "New York Rangers \u2014 Buffalo Sabres @ New York Rangers",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-08",
     "sport": "NBA",
-    "game": "Portland Trail Blazers @ San Antonio Spurs",
-    "pick": "San Antonio Spurs",
+    "game": "Milwaukee Bucks @ Detroit Pistons",
+    "pick": "Bucks -8.5",
     "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "San Antonio Spurs ATS -3.5",
-    "edge": 9.181,
+    "line": 8.5,
+    "pick_display": "Bucks -8.5 +8.5 \u2014 Milwaukee Bucks @ Detroit Pistons",
+    "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-08",
+    "sport": "MLB",
+    "game": "Baltimore Orioles at Chicago White Sox",
+    "pick": "Orioles -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Orioles -1.5 -1.5 \u2014 Baltimore Orioles at Chicago White Sox",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
     "tier": "A",
     "result": null,
     "units": 2.0
@@ -16,18 +59,41 @@
   {
     "date": "2026-04-08",
     "sport": "BEST",
-    "game": "Portland Trail Blazers @ San Antonio Spurs",
-    "pick": "San Antonio Spurs",
+    "game": "Baltimore Orioles at Chicago White Sox",
+    "pick": "Orioles -1.5",
     "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "San Antonio Spurs ATS -3.5",
-    "edge": 9.181,
+    "line": -1.5,
+    "pick_display": "Orioles -1.5 -1.5 \u2014 Baltimore Orioles at Chicago White Sox",
+    "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
     "tier": "A",
     "result": null,
-    "profit_units": null,
     "units": 2.0,
-    "source_sport": "NBA"
+    "source_sport": "MLB"
+  },
+  {
+    "date": "2026-04-08",
+    "sport": "ATP",
+    "game": "Jannik Sinner vs Casper Ruud",
+    "pick": "Casper Ruud +3.5 Games",
+    "bet_type": "Game Spread",
+    "line": 3.5,
+    "pick_display": "Casper Ruud +3.5 Games +3.5 \u2014 Jannik Sinner vs Casper Ruud",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
   },
   {
     "date": "2026-04-07",
@@ -122,7 +188,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5
   },
   {
