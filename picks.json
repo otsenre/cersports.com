@@ -15,7 +15,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -34,7 +34,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "L",
     "units": 2.0
   },
   {
@@ -53,7 +53,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -72,7 +72,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0,
     "source_sport": "MLB"
   },
