@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-08T08:05:01.935374",
+  "generated_at": "2026-04-09T08:05:02.884624",
   "sp500": {
-    "price": 6760.67,
-    "ytd_pct": -1.43,
-    "as_of": "2026-04-08",
+    "price": 6773.7,
+    "ytd_pct": -1.24,
+    "as_of": "2026-04-09",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 90,
-    "losses": 58,
-    "graded": 148,
-    "pending": 13,
-    "profit_units": 11.76,
-    "units_risked": 193.75,
-    "roi_pct": 6.1,
-    "win_rate": 60.8,
-    "latest_pick": "Braves -1.5 -1.5 \u2014 Atlanta Braves @ Los Angeles Angels"
+    "wins": 92,
+    "losses": 62,
+    "graded": 154,
+    "pending": 16,
+    "profit_units": 13.39,
+    "units_risked": 202.5,
+    "roi_pct": 6.6,
+    "win_rate": 59.7,
+    "latest_pick": "Orioles -1.5 -1.5 \u2014 Baltimore Orioles at Chicago White Sox"
   }
 }
