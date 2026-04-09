@@ -14,6 +14,22 @@
     "units": 1.0
   },
   {
+    "date": "2026-04-09",
+    "sport": "BEST",
+    "game": "Philadelphia 76ers @ Houston Rockets",
+    "pick": "Houston Rockets",
+    "bet_type": "ATS",
+    "line": "-3.5",
+    "pick_display": "Houston Rockets ATS -3.5",
+    "edge": 5.509,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "profit_units": null,
+    "units": 1.0,
+    "source_sport": "NBA"
+  },
+  {
     "date": "2026-04-08",
     "sport": "NHL",
     "game": "Buffalo Sabres @ New York Rangers",
