@@ -2,13 +2,37 @@
   {
     "date": "2026-04-10",
     "sport": "NBA",
-    "game": "New Orleans Pelicans @ Boston Celtics",
-    "pick": "Boston Celtics",
-    "bet_type": "ATS",
-    "line": "-16.5",
-    "pick_display": "Boston Celtics ATS -16.5",
-    "edge": 9.048,
+    "game": "Miami Heat @ Washington Wizards",
+    "pick": "Heat ML",
+    "bet_type": "ML",
+    "line": -150,
+    "pick_display": "Heat ML -150 \u2014 Miami Heat @ Washington Wizards",
+    "edge": 0,
     "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-10",
+    "sport": "MLB",
+    "game": "New York Yankees @ Tampa Bay Rays",
+    "pick": "Yankees ML",
+    "bet_type": "ML",
+    "line": 120,
+    "pick_display": "Yankees ML +120 \u2014 New York Yankees @ Tampa Bay Rays",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "A",
     "result": null,
     "units": 2.0
@@ -16,18 +40,22 @@
   {
     "date": "2026-04-10",
     "sport": "BEST",
-    "game": "New Orleans Pelicans @ Boston Celtics",
-    "pick": "Boston Celtics",
-    "bet_type": "ATS",
-    "line": "-16.5",
-    "pick_display": "Boston Celtics ATS -16.5",
-    "edge": 9.048,
-    "ccr": 80,
+    "game": "New York Yankees @ Tampa Bay Rays",
+    "pick": "Yankees ML",
+    "bet_type": "ML",
+    "line": 120,
+    "pick_display": "Yankees ML +120 \u2014 New York Yankees @ Tampa Bay Rays",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "A",
     "result": null,
-    "profit_units": null,
     "units": 2.0,
-    "source_sport": "NBA"
+    "source_sport": "MLB"
   },
   {
     "date": "2026-04-09",
@@ -64,7 +92,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -83,7 +111,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5
   },
   {
@@ -102,7 +130,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -121,7 +149,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0,
     "source_sport": "MLB"
   },
