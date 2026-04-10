@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-09T08:05:02.884624",
+  "generated_at": "2026-04-10T08:05:02.118810",
   "sp500": {
-    "price": 6773.7,
-    "ytd_pct": -1.24,
-    "as_of": "2026-04-09",
+    "price": 6834.8,
+    "ytd_pct": -0.35,
+    "as_of": "2026-04-10",
     "source": "yahoo_finance"
   },
   "cer": {
     "wins": 92,
     "losses": 62,
     "graded": 154,
-    "pending": 16,
+    "pending": 27,
     "profit_units": 13.39,
     "units_risked": 202.5,
     "roi_pct": 6.6,
     "win_rate": 59.7,
-    "latest_pick": "Orioles -1.5 -1.5 \u2014 Baltimore Orioles at Chicago White Sox"
+    "latest_pick": "Padres -1.5 -1.5 \u2014 Colorado Rockies @ San Diego Padres"
   }
 }
