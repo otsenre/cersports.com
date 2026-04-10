@@ -1,33 +1,132 @@
 [
   {
+    "date": "2026-04-10",
+    "sport": "NBA",
+    "game": "New Orleans Pelicans @ Boston Celtics",
+    "pick": "Boston Celtics",
+    "bet_type": "ATS",
+    "line": "-16.5",
+    "pick_display": "Boston Celtics ATS -16.5",
+    "edge": 9.048,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-09",
+    "sport": "WTA",
+    "game": "Paula Badosa vs Karolina Muchova",
+    "pick": "Karolina Muchova ML",
+    "bet_type": "ML",
+    "line": -145,
+    "pick_display": "Karolina Muchova ML -145 \u2014 Paula Badosa vs Karolina Muchova",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-09",
+    "sport": "NHL",
+    "game": "Carolina Hurricanes @ Chicago Blackhawks",
+    "pick": "Carolina Hurricanes -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Carolina Hurricanes -1.5 -1.5 \u2014 Carolina Hurricanes @ Chicago Blackhawks",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-09",
     "sport": "NBA",
-    "game": "Philadelphia 76ers @ Houston Rockets",
-    "pick": "Houston Rockets",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Houston Rockets ATS -3.5",
-    "edge": 5.509,
-    "ccr": 70,
-    "tier": "B",
+    "game": "Chicago Bulls @ Washington Wizards",
+    "pick": "Bulls ML",
+    "bet_type": "ML",
+    "line": -130,
+    "pick_display": "Bulls ML -130 \u2014 Chicago Bulls @ Washington Wizards",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
     "result": null,
-    "units": 1.0
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-09",
+    "sport": "MLB",
+    "game": "Colorado Rockies @ San Diego Padres",
+    "pick": "Padres -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Padres -1.5 -1.5 \u2014 Colorado Rockies @ San Diego Padres",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
   },
   {
     "date": "2026-04-09",
     "sport": "BEST",
-    "game": "Philadelphia 76ers @ Houston Rockets",
-    "pick": "Houston Rockets",
+    "game": "Colorado Rockies @ San Diego Padres",
+    "pick": "Padres -1.5",
     "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Houston Rockets ATS -3.5",
-    "edge": 5.509,
-    "ccr": 70,
-    "tier": "B",
+    "line": -1.5,
+    "pick_display": "Padres -1.5 -1.5 \u2014 Colorado Rockies @ San Diego Padres",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
     "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "NBA"
+    "units": 2.0,
+    "source_sport": "MLB"
+  },
+  {
+    "date": "2026-04-09",
+    "sport": "ATP",
+    "game": "Jannik Sinner vs Grigor Dimitrov",
+    "pick": "Jannik Sinner -1.5 Sets",
+    "bet_type": "Set Spread",
+    "line": -1.5,
+    "pick_display": "Jannik Sinner -1.5 Sets -1.5 \u2014 Jannik Sinner vs Grigor Dimitrov",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
   },
   {
     "date": "2026-04-08",
