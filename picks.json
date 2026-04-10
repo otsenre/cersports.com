@@ -14,6 +14,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-10",
+    "sport": "BEST",
+    "game": "New Orleans Pelicans @ Boston Celtics",
+    "pick": "Boston Celtics",
+    "bet_type": "ATS",
+    "line": "-16.5",
+    "pick_display": "Boston Celtics ATS -16.5",
+    "edge": 9.048,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NBA"
+  },
+  {
     "date": "2026-04-09",
     "sport": "WTA",
     "game": "Paula Badosa vs Karolina Muchova",
