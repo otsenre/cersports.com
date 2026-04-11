@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-10T08:05:02.118810",
+  "generated_at": "2026-04-11T08:05:01.685799",
   "sp500": {
-    "price": 6834.8,
-    "ytd_pct": -0.35,
+    "price": 6816.89,
+    "ytd_pct": -0.61,
     "as_of": "2026-04-10",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 92,
-    "losses": 62,
-    "graded": 154,
-    "pending": 27,
-    "profit_units": 13.39,
-    "units_risked": 202.5,
-    "roi_pct": 6.6,
-    "win_rate": 59.7,
-    "latest_pick": "Padres -1.5 -1.5 \u2014 Colorado Rockies @ San Diego Padres"
+    "wins": 116,
+    "losses": 73,
+    "graded": 189,
+    "pending": 0,
+    "profit_units": 16.09,
+    "units_risked": 250.0,
+    "roi_pct": 6.4,
+    "win_rate": 61.4,
+    "latest_pick": "Yankees ML +120 \u2014 New York Yankees @ Tampa Bay Rays"
   }
 }
