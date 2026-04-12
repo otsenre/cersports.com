@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T10:53:25.948874",
+  "generated_at": "2026-04-12T08:05:01.466896",
   "sp500": {
     "price": 6816.89,
     "ytd_pct": -0.61,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 116,
-    "losses": 73,
-    "graded": 189,
-    "pending": 0,
-    "profit_units": 16.09,
-    "units_risked": 250.0,
-    "roi_pct": 6.4,
-    "win_rate": 61.4,
-    "latest_pick": "Yankees ML +120 \u2014 New York Yankees @ Tampa Bay Rays"
+    "wins": 118,
+    "losses": 74,
+    "graded": 192,
+    "pending": 1,
+    "profit_units": 16.78,
+    "units_risked": 253.5,
+    "roi_pct": 6.6,
+    "win_rate": 61.5,
+    "latest_pick": "Inter Miami CF ML -225 \u2014 Red Bull New York @ Inter Miami CF"
   }
 }
