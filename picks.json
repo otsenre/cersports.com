@@ -15,7 +15,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5
   },
   {
@@ -35,7 +35,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0
   },
   {
@@ -74,7 +74,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 2.0,
     "source_sport": "MLS"
   },
