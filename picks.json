@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-04-11",
+    "sport": "NHL",
+    "game": "Vancouver Canucks @ San Jose Sharks",
+    "pick": "Vancouver Canucks -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Vancouver Canucks -1.5 -1.5 \u2014 Vancouver Canucks @ San Jose Sharks",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-11",
+    "sport": "MLS",
+    "game": "Red Bull New York @ Inter Miami CF",
+    "pick": "Inter Miami CF ML",
+    "bet_type": "ML",
+    "line": -225,
+    "pick_display": "Inter Miami CF ML -225 \u2014 Red Bull New York @ Inter Miami CF",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 2,
+    "source_reports": [
+      "anthropic",
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-11",
+    "sport": "MLB",
+    "game": "Chicago White Sox @ Kansas City Royals",
+    "pick": "Royals -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Royals -1.5 -1.5 \u2014 Chicago White Sox @ Kansas City Royals",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": "W",
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-11",
+    "sport": "BEST",
+    "game": "Red Bull New York @ Inter Miami CF",
+    "pick": "Inter Miami CF ML",
+    "bet_type": "ML",
+    "line": -225,
+    "pick_display": "Inter Miami CF ML -225 \u2014 Red Bull New York @ Inter Miami CF",
+    "edge": 0,
+    "ccr": 85,
+    "ccr_avg": 85,
+    "consensus_reports": 2,
+    "source_reports": [
+      "anthropic",
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0,
+    "source_sport": "MLS"
+  },
+  {
+    "date": "2026-04-11",
+    "sport": "ATP",
+    "game": "Valentin Vacherot vs Carlos Alcaraz",
+    "pick": "Carlos Alcaraz ML",
+    "bet_type": "Match Winner",
+    "line": "",
+    "pick_display": "Carlos Alcaraz ML \u2014 Valentin Vacherot vs Carlos Alcaraz",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-10",
     "sport": "NBA",
     "game": "Miami Heat @ Washington Wizards",
