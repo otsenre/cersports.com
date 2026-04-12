@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-12",
+    "sport": "NBA",
+    "game": "Charlotte Hornets @ New York Knicks",
+    "pick": "New York Knicks",
+    "bet_type": "ML",
+    "line": "+600",
+    "pick_display": "New York Knicks ML (+600)",
+    "edge": 0.566,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-11",
     "sport": "NHL",
     "game": "Vancouver Canucks @ San Jose Sharks",
