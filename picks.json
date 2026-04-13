@@ -1,33 +1,118 @@
 [
   {
     "date": "2026-04-12",
+    "sport": "NHL",
+    "game": "Vancouver Canucks @ Anaheim Ducks",
+    "pick": "Vancouver Canucks ML",
+    "bet_type": "ML",
+    "line": 245,
+    "pick_display": "Vancouver Canucks ML +245 \u2014 Vancouver Canucks @ Anaheim Ducks",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": "W",
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-12",
     "sport": "NBA",
     "game": "Charlotte Hornets @ New York Knicks",
-    "pick": "New York Knicks",
+    "pick": "New York Knicks ML (+600)",
     "bet_type": "ML",
-    "line": "+600",
-    "pick_display": "New York Knicks ML (+600)",
-    "edge": 0.566,
+    "line": 600,
+    "pick_display": "New York Knicks ML (+600) +600 \u2014 Charlotte Hornets @ New York Knicks",
+    "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "nba_consensus"
+    ],
     "tier": "A",
-    "result": null,
+    "result": "L",
+    "units": 2.0
+  },
+  {
+    "date": "2026-04-12",
+    "sport": "MLS",
+    "game": "Orlando City SC @ Columbus Crew SC",
+    "pick": "Columbus Crew SC -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "pick_display": "Columbus Crew SC -1.5 -1.5 \u2014 Orlando City SC @ Columbus Crew SC",
+    "edge": 0,
+    "ccr": 75,
+    "ccr_avg": 75,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.25
+  },
+  {
+    "date": "2026-04-12",
+    "sport": "MLB",
+    "game": "Pittsburgh Pirates @ Chicago Cubs",
+    "pick": "Under 12.5",
+    "bet_type": "Total",
+    "line": 12.5,
+    "pick_display": "Under 12.5 +12.5 \u2014 Pittsburgh Pirates @ Chicago Cubs",
+    "edge": 0,
+    "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": "L",
     "units": 2.0
   },
   {
     "date": "2026-04-12",
     "sport": "BEST",
     "game": "Charlotte Hornets @ New York Knicks",
-    "pick": "New York Knicks",
+    "pick": "New York Knicks ML (+600)",
     "bet_type": "ML",
-    "line": "+600",
-    "pick_display": "New York Knicks ML (+600)",
-    "edge": 0.566,
+    "line": 600,
+    "pick_display": "New York Knicks ML (+600) +600 \u2014 Charlotte Hornets @ New York Knicks",
+    "edge": 0,
     "ccr": 90,
+    "ccr_avg": 90,
+    "consensus_reports": 1,
+    "source_reports": [
+      "nba_consensus"
+    ],
     "tier": "A",
-    "result": null,
-    "profit_units": null,
+    "result": "L",
     "units": 2.0,
     "source_sport": "NBA"
+  },
+  {
+    "date": "2026-04-12",
+    "sport": "ATP",
+    "game": "Jannik Sinner vs Carlos Alcaraz",
+    "pick": "Jannik Sinner ML",
+    "bet_type": "ML",
+    "line": -122,
+    "pick_display": "Jannik Sinner ML -122 \u2014 Jannik Sinner vs Carlos Alcaraz",
+    "edge": 0,
+    "ccr": 75,
+    "ccr_avg": 75,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.25
   },
   {
     "date": "2026-04-11",
