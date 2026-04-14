@@ -1,5 +1,120 @@
 [
   {
+    "date": "2026-04-14",
+    "sport": "WTA",
+    "game": "Coco Gauff vs Liudmila Samsonova",
+    "pick": "Coco Gauff",
+    "bet_type": "ML",
+    "line": -740,
+    "pick_display": "Coco Gauff -740 \u2014 Coco Gauff vs Liudmila Samsonova",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-14",
+    "sport": "NHL",
+    "game": "Winnipeg Jets @ Utah Mammoth",
+    "pick": "Utah Mammoth",
+    "bet_type": "ML",
+    "line": -175,
+    "pick_display": "Utah Mammoth -175 \u2014 Winnipeg Jets @ Utah Mammoth",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-14",
+    "sport": "NBA",
+    "game": "Portland Trail Blazers @ Phoenix Suns",
+    "pick": "Over 217.5",
+    "bet_type": "Total",
+    "line": 217.5,
+    "pick_display": "Over 217.5 +217.5 \u2014 Portland Trail Blazers @ Phoenix Suns",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-14",
+    "sport": "MLB",
+    "game": "Chicago Cubs @ Philadelphia Phillies",
+    "pick": "Over 9.5",
+    "bet_type": "Total",
+    "line": 9.5,
+    "pick_display": "Over 9.5 +9.5 \u2014 Chicago Cubs @ Philadelphia Phillies",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-14",
+    "sport": "BEST",
+    "game": "Winnipeg Jets @ Utah Mammoth",
+    "pick": "Utah Mammoth",
+    "bet_type": "ML",
+    "line": -175,
+    "pick_display": "Utah Mammoth -175 \u2014 Winnipeg Jets @ Utah Mammoth",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5,
+    "source_sport": "NHL"
+  },
+  {
+    "date": "2026-04-14",
+    "sport": "ATP",
+    "game": "Stefanos Tsitsipas vs Fabian Marozsan",
+    "pick": "Stefanos Tsitsipas ML",
+    "bet_type": "ML",
+    "line": -156,
+    "pick_display": "Stefanos Tsitsipas ML -156 \u2014 Stefanos Tsitsipas vs Fabian Marozsan",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "anthropic"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-04-13",
     "sport": "NHL",
     "game": "Dallas Stars @ Toronto Maple Leafs",
@@ -15,7 +130,7 @@
       "openai"
     ],
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
