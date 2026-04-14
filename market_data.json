@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-13T08:05:02.007667",
+  "generated_at": "2026-04-14T08:05:01.483297",
   "sp500": {
-    "price": 6821.66,
-    "ytd_pct": -0.54,
-    "as_of": "2026-04-13",
+    "price": 6936.93,
+    "ytd_pct": 1.14,
+    "as_of": "2026-04-14",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 125,
-    "losses": 81,
-    "graded": 206,
-    "pending": 3,
-    "profit_units": 22.25,
-    "units_risked": 270.25,
-    "roi_pct": 8.2,
-    "win_rate": 60.7,
-    "latest_pick": "New York Knicks ML (+600) +600 \u2014 Charlotte Hornets @ New York Knicks"
+    "wins": 129,
+    "losses": 82,
+    "graded": 211,
+    "pending": 0,
+    "profit_units": 23.14,
+    "units_risked": 276.5,
+    "roi_pct": 8.4,
+    "win_rate": 61.1,
+    "latest_pick": "Red Sox ML -171 \u2014 Boston Red Sox @ Minnesota Twins"
   }
 }
