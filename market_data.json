@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-14T08:05:01.483297",
+  "generated_at": "2026-04-15T08:05:06.156196",
   "sp500": {
-    "price": 6936.93,
-    "ytd_pct": 1.14,
-    "as_of": "2026-04-14",
+    "price": 6993.16,
+    "ytd_pct": 1.96,
+    "as_of": "2026-04-15",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 129,
+    "wins": 132,
     "losses": 82,
-    "graded": 211,
-    "pending": 0,
-    "profit_units": 23.14,
-    "units_risked": 276.5,
-    "roi_pct": 8.4,
-    "win_rate": 61.1,
-    "latest_pick": "Red Sox ML -171 \u2014 Boston Red Sox @ Minnesota Twins"
+    "graded": 214,
+    "pending": 2,
+    "profit_units": 25.82,
+    "units_risked": 280.0,
+    "roi_pct": 9.2,
+    "win_rate": 61.7,
+    "latest_pick": "Utah Mammoth -175 \u2014 Winnipeg Jets @ Utah Mammoth"
   }
 }
