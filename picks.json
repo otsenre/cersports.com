@@ -14,6 +14,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-04-15",
+    "sport": "BEST",
+    "game": "Orlando Magic @ Philadelphia 76ers",
+    "pick": "Orlando Magic",
+    "bet_type": "ATS",
+    "line": "+1.5",
+    "pick_display": "Orlando Magic ATS +1.5",
+    "edge": 10.445,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NBA"
+  },
+  {
     "date": "2026-04-14",
     "sport": "WTA",
     "game": "Coco Gauff vs Liudmila Samsonova",
