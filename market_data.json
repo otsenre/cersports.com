@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-15T08:05:06.156196",
+  "generated_at": "2026-04-16T08:05:02.441457",
   "sp500": {
-    "price": 6993.16,
-    "ytd_pct": 1.96,
-    "as_of": "2026-04-15",
+    "price": 7029.03,
+    "ytd_pct": 2.49,
+    "as_of": "2026-04-16",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 132,
-    "losses": 82,
-    "graded": 214,
-    "pending": 2,
-    "profit_units": 25.82,
-    "units_risked": 280.0,
-    "roi_pct": 9.2,
-    "win_rate": 61.7,
-    "latest_pick": "Utah Mammoth -175 \u2014 Winnipeg Jets @ Utah Mammoth"
+    "wins": 134,
+    "losses": 85,
+    "graded": 219,
+    "pending": 3,
+    "profit_units": 23.02,
+    "units_risked": 286.5,
+    "roi_pct": 8.0,
+    "win_rate": 61.2,
+    "latest_pick": "Orlando Magic ATS +1.5 +1.5 \u2014 Orlando Magic @ Philadelphia 76ers"
   }
 }
