@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-04-16",
+    "sport": "NHL",
+    "game": "Vancouver Canucks @ Edmonton Oilers",
+    "pick": "Edmonton Oilers ML",
+    "bet_type": "ML",
+    "line": -325,
+    "pick_display": "Edmonton Oilers ML -325 \u2014 Vancouver Canucks @ Edmonton Oilers",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-16",
+    "sport": "MLB",
+    "game": "Los Angeles Angels @ New York Yankees",
+    "pick": "Shohei Ohtani Over 7.5 Pitcher Strikeouts",
+    "bet_type": "Prop",
+    "line": 7.5,
+    "pick_display": "Shohei Ohtani Over 7.5 Pitcher Strikeouts +7.5 \u2014 Los Angeles Angels @ New York Yankees",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": "V",
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-16",
+    "sport": "BEST",
+    "game": "Vancouver Canucks @ Edmonton Oilers",
+    "pick": "Edmonton Oilers ML",
+    "bet_type": "ML",
+    "line": -325,
+    "pick_display": "Edmonton Oilers ML -325 \u2014 Vancouver Canucks @ Edmonton Oilers",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5,
+    "source_sport": "NHL"
+  },
+  {
+    "date": "2026-04-16",
+    "sport": "ATP",
+    "game": "Brandon Nakashima vs Arthur Fils",
+    "pick": "Arthur Fils ML",
+    "bet_type": "Match Winner",
+    "line": "",
+    "pick_display": "Arthur Fils ML \u2014 Brandon Nakashima vs Arthur Fils",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-04-15",
     "sport": "WTA",
     "game": "Laura Siegemund vs Iga Swiatek",
