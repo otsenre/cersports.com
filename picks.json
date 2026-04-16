@@ -1,33 +1,118 @@
 [
   {
     "date": "2026-04-15",
-    "sport": "NBA",
-    "game": "Orlando Magic @ Philadelphia 76ers",
-    "pick": "Orlando Magic",
-    "bet_type": "ATS",
-    "line": "+1.5",
-    "pick_display": "Orlando Magic ATS +1.5",
-    "edge": 10.445,
+    "sport": "WTA",
+    "game": "Laura Siegemund vs Iga Swiatek",
+    "pick": "Iga Swiatek ML",
+    "bet_type": "ML",
+    "line": -3400,
+    "pick_display": "Iga Swiatek ML -3400 \u2014 Laura Siegemund vs Iga Swiatek",
+    "edge": 0,
     "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
     "tier": "A",
     "result": null,
-    "units": 2.0
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-15",
+    "sport": "NHL",
+    "game": "Seattle Kraken @ Vegas Golden Knights",
+    "pick": "Vegas Golden Knights ML",
+    "bet_type": "ML",
+    "line": -298,
+    "pick_display": "Vegas Golden Knights ML -298 \u2014 Seattle Kraken @ Vegas Golden Knights",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-15",
+    "sport": "NBA",
+    "game": "Orlando Magic @ Philadelphia 76ers",
+    "pick": "Orlando Magic ATS +1.5",
+    "bet_type": "ATS",
+    "line": 1.5,
+    "pick_display": "Orlando Magic ATS +1.5 +1.5 \u2014 Orlando Magic @ Philadelphia 76ers",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "nba_consensus"
+    ],
+    "tier": "A",
+    "result": "L",
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-15",
+    "sport": "MLB",
+    "game": "Cleveland Guardians @ St. Louis Cardinals",
+    "pick": "Cleveland Guardians ML",
+    "bet_type": "ML",
+    "line": -108,
+    "pick_display": "Cleveland Guardians ML -108 \u2014 Cleveland Guardians @ St. Louis Cardinals",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
   },
   {
     "date": "2026-04-15",
     "sport": "BEST",
     "game": "Orlando Magic @ Philadelphia 76ers",
-    "pick": "Orlando Magic",
+    "pick": "Orlando Magic ATS +1.5",
     "bet_type": "ATS",
-    "line": "+1.5",
-    "pick_display": "Orlando Magic ATS +1.5",
-    "edge": 10.445,
+    "line": 1.5,
+    "pick_display": "Orlando Magic ATS +1.5 +1.5 \u2014 Orlando Magic @ Philadelphia 76ers",
+    "edge": 0,
     "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "nba_consensus"
+    ],
     "tier": "A",
-    "result": null,
-    "profit_units": null,
-    "units": 2.0,
+    "result": "L",
+    "units": 1.5,
     "source_sport": "NBA"
+  },
+  {
+    "date": "2026-04-15",
+    "sport": "ATP",
+    "game": "Tomas Machac vs Carlos Alcaraz",
+    "pick": "Carlos Alcaraz ML",
+    "bet_type": "ML",
+    "line": -880,
+    "pick_display": "Carlos Alcaraz ML -880 \u2014 Tomas Machac vs Carlos Alcaraz",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
   },
   {
     "date": "2026-04-14",
