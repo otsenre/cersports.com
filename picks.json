@@ -15,7 +15,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5
   },
   {
@@ -53,7 +53,7 @@
       "openai"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5,
     "source_sport": "NHL"
   },
