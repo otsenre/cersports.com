@@ -2354,5 +2354,17 @@
     "ccr": 80,
     "result": "L",
     "units": -2.0
+  },
+  {
+    "type": "BEST",
+    "date": "2026-04-17",
+    "sport": "NBA",
+    "pick": "Golden State Warriors ML",
+    "game": "Golden State Warriors at Phoenix Suns",
+    "bet_type": "ML",
+    "odds": -120.0,
+    "ccr": 8.0,
+    "result": "",
+    "profit": ""
   }
 ]
