@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-16T08:05:02.441457",
+  "generated_at": "2026-04-17T08:05:01.962380",
   "sp500": {
-    "price": 7029.03,
-    "ytd_pct": 2.49,
-    "as_of": "2026-04-16",
+    "price": 7130.9,
+    "ytd_pct": 3.97,
+    "as_of": "2026-04-17",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 134,
+    "wins": 135,
     "losses": 85,
-    "graded": 219,
-    "pending": 3,
-    "profit_units": 23.02,
-    "units_risked": 286.5,
-    "roi_pct": 8.0,
-    "win_rate": 61.2,
-    "latest_pick": "Orlando Magic ATS +1.5 +1.5 \u2014 Orlando Magic @ Philadelphia 76ers"
+    "graded": 220,
+    "pending": 4,
+    "profit_units": 23.48,
+    "units_risked": 288.0,
+    "roi_pct": 8.2,
+    "win_rate": 61.4,
+    "latest_pick": "Edmonton Oilers ML -325 \u2014 Vancouver Canucks @ Edmonton Oilers"
   }
 }
