@@ -1,5 +1,101 @@
 [
   {
+    "date": "2026-04-17",
+    "sport": "WTA",
+    "game": "Leylah Fernandez vs Elena Rybakina",
+    "pick": "Elena Rybakina ML",
+    "bet_type": "Match Winner",
+    "line": "",
+    "pick_display": "Elena Rybakina ML \u2014 Leylah Fernandez vs Elena Rybakina",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-17",
+    "sport": "MLS",
+    "game": "Austin FC @ Toronto FC",
+    "pick": "Austin FC ML",
+    "bet_type": "ML",
+    "line": 285,
+    "pick_display": "Austin FC ML +285 \u2014 Austin FC @ Toronto FC",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-17",
+    "sport": "MLB",
+    "game": "Atlanta Braves @ Philadelphia Phillies",
+    "pick": "Atlanta Braves ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Atlanta Braves ML \u2014 Atlanta Braves @ Philadelphia Phillies",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-17",
+    "sport": "BEST",
+    "game": "Flavio Cobolli vs Alexander Zverev",
+    "pick": "Alexander Zverev ML",
+    "bet_type": "ML",
+    "line": -423,
+    "pick_display": "Alexander Zverev ML -423 \u2014 Flavio Cobolli vs Alexander Zverev",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "source_sport": "ATP"
+  },
+  {
+    "date": "2026-04-17",
+    "sport": "ATP",
+    "game": "Flavio Cobolli vs Alexander Zverev",
+    "pick": "Alexander Zverev ML",
+    "bet_type": "ML",
+    "line": -423,
+    "pick_display": "Alexander Zverev ML -423 \u2014 Flavio Cobolli vs Alexander Zverev",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "groq"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-04-16",
     "sport": "NHL",
     "game": "Vancouver Canucks @ Edmonton Oilers",
