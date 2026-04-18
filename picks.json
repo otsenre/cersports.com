@@ -1,5 +1,120 @@
 [
   {
+    "date": "2026-04-18",
+    "sport": "WTA",
+    "game": "Iga Swiatek vs Emma Raducanu",
+    "pick": "Iga Swiatek ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Iga Swiatek ML \u2014 Iga Swiatek vs Emma Raducanu",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "NHL",
+    "game": "Minnesota Wild @ Dallas Stars",
+    "pick": "Under 6.0",
+    "bet_type": "Total",
+    "line": 6,
+    "pick_display": "Under 6.0 +6 \u2014 Minnesota Wild @ Dallas Stars",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "NBA",
+    "game": "Minnesota Timberwolves @ Denver Nuggets",
+    "pick": "Denver Nuggets -5.5",
+    "bet_type": "ATS",
+    "line": -5.5,
+    "pick_display": "Denver Nuggets -5.5 -5.5 \u2014 Minnesota Timberwolves @ Denver Nuggets",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "MLS",
+    "game": "Columbus Crew at New England Revolution",
+    "pick": "Columbus Crew ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Columbus Crew ML \u2014 Columbus Crew at New England Revolution",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "MLB",
+    "game": "Los Angeles Dodgers at Colorado Rockies",
+    "pick": "Over 11.0",
+    "bet_type": "Total",
+    "line": 11,
+    "pick_display": "Over 11.0 +11 \u2014 Los Angeles Dodgers at Colorado Rockies",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "BEST",
+    "game": "Columbus Crew at New England Revolution",
+    "pick": "Columbus Crew ML",
+    "bet_type": "ML",
+    "line": "",
+    "pick_display": "Columbus Crew ML \u2014 Columbus Crew at New England Revolution",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 1,
+    "source_reports": [
+      "gemini"
+    ],
+    "tier": "A",
+    "result": null,
+    "units": 1.5,
+    "source_sport": "MLS"
+  },
+  {
     "date": "2026-04-17",
     "sport": "WTA",
     "game": "Leylah Fernandez vs Elena Rybakina",
@@ -17,6 +132,18 @@
     "tier": "A",
     "result": null,
     "units": 1.5
+  },
+  {
+    "type": "BEST",
+    "date": "2026-04-17",
+    "sport": "NBA",
+    "pick": "Golden State Warriors ML",
+    "game": "Golden State Warriors at Phoenix Suns",
+    "bet_type": "ML",
+    "odds": -120.0,
+    "ccr": 8.0,
+    "result": "W",
+    "profit": ""
   },
   {
     "date": "2026-04-17",
@@ -2357,14 +2484,14 @@
   },
   {
     "type": "BEST",
-    "date": "2026-04-17",
-    "sport": "NBA",
-    "pick": "Golden State Warriors ML",
-    "game": "Golden State Warriors at Phoenix Suns",
+    "date": "2026-04-18",
+    "sport": "MLB",
+    "pick": "New York Yankees ML",
+    "game": "Kansas City Royals at New York Yankees",
     "bet_type": "ML",
-    "odds": -120.0,
-    "ccr": 8.0,
-    "result": "W",
+    "odds": -240.0,
+    "ccr": 7.0,
+    "result": "",
     "profit": ""
   }
 ]
