@@ -142,8 +142,8 @@
     "bet_type": "ML",
     "odds": -120.0,
     "ccr": 8.0,
-    "result": "W",
-    "profit": ""
+    "result": "L",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-17",
