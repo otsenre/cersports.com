@@ -2,22 +2,18 @@
   {
     "date": "2026-04-18",
     "sport": "BEST",
-    "game": "Columbus Crew at New England Revolution",
-    "pick": "Columbus Crew ML",
+    "game": "Kansas City Royals at New York Yankees",
+    "pick": "New York Yankees ML",
     "bet_type": "ML",
-    "line": "",
-    "pick_display": "Columbus Crew ML \u2014 Columbus Crew at New England Revolution",
+    "line": -240.0,
+    "pick_display": "New York Yankees ML",
     "edge": 0,
-    "ccr": 80,
-    "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
-    "tier": "A",
+    "ccr": 70,
+    "tier": "B",
     "result": null,
-    "units": 1.5,
-    "source_sport": "MLS"
+    "profit_units": null,
+    "units": 1.0,
+    "source_sport": "BEST"
   },
   {
     "date": "2026-04-17",
