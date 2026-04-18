@@ -2,6 +2,7 @@
   {
     "date": "2026-04-18",
     "sport": "BEST",
+    "source_sport": "MLB",
     "game": "Kansas City Royals at New York Yankees",
     "pick": "New York Yankees ML",
     "bet_type": "ML",
@@ -9,11 +10,14 @@
     "pick_display": "New York Yankees ML",
     "edge": 0,
     "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "B",
     "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "BEST"
+    "units": 1.0
   },
   {
     "date": "2026-04-17",
@@ -100,9 +104,10 @@
       "groq"
     ],
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
-    "source_sport": "ATP"
+    "source_sport": "ATP",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-17",
@@ -179,7 +184,8 @@
     "tier": "A",
     "result": "W",
     "units": 1.5,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "+0.46u"
   },
   {
     "date": "2026-04-16",
@@ -294,7 +300,8 @@
     "tier": "A",
     "result": "L",
     "units": 1.5,
-    "source_sport": "NBA"
+    "source_sport": "NBA",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-15",
@@ -409,7 +416,8 @@
     "tier": "A",
     "result": "L",
     "units": 1.5,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-14",
@@ -486,7 +494,8 @@
     "tier": "B",
     "result": "L",
     "units": 1.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-12",
@@ -582,7 +591,8 @@
     "tier": "A",
     "result": "L",
     "units": 2.0,
-    "source_sport": "NBA"
+    "source_sport": "NBA",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-12",
@@ -680,7 +690,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "source_sport": "MLS"
+    "source_sport": "MLS",
+    "profit": "+0.67u"
   },
   {
     "date": "2026-04-11",
@@ -757,7 +768,8 @@
     "tier": "A",
     "result": "L",
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-09",
@@ -853,7 +865,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "+100.00u"
   },
   {
     "date": "2026-04-09",
@@ -949,7 +962,8 @@
     "tier": "A",
     "result": "L",
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-08",
@@ -1045,7 +1059,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "+100.00u"
   },
   {
     "date": "2026-04-07",
@@ -1137,7 +1152,8 @@
     "result": "W",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "+1.36u"
   },
   {
     "date": "2026-04-06",
@@ -1233,7 +1249,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "+1.00u"
   },
   {
     "date": "2026-04-04",
@@ -1354,7 +1371,8 @@
     "tier": "B",
     "result": "W",
     "units": 1.25,
-    "source_sport": "MLS"
+    "source_sport": "MLS",
+    "profit": "+1.57u"
   },
   {
     "date": "2026-04-04",
@@ -1473,7 +1491,8 @@
     "tier": "B",
     "result": "L",
     "units": 1.5,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-03",
@@ -1576,7 +1595,8 @@
     "tier": "B",
     "result": "L",
     "units": 1.5,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-04-02",
@@ -1659,7 +1679,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-31",
@@ -1723,7 +1744,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-30",
@@ -1786,7 +1808,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "MLB"
+    "source_sport": "MLB",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-29",
@@ -1816,7 +1839,8 @@
     "result": "W",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NBA"
+    "source_sport": "NBA",
+    "profit": "+9.09u"
   },
   {
     "date": "2026-03-28",
@@ -1880,7 +1904,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-27",
@@ -1943,7 +1968,8 @@
     "result": "W",
     "profit_units": "W",
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "+0.68u"
   },
   {
     "date": "2026-03-26",
@@ -2007,7 +2033,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-25",
@@ -2071,7 +2098,8 @@
     "result": "W",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "+0.73u"
   },
   {
     "date": "2026-03-24",
@@ -2116,7 +2144,8 @@
     "result": "L",
     "profit_units": null,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "-1.50u"
   },
   {
     "date": "2026-03-23",
@@ -2162,7 +2191,8 @@
     "result": "W",
     "profit_units": 1.04,
     "units": 2.0,
-    "source_sport": "NHL"
+    "source_sport": "NHL",
+    "profit": "+0.78u"
   },
   {
     "date": "2026-03-22",
@@ -2212,7 +2242,8 @@
     "result": "W",
     "units": 2.0,
     "source_sport": "NHL",
-    "profit_units": 1.11
+    "profit_units": 1.11,
+    "profit": "+0.83u"
   },
   {
     "date": "2026-03-21",
