@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T08:05:01.753770",
+  "generated_at": "2026-04-18T08:54:44.866214",
   "sp500": {
     "price": 7126.06,
     "ytd_pct": 3.9,
@@ -10,11 +10,11 @@
     "wins": 138,
     "losses": 88,
     "graded": 226,
-    "pending": 2,
+    "pending": 7,
     "profit_units": 21.03,
     "units_risked": 294.25,
     "roi_pct": 7.1,
     "win_rate": 61.1,
-    "latest_pick": "Alexander Zverev ML -423 \u2014 Flavio Cobolli vs Alexander Zverev"
+    "latest_pick": "New York Yankees ML"
   }
 }
