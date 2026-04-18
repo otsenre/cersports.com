@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-17T08:05:01.962380",
+  "generated_at": "2026-04-18T08:05:01.753770",
   "sp500": {
-    "price": 7130.9,
-    "ytd_pct": 3.97,
+    "price": 7126.06,
+    "ytd_pct": 3.9,
     "as_of": "2026-04-17",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 135,
-    "losses": 85,
-    "graded": 220,
-    "pending": 4,
-    "profit_units": 23.48,
-    "units_risked": 288.0,
-    "roi_pct": 8.2,
-    "win_rate": 61.4,
-    "latest_pick": "Edmonton Oilers ML -325 \u2014 Vancouver Canucks @ Edmonton Oilers"
+    "wins": 138,
+    "losses": 88,
+    "graded": 226,
+    "pending": 2,
+    "profit_units": 21.03,
+    "units_risked": 294.25,
+    "roi_pct": 7.1,
+    "win_rate": 61.1,
+    "latest_pick": "Alexander Zverev ML -423 \u2014 Flavio Cobolli vs Alexander Zverev"
   }
 }
