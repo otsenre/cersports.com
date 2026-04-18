@@ -2,6 +2,7 @@
   {
     "date": "2026-04-18",
     "sport": "BEST",
+    "source_sport": "MLB",
     "game": "Kansas City Royals at New York Yankees",
     "pick": "New York Yankees ML",
     "bet_type": "ML",
@@ -9,11 +10,14 @@
     "pick_display": "New York Yankees ML",
     "edge": 0,
     "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 1,
+    "source_reports": [
+      "openai"
+    ],
     "tier": "B",
-    "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "BEST"
+    "result": "W",
+    "units": 1.0
   },
   {
     "date": "2026-04-17",
