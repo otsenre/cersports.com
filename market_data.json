@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T14:21:03.469999",
+  "generated_at": "2026-04-19T08:05:05.835171",
   "sp500": {
     "price": 7126.06,
     "ytd_pct": 3.9,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 138,
-    "losses": 88,
-    "graded": 226,
-    "pending": 7,
-    "profit_units": 21.03,
-    "units_risked": 294.25,
-    "roi_pct": 7.1,
-    "win_rate": 61.1,
+    "wins": 139,
+    "losses": 90,
+    "graded": 229,
+    "pending": 4,
+    "profit_units": 20.03,
+    "units_risked": 298.75,
+    "roi_pct": 6.7,
+    "win_rate": 60.7,
     "latest_pick": "New York Yankees ML"
   }
 }
