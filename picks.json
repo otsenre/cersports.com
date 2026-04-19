@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-19",
+    "sport": "NBA",
+    "game": "Phoenix Suns @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder",
+    "bet_type": "ATS",
+    "line": "-14.5",
+    "pick_display": "Oklahoma City Thunder ATS -14.5",
+    "edge": 8.379,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-18",
     "sport": "BEST",
     "source_sport": "MLB",
