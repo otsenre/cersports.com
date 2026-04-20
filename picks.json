@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-20",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Minnesota Timberwolves @ Denver Nuggets",
+    "pick": "Denver Nuggets ML (-258)",
+    "bet_type": "ML",
+    "line": -258.0,
+    "pick_display": "Denver Nuggets ML (-258)",
+    "edge": 0,
+    "ccr": 50,
+    "ccr_avg": 50,
+    "consensus_reports": 1,
+    "source_reports": [
+      "nba_consensus"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-04-19",
     "sport": "BEST",
     "source_sport": "MLS",
@@ -359,7 +379,7 @@
       "groq"
     ],
     "tier": "A",
-    "result": null,
+    "result": "W",
     "units": 1.5
   },
   {
@@ -456,7 +476,7 @@
       "anthropic"
     ],
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0
   },
   {
