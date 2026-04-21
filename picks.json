@@ -4,10 +4,10 @@
     "sport": "BEST",
     "source_sport": "NBA",
     "game": "Minnesota Timberwolves @ Denver Nuggets",
-    "pick": "Denver Nuggets ML (-258)",
+    "pick": "Denver Nuggets ML (-282)",
     "bet_type": "ML",
-    "line": -258.0,
-    "pick_display": "Denver Nuggets ML (-258)",
+    "line": -282.0,
+    "pick_display": "Denver Nuggets ML (-282)",
     "edge": 0,
     "ccr": 50,
     "ccr_avg": 50,
@@ -16,7 +16,7 @@
       "nba_consensus"
     ],
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0
   },
   {
