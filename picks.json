@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-21",
+    "sport": "NBA",
+    "game": "Philadelphia 76ers @ Boston Celtics",
+    "pick": "Boston Celtics",
+    "bet_type": "ATS",
+    "line": "-14",
+    "pick_display": "Boston Celtics ATS -14",
+    "edge": 7.023,
+    "ccr": 90,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-04-20",
     "sport": "BEST",
     "source_sport": "NBA",
