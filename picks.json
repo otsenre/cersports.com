@@ -1,33 +1,25 @@
 [
   {
     "date": "2026-04-22",
-    "sport": "NBA",
-    "game": "Phoenix Suns @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
-    "bet_type": "ATS",
-    "line": "-17",
-    "pick_display": "Oklahoma City Thunder ATS -17",
-    "edge": 10.879,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "units": 2.0
-  },
-  {
-    "date": "2026-04-22",
     "sport": "BEST",
-    "game": "Phoenix Suns @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
+    "source_sport": "NBA",
+    "game": "Orlando Magic @ Detroit Pistons",
+    "pick": "Detroit Pistons -8.5",
     "bet_type": "ATS",
-    "line": "-17",
-    "pick_display": "Oklahoma City Thunder ATS -17",
-    "edge": 10.879,
-    "ccr": 80,
-    "tier": "A",
+    "line": -105.0,
+    "pick_display": "Detroit Pistons -8.5",
+    "edge": 0,
+    "ccr": 67,
+    "ccr_avg": 67,
+    "consensus_reports": 3,
+    "source_reports": [
+      "gemini",
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
     "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NBA"
+    "units": 1.0
   },
   {
     "date": "2026-04-21",
@@ -1262,7 +1254,7 @@
       "gemini"
     ],
     "tier": "A",
-    "result": "void",
+    "result": "V",
     "units": 2.0
   },
   {
