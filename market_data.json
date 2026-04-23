@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-22T08:05:04.297186",
+  "generated_at": "2026-04-23T08:05:04.421188",
   "sp500": {
-    "price": 7118.45,
-    "ytd_pct": 3.79,
-    "as_of": "2026-04-22",
+    "price": 7140.95,
+    "ytd_pct": 4.12,
+    "as_of": "2026-04-23",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 149,
-    "losses": 102,
-    "graded": 251,
-    "pending": 0,
-    "profit_units": 20.35,
-    "units_risked": 327.75,
-    "roi_pct": 6.2,
-    "win_rate": 59.4,
-    "latest_pick": "Los Angeles Lakers -10.5"
+    "wins": 152,
+    "losses": 105,
+    "graded": 257,
+    "pending": 2,
+    "profit_units": 17.69,
+    "units_risked": 334.25,
+    "roi_pct": 5.3,
+    "win_rate": 59.1,
+    "latest_pick": "Detroit Pistons -8.5"
   }
 }
