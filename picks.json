@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-25",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Denver Nuggets @ Minnesota Timberwolves",
+    "pick": "Denver Nuggets -1.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Denver Nuggets -1.5",
+    "edge": 0,
+    "ccr": 67,
+    "ccr_avg": 67,
+    "consensus_reports": 3,
+    "source_reports": [
+      "gemini",
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-24",
     "sport": "BEST",
     "source_sport": "NBA",
