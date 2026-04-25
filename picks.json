@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-24",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "San Antonio Spurs @ Portland Trail Blazers",
+    "pick": "San Antonio Spurs -2.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "San Antonio Spurs -2.5",
+    "edge": 0,
+    "ccr": 65,
+    "ccr_avg": 65,
+    "consensus_reports": 2,
+    "source_reports": [
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-23",
     "sport": "BEST",
     "source_sport": "NBA",
