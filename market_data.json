@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T08:05:04.110372",
+  "generated_at": "2026-04-26T08:05:05.373680",
   "sp500": {
     "price": 7165.08,
     "ytd_pct": 4.47,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 157,
-    "losses": 109,
-    "graded": 266,
-    "pending": 3,
-    "profit_units": 14.94,
-    "units_risked": 345.0,
-    "roi_pct": 4.3,
-    "win_rate": 59.0,
-    "latest_pick": "San Antonio Spurs -2.5"
+    "wins": 158,
+    "losses": 114,
+    "graded": 272,
+    "pending": 4,
+    "profit_units": 18.73,
+    "units_risked": 351.75,
+    "roi_pct": 5.3,
+    "win_rate": 58.1,
+    "latest_pick": "Denver Nuggets -1.5"
   }
 }
