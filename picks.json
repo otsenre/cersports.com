@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-26",
+    "sport": "BEST",
+    "source_sport": "NHL",
+    "game": "Colorado Avalanche @ Los Angeles Kings",
+    "pick": "Colorado Avalanche ML",
+    "bet_type": "ML",
+    "line": -175.0,
+    "pick_display": "Colorado Avalanche ML",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 3,
+    "source_reports": [
+      "gemini",
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "W",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-25",
     "sport": "BEST",
     "source_sport": "NBA",
