@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-26T08:05:05.373680",
+  "generated_at": "2026-04-27T08:05:04.631074",
   "sp500": {
-    "price": 7165.08,
-    "ytd_pct": 4.47,
-    "as_of": "2026-04-24",
+    "price": 7151.98,
+    "ytd_pct": 4.28,
+    "as_of": "2026-04-27",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 158,
-    "losses": 114,
-    "graded": 272,
-    "pending": 4,
-    "profit_units": 18.73,
-    "units_risked": 351.75,
-    "roi_pct": 5.3,
+    "wins": 161,
+    "losses": 116,
+    "graded": 277,
+    "pending": 5,
+    "profit_units": 19.52,
+    "units_risked": 357.25,
+    "roi_pct": 5.5,
     "win_rate": 58.1,
-    "latest_pick": "Denver Nuggets -1.5"
+    "latest_pick": "Colorado Avalanche ML"
   }
 }
