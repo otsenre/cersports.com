@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-04-28",
+    "sport": "NBA",
+    "game": "Philadelphia 76ers @ Boston Celtics",
+    "pick": "Boston Celtics",
+    "bet_type": "ATS",
+    "line": "-11.5",
+    "pick_display": "Boston Celtics ATS -11.5",
+    "edge": 4.023,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
+    "date": "2026-04-27",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Casper Ruud vs Stefanos Tsitsipas",
+    "pick": "Casper Ruud ML",
+    "bet_type": "ML",
+    "line": -181.0,
+    "pick_display": "Casper Ruud ML",
+    "edge": 0,
+    "ccr": 67,
+    "ccr_avg": 67,
+    "consensus_reports": 3,
+    "source_reports": [
+      "anthropic",
+      "gemini",
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-04-26",
     "sport": "BEST",
     "source_sport": "NHL",
