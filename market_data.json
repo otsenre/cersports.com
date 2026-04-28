@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-27T08:05:04.631074",
+  "generated_at": "2026-04-28T08:05:04.891290",
   "sp500": {
-    "price": 7151.98,
-    "ytd_pct": 4.28,
-    "as_of": "2026-04-27",
+    "price": 7129.95,
+    "ytd_pct": 3.96,
+    "as_of": "2026-04-28",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 161,
-    "losses": 116,
-    "graded": 277,
+    "wins": 165,
+    "losses": 118,
+    "graded": 283,
     "pending": 5,
-    "profit_units": 19.52,
-    "units_risked": 357.25,
-    "roi_pct": 5.5,
-    "win_rate": 58.1,
-    "latest_pick": "Colorado Avalanche ML"
+    "profit_units": 20.43,
+    "units_risked": 364.75,
+    "roi_pct": 5.6,
+    "win_rate": 58.3,
+    "latest_pick": "Casper Ruud ML"
   }
 }
