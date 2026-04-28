@@ -1,33 +1,24 @@
 [
   {
     "date": "2026-04-28",
-    "sport": "NBA",
-    "game": "Philadelphia 76ers @ Boston Celtics",
-    "pick": "Boston Celtics",
-    "bet_type": "ATS",
-    "line": "-11.5",
-    "pick_display": "Boston Celtics ATS -11.5",
-    "edge": 4.023,
-    "ccr": 70,
+    "sport": "BEST",
+    "source_sport": "NHL",
+    "game": "Minnesota Wild @ Dallas Stars",
+    "pick": "Dallas Stars ML",
+    "bet_type": "ML",
+    "line": -130.0,
+    "pick_display": "Dallas Stars ML",
+    "edge": 0,
+    "ccr": 65,
+    "ccr_avg": 65,
+    "consensus_reports": 2,
+    "source_reports": [
+      "gemini",
+      "openai"
+    ],
     "tier": "B",
     "result": null,
     "units": 1.0
-  },
-  {
-    "date": "2026-04-28",
-    "sport": "BEST",
-    "game": "Philadelphia 76ers @ Boston Celtics",
-    "pick": "Boston Celtics",
-    "bet_type": "ATS",
-    "line": "-11.5",
-    "pick_display": "Boston Celtics ATS -11.5",
-    "edge": 4.023,
-    "ccr": 70,
-    "tier": "B",
-    "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "NBA"
   },
   {
     "date": "2026-04-27",
@@ -48,7 +39,7 @@
       "openai"
     ],
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
