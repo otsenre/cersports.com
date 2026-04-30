@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-29",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Orlando Magic @ Detroit Pistons",
+    "pick": "Orlando Magic +10.5",
+    "bet_type": "ATS",
+    "line": -115.0,
+    "pick_display": "Orlando Magic +10.5",
+    "edge": 0,
+    "ccr": 60,
+    "ccr_avg": 60,
+    "consensus_reports": 3,
+    "source_reports": [
+      "nba_picks_today",
+      "gemini",
+      "groq"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-28",
     "sport": "BEST",
     "source_sport": "NHL",
