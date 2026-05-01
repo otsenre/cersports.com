@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-30T08:05:30.349010",
+  "generated_at": "2026-05-01T08:05:25.229557",
   "sp500": {
-    "price": 7161.21,
-    "ytd_pct": 4.41,
-    "as_of": "2026-04-30",
+    "price": 7246.18,
+    "ytd_pct": 5.65,
+    "as_of": "2026-05-01",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 172,
-    "losses": 126,
-    "graded": 298,
-    "pending": 3,
-    "profit_units": 18.16,
-    "units_risked": 381.75,
-    "roi_pct": 4.8,
-    "win_rate": 57.7,
-    "latest_pick": "Orlando Magic +10.5"
+    "wins": 175,
+    "losses": 130,
+    "graded": 305,
+    "pending": 1,
+    "profit_units": 17.62,
+    "units_risked": 389.75,
+    "roi_pct": 4.5,
+    "win_rate": 57.4,
+    "latest_pick": "Dallas Wings +8.5"
   }
 }
