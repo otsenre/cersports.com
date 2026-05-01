@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-30",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Dallas Wings @ Indiana Fever",
+    "pick": "Dallas Wings +8.5",
+    "bet_type": "ATS",
+    "line": -114.0,
+    "pick_display": "Dallas Wings +8.5",
+    "edge": 0,
+    "ccr": 63,
+    "ccr_avg": 63,
+    "consensus_reports": 3,
+    "source_reports": [
+      "anthropic",
+      "gemini",
+      "groq"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-29",
     "sport": "BEST",
     "source_sport": "NBA",
