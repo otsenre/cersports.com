@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-05-01",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Cleveland Cavaliers @ Toronto Raptors",
+    "pick": "Cleveland Cavaliers -3.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Cleveland Cavaliers -3.5",
+    "edge": 0,
+    "ccr": 78,
+    "ccr_avg": 78,
+    "consensus_reports": 2,
+    "source_reports": [
+      "gemini",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-04-30",
     "sport": "BEST",
     "source_sport": "WNBA",
