@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T08:05:34.218040",
+  "generated_at": "2026-05-03T08:05:24.791581",
   "sp500": {
     "price": 7230.12,
     "ytd_pct": 5.42,
@@ -7,14 +7,14 @@
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 177,
-    "losses": 133,
-    "graded": 310,
-    "pending": 1,
+    "wins": 180,
+    "losses": 134,
+    "graded": 314,
+    "pending": 3,
     "profit_units": 17.62,
-    "units_risked": 396.75,
+    "units_risked": 401.5,
     "roi_pct": 4.4,
-    "win_rate": 57.1,
-    "latest_pick": "Cleveland Cavaliers -3.5"
+    "win_rate": 57.3,
+    "latest_pick": "Boston Celtics -8.5"
   }
 }
