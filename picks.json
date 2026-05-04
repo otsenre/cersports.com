@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-05-04",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Tamara Korpatsch vs Beatrice Ricci",
+    "pick": "Tamara Korpatsch -6.5 Games",
+    "bet_type": "ATS",
+    "line": -115.0,
+    "pick_display": "Tamara Korpatsch -6.5 Games",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "consensus_reports": 2,
+    "source_reports": [
+      "gemini",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-03",
     "sport": "BEST",
     "source_sport": "WNBA",
