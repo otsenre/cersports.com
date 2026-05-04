@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-03",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Dallas Wings",
+    "pick": "Las Vegas Aces -5.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Las Vegas Aces -5.5",
+    "edge": 0,
+    "ccr": 67,
+    "ccr_avg": 67,
+    "consensus_reports": 3,
+    "source_reports": [
+      "gemini",
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-02",
     "sport": "BEST",
     "source_sport": "NBA",
