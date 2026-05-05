@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-04T08:05:46.395331",
+  "generated_at": "2026-05-05T08:05:47.022731",
   "sp500": {
-    "price": 7233.43,
-    "ytd_pct": 5.47,
-    "as_of": "2026-05-04",
+    "price": 7258.66,
+    "ytd_pct": 5.83,
+    "as_of": "2026-05-05",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 183,
-    "losses": 138,
-    "graded": 321,
-    "pending": 2,
-    "profit_units": 16.7,
-    "units_risked": 408.25,
-    "roi_pct": 4.1,
-    "win_rate": 57.0,
-    "latest_pick": "Las Vegas Aces -5.5"
+    "wins": 188,
+    "losses": 140,
+    "graded": 328,
+    "pending": 0,
+    "profit_units": 16.66,
+    "units_risked": 415.5,
+    "roi_pct": 4.0,
+    "win_rate": 57.3,
+    "latest_pick": "Tamara Korpatsch -6.5 Games"
   }
 }
