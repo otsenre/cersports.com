@@ -1,33 +1,24 @@
 [
   {
     "date": "2026-05-05",
-    "sport": "NBA",
-    "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
-    "bet_type": "ATS",
-    "line": "-15.5",
-    "pick_display": "Oklahoma City Thunder ATS -15.5",
-    "edge": 5.014,
-    "ccr": 70,
-    "tier": "B",
-    "result": null,
-    "units": 1.0
-  },
-  {
-    "date": "2026-05-05",
     "sport": "BEST",
+    "source_sport": "NBA",
     "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -15.5",
     "bet_type": "ATS",
-    "line": "-15.5",
-    "pick_display": "Oklahoma City Thunder ATS -15.5",
-    "edge": 5.014,
-    "ccr": 70,
+    "line": -110.0,
+    "pick_display": "Oklahoma City Thunder -15.5",
+    "edge": 0,
+    "ccr": 80,
+    "ccr_avg": 80,
+    "consensus_reports": 2,
+    "source_reports": [
+      "gemini",
+      "openai"
+    ],
     "tier": "B",
-    "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "NBA"
+    "result": "L",
+    "units": 1.0
   },
   {
     "date": "2026-05-04",
