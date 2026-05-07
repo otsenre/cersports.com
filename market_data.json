@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-06T08:05:40.251085",
+  "generated_at": "2026-05-07T08:05:26.091879",
   "sp500": {
-    "price": 7347.4,
-    "ytd_pct": 7.13,
-    "as_of": "2026-05-06",
+    "price": 7381.22,
+    "ytd_pct": 7.62,
+    "as_of": "2026-05-07",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 191,
-    "losses": 141,
-    "graded": 332,
-    "pending": 3,
-    "profit_units": 17.26,
-    "units_risked": 419.5,
-    "roi_pct": 4.1,
-    "win_rate": 57.5,
-    "latest_pick": "Oklahoma City Thunder -15.5"
+    "wins": 193,
+    "losses": 144,
+    "graded": 337,
+    "pending": 2,
+    "profit_units": 16.01,
+    "units_risked": 425.0,
+    "roi_pct": 3.8,
+    "win_rate": 57.3,
+    "latest_pick": "New York Knicks -7.5"
   }
 }
