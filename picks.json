@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-07",
+    "sport": "NBA",
+    "game": "Los Angeles Lakers @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder",
+    "bet_type": "ATS",
+    "line": "-15",
+    "pick_display": "Oklahoma City Thunder ATS -15",
+    "edge": 5.568,
+    "ccr": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-05-06",
     "sport": "BEST",
     "source_sport": "NBA",
