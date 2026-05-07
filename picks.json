@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-06",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Philadelphia 76ers @ New York Knicks",
+    "pick": "New York Knicks -7.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "New York Knicks -7.5",
+    "edge": 0,
+    "ccr": 52,
+    "ccr_avg": 52,
+    "consensus_reports": 4,
+    "source_reports": [
+      "nba_decay",
+      "deepseek",
+      "groq",
+      "openai"
+    ],
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-05",
     "sport": "BEST",
     "source_sport": "NBA",
