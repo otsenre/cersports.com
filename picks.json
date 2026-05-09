@@ -1,14 +1,23 @@
 [
   {
-    "date": "2026-05-07",
-    "sport": "NBA",
-    "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
+    "date": "2026-05-08",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Connecticut Sun @ New York Liberty",
+    "pick": "New York Liberty -9.5",
     "bet_type": "ATS",
-    "line": "-15",
-    "pick_display": "Oklahoma City Thunder ATS -15",
-    "edge": 5.568,
-    "ccr": 70,
+    "line": -105.0,
+    "pick_display": "New York Liberty -9.5",
+    "edge": 0,
+    "ccr": 68,
+    "ccr_avg": 68,
+    "consensus_reports": 4,
+    "source_reports": [
+      "deepseek",
+      "groq",
+      "nvidia",
+      "openai"
+    ],
     "tier": "B",
     "result": null,
     "units": 1.0
@@ -16,18 +25,25 @@
   {
     "date": "2026-05-07",
     "sport": "BEST",
+    "source_sport": "NBA",
     "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -15.5",
     "bet_type": "ATS",
-    "line": "-15",
-    "pick_display": "Oklahoma City Thunder ATS -15",
-    "edge": 5.568,
-    "ccr": 70,
+    "line": -115.0,
+    "pick_display": "Oklahoma City Thunder -15.5",
+    "edge": 0,
+    "ccr": 75,
+    "ccr_avg": 75,
+    "consensus_reports": 4,
+    "source_reports": [
+      "deepseek",
+      "gemini",
+      "nvidia",
+      "openai"
+    ],
     "tier": "B",
-    "result": null,
-    "profit_units": null,
-    "units": 1.0,
-    "source_sport": "NBA"
+    "result": "W",
+    "units": 1.0
   },
   {
     "date": "2026-05-06",
