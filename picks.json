@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-05-09",
+    "sport": "BEST",
+    "source_sport": "NHL",
+    "game": "Colorado Avalanche @ Minnesota Wild",
+    "pick": "Colorado Avalanche ML",
+    "bet_type": "ML",
+    "line": -135.0,
+    "pick_display": "Colorado Avalanche ML",
+    "edge": 0,
+    "ccr": 62,
+    "ccr_avg": 62,
+    "consensus_reports": 4,
+    "source_reports": [
+      "deepseek",
+      "groq",
+      "nvidia",
+      "openai"
+    ],
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-05-08",
     "sport": "BEST",
     "source_sport": "WNBA",
@@ -19,7 +42,7 @@
       "openai"
     ],
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
