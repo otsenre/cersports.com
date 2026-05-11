@@ -918,26 +918,26 @@ footer {
   <div class="section-inner">
     <div class="section-label">Our rating system</div>
     <h2 class="section-title">WHAT IS <em>CCR?</em></h2>
-    <p class="section-body">The CERSports Confidence Rating is a 0–100 score produced by our consensus model. It measures how much edge the system has detected across all three models combined.</p>
+    <p class="section-body">The CERSports Confidence Rating is a 0–10 score produced by our consensus model. It measures how much edge the system has detected across all three models combined.</p>
 
     <div class="ccr-scale">
       <div class="ccr-tier ccr-t1">
-        <div class="ccr-range">90+</div>
+        <div class="ccr-range">9+</div>
         <div class="ccr-name">Elite</div>
         <div class="ccr-desc">Full model agreement. Rare. Maximum edge detected.</div>
       </div>
       <div class="ccr-tier ccr-t2">
-        <div class="ccr-range">80–89</div>
+        <div class="ccr-range">7–8.9</div>
         <div class="ccr-name">Strong</div>
         <div class="ccr-desc">Standard qualifier for posted picks. Strong consensus.</div>
       </div>
       <div class="ccr-tier ccr-t3">
-        <div class="ccr-range">68–79</div>
+        <div class="ccr-range">5–6.9</div>
         <div class="ccr-name">Solid</div>
         <div class="ccr-desc">Solid data lean. Below our posting threshold.</div>
       </div>
       <div class="ccr-tier ccr-t4">
-        <div class="ccr-range">&lt;68</div>
+        <div class="ccr-range">&lt;5</div>
         <div class="ccr-name">Noise</div>
         <div class="ccr-desc">We don't post what the model doesn't believe in.</div>
       </div>
@@ -1102,15 +1102,15 @@ async function loadPicks() {
         `${displaySport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'})}`;
       document.getElementById('pickTeam').textContent = latest.pick_display || latest.pick;
 
-      const ccr = latest.ccr;
+      const ccr = Number(latest.ccr) || 0;
       const ccrEl = document.getElementById('pickCCR');
-      ccrEl.textContent = `CCR ${ccr}`;
-      ccrEl.className = 'ccr-badge ' + (ccr >= 90 ? 'ccr-elite' : 'ccr-strong');
+      ccrEl.textContent = `CCR ${ccr.toFixed(1)}`;
+      ccrEl.className = 'ccr-badge ' + (ccr >= 9 ? 'ccr-elite' : 'ccr-strong');
 
       // Tag
       const tagEl = document.getElementById('pickTag');
-      if (ccr >= 90) tagEl.textContent = '⚡ ELITE';
-      else if (ccr >= 80) tagEl.textContent = '⚡ STRONG';
+      if (ccr >= 9) tagEl.textContent = '⚡ ELITE';
+      else if (ccr >= 7) tagEl.textContent = '⚡ STRONG';
       else tagEl.textContent = '✓ QUALIFIED';
     }
 
@@ -1148,7 +1148,7 @@ function buildRecord(picks) {
       <div class="record-game">${p.game || ''}</div>
       <div class="record-meta">
         ${p.result ? `<span class="result-badge ${resultClass}">${resultText}</span>` : ''}
-        <span class="record-ccr">CCR ${p.ccr}</span>
+        <span class="record-ccr">CCR ${(Number(p.ccr) || 0).toFixed(1)}</span>
         ${p.units ? `<span class="record-ccr">${p.units > 0 ? '+' : ''}${p.units}u</span>` : ''}
       </div>
     `;
