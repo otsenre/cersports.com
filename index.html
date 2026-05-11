@@ -41,7 +41,6 @@ body {
 }
 
 /* ── GRAIN OVERLAY ── */
-body { padding-top: 92px; }
 body::after {
   content: '';
   position: fixed; inset: 0;
@@ -536,97 +535,155 @@ footer {
   .pricing-grid { grid-template-columns: 1fr; }
   .social-grid { grid-template-columns: 1fr; }
 }
-<!-- TICKER STYLES — add inside existing <style> block -->
-<style id="ticker-styles">
-.ticker-wrap {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+/* ── PERFORMANCE PANEL ── */
+.perf-section { background: var(--surface); }
+.perf-table {
   width: 100%;
-  background: #0a0c10;
-  border-bottom: 1px solid #1e2530;
-  overflow: hidden;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  z-index: 200;
+  border-collapse: collapse;
+  margin-top: 40px;
+  font-family: 'Barlow Condensed', sans-serif;
 }
-.ticker-label {
-  background: #e63946;
-  color: #fff;
-  font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+.perf-table th, .perf-table td {
+  padding: 14px 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+.perf-table th {
   font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border2);
+}
+.perf-table th:first-child, .perf-table td:first-child {
+  text-align: left;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 0 14px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-  flex-shrink: 0;
-  z-index: 200;
-}
-.ticker-track {
-  display: flex;
-  white-space: nowrap;
-  animation: ticker-scroll 40s linear infinite;
-  will-change: transform;
-}
-.ticker-track:hover {
-  animation-play-state: paused;
-}
-@keyframes ticker-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-.ticker-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 0 28px 0 0;
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  color: var(--muted);
   font-size: 11px;
-  color: #778;
-  white-space: nowrap;
+  width: 100px;
 }
-.ticker-item .t-name {
-  font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+.perf-table tbody tr:hover { background: var(--surface2); }
+.perf-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: var(--off-white);
+}
+.perf-num.pos { color: var(--green-light); }
+.perf-num.neg { color: var(--red); }
+.perf-num.gold { color: var(--gold); }
+.perf-anchor-note {
+  margin-top: 16px;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+
+/* ── THROWBACK CARD ── */
+.throwback-section { background: var(--black); }
+.throwback-card {
+  margin-top: 40px;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-top: 2px solid var(--gold);
+  padding: 28px 32px;
+}
+.throwback-eyebrow {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.throwback-date {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: var(--white);
+  line-height: 1;
+  margin-bottom: 14px;
+}
+.throwback-summary {
+  display: flex;
+  gap: 28px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.throwback-summary > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.throwback-summary .sum-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+.throwback-summary .sum-num.pos { color: var(--green-light); }
+.throwback-summary .sum-num.neg { color: var(--red); }
+.throwback-summary .sum-num.white { color: var(--white); }
+.throwback-summary .sum-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.throwback-pick {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr 70px 90px;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+}
+.throwback-pick:last-child { border-bottom: none; }
+.throwback-pick .sport-tag {
+  background: var(--surface2);
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 3px 8px;
+  text-align: center;
+}
+.throwback-pick .game { color: var(--muted); font-size: 12px; }
+.throwback-pick .pick-text { color: var(--off-white); font-weight: 700; }
+.throwback-pick .odds { color: var(--muted); text-align: right; font-size: 12px; }
+.throwback-pick .result-badge {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #aaa;
-  text-transform: uppercase;
+  padding: 3px 0;
+  text-align: center;
 }
-.ticker-item .t-val {
-  font-size: 12px;
-  font-weight: 700;
+.throwback-pick .result-w { color: var(--green-light); border: 1px solid rgba(34,197,94,0.4); }
+.throwback-pick .result-l { color: #e74c3c; border: 1px solid rgba(192,57,43,0.4); }
+.throwback-note {
+  margin-top: 14px;
+  font-size: 11px;
+  color: var(--muted);
+  font-style: italic;
+  letter-spacing: 1px;
 }
-.ticker-item .t-val.up   { color: #2ecc71; }
-.ticker-item .t-val.down { color: #e63946; }
-.ticker-item .t-val.gold { color: #f0a500; }
-.ticker-item .t-val.white{ color: #e8e8e8; }
-.ticker-item .t-arrow { font-size: 10px; }
-.ticker-sep {
-  display: inline-block;
-  width: 1px;
-  height: 14px;
-  background: #1e2530;
-  margin: 0 20px 0 0;
-  vertical-align: middle;
+@media (max-width: 768px) {
+  .perf-table th, .perf-table td { padding: 8px 4px; font-size: 11px; }
+  .perf-num { font-size: 16px; }
+  .throwback-pick { grid-template-columns: 50px 1fr 60px; }
+  .throwback-pick .game, .throwback-pick .odds { display: none; }
 }
-</style>
-
-<!-- TICKER HTML — place immediately after <body> tag -->
-<div class="ticker-wrap">
-  <div class="ticker-label">LIVE</div><div style="background:#1a1a2a;color:#556;font-size:9px;letter-spacing:1px;text-transform:uppercase;padding:0 10px;height:32px;display:flex;align-items:center;white-space:nowrap;border-right:1px solid #1e2530">SUBSCRIBER MODEL</div>
-  <div style="overflow:hidden;flex:1;position:relative;">
-    <div class="ticker-track" id="tickerTrack">
-      <!-- items injected by JS, duplicated for seamless loop -->
-    </div>
-  </div>
-</div>
 </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -918,6 +975,52 @@ footer {
   </div>
 </section>
 
+<!-- PERFORMANCE PANEL -->
+<section class="perf-section" id="performance">
+  <div class="section-inner">
+    <div class="section-label">System performance</div>
+    <h2 class="section-title">THE <em>NUMBERS</em></h2>
+    <p class="section-body">Public ledger only. Aggregated free + paid pick performance since the ledger anchor.</p>
+
+    <div style="overflow-x:auto;">
+      <table class="perf-table" id="perfTable">
+        <thead>
+          <tr>
+            <th></th>
+            <th>3-DAY</th>
+            <th>7-DAY</th>
+            <th>MTD</th>
+            <th>30-DAY</th>
+            <th>ALL-TIME</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="6" style="color:var(--muted);padding:18px;font-size:13px;">Loading performance…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="perf-anchor-note" id="perfAnchor">—</p>
+  </div>
+</section>
+
+<!-- THROWBACK CARD -->
+<section class="throwback-section" id="throwback">
+  <div class="section-inner">
+    <div class="section-label">Recent results · a real day</div>
+    <h2 class="section-title">SAMPLE <em>CARD</em></h2>
+    <p class="section-body">A real prior subscriber card, picked at random from the last 21 days. Rotates daily — no history kept.</p>
+
+    <div class="throwback-card" id="throwbackCard" style="display:none;">
+      <div class="throwback-eyebrow" id="tbEyebrow">THROWBACK</div>
+      <div class="throwback-date" id="tbDate">—</div>
+      <div class="throwback-summary" id="tbSummary"></div>
+      <div id="tbPicks"></div>
+      <p class="throwback-note">Real picks from a real subscriber card. Results unedited. Rotates daily.</p>
+    </div>
+    <p id="throwbackEmpty" style="color:var(--muted);font-size:13px;margin-top:32px;">No sample card available right now — check back tomorrow.</p>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
@@ -1140,28 +1243,90 @@ if (urlParams.get('success') === '1') {
 
 
 <script>
-// Populate ticker with hardcoded data — regenerated daily by pipeline
-(function(){
-  var track = document.getElementById('tickerTrack');
-  if (!track) return;
-  var items = [
-    ['CER RECORD', '204W-151L', 'white'],
-    ['CER WIN RATE', '57.5%', 'up'],
-    ['CER NET', '+16.38u', 'up'],
-    ['CER ROI', '+3.7%', 'up'],
-    ['S&P 500 YTD', '+8.14%', 'up'],
-    ['CER vs S&P', '+-4.4%', 'gold'],
-    ['OUTPERFORMANCE', 'vs S&P 500', 'gold'],
-    ['PIPELINE', '8:05 AM', 'white'],
-    ['SPORTS', 'NBA · NHL · MLB · MLS', 'white'],
-    ['MODELS', '3 independent', 'white'],
-    ['SEASON', '2025-26', 'white'],
-  ];
-  var html = items.map(function(i){
-    return '<span class="ticker-item"><span class="t-name">'+i[0]+'</span> <span class="t-val '+i[2]+'">'+i[1]+'</span></span><span class="ticker-sep"></span>';
-  }).join('');
-  track.innerHTML = html + html;
-  track.style.animationDuration = '35s';
-})();
+// ── PERFORMANCE PANEL ───────────────────────────────────────────────────────
+const PERF_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/performance.json';
+
+function fmtSigned(n, digits, suffix) {
+  if (n === null || n === undefined || isNaN(n)) return '—';
+  const sign = n > 0 ? '+' : '';
+  return sign + Number(n).toFixed(digits) + (suffix || '');
+}
+function signClass(n) {
+  if (n === null || n === undefined || isNaN(n)) return '';
+  if (n > 0) return 'pos';
+  if (n < 0) return 'neg';
+  return '';
+}
+
+async function loadPerformance() {
+  try {
+    const res = await fetch(PERF_URL + '?t=' + Date.now());
+    const data = await res.json();
+    const tbody = document.querySelector('#perfTable tbody');
+    if (!tbody || !data.bands) return;
+    const bands = data.bands;
+    const rows = [
+      { label: 'RECORD',  cells: bands.map(b => `<span class="perf-num">${b.record}</span>`) },
+      { label: 'UNITS',   cells: bands.map(b => `<span class="perf-num ${signClass(b.units_pl)}">${fmtSigned(b.units_pl, 2, 'u')}</span>`) },
+      { label: 'ROI',     cells: bands.map(b => `<span class="perf-num ${signClass(b.roi_pct)}">${fmtSigned(b.roi_pct, 2, '%')}</span>`) },
+      { label: 'vs S&P',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_spx)}">${fmtSigned(b.vs_spx, 2, '%')}</span>`) },
+      { label: 'vs DOW',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_dji)}">${fmtSigned(b.vs_dji, 2, '%')}</span>`) },
+      { label: 'vs NDX',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_ndx)}">${fmtSigned(b.vs_ndx, 2, '%')}</span>`) },
+    ];
+    tbody.innerHTML = rows.map(r =>
+      `<tr><td>${r.label}</td>${r.cells.map(c => `<td>${c}</td>`).join('')}</tr>`
+    ).join('');
+    const note = document.getElementById('perfAnchor');
+    if (note && data.anchor && data.as_of) {
+      note.textContent = `Ledger anchor ${data.anchor} · As of ${data.as_of}`;
+    }
+  } catch (e) {
+    console.error('perf load failed', e);
+  }
+}
+
+// ── THROWBACK CARD ───────────────────────────────────────────────────────────
+const THROWBACK_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/throwback.json';
+
+async function loadThrowback() {
+  try {
+    const res = await fetch(THROWBACK_URL + '?t=' + Date.now());
+    const data = await res.json();
+    if (!data || !data.picks || data.picks.length === 0) return;
+    document.getElementById('throwbackEmpty').style.display = 'none';
+    document.getElementById('throwbackCard').style.display = 'block';
+    document.getElementById('tbDate').textContent = data.display_date || data.iso_date || '—';
+
+    const s = data.summary || {};
+    const sumEl = document.getElementById('tbSummary');
+    sumEl.innerHTML = `
+      <div><span class="sum-num white">${s.wins ?? 0}-${s.losses ?? 0}</span><span class="sum-label">Record</span></div>
+      <div><span class="sum-num ${signClass(s.units_pl)}">${fmtSigned(s.units_pl, 2, 'u')}</span><span class="sum-label">Units</span></div>
+      <div><span class="sum-num ${signClass(s.roi_pct)}">${fmtSigned(s.roi_pct, 2, '%')}</span><span class="sum-label">ROI</span></div>
+    `;
+
+    const picksEl = document.getElementById('tbPicks');
+    picksEl.innerHTML = data.picks.map(p => {
+      const rc = p.result === 'W' ? 'result-w' : 'result-l';
+      const rt = p.result === 'W' ? 'WIN ✓' : 'LOSS';
+      const odds = (p.odds === null || p.odds === undefined) ? '—' :
+                   (p.odds > 0 ? '+' + p.odds : String(p.odds));
+      return `
+        <div class="throwback-pick">
+          <span class="sport-tag">${p.sport || '—'}</span>
+          <span class="game">${p.game || ''}</span>
+          <span class="pick-text">${p.pick || ''}</span>
+          <span class="odds">${odds}</span>
+          <span class="result-badge ${rc}">${rt}</span>
+        </div>
+      `;
+    }).join('');
+  } catch (e) {
+    console.error('throwback load failed', e);
+  }
+}
+
+loadPerformance();
+loadThrowback();
 </script>
 </body>
