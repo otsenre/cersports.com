@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-05-11T19:56:50.110751+00:00",
+  "iso_date": "2026-05-03",
+  "display_date": "Sun \u00b7 May 3, 2026",
+  "summary": {
+    "wins": 3,
+    "losses": 3,
+    "units_pl": -0.43,
+    "roi_pct": -7.17
+  },
+  "picks": [
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ St. Louis Cardinals",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": -145.0,
+      "result": "W",
+      "profit_units": 0.86
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "pick": "Cleveland Cavaliers -7.5",
+      "bet_type": "ATS",
+      "odds": -102.0,
+      "result": "W",
+      "profit_units": 1.23
+    },
+    {
+      "sport": "MLS",
+      "game": "St. Louis CITY SC @ Austin FC",
+      "pick": "BTTS Yes",
+      "bet_type": "BTTS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "MLS",
+      "game": "D.C. United @ New York City FC",
+      "pick": "New York City FC ML",
+      "bet_type": "ML",
+      "odds": -120.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Seattle Mariners",
+      "pick": "Luis Castillo Over 4.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": -127.0,
+      "result": "W",
+      "profit_units": 0.98
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "pick": "Donovan Mitchell Over 25.5 Points",
+      "bet_type": "Prop",
+      "odds": -111.0,
+      "result": "L",
+      "profit_units": -1.0
+    }
+  ]
+}
