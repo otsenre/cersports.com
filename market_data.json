@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-10T08:05:33.695920",
+  "generated_at": "2026-05-11T08:05:30.618077",
   "sp500": {
-    "price": 7398.93,
-    "ytd_pct": 7.88,
-    "as_of": "2026-05-08",
+    "price": 7416.9,
+    "ytd_pct": 8.14,
+    "as_of": "2026-05-11",
     "source": "yahoo_finance"
   },
   "cer": {
-    "wins": 201,
-    "losses": 146,
-    "graded": 347,
-    "pending": 9,
-    "profit_units": 18.6,
-    "units_risked": 436.0,
-    "roi_pct": 4.3,
-    "win_rate": 57.9,
-    "latest_pick": "Colorado Avalanche ML"
+    "wins": 204,
+    "losses": 151,
+    "graded": 355,
+    "pending": 6,
+    "profit_units": 16.38,
+    "units_risked": 445.0,
+    "roi_pct": 3.7,
+    "win_rate": 57.5,
+    "latest_pick": "New York Knicks -1.5"
   }
 }
