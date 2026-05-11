@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-11",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Detroit Pistons @ Cleveland Cavaliers",
+    "pick": "Cleveland Cavaliers -3.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Cleveland Cavaliers -3.5",
+    "edge": 0,
+    "ccr": 70,
+    "ccr_avg": 70,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-05-10",
     "sport": "BEST",
     "source_sport": "NBA",
@@ -11,13 +27,6 @@
     "edge": 0,
     "ccr": 65,
     "ccr_avg": 65,
-    "consensus_reports": 4,
-    "source_reports": [
-      "nba_decay",
-      "deepseek",
-      "groq",
-      "nvidia"
-    ],
     "tier": "B",
     "result": null,
     "units": 1.0
@@ -34,13 +43,6 @@
     "edge": 0,
     "ccr": 62,
     "ccr_avg": 62,
-    "consensus_reports": 4,
-    "source_reports": [
-      "deepseek",
-      "groq",
-      "nvidia",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -57,13 +59,6 @@
     "edge": 0,
     "ccr": 68,
     "ccr_avg": 68,
-    "consensus_reports": 4,
-    "source_reports": [
-      "deepseek",
-      "groq",
-      "nvidia",
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -80,13 +75,6 @@
     "edge": 0,
     "ccr": 75,
     "ccr_avg": 75,
-    "consensus_reports": 4,
-    "source_reports": [
-      "deepseek",
-      "gemini",
-      "nvidia",
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -103,13 +91,6 @@
     "edge": 0,
     "ccr": 52,
     "ccr_avg": 52,
-    "consensus_reports": 4,
-    "source_reports": [
-      "nba_decay",
-      "deepseek",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -126,11 +107,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 2,
-    "source_reports": [
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -147,11 +123,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 2,
-    "source_reports": [
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -168,12 +139,6 @@
     "edge": 0,
     "ccr": 67,
     "ccr_avg": 67,
-    "consensus_reports": 3,
-    "source_reports": [
-      "gemini",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -190,12 +155,6 @@
     "edge": 0,
     "ccr": 67,
     "ccr_avg": 67,
-    "consensus_reports": 3,
-    "source_reports": [
-      "gemini",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -212,11 +171,6 @@
     "edge": 0,
     "ccr": 78,
     "ccr_avg": 78,
-    "consensus_reports": 2,
-    "source_reports": [
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -233,12 +187,6 @@
     "edge": 0,
     "ccr": 63,
     "ccr_avg": 63,
-    "consensus_reports": 3,
-    "source_reports": [
-      "anthropic",
-      "gemini",
-      "groq"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -255,12 +203,6 @@
     "edge": 0,
     "ccr": 60,
     "ccr_avg": 60,
-    "consensus_reports": 3,
-    "source_reports": [
-      "nba_picks_today",
-      "gemini",
-      "groq"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -277,11 +219,6 @@
     "edge": 0,
     "ccr": 65,
     "ccr_avg": 65,
-    "consensus_reports": 2,
-    "source_reports": [
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -298,12 +235,6 @@
     "edge": 0,
     "ccr": 67,
     "ccr_avg": 67,
-    "consensus_reports": 3,
-    "source_reports": [
-      "anthropic",
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -320,12 +251,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 3,
-    "source_reports": [
-      "gemini",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -342,12 +267,6 @@
     "edge": 0,
     "ccr": 67,
     "ccr_avg": 67,
-    "consensus_reports": 3,
-    "source_reports": [
-      "gemini",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -364,11 +283,6 @@
     "edge": 0,
     "ccr": 65,
     "ccr_avg": 65,
-    "consensus_reports": 2,
-    "source_reports": [
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -385,11 +299,6 @@
     "edge": 0,
     "ccr": 65,
     "ccr_avg": 65,
-    "consensus_reports": 2,
-    "source_reports": [
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -406,12 +315,6 @@
     "edge": 0,
     "ccr": 67,
     "ccr_avg": 67,
-    "consensus_reports": 3,
-    "source_reports": [
-      "gemini",
-      "groq",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -428,10 +331,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -448,10 +347,6 @@
     "edge": 0,
     "ccr": 50,
     "ccr_avg": 50,
-    "consensus_reports": 1,
-    "source_reports": [
-      "nba_consensus"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -468,11 +363,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 2,
-    "source_reports": [
-      "gemini",
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -489,10 +379,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -508,10 +394,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -539,10 +421,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -558,10 +436,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -577,10 +451,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0,
@@ -598,10 +468,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "B",
     "result": "V",
     "units": 1.0
@@ -617,10 +483,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -636,10 +498,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "V",
     "units": 1.5
@@ -655,10 +513,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5,
@@ -676,10 +530,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -695,10 +545,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -714,10 +560,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -733,10 +575,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "nba_consensus"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -752,10 +590,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -771,10 +605,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "nba_consensus"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5,
@@ -792,10 +622,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -811,10 +637,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -830,10 +652,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -849,10 +667,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -868,10 +682,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -887,10 +697,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "groq"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5,
@@ -908,10 +714,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "anthropic"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -927,10 +729,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -946,10 +744,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -965,10 +759,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0,
@@ -986,10 +776,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1005,10 +791,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "nba_consensus"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1024,10 +806,6 @@
     "edge": 0,
     "ccr": 75,
     "ccr_avg": 75,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.25
@@ -1043,10 +821,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1062,10 +836,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "nba_consensus"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0,
@@ -1083,10 +853,6 @@
     "edge": 0,
     "ccr": 75,
     "ccr_avg": 75,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.25
@@ -1102,10 +868,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1121,11 +883,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 2,
-    "source_reports": [
-      "anthropic",
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1141,10 +898,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1160,11 +913,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 2,
-    "source_reports": [
-      "anthropic",
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0,
@@ -1182,10 +930,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1201,10 +945,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1220,10 +960,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1239,10 +975,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0,
@@ -1260,10 +992,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1279,10 +1007,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1298,10 +1022,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1317,10 +1037,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1336,10 +1052,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0,
@@ -1357,10 +1069,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "V",
     "units": 1.5
@@ -1376,10 +1084,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -1395,10 +1099,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1414,10 +1114,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1433,10 +1129,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0,
@@ -1454,10 +1146,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "V",
     "units": 1.5
@@ -1473,10 +1161,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1492,10 +1176,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1511,10 +1191,6 @@
     "edge": 0,
     "ccr": 95,
     "ccr_avg": 95,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1530,10 +1206,6 @@
     "edge": 0,
     "ccr": 95,
     "ccr_avg": 95,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0,
@@ -1551,10 +1223,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1570,10 +1238,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1589,10 +1253,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1608,10 +1268,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1644,10 +1300,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "V",
     "units": 2.0
@@ -1663,10 +1315,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1682,10 +1330,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 1.5
@@ -1701,10 +1345,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1720,10 +1360,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "openai"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0,
@@ -1741,10 +1377,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1760,10 +1392,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "chatgpt"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -1779,11 +1407,6 @@
     "edge": 0,
     "ccr": 70,
     "ccr_avg": 70,
-    "consensus_reports": 2,
-    "source_reports": [
-      "anthropic",
-      "claude"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -1799,12 +1422,6 @@
     "edge": 0,
     "ccr": 72,
     "ccr_avg": 72,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.25
@@ -1820,11 +1437,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "claude"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -1840,12 +1452,6 @@
     "edge": 0,
     "ccr": 72,
     "ccr_avg": 72,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.25,
@@ -1863,10 +1469,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "claude"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -1882,10 +1484,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1901,10 +1499,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1920,10 +1514,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -1939,12 +1529,6 @@
     "edge": 0,
     "ccr": 77,
     "ccr_avg": 77,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.5
@@ -1960,12 +1544,6 @@
     "edge": 0,
     "ccr": 77,
     "ccr_avg": 77,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.5,
@@ -1983,11 +1561,6 @@
     "edge": 0,
     "ccr": 71,
     "ccr_avg": 71,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.0
@@ -2003,11 +1576,6 @@
     "edge": 0,
     "ccr": 79,
     "ccr_avg": 79,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "claude"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.25
@@ -2023,11 +1591,6 @@
     "edge": 0,
     "ccr": 72,
     "ccr_avg": 72,
-    "consensus_reports": 2,
-    "source_reports": [
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "W",
     "units": 1.0
@@ -2043,12 +1606,6 @@
     "edge": 0,
     "ccr": 77,
     "ccr_avg": 77,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.5
@@ -2064,12 +1621,6 @@
     "edge": 0,
     "ccr": 77,
     "ccr_avg": 77,
-    "consensus_reports": 3,
-    "source_reports": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
     "tier": "B",
     "result": "L",
     "units": 1.5,
@@ -2087,10 +1638,6 @@
     "edge": 0,
     "ccr": 81,
     "ccr_avg": 81,
-    "consensus_reports": 1,
-    "source_reports": [
-      "chatgpt"
-    ],
     "tier": "A",
     "result": "L",
     "units": 1.5
@@ -2106,11 +1653,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 88,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -2171,11 +1713,6 @@
     "edge": 0,
     "ccr": 83,
     "ccr_avg": 81,
-    "consensus_reports": 2,
-    "source_reports": [
-      "claude",
-      "chatgpt"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -2236,10 +1773,6 @@
     "edge": 0,
     "ccr": 85,
     "ccr_avg": 85,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -2331,11 +1864,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 88,
-    "consensus_reports": 2,
-    "source_reports": [
-      "claude",
-      "chatgpt"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -2396,10 +1924,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 90,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -2460,11 +1984,6 @@
     "edge": 0,
     "ccr": 90,
     "ccr_avg": 85,
-    "consensus_reports": 2,
-    "source_reports": [
-      "claude",
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -2525,11 +2044,6 @@
     "edge": 0,
     "ccr": 88,
     "ccr_avg": 84,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "gemini"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
@@ -2683,10 +2197,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 1,
-    "source_reports": [
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0,
@@ -2734,11 +2244,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 2,
-    "source_reports": [
-      "claude",
-      "gemini"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -2782,10 +2287,6 @@
     "edge": 0,
     "ccr": 87,
     "ccr_avg": 87,
-    "consensus_reports": 1,
-    "source_reports": [
-      "chatgpt"
-    ],
     "tier": "A",
     "result": "W",
     "units": 2.0
@@ -2815,11 +2316,6 @@
     "edge": 0,
     "ccr": 80,
     "ccr_avg": 80,
-    "consensus_reports": 2,
-    "source_reports": [
-      "chatgpt",
-      "claude"
-    ],
     "tier": "A",
     "result": "L",
     "units": 2.0
