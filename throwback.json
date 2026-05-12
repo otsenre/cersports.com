@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-05-11T19:56:50.110751+00:00",
-  "iso_date": "2026-05-03",
-  "display_date": "Sun \u00b7 May 3, 2026",
+  "generated_at": "2026-05-12T15:08:59.544565+00:00",
+  "iso_date": "2026-04-30",
+  "display_date": "Thu \u00b7 Apr 30, 2026",
   "summary": {
     "wins": 3,
     "losses": 3,
-    "units_pl": -0.43,
-    "roi_pct": -7.17
+    "units_pl": -0.28,
+    "roi_pct": -4.67
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ St. Louis Cardinals",
-      "pick": "Los Angeles Dodgers ML",
+      "sport": "ATP",
+      "game": "Alexander Zverev vs Flavio Cobolli",
+      "pick": "Alexander Zverev ML",
       "bet_type": "ML",
-      "odds": -145.0,
+      "odds": -250.0,
       "result": "W",
-      "profit_units": 0.86
+      "profit_units": 0.4
     },
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Cleveland Cavaliers",
-      "pick": "Cleveland Cavaliers -7.5",
+      "game": "New York Knicks @ Atlanta Hawks",
+      "pick": "New York Knicks -2.5",
       "bet_type": "ATS",
-      "odds": -102.0,
+      "odds": -115.0,
       "result": "W",
-      "profit_units": 1.23
-    },
-    {
-      "sport": "MLS",
-      "game": "St. Louis CITY SC @ Austin FC",
-      "pick": "BTTS Yes",
-      "bet_type": "BTTS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "MLS",
-      "game": "D.C. United @ New York City FC",
-      "pick": "New York City FC ML",
-      "bet_type": "ML",
-      "odds": -120.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ Seattle Mariners",
-      "pick": "Luis Castillo Over 4.5 Pitcher Strikeouts",
-      "bet_type": "Prop",
-      "odds": -127.0,
-      "result": "W",
-      "profit_units": 0.98
+      "profit_units": 0.87
     },
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Cleveland Cavaliers",
-      "pick": "Donovan Mitchell Over 25.5 Points",
-      "bet_type": "Prop",
-      "odds": -111.0,
+      "game": "Denver Nuggets @ Minnesota Timberwolves",
+      "pick": "Denver Nuggets -5.5",
+      "bet_type": "ATS",
+      "odds": -118.0,
       "result": "L",
       "profit_units": -1.0
+    },
+    {
+      "sport": "WTA",
+      "game": "Anastasia Potapova vs Marta Kostyuk",
+      "pick": "Anastasia Potapova ML",
+      "bet_type": "ML",
+      "odds": 220.0,
+      "result": "L",
+      "profit_units": -1.0
+    },
+    {
+      "sport": "MLB",
+      "game": "St. Louis Cardinals at Pittsburgh Pirates",
+      "pick": "Paul Skenes Over 6.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": -131.0,
+      "result": "W",
+      "profit_units": 0.95
+    },
+    {
+      "sport": "NBA",
+      "game": "Denver Nuggets @ Minnesota Timberwolves",
+      "pick": "Nikola Jokic Over 29.5 Points",
+      "bet_type": "Prop",
+      "odds": -104.0,
+      "result": "L",
+      "profit_units": -0.5
     }
   ]
 }
