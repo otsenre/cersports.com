@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-12",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "New York Liberty @ Portland Fire",
+    "pick": "New York Liberty -12.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "New York Liberty -12.5",
+    "edge": 0,
+    "ccr": 7.5,
+    "ccr_avg": 7.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0
+  },
+  {
     "date": "2026-05-11",
     "sport": "BEST",
     "source_sport": "NBA",
