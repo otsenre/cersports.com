@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-13",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Indiana Fever @ Los Angeles Sparks",
+    "pick": "Indiana Fever ML",
+    "bet_type": "ML",
+    "line": -130.0,
+    "pick_display": "Indiana Fever ML",
+    "edge": 0,
+    "ccr": 6.8,
+    "ccr_avg": 6.8,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-12",
     "sport": "BEST",
     "source_sport": "WNBA",
