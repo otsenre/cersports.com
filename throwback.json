@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-05-14T15:08:28.005016+00:00",
-  "iso_date": "2026-05-11",
-  "display_date": "Mon \u00b7 May 11, 2026",
+  "generated_at": "2026-05-15T15:08:59.034595+00:00",
+  "iso_date": "2026-05-12",
+  "display_date": "Tue \u00b7 May 12, 2026",
   "summary": {
     "wins": 4,
     "losses": 2,
-    "units_pl": 0.35,
-    "roi_pct": 5.83
+    "units_pl": 0.98,
+    "roi_pct": 16.33
   },
   "picks": [
     {
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Dallas Wings",
+      "pick": "Atlanta Dream -2.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 1.19
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Phoenix Mercury",
+      "pick": "Phoenix Mercury -4.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "WTA",
+      "game": "Iga Swiatek vs Jessica Pegula",
+      "pick": "Iga Swiatek ML",
+      "bet_type": "ML",
+      "odds": -275.0,
+      "result": "W",
+      "profit_units": 0.64
+    },
+    {
       "sport": "NHL",
-      "game": "Colorado Avalanche @ Minnesota Wild",
-      "pick": "Colorado Avalanche ML",
+      "game": "Anaheim Ducks @ Vegas Golden Knights",
+      "pick": "Vegas Golden Knights ML",
       "bet_type": "ML",
-      "odds": -145.0,
+      "odds": -160.0,
       "result": "W",
-      "profit_units": 0.69
+      "profit_units": 0.94
     },
     {
-      "sport": "ATP",
-      "game": "Casper Ruud vs Lorenzo Musetti",
-      "pick": "Casper Ruud ML",
-      "bet_type": "ML",
-      "odds": -190.0,
+      "sport": "WNBA",
+      "game": "New York Liberty @ Portland Fire",
+      "pick": "Breanna Stewart Over 21.5 Points",
+      "bet_type": "Prop",
+      "odds": -130.0,
       "result": "W",
-      "profit_units": 0.39
+      "profit_units": 0.96
     },
     {
       "sport": "MLB",
-      "game": "Los Angeles Angels @ Cleveland Guardians",
-      "pick": "Cleveland Guardians ML",
-      "bet_type": "ML",
-      "odds": -180.0,
-      "result": "W",
-      "profit_units": 0.42
-    },
-    {
-      "sport": "ATP",
-      "game": "Dino Prizmic vs Karen Khachanov",
-      "pick": "Dino Prizmic ML",
-      "bet_type": "ML",
-      "odds": -180.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Angels @ Cleveland Guardians",
-      "pick": "Joey Cantillo Over 5.5 Pitcher Strikeouts",
+      "game": "New York Yankees at Baltimore Orioles",
+      "pick": "Gerrit Cole Over 7.5 Pitcher Strikeouts",
       "bet_type": "Prop",
-      "odds": -114.0,
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "NBA",
-      "game": "Oklahoma City Thunder @ Los Angeles Lakers",
-      "pick": "Shai Gilgeous-Alexander Over 28.5 Points",
-      "bet_type": "Prop",
-      "odds": -118.0,
-      "result": "W",
-      "profit_units": 0.85
+      "profit_units": -1.25
     }
   ]
 }
