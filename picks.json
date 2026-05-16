@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-15",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Detroit Pistons @ Cleveland Cavaliers",
+    "pick": "Cleveland Cavaliers -3.5",
+    "bet_type": "ATS",
+    "line": -102.0,
+    "pick_display": "Cleveland Cavaliers -3.5",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0
+  },
+  {
+    "date": "2026-05-14",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Daniil Medvedev vs Martin Landaluce",
+    "pick": "Daniil Medvedev ML",
+    "bet_type": "ML",
+    "line": -285.0,
+    "pick_display": "Daniil Medvedev ML",
+    "edge": 0,
+    "ccr": 6.9,
+    "ccr_avg": 6.9,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-13",
     "sport": "BEST",
     "source_sport": "WNBA",
