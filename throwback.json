@@ -1,67 +1,58 @@
 {
-  "generated_at": "2026-05-15T15:08:59.034595+00:00",
-  "iso_date": "2026-05-12",
-  "display_date": "Tue \u00b7 May 12, 2026",
+  "generated_at": "2026-05-16T15:08:27.475770+00:00",
+  "iso_date": "2026-05-02",
+  "display_date": "Sat \u00b7 May 2, 2026",
   "summary": {
-    "wins": 4,
+    "wins": 3,
     "losses": 2,
-    "units_pl": 0.98,
-    "roi_pct": 16.33
+    "units_pl": 0.11,
+    "roi_pct": 2.2
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Dallas Wings",
-      "pick": "Atlanta Dream -2.5",
+      "game": "Nigeria Nigeria @ Indiana Fever",
+      "pick": "Indiana Fever -22.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -114.0,
       "result": "W",
-      "profit_units": 1.19
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Phoenix Mercury",
-      "pick": "Phoenix Mercury -4.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "WTA",
-      "game": "Iga Swiatek vs Jessica Pegula",
-      "pick": "Iga Swiatek ML",
-      "bet_type": "ML",
-      "odds": -275.0,
-      "result": "W",
-      "profit_units": 0.64
-    },
-    {
-      "sport": "NHL",
-      "game": "Anaheim Ducks @ Vegas Golden Knights",
-      "pick": "Vegas Golden Knights ML",
-      "bet_type": "ML",
-      "odds": -160.0,
-      "result": "W",
-      "profit_units": 0.94
-    },
-    {
-      "sport": "WNBA",
-      "game": "New York Liberty @ Portland Fire",
-      "pick": "Breanna Stewart Over 21.5 Points",
-      "bet_type": "Prop",
-      "odds": -130.0,
-      "result": "W",
-      "profit_units": 0.96
+      "profit_units": 1.1
     },
     {
       "sport": "MLB",
-      "game": "New York Yankees at Baltimore Orioles",
-      "pick": "Gerrit Cole Over 7.5 Pitcher Strikeouts",
+      "game": "Baltimore Orioles @ New York Yankees",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": -175.0,
+      "result": "W",
+      "profit_units": 0.43
+    },
+    {
+      "sport": "MLB",
+      "game": "Toronto Blue Jays @ Minnesota Twins",
+      "pick": "Toronto Blue Jays ML",
+      "bet_type": "ML",
+      "odds": -130.0,
+      "result": "W",
+      "profit_units": 0.58
+    },
+    {
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Colorado Rockies",
+      "pick": "Chris Sale Under 7.5 Pitcher Strikeouts",
       "bet_type": "Prop",
-      "odds": -110.0,
+      "odds": -151.0,
       "result": "L",
-      "profit_units": -1.25
+      "profit_units": -1.0
+    },
+    {
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ Miami Marlins",
+      "pick": "Andrew Painter Under 4.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": -160.0,
+      "result": "L",
+      "profit_units": -1.0
     }
   ]
 }
