@@ -1,58 +1,67 @@
 {
-  "generated_at": "2026-05-16T15:08:27.475770+00:00",
-  "iso_date": "2026-05-02",
-  "display_date": "Sat \u00b7 May 2, 2026",
+  "generated_at": "2026-05-17T16:10:23.708286+00:00",
+  "iso_date": "2026-04-30",
+  "display_date": "Thu \u00b7 Apr 30, 2026",
   "summary": {
     "wins": 3,
-    "losses": 2,
-    "units_pl": 0.11,
-    "roi_pct": 2.2
+    "losses": 3,
+    "units_pl": -0.28,
+    "roi_pct": -4.67
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Nigeria Nigeria @ Indiana Fever",
-      "pick": "Indiana Fever -22.5",
+      "sport": "ATP",
+      "game": "Alexander Zverev vs Flavio Cobolli",
+      "pick": "Alexander Zverev ML",
+      "bet_type": "ML",
+      "odds": -250.0,
+      "result": "W",
+      "profit_units": 0.4
+    },
+    {
+      "sport": "NBA",
+      "game": "New York Knicks @ Atlanta Hawks",
+      "pick": "New York Knicks -2.5",
       "bet_type": "ATS",
-      "odds": -114.0,
+      "odds": -115.0,
       "result": "W",
-      "profit_units": 1.1
+      "profit_units": 0.87
     },
     {
-      "sport": "MLB",
-      "game": "Baltimore Orioles @ New York Yankees",
-      "pick": "New York Yankees ML",
+      "sport": "NBA",
+      "game": "Denver Nuggets @ Minnesota Timberwolves",
+      "pick": "Denver Nuggets -5.5",
+      "bet_type": "ATS",
+      "odds": -118.0,
+      "result": "L",
+      "profit_units": -1.0
+    },
+    {
+      "sport": "WTA",
+      "game": "Anastasia Potapova vs Marta Kostyuk",
+      "pick": "Anastasia Potapova ML",
       "bet_type": "ML",
-      "odds": -175.0,
-      "result": "W",
-      "profit_units": 0.43
-    },
-    {
-      "sport": "MLB",
-      "game": "Toronto Blue Jays @ Minnesota Twins",
-      "pick": "Toronto Blue Jays ML",
-      "bet_type": "ML",
-      "odds": -130.0,
-      "result": "W",
-      "profit_units": 0.58
-    },
-    {
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Colorado Rockies",
-      "pick": "Chris Sale Under 7.5 Pitcher Strikeouts",
-      "bet_type": "Prop",
-      "odds": -151.0,
+      "odds": 220.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
       "sport": "MLB",
-      "game": "Philadelphia Phillies @ Miami Marlins",
-      "pick": "Andrew Painter Under 4.5 Pitcher Strikeouts",
+      "game": "St. Louis Cardinals at Pittsburgh Pirates",
+      "pick": "Paul Skenes Over 6.5 Pitcher Strikeouts",
       "bet_type": "Prop",
-      "odds": -160.0,
+      "odds": -131.0,
+      "result": "W",
+      "profit_units": 0.95
+    },
+    {
+      "sport": "NBA",
+      "game": "Denver Nuggets @ Minnesota Timberwolves",
+      "pick": "Nikola Jokic Over 29.5 Points",
+      "bet_type": "Prop",
+      "odds": -104.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -0.5
     }
   ]
 }
