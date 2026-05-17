@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-16",
+    "sport": "BEST",
+    "source_sport": "MLS",
+    "game": "Chicago Fire FC @ CF Montr\u00e9al",
+    "pick": "CF Montr\u00e9al ML",
+    "bet_type": "ML",
+    "line": 120.0,
+    "pick_display": "CF Montr\u00e9al ML",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": "V",
+    "units": 1.0
+  },
+  {
     "date": "2026-05-15",
     "sport": "BEST",
     "source_sport": "NBA",
@@ -92,7 +108,7 @@
     "ccr": 6.5,
     "ccr_avg": 6.5,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0
   },
   {
@@ -2277,7 +2293,7 @@
     "edge": 0,
     "ccr": 0.0,
     "tier": "\u2014",
-    "result": "N/A",
+    "result": "W",
     "units": 0
   },
   {
@@ -2323,7 +2339,7 @@
     "edge": 0,
     "ccr": 0.0,
     "tier": "\u2014",
-    "result": "N/A",
+    "result": "W",
     "units": 0
   },
   {
