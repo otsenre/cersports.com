@@ -1,19 +1,37 @@
 [
   {
+    "date": "2026-05-17",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "Cleveland Cavaliers @ Detroit Pistons",
+    "pick": "Detroit Pistons -4.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Detroit Pistons -4.5",
+    "edge": 0,
+    "ccr": 6.8,
+    "ccr_avg": 6.8,
+    "tier": "B",
+    "result": "V",
+    "units": 1.0,
+    "hash_id": ""
+  },
+  {
     "date": "2026-05-16",
     "sport": "BEST",
-    "source_sport": "MLS",
-    "game": "Chicago Fire FC @ CF Montr\u00e9al",
-    "pick": "CF Montr\u00e9al ML",
+    "source_sport": "ATP",
+    "game": "Casper Ruud vs Jannik Sinner",
+    "pick": "Jannik Sinner ML",
     "bet_type": "ML",
-    "line": 120.0,
-    "pick_display": "CF Montr\u00e9al ML",
+    "line": "",
+    "pick_display": "Jannik Sinner ML",
     "edge": 0,
     "ccr": 6.5,
     "ccr_avg": 6.5,
     "tier": "B",
-    "result": "V",
-    "units": 1.0
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "195a9b682cd6a7307826a42f500d505497ee0d202f600d024d7a95f33a39d510"
   },
   {
     "date": "2026-05-15",
@@ -29,7 +47,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "0c0a2d2e539e0ffdfcccdecb60c98095c5a3a98feaf5cea4190c190fc5edc0a8"
   },
   {
     "date": "2026-05-14",
@@ -45,7 +64,8 @@
     "ccr_avg": 6.9,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "92fc433d174a8f43cb790e4dcb98d44151083f4ce696818f273e5dbf127b39aa"
   },
   {
     "date": "2026-05-13",
@@ -61,7 +81,8 @@
     "ccr_avg": 6.8,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "a3ae8bc2bd051ca9a2a196b8029d3852011d2fc3a27a96a8fde86f68e4fa36f5"
   },
   {
     "date": "2026-05-12",
@@ -77,7 +98,8 @@
     "ccr_avg": 7.5,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "a0fa58875ceee917a97309eb0d3ec1b9e0e3d6dcf56d3206ce8b7913a330066f"
   },
   {
     "date": "2026-05-11",
@@ -93,7 +115,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "af3365fa23b0826de084d6498adb99941e01da904796b45d2a8761a96c85d5d2"
   },
   {
     "date": "2026-05-10",
@@ -109,7 +132,8 @@
     "ccr_avg": 6.5,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "a36b6448f09e6c27b12c34210bab75673f96f3741616f51eda8bfc85d47b67c4"
   },
   {
     "date": "2026-05-09",
@@ -125,7 +149,8 @@
     "ccr_avg": 6.2,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "e52e7c465de6e39e39d7ad77de92ac9dbd6670b41f4a9b0452b4b9af4e4bf091"
   },
   {
     "date": "2026-05-08",
@@ -141,7 +166,8 @@
     "ccr_avg": 6.8,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "af3ac9bed6f7b467fcea80e8d1a255e87e04e5f0fe14cec0070defe9aac5a6d3"
   },
   {
     "date": "2026-05-07",
@@ -157,7 +183,8 @@
     "ccr_avg": 7.5,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "1afa7438b0ac8e0b38553fbb61b0127565edee7543cb4c7202d62448422f28d0"
   },
   {
     "date": "2026-05-06",
@@ -173,7 +200,8 @@
     "ccr_avg": 5.2,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "d7cf79f3f9e0b410feb3e075342dd79301e3ac7fe7a0f0dc11adc7dd0eb4ba56"
   },
   {
     "date": "2026-05-05",
@@ -189,7 +217,8 @@
     "ccr_avg": 8.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "2f38a3c3e2caa220d1a109874e9d12a97c301695c846e333de20209b55ae2ea6"
   },
   {
     "date": "2026-05-04",
@@ -205,7 +234,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "d81ad10fcf89e39b269b63152fc4834930a313c2146f8ac8c77b84994a21d1d7"
   },
   {
     "date": "2026-05-03",
@@ -221,7 +251,8 @@
     "ccr_avg": 6.7,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "2a39fad9159dd115e408d220280e2ab734fef170de85d19e93b67dc794283f68"
   },
   {
     "date": "2026-05-02",
@@ -237,7 +268,8 @@
     "ccr_avg": 6.7,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "5dad1e9c26530d1db2c3c5b9f63ae21d1bb4eae565cdebde0109630895e68153"
   },
   {
     "date": "2026-05-01",
@@ -253,7 +285,8 @@
     "ccr_avg": 7.8,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "04dba7873b4869874c6e56a1f2cab69de1da023e7411388814e5017ff8a6c24b"
   },
   {
     "date": "2026-04-30",
@@ -269,7 +302,8 @@
     "ccr_avg": 6.3,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "0409e9f8576b36048973f5bd3acbfed6459627aa28e31e7b9dd3f5e05b5e2577"
   },
   {
     "date": "2026-04-29",
@@ -285,7 +319,8 @@
     "ccr_avg": 6.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "55828f2c396950e4505b2926ef494763ece27b59031495c31fca01f468d4b578"
   },
   {
     "date": "2026-04-28",
@@ -301,7 +336,8 @@
     "ccr_avg": 6.5,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "355064cea59276f0c1e92aa3c22b18becf9487f4dcbe6d05b568b1315e35c2fa"
   },
   {
     "date": "2026-04-27",
@@ -317,7 +353,8 @@
     "ccr_avg": 6.7,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "3e550171193ddba4d2cda6fac6f927bf468dc5b0d06bb4e96a380717bf6909e8"
   },
   {
     "date": "2026-04-26",
@@ -333,7 +370,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "bb80eee46f3522eb0177c0725490db1f95ce694e352cda6f912fcaf6cec04808"
   },
   {
     "date": "2026-04-25",
@@ -349,7 +387,8 @@
     "ccr_avg": 6.7,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "fb164be44523ebc3262bc90ba04479cf34b12f63462531dc8a96b8cd083125bc"
   },
   {
     "date": "2026-04-24",
@@ -365,7 +404,8 @@
     "ccr_avg": 6.5,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "d7b29e2ecf1b7bfcdfe868e13cdb6a4dd98b4eca75304745c75486a9698597fc"
   },
   {
     "date": "2026-04-23",
@@ -381,7 +421,8 @@
     "ccr_avg": 6.5,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "b25ddf943de7225389b271d34168f1d4d90701d308648232a35e7b89ae6fee4b"
   },
   {
     "date": "2026-04-22",
@@ -397,7 +438,8 @@
     "ccr_avg": 6.7,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "ce3005d965b206fd67b81406c94157dc136e544c27fbd9808345078b97e4d8b6"
   },
   {
     "date": "2026-04-21",
@@ -413,7 +455,8 @@
     "ccr_avg": 8.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "efbef19fdc139705e656215b34bde67547cc218c2eea6dc26ac64a1a705cbcef"
   },
   {
     "date": "2026-04-20",
@@ -429,7 +472,8 @@
     "ccr_avg": 5.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "132567d8583c70c6d7ab8a8b9553147c11f88b35f5271c305fdfc54aac438181"
   },
   {
     "date": "2026-04-19",
@@ -445,7 +489,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "31d6bc6e27ce49cdc154cf7c4977fbf5895304e46f92f8d859542e5af4edf096"
   },
   {
     "date": "2026-04-18",
@@ -461,7 +506,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "8922b6b6407a1451167dda4ebec430c32e719131793dc5b02037f05e521586d9"
   },
   {
     "date": "2026-04-17",
@@ -476,7 +522,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "20e2dec6c6331642ae6c3a93015d02aa96b62fe87b304a38bea9014a92743ac2"
   },
   {
     "type": "BEST",
@@ -488,7 +535,8 @@
     "odds": -120.0,
     "ccr": 8.0,
     "result": "L",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "03c90d05947ba3efef3758001ecf164d9083362c9071ec1fa7603c3320f8d029"
   },
   {
     "date": "2026-04-17",
@@ -503,7 +551,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "8e4726a68ea09732382551f3c518ee4be16b37d123aee9a384920d9798443fda"
   },
   {
     "date": "2026-04-17",
@@ -518,7 +567,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "51f2df2649c2ce1e691031a408c0b540bb182a5727d96f77913a0f73eabd2273"
   },
   {
     "date": "2026-04-17",
@@ -535,7 +585,8 @@
     "result": "L",
     "units": 1.0,
     "source_sport": "ATP",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "52961db667a2a161c984d8a3baa8a9a419e6779af8ce7686081f0a85a32bc3d9"
   },
   {
     "date": "2026-04-17",
@@ -550,7 +601,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "V",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "47aede329be9e5d1861ffa142cccdfd196c9e9cd353e3ec5a97381c4b9e5d2d5"
   },
   {
     "date": "2026-04-16",
@@ -565,7 +617,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "a270149992e1d5d3a5eabbb49129926e1449a8a1c331f06a81339ecf4517b188"
   },
   {
     "date": "2026-04-16",
@@ -580,7 +633,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "V",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "016ab94bebde1a2a78595b7f073a94c30298a6487616f7594ec0f8f8be24f98b"
   },
   {
     "date": "2026-04-16",
@@ -597,7 +651,8 @@
     "result": "W",
     "units": 1.5,
     "source_sport": "NHL",
-    "profit": "+0.46u"
+    "profit": "+0.46u",
+    "hash_id": "76a9baf4055cb9e3e2882c1c31dec943f2765d30da3d4179a66eeb9a4303aa61"
   },
   {
     "date": "2026-04-16",
@@ -612,7 +667,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "e1883037f5539756696a10ab7b3ac03794070d36a059833bd3ed108a31c6c5d8"
   },
   {
     "date": "2026-04-15",
@@ -627,7 +683,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "415a604498d6ed92c3094fc7fbdd2acb548fae662cf847b63531cc54b5b8fa82"
   },
   {
     "date": "2026-04-15",
@@ -642,7 +699,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "dee8195951e9ef2f996e6067a396bd544e40ae5c50f1a2317cf4d298d52f6662"
   },
   {
     "date": "2026-04-15",
@@ -657,7 +715,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "68e50d25b9504eb607fbee26624e8a16975a0d061de13a7954bafff5a1668feb"
   },
   {
     "date": "2026-04-15",
@@ -672,7 +731,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "62551d42da375aca4bed8427ef0abee2b64fa3b8520fe96f5107dfba71105582"
   },
   {
     "date": "2026-04-15",
@@ -689,7 +749,8 @@
     "result": "L",
     "units": 1.5,
     "source_sport": "NBA",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "03700a2709d03e313c870ca36360a77fc555470c05aeeae88ebaa2d5cad949ef"
   },
   {
     "date": "2026-04-15",
@@ -704,7 +765,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "234b199394c4b1a90213b7fec21776332d528d63cf0ee504a454de1452807881"
   },
   {
     "date": "2026-04-14",
@@ -719,7 +781,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "c92a4152379f85633f7df2b1cd3753c6642a646452430c2113a6b8198c091b01"
   },
   {
     "date": "2026-04-14",
@@ -734,7 +797,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "5603d473aed2a30e9d9149a88fd42d1fdc0c660f18ea6a9f815ac707456b98a8"
   },
   {
     "date": "2026-04-14",
@@ -749,7 +813,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "76d42973c8de83b3cae3aa8f6daf4eb8c9e4a185ea0471e6905c5ad25c333c6b"
   },
   {
     "date": "2026-04-14",
@@ -764,7 +829,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "760ecd8917b2e0c4a68cb0230d6994fa85a2ccaf3bc94e099c5e330e0f172cfb"
   },
   {
     "date": "2026-04-14",
@@ -781,7 +847,8 @@
     "result": "L",
     "units": 1.5,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "9acb6342e3447e7a6e914d7c8fbe25c518b0e2a5025f7f760819ee795d1b9c2d"
   },
   {
     "date": "2026-04-14",
@@ -796,7 +863,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "ddff1af8956ae6accfcb1d9376ecd19f786f509358593551eed3ee00ccba7c0d"
   },
   {
     "date": "2026-04-13",
@@ -811,7 +879,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "a8ae9f2182eb24b0579a213a3eb13c9e8ba653169ea19eb7316463978d7166e4"
   },
   {
     "date": "2026-04-13",
@@ -826,7 +895,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "3053283b75e75556a0941093f67e0b55d08463970b4957cdadb6837161ef8754"
   },
   {
     "date": "2026-04-13",
@@ -843,7 +913,8 @@
     "result": "L",
     "units": 1.0,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "d5d29261f6f51d4489ade50d52e1796d4a129542c0fe3e2d1e254f92a3195f09"
   },
   {
     "date": "2026-04-12",
@@ -858,7 +929,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "7d9a165ce8089e906030917003afc241d5aea76b5d9621f8d4193d46835a879d"
   },
   {
     "date": "2026-04-12",
@@ -873,7 +945,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "5456eec12d56243cf70edf2d819c7424efb6b31fecca186d211e9d1a5442594c"
   },
   {
     "date": "2026-04-12",
@@ -888,7 +961,8 @@
     "ccr_avg": 7.5,
     "tier": "B",
     "result": "L",
-    "units": 1.25
+    "units": 1.25,
+    "hash_id": "03a5193b5c2fa0abbc99a9b5f3ad9279ba2694a77301c540bbe0290fecc67aa6"
   },
   {
     "date": "2026-04-12",
@@ -903,7 +977,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "51783f68179df248541333975b1b4ad01455447e116885c17e65a6b93e76ea78"
   },
   {
     "date": "2026-04-12",
@@ -920,7 +995,8 @@
     "result": "L",
     "units": 2.0,
     "source_sport": "NBA",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "51238252595d664c194896263690293f5505c398d130d60d0b7f944336566c4b"
   },
   {
     "date": "2026-04-12",
@@ -935,7 +1011,8 @@
     "ccr_avg": 7.5,
     "tier": "B",
     "result": "W",
-    "units": 1.25
+    "units": 1.25,
+    "hash_id": "e623200f6a7345d6ce86f4236d1c6118a08b1bb0b3701a4c2a10c74a2a10a3c9"
   },
   {
     "date": "2026-04-11",
@@ -950,7 +1027,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "6a0457a3997ee6def2ae3a880ed734db5e8cfd3fe4f003233d3dd4a85aeb63f1"
   },
   {
     "date": "2026-04-11",
@@ -965,7 +1043,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "2a6309910f395f9278cf6dabaedb3abe331fe26905d34ed8d671e21db751690c"
   },
   {
     "date": "2026-04-11",
@@ -980,7 +1059,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "ff7f50c05b8ce2691d33b9a47a4fd99920dfc857364de6ee31b2ea7716604aa1"
   },
   {
     "date": "2026-04-11",
@@ -997,7 +1077,8 @@
     "result": "W",
     "units": 2.0,
     "source_sport": "MLS",
-    "profit": "+0.67u"
+    "profit": "+0.67u",
+    "hash_id": "dee1e327f5999ba6287dc733a5d5eccb4a6571d484acbff0a2b1010d597e76f7"
   },
   {
     "date": "2026-04-11",
@@ -1012,7 +1093,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "ed6821228aa7b641150451e759712427c31f7d041fa3b82955a8eba4d0ff06cd"
   },
   {
     "date": "2026-04-10",
@@ -1027,7 +1109,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "0bb2e6755e61b4c3360475d4bb9280e587e30495caf26c5a086fdff588791363"
   },
   {
     "date": "2026-04-10",
@@ -1042,7 +1125,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "5e4b5f3b02f88ff32454163fa6917e39ed777e12a6e740ca739e59440997f89a"
   },
   {
     "date": "2026-04-10",
@@ -1059,7 +1143,8 @@
     "result": "L",
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "0a9f0b38820c8e52bddea45f283976ab041614696259cc9fc0d1dc746bf17c22"
   },
   {
     "date": "2026-04-09",
@@ -1074,7 +1159,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "6071601ffb6c5144d7632bff6b244fdbbf45403e3bdb57d01a5ef60843d01bbe"
   },
   {
     "date": "2026-04-09",
@@ -1089,7 +1175,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "ef21dcfcb116c6553ea8e0a4807af90479cc8b62d65a2ebdbd7b45c287a2c361"
   },
   {
     "date": "2026-04-09",
@@ -1104,7 +1191,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "401367ee5e16da572ad1f36115f54ddb6614159f530e1f6f1d091f625d67b0a7"
   },
   {
     "date": "2026-04-09",
@@ -1119,7 +1207,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "00bafffa765931eafb13ffeed6d03b2c4ea18a94b014add2028f8b7eb73e33b8"
   },
   {
     "date": "2026-04-09",
@@ -1136,7 +1225,8 @@
     "result": "W",
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "+1.36u"
+    "profit": "+1.36u",
+    "hash_id": "8e93d10b742f89a8a3856655526af719e908f8be1e3847bdfd551ef84d8b4d19"
   },
   {
     "date": "2026-04-09",
@@ -1151,7 +1241,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "V",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "dc21ce6669c946e57cc276f8b35c7208e1e6de3cd540865987dc80d8365a07da"
   },
   {
     "date": "2026-04-08",
@@ -1166,7 +1257,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "6cc8c58716db3c65d2b799018ced66b240a2911c5369c172454fccec600920a9"
   },
   {
     "date": "2026-04-08",
@@ -1181,7 +1273,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "68c8f3059491019a69d3e01917c0fefab3c7eab25aba8126952cc10a6772757c"
   },
   {
     "date": "2026-04-08",
@@ -1196,7 +1289,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "c1cd1fa0f5959dd14787d46c1b704b952ed14801cfae6708bec6ae9b455a7bd0"
   },
   {
     "date": "2026-04-08",
@@ -1213,7 +1307,8 @@
     "result": "L",
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "c6f878bd5122a2a2aec5afa4696e7ddf555d8d8ad2c9ecdd94a013d2fa163f1e"
   },
   {
     "date": "2026-04-08",
@@ -1228,7 +1323,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "V",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "8c10215d3f02b9b0cd1111a9ca885082cbf71de6a488c77cc750c645c71aadf0"
   },
   {
     "date": "2026-04-07",
@@ -1243,7 +1339,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "7352bcf9376b6bf83bdb45989a11a093d24b75e66ccf0af221cc4fdd8c5dc7f4"
   },
   {
     "date": "2026-04-07",
@@ -1258,7 +1355,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "f9ba02a4271fe6b7685818e4a8a4761ad8627cee8fb9a8bfb9982b204d28c6ae"
   },
   {
     "date": "2026-04-07",
@@ -1273,7 +1371,8 @@
     "ccr_avg": 9.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "eee1d62e919aaaf3c16c1a35f1f1cda4043120e6d2f17d347e26f4ce094622e4"
   },
   {
     "date": "2026-04-07",
@@ -1290,7 +1389,8 @@
     "result": "W",
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "+1.36u"
+    "profit": "+1.36u",
+    "hash_id": "430588e1c62d568403a7682e28527bd3dc8d1fd8c96be5379055bf325f349cd3"
   },
   {
     "date": "2026-04-07",
@@ -1305,7 +1405,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "7a091440ec8d57de02922bd12daaddae584e4d88a31b0a36a16e9ba27194f69f"
   },
   {
     "date": "2026-04-06",
@@ -1320,7 +1421,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "d82d727b09d79175b494e76beda52c6d84a1533a1ea1d5c2c05e1947ce0d9def"
   },
   {
     "date": "2026-04-06",
@@ -1335,7 +1437,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "9499ff407edb9026111f67f647eadc17daa23f24f0742910c1539dbff2d0752f"
   },
   {
     "date": "2026-04-06",
@@ -1350,7 +1453,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "1b499acc273dea56f4d834d9bc88028709113ce23a0f421fd39ba9df6a2b0590"
   },
   {
     "date": "2026-04-06",
@@ -1367,7 +1471,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "+1.36u"
+    "profit": "+1.36u",
+    "hash_id": "fb50fa74e0ab49a24858656f86ded23e46e27dc787abee905bbe34fd697def3d"
   },
   {
     "date": "2026-04-06",
@@ -1382,7 +1487,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "V",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "52cd636c06f9139ff8de906ac60171246d3199f9d65261fea1cc8651174c5a63"
   },
   {
     "date": "2026-04-05",
@@ -1397,7 +1503,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "c523f8bf6f51da95901c1474ec8a872caac964e88ae5eeda94d1b7ded3268ae3"
   },
   {
     "date": "2026-04-05",
@@ -1412,7 +1519,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "67d9bb90c47e174a1ae2b58939b6e689cfc0dd67982f812f296bf9ce3c0428f4"
   },
   {
     "date": "2026-04-05",
@@ -1427,7 +1535,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "b5181b411ef9a3ecb7f7ded9b47d15e0f674b012ac0f8e6cf33faa769d0f3996"
   },
   {
     "date": "2026-04-05",
@@ -1444,7 +1553,8 @@
     "result": "W",
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "+1.00u"
+    "profit": "+1.00u",
+    "hash_id": "d840a83080a4a2cfcecb203b7534fe952896d1d23e951d4dbcc2b1282948e8ea"
   },
   {
     "date": "2026-04-04",
@@ -1459,7 +1569,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "210719e3572ec4f11e71aaa28be42a20dd155cbc8212a98741096f28e52ec3cb"
   },
   {
     "date": "2026-04-04",
@@ -1474,7 +1585,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "8efd342a7ffd0571b992ab28b4a3abac266a6adb7982afdbd6740850062c0510"
   },
   {
     "date": "2026-04-04",
@@ -1489,7 +1601,8 @@
     "ccr_avg": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "94cb542c73530a912aec203c81f6cab8ea775a45f6e3832d9f4aaff9534caa7f"
   },
   {
     "date": "2026-04-04",
@@ -1504,7 +1617,8 @@
     "ccr_avg": 7.2,
     "tier": "B",
     "result": "W",
-    "units": 1.25
+    "units": 1.25,
+    "hash_id": "71ffb660d929d93ff3675930f4c20dd15af76cdaaceb98173b695d56a3e2a6c2"
   },
   {
     "date": "2026-04-04",
@@ -1519,7 +1633,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "4b407c6a8d38bbda02aae9ad20b6219910fe30915b6375c8e48acf8a09f2ae0c"
   },
   {
     "date": "2026-04-04",
@@ -1536,7 +1651,8 @@
     "result": "W",
     "units": 1.25,
     "source_sport": "MLS",
-    "profit": "+1.57u"
+    "profit": "+1.57u",
+    "hash_id": "b8bb8068c535cbc1f11f7584fcc9e28ee8be108b79aae8deef2cbb3a64939466"
   },
   {
     "date": "2026-04-04",
@@ -1551,7 +1667,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "5f3e098495c08b2c17a96612ab4bc92647d8b81abffdf6c9265c6dd209460bad"
   },
   {
     "date": "2026-04-03",
@@ -1566,7 +1683,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "85a11bd494ee44905e60799cb586dc6b1f8a8ca77b14e379164786fe23408d4a"
   },
   {
     "date": "2026-04-03",
@@ -1581,7 +1699,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "fbde89a9388843211ebf2431e5ecb214913ae172240498dd46d92e7f322cde21"
   },
   {
     "date": "2026-04-03",
@@ -1596,7 +1715,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "4f563ebab3ce59815ec4042c2d7f8e841e56fcaf0bfa83d5fd0e31cbf1282473"
   },
   {
     "date": "2026-04-03",
@@ -1611,7 +1731,8 @@
     "ccr_avg": 7.7,
     "tier": "B",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "053bccac62fb32b4e8e063ef41e4612776ce21be06f20e9924ac9566b48a59cd"
   },
   {
     "date": "2026-04-03",
@@ -1628,7 +1749,8 @@
     "result": "L",
     "units": 1.5,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "2120ff6c07d9abdc580e369561b3439131eeb528b6966c8b2934369e385e7c5f"
   },
   {
     "date": "2026-04-03",
@@ -1643,7 +1765,8 @@
     "ccr_avg": 7.1,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "4f56d16c6d6563e0b37ab2f7a49abc36c83556804649c396901e513d43bf4b55"
   },
   {
     "date": "2026-04-02",
@@ -1658,7 +1781,8 @@
     "ccr_avg": 7.9,
     "tier": "B",
     "result": "W",
-    "units": 1.25
+    "units": 1.25,
+    "hash_id": "b74b5f2cebc48cdbad676158621dbb15d1a3b9fde565f747e916e4556963f535"
   },
   {
     "date": "2026-04-02",
@@ -1673,7 +1797,8 @@
     "ccr_avg": 7.2,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "f04bec1a80cff8c1bdc5988ecd1993b21ba2f75c93b64eda818c8c71fa59b344"
   },
   {
     "date": "2026-04-02",
@@ -1688,7 +1813,8 @@
     "ccr_avg": 7.7,
     "tier": "B",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "24be53b0e576fcf565b3c63c3c350d8451d40bbf55884304a08293bbf94a18f6"
   },
   {
     "date": "2026-04-02",
@@ -1705,7 +1831,8 @@
     "result": "L",
     "units": 1.5,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "8dd38cad841061f63af82e76039067d18a4f94e66e87e455eb412b61334c1f1b"
   },
   {
     "date": "2026-04-02",
@@ -1720,7 +1847,8 @@
     "ccr_avg": 8.1,
     "tier": "A",
     "result": "L",
-    "units": 1.5
+    "units": 1.5,
+    "hash_id": "b3f84d232871a698d2a0396fbf1d66aa02598107d88c67d154a6be8caec7b20e"
   },
   {
     "date": "2026-04-01",
@@ -1735,7 +1863,8 @@
     "ccr_avg": 8.8,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "b73711bdc5ef60573d09e4c745c56a85fadb7a81d846cad72c9bd1e51f691560"
   },
   {
     "date": "2026-04-01",
@@ -1749,7 +1878,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "42842c844ff3f550fcf83a380e87f44ffd5dc6956a3d985340833b0998e06d4d"
   },
   {
     "date": "2026-04-01",
@@ -1763,7 +1893,8 @@
     "ccr": 7.8,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "192f03f07f825514a65e30ca5cc70a7a7c1ca6a5d84a8ad1596a003279dad09b"
   },
   {
     "date": "2026-04-01",
@@ -1780,7 +1911,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "f6b3ab78665f514eb4742003b275bc084d95adb6554ed9d1f5c7706742cb4a8c"
   },
   {
     "date": "2026-03-31",
@@ -1795,7 +1927,8 @@
     "ccr_avg": 8.1,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "2146edd5edd26a9ea582f440d221d7e365ff17d85bc9e5f0899d25fecbc63165"
   },
   {
     "date": "2026-03-31",
@@ -1809,7 +1942,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "642cff8f0a77ef01012c0d5ac12facf0c2188c99c82b794f2d6e761c77159e5b"
   },
   {
     "date": "2026-03-31",
@@ -1823,7 +1957,8 @@
     "ccr": 7.6,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "f71b18d5a2ae0cc06608ab15ddef296d0b229e3876dd0ba7fe42f66d9b63f49a"
   },
   {
     "date": "2026-03-31",
@@ -1840,7 +1975,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "33bdd287c1d8d3c80b0b81de552d23bbd304e4442c2f1e432090a6ae8e38f808"
   },
   {
     "date": "2026-03-30",
@@ -1855,7 +1991,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "96907f20548a15d0ac84cf41b142f6c9ec9b478fe857f604ffaf109da1931d71"
   },
   {
     "date": "2026-03-30",
@@ -1869,7 +2006,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "097fd2886f123b2421d8397258ddd50b129f6c8cc148f348a73d33ce1271ecfc"
   },
   {
     "date": "2026-03-30",
@@ -1883,7 +2021,8 @@
     "ccr": 9.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "334f7cec3c3c0af3839b880162a308381e2f8e77cb9f5d3fdfc84dc947ec45ee"
   },
   {
     "date": "2026-03-30",
@@ -1900,7 +2039,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "MLB",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "8f95b3afe4d039e20171431546504b502883aa07e451773a5902623f94845348"
   },
   {
     "date": "2026-03-29",
@@ -1914,7 +2054,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "f46a2eff39c753b79d3ec8f743e585acd8e8b71d860df26b7f663f578a099039"
   },
   {
     "date": "2026-03-29",
@@ -1931,7 +2072,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NBA",
-    "profit": "+1.36u"
+    "profit": "+1.36u",
+    "hash_id": "3bfea7b0cef3b83be47ac7d250a092e2624c30cd27af44d6c913f9358bb7eb3c"
   },
   {
     "date": "2026-03-28",
@@ -1946,7 +2088,8 @@
     "ccr_avg": 8.8,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "da3f82351b80ef5ba7aba7e20be0f9786674038d6814f7f746e5d339df850f16"
   },
   {
     "date": "2026-03-28",
@@ -1960,7 +2103,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "e40069825ee9438d2bb7e71458df12cb5d42a5d105a33fe7af1e4b5acce2d51e"
   },
   {
     "date": "2026-03-28",
@@ -1974,7 +2118,8 @@
     "ccr": 6.9,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "7004de02a9ba0d0aac62b16bac7abcea0ffec0879c4412708dc99f0682a5e579"
   },
   {
     "date": "2026-03-28",
@@ -1991,7 +2136,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "01382f3c0cc8c0381cda8d9ffb58c4af3380a50e79fbba2448d85e7b5d3a3164"
   },
   {
     "date": "2026-03-27",
@@ -2006,7 +2152,8 @@
     "ccr_avg": 9.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "d923633b677c3622e27be1e1b280eea9c2b135bfb5540ab4a15196f61df5c72c"
   },
   {
     "date": "2026-03-27",
@@ -2020,7 +2167,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "a0a87d9ae2ccbbab9bca580bca09637312508ee53d53e12b6fe54f52288fad3e"
   },
   {
     "date": "2026-03-27",
@@ -2034,7 +2182,8 @@
     "ccr": 7.7,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "20e2eb0d0be94942da7484b849e28d7a3e06f8fd89e90b5fe8db2d07ba01428e"
   },
   {
     "date": "2026-03-27",
@@ -2051,7 +2200,8 @@
     "profit_units": "W",
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "+0.68u"
+    "profit": "+0.68u",
+    "hash_id": "1410db0af2137855dc259ef61f4b9dca76833c73ffa71c6295bb2ff8d60967a3"
   },
   {
     "date": "2026-03-26",
@@ -2066,7 +2216,8 @@
     "ccr_avg": 8.5,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "ea9e4191837a426d7b76ca6dca88c3b8aad204a2d97ae865de391ba2e385619c"
   },
   {
     "date": "2026-03-26",
@@ -2080,7 +2231,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "d8d48a0a0e315a3e2f6dde8db86581cead42cf94594da519e5858d58670e285b"
   },
   {
     "date": "2026-03-26",
@@ -2094,7 +2246,8 @@
     "ccr": 8.5,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "e1fc020532a3e432adab91e0e6112e1d6188609f8866939b41f132c8a5ca357a"
   },
   {
     "date": "2026-03-26",
@@ -2111,7 +2264,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "e91cbe93acc5890ecafa49cf7e4800f91dc3feeb3bf7c9f2bcef5d1859ecc439"
   },
   {
     "date": "2026-03-25",
@@ -2126,7 +2280,8 @@
     "ccr_avg": 8.4,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "4122a5a1d20f092907cda9b69a96f0c54e8b19616167a57e892ecb503a63ca24"
   },
   {
     "date": "2026-03-25",
@@ -2140,7 +2295,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "20e1ea2d4554310ed05c115aaa2fad1e2f1a462f722213f596c628dbe4efb0ab"
   },
   {
     "date": "2026-03-25",
@@ -2154,7 +2310,8 @@
     "ccr": 6.6,
     "tier": "C",
     "result": "W",
-    "units": 0.5
+    "units": 0.5,
+    "hash_id": "cafdd416210cd017306461119873be5e5db636e3f52d35b8a134f545a3559218"
   },
   {
     "date": "2026-03-25",
@@ -2171,7 +2328,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "+0.73u"
+    "profit": "+0.73u",
+    "hash_id": "f0967ef55ebfe93708fd9bc383a93bca686f4f1bf07d0d7a7d58361e0311bc22"
   },
   {
     "date": "2026-03-24",
@@ -2186,7 +2344,8 @@
     "tier": "A",
     "result": "L",
     "profit_units": -2.0,
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "12c04c90638056a87c19d55245514b0bcb6d08d011b66b4f124b3594fb20bab9"
   },
   {
     "date": "2026-03-24",
@@ -2200,7 +2359,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "L",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "04941946f054bcd20631b4d94ace30d67c9f1a8158eead5cfa8cb2e709a3da6a"
   },
   {
     "date": "2026-03-24",
@@ -2217,7 +2377,8 @@
     "profit_units": null,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "-1.50u"
+    "profit": "-1.50u",
+    "hash_id": "37d51313779d5702ab5181eb792e3759d67e87be5ce242931d72ee9786b4a55e"
   },
   {
     "date": "2026-03-23",
@@ -2232,7 +2393,8 @@
     "tier": "A",
     "result": "W",
     "profit_units": 1.04,
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "7d90c079ad13bc701bafadc626123c0b25e18f6ef38afa6cfddb43c37cbe964d"
   },
   {
     "date": "2026-03-23",
@@ -2247,7 +2409,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "profit_units": 0.91
+    "profit_units": 0.91,
+    "hash_id": "87b66e900420d945fb95c1b2bd9f2596998dcfc9b681e29d4130cb56615689bc"
   },
   {
     "date": "2026-03-23",
@@ -2264,7 +2427,8 @@
     "profit_units": 1.04,
     "units": 2.0,
     "source_sport": "NHL",
-    "profit": "+0.78u"
+    "profit": "+0.78u",
+    "hash_id": "f3aa2a3663278a6673d6e792b7836be4d4c7c2ba04344f70fd99c578284a362e"
   },
   {
     "date": "2026-03-22",
@@ -2280,7 +2444,8 @@
     "tier": "A",
     "result": "W",
     "units": 2.0,
-    "profit_units": 1.11
+    "profit_units": 1.11,
+    "hash_id": "3b894278960f09c4e6df2f89b2f9657dc73e4df19ae7b4be5449ddcad2021f8c"
   },
   {
     "date": "2026-03-22",
@@ -2294,7 +2459,8 @@
     "ccr": 0.0,
     "tier": "\u2014",
     "result": "W",
-    "units": 0
+    "units": 0,
+    "hash_id": "4f8f5f55f49d72936f571807001b183822b873676f282c114fe66096c9be9fa1"
   },
   {
     "date": "2026-03-22",
@@ -2311,7 +2477,8 @@
     "units": 2.0,
     "source_sport": "NHL",
     "profit_units": 1.11,
-    "profit": "+0.83u"
+    "profit": "+0.83u",
+    "hash_id": "30f8bdad5c3708e635a0d3bf6ceeaf393aa8cc654d5205a0a261a1e50f01419e"
   },
   {
     "date": "2026-03-21",
@@ -2326,7 +2493,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "1fe94adb8f51550b9082ae456d3f2e1fb0c9b3d252731e8b962dea5eaf2c7aa8"
   },
   {
     "date": "2026-03-21",
@@ -2340,7 +2508,8 @@
     "ccr": 0.0,
     "tier": "\u2014",
     "result": "W",
-    "units": 0
+    "units": 0,
+    "hash_id": "20d89abdfdc045587be579ba88e5fd1331271f914e74b218a34ac8496a28b6b2"
   },
   {
     "date": "2026-03-20",
@@ -2354,7 +2523,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "a19ddc6caeed16486f8a6861495cf0f1276da5f8f32c0076a41ae781de8983be"
   },
   {
     "date": "2026-03-19",
@@ -2369,7 +2539,8 @@
     "ccr_avg": 8.7,
     "tier": "A",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "82b301350aba3f77cc0ebc95ddfeedf9f5cd798fcc5de6497007e8e38888c705"
   },
   {
     "date": "2026-03-19",
@@ -2383,7 +2554,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "da946992a49602c645cafead19fafd786b90cbad75f8be2206ceedae5e2a1c50"
   },
   {
     "date": "2026-03-18",
@@ -2398,7 +2570,8 @@
     "ccr_avg": 8.0,
     "tier": "A",
     "result": "L",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "0b5959356afb05a61f6daab7595c75d141a403c040e65a5d70bc9d3e6560ef04"
   },
   {
     "date": "2026-03-18",
@@ -2412,7 +2585,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 1.0
+    "units": 1.0,
+    "hash_id": "f4d5c82dc10ebc8c229af78cee5bf24a9356283cf7cd49f9a8e2f6bbf3df9374"
   },
   {
     "date": "2026-03-17",
@@ -2425,7 +2599,8 @@
     "edge": 0,
     "ccr": 8.5,
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "ac766c9e3e76a66660f88556d6cb3761b88df77f724f624d7183898f996e5d83"
   },
   {
     "date": "2026-03-17",
@@ -2439,7 +2614,8 @@
     "ccr": 7.0,
     "tier": "B",
     "result": "W",
-    "units": 2.0
+    "units": 2.0,
+    "hash_id": "d1165d20aec01074a01ba78218d5dd8d517d28ca39683ad1704f948a39f8d1bc"
   },
   {
     "date": "2026-03-16",
@@ -2453,7 +2629,8 @@
     "ccr": 8.0,
     "tier": "A",
     "result": "L",
-    "units": -2.0
+    "units": -2.0,
+    "hash_id": "470c8c7a8e5a57fc33e2105f9ebf28fd417dcb0154ba47f4fa203357ae9548cd"
   },
   {
     "date": "2026-03-15",
@@ -2466,6 +2643,7 @@
     "edge": 0,
     "ccr": 8.0,
     "result": "L",
-    "units": -2.0
+    "units": -2.0,
+    "hash_id": "c617dc1cc9df70caf15ed16a2e7e12d48c4ec77f59a39fa8730e28c04bc6c92c"
   }
 ]
