@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-05-18T15:09:16.278378+00:00",
-  "iso_date": "2026-05-10",
-  "display_date": "Sun \u00b7 May 10, 2026",
+  "generated_at": "2026-05-19T15:09:12.734192+00:00",
+  "iso_date": "2026-05-01",
+  "display_date": "Fri \u00b7 May 1, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 4,
-    "units_pl": -1.98,
-    "roi_pct": -33.0
+    "wins": 4,
+    "losses": 2,
+    "units_pl": 1.79,
+    "roi_pct": 29.83
   },
   "picks": [
     {
-      "sport": "NHL",
-      "game": "Vegas Golden Knights @ Anaheim Ducks",
-      "pick": "Vegas Golden Knights ML",
-      "bet_type": "ML",
-      "odds": -118.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "ATP",
-      "game": "Alejandro Davidovich Fokina vs Andrey Rublev",
-      "pick": "Andrey Rublev ML",
-      "bet_type": "ML",
-      "odds": -150.0,
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -6.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
       "result": "W",
-      "profit_units": 0.67
+      "profit_units": 1.52
     },
     {
       "sport": "WTA",
-      "game": "Karolina Pliskova vs Laura Siegemund",
-      "pick": "Karolina Pliskova ML",
+      "game": "Marta Kostyuk vs Mirra Andreeva",
+      "pick": "Mirra Andreeva ML",
+      "bet_type": "ML",
+      "odds": -140.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "NHL",
+      "game": "Buffalo Sabres @ Boston Bruins",
+      "pick": "Buffalo Sabres ML",
       "bet_type": "ML",
       "odds": -118.0,
       "result": "W",
       "profit_units": 0.85
     },
     {
-      "sport": "ATP",
-      "game": "Nikoloz Basilashvili vs Brandon Nakashima",
-      "pick": "Brandon Nakashima ML",
-      "bet_type": "ML",
-      "odds": -190.0,
-      "result": "L",
-      "profit_units": -0.75
+      "sport": "NBA",
+      "game": "Detroit Pistons @ Orlando Magic",
+      "pick": "Detroit Pistons -3.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "W",
+      "profit_units": 0.87
     },
     {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ Minnesota Timberwolves",
-      "pick": "Victor Wembanyama Over 12.5 Rebounds",
+      "sport": "MLB",
+      "game": "Atlanta Braves at Colorado Rockies",
+      "pick": "Ronald Acuna Jr. Over 1.5 Total Bases",
+      "bet_type": "Prop",
+      "odds": -136.0,
+      "result": "W",
+      "profit_units": 0.55
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers at St. Louis Cardinals",
+      "pick": "Shohei Ohtani Over 1.5 Total Bases",
       "bet_type": "Prop",
       "odds": -114.0,
       "result": "L",
       "profit_units": -0.75
-    },
-    {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ Minnesota Timberwolves",
-      "pick": "Victor Wembanyama Over 26.5 Points",
-      "bet_type": "Prop",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.0
     }
   ]
 }
