@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-18",
+    "sport": "BEST",
+    "source_sport": "NBA",
+    "game": "San Antonio Spurs @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -6.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Oklahoma City Thunder -6.5",
+    "edge": 0,
+    "ccr": 6.8,
+    "ccr_avg": 6.8,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "30a48e00a3351271ac69f6062b62eb9c5c1bad9866b893b5306228d778703344"
+  },
+  {
     "date": "2026-05-17",
     "sport": "BEST",
     "source_sport": "NBA",
