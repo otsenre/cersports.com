@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T15:09:19.611188+00:00",
+  "generated_at": "2026-05-20T16:05:36.096631+00:00",
   "anchor": "2026-04-01",
   "as_of": "2026-05-20",
   "bands": [
@@ -13,12 +13,12 @@
       "units_pl": 0.05,
       "roi_pct": 0.92,
       "n": 6,
-      "vs_spx": 0.94,
-      "vs_dji": 0.57,
-      "vs_ndx": 1.22,
-      "spx_return_pct": -0.02,
-      "dji_return_pct": 0.35,
-      "ndx_return_pct": -0.3
+      "vs_spx": 0.74,
+      "vs_dji": 0.21,
+      "vs_ndx": 0.96,
+      "spx_return_pct": 0.18,
+      "dji_return_pct": 0.71,
+      "ndx_return_pct": -0.04
     },
     {
       "label": "7D",
@@ -30,12 +30,12 @@
       "units_pl": -0.53,
       "roi_pct": -2.17,
       "n": 23,
-      "vs_spx": -1.67,
-      "vs_dji": -2.18,
-      "vs_ndx": -1.2,
-      "spx_return_pct": -0.5,
-      "dji_return_pct": 0.01,
-      "ndx_return_pct": -0.97
+      "vs_spx": -1.87,
+      "vs_dji": -2.54,
+      "vs_ndx": -1.45,
+      "spx_return_pct": -0.3,
+      "dji_return_pct": 0.37,
+      "ndx_return_pct": -0.72
     },
     {
       "label": "MTD",
@@ -47,12 +47,12 @@
       "units_pl": -2.25,
       "roi_pct": -2.17,
       "n": 93,
-      "vs_spx": -4.92,
-      "vs_dji": -2.26,
-      "vs_ndx": -7.21,
-      "spx_return_pct": 2.75,
-      "dji_return_pct": 0.09,
-      "ndx_return_pct": 5.04
+      "vs_spx": -5.13,
+      "vs_dji": -2.62,
+      "vs_ndx": -7.48,
+      "spx_return_pct": 2.96,
+      "dji_return_pct": 0.45,
+      "ndx_return_pct": 5.31
     },
     {
       "label": "30D",
@@ -64,12 +64,12 @@
       "units_pl": -7.46,
       "roi_pct": -4.3,
       "n": 153,
-      "vs_spx": -8.49,
-      "vs_dji": -4.81,
-      "vs_ndx": -11.44,
-      "spx_return_pct": 4.19,
-      "dji_return_pct": 0.51,
-      "ndx_return_pct": 7.14
+      "vs_spx": -8.7,
+      "vs_dji": -5.18,
+      "vs_ndx": -11.71,
+      "spx_return_pct": 4.4,
+      "dji_return_pct": 0.88,
+      "ndx_return_pct": 7.41
     },
     {
       "label": "ALL-TIME",
@@ -81,26 +81,26 @@
       "units_pl": 1.84,
       "roi_pct": 0.48,
       "n": 309,
-      "vs_spx": -12.17,
-      "vs_dji": -6.24,
-      "vs_ndx": -19.23,
-      "spx_return_pct": 12.65,
-      "dji_return_pct": 6.72,
-      "ndx_return_pct": 19.71
+      "vs_spx": -12.4,
+      "vs_dji": -6.63,
+      "vs_ndx": -19.54,
+      "spx_return_pct": 12.88,
+      "dji_return_pct": 7.11,
+      "ndx_return_pct": 20.02
     }
   ],
   "indices": {
     "spx": {
       "date": "2026-05-20",
-      "close": 7407.14990234375
+      "close": 7422.06005859375
     },
     "dji": {
       "date": "2026-05-20",
-      "close": 49697.109375
+      "close": 49876.5703125
     },
     "ndx": {
       "date": "2026-05-20",
-      "close": 26146.41796875
+      "close": 26213.361328125
     }
   }
 }
