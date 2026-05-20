@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-19",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Toronto Tempo @ Phoenix Mercury",
+    "pick": "Phoenix Mercury -7.5",
+    "bet_type": "ATS",
+    "line": -105.0,
+    "pick_display": "Phoenix Mercury -7.5",
+    "edge": 0,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0,
+    "hash_id": ""
+  },
+  {
     "date": "2026-05-18",
     "sport": "BEST",
     "source_sport": "NBA",
