@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T16:05:36.096631+00:00",
+  "generated_at": "2026-05-20T16:10:51.840461+00:00",
   "anchor": "2026-04-01",
   "as_of": "2026-05-20",
   "bands": [
@@ -13,12 +13,12 @@
       "units_pl": 0.05,
       "roi_pct": 0.92,
       "n": 6,
-      "vs_spx": 0.74,
-      "vs_dji": 0.21,
-      "vs_ndx": 0.96,
-      "spx_return_pct": 0.18,
-      "dji_return_pct": 0.71,
-      "ndx_return_pct": -0.04
+      "vs_spx": 0.75,
+      "vs_dji": 0.25,
+      "vs_ndx": 0.97,
+      "spx_return_pct": 0.17,
+      "dji_return_pct": 0.67,
+      "ndx_return_pct": -0.05
     },
     {
       "label": "7D",
@@ -30,11 +30,11 @@
       "units_pl": -0.53,
       "roi_pct": -2.17,
       "n": 23,
-      "vs_spx": -1.87,
-      "vs_dji": -2.54,
+      "vs_spx": -1.85,
+      "vs_dji": -2.5,
       "vs_ndx": -1.45,
-      "spx_return_pct": -0.3,
-      "dji_return_pct": 0.37,
+      "spx_return_pct": -0.32,
+      "dji_return_pct": 0.33,
       "ndx_return_pct": -0.72
     },
     {
@@ -47,12 +47,12 @@
       "units_pl": -2.25,
       "roi_pct": -2.17,
       "n": 93,
-      "vs_spx": -5.13,
-      "vs_dji": -2.62,
-      "vs_ndx": -7.48,
-      "spx_return_pct": 2.96,
-      "dji_return_pct": 0.45,
-      "ndx_return_pct": 5.31
+      "vs_spx": -5.11,
+      "vs_dji": -2.59,
+      "vs_ndx": -7.47,
+      "spx_return_pct": 2.94,
+      "dji_return_pct": 0.42,
+      "ndx_return_pct": 5.3
     },
     {
       "label": "30D",
@@ -64,11 +64,11 @@
       "units_pl": -7.46,
       "roi_pct": -4.3,
       "n": 153,
-      "vs_spx": -8.7,
-      "vs_dji": -5.18,
+      "vs_spx": -8.68,
+      "vs_dji": -5.14,
       "vs_ndx": -11.71,
-      "spx_return_pct": 4.4,
-      "dji_return_pct": 0.88,
+      "spx_return_pct": 4.38,
+      "dji_return_pct": 0.84,
       "ndx_return_pct": 7.41
     },
     {
@@ -81,26 +81,26 @@
       "units_pl": 1.84,
       "roi_pct": 0.48,
       "n": 309,
-      "vs_spx": -12.4,
-      "vs_dji": -6.63,
-      "vs_ndx": -19.54,
-      "spx_return_pct": 12.88,
-      "dji_return_pct": 7.11,
-      "ndx_return_pct": 20.02
+      "vs_spx": -12.38,
+      "vs_dji": -6.59,
+      "vs_ndx": -19.53,
+      "spx_return_pct": 12.86,
+      "dji_return_pct": 7.07,
+      "ndx_return_pct": 20.01
     }
   ],
   "indices": {
     "spx": {
       "date": "2026-05-20",
-      "close": 7422.06005859375
+      "close": 7420.77978515625
     },
     "dji": {
       "date": "2026-05-20",
-      "close": 49876.5703125
+      "close": 49858.609375
     },
     "ndx": {
       "date": "2026-05-20",
-      "close": 26213.361328125
+      "close": 26212.193359375
     }
   }
 }
