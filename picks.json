@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-20",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Daria Kasatkina @ Jaqueline Cristian",
+    "pick": "Daria Kasatkina ML",
+    "bet_type": "ML",
+    "line": -162.0,
+    "pick_display": "Daria Kasatkina ML",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0,
+    "hash_id": "f68b3cdbbee188dea08d279b6a58595312f6ade36c93df7cf6b711b00bf721a5"
+  },
+  {
     "date": "2026-05-19",
     "sport": "BEST",
     "source_sport": "WNBA",
