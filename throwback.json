@@ -1,67 +1,58 @@
 {
-  "generated_at": "2026-05-21T15:09:24.469919+00:00",
-  "iso_date": "2026-05-01",
-  "display_date": "Fri \u00b7 May 1, 2026",
+  "generated_at": "2026-05-22T15:10:44.404941+00:00",
+  "iso_date": "2026-05-20",
+  "display_date": "Wed \u00b7 May 20, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 2,
-    "units_pl": 1.79,
-    "roi_pct": 29.83
+    "wins": 2,
+    "losses": 3,
+    "units_pl": -1.11,
+    "roi_pct": -22.2
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -6.5",
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder -6.5",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -105.0,
       "result": "W",
-      "profit_units": 1.52
+      "profit_units": 1.43
     },
     {
-      "sport": "WTA",
-      "game": "Marta Kostyuk vs Mirra Andreeva",
-      "pick": "Mirra Andreeva ML",
+      "sport": "NHL",
+      "game": "Vegas Golden Knights @ Colorado Avalanche",
+      "pick": "Colorado Avalanche ML",
       "bet_type": "ML",
-      "odds": -140.0,
+      "odds": -190.0,
       "result": "L",
       "profit_units": -1.25
     },
     {
-      "sport": "NHL",
-      "game": "Buffalo Sabres @ Boston Bruins",
-      "pick": "Buffalo Sabres ML",
-      "bet_type": "ML",
-      "odds": -118.0,
-      "result": "W",
-      "profit_units": 0.85
-    },
-    {
-      "sport": "NBA",
-      "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Detroit Pistons -3.5",
+      "sport": "WNBA",
+      "game": "Portland Fire @ Indiana Fever",
+      "pick": "Portland Fire +13.5",
       "bet_type": "ATS",
       "odds": -115.0,
-      "result": "W",
-      "profit_units": 0.87
-    },
-    {
-      "sport": "MLB",
-      "game": "Atlanta Braves at Colorado Rockies",
-      "pick": "Ronald Acuna Jr. Over 1.5 Total Bases",
-      "bet_type": "Prop",
-      "odds": -136.0,
-      "result": "W",
-      "profit_units": 0.55
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers at St. Louis Cardinals",
-      "pick": "Shohei Ohtani Over 1.5 Total Bases",
-      "bet_type": "Prop",
-      "odds": -114.0,
       "result": "L",
       "profit_units": -0.75
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Seattle Storm",
+      "pick": "Seattle Storm -1.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Miami Marlins",
+      "pick": "Chris Sale Over 7.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": -104.0,
+      "result": "W",
+      "profit_units": 0.96
     }
   ]
 }
