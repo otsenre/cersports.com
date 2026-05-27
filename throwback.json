@@ -1,40 +1,49 @@
 {
-  "generated_at": "2026-05-26T15:10:34.755396+00:00",
-  "iso_date": "2026-05-18",
-  "display_date": "Mon \u00b7 May 18, 2026",
+  "generated_at": "2026-05-27T15:10:22.185168+00:00",
+  "iso_date": "2026-05-25",
+  "display_date": "Mon \u00b7 May 25, 2026",
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 2,
-    "units_pl": -0.95,
-    "roi_pct": -31.67
+    "units_pl": -1.39,
+    "roi_pct": -34.75
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Miami Marlins",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Cincinnati Reds @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies ML",
-      "bet_type": "ML",
-      "odds": -125.0,
-      "result": "W",
-      "profit_units": 0.8
-    },
-    {
       "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder ML (-232)",
-      "bet_type": "ML",
-      "odds": -232.0,
+      "game": "New York Knicks @ Cleveland Cavaliers",
+      "pick": "New York Knicks -2.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.36
+    },
+    {
+      "sport": "WNBA",
+      "game": "Portland Fire @ New York Liberty",
+      "pick": "New York Liberty -12.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.5
+    },
+    {
+      "sport": "NHL",
+      "game": "Carolina Hurricanes @ Montreal Canadiens",
+      "pick": "Carolina Hurricanes ML",
+      "bet_type": "ML",
+      "odds": null,
+      "result": "W",
+      "profit_units": 0.0
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "pick": "Dalton Rushing Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": null,
+      "result": "L",
+      "profit_units": -1.25
     }
   ]
 }
