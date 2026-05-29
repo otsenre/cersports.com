@@ -1,49 +1,67 @@
 {
-  "generated_at": "2026-05-28T15:10:11.732348+00:00",
-  "iso_date": "2026-05-25",
-  "display_date": "Mon \u00b7 May 25, 2026",
+  "generated_at": "2026-05-29T15:10:16.108926+00:00",
+  "iso_date": "2026-05-14",
+  "display_date": "Thu \u00b7 May 14, 2026",
   "summary": {
-    "wins": 2,
+    "wins": 4,
     "losses": 2,
-    "units_pl": -1.39,
-    "roi_pct": -34.75
+    "units_pl": 0.98,
+    "roi_pct": 16.33
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ Cleveland Cavaliers",
-      "pick": "New York Knicks -2.5",
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Dallas Wings",
+      "pick": "Dallas Wings -3.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "ATP",
+      "game": "Luciano Darderi vs Casper Ruud",
+      "pick": "Casper Ruud ML",
+      "bet_type": "ML",
+      "odds": -300.0,
+      "result": "W",
+      "profit_units": 0.33
+    },
+    {
+      "sport": "WNBA",
+      "game": "New York Liberty @ Portland Fire",
+      "pick": "New York Liberty -11.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
       "profit_units": 1.36
     },
     {
-      "sport": "WNBA",
-      "game": "Portland Fire @ New York Liberty",
-      "pick": "New York Liberty -12.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "NHL",
-      "game": "Carolina Hurricanes @ Montreal Canadiens",
-      "pick": "Carolina Hurricanes ML",
+      "sport": "MLB",
+      "game": "Chicago Cubs @ Atlanta Braves",
+      "pick": "Atlanta Braves ML",
       "bet_type": "ML",
-      "odds": null,
-      "result": "W",
-      "profit_units": 0.0
+      "odds": -170.0,
+      "result": "L",
+      "profit_units": -0.75
     },
     {
       "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Colorado Rockies",
-      "pick": "Dalton Rushing Over 0.5 Home Runs",
+      "game": "Chicago Cubs @ Atlanta Braves",
+      "pick": "Chris Sale Over 6.5 Pitcher Strikeouts",
       "bet_type": "Prop",
-      "odds": null,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -149.0,
+      "result": "W",
+      "profit_units": 0.67
+    },
+    {
+      "sport": "WNBA",
+      "game": "New York Liberty @ Portland Fire",
+      "pick": "Breanna Stewart Over 21.5 Points",
+      "bet_type": "Prop",
+      "odds": -115.0,
+      "result": "W",
+      "profit_units": 0.87
     }
   ]
 }
