@@ -1,67 +1,58 @@
 {
-  "generated_at": "2026-05-29T20:44:37.753085+00:00",
-  "iso_date": "2026-05-14",
-  "display_date": "Thu \u00b7 May 14, 2026",
+  "generated_at": "2026-05-30T15:10:21.972065+00:00",
+  "iso_date": "2026-05-26",
+  "display_date": "Tue \u00b7 May 26, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 2,
-    "units_pl": 0.98,
-    "roi_pct": 16.33
+    "wins": 1,
+    "losses": 4,
+    "units_pl": -5.05,
+    "roi_pct": -101.0
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Dallas Wings",
-      "pick": "Dallas Wings -3.5",
-      "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "ATP",
-      "game": "Luciano Darderi vs Casper Ruud",
-      "pick": "Casper Ruud ML",
-      "bet_type": "ML",
-      "odds": -300.0,
-      "result": "W",
-      "profit_units": 0.33
-    },
-    {
-      "sport": "WNBA",
-      "game": "New York Liberty @ Portland Fire",
-      "pick": "New York Liberty -11.5",
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "San Antonio Spurs +4.5",
       "bet_type": "ATS",
       "odds": -110.0,
-      "result": "W",
-      "profit_units": 1.36
-    },
-    {
-      "sport": "MLB",
-      "game": "Chicago Cubs @ Atlanta Braves",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": -170.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.25
+    },
+    {
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder ML (-165)",
+      "bet_type": "ML",
+      "odds": -165.0,
+      "result": "W",
+      "profit_units": 0.45
+    },
+    {
+      "sport": "NHL",
+      "game": "Colorado Avalanche @ Vegas Golden Knights",
+      "pick": "Colorado Avalanche -1.5",
+      "bet_type": "ATS",
+      "odds": 200.0,
+      "result": "L",
+      "profit_units": -1.0
+    },
+    {
+      "sport": "WTA",
+      "game": "Jessica Pegula @ Kimberly Birrell",
+      "pick": "Jessica Pegula ML",
+      "bet_type": "ML",
+      "odds": 1100.0,
+      "result": "L",
+      "profit_units": -2.0
     },
     {
       "sport": "MLB",
-      "game": "Chicago Cubs @ Atlanta Braves",
-      "pick": "Chris Sale Over 6.5 Pitcher Strikeouts",
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "pick": "Dalton Rushing Over 0.5 Home Runs",
       "bet_type": "Prop",
-      "odds": -149.0,
-      "result": "W",
-      "profit_units": 0.67
-    },
-    {
-      "sport": "WNBA",
-      "game": "New York Liberty @ Portland Fire",
-      "pick": "Breanna Stewart Over 21.5 Points",
-      "bet_type": "Prop",
-      "odds": -115.0,
-      "result": "W",
-      "profit_units": 0.87
+      "odds": null,
+      "result": "L",
+      "profit_units": -1.25
     }
   ]
 }
