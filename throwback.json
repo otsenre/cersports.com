@@ -1,40 +1,58 @@
 {
-  "generated_at": "2026-05-31T15:10:39.273901+00:00",
-  "iso_date": "2026-05-18",
-  "display_date": "Mon \u00b7 May 18, 2026",
+  "generated_at": "2026-06-01T15:10:09.731726+00:00",
+  "iso_date": "2026-05-26",
+  "display_date": "Tue \u00b7 May 26, 2026",
   "summary": {
     "wins": 1,
-    "losses": 2,
-    "units_pl": -0.95,
-    "roi_pct": -31.67
+    "losses": 4,
+    "units_pl": -5.05,
+    "roi_pct": -101.0
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Miami Marlins",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": -105.0,
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "San Antonio Spurs +4.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Cincinnati Reds @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies ML",
-      "bet_type": "ML",
-      "odds": -125.0,
-      "result": "W",
-      "profit_units": 0.8
+      "profit_units": -1.25
     },
     {
       "sport": "NBA",
       "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder ML (-232)",
+      "pick": "Oklahoma City Thunder ML (-165)",
       "bet_type": "ML",
-      "odds": -232.0,
+      "odds": -165.0,
+      "result": "W",
+      "profit_units": 0.45
+    },
+    {
+      "sport": "NHL",
+      "game": "Colorado Avalanche @ Vegas Golden Knights",
+      "pick": "Colorado Avalanche -1.5",
+      "bet_type": "ATS",
+      "odds": 200.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.0
+    },
+    {
+      "sport": "WTA",
+      "game": "Jessica Pegula @ Kimberly Birrell",
+      "pick": "Jessica Pegula ML",
+      "bet_type": "ML",
+      "odds": 1100.0,
+      "result": "L",
+      "profit_units": -2.0
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "pick": "Dalton Rushing Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": null,
+      "result": "L",
+      "profit_units": -1.25
     }
   ]
 }
