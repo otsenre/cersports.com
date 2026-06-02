@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-06-01T15:10:09.731726+00:00",
-  "iso_date": "2026-05-26",
-  "display_date": "Tue \u00b7 May 26, 2026",
+  "generated_at": "2026-06-02T15:10:18.208763+00:00",
+  "iso_date": "2026-05-22",
+  "display_date": "Fri \u00b7 May 22, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 4,
-    "units_pl": -5.05,
-    "roi_pct": -101.0
+    "wins": 4,
+    "losses": 1,
+    "units_pl": 1.51,
+    "roi_pct": 30.2
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "San Antonio Spurs +4.5",
+      "game": "Oklahoma City Thunder @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -1.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -102.0,
       "result": "L",
       "profit_units": -1.25
-    },
-    {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder ML (-165)",
-      "bet_type": "ML",
-      "odds": -165.0,
-      "result": "W",
-      "profit_units": 0.45
     },
     {
       "sport": "NHL",
-      "game": "Colorado Avalanche @ Vegas Golden Knights",
-      "pick": "Colorado Avalanche -1.5",
+      "game": "Vegas Golden Knights @ Colorado Avalanche",
+      "pick": "Vegas Golden Knights +1.5",
       "bet_type": "ATS",
-      "odds": 200.0,
-      "result": "L",
-      "profit_units": -1.0
+      "odds": -145.0,
+      "result": "W",
+      "profit_units": 0.52
     },
     {
-      "sport": "WTA",
-      "game": "Jessica Pegula @ Kimberly Birrell",
-      "pick": "Jessica Pegula ML",
+      "sport": "WNBA",
+      "game": "Dallas Wings @ Atlanta Dream",
+      "pick": "Atlanta Dream -5.5",
+      "bet_type": "ATS",
+      "odds": -112.0,
+      "result": "W",
+      "profit_units": 0.89
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Seattle Storm",
+      "pick": "Seattle Storm -1.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 0.71
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Seattle Storm",
+      "pick": "Seattle Storm ML",
       "bet_type": "ML",
-      "odds": 1100.0,
-      "result": "L",
-      "profit_units": -2.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Colorado Rockies",
-      "pick": "Dalton Rushing Over 0.5 Home Runs",
-      "bet_type": "Prop",
-      "odds": null,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -118.0,
+      "result": "W",
+      "profit_units": 0.64
     }
   ]
 }
