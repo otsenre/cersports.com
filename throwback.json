@@ -1,58 +1,76 @@
 {
-  "generated_at": "2026-06-02T15:10:18.208763+00:00",
-  "iso_date": "2026-05-22",
-  "display_date": "Fri \u00b7 May 22, 2026",
+  "generated_at": "2026-06-03T15:10:23.835565+00:00",
+  "iso_date": "2026-05-29",
+  "display_date": "Fri \u00b7 May 29, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 1,
-    "units_pl": 1.51,
-    "roi_pct": 30.2
+    "wins": 7,
+    "losses": 0,
+    "units_pl": 7.85,
+    "roi_pct": 112.14
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "Oklahoma City Thunder @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -1.5",
+      "sport": "WTA",
+      "game": "Belinda Bencic @ Peyton Stearns",
+      "pick": "Belinda Bencic ML",
+      "bet_type": "ML",
+      "odds": -300.0,
+      "result": "W",
+      "profit_units": 0.33
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Chicago Sky",
+      "pick": "Minnesota Lynx ML",
+      "bet_type": "ML",
+      "odds": -188.0,
+      "result": "W",
+      "profit_units": 0.53
+    },
+    {
+      "sport": "WNBA",
+      "game": "Los Angeles Sparks @ Washington Mystics",
+      "pick": "Los Angeles Sparks +2.5",
       "bet_type": "ATS",
-      "odds": -102.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -114.0,
+      "result": "W",
+      "profit_units": 0.88
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Chicago Sky",
+      "pick": "Minnesota Lynx -4.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.14
+    },
+    {
+      "sport": "WNBA",
+      "game": "Los Angeles Sparks @ Washington Mystics",
+      "pick": "Los Angeles Sparks ML",
+      "bet_type": "ML",
+      "odds": 116.0,
+      "result": "W",
+      "profit_units": 1.16
     },
     {
       "sport": "NHL",
-      "game": "Vegas Golden Knights @ Colorado Avalanche",
-      "pick": "Vegas Golden Knights +1.5",
-      "bet_type": "ATS",
-      "odds": -145.0,
-      "result": "W",
-      "profit_units": 0.52
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Atlanta Dream",
-      "pick": "Atlanta Dream -5.5",
-      "bet_type": "ATS",
-      "odds": -112.0,
-      "result": "W",
-      "profit_units": 0.89
-    },
-    {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Seattle Storm",
-      "pick": "Seattle Storm -1.5",
-      "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "W",
-      "profit_units": 0.71
-    },
-    {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Seattle Storm",
-      "pick": "Seattle Storm ML",
+      "game": "Montreal Canadiens @ Carolina Hurricanes",
+      "pick": "Carolina Hurricanes ML",
       "bet_type": "ML",
-      "odds": -118.0,
+      "odds": null,
       "result": "W",
-      "profit_units": 0.64
+      "profit_units": 0.0
+    },
+    {
+      "sport": "MLB",
+      "game": "New York Yankees @ Athletics",
+      "pick": "Ben Rice Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": 305.0,
+      "result": "W",
+      "profit_units": 3.81
     }
   ]
 }
