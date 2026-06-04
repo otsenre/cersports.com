@@ -1,76 +1,49 @@
 {
-  "generated_at": "2026-06-03T15:10:23.835565+00:00",
-  "iso_date": "2026-05-29",
-  "display_date": "Fri \u00b7 May 29, 2026",
+  "generated_at": "2026-06-04T15:09:53.171220+00:00",
+  "iso_date": "2026-05-15",
+  "display_date": "Fri \u00b7 May 15, 2026",
   "summary": {
-    "wins": 7,
-    "losses": 0,
-    "units_pl": 7.85,
-    "roi_pct": 112.14
+    "wins": 2,
+    "losses": 2,
+    "units_pl": -0.34,
+    "roi_pct": -8.5
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Belinda Bencic @ Peyton Stearns",
-      "pick": "Belinda Bencic ML",
-      "bet_type": "ML",
-      "odds": -300.0,
-      "result": "W",
-      "profit_units": 0.33
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Chicago Sky",
-      "pick": "Minnesota Lynx ML",
-      "bet_type": "ML",
-      "odds": -188.0,
-      "result": "W",
-      "profit_units": 0.53
-    },
-    {
-      "sport": "WNBA",
-      "game": "Los Angeles Sparks @ Washington Mystics",
-      "pick": "Los Angeles Sparks +2.5",
-      "bet_type": "ATS",
-      "odds": -114.0,
-      "result": "W",
-      "profit_units": 0.88
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Chicago Sky",
-      "pick": "Minnesota Lynx -4.5",
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Minnesota Timberwolves",
+      "pick": "San Antonio Spurs -5.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
-      "profit_units": 1.14
+      "profit_units": 1.36
     },
     {
       "sport": "WNBA",
-      "game": "Los Angeles Sparks @ Washington Mystics",
-      "pick": "Los Angeles Sparks ML",
-      "bet_type": "ML",
-      "odds": 116.0,
-      "result": "W",
-      "profit_units": 1.16
+      "game": "Las Vegas Aces @ Connecticut Sun",
+      "pick": "Las Vegas Aces -15.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
     },
     {
-      "sport": "NHL",
-      "game": "Montreal Canadiens @ Carolina Hurricanes",
-      "pick": "Carolina Hurricanes ML",
+      "sport": "WTA",
+      "game": "Elina Svitolina vs Coco Gauff",
+      "pick": "Coco Gauff ML",
       "bet_type": "ML",
-      "odds": null,
-      "result": "W",
-      "profit_units": 0.0
+      "odds": -155.0,
+      "result": "L",
+      "profit_units": -1.5
     },
     {
-      "sport": "MLB",
-      "game": "New York Yankees @ Athletics",
-      "pick": "Ben Rice Over 0.5 Home Runs",
-      "bet_type": "Prop",
-      "odds": 305.0,
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Phoenix Mercury",
+      "pick": "Phoenix Mercury -3.5",
+      "bet_type": "ATS",
+      "odds": -102.0,
       "result": "W",
-      "profit_units": 3.81
+      "profit_units": 1.3
     }
   ]
 }
