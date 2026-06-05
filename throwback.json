@@ -1,49 +1,76 @@
 {
-  "generated_at": "2026-06-04T15:09:53.171220+00:00",
-  "iso_date": "2026-05-15",
-  "display_date": "Fri \u00b7 May 15, 2026",
+  "generated_at": "2026-06-05T15:10:26.057930+00:00",
+  "iso_date": "2026-05-24",
+  "display_date": "Sun \u00b7 May 24, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 2,
-    "units_pl": -0.34,
-    "roi_pct": -8.5
+    "wins": 4,
+    "losses": 3,
+    "units_pl": 23.46,
+    "roi_pct": 335.14
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "San Antonio Spurs @ Minnesota Timberwolves",
-      "pick": "San Antonio Spurs -5.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "W",
-      "profit_units": 1.36
-    },
-    {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Connecticut Sun",
-      "pick": "Las Vegas Aces -15.5",
+      "game": "Oklahoma City Thunder @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -2.5",
       "bet_type": "ATS",
       "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.5
+      "result": "W",
+      "profit_units": 1.19
     },
     {
-      "sport": "WTA",
-      "game": "Elina Svitolina vs Coco Gauff",
-      "pick": "Coco Gauff ML",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Philadelphia Phillies",
+      "pick": "Philadelphia Phillies ML",
       "bet_type": "ML",
-      "odds": -155.0,
+      "odds": -105.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.0
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Milwaukee Brewers",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": -165.0,
+      "result": "W",
+      "profit_units": 0.61
+    },
+    {
+      "sport": "NHL",
+      "game": "Colorado Avalanche @ Vegas Golden Knights",
+      "pick": "Colorado Avalanche -1.5",
+      "bet_type": "ATS",
+      "odds": 165.0,
+      "result": "L",
+      "profit_units": -1.0
     },
     {
       "sport": "WNBA",
-      "game": "Chicago Sky @ Phoenix Mercury",
-      "pick": "Phoenix Mercury -3.5",
+      "game": "Phoenix Mercury @ Atlanta Dream",
+      "pick": "Atlanta Dream -5.5",
       "bet_type": "ATS",
-      "odds": -102.0,
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -0.75
+    },
+    {
+      "sport": "WNBA",
+      "game": "Washington Mystics @ Seattle Storm",
+      "pick": "Seattle Storm +4.5",
+      "bet_type": "ATS",
+      "odds": -114.0,
       "result": "W",
-      "profit_units": 1.3
+      "profit_units": 0.66
+    },
+    {
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Cincinnati Reds",
+      "pick": "Jordan Walker Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": 1900.0,
+      "result": "W",
+      "profit_units": 23.75
     }
   ]
 }
