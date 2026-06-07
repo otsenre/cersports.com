@@ -1,76 +1,40 @@
 {
-  "generated_at": "2026-06-06T15:10:10.057759+00:00",
-  "iso_date": "2026-05-24",
-  "display_date": "Sun \u00b7 May 24, 2026",
+  "generated_at": "2026-06-07T15:10:18.440472+00:00",
+  "iso_date": "2026-06-03",
+  "display_date": "Wed \u00b7 Jun 3, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 3,
-    "units_pl": 23.46,
-    "roi_pct": 335.14
+    "wins": 1,
+    "losses": 2,
+    "units_pl": -0.11,
+    "roi_pct": -3.67
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Oklahoma City Thunder @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -2.5",
-      "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "W",
-      "profit_units": 1.19
-    },
-    {
-      "sport": "MLB",
-      "game": "Cleveland Guardians @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies ML",
-      "bet_type": "ML",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Milwaukee Brewers",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": -165.0,
-      "result": "W",
-      "profit_units": 0.61
-    },
-    {
-      "sport": "NHL",
-      "game": "Colorado Avalanche @ Vegas Golden Knights",
-      "pick": "Colorado Avalanche -1.5",
-      "bet_type": "ATS",
-      "odds": 165.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "WNBA",
-      "game": "Phoenix Mercury @ Atlanta Dream",
-      "pick": "Atlanta Dream -5.5",
+      "game": "New York Knicks @ San Antonio Spurs",
+      "pick": "New York Knicks +4.5",
       "bet_type": "ATS",
       "odds": -110.0,
+      "result": "W",
+      "profit_units": 0.89
+    },
+    {
+      "sport": "ATP",
+      "game": "Matteo Arnaldi @ Matteo Berrettini",
+      "pick": "Matteo Berrettini ML",
+      "bet_type": "ML",
+      "odds": -190.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -0.5
     },
     {
-      "sport": "WNBA",
-      "game": "Washington Mystics @ Seattle Storm",
-      "pick": "Seattle Storm +4.5",
-      "bet_type": "ATS",
-      "odds": -114.0,
-      "result": "W",
-      "profit_units": 0.66
-    },
-    {
-      "sport": "MLB",
-      "game": "St. Louis Cardinals @ Cincinnati Reds",
-      "pick": "Jordan Walker Over 0.5 Home Runs",
-      "bet_type": "Prop",
-      "odds": 1900.0,
-      "result": "W",
-      "profit_units": 23.75
+      "sport": "NBA",
+      "game": "New York Knicks @ San Antonio Spurs",
+      "pick": "San Antonio Spurs ML (-184)",
+      "bet_type": "ML",
+      "odds": -184.0,
+      "result": "L",
+      "profit_units": -0.5
     }
   ]
 }
