@@ -1,40 +1,58 @@
 {
-  "generated_at": "2026-06-07T15:10:18.440472+00:00",
-  "iso_date": "2026-06-03",
-  "display_date": "Wed \u00b7 Jun 3, 2026",
+  "generated_at": "2026-06-08T15:10:31.070483+00:00",
+  "iso_date": "2026-05-22",
+  "display_date": "Fri \u00b7 May 22, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 2,
-    "units_pl": -0.11,
-    "roi_pct": -3.67
+    "wins": 4,
+    "losses": 1,
+    "units_pl": 1.51,
+    "roi_pct": 30.2
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +4.5",
+      "game": "Oklahoma City Thunder @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -1.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -102.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "NHL",
+      "game": "Vegas Golden Knights @ Colorado Avalanche",
+      "pick": "Vegas Golden Knights +1.5",
+      "bet_type": "ATS",
+      "odds": -145.0,
+      "result": "W",
+      "profit_units": 0.52
+    },
+    {
+      "sport": "WNBA",
+      "game": "Dallas Wings @ Atlanta Dream",
+      "pick": "Atlanta Dream -5.5",
+      "bet_type": "ATS",
+      "odds": -112.0,
       "result": "W",
       "profit_units": 0.89
     },
     {
-      "sport": "ATP",
-      "game": "Matteo Arnaldi @ Matteo Berrettini",
-      "pick": "Matteo Berrettini ML",
-      "bet_type": "ML",
-      "odds": -190.0,
-      "result": "L",
-      "profit_units": -0.5
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Seattle Storm",
+      "pick": "Seattle Storm -1.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 0.71
     },
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "San Antonio Spurs ML (-184)",
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Seattle Storm",
+      "pick": "Seattle Storm ML",
       "bet_type": "ML",
-      "odds": -184.0,
-      "result": "L",
-      "profit_units": -0.5
+      "odds": -118.0,
+      "result": "W",
+      "profit_units": 0.64
     }
   ]
 }
