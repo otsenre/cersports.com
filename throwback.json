@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-06-08T15:10:31.070483+00:00",
-  "iso_date": "2026-05-22",
-  "display_date": "Fri \u00b7 May 22, 2026",
+  "generated_at": "2026-06-09T15:10:48.933795+00:00",
+  "iso_date": "2026-06-07",
+  "display_date": "Sun \u00b7 Jun 7, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 1,
-    "units_pl": 1.51,
-    "roi_pct": 30.2
+    "wins": 3,
+    "losses": 2,
+    "units_pl": -0.13,
+    "roi_pct": -2.6
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "Oklahoma City Thunder @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -1.5",
+      "sport": "WNBA",
+      "game": "Portland Fire @ Los Angeles Sparks",
+      "pick": "Los Angeles Sparks -7.5",
       "bet_type": "ATS",
-      "odds": -102.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -114.0,
+      "result": "W",
+      "profit_units": 0.66
     },
     {
-      "sport": "NHL",
-      "game": "Vegas Golden Knights @ Colorado Avalanche",
-      "pick": "Vegas Golden Knights +1.5",
-      "bet_type": "ATS",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Texas Rangers",
+      "pick": "Texas Rangers ML",
+      "bet_type": "ML",
       "odds": -145.0,
       "result": "W",
-      "profit_units": 0.52
+      "profit_units": 0.69
     },
     {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Atlanta Dream",
-      "pick": "Atlanta Dream -5.5",
+      "sport": "MLB",
+      "game": "Milwaukee Brewers @ Colorado Rockies",
+      "pick": "Milwaukee Brewers -1.5",
       "bet_type": "ATS",
-      "odds": -112.0,
+      "odds": -130.0,
       "result": "W",
-      "profit_units": 0.89
+      "profit_units": 0.77
     },
     {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Seattle Storm",
-      "pick": "Seattle Storm -1.5",
+      "sport": "MLB",
+      "game": "Los Angeles Angels @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers -1.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "W",
-      "profit_units": 0.71
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.0
     },
     {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Seattle Storm",
-      "pick": "Seattle Storm ML",
-      "bet_type": "ML",
-      "odds": -118.0,
-      "result": "W",
-      "profit_units": 0.64
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ Chicago White Sox",
+      "pick": "Kyle Schwarber Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": 225.0,
+      "result": "L",
+      "profit_units": -1.25
     }
   ]
 }
