@@ -1,56 +1,47 @@
 {
-  "generated_at": "2026-06-09T15:10:48.933795+00:00",
-  "iso_date": "2026-06-07",
-  "display_date": "Sun \u00b7 Jun 7, 2026",
+  "generated_at": "2026-06-10T15:10:38.427613+00:00",
+  "iso_date": "2026-05-21",
+  "display_date": "Thu \u00b7 May 21, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 2,
-    "units_pl": -0.13,
-    "roi_pct": -2.6
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -3.53,
+    "roi_pct": -88.25
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Portland Fire @ Los Angeles Sparks",
-      "pick": "Los Angeles Sparks -7.5",
-      "bet_type": "ATS",
-      "odds": -114.0,
-      "result": "W",
-      "profit_units": 0.66
-    },
-    {
-      "sport": "MLB",
-      "game": "Cleveland Guardians @ Texas Rangers",
-      "pick": "Texas Rangers ML",
-      "bet_type": "ML",
-      "odds": -145.0,
-      "result": "W",
-      "profit_units": 0.69
-    },
-    {
-      "sport": "MLB",
-      "game": "Milwaukee Brewers @ Colorado Rockies",
-      "pick": "Milwaukee Brewers -1.5",
-      "bet_type": "ATS",
-      "odds": -130.0,
-      "result": "W",
-      "profit_units": 0.77
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Angels @ Los Angeles Dodgers",
-      "pick": "Los Angeles Dodgers -1.5",
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ New York Knicks",
+      "pick": "Cleveland Cavaliers +6.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
+      "sport": "WNBA",
+      "game": "Golden State Valkyries @ New York Liberty",
+      "pick": "New York Liberty -7.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ New York Knicks",
+      "pick": "New York Knicks ML (-225)",
+      "bet_type": "ML",
+      "odds": -225.0,
+      "result": "W",
+      "profit_units": 0.22
+    },
+    {
       "sport": "MLB",
-      "game": "Philadelphia Phillies @ Chicago White Sox",
-      "pick": "Kyle Schwarber Over 0.5 Home Runs",
+      "game": "New York Yankees @ Toronto Blue Jays",
+      "pick": "Ben Rice Over 0.5 Home Runs",
       "bet_type": "Prop",
-      "odds": 225.0,
+      "odds": null,
       "result": "L",
       "profit_units": -1.25
     }
