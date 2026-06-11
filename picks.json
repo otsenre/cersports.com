@@ -182,7 +182,7 @@
     "ccr": 6.0,
     "ccr_avg": 6.0,
     "tier": "B",
-    "result": "L",
+    "result": "W",
     "units": 1.0,
     "hash_id": "fd2f0ab04de9fd48369c8f92d99c1e28576f85339062c177a99d74ba99fa4f5f"
   },
@@ -403,7 +403,7 @@
     "ccr": 6.8,
     "ccr_avg": 6.8,
     "tier": "B",
-    "result": "W",
+    "result": "L",
     "units": 1.0,
     "hash_id": "30a48e00a3351271ac69f6062b62eb9c5c1bad9866b893b5306228d778703344"
   },
@@ -1008,7 +1008,7 @@
     "ccr": 7.0,
     "ccr_avg": 7.0,
     "tier": "B",
-    "result": "V",
+    "result": "L",
     "units": 1.0,
     "hash_id": "47aede329be9e5d1861ffa142cccdfd196c9e9cd353e3ec5a97381c4b9e5d2d5"
   },
@@ -1040,7 +1040,7 @@
     "ccr": 8.0,
     "ccr_avg": 8.0,
     "tier": "A",
-    "result": "V",
+    "result": "L",
     "units": 1.5,
     "hash_id": "016ab94bebde1a2a78595b7f073a94c30298a6487616f7594ec0f8f8be24f98b"
   },
@@ -1106,7 +1106,7 @@
     "ccr": 8.0,
     "ccr_avg": 8.0,
     "tier": "A",
-    "result": "L",
+    "result": "W",
     "units": 1.5,
     "hash_id": "dee8195951e9ef2f996e6067a396bd544e40ae5c50f1a2317cf4d298d52f6662"
   },
@@ -1172,7 +1172,7 @@
     "ccr": 7.0,
     "ccr_avg": 7.0,
     "tier": "B",
-    "result": "W",
+    "result": "V",
     "units": 1.0,
     "hash_id": "234b199394c4b1a90213b7fec21776332d528d63cf0ee504a454de1452807881"
   },
@@ -1204,7 +1204,7 @@
     "ccr": 8.0,
     "ccr_avg": 8.0,
     "tier": "A",
-    "result": "L",
+    "result": "W",
     "units": 1.5,
     "hash_id": "5603d473aed2a30e9d9149a88fd42d1fdc0c660f18ea6a9f815ac707456b98a8"
   },
@@ -1286,7 +1286,7 @@
     "ccr": 7.0,
     "ccr_avg": 7.0,
     "tier": "B",
-    "result": "W",
+    "result": "L",
     "units": 1.0,
     "hash_id": "a8ae9f2182eb24b0579a213a3eb13c9e8ba653169ea19eb7316463978d7166e4"
   },
@@ -1434,7 +1434,7 @@
     "ccr": 8.0,
     "ccr_avg": 8.0,
     "tier": "A",
-    "result": "W",
+    "result": "L",
     "units": 1.5,
     "hash_id": "6a0457a3997ee6def2ae3a880ed734db5e8cfd3fe4f003233d3dd4a85aeb63f1"
   },
@@ -1450,7 +1450,7 @@
     "ccr": 8.5,
     "ccr_avg": 8.5,
     "tier": "A",
-    "result": "W",
+    "result": "P",
     "units": 2.0,
     "hash_id": "2a6309910f395f9278cf6dabaedb3abe331fe26905d34ed8d671e21db751690c"
   },
@@ -1812,7 +1812,7 @@
     "ccr": 8.0,
     "ccr_avg": 8.0,
     "tier": "A",
-    "result": "W",
+    "result": "V",
     "units": 1.5,
     "hash_id": "7a091440ec8d57de02922bd12daaddae584e4d88a31b0a36a16e9ba27194f69f"
   },
@@ -1976,7 +1976,7 @@
     "ccr": 8.5,
     "ccr_avg": 8.5,
     "tier": "A",
-    "result": "L",
+    "result": "W",
     "units": 2.0,
     "hash_id": "210719e3572ec4f11e71aaa28be42a20dd155cbc8212a98741096f28e52ec3cb"
   },
