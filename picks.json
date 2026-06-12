@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-11",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Portland Fire",
+    "pick": "Las Vegas Aces -9.5",
+    "bet_type": "ATS",
+    "line": -118.0,
+    "pick_display": "Las Vegas Aces -9.5",
+    "edge": 0,
+    "ccr": 6.8,
+    "ccr_avg": 6.8,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0,
+    "hash_id": "d6e8d2492c9b82f13f648b5afc573275d680a7af874cdb566d573b8fccb32ab3"
+  },
+  {
     "date": "2026-06-10",
     "sport": "BEST",
     "source_sport": "WTA",
