@@ -1,54 +1,45 @@
 {
-  "generated_at": "2026-06-12T15:10:35.758050+00:00",
-  "iso_date": "2026-06-09",
-  "display_date": "Tue \u00b7 Jun 9, 2026",
+  "generated_at": "2026-06-13T15:09:48.560065+00:00",
+  "iso_date": "2026-05-25",
+  "display_date": "Mon \u00b7 May 25, 2026",
   "summary": {
-    "wins": 3,
+    "wins": 2,
     "losses": 2,
-    "units_pl": 0.66,
-    "roi_pct": 13.2
+    "units_pl": -1.39,
+    "roi_pct": -34.75
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Karolina Pliskova @ Victoria Mboko",
-      "pick": "Karolina Pliskova ML",
-      "bet_type": "ML",
-      "odds": 140.0,
-      "result": "W",
-      "profit_units": 1.4
-    },
-    {
-      "sport": "MLB",
-      "game": "New York Yankees @ Cleveland Guardians",
-      "pick": "New York Yankees ML",
-      "bet_type": "ML",
-      "odds": -120.0,
-      "result": "W",
-      "profit_units": 0.83
-    },
-    {
-      "sport": "NHL",
-      "game": "Carolina Hurricanes @ Vegas Golden Knights",
-      "pick": "Vegas Golden Knights +1.5",
-      "bet_type": "ATS",
-      "odds": 200.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -5.5",
+      "sport": "NBA",
+      "game": "New York Knicks @ Cleveland Cavaliers",
+      "pick": "New York Knicks -2.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
-      "profit_units": 0.68
+      "profit_units": 1.36
+    },
+    {
+      "sport": "WNBA",
+      "game": "Portland Fire @ New York Liberty",
+      "pick": "New York Liberty -12.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "NHL",
+      "game": "Carolina Hurricanes @ Montreal Canadiens",
+      "pick": "Carolina Hurricanes ML",
+      "bet_type": "ML",
+      "odds": null,
+      "result": "W",
+      "profit_units": 0.0
     },
     {
       "sport": "MLB",
-      "game": "Chicago White Sox @ Atlanta Braves",
-      "pick": "Randal Grichuk Over 0.5 Home Runs",
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "pick": "Dalton Rushing Over 0.5 Home Runs",
       "bet_type": "Prop",
       "odds": null,
       "result": "L",
