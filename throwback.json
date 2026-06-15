@@ -1,58 +1,94 @@
 {
-  "generated_at": "2026-06-14T15:09:31.537337+00:00",
-  "iso_date": "2026-05-26",
-  "display_date": "Tue \u00b7 May 26, 2026",
+  "generated_at": "2026-06-15T15:09:30.195878+00:00",
+  "iso_date": "2026-05-29",
+  "display_date": "Fri \u00b7 May 29, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 4,
-    "units_pl": -5.05,
-    "roi_pct": -101.0
+    "wins": 9,
+    "losses": 0,
+    "units_pl": 8.45,
+    "roi_pct": 93.89
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "San Antonio Spurs +4.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.25
+      "sport": "WTA",
+      "game": "Belinda Bencic @ Peyton Stearns",
+      "pick": "Belinda Bencic ML",
+      "bet_type": "ML",
+      "odds": -300.0,
+      "result": "W",
+      "profit_units": 0.33
     },
     {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder ML (-165)",
+      "sport": "ATP",
+      "game": "Frances Tiafoe @ Jaime Faria",
+      "pick": "Frances Tiafoe ML",
       "bet_type": "ML",
-      "odds": -165.0,
+      "odds": -180.0,
       "result": "W",
-      "profit_units": 0.45
+      "profit_units": 0.28
+    },
+    {
+      "sport": "ATP",
+      "game": "Martin Landaluce @ Juan Manuel Cerundolo",
+      "pick": "Juan Manuel Cerundolo ML",
+      "bet_type": "ML",
+      "odds": -155.0,
+      "result": "W",
+      "profit_units": 0.32
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Chicago Sky",
+      "pick": "Minnesota Lynx ML",
+      "bet_type": "ML",
+      "odds": -188.0,
+      "result": "W",
+      "profit_units": 0.53
+    },
+    {
+      "sport": "WNBA",
+      "game": "Los Angeles Sparks @ Washington Mystics",
+      "pick": "Los Angeles Sparks +2.5",
+      "bet_type": "ATS",
+      "odds": -114.0,
+      "result": "W",
+      "profit_units": 0.88
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Chicago Sky",
+      "pick": "Minnesota Lynx -4.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.14
+    },
+    {
+      "sport": "WNBA",
+      "game": "Los Angeles Sparks @ Washington Mystics",
+      "pick": "Los Angeles Sparks ML",
+      "bet_type": "ML",
+      "odds": 116.0,
+      "result": "W",
+      "profit_units": 1.16
     },
     {
       "sport": "NHL",
-      "game": "Colorado Avalanche @ Vegas Golden Knights",
-      "pick": "Colorado Avalanche -1.5",
-      "bet_type": "ATS",
-      "odds": 200.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "WTA",
-      "game": "Jessica Pegula @ Kimberly Birrell",
-      "pick": "Jessica Pegula ML",
+      "game": "Montreal Canadiens @ Carolina Hurricanes",
+      "pick": "Carolina Hurricanes ML",
       "bet_type": "ML",
-      "odds": 1100.0,
-      "result": "L",
-      "profit_units": -2.0
+      "odds": null,
+      "result": "W",
+      "profit_units": 0.0
     },
     {
       "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Colorado Rockies",
-      "pick": "Dalton Rushing Over 0.5 Home Runs",
+      "game": "New York Yankees @ Athletics",
+      "pick": "Ben Rice Over 0.5 Home Runs",
       "bet_type": "Prop",
-      "odds": null,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": 305.0,
+      "result": "W",
+      "profit_units": 3.81
     }
   ]
 }
