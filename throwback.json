@@ -1,38 +1,56 @@
 {
-  "generated_at": "2026-06-16T15:09:18.015694+00:00",
-  "iso_date": "2026-06-12",
-  "display_date": "Fri \u00b7 Jun 12, 2026",
+  "generated_at": "2026-06-17T15:10:25.300956+00:00",
+  "iso_date": "2026-06-08",
+  "display_date": "Mon \u00b7 Jun 8, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 3,
-    "units_pl": -3.25,
-    "roi_pct": -108.33
+    "wins": 1,
+    "losses": 4,
+    "units_pl": -4.31,
+    "roi_pct": -86.2
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Toronto Tempo @ Washington Mystics",
-      "pick": "Washington Mystics -2.5",
+      "game": "Seattle Storm @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -16.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ New York Knicks",
+      "pick": "New York Knicks -2.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
-      "sport": "WTA",
-      "game": "Kamilla Rakhimova @ Emma Raducanu",
-      "pick": "Emma Raducanu -5.5 Games",
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Washington Mystics",
+      "pick": "Indiana Fever -4.5",
       "bet_type": "ATS",
-      "odds": -137.0,
+      "odds": -115.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -1.25
+    },
+    {
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Washington Mystics",
+      "pick": "Indiana Fever ML",
+      "bet_type": "ML",
+      "odds": -225.0,
+      "result": "W",
+      "profit_units": 0.44
     },
     {
       "sport": "MLB",
-      "game": "Seattle Mariners @ Washington Nationals",
-      "pick": "Luke Raley Over 0.5 Home Runs",
+      "game": "Houston Astros @ Los Angeles Angels",
+      "pick": "Yordan Alvarez Over 0.5 Home Runs",
       "bet_type": "Prop",
-      "odds": 300.0,
+      "odds": 220.0,
       "result": "L",
       "profit_units": -1.25
     }
