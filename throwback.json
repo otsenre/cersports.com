@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-06-18T15:10:20.214189+00:00",
-  "iso_date": "2026-06-09",
-  "display_date": "Tue \u00b7 Jun 9, 2026",
+  "generated_at": "2026-06-19T15:10:31.116024+00:00",
+  "iso_date": "2026-06-02",
+  "display_date": "Tue \u00b7 Jun 2, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 1,
-    "units_pl": 1.91,
-    "roi_pct": 47.75
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.34,
+    "roi_pct": -58.5
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Karolina Pliskova @ Victoria Mboko",
-      "pick": "Karolina Pliskova ML",
+      "sport": "ATP",
+      "game": "Flavio Cobolli @ Felix Auger-Aliassime",
+      "pick": "Felix Auger-Aliassime ML",
       "bet_type": "ML",
-      "odds": 140.0,
-      "result": "W",
-      "profit_units": 1.4
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -0.75
     },
     {
-      "sport": "MLB",
-      "game": "New York Yankees @ Cleveland Guardians",
-      "pick": "New York Yankees ML",
+      "sport": "ATP",
+      "game": "Matteo Arnaldi @ Matteo Berrettini",
+      "pick": "Matteo Berrettini ML",
       "bet_type": "ML",
-      "odds": -120.0,
-      "result": "W",
-      "profit_units": 0.83
-    },
-    {
-      "sport": "NHL",
-      "game": "Carolina Hurricanes @ Vegas Golden Knights",
-      "pick": "Vegas Golden Knights +1.5",
-      "bet_type": "ATS",
-      "odds": 200.0,
+      "odds": -190.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -5.5",
+      "sport": "NHL",
+      "game": "Vegas Golden Knights @ Carolina Hurricanes",
+      "pick": "Carolina Hurricanes ML",
+      "bet_type": "ML",
+      "odds": -155.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "NHL",
+      "game": "Vegas Golden Knights @ Carolina Hurricanes",
+      "pick": "Vegas Golden Knights +1.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -190.0,
       "result": "W",
-      "profit_units": 0.68
+      "profit_units": 0.66
     }
   ]
 }
