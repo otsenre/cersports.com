@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-06-19T15:10:31.116024+00:00",
-  "iso_date": "2026-06-02",
-  "display_date": "Tue \u00b7 Jun 2, 2026",
+  "generated_at": "2026-06-20T15:10:23.316953+00:00",
+  "iso_date": "2026-06-14",
+  "display_date": "Sun \u00b7 Jun 14, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.34,
-    "roi_pct": -58.5
+    "wins": 2,
+    "losses": 2,
+    "units_pl": 0.23,
+    "roi_pct": 5.75
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Flavio Cobolli @ Felix Auger-Aliassime",
-      "pick": "Felix Auger-Aliassime ML",
+      "sport": "NHL",
+      "game": "Carolina Hurricanes @ Vegas Golden Knights",
+      "pick": "Carolina Hurricanes ML",
       "bet_type": "ML",
+      "odds": -115.0,
+      "result": "W",
+      "profit_units": 1.09
+    },
+    {
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Toronto Tempo",
+      "pick": "Atlanta Dream -6.5",
+      "bet_type": "ATS",
       "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.14
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Chicago White Sox",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": -200.0,
       "result": "L",
       "profit_units": -0.75
     },
     {
-      "sport": "ATP",
-      "game": "Matteo Arnaldi @ Matteo Berrettini",
-      "pick": "Matteo Berrettini ML",
-      "bet_type": "ML",
-      "odds": -190.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "NHL",
-      "game": "Vegas Golden Knights @ Carolina Hurricanes",
-      "pick": "Carolina Hurricanes ML",
-      "bet_type": "ML",
-      "odds": -155.0,
+      "sport": "MLB",
+      "game": "Athletics @ Colorado Rockies",
+      "pick": "Jonah Heim Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": null,
       "result": "L",
       "profit_units": -1.25
-    },
-    {
-      "sport": "NHL",
-      "game": "Vegas Golden Knights @ Carolina Hurricanes",
-      "pick": "Vegas Golden Knights +1.5",
-      "bet_type": "ATS",
-      "odds": -190.0,
-      "result": "W",
-      "profit_units": 0.66
     }
   ]
 }
