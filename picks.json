@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-22",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Dallas Wings @ Seattle Storm",
+    "pick": "Dallas Wings -9.5",
+    "bet_type": "ATS",
+    "line": -115.0,
+    "pick_display": "Dallas Wings -9.5",
+    "edge": 0,
+    "ccr": 7.2,
+    "ccr_avg": 7.2,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0,
+    "hash_id": "42f4cea2e929fc6822ca5ded36bd6df8d76fd9f96a88cc6f6ccaf91a99c6dfd2"
+  },
+  {
     "date": "2026-06-21",
     "sport": "BEST",
     "source_sport": "WNBA",
