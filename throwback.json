@@ -1,56 +1,47 @@
 {
-  "generated_at": "2026-06-22T15:10:49.819524+00:00",
-  "iso_date": "2026-06-05",
-  "display_date": "Fri \u00b7 Jun 5, 2026",
+  "generated_at": "2026-06-23T15:11:10.307346+00:00",
+  "iso_date": "2026-06-14",
+  "display_date": "Sun \u00b7 Jun 14, 2026",
   "summary": {
     "wins": 2,
-    "losses": 3,
-    "units_pl": -1.0,
-    "roi_pct": -20.0
+    "losses": 2,
+    "units_pl": 0.23,
+    "roi_pct": 5.75
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +6.5",
-      "bet_type": "ATS",
+      "sport": "NHL",
+      "game": "Carolina Hurricanes @ Vegas Golden Knights",
+      "pick": "Carolina Hurricanes ML",
+      "bet_type": "ML",
       "odds": -115.0,
       "result": "W",
       "profit_units": 1.09
     },
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "San Antonio Spurs ML (-218)",
-      "bet_type": "ML",
-      "odds": -218.0,
-      "result": "L",
-      "profit_units": -0.5
-    },
-    {
-      "sport": "ATP",
-      "game": "Flavio Cobolli @ Matteo Arnaldi",
-      "pick": "Flavio Cobolli -3.5 Games",
-      "bet_type": "ATS",
-      "odds": -107.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
       "sport": "WNBA",
-      "game": "Dallas Wings @ Los Angeles Sparks",
-      "pick": "Dallas Wings -1.5",
+      "game": "Atlanta Dream @ Toronto Tempo",
+      "pick": "Atlanta Dream -6.5",
       "bet_type": "ATS",
-      "odds": -114.0,
+      "odds": -110.0,
       "result": "W",
-      "profit_units": 0.66
+      "profit_units": 1.14
     },
     {
       "sport": "MLB",
-      "game": "St. Louis Cardinals @ Cincinnati Reds",
-      "pick": "Jordan Walker Over 0.5 Home Runs",
+      "game": "Los Angeles Dodgers @ Chicago White Sox",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": -200.0,
+      "result": "L",
+      "profit_units": -0.75
+    },
+    {
+      "sport": "MLB",
+      "game": "Athletics @ Colorado Rockies",
+      "pick": "Jonah Heim Over 0.5 Home Runs",
       "bet_type": "Prop",
-      "odds": 400.0,
+      "odds": null,
       "result": "L",
       "profit_units": -1.25
     }
