@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-06-23T15:11:10.307346+00:00",
-  "iso_date": "2026-06-14",
-  "display_date": "Sun \u00b7 Jun 14, 2026",
+  "generated_at": "2026-06-24T15:12:11.455730+00:00",
+  "iso_date": "2026-06-09",
+  "display_date": "Tue \u00b7 Jun 9, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 2,
-    "units_pl": 0.23,
-    "roi_pct": 5.75
+    "wins": 3,
+    "losses": 1,
+    "units_pl": 1.91,
+    "roi_pct": 47.75
   },
   "picks": [
     {
+      "sport": "WTA",
+      "game": "Karolina Pliskova @ Victoria Mboko",
+      "pick": "Karolina Pliskova ML",
+      "bet_type": "ML",
+      "odds": 140.0,
+      "result": "W",
+      "profit_units": 1.4
+    },
+    {
+      "sport": "MLB",
+      "game": "New York Yankees @ Cleveland Guardians",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": -120.0,
+      "result": "W",
+      "profit_units": 0.83
+    },
+    {
       "sport": "NHL",
       "game": "Carolina Hurricanes @ Vegas Golden Knights",
-      "pick": "Carolina Hurricanes ML",
-      "bet_type": "ML",
-      "odds": -115.0,
-      "result": "W",
-      "profit_units": 1.09
+      "pick": "Vegas Golden Knights +1.5",
+      "bet_type": "ATS",
+      "odds": 200.0,
+      "result": "L",
+      "profit_units": -1.0
     },
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Toronto Tempo",
-      "pick": "Atlanta Dream -6.5",
+      "game": "Dallas Wings @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -5.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
-      "profit_units": 1.14
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Chicago White Sox",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": -200.0,
-      "result": "L",
-      "profit_units": -0.75
-    },
-    {
-      "sport": "MLB",
-      "game": "Athletics @ Colorado Rockies",
-      "pick": "Jonah Heim Over 0.5 Home Runs",
-      "bet_type": "Prop",
-      "odds": null,
-      "result": "L",
-      "profit_units": -1.25
+      "profit_units": 0.68
     }
   ]
 }
