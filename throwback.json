@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-06-24T22:23:15.541395+00:00",
-  "iso_date": "2026-06-09",
-  "display_date": "Tue \u00b7 Jun 9, 2026",
+  "generated_at": "2026-06-25T15:12:47.635456+00:00",
+  "iso_date": "2026-06-19",
+  "display_date": "Fri \u00b7 Jun 19, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 1,
-    "units_pl": 1.91,
-    "roi_pct": 47.75
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.36,
+    "roi_pct": -59.0
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Karolina Pliskova @ Victoria Mboko",
-      "pick": "Karolina Pliskova ML",
-      "bet_type": "ML",
-      "odds": 140.0,
-      "result": "W",
-      "profit_units": 1.4
-    },
-    {
-      "sport": "MLB",
-      "game": "New York Yankees @ Cleveland Guardians",
-      "pick": "New York Yankees ML",
-      "bet_type": "ML",
-      "odds": -120.0,
-      "result": "W",
-      "profit_units": 0.83
-    },
-    {
-      "sport": "NHL",
-      "game": "Carolina Hurricanes @ Vegas Golden Knights",
-      "pick": "Vegas Golden Knights +1.5",
+      "sport": "WNBA",
+      "game": "Washington Mystics @ New York Liberty",
+      "pick": "New York Liberty -12.5",
       "bet_type": "ATS",
-      "odds": 200.0,
+      "odds": -105.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Dallas Wings @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -5.5",
+      "game": "Minnesota Lynx @ Golden State Valkyries",
+      "pick": "Minnesota Lynx -2.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
-      "profit_units": 0.68
+      "profit_units": 1.14
+    },
+    {
+      "sport": "MMA",
+      "game": "Allan Nascimento @ Mitch Raposo",
+      "pick": "Allan Nascimento ML",
+      "bet_type": "ML",
+      "odds": -180.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Connecticut Sun",
+      "pick": "Connecticut Sun +1.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.0
     }
   ]
 }
