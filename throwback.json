@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-06-25T15:12:47.635456+00:00",
-  "iso_date": "2026-06-19",
-  "display_date": "Fri \u00b7 Jun 19, 2026",
+  "generated_at": "2026-06-26T15:13:34.144394+00:00",
+  "iso_date": "2026-06-10",
+  "display_date": "Wed \u00b7 Jun 10, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.36,
-    "roi_pct": -59.0
+    "wins": 3,
+    "losses": 1,
+    "units_pl": 2.08,
+    "roi_pct": 52.0
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Washington Mystics @ New York Liberty",
-      "pick": "New York Liberty -12.5",
+      "game": "Connecticut Sun @ Toronto Tempo",
+      "pick": "Connecticut Sun +7.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Golden State Valkyries",
-      "pick": "Minnesota Lynx -2.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -102.0,
       "result": "W",
-      "profit_units": 1.14
+      "profit_units": 0.98
     },
     {
-      "sport": "MMA",
-      "game": "Allan Nascimento @ Mitch Raposo",
-      "pick": "Allan Nascimento ML",
-      "bet_type": "ML",
-      "odds": -180.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Connecticut Sun",
-      "pick": "Connecticut Sun +1.5",
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ New York Knicks",
+      "pick": "San Antonio Spurs +1.5",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -102.0,
+      "result": "W",
+      "profit_units": 1.47
+    },
+    {
+      "sport": "WTA",
+      "game": "Katie Boulter @ Jaqueline Cristian",
+      "pick": "Katie Boulter ML",
+      "bet_type": "ML",
+      "odds": -200.0,
+      "result": "W",
+      "profit_units": 0.38
+    },
+    {
+      "sport": "WTA",
+      "game": "Donna Vekic @ Marie Bouzkova",
+      "pick": "Marie Bouzkova ML",
+      "bet_type": "ML",
+      "odds": -175.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -0.75
     }
   ]
 }
