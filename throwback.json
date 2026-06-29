@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-28T15:13:55.907438+00:00",
-  "iso_date": "2026-06-24",
-  "display_date": "Wed \u00b7 Jun 24, 2026",
+  "generated_at": "2026-06-29T18:18:50.779462+00:00",
+  "iso_date": "2026-06-08",
+  "display_date": "Mon \u00b7 Jun 8, 2026",
   "summary": {
-    "wins": 2,
+    "wins": 1,
     "losses": 4,
-    "units_pl": -3.34,
-    "roi_pct": -55.67
+    "units_pl": -4.31,
+    "roi_pct": -86.2
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Phoenix Mercury @ Indiana Fever",
-      "pick": "Indiana Fever -8.5",
+      "game": "Seattle Storm @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -16.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.25
     },
     {
-      "sport": "WNBA",
-      "game": "Atlanta Dream @ Golden State Valkyries",
-      "pick": "Atlanta Dream -1.5",
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ New York Knicks",
+      "pick": "New York Knicks -2.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
@@ -29,39 +29,30 @@
     },
     {
       "sport": "WNBA",
-      "game": "Portland Fire @ Chicago Sky",
-      "pick": "Chicago Sky -3.5",
+      "game": "Indiana Fever @ Washington Mystics",
+      "pick": "Indiana Fever -4.5",
       "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "W",
-      "profit_units": 0.91
-    },
-    {
-      "sport": "ATP",
-      "game": "Arthur Gea @ Soonwoo Kwon",
-      "pick": "Over 23.5 Games",
-      "bet_type": "Total Games",
-      "odds": null,
-      "result": "W",
-      "profit_units": 0.0
-    },
-    {
-      "sport": "ATP",
-      "game": "Timofey Skatov @ Elias Ymer",
-      "pick": "Over 22.5 Games",
-      "bet_type": "Total Games",
-      "odds": null,
+      "odds": -115.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.25
     },
     {
-      "sport": "ATP",
-      "game": "Harold Mayot @ Alejandro Moro Canas",
-      "pick": "Harold Mayot -3.5 Games",
-      "bet_type": "ATS",
-      "odds": 101.0,
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Washington Mystics",
+      "pick": "Indiana Fever ML",
+      "bet_type": "ML",
+      "odds": -225.0,
+      "result": "W",
+      "profit_units": 0.44
+    },
+    {
+      "sport": "MLB",
+      "game": "Houston Astros @ Los Angeles Angels",
+      "pick": "Yordan Alvarez Over 0.5 Home Runs",
+      "bet_type": "Prop",
+      "odds": 220.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -1.25
     }
   ]
 }
