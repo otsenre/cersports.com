@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-28",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Chicago Sky",
+    "pick": "Las Vegas Aces -6.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Las Vegas Aces -6.5",
+    "edge": 0,
+    "ccr": 7.2,
+    "ccr_avg": 7.2,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "da06b9db1b8d8087d16ad6139e07b56349d345291afd8e69153fc867c88aa47f"
+  },
+  {
     "date": "2026-06-27",
     "sport": "BEST",
     "source_sport": "WNBA",
