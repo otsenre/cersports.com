@@ -1,58 +1,22 @@
 {
-  "generated_at": "2026-06-29T23:38:17.247605+00:00",
-  "iso_date": "2026-06-08",
-  "display_date": "Mon \u00b7 Jun 8, 2026",
+  "generated_at": "2026-06-30T15:13:59.795547+00:00",
+  "iso_date": "2026-06-29",
+  "display_date": "Mon \u00b7 Jun 29, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 4,
-    "units_pl": -4.31,
-    "roi_pct": -86.2
+    "wins": 0,
+    "losses": 1,
+    "units_pl": -0.5,
+    "roi_pct": -50.0
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Seattle Storm @ Las Vegas Aces",
-      "pick": "Las Vegas Aces -16.5",
+      "sport": "WTA",
+      "game": "Sofia Kenin vs Petra Marcinko",
+      "pick": "Sofia Kenin +1.5 Games",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -105.0,
       "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "NBA",
-      "game": "San Antonio Spurs @ New York Knicks",
-      "pick": "New York Knicks -2.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "WNBA",
-      "game": "Indiana Fever @ Washington Mystics",
-      "pick": "Indiana Fever -4.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "WNBA",
-      "game": "Indiana Fever @ Washington Mystics",
-      "pick": "Indiana Fever ML",
-      "bet_type": "ML",
-      "odds": -225.0,
-      "result": "W",
-      "profit_units": 0.44
-    },
-    {
-      "sport": "MLB",
-      "game": "Houston Astros @ Los Angeles Angels",
-      "pick": "Yordan Alvarez Over 0.5 Home Runs",
-      "bet_type": "Prop",
-      "odds": 220.0,
-      "result": "L",
-      "profit_units": -1.25
+      "profit_units": -0.5
     }
   ]
 }
