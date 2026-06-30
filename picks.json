@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-29",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "Los Angeles Angels @ Seattle Mariners",
+    "pick": "Seattle Mariners -1.5",
+    "bet_type": "ATS",
+    "line": -115.0,
+    "pick_display": "Seattle Mariners -1.5",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": "L",
+    "units": 1.0,
+    "hash_id": "f0b717e9b5a4801c62b8c4fbbdbaa173467de0075b244df2e55d4289f16cdf8f"
+  },
+  {
     "date": "2026-06-28",
     "sport": "BEST",
     "source_sport": "WNBA",
