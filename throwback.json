@@ -1,22 +1,58 @@
 {
-  "generated_at": "2026-06-30T20:19:12.315349+00:00",
-  "iso_date": "2026-06-29",
-  "display_date": "Mon \u00b7 Jun 29, 2026",
+  "generated_at": "2026-07-01T15:14:09.374270+00:00",
+  "iso_date": "2026-06-27",
+  "display_date": "Sat \u00b7 Jun 27, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 1,
-    "units_pl": -0.5,
-    "roi_pct": -50.0
+    "wins": 3,
+    "losses": 2,
+    "units_pl": -0.47,
+    "roi_pct": -9.4
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Sofia Kenin vs Petra Marcinko",
-      "pick": "Sofia Kenin +1.5 Games",
+      "sport": "ATP",
+      "game": "Botic van de Zandschulp @ Aleksandar Kovacevic",
+      "pick": "Botic van de Zandschulp ML",
+      "bet_type": "ML",
+      "odds": -185.0,
+      "result": "W",
+      "profit_units": 0.41
+    },
+    {
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Seattle Storm",
+      "pick": "Atlanta Dream -7.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -0.5
+      "profit_units": -1.5
+    },
+    {
+      "sport": "WNBA",
+      "game": "Phoenix Mercury @ Toronto Tempo",
+      "pick": "Toronto Tempo -6.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.0
+    },
+    {
+      "sport": "ATP",
+      "game": "Pablo Carreno Busta @ Denis Shapovalov",
+      "pick": "Pablo Carreno Busta ML",
+      "bet_type": "ML",
+      "odds": 260.0,
+      "result": "W",
+      "profit_units": 1.3
+    },
+    {
+      "sport": "ATP",
+      "game": "Stefanos Tsitsipas @ Hugo Gaston",
+      "pick": "Stefanos Tsitsipas ML",
+      "bet_type": "ML",
+      "odds": -235.0,
+      "result": "W",
+      "profit_units": 0.32
     }
   ]
 }
