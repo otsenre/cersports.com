@@ -1,58 +1,49 @@
 {
-  "generated_at": "2026-07-01T15:14:09.374270+00:00",
-  "iso_date": "2026-06-27",
-  "display_date": "Sat \u00b7 Jun 27, 2026",
+  "generated_at": "2026-07-02T15:15:32.499336+00:00",
+  "iso_date": "2026-06-19",
+  "display_date": "Fri \u00b7 Jun 19, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 2,
-    "units_pl": -0.47,
-    "roi_pct": -9.4
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.36,
+    "roi_pct": -59.0
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Botic van de Zandschulp @ Aleksandar Kovacevic",
-      "pick": "Botic van de Zandschulp ML",
-      "bet_type": "ML",
-      "odds": -185.0,
-      "result": "W",
-      "profit_units": 0.41
+      "sport": "WNBA",
+      "game": "Washington Mystics @ New York Liberty",
+      "pick": "New York Liberty -12.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Seattle Storm",
-      "pick": "Atlanta Dream -7.5",
+      "game": "Minnesota Lynx @ Golden State Valkyries",
+      "pick": "Minnesota Lynx -2.5",
       "bet_type": "ATS",
       "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.14
+    },
+    {
+      "sport": "MMA",
+      "game": "Allan Nascimento @ Mitch Raposo",
+      "pick": "Allan Nascimento ML",
+      "bet_type": "ML",
+      "odds": -180.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Phoenix Mercury @ Toronto Tempo",
-      "pick": "Toronto Tempo -6.5",
+      "game": "Toronto Tempo @ Connecticut Sun",
+      "pick": "Connecticut Sun +1.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
       "profit_units": -1.0
-    },
-    {
-      "sport": "ATP",
-      "game": "Pablo Carreno Busta @ Denis Shapovalov",
-      "pick": "Pablo Carreno Busta ML",
-      "bet_type": "ML",
-      "odds": 260.0,
-      "result": "W",
-      "profit_units": 1.3
-    },
-    {
-      "sport": "ATP",
-      "game": "Stefanos Tsitsipas @ Hugo Gaston",
-      "pick": "Stefanos Tsitsipas ML",
-      "bet_type": "ML",
-      "odds": -235.0,
-      "result": "W",
-      "profit_units": 0.32
     }
   ]
 }
