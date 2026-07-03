@@ -1,49 +1,76 @@
 {
-  "generated_at": "2026-07-02T15:15:32.499336+00:00",
-  "iso_date": "2026-06-19",
-  "display_date": "Fri \u00b7 Jun 19, 2026",
+  "generated_at": "2026-07-03T15:14:25.017954+00:00",
+  "iso_date": "2026-06-28",
+  "display_date": "Sun \u00b7 Jun 28, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.36,
-    "roi_pct": -59.0
+    "wins": 3,
+    "losses": 4,
+    "units_pl": -0.62,
+    "roi_pct": -8.86
   },
   "picks": [
     {
+      "sport": "ATP",
+      "game": "Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "pick": "Botic van de Zandschulp ML",
+      "bet_type": "ML",
+      "odds": -190.0,
+      "result": "W",
+      "profit_units": 0.39
+    },
+    {
       "sport": "WNBA",
-      "game": "Washington Mystics @ New York Liberty",
-      "pick": "New York Liberty -12.5",
+      "game": "Portland Fire @ Washington Mystics",
+      "pick": "Washington Mystics -6.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -110.0,
       "result": "L",
       "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Minnesota Lynx @ Golden State Valkyries",
-      "pick": "Minnesota Lynx -2.5",
+      "game": "Minnesota Lynx @ Dallas Wings",
+      "pick": "Minnesota Lynx -3.5",
       "bet_type": "ATS",
       "odds": -110.0,
       "result": "W",
-      "profit_units": 1.14
+      "profit_units": 1.18
     },
     {
-      "sport": "MMA",
-      "game": "Allan Nascimento @ Mitch Raposo",
-      "pick": "Allan Nascimento ML",
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ New York Mets",
+      "pick": "Philadelphia Phillies ML",
       "bet_type": "ML",
-      "odds": -180.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -155.0,
+      "result": "W",
+      "profit_units": 0.81
     },
     {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Connecticut Sun",
-      "pick": "Connecticut Sun +1.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
+      "sport": "ATP",
+      "game": "Daniel Altmaier vs Alex Molcan",
+      "pick": "Daniel Altmaier ML",
+      "bet_type": "ML",
+      "odds": -120.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -0.5
+    },
+    {
+      "sport": "ATP",
+      "game": "Roman Safiullin vs Andrey Rublev",
+      "pick": "Andrey Rublev ML",
+      "bet_type": "ML",
+      "odds": -200.0,
+      "result": "L",
+      "profit_units": -0.75
+    },
+    {
+      "sport": "WTA",
+      "game": "Sofia Kenin vs Petra Marcinko",
+      "pick": "Sofia Kenin +1.5 Games",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -0.5
     }
   ]
 }
