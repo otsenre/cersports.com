@@ -1,76 +1,67 @@
 {
-  "generated_at": "2026-07-03T15:14:25.017954+00:00",
-  "iso_date": "2026-06-28",
-  "display_date": "Sun \u00b7 Jun 28, 2026",
+  "generated_at": "2026-07-04T15:14:00.364951+00:00",
+  "iso_date": "2026-07-02",
+  "display_date": "Thu \u00b7 Jul 2, 2026",
   "summary": {
     "wins": 3,
-    "losses": 4,
-    "units_pl": -0.62,
-    "roi_pct": -8.86
+    "losses": 3,
+    "units_pl": -0.49,
+    "roi_pct": -8.17
   },
   "picks": [
     {
+      "sport": "WTA",
+      "game": "Ashlyn Krueger vs Daria Snigur",
+      "pick": "Ashlyn Krueger ML",
+      "bet_type": "ML",
+      "odds": -134.0,
+      "result": "W",
+      "profit_units": 0.75
+    },
+    {
+      "sport": "WTA",
+      "game": "Viktorija Golubic vs Jasmine Paolini",
+      "pick": "Jasmine Paolini ML",
+      "bet_type": "ML",
+      "odds": -140.0,
+      "result": "W",
+      "profit_units": 0.71
+    },
+    {
       "sport": "ATP",
-      "game": "Botic van de Zandschulp vs Aleksandar Kovacevic",
-      "pick": "Botic van de Zandschulp ML",
+      "game": "Grigor Dimitrov vs Jakub Mensik",
+      "pick": "Jakub Mensik ML",
       "bet_type": "ML",
       "odds": -190.0,
-      "result": "W",
-      "profit_units": 0.39
+      "result": "L",
+      "profit_units": -1.0
     },
     {
       "sport": "WNBA",
-      "game": "Portland Fire @ Washington Mystics",
-      "pick": "Washington Mystics -6.5",
+      "game": "Dallas Wings @ Connecticut Sun",
+      "pick": "Dallas Wings -7.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -115.0,
       "result": "L",
       "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Minnesota Lynx @ Dallas Wings",
-      "pick": "Minnesota Lynx -3.5",
+      "game": "Atlanta Dream @ Washington Mystics",
+      "pick": "Atlanta Dream -6.5",
       "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "W",
-      "profit_units": 1.18
-    },
-    {
-      "sport": "MLB",
-      "game": "Philadelphia Phillies @ New York Mets",
-      "pick": "Philadelphia Phillies ML",
-      "bet_type": "ML",
-      "odds": -155.0,
-      "result": "W",
-      "profit_units": 0.81
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
       "sport": "ATP",
-      "game": "Daniel Altmaier vs Alex Molcan",
-      "pick": "Daniel Altmaier ML",
+      "game": "Tommy Paul vs Hubert Hurkacz",
+      "pick": "Hubert Hurkacz ML",
       "bet_type": "ML",
-      "odds": -120.0,
-      "result": "L",
-      "profit_units": -0.5
-    },
-    {
-      "sport": "ATP",
-      "game": "Roman Safiullin vs Andrey Rublev",
-      "pick": "Andrey Rublev ML",
-      "bet_type": "ML",
-      "odds": -200.0,
-      "result": "L",
-      "profit_units": -0.75
-    },
-    {
-      "sport": "WTA",
-      "game": "Sofia Kenin vs Petra Marcinko",
-      "pick": "Sofia Kenin +1.5 Games",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -0.5
+      "odds": 155.0,
+      "result": "W",
+      "profit_units": 1.55
     }
   ]
 }
