@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-03",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Maria Sakkari vs Jasmine Paolini",
+    "pick": "Maria Sakkari ML",
+    "bet_type": "ML",
+    "line": 105.0,
+    "pick_display": "Maria Sakkari ML",
+    "edge": 0,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "6ad4f199896c4f3b4e448c4325d3171e52ecd8d436a7685d793ed966a9d216f2"
+  },
+  {
     "date": "2026-07-02",
     "sport": "BEST",
     "source_sport": "WTA",
