@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-04",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Alexander Bublik vs Frances Tiafoe",
+    "pick": "Alexander Bublik ML",
+    "bet_type": "ML",
+    "line": -110.0,
+    "pick_display": "Alexander Bublik ML",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "78734c039f567debe13516b7b3cc16a8da494672bb097d9a9190e3da24515209"
+  },
+  {
     "date": "2026-07-03",
     "sport": "BEST",
     "source_sport": "WTA",
