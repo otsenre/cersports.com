@@ -1,67 +1,31 @@
 {
-  "generated_at": "2026-07-04T15:14:00.364951+00:00",
-  "iso_date": "2026-07-02",
-  "display_date": "Thu \u00b7 Jul 2, 2026",
+  "generated_at": "2026-07-05T15:13:03.258819+00:00",
+  "iso_date": "2026-06-23",
+  "display_date": "Tue \u00b7 Jun 23, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 3,
-    "units_pl": -0.49,
-    "roi_pct": -8.17
+    "wins": 1,
+    "losses": 1,
+    "units_pl": -0.52,
+    "roi_pct": -26.0
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Ashlyn Krueger vs Daria Snigur",
-      "pick": "Ashlyn Krueger ML",
+      "sport": "ATP",
+      "game": "Christopher O'Connell @ Bernard Tomic",
+      "pick": "Christopher O'Connell ML",
       "bet_type": "ML",
-      "odds": -134.0,
+      "odds": -214.0,
       "result": "W",
-      "profit_units": 0.75
-    },
-    {
-      "sport": "WTA",
-      "game": "Viktorija Golubic vs Jasmine Paolini",
-      "pick": "Jasmine Paolini ML",
-      "bet_type": "ML",
-      "odds": -140.0,
-      "result": "W",
-      "profit_units": 0.71
+      "profit_units": 0.23
     },
     {
       "sport": "ATP",
-      "game": "Grigor Dimitrov vs Jakub Mensik",
-      "pick": "Jakub Mensik ML",
+      "game": "Harold Mayot @ Alejandro Moro Canas",
+      "pick": "Harold Mayot ML",
       "bet_type": "ML",
-      "odds": -190.0,
+      "odds": -295.0,
       "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Connecticut Sun",
-      "pick": "Dallas Wings -7.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "WNBA",
-      "game": "Atlanta Dream @ Washington Mystics",
-      "pick": "Atlanta Dream -6.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "ATP",
-      "game": "Tommy Paul vs Hubert Hurkacz",
-      "pick": "Hubert Hurkacz ML",
-      "bet_type": "ML",
-      "odds": 155.0,
-      "result": "W",
-      "profit_units": 1.55
+      "profit_units": -0.75
     }
   ]
 }
