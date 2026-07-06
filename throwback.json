@@ -1,31 +1,49 @@
 {
-  "generated_at": "2026-07-05T15:13:03.258819+00:00",
-  "iso_date": "2026-06-23",
-  "display_date": "Tue \u00b7 Jun 23, 2026",
+  "generated_at": "2026-07-06T15:13:11.816487+00:00",
+  "iso_date": "2026-06-19",
+  "display_date": "Fri \u00b7 Jun 19, 2026",
   "summary": {
     "wins": 1,
-    "losses": 1,
-    "units_pl": -0.52,
-    "roi_pct": -26.0
+    "losses": 3,
+    "units_pl": -2.36,
+    "roi_pct": -59.0
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Christopher O'Connell @ Bernard Tomic",
-      "pick": "Christopher O'Connell ML",
-      "bet_type": "ML",
-      "odds": -214.0,
-      "result": "W",
-      "profit_units": 0.23
+      "sport": "WNBA",
+      "game": "Washington Mystics @ New York Liberty",
+      "pick": "New York Liberty -12.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
-      "sport": "ATP",
-      "game": "Harold Mayot @ Alejandro Moro Canas",
-      "pick": "Harold Mayot ML",
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Golden State Valkyries",
+      "pick": "Minnesota Lynx -2.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.14
+    },
+    {
+      "sport": "MMA",
+      "game": "Allan Nascimento @ Mitch Raposo",
+      "pick": "Allan Nascimento ML",
       "bet_type": "ML",
-      "odds": -295.0,
+      "odds": -180.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.25
+    },
+    {
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Connecticut Sun",
+      "pick": "Connecticut Sun +1.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.0
     }
   ]
 }
