@@ -1,49 +1,58 @@
 {
-  "generated_at": "2026-07-06T15:13:11.816487+00:00",
-  "iso_date": "2026-06-19",
-  "display_date": "Fri \u00b7 Jun 19, 2026",
+  "generated_at": "2026-07-07T15:14:45.157897+00:00",
+  "iso_date": "2026-07-03",
+  "display_date": "Fri \u00b7 Jul 3, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.36,
-    "roi_pct": -59.0
+    "wins": 4,
+    "losses": 1,
+    "units_pl": 2.65,
+    "roi_pct": 53.0
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Washington Mystics @ New York Liberty",
-      "pick": "New York Liberty -12.5",
-      "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Golden State Valkyries",
-      "pick": "Minnesota Lynx -2.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "W",
-      "profit_units": 1.14
-    },
-    {
-      "sport": "MMA",
-      "game": "Allan Nascimento @ Mitch Raposo",
-      "pick": "Allan Nascimento ML",
+      "sport": "ATP",
+      "game": "Alexander Bublik vs Frances Tiafoe",
+      "pick": "Alexander Bublik ML",
       "bet_type": "ML",
-      "odds": -180.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 0.95
     },
     {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Connecticut Sun",
-      "pick": "Connecticut Sun +1.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
+      "sport": "ATP",
+      "game": "Matteo Berrettini vs Grigor Dimitrov",
+      "pick": "Matteo Berrettini ML",
+      "bet_type": "ML",
+      "odds": -135.0,
       "result": "L",
       "profit_units": -1.0
+    },
+    {
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -7.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 1.75
+    },
+    {
+      "sport": "WTA",
+      "game": "Madison Keys vs Amanda Anisimova",
+      "pick": "Madison Keys ML",
+      "bet_type": "ML",
+      "odds": -165.0,
+      "result": "W",
+      "profit_units": 0.45
+    },
+    {
+      "sport": "WTA",
+      "game": "Marta Kostyuk vs Emma Navarro",
+      "pick": "Marta Kostyuk ML",
+      "bet_type": "ML",
+      "odds": -150.0,
+      "result": "W",
+      "profit_units": 0.5
     }
   ]
 }
