@@ -1,58 +1,67 @@
 {
-  "generated_at": "2026-07-07T15:14:45.157897+00:00",
-  "iso_date": "2026-07-03",
-  "display_date": "Fri \u00b7 Jul 3, 2026",
+  "generated_at": "2026-07-08T15:13:04.705368+00:00",
+  "iso_date": "2026-07-02",
+  "display_date": "Thu \u00b7 Jul 2, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 1,
-    "units_pl": 2.65,
-    "roi_pct": 53.0
+    "wins": 3,
+    "losses": 3,
+    "units_pl": -0.49,
+    "roi_pct": -8.17
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Alexander Bublik vs Frances Tiafoe",
-      "pick": "Alexander Bublik ML",
+      "sport": "WTA",
+      "game": "Ashlyn Krueger vs Daria Snigur",
+      "pick": "Ashlyn Krueger ML",
       "bet_type": "ML",
-      "odds": -105.0,
+      "odds": -134.0,
       "result": "W",
-      "profit_units": 0.95
+      "profit_units": 0.75
+    },
+    {
+      "sport": "WTA",
+      "game": "Viktorija Golubic vs Jasmine Paolini",
+      "pick": "Jasmine Paolini ML",
+      "bet_type": "ML",
+      "odds": -140.0,
+      "result": "W",
+      "profit_units": 0.71
     },
     {
       "sport": "ATP",
-      "game": "Matteo Berrettini vs Grigor Dimitrov",
-      "pick": "Matteo Berrettini ML",
+      "game": "Grigor Dimitrov vs Jakub Mensik",
+      "pick": "Jakub Mensik ML",
       "bet_type": "ML",
-      "odds": -135.0,
+      "odds": -190.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
       "sport": "WNBA",
-      "game": "Chicago Sky @ Las Vegas Aces",
-      "pick": "Las Vegas Aces -7.5",
+      "game": "Dallas Wings @ Connecticut Sun",
+      "pick": "Dallas Wings -7.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "W",
-      "profit_units": 1.75
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
-      "sport": "WTA",
-      "game": "Madison Keys vs Amanda Anisimova",
-      "pick": "Madison Keys ML",
-      "bet_type": "ML",
-      "odds": -165.0,
-      "result": "W",
-      "profit_units": 0.45
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Washington Mystics",
+      "pick": "Atlanta Dream -6.5",
+      "bet_type": "ATS",
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
-      "sport": "WTA",
-      "game": "Marta Kostyuk vs Emma Navarro",
-      "pick": "Marta Kostyuk ML",
+      "sport": "ATP",
+      "game": "Tommy Paul vs Hubert Hurkacz",
+      "pick": "Hubert Hurkacz ML",
       "bet_type": "ML",
-      "odds": -150.0,
+      "odds": 155.0,
       "result": "W",
-      "profit_units": 0.5
+      "profit_units": 1.55
     }
   ]
 }
