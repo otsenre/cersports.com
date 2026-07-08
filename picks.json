@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-08",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Linda Noskova vs Marta Kostyuk",
+    "pick": "Over 22.5 Games",
+    "bet_type": "Total Games",
+    "line": "",
+    "pick_display": "Over 22.5 Games",
+    "edge": 0,
+    "ccr": 5.5,
+    "ccr_avg": 5.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "546daa38d04ccb9c138ebab04bc56a18b09ba5fa2a5110d48908a7380b104b61"
+  },
+  {
     "date": "2026-07-07",
     "sport": "BEST",
     "source_sport": "ATP",
