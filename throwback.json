@@ -1,67 +1,40 @@
 {
-  "generated_at": "2026-07-08T15:13:04.705368+00:00",
-  "iso_date": "2026-07-02",
-  "display_date": "Thu \u00b7 Jul 2, 2026",
+  "generated_at": "2026-07-09T15:12:54.183356+00:00",
+  "iso_date": "2026-06-25",
+  "display_date": "Thu \u00b7 Jun 25, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 3,
-    "units_pl": -0.49,
-    "roi_pct": -8.17
+    "wins": 1,
+    "losses": 2,
+    "units_pl": -2.42,
+    "roi_pct": -80.67
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Ashlyn Krueger vs Daria Snigur",
-      "pick": "Ashlyn Krueger ML",
-      "bet_type": "ML",
-      "odds": -134.0,
-      "result": "W",
-      "profit_units": 0.75
-    },
-    {
-      "sport": "WTA",
-      "game": "Viktorija Golubic vs Jasmine Paolini",
-      "pick": "Jasmine Paolini ML",
-      "bet_type": "ML",
-      "odds": -140.0,
-      "result": "W",
-      "profit_units": 0.71
-    },
-    {
-      "sport": "ATP",
-      "game": "Grigor Dimitrov vs Jakub Mensik",
-      "pick": "Jakub Mensik ML",
-      "bet_type": "ML",
-      "odds": -190.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
       "sport": "WNBA",
-      "game": "Dallas Wings @ Connecticut Sun",
-      "pick": "Dallas Wings -7.5",
+      "game": "New York Liberty @ Seattle Storm",
+      "pick": "New York Liberty -11.5",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "MLB",
+      "game": "Seattle Mariners @ Pittsburgh Pirates",
+      "pick": "Seattle Mariners ML",
+      "bet_type": "ML",
+      "odds": -150.0,
       "result": "L",
       "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Washington Mystics",
-      "pick": "Atlanta Dream -6.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "ATP",
-      "game": "Tommy Paul vs Hubert Hurkacz",
-      "pick": "Hubert Hurkacz ML",
+      "game": "Dallas Wings @ Las Vegas Aces",
+      "pick": "Las Vegas Aces ML",
       "bet_type": "ML",
-      "odds": 155.0,
+      "odds": -230.0,
       "result": "W",
-      "profit_units": 1.55
+      "profit_units": 0.33
     }
   ]
 }
