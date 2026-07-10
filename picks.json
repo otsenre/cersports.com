@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-09",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Seattle Storm @ Atlanta Dream",
+    "pick": "Atlanta Dream -10.5",
+    "bet_type": "ATS",
+    "line": -105.0,
+    "pick_display": "Atlanta Dream -10.5",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": "W",
+    "units": 1.0,
+    "hash_id": "44ba2195c647d652bc41f59f157da18c1e61f775071f0f272fa576980dddb377"
+  },
+  {
     "date": "2026-07-08",
     "sport": "BEST",
     "source_sport": "WTA",
@@ -12,7 +29,7 @@
     "ccr": 5.5,
     "ccr_avg": 5.5,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "546daa38d04ccb9c138ebab04bc56a18b09ba5fa2a5110d48908a7380b104b61"
   },
