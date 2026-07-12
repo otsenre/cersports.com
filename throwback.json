@@ -1,67 +1,58 @@
 {
-  "generated_at": "2026-07-11T15:15:58.646441+00:00",
-  "iso_date": "2026-06-24",
-  "display_date": "Wed \u00b7 Jun 24, 2026",
+  "generated_at": "2026-07-12T15:13:46.498984+00:00",
+  "iso_date": "2026-06-27",
+  "display_date": "Sat \u00b7 Jun 27, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 4,
-    "units_pl": -3.34,
-    "roi_pct": -55.67
+    "wins": 3,
+    "losses": 2,
+    "units_pl": -0.47,
+    "roi_pct": -9.4
   },
   "picks": [
     {
+      "sport": "ATP",
+      "game": "Botic van de Zandschulp @ Aleksandar Kovacevic",
+      "pick": "Botic van de Zandschulp ML",
+      "bet_type": "ML",
+      "odds": -185.0,
+      "result": "W",
+      "profit_units": 0.41
+    },
+    {
       "sport": "WNBA",
-      "game": "Phoenix Mercury @ Indiana Fever",
-      "pick": "Indiana Fever -8.5",
+      "game": "Atlanta Dream @ Seattle Storm",
+      "pick": "Atlanta Dream -7.5",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -110.0,
       "result": "L",
       "profit_units": -1.5
     },
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Golden State Valkyries",
-      "pick": "Atlanta Dream -1.5",
+      "game": "Phoenix Mercury @ Toronto Tempo",
+      "pick": "Toronto Tempo -6.5",
       "bet_type": "ATS",
       "odds": -115.0,
       "result": "L",
       "profit_units": -1.0
     },
     {
-      "sport": "WNBA",
-      "game": "Portland Fire @ Chicago Sky",
-      "pick": "Chicago Sky -3.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
+      "sport": "ATP",
+      "game": "Pablo Carreno Busta @ Denis Shapovalov",
+      "pick": "Pablo Carreno Busta ML",
+      "bet_type": "ML",
+      "odds": 260.0,
       "result": "W",
-      "profit_units": 0.91
+      "profit_units": 1.3
     },
     {
       "sport": "ATP",
-      "game": "Arthur Gea @ Soonwoo Kwon",
-      "pick": "Over 23.5 Games",
-      "bet_type": "Total Games",
-      "odds": null,
+      "game": "Stefanos Tsitsipas @ Hugo Gaston",
+      "pick": "Stefanos Tsitsipas ML",
+      "bet_type": "ML",
+      "odds": -235.0,
       "result": "W",
-      "profit_units": 0.0
-    },
-    {
-      "sport": "ATP",
-      "game": "Timofey Skatov @ Elias Ymer",
-      "pick": "Over 22.5 Games",
-      "bet_type": "Total Games",
-      "odds": null,
-      "result": "L",
-      "profit_units": -0.75
-    },
-    {
-      "sport": "ATP",
-      "game": "Harold Mayot @ Alejandro Moro Canas",
-      "pick": "Harold Mayot -3.5 Games",
-      "bet_type": "ATS",
-      "odds": 101.0,
-      "result": "L",
-      "profit_units": -1.0
+      "profit_units": 0.32
     }
   ]
 }
