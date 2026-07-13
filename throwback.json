@@ -1,58 +1,40 @@
 {
-  "generated_at": "2026-07-12T15:13:46.498984+00:00",
-  "iso_date": "2026-06-27",
-  "display_date": "Sat \u00b7 Jun 27, 2026",
+  "generated_at": "2026-07-13T15:13:39.954791+00:00",
+  "iso_date": "2026-06-26",
+  "display_date": "Fri \u00b7 Jun 26, 2026",
   "summary": {
-    "wins": 3,
+    "wins": 1,
     "losses": 2,
-    "units_pl": -0.47,
-    "roi_pct": -9.4
+    "units_pl": -2.19,
+    "roi_pct": -73.0
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Botic van de Zandschulp @ Aleksandar Kovacevic",
-      "pick": "Botic van de Zandschulp ML",
-      "bet_type": "ML",
-      "odds": -185.0,
-      "result": "W",
-      "profit_units": 0.41
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Golden State Valkyries",
+      "pick": "Atlanta Dream -1.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Seattle Storm",
-      "pick": "Atlanta Dream -7.5",
+      "game": "Washington Mystics @ Connecticut Sun",
+      "pick": "Washington Mystics -4.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -105.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.25
     },
     {
-      "sport": "WNBA",
-      "game": "Phoenix Mercury @ Toronto Tempo",
-      "pick": "Toronto Tempo -6.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -1.0
-    },
-    {
-      "sport": "ATP",
-      "game": "Pablo Carreno Busta @ Denis Shapovalov",
-      "pick": "Pablo Carreno Busta ML",
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ New York Mets",
+      "pick": "Philadelphia Phillies ML",
       "bet_type": "ML",
-      "odds": 260.0,
+      "odds": -160.0,
       "result": "W",
-      "profit_units": 1.3
-    },
-    {
-      "sport": "ATP",
-      "game": "Stefanos Tsitsipas @ Hugo Gaston",
-      "pick": "Stefanos Tsitsipas ML",
-      "bet_type": "ML",
-      "odds": -235.0,
-      "result": "W",
-      "profit_units": 0.32
+      "profit_units": 0.31
     }
   ]
 }
