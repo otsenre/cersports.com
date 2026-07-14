@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CERSports — Data-Driven Sports Intelligence</title>
-<meta name="description" content="CCR-rated sports picks powered by three independent models. Daily NBA, NHL and more. Join thousands of sharp bettors.">
-<meta property="og:title" content="CERSports — Certified Picks">
-<meta property="og:description" content="Model-backed CCR picks. Runs at 8:05 AM daily.">
+<meta name="description" content="CCR-rated sports picks from a six-model committee, run every morning. One free best pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
+<meta property="og:title" content="CERSports — The Model Runs">
+<meta property="og:description" content="Six-model committee. One free best pick daily. Every result posted publicly. Runs at 8:05 AM.">
 <meta property="og:image" content="https://cersports.com/og-image.jpg">
 <link rel="icon" href="/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
@@ -381,6 +381,55 @@ section { padding: 80px 24px; }
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 1px; background: var(--border); margin-top: 48px;
 }
+/* The Committee roster */
+.committee { margin-top: 56px; }
+.committee-label {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; font-size: 13px; color: var(--muted); margin-bottom: 20px;
+}
+.committee-grid {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px;
+}
+.picker-chip {
+  background: var(--black); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px 10px; text-align: center;
+}
+.picker-dot {
+  width: 30px; height: 30px; border-radius: 50%; margin: 0 auto 10px;
+  box-shadow: 0 0 18px -2px currentColor;
+}
+.picker-name {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; font-size: 13px; color: var(--off-white);
+}
+.committee-note { color: var(--muted); font-size: 12.5px; margin-top: 16px; max-width: 620px; }
+@media (max-width: 640px) {
+  .committee-grid { grid-template-columns: repeat(3, 1fr); }
+}
+/* Tools / products */
+.tools-section { background: var(--surface); }
+.tools-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 1px; background: var(--border); margin-top: 48px;
+}
+.tool-card { background: var(--black); padding: 28px 26px; position: relative; }
+.tool-status {
+  display: inline-block; font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+  letter-spacing: 1.5px; text-transform: uppercase; font-size: 11px;
+  padding: 3px 10px; border-radius: 100px; margin-bottom: 14px;
+}
+.tool-live { color: var(--green-light); border: 1px solid rgba(34,197,94,0.35); background: rgba(34,197,94,0.08); }
+.tool-soon { color: var(--gold-light); border: 1px solid rgba(201,168,76,0.35); background: rgba(201,168,76,0.08); }
+.tool-title {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; font-size: 18px; color: var(--white); margin-bottom: 10px;
+}
+.tool-body { font-size: 14px; color: var(--muted); line-height: 1.65; }
+.tool-body a { color: var(--gold-light); text-decoration: none; }
+.tool-body strong { color: var(--off-white); }
+@media (max-width: 640px) {
+  .tools-grid { grid-template-columns: 1fr; }
+}
 .step-card { background: var(--black); padding: 28px 24px; }
 .step-num {
   font-family: 'Bebas Neue', sans-serif; font-size: 56px;
@@ -705,6 +754,7 @@ footer {
       <a href="#record">Record</a>
       <a href="#pricing">Pricing</a>
       <a href="#how">The Model</a>
+      <a href="#tools">Toolkit</a>
       <a href="#ccr">CCR</a>
       <a href="#follow">Follow</a>
     </div>
@@ -752,8 +802,8 @@ footer {
       <div class="stat-label">Daily Runtime · AM</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">3</div>
-      <div class="stat-label">Independent Models</div>
+      <div class="stat-num">6</div>
+      <div class="stat-label">Model Pickers</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statGames">—</div>
@@ -891,7 +941,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">Under the hood</div>
     <h2 class="section-title">HOW THE <em>MODEL</em> WORKS</h2>
-    <p class="section-body">Three independent engines run every morning. One consensus output. No opinions.</p>
+    <p class="section-body">A committee of six independent AI pickers — cross-checked against our own statistical models — reads every slate each morning. One consensus output. No gut calls.</p>
 
     <div class="steps-grid">
       <div class="step-card">
@@ -907,8 +957,15 @@ footer {
       <div class="step-card">
         <div class="step-num">03</div>
         <div class="step-title">Consensus + Publish</div>
-        <div class="step-body">All three outputs cross-referenced. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by 8:05 AM.</div>
+        <div class="step-body">Every picker's read is cross-referenced against the statistical models. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by 8:05 AM.</div>
       </div>
+    </div>
+
+    <!-- THE COMMITTEE (codenamed roster — rendered from pickers.json) -->
+    <div class="committee">
+      <div class="committee-label">The Committee · six independent pickers, one card</div>
+      <div class="committee-grid" id="committeeGrid"></div>
+      <p class="committee-note">Each picker reads the slate independently. We keep their identities under wraps — you get the consensus, not the noise.</p>
     </div>
   </div>
 </section>
@@ -918,7 +975,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">Our rating system</div>
     <h2 class="section-title">WHAT IS <em>CCR?</em></h2>
-    <p class="section-body">The CERSports Confidence Rating is a 0–10 score produced by our consensus model. It measures how much edge the system has detected across all three models combined.</p>
+    <p class="section-body">The CERSports Confidence Rating is a 0–10 score produced by our consensus engine. It measures how much edge the system has detected across the full six-picker committee combined.</p>
 
     <div class="ccr-scale">
       <div class="ccr-tier ccr-t1">
@@ -940,6 +997,38 @@ footer {
         <div class="ccr-range">&lt;5</div>
         <div class="ccr-name">Noise</div>
         <div class="ccr-desc">We don't post what the model doesn't believe in.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS / PRODUCTS -->
+<section class="tools-section" id="tools">
+  <div class="section-inner">
+    <div class="section-label">Beyond the daily card</div>
+    <h2 class="section-title">THE <em>TOOLKIT</em></h2>
+    <p class="section-body">The card is the start. These are the tools we've built around it — a few live now, more on the way.</p>
+
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-status tool-live">Live</div>
+        <div class="tool-title">Ticket Vault — PrizePicks</div>
+        <div class="tool-body">Forward a screenshot of your PrizePicks slip. We parse every leg, grade it against real results, and track your true ROI over time. No manual entry.</div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-status tool-live">Live</div>
+        <div class="tool-title">Ticket Vault — Sportsbook + CLV</div>
+        <div class="tool-body">Forward a BetMGM ticket photo. We log it, auto-settle it, and measure your <strong>closing-line value</strong> — did you beat the number? The metric sharps actually track.</div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-status tool-live">Live</div>
+        <div class="tool-title">Telegram Game Alerts</div>
+        <div class="tool-body">Free teaser picks and game alerts drop in our public Telegram after each morning run. <a href="https://t.me/cersportspicks" target="_blank" rel="noopener">Join free →</a></div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-status tool-soon">In development</div>
+        <div class="tool-title">More on the workbench</div>
+        <div class="tool-body">Intraday updates, deeper prop coverage, and personal bet-tracking dashboards are in the build. Follow along — we ship in the open.</div>
       </div>
     </div>
   </div>
@@ -1219,8 +1308,28 @@ document.getElementById('manualModal').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 
+// ── The Committee (codenamed roster from pickers.json) ───────────────────────
+async function loadCommittee() {
+  const grid = document.getElementById('committeeGrid');
+  if (!grid) return;
+  try {
+    const res = await fetch('pickers.json?t=' + Date.now());
+    const data = await res.json();
+    grid.innerHTML = '';
+    (data.pickers || []).forEach(p => {
+      const chip = document.createElement('div');
+      chip.className = 'picker-chip';
+      chip.innerHTML =
+        `<div class="picker-dot" style="background:${p.color};color:${p.color}"></div>` +
+        `<div class="picker-name">${p.name}</div>`;
+      grid.appendChild(chip);
+    });
+  } catch(e) { /* leave empty */ }
+}
+
 // ── INIT ─────────────────────────────────────────────────────────────────────
 loadPicks();
+loadCommittee();
 
 // Check for success redirect from Stripe
 const urlParams = new URLSearchParams(window.location.search);

@@ -1,0 +1,12 @@
+{
+  "_note": "Public roster. Codenames only — never list the real model/provider behind a codename in this file or anywhere on the site.",
+  "count": 6,
+  "pickers": [
+    { "name": "Mr. Blue",   "color": "#3b82f6" },
+    { "name": "Mr. Pink",   "color": "#ec4899" },
+    { "name": "Mr. Green",  "color": "#22c55e" },
+    { "name": "Mr. Orange", "color": "#f97316" },
+    { "name": "Mr. White",  "color": "#d4d4d8" },
+    { "name": "Mr. Brown",  "color": "#b45309" }
+  ]
+}
