@@ -1,40 +1,49 @@
 {
-  "generated_at": "2026-07-13T15:13:39.954791+00:00",
-  "iso_date": "2026-06-26",
-  "display_date": "Fri \u00b7 Jun 26, 2026",
+  "generated_at": "2026-07-14T15:12:56.108013+00:00",
+  "iso_date": "2026-07-10",
+  "display_date": "Fri \u00b7 Jul 10, 2026",
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 2,
-    "units_pl": -2.19,
-    "roi_pct": -73.0
+    "units_pl": 0.19,
+    "roi_pct": 4.75
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Atlanta Dream @ Golden State Valkyries",
-      "pick": "Atlanta Dream -1.5",
+      "game": "Dallas Wings @ Toronto Tempo",
+      "pick": "Dallas Wings -7.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.85
     },
     {
       "sport": "WNBA",
-      "game": "Washington Mystics @ Connecticut Sun",
-      "pick": "Washington Mystics -4.5",
+      "game": "Golden State Valkyries @ Connecticut Sun",
+      "pick": "Golden State Valkyries -5.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -115.0,
+      "result": "W",
+      "profit_units": 1.09
     },
     {
       "sport": "MLB",
-      "game": "Philadelphia Phillies @ New York Mets",
-      "pick": "Philadelphia Phillies ML",
+      "game": "Houston Astros @ Texas Rangers",
+      "pick": "Houston Astros ML",
       "bet_type": "ML",
-      "odds": -160.0,
-      "result": "W",
-      "profit_units": 0.31
+      "odds": -145.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "MLB",
+      "game": "Arizona Diamondbacks @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers -1.5",
+      "bet_type": "ATS",
+      "odds": 100.0,
+      "result": "L",
+      "profit_units": -1.25
     }
   ]
 }
