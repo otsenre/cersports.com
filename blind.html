@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CERSports — Stop Betting Blind</title>
+<meta name="description" content="You found the shirt. Here's today's free CCR-rated pick and the full honest ledger. We don't cherry-pick wins.">
+<meta name="robots" content="noindex,follow">
+<meta property="og:title" content="CERSports — BET LESS BLIND.">
+<meta property="og:description" content="Today's free pick + our full honest record. We don't cherry-pick wins.">
+<meta property="og:image" content="https://cersports.com/og-image.jpg">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) — same property as the main site so /blind + UTM traffic tracks together -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1MHZXXCT6B');
+  // Explicit campaign event so shirt (QR vs typed) visits are countable in GA4.
+  (function(){
+    var p = new URLSearchParams(location.search);
+    gtag('event', 'blind_landing', {
+      utm_source:   p.get('utm_source')   || '(typed)',
+      utm_medium:   p.get('utm_medium')   || '(typed)',
+      utm_campaign: p.get('utm_campaign') || 'bet_less_blind',
+      utm_content:  p.get('utm_content')  || '(typed)',
+      entry:        p.get('utm_content') === 'qr_v1' ? 'qr_scan' : 'typed_or_other'
+    });
+  })();
+  function track(name, extra){ try { gtag('event', name, extra || {}); } catch(e){} }
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black:#080808; --surface:#101010; --surface2:#161616;
+  --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.14);
+  --white:#fff; --off-white:#e8e8e8; --muted:#666; --muted2:#444;
+  --gold:#c9a84c; --gold-light:#e8c96a; --red:#c0392b;
+  --green:#1a7a4a; --green-light:#22c55e;
+}
+html { scroll-behavior:smooth; }
+body {
+  background:var(--black); color:var(--off-white);
+  font-family:'Barlow',sans-serif; font-weight:400; line-height:1.6;
+  overflow-x:hidden; min-height:100vh;
+  display:flex; flex-direction:column; align-items:center;
+  padding:40px 20px 56px;
+}
+body::after {
+  content:''; position:fixed; inset:0; pointer-events:none; z-index:9999;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+.wrap { width:100%; max-width:560px; position:relative; z-index:1; }
+
+.brand { text-align:center; margin-bottom:28px; }
+.brand .logo {
+  font-family:'Bebas Neue',sans-serif; font-size:clamp(38px,9vw,58px);
+  letter-spacing:4px; color:var(--white); line-height:1;
+}
+.brand .logo em { color:var(--gold); font-style:normal; }
+.brand .kicker {
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; font-style:italic;
+  text-transform:uppercase; letter-spacing:2px; font-size:14px;
+  color:var(--gold-light); margin-top:10px;
+}
+.brand .sub { color:var(--muted); font-size:14px; margin-top:8px; }
+
+.card {
+  background:linear-gradient(180deg,var(--surface2),var(--surface));
+  border:1px solid var(--border2); border-radius:14px;
+  padding:26px 24px; margin-bottom:20px;
+}
+.card-label {
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; text-transform:uppercase;
+  letter-spacing:3px; font-size:12px; color:var(--muted); margin-bottom:14px;
+  display:flex; align-items:center; gap:8px;
+}
+.card-label::before { content:''; width:22px; height:2px; background:var(--gold); }
+
+.pick-tag {
+  display:inline-block; font-family:'Barlow Condensed',sans-serif; font-weight:700;
+  font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-light);
+  border:1px solid var(--border2); border-radius:100px; padding:3px 12px; margin-bottom:12px;
+}
+.pick-sportdate { color:var(--muted); font-size:14px; letter-spacing:1px; text-transform:uppercase; }
+.pick-team {
+  font-family:'Bebas Neue',sans-serif; font-size:clamp(30px,7vw,44px);
+  letter-spacing:1px; color:var(--white); line-height:1.05; margin:6px 0 14px;
+}
+.ccr-badge {
+  display:inline-block; font-family:'Barlow Condensed',sans-serif; font-weight:700;
+  font-size:15px; letter-spacing:1px; padding:4px 14px; border-radius:6px;
+  background:rgba(201,168,76,0.12); color:var(--gold-light); border:1px solid rgba(201,168,76,0.3);
+}
+.pick-result { margin-left:8px; font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:1px; }
+.pick-result.w { color:var(--green-light); }
+.pick-result.l { color:var(--red); }
+.pick-result.p { color:var(--muted); }
+.pick-loading { color:var(--muted); font-style:italic; }
+
+.ledger-block { }
+.ledger-name {
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; text-transform:uppercase;
+  letter-spacing:1px; font-size:15px; color:var(--off-white);
+}
+.ledger-name .ledger-note { color:var(--muted); font-weight:400; text-transform:none; letter-spacing:0; font-size:13px; }
+.ledger-sub { color:var(--muted); font-size:12.5px; margin-top:10px; }
+.record-strip {
+  display:flex; gap:10px; margin-top:12px; padding-top:12px;
+  border-top:1px solid var(--border); flex-wrap:wrap;
+}
+.record-stat { flex:1; min-width:90px; text-align:center; }
+.record-stat .num { font-family:'Bebas Neue',sans-serif; font-size:30px; color:var(--white); line-height:1; }
+.record-stat .num.pos { color:var(--green-light); }
+.record-stat .cap {
+  font-family:'Barlow Condensed',sans-serif; text-transform:uppercase; letter-spacing:1px;
+  font-size:11px; color:var(--muted); margin-top:4px;
+}
+
+.btn {
+  display:block; width:100%; text-align:center; text-decoration:none;
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; text-transform:uppercase;
+  letter-spacing:2px; font-size:18px; padding:16px; border-radius:10px;
+  transition:transform .12s ease, filter .12s ease; cursor:pointer;
+}
+.btn:active { transform:scale(.99); }
+.btn-primary { background:var(--gold); color:#0b0b0b; border:1px solid var(--gold-light); }
+.btn-primary:hover { filter:brightness(1.06); }
+.btn-secondary {
+  background:transparent; color:var(--off-white); border:1px solid var(--border2);
+  font-size:15px; padding:14px; margin-top:10px;
+}
+.btn-secondary:hover { border-color:var(--gold); color:var(--gold-light); }
+
+.finder { margin-top:6px; }
+.finder .card-label { margin-bottom:10px; }
+.finder select {
+  width:100%; background:var(--surface); color:var(--off-white); border:1px solid var(--border2);
+  border-radius:8px; padding:12px; font-family:'Barlow',sans-serif; font-size:15px;
+}
+.finder .thanks { color:var(--green-light); font-size:14px; margin-top:10px; display:none; }
+
+.disclaimer {
+  text-align:center; font-size:11px; color:var(--muted2); line-height:1.6;
+  margin-top:26px; max-width:520px;
+}
+.disclaimer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">
+    <div class="logo">CER<em>SPORTS</em></div>
+    <div class="kicker">Bet Less Blind.</div>
+    <div class="sub">You found the shirt. Here's the proof behind it.</div>
+  </div>
+
+  <!-- Today's free pick -->
+  <div class="card">
+    <div class="card-label">Today's Free Pick</div>
+    <div class="pick-tag" id="pickTag">Loading…</div>
+    <div class="pick-sportdate" id="pickSportDate">&nbsp;</div>
+    <div class="pick-team" id="pickTeam"><span class="pick-loading">Loading today's pick…</span></div>
+    <div>
+      <span class="ccr-badge" id="pickCCR">CCR —</span>
+      <span class="pick-result" id="pickResult"></span>
+    </div>
+  </div>
+
+  <!-- The receipts: free-pick ledger + full system (free + paid). Both are the
+       already-public site ledgers; nothing from the internal master ledger. -->
+  <div class="card">
+    <div class="card-label">The Receipts · We Don't Cherry-Pick Wins</div>
+
+    <div class="ledger-block">
+      <div class="ledger-name">Free Pick Ledger</div>
+      <div class="record-strip" id="freeStrip">
+        <div class="record-stat"><div class="num" id="freeRecord">—</div><div class="cap">Record</div></div>
+        <div class="record-stat"><div class="num" id="freeUnits">—</div><div class="cap">Units</div></div>
+        <div class="record-stat"><div class="num" id="freeTracked">—</div><div class="cap">Picks Graded</div></div>
+      </div>
+    </div>
+
+    <div class="ledger-block" style="margin-top:18px">
+      <div class="ledger-name">Full System <span class="ledger-note">free + paid, graded daily</span></div>
+      <div class="record-strip" id="sysStrip">
+        <div class="record-stat"><div class="num" id="sysRecord">—</div><div class="cap">All-Time</div></div>
+        <div class="record-stat"><div class="num" id="sysRoi">—</div><div class="cap">ROI</div></div>
+        <div class="record-stat"><div class="num" id="sysVsMkt">—</div><div class="cap">vs S&amp;P 500</div></div>
+      </div>
+      <div class="ledger-sub" id="sysRecent">&nbsp;</div>
+    </div>
+  </div>
+
+  <!-- Primary CTA -->
+  <a class="btn btn-primary" href="https://t.me/cersportspicks" target="_blank" rel="noopener"
+     onclick="track('blind_cta_telegram',{destination:'t.me/cersportspicks'})">
+    Get Free Picks on Telegram →
+  </a>
+  <a class="btn btn-secondary" href="https://cersports.com/#ledger"
+     onclick="track('blind_cta_ledger',{destination:'ledger'})">
+    See the full honest ledger — we don't cherry-pick wins
+  </a>
+
+  <!-- How did you find us -->
+  <div class="card finder" style="margin-top:20px">
+    <div class="card-label">How did you find us?</div>
+    <select id="finder" aria-label="How did you find us?">
+      <option value="shirt" selected>Shirt in the wild</option>
+      <option value="qr">Scanned the QR</option>
+      <option value="search">Search / typed the URL</option>
+      <option value="friend">A friend told me</option>
+      <option value="social">Social media</option>
+      <option value="other">Other</option>
+    </select>
+    <div class="thanks" id="finderThanks">Thanks — noted. 👊</div>
+  </div>
+
+  <div class="disclaimer">
+    © 2026 CERSports. For entertainment purposes only. 21+. Sports betting involves risk;
+    past model performance does not guarantee future results. Please gamble responsibly —
+    if you or someone you know has a gambling problem, call 1-800-GAMBLER. CERSports does not accept wagers.
+    &nbsp;·&nbsp; <a href="https://cersports.com">cersports.com</a>
+  </div>
+
+</div>
+
+<script>
+// Preselect "Scanned the QR" when arriving via the shirt QR (utm_content=qr_v1).
+(function(){
+  var p = new URLSearchParams(location.search);
+  if (p.get('utm_content') === 'qr_v1') {
+    var sel = document.getElementById('finder');
+    if (sel) sel.value = 'qr';
+  }
+})();
+document.getElementById('finder').addEventListener('change', function(){
+  track('blind_finder', { answer: this.value });
+  document.getElementById('finderThanks').style.display = 'block';
+});
+
+// Today's free pick + honest record — mirrors index.html loadPicks().
+(async function loadBlind(){
+  try {
+    const res = await fetch('picks.json?t=' + Date.now());
+    const picks = await res.json();
+    picks.sort((a,b) => new Date(b.date) - new Date(a.date));
+
+    const bestEntry = picks.find(p => p.sport === 'BEST');
+    const latest = bestEntry || picks.find(p => p.sport !== 'BEST' && p.pick !== 'No Play');
+    if (latest) {
+      const displaySport = latest.source_sport || latest.sport;
+      document.getElementById('pickSportDate').textContent =
+        `${displaySport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
+      document.getElementById('pickTeam').textContent = latest.pick_display || latest.pick;
+
+      const ccr = Number(latest.ccr) || 0;
+      const ccrEl = document.getElementById('pickCCR');
+      ccrEl.textContent = `CCR ${ccr.toFixed(1)}`;
+
+      const tagEl = document.getElementById('pickTag');
+      if (ccr >= 9) tagEl.textContent = '⚡ ELITE';
+      else if (ccr >= 7) tagEl.textContent = '⚡ STRONG';
+      else tagEl.textContent = '✓ QUALIFIED';
+
+      const rEl = document.getElementById('pickResult');
+      if (latest.result === 'W') { rEl.textContent = 'WIN ✓'; rEl.className = 'pick-result w'; }
+      else if (latest.result === 'L') { rEl.textContent = 'LOSS'; rEl.className = 'pick-result l'; }
+      else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
+    }
+
+    // Free-pick ledger record (picks.json — the public free ledger).
+    const wins = picks.filter(p => p.result === 'W').length;
+    const losses = picks.filter(p => p.result === 'L').length;
+    const units = picks.reduce((s,p) => {
+      if (p.result === 'W') return s + Math.abs(p.units || 0);
+      if (p.result === 'L') return s - Math.abs(p.units || 0);
+      return s;
+    }, 0);
+    document.getElementById('freeRecord').textContent = `${wins}-${losses}`;
+    const uEl = document.getElementById('freeUnits');
+    uEl.textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
+    if (units >= 0) uEl.classList.add('pos');
+    document.getElementById('freeTracked').textContent = wins + losses;
+  } catch(e) {
+    document.getElementById('pickTeam').innerHTML = '<span class="pick-loading">See today’s pick on the ledger →</span>';
+    document.getElementById('pickTag').textContent = '';
+  }
+})();
+
+// Full-system performance (performance.json — built from picks_ledger.csv,
+// the public ledger; NEVER master_picks_ledger.csv). Same source the main site's
+// performance panel uses. We anchor on ALL-TIME (honest) plus a recent band.
+(async function loadPerf(){
+  try {
+    const res = await fetch('performance.json?t=' + Date.now());
+    const perf = await res.json();
+    const bands = perf.bands || [];
+    const byLabel = l => bands.find(b => b.label === l);
+    const all = byLabel('ALL-TIME');
+    if (all) {
+      document.getElementById('sysRecord').textContent = all.record;
+      const roiEl = document.getElementById('sysRoi');
+      roiEl.textContent = (all.roi_pct >= 0 ? '+' : '') + Number(all.roi_pct).toFixed(1) + '%';
+      if (all.roi_pct >= 0) roiEl.classList.add('pos');
+      const vs = Number(all.vs_spx);
+      const vsEl = document.getElementById('sysVsMkt');
+      vsEl.textContent = (vs >= 0 ? '+' : '') + vs.toFixed(1) + '%';
+      if (vs >= 0) vsEl.classList.add('pos');
+    }
+    // Honest recency line — show trailing 7D/30D so a good OR bad recent run is visible.
+    const d30 = byLabel('30D'), d7 = byLabel('7D');
+    const parts = [];
+    if (d7)  parts.push(`Last 7d: ${d7.record} (${d7.roi_pct >= 0 ? '+' : ''}${Number(d7.roi_pct).toFixed(1)}% ROI)`);
+    if (d30) parts.push(`Last 30d: ${d30.record} (${d30.roi_pct >= 0 ? '+' : ''}${Number(d30.roi_pct).toFixed(1)}% ROI)`);
+    if (parts.length) document.getElementById('sysRecent').textContent = parts.join('  ·  ') + `  ·  since ${perf.anchor}`;
+  } catch(e) { /* leave dashes */ }
+})();
+</script>
+</body>
+</html>
