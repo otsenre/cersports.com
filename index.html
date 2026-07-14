@@ -295,6 +295,20 @@ section { padding: 80px 24px; }
   font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
   color: var(--muted);
 }
+.form-strip {
+  margin-top: 12px; padding: 16px 20px; background: var(--black);
+  border: 1px solid var(--border); display: flex; gap: 32px; align-items: center;
+}
+.form-num {
+  font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--white); line-height: 1;
+}
+.form-num.pos { color: var(--green-light); }
+.form-num.neg { color: var(--red); }
+.form-cap {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--muted); margin-top: 4px;
+}
 .honesty-note {
   margin-top: 16px; font-size: 12px; color: var(--muted);
   font-style: italic; border-left: 2px solid var(--border2); padding-left: 12px;
@@ -843,6 +857,13 @@ footer {
       </div>
     </div>
 
+    <!-- Current form (gambler trend frames — free ledger) -->
+    <div class="form-strip" id="formStrip" style="display:none">
+      <div class="form-item"><div class="form-num" id="formStreak">—</div><div class="form-cap">Current Run</div></div>
+      <div class="form-item"><div class="form-num" id="formL7">—</div><div class="form-cap">Last 7</div></div>
+      <div class="form-item"><div class="form-num" id="formL21">—</div><div class="form-cap">Last 21</div></div>
+    </div>
+
     <p class="honesty-note" id="honestyNote"></p>
   </div>
 </section>
@@ -1080,6 +1101,7 @@ footer {
             <th></th>
             <th>3-DAY</th>
             <th>7-DAY</th>
+            <th>21-DAY</th>
             <th>MTD</th>
             <th>30-DAY</th>
             <th>ALL-TIME</th>
@@ -1257,6 +1279,21 @@ function buildRecord(picks) {
     document.getElementById('recordSummary').style.display = 'flex';
     document.getElementById('statRecord').textContent = `${wins}-${losses}`;
     document.getElementById('statGames').textContent = total;
+
+    // Current form — streak + last 7 / last 21 (picks arrive sorted newest-first)
+    const graded = picks.filter(p => p.result === 'W' || p.result === 'L');
+    if (graded.length) {
+      const top = graded[0].result;
+      let run = 0;
+      for (const g of graded) { if (g.result === top) run++; else break; }
+      const streakEl = document.getElementById('formStreak');
+      streakEl.textContent = `${run}${top}`;
+      streakEl.className = 'form-num ' + (top === 'W' ? 'pos' : 'neg');
+      const rec = arr => { const w = arr.filter(p=>p.result==='W').length; return `${w}-${arr.length-w}`; };
+      document.getElementById('formL7').textContent  = rec(graded.slice(0, 7));
+      document.getElementById('formL21').textContent = rec(graded.slice(0, 21));
+      document.getElementById('formStrip').style.display = 'flex';
+    }
   }
 
   // Honesty note

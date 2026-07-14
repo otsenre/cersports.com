@@ -182,8 +182,9 @@ body::after {
       <div class="record-strip" id="freeStrip">
         <div class="record-stat"><div class="num" id="freeRecord">—</div><div class="cap">Record</div></div>
         <div class="record-stat"><div class="num" id="freeUnits">—</div><div class="cap">Units</div></div>
-        <div class="record-stat"><div class="num" id="freeTracked">—</div><div class="cap">Picks Graded</div></div>
+        <div class="record-stat"><div class="num" id="freeRun">—</div><div class="cap">Current Run</div></div>
       </div>
+      <div class="ledger-sub" id="freeForm">&nbsp;</div>
     </div>
 
     <div class="ledger-block" style="margin-top:18px">
@@ -286,7 +287,21 @@ document.getElementById('finder').addEventListener('change', function(){
     const uEl = document.getElementById('freeUnits');
     uEl.textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
     if (units >= 0) uEl.classList.add('pos');
-    document.getElementById('freeTracked').textContent = wins + losses;
+
+    // Current run + last 7 / last 21 (picks sorted newest-first)
+    const graded = picks.filter(p => p.result === 'W' || p.result === 'L');
+    if (graded.length) {
+      const top = graded[0].result;
+      let run = 0;
+      for (const g of graded) { if (g.result === top) run++; else break; }
+      const runEl = document.getElementById('freeRun');
+      runEl.textContent = `${run}${top}`;
+      runEl.className = 'num ' + (top === 'W' ? 'pos' : '');
+      if (top === 'L') runEl.style.color = 'var(--red)';
+      const rec = arr => { const w = arr.filter(p=>p.result==='W').length; return `${w}-${arr.length-w}`; };
+      document.getElementById('freeForm').textContent =
+        `Last 7: ${rec(graded.slice(0,7))}  ·  Last 21: ${rec(graded.slice(0,21))}`;
+    }
   } catch(e) {
     document.getElementById('pickTeam').innerHTML = '<span class="pick-loading">See today’s pick on the ledger →</span>';
     document.getElementById('pickTag').textContent = '';
