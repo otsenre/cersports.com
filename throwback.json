@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-14T18:26:51.427508+00:00",
-  "iso_date": "2026-07-10",
-  "display_date": "Fri \u00b7 Jul 10, 2026",
+  "generated_at": "2026-07-15T15:14:07.021750+00:00",
+  "iso_date": "2026-07-11",
+  "display_date": "Sat \u00b7 Jul 11, 2026",
   "summary": {
     "wins": 2,
     "losses": 2,
-    "units_pl": 0.19,
-    "roi_pct": 4.75
+    "units_pl": -0.21,
+    "roi_pct": -5.25
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Dallas Wings @ Toronto Tempo",
-      "pick": "Dallas Wings -7.5",
+      "game": "New York Liberty @ Minnesota Lynx",
+      "pick": "New York Liberty +4.5",
       "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "W",
-      "profit_units": 1.85
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.25
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Angels @ Minnesota Twins",
+      "pick": "Minnesota Twins ML",
+      "bet_type": "ML",
+      "odds": -180.0,
+      "result": "L",
+      "profit_units": -1.25
     },
     {
       "sport": "WNBA",
-      "game": "Golden State Valkyries @ Connecticut Sun",
-      "pick": "Golden State Valkyries -5.5",
+      "game": "Phoenix Mercury @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -9.5",
       "bet_type": "ATS",
-      "odds": -115.0,
+      "odds": -120.0,
       "result": "W",
-      "profit_units": 1.09
+      "profit_units": 1.25
     },
     {
       "sport": "MLB",
-      "game": "Houston Astros @ Texas Rangers",
-      "pick": "Houston Astros ML",
-      "bet_type": "ML",
-      "odds": -145.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "MLB",
-      "game": "Arizona Diamondbacks @ Los Angeles Dodgers",
-      "pick": "Los Angeles Dodgers -1.5",
+      "game": "New York Yankees @ Washington Nationals",
+      "pick": "New York Yankees -1.5",
       "bet_type": "ATS",
-      "odds": 100.0,
-      "result": "L",
-      "profit_units": -1.25
+      "odds": -120.0,
+      "result": "W",
+      "profit_units": 1.04
     }
   ]
 }

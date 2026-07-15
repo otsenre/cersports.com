@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-15",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Seattle Storm @ Chicago Sky",
+    "pick": "Seattle Storm +3.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Seattle Storm +3.5",
+    "edge": 0,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "aa2d4a4c2be7d5a5467e82bbdfe5d08db5a7add168ebee6cf6f6b333729d2b42"
+  },
+  {
     "date": "2026-07-14",
     "sport": "BEST",
     "source_sport": "WNBA",
@@ -12,7 +29,7 @@
     "ccr": 6.3,
     "ccr_avg": 6.3,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0,
     "hash_id": "d21332dee77ef45734d80d214e5bf6c1ad476150be7d5be5abcadd3b8ef81251"
   },
