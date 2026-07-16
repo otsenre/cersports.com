@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-15T15:14:07.021750+00:00",
-  "iso_date": "2026-07-11",
-  "display_date": "Sat \u00b7 Jul 11, 2026",
+  "generated_at": "2026-07-16T15:14:20.388418+00:00",
+  "iso_date": "2026-07-09",
+  "display_date": "Thu \u00b7 Jul 9, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 2,
-    "units_pl": -0.21,
-    "roi_pct": -5.25
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.21,
+    "roi_pct": -55.25
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "New York Liberty @ Minnesota Lynx",
-      "pick": "New York Liberty +4.5",
+      "game": "Las Vegas Aces @ Portland Fire",
+      "pick": "Las Vegas Aces -8.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "MLB",
-      "game": "Los Angeles Angels @ Minnesota Twins",
-      "pick": "Minnesota Twins ML",
-      "bet_type": "ML",
-      "odds": -180.0,
-      "result": "L",
-      "profit_units": -1.25
+      "profit_units": -1.5
     },
     {
       "sport": "WNBA",
-      "game": "Phoenix Mercury @ Las Vegas Aces",
-      "pick": "Las Vegas Aces -9.5",
-      "bet_type": "ATS",
-      "odds": -120.0,
-      "result": "W",
-      "profit_units": 1.25
+      "game": "Indiana Fever @ Phoenix Mercury",
+      "pick": "Phoenix Mercury ML",
+      "bet_type": "ML",
+      "odds": -114.0,
+      "result": "L",
+      "profit_units": -0.75
     },
     {
       "sport": "MLB",
-      "game": "New York Yankees @ Washington Nationals",
-      "pick": "New York Yankees -1.5",
-      "bet_type": "ATS",
-      "odds": -120.0,
+      "game": "Kansas City Royals @ New York Mets",
+      "pick": "New York Mets ML",
+      "bet_type": "ML",
+      "odds": -140.0,
       "result": "W",
-      "profit_units": 1.04
+      "profit_units": 0.54
+    },
+    {
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Minnesota Twins",
+      "pick": "Minnesota Twins ML",
+      "bet_type": "ML",
+      "odds": 105.0,
+      "result": "L",
+      "profit_units": -0.5
     }
   ]
 }

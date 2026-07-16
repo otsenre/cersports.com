@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-16",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "New York Mets @ Philadelphia Phillies",
+    "pick": "Philadelphia Phillies ML",
+    "bet_type": "ML",
+    "line": -135.0,
+    "pick_display": "Philadelphia Phillies ML",
+    "edge": 0,
+    "ccr": 6.7,
+    "ccr_avg": 6.7,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "1345918c2ec556f3067228244250ad3c3b8f802412733183fcbf3082ce72020c"
+  },
+  {
     "date": "2026-07-15",
     "sport": "BEST",
     "source_sport": "WNBA",
@@ -12,7 +29,7 @@
     "ccr": 6.0,
     "ccr_avg": 6.0,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "aa2d4a4c2be7d5a5467e82bbdfe5d08db5a7add168ebee6cf6f6b333729d2b42"
   },
