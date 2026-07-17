@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-16T15:14:20.388418+00:00",
-  "iso_date": "2026-07-09",
-  "display_date": "Thu \u00b7 Jul 9, 2026",
+  "generated_at": "2026-07-17T15:18:04.281042+00:00",
+  "iso_date": "2026-07-06",
+  "display_date": "Mon \u00b7 Jul 6, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.21,
-    "roi_pct": -55.25
+    "wins": 3,
+    "losses": 1,
+    "units_pl": 2.12,
+    "roi_pct": 53.0
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Portland Fire",
-      "pick": "Las Vegas Aces -8.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "WNBA",
-      "game": "Indiana Fever @ Phoenix Mercury",
-      "pick": "Phoenix Mercury ML",
-      "bet_type": "ML",
-      "odds": -114.0,
-      "result": "L",
-      "profit_units": -0.75
-    },
-    {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ New York Mets",
-      "pick": "New York Mets ML",
-      "bet_type": "ML",
-      "odds": -140.0,
-      "result": "W",
-      "profit_units": 0.54
-    },
-    {
-      "sport": "MLB",
-      "game": "Cleveland Guardians @ Minnesota Twins",
-      "pick": "Minnesota Twins ML",
+      "sport": "WTA",
+      "game": "Karolina Muchova vs Naomi Osaka",
+      "pick": "Karolina Muchova ML",
       "bet_type": "ML",
       "odds": 105.0,
+      "result": "W",
+      "profit_units": 1.84
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -13.5",
+      "bet_type": "ATS",
+      "odds": -118.0,
       "result": "L",
-      "profit_units": -0.5
+      "profit_units": -2.0
+    },
+    {
+      "sport": "WNBA",
+      "game": "Seattle Storm @ Los Angeles Sparks",
+      "pick": "Seattle Storm ML",
+      "bet_type": "ML",
+      "odds": 125.0,
+      "result": "W",
+      "profit_units": 1.62
+    },
+    {
+      "sport": "ATP",
+      "game": "Novak Djokovic vs Felix Auger-Aliassime",
+      "pick": "Novak Djokovic ML",
+      "bet_type": "ML",
+      "odds": -190.0,
+      "result": "W",
+      "profit_units": 0.66
     }
   ]
 }
