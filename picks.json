@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-18",
+    "sport": "BEST",
+    "source_sport": "MMA",
+    "game": "Kamaru Usman vs Dricus Du Plessis",
+    "pick": "Dricus Du Plessis by KO/TKO",
+    "bet_type": "Method of Victory",
+    "line": "",
+    "pick_display": "Dricus Du Plessis by KO/TKO",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "ad816cc6d722d0f6bde91916d848f9093a8df497b30305d8fcda7a156623075b"
+  },
+  {
     "date": "2026-07-17",
     "sport": "BEST",
     "source_sport": "MMA",
