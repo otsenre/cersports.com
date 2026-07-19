@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-19",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Los Angeles Sparks @ Dallas Wings",
+    "pick": "Dallas Wings -10.5",
+    "bet_type": "ATS",
+    "line": -118.0,
+    "pick_display": "Dallas Wings -10.5",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "002e01957baa10f0885f4ed6c21f1cab48b3ea415678466e7d95271d113ab87b"
+  },
+  {
     "date": "2026-07-18",
     "sport": "BEST",
     "source_sport": "MMA",
@@ -12,7 +29,7 @@
     "ccr": 7.0,
     "ccr_avg": 7.0,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "ad816cc6d722d0f6bde91916d848f9093a8df497b30305d8fcda7a156623075b"
   },
@@ -29,7 +46,7 @@
     "ccr": 6.0,
     "ccr_avg": 6.0,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "6b298cc424f5ff9e128e2198076b1de97c3bb47f9590e6c436150b2cc00cd121"
   },

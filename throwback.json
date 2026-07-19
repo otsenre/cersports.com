@@ -1,49 +1,67 @@
 {
-  "generated_at": "2026-07-18T15:29:39.885794+00:00",
-  "iso_date": "2026-06-30",
-  "display_date": "Tue \u00b7 Jun 30, 2026",
+  "generated_at": "2026-07-19T15:28:08.809377+00:00",
+  "iso_date": "2026-07-08",
+  "display_date": "Wed \u00b7 Jul 8, 2026",
   "summary": {
     "wins": 3,
-    "losses": 1,
-    "units_pl": 1.37,
-    "roi_pct": 34.25
+    "losses": 3,
+    "units_pl": -2.53,
+    "roi_pct": -42.17
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Texas Rangers @ Cleveland Guardians",
-      "pick": "Texas Rangers ML",
+      "sport": "WTA",
+      "game": "Coco Gauff vs Karolina Muchova",
+      "pick": "Karolina Muchova ML",
       "bet_type": "ML",
-      "odds": -120.0,
-      "result": "W",
-      "profit_units": 1.04
-    },
-    {
-      "sport": "WTA",
-      "game": "Marie Bouzkova vs Tyra Caterina Grant",
-      "pick": "Marie Bouzkova -3.5 Games",
-      "bet_type": "ATS",
-      "odds": -141.0,
-      "result": "W",
-      "profit_units": 0.71
-    },
-    {
-      "sport": "WTA",
-      "game": "Maria Sakkari vs Kamilla Rakhimova",
-      "pick": "Maria Sakkari -3.5 Games",
-      "bet_type": "ATS",
-      "odds": -108.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "MLB",
-      "game": "Pittsburgh Pirates @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies -1.5",
-      "bet_type": "ATS",
       "odds": -115.0,
       "result": "W",
       "profit_units": 0.87
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Connecticut Sun",
+      "pick": "Minnesota Lynx -6.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
+      "result": "L",
+      "profit_units": -2.0
+    },
+    {
+      "sport": "WNBA",
+      "game": "Golden State Valkyries @ Toronto Tempo",
+      "pick": "Golden State Valkyries -8.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Los Angeles Sparks",
+      "pick": "Indiana Fever -7.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
+    },
+    {
+      "sport": "ATP",
+      "game": "Novak Djokovic vs Jannik Sinner",
+      "pick": "Over 22.5 Games",
+      "bet_type": "Total Games",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 0.91
+    },
+    {
+      "sport": "WTA",
+      "game": "Linda Noskova vs Marta Kostyuk",
+      "pick": "Linda Noskova +0.5 Games",
+      "bet_type": "ATS",
+      "odds": -108.0,
+      "result": "W",
+      "profit_units": 0.69
     }
   ]
 }
