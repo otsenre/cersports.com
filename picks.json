@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-20",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Toronto Tempo",
+    "pick": "Las Vegas Aces -11.5",
+    "bet_type": "ATS",
+    "line": -105.0,
+    "pick_display": "Las Vegas Aces -11.5",
+    "edge": 0,
+    "ccr": 6.8,
+    "ccr_avg": 6.8,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "42ff8c2c98e349e094e9f1bbf89361ee6ae75534592d1544550ab8911aa2bf1d"
+  },
+  {
     "date": "2026-07-19",
     "sport": "BEST",
     "source_sport": "WNBA",
@@ -12,7 +29,7 @@
     "ccr": 6.5,
     "ccr_avg": 6.5,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "002e01957baa10f0885f4ed6c21f1cab48b3ea415678466e7d95271d113ab87b"
   },

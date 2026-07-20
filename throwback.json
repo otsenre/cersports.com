@@ -1,67 +1,58 @@
 {
-  "generated_at": "2026-07-19T15:28:08.809377+00:00",
-  "iso_date": "2026-07-08",
-  "display_date": "Wed \u00b7 Jul 8, 2026",
+  "generated_at": "2026-07-20T15:28:40.333524+00:00",
+  "iso_date": "2026-07-18",
+  "display_date": "Sat \u00b7 Jul 18, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 3,
-    "units_pl": -2.53,
-    "roi_pct": -42.17
+    "wins": 1,
+    "losses": 4,
+    "units_pl": -4.9,
+    "roi_pct": -98.0
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Coco Gauff vs Karolina Muchova",
-      "pick": "Karolina Muchova ML",
-      "bet_type": "ML",
-      "odds": -115.0,
-      "result": "W",
-      "profit_units": 0.87
-    },
-    {
       "sport": "WNBA",
-      "game": "Minnesota Lynx @ Connecticut Sun",
-      "pick": "Minnesota Lynx -6.5",
+      "game": "Portland Fire @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -13.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -115.0,
       "result": "L",
       "profit_units": -2.0
     },
     {
       "sport": "WNBA",
-      "game": "Golden State Valkyries @ Toronto Tempo",
-      "pick": "Golden State Valkyries -8.5",
+      "game": "New York Liberty @ Indiana Fever",
+      "pick": "New York Liberty -2.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.25
+    },
+    {
+      "sport": "MMA",
+      "game": "Kamaru Usman vs Dricus Du Plessis",
+      "pick": "Dricus Du Plessis ML",
+      "bet_type": "ML",
+      "odds": -250.0,
+      "result": "W",
+      "profit_units": 0.6
     },
     {
       "sport": "WNBA",
-      "game": "Indiana Fever @ Los Angeles Sparks",
-      "pick": "Indiana Fever -7.5",
+      "game": "Washington Mystics @ Golden State Valkyries",
+      "pick": "Golden State Valkyries -9.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "L",
-      "profit_units": -1.5
-    },
-    {
-      "sport": "ATP",
-      "game": "Novak Djokovic vs Jannik Sinner",
-      "pick": "Over 22.5 Games",
-      "bet_type": "Total Games",
       "odds": -110.0,
-      "result": "W",
-      "profit_units": 0.91
+      "result": "L",
+      "profit_units": -1.25
     },
     {
-      "sport": "WTA",
-      "game": "Linda Noskova vs Marta Kostyuk",
-      "pick": "Linda Noskova +0.5 Games",
-      "bet_type": "ATS",
-      "odds": -108.0,
-      "result": "W",
-      "profit_units": 0.69
+      "sport": "MMA",
+      "game": "Christian Leroy Duncan vs Jared Cannonier",
+      "pick": "Jared Cannonier ML",
+      "bet_type": "ML",
+      "odds": 310.0,
+      "result": "L",
+      "profit_units": -1.0
     }
   ]
 }
