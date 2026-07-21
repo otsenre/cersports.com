@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-21",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "Pittsburgh Pirates @ New York Yankees",
+    "pick": "New York Yankees ML",
+    "bet_type": "ML",
+    "line": -150.0,
+    "pick_display": "New York Yankees ML",
+    "edge": 0,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "9436eb98d03af57adfd8dc182414b913cce6d92a77483ebe821d392ffb0599bc"
+  },
+  {
     "date": "2026-07-20",
     "sport": "BEST",
     "source_sport": "WNBA",
@@ -12,7 +29,7 @@
     "ccr": 6.8,
     "ccr_avg": 6.8,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0,
     "hash_id": "42ff8c2c98e349e094e9f1bbf89361ee6ae75534592d1544550ab8911aa2bf1d"
   },
