@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-22",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Washington Mystics",
+    "pick": "Las Vegas Aces -6.5",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Las Vegas Aces -6.5",
+    "edge": 0,
+    "ccr": 6.9,
+    "ccr_avg": 6.9,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "5835a1ed60bfe0432eaa2e66ea657b04516314fd032c38b5ecc92868bfe5bee5"
+  },
+  {
     "date": "2026-07-21",
     "sport": "BEST",
     "source_sport": "MLB",
@@ -12,7 +29,7 @@
     "ccr": 6.0,
     "ccr_avg": 6.0,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0,
     "hash_id": "9436eb98d03af57adfd8dc182414b913cce6d92a77483ebe821d392ffb0599bc"
   },
