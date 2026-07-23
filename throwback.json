@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-22T15:29:46.693590+00:00",
-  "iso_date": "2026-07-19",
-  "display_date": "Sun \u00b7 Jul 19, 2026",
+  "generated_at": "2026-07-23T15:28:23.927714+00:00",
+  "iso_date": "2026-07-20",
+  "display_date": "Mon \u00b7 Jul 20, 2026",
   "summary": {
     "wins": 0,
     "losses": 2,
-    "units_pl": -2.5,
-    "roi_pct": -125.0
+    "units_pl": -3.25,
+    "roi_pct": -162.5
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Chicago Sky @ Atlanta Dream",
-      "pick": "Atlanta Dream -11.5",
+      "game": "New York Liberty @ Dallas Wings",
+      "pick": "New York Liberty -4.5",
       "bet_type": "ATS",
       "odds": 100.0,
       "result": "L",
@@ -20,12 +20,12 @@
     },
     {
       "sport": "WNBA",
-      "game": "Connecticut Sun @ Phoenix Mercury",
-      "pick": "Connecticut Sun +4.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
+      "game": "New York Liberty @ Dallas Wings",
+      "pick": "Dallas Wings ML",
+      "bet_type": "ML",
+      "odds": 140.0,
       "result": "L",
-      "profit_units": -1.25
+      "profit_units": -2.0
     }
   ]
 }
