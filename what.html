@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What is CERSports? — Explained in a minute</title>
+<meta name="description" content="New here? CERSports in plain English: a six-model committee predicts the day's games with data, and we post every single result in public — wins and losses. Watch it free, no betting required.">
+<meta property="og:title" content="What is CERSports?">
+<meta property="og:description" content="The whole thing in a minute — no sports-betting knowledge needed. We call the games with data, and we show our work every time.">
+<meta property="og:image" content="https://cersports.com/og-image.jpg">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) — same property as the main site so /what + QR/NFC traffic tracks together -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1MHZXXCT6B');
+  // Attribution: a plain "I texted you the link" visit reads as (typed); an
+  // ambassador's NFC tap or QR scan carries utm params so it's countable per person.
+  (function(){
+    var p = new URLSearchParams(location.search);
+    var src = p.get('utm_source');
+    gtag('event', 'what_landing', {
+      utm_source:   src                    || '(typed)',
+      utm_medium:   p.get('utm_medium')    || '(typed)',
+      utm_campaign: p.get('utm_campaign')  || 'word_of_mouth',
+      utm_content:  p.get('utm_content')   || '(typed)',
+      entry:        src === 'nfc' ? 'nfc_tap' : (src === 'qr' ? 'qr_scan' : 'typed_or_other')
+    });
+  })();
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black: #080808; --surface: #101010; --surface2: #161616;
+  --border: rgba(255,255,255,0.08); --border2: rgba(255,255,255,0.14);
+  --white: #ffffff; --off-white: #e8e8e8; --muted: #8a8a8a; --muted2: #555;
+  --gold: #c9a84c; --gold-light: #e8c96a;
+  --red: #c0392b; --green: #1a7a4a; --green-light: #22c55e;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black); color: var(--off-white);
+  font-family: 'Barlow', sans-serif; font-weight: 400; line-height: 1.65;
+  overflow-x: hidden; -webkit-font-smoothing: antialiased;
+}
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+a { color: inherit; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 22px;
+}
+.eyebrow::before { content: ''; width: 26px; height: 1px; background: var(--gold); opacity: .6; }
+h1, h2, h3 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; text-wrap: balance; line-height: .96; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+/* NAV */
+nav { position: sticky; top: 0; z-index: 150; border-bottom: 1px solid var(--border);
+  background: rgba(8,8,8,0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.nav-inner { max-width: 900px; margin: 0 auto; height: 60px; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between; }
+.brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); text-decoration: none; }
+.brand span { color: var(--gold); }
+.nav-back { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.nav-back:hover { color: var(--white); }
+
+/* HERO */
+.hero { position: relative; overflow: hidden; padding: 90px 0 70px; }
+.hero-bg { position: absolute; inset: 0; z-index: 0;
+  background: radial-gradient(ellipse 70% 55% at 50% 35%, rgba(201,168,76,0.06) 0%, transparent 70%); }
+.hero-grid { position: absolute; inset: 0; z-index: 0; opacity: .35;
+  background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px; -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 90%); mask-image: linear-gradient(180deg, #000 0%, transparent 90%); }
+.hero .wrap { position: relative; z-index: 1; }
+.hero h1 { font-size: clamp(56px, 11vw, 104px); letter-spacing: 1px; color: var(--white); }
+.hero h1 .g { color: var(--gold); }
+.hero-lead { font-size: clamp(18px, 2.4vw, 22px); color: var(--off-white); max-width: 30ch; margin-top: 26px; line-height: 1.5; }
+.hero-lead b { color: var(--white); font-weight: 500; }
+
+/* SECTION SHELL */
+section { padding: 60px 0; border-top: 1px solid var(--border); }
+.label { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700;
+  letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; }
+h2 { font-size: clamp(34px, 6vw, 52px); color: var(--white); letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 17px; color: var(--off-white); max-width: 62ch; }
+.body + .body { margin-top: 16px; }
+.body b { color: var(--white); font-weight: 500; }
+.gold { color: var(--gold); }
+
+/* ONE-LINER CARD */
+.oneliner { background: var(--surface); border: 1px solid var(--border2); border-left: 3px solid var(--gold);
+  padding: 30px 30px; margin-top: 8px; }
+.oneliner p { font-size: clamp(20px, 3vw, 26px); font-family: 'Barlow', sans-serif; font-weight: 300; color: var(--white); line-height: 1.4; }
+.oneliner b { font-weight: 500; color: var(--gold-light); }
+
+/* STEPS */
+.steps { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 26px; }
+.step { display: grid; grid-template-columns: 54px 1fr; gap: 20px; align-items: start;
+  background: var(--surface); border: 1px solid var(--border); padding: 22px 24px; }
+.step-n { font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: var(--gold); line-height: 1; }
+.step h3 { font-size: 26px; color: var(--white); letter-spacing: .5px; margin-bottom: 4px; }
+.step p { font-size: 15.5px; color: var(--muted); line-height: 1.55; }
+.step p b { color: var(--off-white); font-weight: 500; }
+
+/* PROOF STRIP */
+.proof { background: var(--surface2); border: 1px solid var(--border2); padding: 34px 30px; margin-top: 26px;
+  display: grid; grid-template-columns: 1fr; gap: 22px; }
+.proof-row { display: flex; align-items: flex-start; gap: 16px; }
+.tick { flex: none; width: 22px; height: 22px; border-radius: 50%; margin-top: 2px;
+  background: rgba(34,197,94,0.12); border: 1px solid var(--green-light); color: var(--green-light);
+  display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+.proof-row div b { color: var(--white); font-weight: 600; }
+.proof-row div span { display: block; color: var(--muted); font-size: 15px; margin-top: 3px; }
+
+/* WIN/LOSS mini demo */
+.ledger { margin-top: 24px; border: 1px solid var(--border2); background: var(--surface); }
+.ledger-head { padding: 12px 20px; border-bottom: 1px solid var(--border); font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted);
+  display: flex; align-items: center; gap: 10px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green-light); box-shadow: 0 0 10px var(--green-light); }
+.ledger-row { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid var(--border); }
+.ledger-row:last-child { border-bottom: none; }
+.ledger-row .lhs { display: flex; align-items: center; gap: 14px; }
+.rtag { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 1px;
+  padding: 2px 9px; text-transform: uppercase; }
+.rtag.w { color: var(--green-light); border: 1px solid rgba(34,197,94,.4); }
+.rtag.l { color: #e06b63; border: 1px solid rgba(192,57,43,.5); }
+.ledger-row .team { font-family: 'Barlow', sans-serif; font-weight: 500; color: var(--off-white); font-size: 16px; }
+.ledger-row .team small { color: var(--muted); font-weight: 400; font-family: 'Barlow Condensed',sans-serif; letter-spacing:1px; margin-right:8px; }
+.ledger-note { padding: 14px 20px; color: var(--muted); font-size: 14px; font-style: italic; }
+
+/* NOT BETTING */
+.reassure { background: linear-gradient(180deg, var(--surface) 0%, var(--black) 100%); }
+.reassure .body { font-size: 18px; }
+
+/* CTA */
+.cta { text-align: center; border-top: 1px solid var(--border); padding: 74px 0 66px; position: relative; overflow: hidden; }
+.cta-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(ellipse 60% 60% at 50% 40%, rgba(201,168,76,0.07), transparent 70%); }
+.cta .wrap { position: relative; z-index: 1; }
+.cta h2 { margin-bottom: 14px; }
+.cta p { color: var(--muted); max-width: 46ch; margin: 0 auto 30px; font-size: 17px; }
+.btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.btn { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  font-size: 14px; padding: 15px 28px; text-decoration: none; display: inline-flex; align-items: center; gap: 9px; transition: transform .15s, background .2s, border-color .2s; }
+.btn-primary { background: var(--gold); color: var(--black); }
+.btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--off-white); border: 1px solid var(--border2); }
+.btn-ghost:hover { border-color: var(--white); color: var(--white); }
+.cta-fine { margin-top: 22px; color: var(--muted2); font-size: 13px; }
+
+/* FOOTER */
+footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
+.footer-inner { max-width: 900px; margin: 0 auto; padding: 0 24px; text-align: center; }
+.footer-brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); margin-bottom: 14px; }
+.footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
+.footer-links a { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.footer-links a:hover { color: var(--white); }
+.footer-disclaimer { font-size: 12.5px; color: var(--muted2); max-width: 62ch; margin: 0 auto; line-height: 1.6; }
+.footer-disclaimer .na { color: var(--muted); font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px; }
+
+.brand:focus-visible, a.btn:focus-visible, .nav-back:focus-visible, .footer-links a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+@media (max-width: 620px) {
+  .step { grid-template-columns: 44px 1fr; gap: 14px; }
+  section { padding: 48px 0; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/">CER<span>SPORTS</span></a>
+    <a class="nav-back" href="/">← Home &amp; today's picks</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="wrap">
+    <span class="eyebrow">New here? Start with this</span>
+    <h1>We call the games with <span class="g">data</span> —<br>then we show our work.</h1>
+    <p class="hero-lead">No sports-betting knowledge needed. Here's the whole thing in <b>about a minute</b>.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="label">In one sentence</div>
+    <div class="oneliner">
+      <p>Every morning, a team of computer models reads the day's games and predicts which side to be on — and then we <b>post every single result in public, win or lose.</b></p>
+    </div>
+    <p class="body" style="margin-top:22px">That's it. No hot takes, no gut feelings, no "trust me." Just numbers doing the work, and a scoreboard we can't hide.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="label">How it actually works</div>
+    <h2>Three steps. That's the whole machine.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-n">1</div>
+        <div>
+          <h3>Six models vote</h3>
+          <p>Every morning, <b>six independent models</b> crunch the numbers on the day's matchups — team form, injuries, history, even what the odds are saying — and each one weighs in. Think of it as a committee, not one loud opinion.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-n">2</div>
+        <div>
+          <h3>They agree on the best calls</h3>
+          <p>Where the models line up, that's a <b>pick</b> — a prediction about one game. Each pick gets a <b class="gold">confidence rating</b>, so you always know how strongly the data backs it. The single most-confident one is posted <b>free, every day.</b></p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-n">3</div>
+        <div>
+          <h3>Every result gets posted</h3>
+          <p>When the games finish, we grade each pick and <b>post the outcome in public</b> — the wins and the losses. Nothing gets quietly deleted. The running record is right there for anyone to check.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="label">Why this is different</div>
+    <h2>Most people who "give picks" only show you the wins.</h2>
+    <p class="body" style="margin-top:14px">Anyone can look like a genius if they delete their misses. So we do the opposite — we grade <b>every</b> pick in the open, keep a permanent scoreboard, and let the numbers speak. It looks like this:</p>
+
+    <div class="ledger">
+      <div class="ledger-head"><span class="dot"></span> Results — graded in public</div>
+      <div class="ledger-row">
+        <div class="lhs"><span class="rtag w">Win</span><span class="team"><small>NBA</small>Model's best pick hit</span></div>
+      </div>
+      <div class="ledger-row">
+        <div class="lhs"><span class="rtag l">Loss</span><span class="team"><small>MLB</small>This one missed — and we say so</span></div>
+      </div>
+      <div class="ledger-row">
+        <div class="lhs"><span class="rtag w">Win</span><span class="team"><small>WNBA</small>Back in the green</span></div>
+      </div>
+      <div class="ledger-note">Every pick, dated and graded — see the full running record on the home page.</div>
+    </div>
+
+    <div class="proof">
+      <div class="proof-row"><span class="tick">✓</span><div><b>Data, not opinions.</b><span>The models don't have a favorite team or a bad night. They just read the numbers.</span></div></div>
+      <div class="proof-row"><span class="tick">✓</span><div><b>Wins and losses, both posted.</b><span>The full record is public. We don't cherry-pick the good days.</span></div></div>
+      <div class="proof-row"><span class="tick">✓</span><div><b>One free pick, every single day.</b><span>You can follow along and judge for yourself without spending a cent.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="reassure">
+  <div class="wrap">
+    <div class="label">And no — you don't have to bet</div>
+    <h2>You can just watch.</h2>
+    <p class="body" style="margin-top:14px">Plenty of people follow CERSports the way you'd follow a weather forecast or a smart second opinion — just to see if the data is right. <b>No account, no money, no betting required.</b></p>
+    <p class="body">Follow the free daily pick, watch the results land in public for a couple of weeks, and decide for yourself whether it's the real deal. That's the whole invitation.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta-bg"></div>
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center">See it for yourself</div>
+    <h2>Watch us prove it — free.</h2>
+    <p>Get the free daily pick and every graded result, straight to your phone. Follow for a bit. Let the scoreboard do the talking.</p>
+    <div class="btns">
+      <a class="btn btn-primary" href="https://t.me/cersportspicks" target="_blank" rel="noopener">Follow free on Telegram →</a>
+      <a class="btn btn-ghost" href="/">See today's picks &amp; record</a>
+    </div>
+    <p class="cta-fine">Free channel · one best pick daily · every result posted</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">CER<span style="color:var(--gold)">SPORTS</span></div>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="https://instagram.com/cersports" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://t.me/cersportspicks" target="_blank" rel="noopener">Telegram</a>
+      <a href="mailto:info@cersports.com">Contact</a>
+    </div>
+    <div class="footer-disclaimer">
+      <span class="na">#NotFinancialAdvice — for entertainment only.</span> 21+. © 2026 CERSports. All rights reserved.
+      Sports involves risk. Past model performance does not guarantee future results.
+      Please play responsibly. CERSports does not accept wagers.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
