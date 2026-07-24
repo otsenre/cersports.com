@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-24",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "Los Angeles Dodgers @ New York Mets",
+    "pick": "Los Angeles Dodgers ML",
+    "bet_type": "ML",
+    "line": -140.0,
+    "pick_display": "Los Angeles Dodgers ML",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "f2419e828a02f7002789d72330fc2b9c394ca8846b6aeb6842e1f95b9a4efe51"
+  },
+  {
     "date": "2026-07-23",
     "sport": "BEST",
     "source_sport": "MLB",
@@ -12,7 +29,7 @@
     "ccr": 6.0,
     "ccr_avg": 6.0,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0,
     "hash_id": "9739f0e6e39b470e318119a7ca1374a1348dbcd2d4fc907da7cfbd1879238556"
   },
