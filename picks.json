@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-25",
+    "sport": "BEST",
+    "source_sport": "MMA",
+    "game": "Saygid Izagakhmaev vs Abubakar Vagaev",
+    "pick": "Saygid Izagakhmaev ML",
+    "bet_type": "ML",
+    "line": 200.0,
+    "pick_display": "Saygid Izagakhmaev ML",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "15330547bc1a6c21ca229d4fda08c926ff78127af5f2e2b2d113d6bea49c469a"
+  },
+  {
     "date": "2026-07-24",
     "sport": "BEST",
     "source_sport": "MLB",
