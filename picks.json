@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-27",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Madison Keys vs Liudmila Samsonova",
+    "pick": "Madison Keys -4.5 Games",
+    "bet_type": "ATS",
+    "line": -101.0,
+    "pick_display": "Madison Keys -4.5 Games",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "2768498da55e1ebf145e52ae3f97be5a94c63d2e0136357f561930acf3d67c87"
+  },
+  {
     "date": "2026-07-26",
     "sport": "BEST",
     "source_sport": "MLB",
@@ -12,7 +29,7 @@
     "ccr": 5.5,
     "ccr_avg": 5.5,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "d55cc78bebcd14fccbb49a7cb97fb9be0db4e46f69cd81e7053b3c725e0f97bc"
   },
