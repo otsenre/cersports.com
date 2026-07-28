@@ -1,56 +1,38 @@
 {
-  "generated_at": "2026-07-27T15:16:55.583107+00:00",
-  "iso_date": "2026-07-18",
-  "display_date": "Sat \u00b7 Jul 18, 2026",
+  "generated_at": "2026-07-28T15:16:41.805860+00:00",
+  "iso_date": "2026-07-24",
+  "display_date": "Fri \u00b7 Jul 24, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 4,
-    "units_pl": -4.9,
-    "roi_pct": -98.0
+    "wins": 2,
+    "losses": 1,
+    "units_pl": 0.38,
+    "roi_pct": 12.67
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Portland Fire @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -13.5",
-      "bet_type": "ATS",
-      "odds": -115.0,
-      "result": "L",
-      "profit_units": -2.0
-    },
-    {
-      "sport": "WNBA",
-      "game": "New York Liberty @ Indiana Fever",
-      "pick": "New York Liberty -2.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.25
-    },
-    {
-      "sport": "MMA",
-      "game": "Kamaru Usman vs Dricus Du Plessis",
-      "pick": "Dricus Du Plessis ML",
+      "sport": "MLB",
+      "game": "Los Angeles Angels @ San Francisco Giants",
+      "pick": "San Francisco Giants ML",
       "bet_type": "ML",
-      "odds": -250.0,
+      "odds": -160.0,
       "result": "W",
-      "profit_units": 0.6
-    },
-    {
-      "sport": "WNBA",
-      "game": "Washington Mystics @ Golden State Valkyries",
-      "pick": "Golden State Valkyries -9.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
-      "result": "L",
-      "profit_units": -1.25
+      "profit_units": 0.47
     },
     {
       "sport": "MMA",
-      "game": "Christian Leroy Duncan vs Jared Cannonier",
-      "pick": "Jared Cannonier ML",
-      "bet_type": "ML",
-      "odds": 310.0,
+      "game": "Bogdan Guskov vs Magomed Ankalaev",
+      "pick": "Magomed Ankalaev by KO/TKO",
+      "bet_type": "Method of Victory",
+      "odds": null,
+      "result": "W",
+      "profit_units": 0.91
+    },
+    {
+      "sport": "MMA",
+      "game": "Brendson Ribeiro vs Magomed Tuchalov",
+      "pick": "Magomed Tuchalov by Submission",
+      "bet_type": "Method of Victory",
+      "odds": null,
       "result": "L",
       "profit_units": -1.0
     }
