@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-29",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Ben Shelton vs Ugo Humbert",
+    "pick": "Ben Shelton ML",
+    "bet_type": "ML",
+    "line": -200.0,
+    "pick_display": "Ben Shelton ML",
+    "edge": 0,
+    "ccr": 6.7,
+    "ccr_avg": 6.7,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "31137bd04dfb55d6d9498a933aa59f1d20fce933102fb0a0ad618317a6827e5d"
+  },
+  {
     "date": "2026-07-28",
     "sport": "BEST",
     "source_sport": "WTA",
@@ -12,7 +29,7 @@
     "ccr": 6.5,
     "ccr_avg": 6.5,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "924be9b391d10badde712f5e1a2478497f91a1f87d2f8863753ca4859dd1ddd6"
   },

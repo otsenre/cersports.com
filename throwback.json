@@ -1,40 +1,49 @@
 {
-  "generated_at": "2026-07-28T15:16:41.805860+00:00",
-  "iso_date": "2026-07-24",
-  "display_date": "Fri \u00b7 Jul 24, 2026",
+  "generated_at": "2026-07-29T15:20:35.373477+00:00",
+  "iso_date": "2026-07-09",
+  "display_date": "Thu \u00b7 Jul 9, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 1,
-    "units_pl": 0.38,
-    "roi_pct": 12.67
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.21,
+    "roi_pct": -55.25
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Los Angeles Angels @ San Francisco Giants",
-      "pick": "San Francisco Giants ML",
-      "bet_type": "ML",
-      "odds": -160.0,
-      "result": "W",
-      "profit_units": 0.47
-    },
-    {
-      "sport": "MMA",
-      "game": "Bogdan Guskov vs Magomed Ankalaev",
-      "pick": "Magomed Ankalaev by KO/TKO",
-      "bet_type": "Method of Victory",
-      "odds": null,
-      "result": "W",
-      "profit_units": 0.91
-    },
-    {
-      "sport": "MMA",
-      "game": "Brendson Ribeiro vs Magomed Tuchalov",
-      "pick": "Magomed Tuchalov by Submission",
-      "bet_type": "Method of Victory",
-      "odds": null,
+      "sport": "WNBA",
+      "game": "Las Vegas Aces @ Portland Fire",
+      "pick": "Las Vegas Aces -8.5",
+      "bet_type": "ATS",
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -1.5
+    },
+    {
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Phoenix Mercury",
+      "pick": "Phoenix Mercury ML",
+      "bet_type": "ML",
+      "odds": -114.0,
+      "result": "L",
+      "profit_units": -0.75
+    },
+    {
+      "sport": "MLB",
+      "game": "Kansas City Royals @ New York Mets",
+      "pick": "New York Mets ML",
+      "bet_type": "ML",
+      "odds": -140.0,
+      "result": "W",
+      "profit_units": 0.54
+    },
+    {
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Minnesota Twins",
+      "pick": "Minnesota Twins ML",
+      "bet_type": "ML",
+      "odds": 105.0,
+      "result": "L",
+      "profit_units": -0.5
     }
   ]
 }
