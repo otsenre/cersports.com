@@ -1,49 +1,31 @@
 {
-  "generated_at": "2026-07-29T15:20:35.373477+00:00",
-  "iso_date": "2026-07-09",
-  "display_date": "Thu \u00b7 Jul 9, 2026",
+  "generated_at": "2026-07-30T15:20:50.536377+00:00",
+  "iso_date": "2026-07-21",
+  "display_date": "Tue \u00b7 Jul 21, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "units_pl": -2.21,
-    "roi_pct": -55.25
+    "wins": 0,
+    "losses": 2,
+    "units_pl": -1.75,
+    "roi_pct": -87.5
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Portland Fire",
-      "pick": "Las Vegas Aces -8.5",
-      "bet_type": "ATS",
-      "odds": -110.0,
+      "sport": "MLB",
+      "game": "San Diego Padres @ Atlanta Braves",
+      "pick": "Atlanta Braves ML",
+      "bet_type": "ML",
+      "odds": -145.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.0
     },
     {
-      "sport": "WNBA",
-      "game": "Indiana Fever @ Phoenix Mercury",
-      "pick": "Phoenix Mercury ML",
+      "sport": "MLB",
+      "game": "Cincinnati Reds @ Seattle Mariners",
+      "pick": "Seattle Mariners ML",
       "bet_type": "ML",
-      "odds": -114.0,
+      "odds": -120.0,
       "result": "L",
       "profit_units": -0.75
-    },
-    {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ New York Mets",
-      "pick": "New York Mets ML",
-      "bet_type": "ML",
-      "odds": -140.0,
-      "result": "W",
-      "profit_units": 0.54
-    },
-    {
-      "sport": "MLB",
-      "game": "Cleveland Guardians @ Minnesota Twins",
-      "pick": "Minnesota Twins ML",
-      "bet_type": "ML",
-      "odds": 105.0,
-      "result": "L",
-      "profit_units": -0.5
     }
   ]
 }
