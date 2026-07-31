@@ -1,31 +1,49 @@
 {
-  "generated_at": "2026-07-30T15:20:50.536377+00:00",
-  "iso_date": "2026-07-21",
-  "display_date": "Tue \u00b7 Jul 21, 2026",
+  "generated_at": "2026-07-31T15:34:20.125186+00:00",
+  "iso_date": "2026-07-28",
+  "display_date": "Tue \u00b7 Jul 28, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 2,
-    "units_pl": -1.75,
-    "roi_pct": -87.5
+    "wins": 1,
+    "losses": 3,
+    "units_pl": -2.5,
+    "roi_pct": -62.5
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "San Diego Padres @ Atlanta Braves",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": -145.0,
+      "sport": "WNBA",
+      "game": "Portland Fire @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -11.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "W",
+      "profit_units": 1.75
+    },
+    {
+      "sport": "WTA",
+      "game": "Qinwen Zheng vs Alexandra Eala",
+      "pick": "Qinwen Zheng -2.5 Games",
+      "bet_type": "ATS",
+      "odds": -103.0,
       "result": "L",
-      "profit_units": -1.0
+      "profit_units": -1.25
     },
     {
       "sport": "MLB",
-      "game": "Cincinnati Reds @ Seattle Mariners",
-      "pick": "Seattle Mariners ML",
+      "game": "Atlanta Braves @ New York Mets",
+      "pick": "Atlanta Braves ML",
       "bet_type": "ML",
-      "odds": -120.0,
+      "odds": -160.0,
       "result": "L",
-      "profit_units": -0.75
+      "profit_units": -1.5
+    },
+    {
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -14.5",
+      "bet_type": "ATS",
+      "odds": -105.0,
+      "result": "L",
+      "profit_units": -1.5
     }
   ]
 }

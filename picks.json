@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-31",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Lorenzo Musetti vs Rafael Jodar",
+    "pick": "Lorenzo Musetti ML",
+    "bet_type": "ML",
+    "line": 154.0,
+    "pick_display": "Lorenzo Musetti ML",
+    "edge": 0,
+    "ccr": 6.2,
+    "ccr_avg": 6.2,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "a1fd5984445a6f005b0f5242af7040bb4f086bf290b14e0e6b2810e5e0797f65"
+  },
+  {
     "date": "2026-07-30",
     "sport": "BEST",
     "source_sport": "WTA",
@@ -12,7 +29,7 @@
     "ccr": 7.0,
     "ccr_avg": 7.0,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "5b087663713405454955b539d14bab456ddf1e7a45f130e5a73fd46c17c226dd"
   },
