@@ -1,49 +1,58 @@
 {
-  "generated_at": "2026-07-31T15:34:20.125186+00:00",
-  "iso_date": "2026-07-28",
-  "display_date": "Tue \u00b7 Jul 28, 2026",
+  "generated_at": "2026-08-01T15:36:06.018996+00:00",
+  "iso_date": "2026-07-18",
+  "display_date": "Sat \u00b7 Jul 18, 2026",
   "summary": {
     "wins": 1,
-    "losses": 3,
-    "units_pl": -2.5,
-    "roi_pct": -62.5
+    "losses": 4,
+    "units_pl": -4.9,
+    "roi_pct": -98.0
   },
   "picks": [
     {
       "sport": "WNBA",
-      "game": "Portland Fire @ Las Vegas Aces",
-      "pick": "Las Vegas Aces -11.5",
+      "game": "Portland Fire @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -13.5",
       "bet_type": "ATS",
-      "odds": -105.0,
-      "result": "W",
-      "profit_units": 1.75
+      "odds": -115.0,
+      "result": "L",
+      "profit_units": -2.0
     },
     {
-      "sport": "WTA",
-      "game": "Qinwen Zheng vs Alexandra Eala",
-      "pick": "Qinwen Zheng -2.5 Games",
+      "sport": "WNBA",
+      "game": "New York Liberty @ Indiana Fever",
+      "pick": "New York Liberty -2.5",
       "bet_type": "ATS",
-      "odds": -103.0,
+      "odds": -110.0,
       "result": "L",
       "profit_units": -1.25
     },
     {
-      "sport": "MLB",
-      "game": "Atlanta Braves @ New York Mets",
-      "pick": "Atlanta Braves ML",
+      "sport": "MMA",
+      "game": "Kamaru Usman vs Dricus Du Plessis",
+      "pick": "Dricus Du Plessis ML",
       "bet_type": "ML",
-      "odds": -160.0,
-      "result": "L",
-      "profit_units": -1.5
+      "odds": -250.0,
+      "result": "W",
+      "profit_units": 0.6
     },
     {
       "sport": "WNBA",
-      "game": "Toronto Tempo @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -14.5",
+      "game": "Washington Mystics @ Golden State Valkyries",
+      "pick": "Golden State Valkyries -9.5",
       "bet_type": "ATS",
-      "odds": -105.0,
+      "odds": -110.0,
       "result": "L",
-      "profit_units": -1.5
+      "profit_units": -1.25
+    },
+    {
+      "sport": "MMA",
+      "game": "Christian Leroy Duncan vs Jared Cannonier",
+      "pick": "Jared Cannonier ML",
+      "bet_type": "ML",
+      "odds": 310.0,
+      "result": "L",
+      "profit_units": -1.0
     }
   ]
 }

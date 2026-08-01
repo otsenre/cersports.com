@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-01",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Las Vegas Aces @ Chicago Sky",
+    "pick": "Las Vegas Aces -6.5",
+    "bet_type": "ATS",
+    "line": -102.0,
+    "pick_display": "Las Vegas Aces -6.5",
+    "edge": 0,
+    "ccr": 6.6,
+    "ccr_avg": 6.6,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "dc59b23f26f6f8bdb7befe88884ea7d3f80108cc8fa0cbfd5d7b77a69a8109e3"
+  },
+  {
     "date": "2026-07-31",
     "sport": "BEST",
     "source_sport": "ATP",
@@ -12,7 +29,7 @@
     "ccr": 6.2,
     "ccr_avg": 6.2,
     "tier": "B",
-    "result": null,
+    "result": "L",
     "units": 1.0,
     "hash_id": "a1fd5984445a6f005b0f5242af7040bb4f086bf290b14e0e6b2810e5e0797f65"
   },
