@@ -1,31 +1,55 @@
 {
-  "generated_at": "2026-08-02T02:14:06.511281+00:00",
-  "iso_date": "2026-07-26",
-  "display_date": "Sun \u00b7 Jul 26, 2026",
+  "generated_at": "2026-08-02T07:37:12.610272+00:00",
+  "iso_date": "2026-07-05",
+  "display_date": "Sun \u00b7 Jul 5, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 1,
-    "units_pl": -0.34,
-    "roi_pct": -17.0
+    "wins": 2,
+    "losses": 2,
+    "voids": 0,
+    "units_staked": 4.5,
+    "units_pl": -0.47,
+    "roi_pct": -10.53
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "New York Yankees @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies ML",
+      "sport": "ATP",
+      "game": "Alexander Bublik vs Taylor Fritz",
+      "pick": "Alexander Bublik ML",
       "bet_type": "ML",
-      "odds": -190.0,
-      "result": "W",
-      "profit_units": 0.66
+      "odds": 170.0,
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0
     },
     {
       "sport": "MLB",
-      "game": "Kansas City Royals @ Detroit Tigers",
-      "pick": "Detroit Tigers ML",
+      "game": "San Francisco Giants @ Colorado Rockies",
+      "pick": "Over 12.5",
+      "bet_type": "Total",
+      "odds": null,
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 0.0
+    },
+    {
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -3.5",
+      "bet_type": "ATS",
+      "odds": null,
+      "result": "L",
+      "units": 1.25,
+      "profit_units": 0.0
+    },
+    {
+      "sport": "WTA",
+      "game": "Barbora Krejcikova vs Karolina Muchova",
+      "pick": "Karolina Muchova ML",
       "bet_type": "ML",
       "odds": -190.0,
-      "result": "L",
-      "profit_units": -1.0
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.5263
     }
   ]
 }
