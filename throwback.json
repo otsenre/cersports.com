@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T07:37:12.610272+00:00",
+  "generated_at": "2026-08-02T15:09:23.726017+00:00",
   "iso_date": "2026-07-05",
   "display_date": "Sun \u00b7 Jul 5, 2026",
   "summary": {
@@ -7,8 +7,8 @@
     "losses": 2,
     "voids": 0,
     "units_staked": 4.5,
-    "units_pl": -0.47,
-    "roi_pct": -10.53
+    "units_pl": -1.11,
+    "roi_pct": -24.67
   },
   "picks": [
     {
@@ -26,20 +26,20 @@
       "game": "San Francisco Giants @ Colorado Rockies",
       "pick": "Over 12.5",
       "bet_type": "Total",
-      "odds": null,
+      "odds": -110.0,
       "result": "W",
       "units": 1.25,
-      "profit_units": 0.0
+      "profit_units": 1.3636
     },
     {
       "sport": "WNBA",
       "game": "Indiana Fever @ Las Vegas Aces",
       "pick": "Las Vegas Aces -3.5",
       "bet_type": "ATS",
-      "odds": null,
+      "odds": -104.0,
       "result": "L",
       "units": 1.25,
-      "profit_units": 0.0
+      "profit_units": -2.0
     },
     {
       "sport": "WTA",
