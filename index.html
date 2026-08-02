@@ -6,7 +6,7 @@
 <title>CERSports — Data-Driven Sports Intelligence</title>
 <meta name="description" content="CCR-rated sports picks from a six-model committee, run every morning. One free best pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
 <meta property="og:title" content="CERSports — The Model Runs">
-<meta property="og:description" content="Six-model committee. One free best pick daily. Every result posted publicly. Runs at 8:05 AM.">
+<meta property="og:description" content="Six-model committee. One free best pick daily. Every result posted publicly. Free pick 7:50 AM, card by 8:45 AM PT.">
 <meta property="og:image" content="https://cersports.com/og-image.jpg">
 <link rel="icon" href="/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
@@ -638,6 +638,42 @@ footer {
 }
 .perf-num.pos { color: var(--green-light); }
 .perf-num.neg { color: var(--red); }
+/* No settled picks in this band. Muted and unsigned on purpose — an em dash
+   must read as "no data", never as a result that happened to be zero. */
+.perf-num.perf-empty { color: var(--text-dim, #6b7280); opacity: .7; }
+
+/* Record fold. Display only — the summary numbers are computed over the full
+   set regardless of what is visible, so collapsing can never move the record.
+   Cards past the threshold are marked by JS and hidden here; `.record-expanded`
+   on the grid reveals them. The whole grid is JS-rendered, so there is no
+   no-script path to worry about either way. */
+.record-card.record-folded { display: none; }
+.record-grid.record-expanded .record-card.record-folded { display: block; }
+.record-fold-btn{display:block;margin:18px auto 0;padding:10px 20px;cursor:pointer;
+  background:transparent;color:var(--gold,#c9a84c);border:1px solid rgba(201,168,76,.45);
+  border-radius:8px;font-size:12.5px;letter-spacing:.03em;font-family:inherit;}
+.record-fold-btn:hover{background:rgba(201,168,76,.10);}
+
+/* Tearsheet — sized and contrasted to survive being screenshotted and dropped
+   into a chat or a slide, where it loses the page around it. */
+.tearsheet{max-width:520px;margin:0 auto 26px;padding:20px 22px;border:1px solid rgba(255,255,255,.14);
+  border-radius:12px;background:rgba(255,255,255,.035);font-variant-numeric:tabular-nums;}
+.ts-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.10);}
+.ts-brand{font-weight:700;letter-spacing:.06em;font-size:13px;}
+.ts-scope{font-size:11px;color:var(--muted);text-align:right;}
+.ts-row{display:flex;justify-content:space-between;align-items:baseline;padding:5px 0;}
+.ts-k{font-size:13px;color:var(--muted);}
+.ts-v{font-size:19px;font-weight:700;}
+.ts-diff{margin-top:6px;padding-top:10px;border-top:1px solid rgba(255,255,255,.10);}
+.ts-diff .ts-k{color:inherit;font-weight:600;}
+.ts-diff .ts-v{font-size:23px;}
+.ts-context{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:14px;padding-top:12px;
+  border-top:1px solid rgba(255,255,255,.10);}
+.ts-ck{display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+.ts-cv{display:block;font-size:14px;font-weight:600;margin-top:2px;}
+.ts-foot{margin-top:14px;font-size:10.5px;line-height:1.5;color:var(--muted);}
+@media (max-width:560px){.ts-v{font-size:17px;}.ts-diff .ts-v{font-size:20px;}}
 .perf-num.gold { color: var(--gold); }
 .perf-anchor-note {
   margin-top: 16px;
@@ -748,6 +784,8 @@ footer {
   .throwback-pick .game, .throwback-pick .odds { display: none; }
 }
 </style>
+<!-- Published times come from schedule.json; inline text is the fallback. -->
+<script defer src="schedule.js"></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
@@ -783,7 +821,7 @@ footer {
   <div class="hero-inner">
     <div class="hero-eyebrow">
       <span class="live-dot"></span>
-      Model ran · 8:05 AM · System live
+      <span data-schedule="combined_label">Free pick · 7:50 AM PT · Card by 8:45</span> · System live
     </div>
     <h1 class="hero-headline">THE<br><em>MODEL</em><br>RUNS.</h1>
     <p class="hero-sub">Data-driven CCR picks. Every morning. No gut calls.</p>
@@ -812,8 +850,8 @@ footer {
 <div class="stat-strip">
   <div class="stat-strip-inner">
     <div class="stat-item">
-      <div class="stat-num">8:05</div>
-      <div class="stat-label">Daily Runtime · AM</div>
+      <div class="stat-num" data-schedule="free_pick_time">7:50</div>
+      <div class="stat-label">Free Pick · <span data-schedule="timezone_label">AM PT</span></div>
     </div>
     <div class="stat-item">
       <div class="stat-num">6</div>
@@ -978,7 +1016,7 @@ footer {
       <div class="step-card">
         <div class="step-num">03</div>
         <div class="step-title">Consensus + Publish</div>
-        <div class="step-body">Every picker's read is cross-referenced against the statistical models. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by 8:05 AM.</div>
+        <div class="step-body">Every picker's read is cross-referenced against the statistical models. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by <span data-schedule="card_label">8:45 AM PT</span>.</div>
       </div>
     </div>
 
@@ -1093,6 +1131,28 @@ footer {
     <div class="section-label">System performance</div>
     <h2 class="section-title">THE <em>NUMBERS</em></h2>
     <p class="section-body">Public ledger only. Aggregated free + paid pick performance since the ledger anchor.</p>
+
+    <!-- SCREENSHOT-READY TEARSHEET. A capture gets separated from this page, so
+         every number it shows must carry its own context: the product, the
+         window, the capital base, n, and the as-of date. A shared "-18.22%" with
+         none of those is the misleading artifact, not the honest one. -->
+    <div class="tearsheet" id="tearsheet" aria-label="Performance summary, shareable">
+      <div class="ts-head">
+        <span class="ts-brand">CERSports</span>
+        <span class="ts-scope" id="tsScope">Paid card · public ledger</span>
+      </div>
+      <div class="ts-headline">
+        <div class="ts-row"><span class="ts-k">Return</span><span class="ts-v" id="tsReturn">—</span></div>
+        <div class="ts-row"><span class="ts-k" id="tsBenchK">S&amp;P 500</span><span class="ts-v" id="tsBench">—</span></div>
+        <div class="ts-row ts-diff"><span class="ts-k">Difference</span><span class="ts-v" id="tsDiff">—</span></div>
+      </div>
+      <div class="ts-context">
+        <div><span class="ts-ck">Max drawdown</span><span class="ts-cv" id="tsMaxDD">—</span></div>
+        <div><span class="ts-ck">Turnover</span><span class="ts-cv" id="tsTurnover">—</span></div>
+        <div><span class="ts-ck">Margin per bet</span><span class="ts-cv" id="tsMargin">—</span></div>
+      </div>
+      <div class="ts-foot" id="tsFoot">—</div>
+    </div>
 
     <div style="overflow-x:auto;">
       <table class="perf-table" id="perfTable">
@@ -1235,13 +1295,63 @@ async function loadPicks() {
   }
 }
 
+/* How many pick cards are shown before the fold.
+ *
+ * The full history is 238 cards and grows by one every day — an unbounded wall
+ * nobody scrolls. Recent slice visible, everything else one click away.
+ *
+ * THE FOLD IS DISPLAY ONLY. Every summary below is computed from the COMPLETE
+ * `picks` array before any of this runs, so collapsing cannot move the record,
+ * the units, the win rate or the form. That boundary is the whole safety
+ * property: a fold that changed the headline number would be a cherry-pick
+ * mechanism with a nicer name. Asserted in test_record_fold.js.
+ *
+ * The collapsed state also STATES THE TRUE TOTAL ("Showing 12 of 238"), so the
+ * page discloses what it is holding back rather than implying that is all there
+ * is. Auditing the full record is the product's central claim; it must never be
+ * something a visitor has to guess is available.
+ */
+const RECORD_VISIBLE = 12;
+
+/* The audit control. Toggles the fold and always names the true total.
+ *
+ * Wording is deliberate: "Audit all N picks" rather than "show more". The full
+ * record being inspectable IS the product's claim — "every pick posted, every
+ * result recorded, we don't cherry-pick" — so the control should say what it is
+ * for. Collapsed copy names the total; expanded copy offers the way back.
+ */
+function buildRecordFold(grid, total) {
+  const existing = document.getElementById('recordFold');
+  if (existing) existing.remove();
+  if (total <= RECORD_VISIBLE) return;   // nothing hidden, so no control
+
+  const btn = document.createElement('button');
+  btn.id = 'recordFold';
+  btn.className = 'record-fold-btn';
+  btn.type = 'button';
+  let expanded = false;
+  const label = () => {
+    btn.textContent = expanded
+      ? `Collapse · showing all ${total}`
+      : `Showing ${RECORD_VISIBLE} of ${total} · Audit all ${total} picks`;
+    btn.setAttribute('aria-expanded', String(expanded));
+  };
+  btn.addEventListener('click', () => {
+    expanded = !expanded;
+    grid.classList.toggle('record-expanded', expanded);
+    label();
+  });
+  label();
+  grid.parentNode.insertBefore(btn, grid.nextSibling);
+}
+
 function buildRecord(picks) {
   const grid = document.getElementById('recordGrid');
   grid.innerHTML = '';
 
-  picks.forEach(p => {
+  picks.forEach((p, i) => {
     const card = document.createElement('div');
-    card.className = 'record-card';
+    card.className = 'record-card' + (i >= RECORD_VISIBLE ? ' record-folded' : '');
     const resultClass = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
     const resultText = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS' : 'PENDING';
     const dateStr = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US',
@@ -1262,7 +1372,10 @@ function buildRecord(picks) {
     grid.appendChild(card);
   });
 
+  buildRecordFold(grid, picks.length);
+
   // Summary — public ledger entries include the daily BEST pick rows.
+  // COMPUTED OVER THE FULL ARRAY, deliberately unaffected by the fold above.
   const wins = picks.filter(p => p.result === 'W').length;
   const losses = picks.filter(p => p.result === 'L').length;
   const total = wins + losses;
@@ -1401,6 +1514,68 @@ function signClass(n) {
   return '';
 }
 
+// A band with NO SETTLED PICKS has no result — and 0.00% is not "no result",
+// it is a claim of parity. On 2026-08-01 the MTD band read
+// `vs S&P +0.00%` on the first of the month, which says "we matched the index"
+// when the truth was "nothing has settled yet". That is the worst place in the
+// product to be accidentally wrong: the panel whose whole job is honest
+// comparison.
+//
+// STRICT on purpose: only an explicit n === 0 blanks a cell. A band with n
+// missing (older payloads) renders normally, so this can never blank real data.
+function bandIsEmpty(b) {
+  return !!b && Number(b.n) === 0;
+}
+
+/* Fill the shareable tearsheet from the ALL-TIME band.
+ *
+ * SELF-DESCRIBING BY REQUIREMENT. A screenshot loses the page, so the block
+ * states the product, the window, the capital base, n and the as-of date. A
+ * shared "-18.22%" without those is the misleading artifact.
+ *
+ * DRAWDOWN IS NOT OPTIONAL. A book turning its bankroll over 6.5x and an index
+ * fund can post similar returns having taken completely different risk. Showing
+ * the comparison without the ride is the one place this flatters.
+ *
+ * Fails CLOSED: if the band or drawdown is missing, the sheet is hidden rather
+ * than rendered half-populated, because a partial tearsheet still gets shared.
+ */
+function renderTearsheet(data) {
+  const el = document.getElementById('tearsheet');
+  if (!el) return;
+  const b = (data.bands || []).find(x => x.label === 'ALL-TIME');
+  if (!b || bandIsEmpty(b) || b.max_drawdown_units === undefined) {
+    el.style.display = 'none';
+    return;
+  }
+  const set = (id, txt, cls) => {
+    const n = document.getElementById(id);
+    if (!n) return;
+    n.textContent = txt;
+    if (cls !== undefined) n.className = n.className.replace(/\b(pos|neg)\b/g, '') + ' ' + cls;
+  };
+  set('tsReturn', fmtSigned(b.bankroll_return_pct, 2, '%'), signClass(b.bankroll_return_pct));
+  set('tsBench', fmtSigned(b.spx_return_pct, 2, '%'), signClass(b.spx_return_pct));
+  set('tsDiff', fmtSigned(b.vs_spx, 2, '%'), signClass(b.vs_spx));
+  set('tsMaxDD', `${fmtSigned(b.max_drawdown_pct, 2, '%')} (${fmtSigned(b.max_drawdown_units, 2, 'u')})`);
+  set('tsTurnover', `${b.turnover_x}x`);
+  // Labelled MARGIN, never "ROI", and deliberately out of the comparison block:
+  // it is profit per unit STAKED, not per unit of capital, and the two sitting
+  // adjacent is exactly what made the old panel unreadable.
+  set('tsMargin', fmtSigned(b.roi_pct, 2, '%'));
+  const scope = document.getElementById('tsScope');
+  if (scope) scope.textContent = `Public ledger · n=${b.n}`;
+  set('tsFoot',
+      `Return on a stated ${b.bankroll_units}u bankroll, ${b.start} to ${b.end}. `
+    + `Benchmark: S&P 500 same window. Margin per bet is profit per unit staked — `
+    + `not a return on capital. Every settled pick included; nothing excluded.`);
+}
+
+function perfCell(b, value, digits, suffix) {
+  if (bandIsEmpty(b)) return '<span class="perf-num perf-empty">&mdash;</span>';
+  return `<span class="perf-num ${signClass(value)}">${fmtSigned(value, digits, suffix)}</span>`;
+}
+
 async function loadPerformance() {
   try {
     const res = await fetch(PERF_URL + '?t=' + Date.now());
@@ -1409,16 +1584,20 @@ async function loadPerformance() {
     if (!tbody || !data.bands) return;
     const bands = data.bands;
     const rows = [
-      { label: 'RECORD',  cells: bands.map(b => `<span class="perf-num">${b.record}</span>`) },
-      { label: 'UNITS',   cells: bands.map(b => `<span class="perf-num ${signClass(b.units_pl)}">${fmtSigned(b.units_pl, 2, 'u')}</span>`) },
-      { label: 'ROI',     cells: bands.map(b => `<span class="perf-num ${signClass(b.roi_pct)}">${fmtSigned(b.roi_pct, 2, '%')}</span>`) },
-      { label: 'vs S&P',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_spx)}">${fmtSigned(b.vs_spx, 2, '%')}</span>`) },
-      { label: 'vs DOW',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_dji)}">${fmtSigned(b.vs_dji, 2, '%')}</span>`) },
-      { label: 'vs NDX',  cells: bands.map(b => `<span class="perf-num ${signClass(b.vs_ndx)}">${fmtSigned(b.vs_ndx, 2, '%')}</span>`) },
+      { label: 'RECORD',  cells: bands.map(b => bandIsEmpty(b) ? '<span class="perf-num perf-empty">&mdash;</span>' : `<span class="perf-num">${b.record}</span>`) },
+      { label: 'UNITS',   cells: bands.map(b => perfCell(b, b.units_pl, 2, 'u')) },
+      { label: 'ROI',     cells: bands.map(b => perfCell(b, b.roi_pct, 2, '%')) },
+      { label: 'vs S&P',  cells: bands.map(b => perfCell(b, b.vs_spx, 2, '%')) },
+      { label: 'vs DOW',  cells: bands.map(b => perfCell(b, b.vs_dji, 2, '%')) },
+      // "NASDAQ" not "NDX": the series is ^IXIC, the Nasdaq COMPOSITE. NDX is
+      // the Nasdaq-100, a different index. The data was always the Composite;
+      // only the label was wrong.
+      { label: 'vs NASDAQ', cells: bands.map(b => perfCell(b, b.vs_ndx, 2, '%')) },
     ];
     tbody.innerHTML = rows.map(r =>
       `<tr><td>${r.label}</td>${r.cells.map(c => `<td>${c}</td>`).join('')}</tr>`
     ).join('');
+    renderTearsheet(data);
     const note = document.getElementById('perfAnchor');
     if (note && data.anchor && data.as_of) {
       note.textContent = `Ledger anchor ${data.anchor} · As of ${data.as_of}`;
