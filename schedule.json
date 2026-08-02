@@ -1,0 +1,39 @@
+{
+  "_README": [
+    "THE ONE PLACE THE PUBLISHED TIMES ARE STATED. Edit here, nowhere else.",
+    "Before this file existed the times were literal strings in the HTML, the email and the",
+    "bot, and they drifted apart without anyone noticing: on 2026-08-01 the site's hero said",
+    "7:50 while the same page's how-it-works said 8:05, outro.html said 8:05, the Telegram bot",
+    "said 8:30 and the subscriber email said ~8:05. Four different promises, all live at once.",
+    "",
+    "Site pages render these into any element carrying data-schedule=\"<key>\". The element's",
+    "existing text is the fallback, so a failed fetch degrades to the last shipped value",
+    "instead of a blank. Python consumers (email, bot) read the same file via publish_schedule.py.",
+    "check_published_times.py fails if any consumer states a clock time this file does not.",
+    "",
+    "RULE: these are PROMISES TO CUSTOMERS, not internal job times. Only widen them toward",
+    "honesty. 'card' is 8:45 rather than 8:30 because the measured send on 2026-08-01 was",
+    "08:37 — promising 8:30 would ship a claim we already know we miss."
+  ],
+
+  "updated": "2026-08-01",
+  "timezone_label": "AM PT",
+
+  "free_pick_time": "7:50",
+  "free_pick_label": "7:50 AM PT",
+  "free_pick_sentence": "The free pick posts at 7:50 AM PT.",
+
+  "card_time": "8:45",
+  "card_label": "8:45 AM PT",
+  "card_sentence": "The full card lands in your inbox by 8:45 AM PT.",
+
+  "combined_label": "Free pick · 7:50 AM PT · Card by 8:45",
+
+  "_machine": {
+    "_note": "Wall-clock targets the drift check compares actual delivery against. The free pick is DATA-GATED (scheduler job pipeline.daily, after pick.llm), so its actual time moves with the data; this is the promise it must not embarrass.",
+    "free_pick_hhmm": "07:50",
+    "card_hhmm": "08:45",
+    "tz": "America/Los_Angeles",
+    "drift_alarm_minutes": 15
+  }
+}
