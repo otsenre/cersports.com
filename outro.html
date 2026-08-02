@@ -28,6 +28,8 @@
   .pulse{animation:pulse 2s ease-in-out infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
 </style>
+<!-- Published times come from schedule.json; inline text is the fallback. -->
+<script defer src="schedule.js"></script>
 </head>
 <body>
   <div class="grid-bg"></div>
@@ -45,7 +47,7 @@
       <div class="handle">@cersports</div>
       <div class="handle">cersports.com</div>
     </div>
-    <div class="ccr-note pulse">Model runs daily · 8:05 AM</div>
+    <div class="ccr-note pulse">Model runs daily · <span data-schedule="free_pick_label">7:50 AM PT</span></div>
   </div>
 </body>
 </html>
