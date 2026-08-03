@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-04",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Toronto Tempo @ Golden State Valkyries",
+    "pick": "Golden State Valkyries -8.2",
+    "bet_type": "ATS",
+    "line": -110.0,
+    "pick_display": "Golden State Valkyries -8.2",
+    "edge": 0,
+    "ccr": 8.0,
+    "ccr_avg": 8.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "b7cf41562c4966290122c56bebcca82af8879912073c096145dd04579ddef232"
+  },
+  {
     "date": "2026-08-03",
     "sport": "WTA",
     "source_sport": "WTA",
@@ -15,7 +32,7 @@
     "tier": "C",
     "edge": 0,
     "units": 0.75,
-    "result": "pending",
+    "result": "V",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "56d4c0d37a09d36e8989a034078fed9f7850cfb0bd850e29a5e07c96831cc620"
@@ -99,7 +116,7 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "pending",
+    "result": "V",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "7c8bd85f4703a9db07d77d3010760937ea8db7b0ed2cb48d1f19f8e73afb8d5d"
@@ -183,7 +200,7 @@
     "tier": null,
     "edge": 0,
     "units": 1.0,
-    "result": null,
+    "result": "W",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "f8464bb38944bf210d81ebee625d5f5ed693e9471d41564957d17c076871e6d7"
