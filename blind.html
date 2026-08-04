@@ -275,8 +275,9 @@ document.getElementById('finder').addEventListener('change', function(){
       else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
     }
 
-    // Free-pick ledger record: BEST rows only. Paid-card rows are a separate
-    // product and must never contaminate the free-pick trend.
+    // Free-pick ledger record: every issued free-pick row carries the BEST
+    // lineage marker, including historical multi-pick days. Paid-card rows
+    // are a separate product and must never contaminate this trend.
     const freePicks = picks.filter(p => p.sport === 'BEST');
     const wins = freePicks.filter(p => p.result === 'W').length;
     const losses = freePicks.filter(p => p.result === 'L').length;

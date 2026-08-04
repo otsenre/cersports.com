@@ -1130,7 +1130,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">System performance</div>
     <h2 class="section-title">THE <em>NUMBERS</em></h2>
-    <p class="section-body">Public ledger only. Aggregated free + paid pick performance since the ledger anchor.</p>
+    <p class="section-body">Paid Card performance since the ledger anchor. The Free Pick record is tracked separately below from every issued free-pick row.</p>
 
     <!-- SCREENSHOT-READY TEARSHEET. A capture gets separated from this page, so
          every number it shows must carry its own context: the product, the
@@ -1346,8 +1346,9 @@ function buildRecordFold(grid, total) {
 }
 
 function buildRecord(picks) {
-  // The public ledger on this page is the Free Pick lineage. Paid-card rows
-  // are a separate product and must not inflate the free record or its trends.
+  // The public ledger on this page is the complete Free Pick lineage. This
+  // intentionally includes every issued free-pick row, including historical
+  // multi-pick days. Paid-card rows are a separate product.
   const freePicks = picks.filter(p => p.sport === 'BEST');
   const grid = document.getElementById('recordGrid');
   grid.innerHTML = '';
