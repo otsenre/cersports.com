@@ -163,7 +163,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "56d4c0d37a09d36e8989a034078fed9f7850cfb0bd850e29a5e07c96831cc620"
   },
@@ -184,7 +184,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1364,
+    "profit_units": 1.3636,
     "odds_origin": "source_report",
     "hash_id": "8a1fcaf7f3be36975a45b337b65f2ce3ffe19ad35c13262764cca84461e12182"
   },
@@ -205,7 +205,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1364,
+    "profit_units": 1.4563,
     "odds_origin": "source_report",
     "hash_id": "e4121e72d931bffbac2d08106dc8d61a843c46313a7fadbb4fddf698fe1f81cd"
   },
@@ -247,7 +247,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "7c8bd85f4703a9db07d77d3010760937ea8db7b0ed2cb48d1f19f8e73afb8d5d"
   },
@@ -289,7 +289,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1364,
+    "profit_units": 1.2712,
     "odds_origin": "source_report",
     "hash_id": "57875a63cc36de6cf78bc1e166f23541490103e3f33aafe696a7089bbd3889f8"
   },
@@ -310,7 +310,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.0417,
+    "profit_units": 1.6667,
     "odds_origin": "source_report",
     "hash_id": "69b132894f84379712c10b1ae65d6a20f50774bc315a589a3fb5adbe3c4faeec"
   },
@@ -323,7 +323,7 @@
     "pick_display": "Marin Cilic ML",
     "bet_type": "ML",
     "line": -138.0,
-    "price": -138.0,
+    "price": -145.0,
     "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -352,7 +352,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "944add926d512c7305d07b06f439d6ddcc76831d47a02ca89ab1771801bb6c7e"
   },
@@ -373,7 +373,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "9906c14c47fa3b1b998a7874df339156ffa1d70f38fcb09ffa47073a72a0155c"
   },
@@ -393,8 +393,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.3333,
+    "result": "L",
+    "profit_units": -1.75,
     "odds_origin": "source_report",
     "hash_id": "dc59b23f26f6f8bdb7befe88884ea7d3f80108cc8fa0cbfd5d7b77a69a8109e3"
   },
@@ -456,8 +456,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -0.75,
+    "result": "W",
+    "profit_units": 1.4831,
     "odds_origin": "source_report",
     "hash_id": "8b4a0999e7349c2d471480ff95af44e9f3c189dd03fa0d8b505bc2864fd2aee0"
   },
@@ -470,7 +470,7 @@
     "pick_display": "Las Vegas Aces -6.5",
     "bet_type": "ATS",
     "line": -102.0,
-    "price": -102.0,
+    "price": -104.0,
     "handicap": null,
     "ccr": 6.642857142857143,
     "ccr_avg": 6.642857142857143,
@@ -520,7 +520,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "becddc8490c876b594b17e234310b997d8d425acadcb1e302ed503dad1465e53"
   },
@@ -562,7 +562,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.2308,
+    "profit_units": 0.3077,
     "odds_origin": "source_report",
     "hash_id": "61baa63f9dca50f1748b667227a26e32a01381efd02869c6f2b3405e9bc7e02f"
   },
@@ -646,7 +646,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.3191,
+    "profit_units": 0.5319,
     "odds_origin": "source_report",
     "hash_id": "51a70d202ffc5455e2b6cc9f64c84ccd4493341d4afd8547b9231a8e2aabccde"
   },
@@ -667,7 +667,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "5b087663713405454955b539d14bab456ddf1e7a45f130e5a73fd46c17c226dd"
   },
@@ -688,7 +688,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.4286,
     "odds_origin": "source_report",
     "hash_id": "fb82f28877308f8dc7868df798bf6cc75b8f313f0d01e085c2bece7aaad7027e"
   },
@@ -729,8 +729,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "V",
-    "profit_units": 0.0,
+    "result": "W",
+    "profit_units": 0.641,
     "odds_origin": "source_report",
     "hash_id": "a75523a806782608164ee11c356968bc7bbda0ba37afe5e9595e0008bc429ee5"
   },
@@ -772,7 +772,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5263,
+    "profit_units": 0.7895,
     "odds_origin": "source_report",
     "hash_id": "9aa14dc49931dadad463950c8ee0d1920f08fc32685dd1872ea3ecd7b3c3572b"
   },
@@ -793,7 +793,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.3043,
     "odds_origin": "source_report",
     "hash_id": "b711a15ab5a581b9d7be001b4e0921826381944b1aac8a7fd5a2ed99bd9de8ac"
   },
@@ -814,7 +814,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "8aef5ef8786310a189d32c27c4de0405c27b9c890c233ca32ad7b52f40896b21"
   },
@@ -834,8 +834,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "W",
-    "profit_units": 0.487,
+    "result": "L",
+    "profit_units": -1.75,
     "odds_origin": "source_report",
     "hash_id": "776af358517ba8736d094b01c58eb623f69201aab533760697b79a99a005c334"
   },
@@ -877,7 +877,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.6818,
+    "profit_units": 0.9091,
     "odds_origin": "source_report",
     "hash_id": "231fb3d95621bdc67b10e9e7512404eae58ba2a86dbc0e1b01bcc45f71a92d4f"
   },
@@ -898,7 +898,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "924be9b391d10badde712f5e1a2478497f91a1f87d2f8863753ca4859dd1ddd6"
   },
@@ -919,7 +919,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1364,
+    "profit_units": 1.7544,
     "odds_origin": "source_report",
     "hash_id": "d6e31e24d964d01f50268b60527ffdacf7ff40df1fef48567936405f8664a46a"
   },
@@ -939,8 +939,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -0.5,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "338606e34e11c23e0e68259423c8d012f8d4809ff5e43a6219c70a975f5630bf"
   },
@@ -1003,7 +1003,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "2768498da55e1ebf145e52ae3f97be5a94c63d2e0136357f561930acf3d67c87"
   },
@@ -1023,8 +1023,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "V",
-    "profit_units": 0.0,
+    "result": "W",
+    "profit_units": 0.8242,
     "odds_origin": "source_report",
     "hash_id": "977702d293b5b8d64b0d01f32d664ea09a18aab47e5ea80d8667af558c7b308b"
   },
@@ -1066,7 +1066,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.3,
+    "profit_units": 0.4,
     "odds_origin": "source_report",
     "hash_id": "dc1ae4967303b870880cf8f4c7f785cbc298c6214a19b559e6292c593244ff77"
   },
@@ -1233,8 +1233,8 @@
     "tier": "C",
     "edge": 0,
     "units": 0.75,
-    "result": "W",
-    "profit_units": 0.3049,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "9b002f365c2858aefc3a3331f1ed6204d888a2d722092be4d57b3b56bc51b0de"
   },
@@ -1339,7 +1339,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.4808,
+    "profit_units": 1.1,
     "odds_origin": "source_report",
     "hash_id": "ff1b8f519f2a5c8029fbff6efe9ce923280205d411379852492b73fb5bed0547"
   },
@@ -1528,7 +1528,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.75,
     "odds_origin": "source_report",
     "hash_id": "5835a1ed60bfe0432eaa2e66ea657b04516314fd032c38b5ecc92868bfe5bee5"
   },
@@ -1570,7 +1570,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "877e9bfc7c9350ff6a2023cf37c4f5c26e34bef99a1ccf85c8f34220bab3923f"
   },
@@ -1633,7 +1633,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.1364,
     "odds_origin": "source_report",
     "hash_id": "2df8d18f209ea31850e5bb55c062738de66d248179b9767a8baabcdc7d593ba5"
   },
@@ -1717,7 +1717,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.4286,
     "odds_origin": "source_report",
     "hash_id": "42ff8c2c98e349e094e9f1bbf89361ee6ae75534592d1544550ab8911aa2bf1d"
   },
@@ -1822,7 +1822,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "b03c4087ff9ad24c7d7ae9f0eb6ec61375b1d0cfa78df9405be0e166ea3fb54b"
   },
@@ -1842,8 +1842,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -2.0,
+    "result": "W",
+    "profit_units": 1.4875,
     "odds_origin": "source_report",
     "hash_id": "7eb9546870215ffd34eef95a2d616851963a1dfccbfc6dd1af43540be07a19ff"
   },
@@ -1927,7 +1927,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -2.0,
     "odds_origin": "source_report",
     "hash_id": "a2aba81c86adac705e155d751c1627b4afe82d63964324e0078df1936c05b2aa"
   },
@@ -1948,7 +1948,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "unresolved",
     "hash_id": "ad816cc6d722d0f6bde91916d848f9093a8df497b30305d8fcda7a156623075b"
   },
@@ -1968,8 +1968,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "L",
-    "profit_units": -1.75,
+    "result": "W",
+    "profit_units": 1.07,
     "odds_origin": "source_report",
     "hash_id": "1f1b2748d42d18a1d773c934b22d2da17e58ea988602dbdc7d689c61a268802c"
   },
@@ -2053,7 +2053,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1364,
+    "profit_units": 1.4286,
     "odds_origin": "source_report",
     "hash_id": "edfaead915dca7b15088bdfd65068994364177ad2fefe0c7962f8aadc38ad54c"
   },
@@ -2116,7 +2116,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "717140f043103f776ff2a7ca11e766a8cdd068e10a26ad254d07eb29cfd65c79"
   },
@@ -2178,8 +2178,8 @@
     "tier": "A",
     "edge": 0,
     "units": 2.0,
-    "result": "L",
-    "profit_units": -1.5,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "f29e17591c5e6cfdf91adf9269bcb3cb1ff8f78a2c736d8d41d5da2d43da1bcf"
   },
@@ -2305,7 +2305,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.75,
     "odds_origin": "source_report",
     "hash_id": "91f0668fb16baeed16ff1274eaacd06ac4a7bd86c7812fa2c0845c167d848e79"
   },
@@ -2368,7 +2368,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.0965,
     "odds_origin": "source_report",
     "hash_id": "4f1e8c8505046950d664fa79fa0144d1bed03f7356208939c225c2bfe436ac3a"
   },
@@ -2409,8 +2409,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "W",
-    "profit_units": 0.4545,
+    "result": "L",
+    "profit_units": -2.0,
     "odds_origin": "source_report",
     "hash_id": "1bf450022e86d05bf1fdadef44184993dc659e44e5fe24aed5104ba3eb503104"
   },
@@ -2423,7 +2423,7 @@
     "pick_display": "Minnesota Lynx -12.5",
     "bet_type": "ATS",
     "line": -110.0,
-    "price": -110.0,
+    "price": -115.0,
     "handicap": null,
     "ccr": 7.25,
     "ccr_avg": 7.25,
@@ -2493,8 +2493,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.3261,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "de06c407eac2e769222de5308b5e720d8b0181180accdbbcd8cf196ae8383a1f"
   },
@@ -2557,7 +2557,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "455d636e9b56908a9675bc77797c547ec478bf2460f18dfe5b8368e324229714"
   },
@@ -2683,7 +2683,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "8a81c4be88ec1e8d73c0269834fab86df7e6207fdfb756824bf7f03332d3bad9"
   },
@@ -2745,8 +2745,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.4902,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "df82dd057e3034d381959fb3c75170a8e98d30fb81511a3e4243cecc0fa00e39"
   },
@@ -2788,7 +2788,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "a0a7b72580b9f8f2590aab0a4607dc17e672370dc55450903f9871f10241a74b"
   },
@@ -2809,7 +2809,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "3ee5fedaf4f01c2f1dc6921b5fd223f60b0cf3780e1b42cad286b459838d5efa"
   },
@@ -2850,8 +2850,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.3289,
+    "result": "L",
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "2d4786d2ce8b5974125927ecc6b9aceb5fa029b995394b07ac147d03484d92fe"
   },
@@ -2864,7 +2864,7 @@
     "pick_display": "Atlanta Dream -10.5",
     "bet_type": "ATS",
     "line": -105.0,
-    "price": -105.0,
+    "price": -106.0,
     "handicap": null,
     "ccr": 6.5,
     "ccr_avg": 6.5,
@@ -2893,7 +2893,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.2222,
+    "profit_units": 0.2778,
     "odds_origin": "source_report",
     "hash_id": "7cd13f2c6a2afa3596caf88eff318bcb39f607dba8b475e670cac1fa00bd4a4c"
   },
@@ -3019,7 +3019,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.4545,
+    "profit_units": 0.6061,
     "odds_origin": "source_report",
     "hash_id": "fb50ab37faeb25efeebbfd9be071e08235ba0a69d45d95b8b8357db42128c8e6"
   },
@@ -3061,7 +3061,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -0.5,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "3114a449ca371afb6800062dfe883c447dd3b417c74a9fa81de008b0ee1e357d"
   },
@@ -3103,7 +3103,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6061,
+    "profit_units": 0.9091,
     "odds_origin": "source_report",
     "hash_id": "17deb84834c4203a872d7c090ae61c826c0237831cf496518c3e92344fc27dd7"
   },
@@ -3166,7 +3166,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.2717,
+    "profit_units": 1.07,
     "odds_origin": "source_report",
     "hash_id": "6011491ee1a59fcc59049bf7d36c64a920e35765cf05bf6fbb4ba9539417e53e"
   },
@@ -3334,7 +3334,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4545,
+    "profit_units": 0.5682,
     "odds_origin": "source_report",
     "hash_id": "fa497bf7bfbac8efdd73183c3e23ee5fda7733e66ca915017f97eadb1e3ca0c0"
   },
@@ -3418,7 +3418,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.3636,
     "odds_origin": "source_report",
     "hash_id": "78734c039f567debe13516b7b3cc16a8da494672bb097d9a9190e3da24515209"
   },
@@ -3439,7 +3439,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "bbd91338c1fb82819df86eb7b3c834f447e2437e7153608ea5d807cf5b35c2fa"
   },
@@ -3480,8 +3480,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -0.5,
+    "result": "W",
+    "profit_units": 1.1468,
     "odds_origin": "source_report",
     "hash_id": "47bb4d2ee1e8db723da27c4bb161b4d14f777fbb441bd767bb4c3807511dbce4"
   },
@@ -3544,7 +3544,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.4054,
+    "profit_units": 0.5405,
     "odds_origin": "source_report",
     "hash_id": "65df2c76da956c11b2e2fe0a3845426e44ef04eedcf517f416d392b0fd4f1abd"
   },
@@ -3586,7 +3586,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.3333,
+    "profit_units": 1.1792,
     "odds_origin": "source_report",
     "hash_id": "b8f1a1cbae2e4564127351e331b727009c015f60b2f5d09414407e76b1079603"
   },
@@ -3628,7 +3628,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "da43c8b25965988af603a8edc49dd001b0b261e7d4ea3ba2dff886571ee4c81e"
   },
@@ -3649,7 +3649,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.1818,
+    "profit_units": 0.5,
     "odds_origin": "source_report",
     "hash_id": "8b719d6ee89763623b77d9fd0e99afaa7c267779525820149e813bc1b7941911"
   },
@@ -3669,8 +3669,8 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.7143,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "bd3bbc5395ceefa39e6c6ec2e2ee050b906ba5df35bef0eb0db25a1019b98f71"
   },
@@ -3775,7 +3775,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.625,
+    "profit_units": 1.0417,
     "odds_origin": "source_report",
     "hash_id": "b8947abf29ed554226774790beebc550b19932b77ed8da9695aa85da7c19e70a"
   },
@@ -3796,7 +3796,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "source_report",
     "hash_id": "5b0f2f375dad6ecefbf69411ab981ea5c45b2b8e973de817c5bf06574c07b5ba"
   },
@@ -3859,7 +3859,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "unresolved",
     "hash_id": "7a410b640a4f1208b7774f1ffc16f888eca9ee8d1cb49e5f5584f2d1adfab668"
   },
@@ -3880,7 +3880,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.8197,
+    "profit_units": 0.8696,
     "odds_origin": "source_report",
     "hash_id": "f0b717e9b5a4801c62b8c4fbbdbaa173467de0075b244df2e55d4289f16cdf8f"
   },
@@ -3900,8 +3900,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "L",
-    "profit_units": -0.5,
+    "result": "W",
+    "profit_units": 1.3636,
     "odds_origin": "source_report",
     "hash_id": "225216b860a144f1d2b00c3dbbd2c2c582273eb8623b2674b4f1f6a364354b99"
   },
@@ -3964,7 +3964,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6452,
+    "profit_units": 0.8065,
     "odds_origin": "source_report",
     "hash_id": "ac803f8be211eb209d63df8ae3df59336b2da521d9665f0f5a3232af4e50b9b2"
   },
@@ -3977,7 +3977,7 @@
     "pick_display": "Las Vegas Aces -6.5",
     "bet_type": "ATS",
     "line": -110.0,
-    "price": -110.0,
+    "price": -115.0,
     "handicap": null,
     "ccr": 7.166666666666667,
     "ccr_avg": 7.166666666666667,
@@ -4048,7 +4048,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "1ad9065c04cea17604f48bdce900de3255acacdd5f5a0db6ed9968867c3ea0d6"
   },
@@ -4061,7 +4061,7 @@
     "pick_display": "Indiana Fever -6.5",
     "bet_type": "ATS",
     "line": -105.0,
-    "price": -105.0,
+    "price": -114.0,
     "handicap": null,
     "ccr": 6.7,
     "ccr_avg": 6.7,
@@ -4132,7 +4132,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.625,
+    "profit_units": 0.7812,
     "odds_origin": "source_report",
     "hash_id": "73acc1989a657988dbcc33241b46c2a5a4228f16c33f8f45006a67c68f0f880d"
   },
@@ -4145,7 +4145,7 @@
     "pick_display": "Chicago Sky -4.5",
     "bet_type": "ATS",
     "line": -110.0,
-    "price": -110.0,
+    "price": -112.0,
     "handicap": null,
     "ccr": 6.25,
     "ccr_avg": 6.25,
@@ -4216,7 +4216,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "source_report",
     "hash_id": "eb8630c603c65d0e52a086ad89ccc2b871512b78d79fee7462bbc082d984c01b"
   },
@@ -4279,7 +4279,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -0.5,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "84c194e16fb2922f4ae6a82a292343e5420313d8be5497d1a4e4b69c3fb92cfa"
   },
@@ -4313,7 +4313,7 @@
     "pick_display": "Minnesota Lynx -9.5",
     "bet_type": "ATS",
     "line": -105.0,
-    "price": -105.0,
+    "price": -102.0,
     "handicap": null,
     "ccr": 6.9,
     "ccr_avg": 6.9,
@@ -4426,7 +4426,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6667,
+    "profit_units": 1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "01b337a5352155416ff3a9a7d86568f5625de04f6fb1c8222707457803218e10"
   },
@@ -4468,7 +4468,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "0aaf5d64bafbdd08c3ee518c41229163e6771e9e8cebdd78283b71d9914a5c41"
   },
@@ -4481,7 +4481,7 @@
     "pick_display": "Dallas Wings -9.5",
     "bet_type": "ATS",
     "line": -115.0,
-    "price": -115.0,
+    "price": -114.0,
     "handicap": null,
     "ccr": 7.2,
     "ccr_avg": 7.2,
@@ -4531,7 +4531,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "f4a2b12d6ba0a0edbcd9672174db7984130a569afd6f5733a4088447c4c2cbd8"
   },
@@ -4573,7 +4573,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "bcf9c9678fec654594eb8f4a09ec45742a8d3d53eff7202ab506b2ae0620a037"
   },
@@ -4699,7 +4699,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "9f9b0cd8751d9e3f30ff043559df45275c211a49d98ad99b8e3e59c1f9edb535"
   },
@@ -4762,7 +4762,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "f13795f69dbbe63e50dd2cfce6b1267e36024dc16a3cace09ef339f2afab5565"
   },
@@ -4845,8 +4845,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.25,
+    "result": "W",
+    "profit_units": 0.6757,
     "odds_origin": "legacy_source_report",
     "hash_id": "f740ed47f0b4ef5f01f259094da019d727bb191ee525e796ddb16d86b64df403"
   },
@@ -4867,7 +4867,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.7692,
+    "profit_units": 0.9615,
     "odds_origin": "legacy_source_report",
     "hash_id": "ed5b31564bd7f68dca4b061890502c6e3ddd5279d0709cda0714aec393a39357"
   },
@@ -4909,7 +4909,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "fa4c7bc09b8e9cfa16f71322771956290e4ac62652a8d0e8c4876368b17c4da8"
   },
@@ -4930,7 +4930,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "7bf060a2de982d20605e7ad09629ae63dbe07f21558258b6e8afd3cf64196df6"
   },
@@ -5118,8 +5118,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.7875,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "b004184e2e11a27a7374ef812022e2d0a5938f6e77074edc351e991878e2297a"
   },
@@ -5307,8 +5307,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "L",
-    "profit_units": -1.25,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "unresolved",
     "hash_id": "8147336c51333848397fd850a2ff4d75f9d7c483483e411db34767f408fd49cf"
   },
@@ -5552,7 +5552,7 @@
     "pick_display": "Golden State Valkyries -9.5",
     "bet_type": "ATS",
     "line": -105.0,
-    "price": -105.0,
+    "price": -106.0,
     "handicap": null,
     "ccr": 6.5,
     "ccr_avg": 6.5,
@@ -5581,7 +5581,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "89683cb6d0b03f025bd9ed82c95f0185bd19874ee788f482c3fc18ce38e6bbf6"
   },
@@ -5644,7 +5644,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.4412,
+    "profit_units": 0.7353,
     "odds_origin": "legacy_source_report",
     "hash_id": "e7e868d49d159567dc39ad14583d8d831220db98fcb70338de968e144936a29d"
   },
@@ -5657,7 +5657,7 @@
     "pick_display": "Las Vegas Aces -9.5",
     "bet_type": "ATS",
     "line": -118.0,
-    "price": -118.0,
+    "price": -115.0,
     "handicap": null,
     "ccr": 6.75,
     "ccr_avg": 6.75,
@@ -5707,7 +5707,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.75,
+    "profit_units": 1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "dc037e1e923af8359480e4d0a5e5df6d0e7d58f122cc1bac33c20f898aaf056e"
   },
@@ -5728,7 +5728,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.5,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "037cffa466f0f835f55129591889827bd76f6fc6b2f7a13c6c7c707396999939"
   },
@@ -5875,7 +5875,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.8696,
+    "profit_units": 1.3043,
     "odds_origin": "legacy_source_report",
     "hash_id": "74b83507358a0a0c97da42b9989fd1d46869e68577c11b8e137165491b93a1b2"
   },
@@ -5896,7 +5896,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.625,
+    "profit_units": 0.8333,
     "odds_origin": "legacy_source_report",
     "hash_id": "5150cc3b08cdfd930fadcd780d13eb069a7d980c28f66eb569b3423e95829f8b"
   },
@@ -6035,7 +6035,7 @@
     "pick_display": "New York Liberty -12.5",
     "bet_type": "ATS",
     "line": -115.0,
-    "price": -115.0,
+    "price": -112.0,
     "handicap": null,
     "ccr": 6.583333333333333,
     "ccr_avg": 6.583333333333333,
@@ -6295,7 +6295,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.7812,
+    "profit_units": 1.1719,
     "odds_origin": "legacy_source_report",
     "hash_id": "6fc2087140586a1129a996fa5bcff89509a0159492c122c02d071ac01492d44d"
   },
@@ -6400,7 +6400,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "74fdd27b00e9135f579853385f0b176bba25c2572f4481bf3a649d5d2d635186"
   },
@@ -6442,7 +6442,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.4545,
+    "profit_units": 0.6061,
     "odds_origin": "legacy_source_report",
     "hash_id": "029445e5761bf99d3307fd944c4a5bbb60b998709b87afaba4a97f9f95f68670"
   },
@@ -6463,7 +6463,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5882,
+    "profit_units": 0.7353,
     "odds_origin": "legacy_source_report",
     "hash_id": "4f403e1f2050b0a29ce68dd8292e56b11e6e71ffbc291fb7da1a35465483c794"
   },
@@ -6505,7 +6505,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.7875,
+    "profit_units": 1.3125,
     "odds_origin": "legacy_source_report",
     "hash_id": "3f5998cf9cf83411c4b20c181a4684e3dab4acc5e9623b3b99c5c1e54427d74c"
   },
@@ -6715,7 +6715,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "1fa7ea6b1fe97bcf250b731bfdce5d79696c7f8db466cb46470d46251f0e9651"
   },
@@ -6736,7 +6736,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5769,
+    "profit_units": 0.9615,
     "odds_origin": "legacy_source_report",
     "hash_id": "1cb429cb9b70f8264eadbfa4b77ddb1f7f7eeb2b6d2e546effbc34348b18d92e"
   },
@@ -6862,7 +6862,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.9,
+    "profit_units": 1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "1ba1c6ab7c140a8596ed07297dce099a9e8b23fe51bee7ad3f365ae1c42b03af"
   },
@@ -6946,7 +6946,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.625,
+    "profit_units": 0.7812,
     "odds_origin": "legacy_source_report",
     "hash_id": "b4d2a98bc8a36edc128d64976c4fdf3ebe46b5efd9f7243fc80f58d6c85c8367"
   },
@@ -6988,7 +6988,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "56da5208c94ae4756096d50bbf5ce9d4d64ebb379eb33e3bc8dac76591f2f0cc"
   },
@@ -7072,7 +7072,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "c72d67ad398ce7ccc108699c8d5706cd54de7925fc86e12ea019597039fe5cd3"
   },
@@ -7093,7 +7093,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.25,
+    "profit_units": 0.3333,
     "odds_origin": "legacy_source_report",
     "hash_id": "ec83c70fabe1160b0cd4ca70c37c8ef484429590ae6a0a26c3d11e7a8bad3b88"
   },
@@ -7282,7 +7282,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5556,
+    "profit_units": 0.9259,
     "odds_origin": "legacy_source_report",
     "hash_id": "af0e43088c8ceb6f10638590a20c4b4110443901cd09f87180e4a207c7649d6c"
   },
@@ -7324,7 +7324,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.2727,
+    "profit_units": 0.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "61861abbe92f540be71359b7e75efd3291ef45fe29caac5df29cb0449947d11f"
   },
@@ -7387,7 +7387,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5,
+    "profit_units": 0.6667,
     "odds_origin": "legacy_source_report",
     "hash_id": "95ce0c220b2dfa73a1e5427358fcd58c148d33ff4c3a8cb471003a6cd5655fa0"
   },
@@ -7610,7 +7610,7 @@
     "pick_display": "Golden State Valkyries -12.5",
     "bet_type": "ATS",
     "line": -105.0,
-    "price": -105.0,
+    "price": -112.0,
     "handicap": null,
     "ccr": 6.25,
     "ccr_avg": 6.25,
@@ -7660,7 +7660,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "ec1d2f4547e583b2395938f0bc9b56e8928bea1102fa6f3b5db2baf2247a6e64"
   },
@@ -7828,7 +7828,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.9375,
+    "profit_units": 1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "3f2e1377ce7ff72df5d4527850074defe407d93c2f53d4dffe60f83ead6cf99d"
   },
@@ -7975,7 +7975,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -0.5,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "09f033741b1f6ca0773e441c069ac5d4a837081182bc3bd42b5e3deb85962c3f"
   },
@@ -8143,7 +8143,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "f68b3cdbbee188dea08d279b6a58595312f6ade36c93df7cf6b711b00bf721a5"
   },
@@ -8164,7 +8164,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -0.5,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "c79b5947301e4a82a48d7e756e7c63585e50c9d5530649090a762c9bb03e5529"
   },
@@ -8185,7 +8185,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "bd4ac7c865e8dbd1bfd72718f11fb85f673e32782d97956d45f73922407d8560"
   },
@@ -8331,8 +8331,8 @@
     "tier": "C",
     "edge": 0,
     "units": 0.75,
-    "result": "V",
-    "profit_units": 0.0,
+    "result": "W",
+    "profit_units": 0.625,
     "odds_origin": "legacy_source_report",
     "hash_id": "3e6551231308e051755570f1476c933add1d5670e3ee978456e1647269120cb7"
   },
@@ -8352,8 +8352,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "V",
-    "profit_units": 0.0,
+    "result": "L",
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "12be93cb926405fe327dde47ce5f4af028121f8d9287169b5d9e0d7593c016c4"
   },
@@ -8416,7 +8416,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5357,
+    "profit_units": 0.7143,
     "odds_origin": "legacy_source_report",
     "hash_id": "60731b5c66a97970fc11e8772da50568bb12ee132f815932f1c307a9823a54d7"
   },
@@ -8457,7 +8457,7 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
+    "result": "W",
     "profit_units": 0.969,
     "odds_origin": "legacy_source_report",
     "hash_id": "4489328127d1417a135f3bea2a93a90cc2228ca2efeacf49806db83dd24fe306"
@@ -8583,8 +8583,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "W",
-    "profit_units": 0.525,
+    "result": "L",
+    "profit_units": -2.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "646263492637ef830f21297d65f5a3b82bab6c0d2cd9ccbe17fcc47a36634151"
   },
@@ -8605,7 +8605,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "259e61e3cb0601f889685c912477df7f616ac72d15b5a8363fcfadb18a68fce4"
   },
@@ -8639,15 +8639,15 @@
     "pick_display": "Inter Miami CF ML",
     "bet_type": "ML",
     "line": -150.0,
-    "price": -150.0,
+    "price": -110.0,
     "handicap": null,
     "ccr": 7.33,
     "ccr_avg": 7.33,
     "tier": "B",
     "edge": 0,
     "units": 1.25,
-    "result": "V",
-    "profit_units": 0.0,
+    "result": "W",
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "2f2fbad01b2c398062e8b875a31f04ee3ab617431fb741b7136233ffdf339d7b"
   },
@@ -8667,8 +8667,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "L",
-    "profit_units": -0.5,
+    "result": "W",
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "2a76922625e3a33e59aa74974122c88161e64cab8467631470fe8fe541a3217a"
   },
@@ -8794,7 +8794,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.7407,
+    "profit_units": 0.8929,
     "odds_origin": "odds_api_backfill",
     "hash_id": "f81a3c07d0ae451b1ffcbe55f46a5d75cb6b4dd43acfba99ea014bf18976b590"
   },
@@ -8878,7 +8878,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.2778,
     "odds_origin": "legacy_source_report",
     "hash_id": "195a9b682cd6a7307826a42f500d505497ee0d202f600d024d7a95f33a39d510"
   },
@@ -9004,7 +9004,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "10fc0690dc69deacff0f02b892539e54920fd4f77d94ac4fdd354c29d2c1b8ef"
   },
@@ -9025,7 +9025,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.8696,
+    "profit_units": 1.2019,
     "odds_origin": "legacy_source_report",
     "hash_id": "c42ae4fe064706faf3dcc28dcf10b0d218e67e5878d52ecf1e4eab2054fe99b8"
   },
@@ -9067,7 +9067,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.6711,
+    "profit_units": 1.4423,
     "odds_origin": "legacy_source_report",
     "hash_id": "2b46b691f840f780224edde35f3abf693df73dbbf2ad6b694055e998509ae9fe"
   },
@@ -9109,7 +9109,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4386,
+    "profit_units": 0.7018,
     "odds_origin": "legacy_source_report",
     "hash_id": "c6fc48a935a7f50f862c5144e58fbd226166ae44fc74f638ec79a55a7eca1108"
   },
@@ -9130,7 +9130,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.1538,
     "odds_origin": "legacy_source_report",
     "hash_id": "2b557a2c6941b0a38e1c40bf5b6b9ce844cf5d2e3864969ee52df2442ef4c1c2"
   },
@@ -9214,7 +9214,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4854,
+    "profit_units": 0.625,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "eecb49d565d1905e5369df148241d758756db077ac26bd1197c041fd4e72b50f"
   },
@@ -9269,7 +9269,7 @@
     "pick_display": "Iga Swiatek ML",
     "bet_type": "ML",
     "line": -275.0,
-    "price": -275.0,
+    "price": -235.0,
     "handicap": null,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -9277,7 +9277,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.6364,
+    "profit_units": 0.7447,
     "odds_origin": "legacy_source_report",
     "hash_id": "32e9399d219fcb1ded55ee78420def7f900e927d1557d5af73816f1bf89eedfa"
   },
@@ -9340,7 +9340,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.3077,
+    "profit_units": 0.5208,
     "odds_origin": "legacy_source_report",
     "hash_id": "e24d0e512f51778ab1a52722401f56afd4b97ddd9ab61dad5e84deefe6292c7f"
   },
@@ -9382,7 +9382,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.625,
+    "profit_units": 1.0938,
     "odds_origin": "legacy_source_report",
     "hash_id": "ee8677fdee6a87c96c76f265642c5550e96afec1cbdbe416b12f2e3906f49475"
   },
@@ -9424,7 +9424,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.4673,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "218c2f0966de4059e01f47d3477625172e6874ca04dfd4fa3d7b4b9d2ceb2542"
   },
@@ -9508,7 +9508,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.8475,
+    "profit_units": 1.0593,
     "odds_origin": "legacy_source_report",
     "hash_id": "3aaec52635d75cadcf51ef5cb906c25a0bedaf234b2f391791f0e7be46d18864"
   },
@@ -9634,7 +9634,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "47d47bb55b0834a389612ed6e19e6fae89065242d8eb73b11426a2ab3d0f7542"
   },
@@ -9689,7 +9689,7 @@
     "pick_display": "Inter Miami CF ML",
     "bet_type": "ML",
     "line": 150.0,
-    "price": 150.0,
+    "price": 200.0,
     "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -9697,7 +9697,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.5,
+    "profit_units": 2.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "3ae35e98d4f1069ba726a13fd051100355f9fa8e82ec0932294f30e50909bbd7"
   },
@@ -9802,7 +9802,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.6818,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "5af12c3ceec09217b4680891e9c95cdbb29263c519a2d86b99c5c0e05df0497a"
   },
@@ -9920,7 +9920,7 @@
     "pick_display": "Oklahoma City Thunder ATS -15",
     "bet_type": "ATS",
     "line": -15.0,
-    "price": -15.0,
+    "price": -105.0,
     "handicap": -15.0,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -9928,7 +9928,7 @@
     "edge": 5.568,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.9524,
     "odds_origin": "odds_api_backfill",
     "hash_id": "ea7ec96573fd8b607514e4712a22106d9f6f6073b5f45ae77b5c2dd98bb4895e"
   },
@@ -9941,7 +9941,7 @@
     "pick_display": "Detroit Pistons ATS -3.5",
     "bet_type": "ATS",
     "line": -3.5,
-    "price": -3.5,
+    "price": -106.0,
     "handicap": -3.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -9949,7 +9949,7 @@
     "edge": 4.051,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.9434,
     "odds_origin": "odds_api_backfill",
     "hash_id": "991be9af13a2323584b6d3af8b089bad309fa393da443a0bb87b8cf28e3c583d"
   },
@@ -9991,7 +9991,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.8929,
+    "profit_units": 0.5068,
     "odds_origin": "legacy_source_report",
     "hash_id": "152e11647e5cfd9d9b16800c5041e272601460777734bb66693dcabae0bcafc2"
   },
@@ -10033,7 +10033,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.1667,
+    "profit_units": 0.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "08cb95e2e818cc957d31efe6f4bb36e963432dad223ba1a39dc6a020cd402d1d"
   },
@@ -10193,7 +10193,7 @@
     "pick_display": "Oklahoma City Thunder ATS -15.5",
     "bet_type": "ATS",
     "line": -15.5,
-    "price": -15.5,
+    "price": -105.0,
     "handicap": -15.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -10201,7 +10201,7 @@
     "edge": 5.014,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.9524,
     "odds_origin": "odds_api_backfill",
     "hash_id": "b93a7c9e269568b817f9bc884d7e622fcc39fc576ac9de11572b044c712e33b7"
   },
@@ -10222,7 +10222,7 @@
     "edge": 0.056,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6897,
+    "profit_units": 0.3448,
     "odds_origin": "legacy_source_report",
     "hash_id": "0723c78f4e30be5c884e3dbc1a3e82d9922964b4a3216781dcd3d650bf91a190"
   },
@@ -10243,7 +10243,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "4581baa6ffc7db284a01221055b6f919fd67990e4e40fe072eb4bab1e2bfdfb8"
   },
@@ -10264,7 +10264,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "bc4745792496933cf5ec0dcab7d2bb4fcb7aa082150971026145666c7b752146"
   },
@@ -10327,7 +10327,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.0,
     "odds_origin": "snapshot_median",
     "hash_id": "7873bfca2f81fec4fa1d184d22e8342d6d797a153aa383e1d2b5faa0912d82be"
   },
@@ -10348,7 +10348,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.2727,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "8d6a16439ca4e414c47427ae997cbc9232d56dc0671a17e33d28f1fc15af644e"
   },
@@ -10474,7 +10474,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.3947,
+    "profit_units": 0.5263,
     "odds_origin": "legacy_source_report",
     "hash_id": "38dfb0343a1be834ca1e3d8f999fd107caf87e53ca81750fa972a14359c09267"
   },
@@ -10516,7 +10516,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "c24495ec542fe9eb6940a6da7f95b91e2cf9e9c7db5264f71d94e17248e1c4f2"
   },
@@ -10537,7 +10537,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6897,
+    "profit_units": 0.8621,
     "odds_origin": "legacy_source_report",
     "hash_id": "27c5eef1f415c3a1bf56791dc41e1c812a07192dbf4103a2ea8b2e017d490317"
   },
@@ -10683,7 +10683,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "a7d4cdc1c8806edd33e57f733101af8f6e2d45af92b396346c7ac06fba9df5e8"
@@ -10894,7 +10894,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -0.75,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "0f2bc2f73e41286fdecf051db7ca234d29c14e1b37599998d1bf9a01040fea0e"
   },
@@ -10935,7 +10935,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "4fe684c102549c9d6b370ed80b0319bf5d293b81e688f75d4740f06ce1849a86"
@@ -11041,7 +11041,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.5263,
+    "profit_units": 0.5172,
     "odds_origin": "snapshot_median",
     "hash_id": "fb05ea5f41fd05465350a017b812143122f9208ba9ef6cdf0c115f2427141de7"
   },
@@ -11125,7 +11125,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "629e73ba6c62505fd770aa06f4bb415c0bdf3bed823787c7f80d2391cc81ce7a"
   },
@@ -11188,7 +11188,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "73eadbd652a8f311884aa7eea77d78e641802fceab1fa70a1c6c0824317034f7"
   },
@@ -11201,7 +11201,7 @@
     "pick_display": "Boston Celtics ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -103.0,
     "handicap": -11.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -11230,7 +11230,7 @@
     "edge": -0.01,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4082,
+    "profit_units": 0.3061,
     "odds_origin": "legacy_source_report",
     "hash_id": "b9a4ad88a469eeb8d3bf3aca1f8f6c96f54d9fbe4eb0dab13cf0172145ee73a4"
   },
@@ -11243,7 +11243,7 @@
     "pick_display": "San Antonio Spurs ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -105.0,
     "handicap": -11.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -11251,7 +11251,7 @@
     "edge": 1.181,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4762,
     "odds_origin": "odds_api_backfill",
     "hash_id": "e816a6a1c537b1d2ce72808aae754ae623e7b839ce73224f913be4cf326cd82b"
   },
@@ -11335,7 +11335,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.2727,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "03de31998b289d3c5de9243b60200834e1cf0f2ebd98952ba4630832d67658fd"
   },
@@ -11390,7 +11390,7 @@
     "pick_display": "Vegas Golden Knights ML",
     "bet_type": "ML",
     "line": -115.0,
-    "price": -115.0,
+    "price": -114.0,
     "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -11398,7 +11398,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.8696,
+    "profit_units": 1.0965,
     "odds_origin": "legacy_source_report",
     "hash_id": "066d4a8aefe4f5341678eee09cc80063930e1970e05136b543a5522b95aea8d6"
   },
@@ -11419,7 +11419,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "764d256703ecfe95268e069df83f55e883e56e0149c7c7741dc31e63a79cbae2"
   },
@@ -11440,7 +11440,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6061,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "3bc3b2618b96a601b80503448c1e2a797fcded2e825f1fb25202d0383d816d84"
   },
@@ -11482,7 +11482,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6906,
+    "profit_units": 0.4144,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "10a8c9422facf551760fca7ef13bd4566a68eb600efc71615b92bfee636981d0"
   },
@@ -11503,7 +11503,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.1667,
+    "profit_units": 0.1944,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "d3596e46c21ca78b5a416779f842521cf3463ea8b8c9bfb81885511fc38fcf52"
   },
@@ -11524,7 +11524,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.7143,
+    "profit_units": 0.8571,
     "odds_origin": "legacy_source_report",
     "hash_id": "06ddb3a22e972f728d97867d036abcafaf6836c0511a015d4dc2423943bae305"
   },
@@ -11566,7 +11566,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 1.1364,
     "odds_origin": "legacy_source_report",
     "hash_id": "17e391575aa224c27ee458d8e673e719b77f881e64bd17ff69b6f4925d88ed33"
   },
@@ -11650,7 +11650,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -2.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "da6ab4ac9b22841e5bf9c36e615a2198bab032c7bab0b217ac9691b03a2b72e1"
   },
@@ -11734,7 +11734,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.75,
+    "profit_units": 1.5909,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "e746bc4e5fb7ea83eee8fdd74b420ced8665913181af9ea72268948361369a08"
   },
@@ -11797,7 +11797,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6649,
+    "profit_units": 0.5319,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "5a366f2ef1c5ae0a6d1286501c1d2365c413ffa21cd8d834191b79e7cf3fa69a"
   },
@@ -11818,7 +11818,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 0.5714,
+    "profit_units": 0.0222,
     "odds_origin": "snapshot_median",
     "hash_id": "d5e55679cc1aa0cc35e8c06418173d4a418f51f36c5bf07cf5f4b99bb5173c0f"
   },
@@ -11923,7 +11923,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 2.4,
+    "profit_units": 1.5,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "a4eed2718bbc8eb62337bdd268ff98094b6b5c8c52cf7918a88360d11dede478"
   },
@@ -11965,7 +11965,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.7353,
+    "profit_units": 1.0294,
     "odds_origin": "legacy_source_report",
     "hash_id": "04d36a00ecd36132e815fc47ae274fe6b0620f25f2eed6074b0299dd55554aa6"
   },
@@ -12007,7 +12007,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5556,
+    "profit_units": 0.9259,
     "odds_origin": "legacy_source_report",
     "hash_id": "02a8b2a1713dd2b5d8e3378c43b2e195b38eb8e066b94135bff5d37f9e9c77e8"
   },
@@ -12091,7 +12091,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "625363dd519cc5461fe3ad178621341d0cf3c9b720d3ca0f13758895861cf67c"
   },
@@ -12104,7 +12104,7 @@
     "pick_display": "Oklahoma City Thunder ATS -17",
     "bet_type": "ATS",
     "line": -17.0,
-    "price": -17.0,
+    "price": -102.0,
     "handicap": -17.0,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -12112,7 +12112,7 @@
     "edge": 10.879,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "odds_api_backfill",
     "hash_id": "e0a9e3e1cbd3e1176ae39fc9dc68911ddbaae0703b6e60e929fd6071a0a837d4"
   },
@@ -12125,7 +12125,7 @@
     "pick_display": "Detroit Pistons ATS -8.5",
     "bet_type": "ATS",
     "line": -8.5,
-    "price": -8.5,
+    "price": -110.0,
     "handicap": -8.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -12133,7 +12133,7 @@
     "edge": 4.25,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.6818,
     "odds_origin": "odds_api_backfill",
     "hash_id": "1ffa3ad7bc040451a182bf90ea0963c6b0c025d43b2ea206e14b08b10313c7cc"
   },
@@ -12175,7 +12175,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.6818,
+    "profit_units": 1.1364,
     "odds_origin": "legacy_source_report",
     "hash_id": "03676dd89de0db7911f32e424df62bfe76df2aa52e92d705f76dd6343ae0e1d9"
   },
@@ -12196,7 +12196,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "502e230ed7de11e400742a76e72f6be55183ea249b880508332e222333307e42"
   },
@@ -12272,7 +12272,7 @@
     "pick_display": "Los Angeles Lakers ATS +5",
     "bet_type": "ATS",
     "line": 5.0,
-    "price": 5.0,
+    "price": -102.0,
     "handicap": 5.0,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -12280,7 +12280,7 @@
     "edge": 8.447,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.7353,
     "odds_origin": "odds_api_backfill",
     "hash_id": "555692f6dd72321967d4592ecc72e0fa7066e7d06bb908fcafab6a1701bd961f"
   },
@@ -12293,7 +12293,7 @@
     "pick_display": "San Antonio Spurs ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -111.0,
     "handicap": -11.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -12301,7 +12301,7 @@
     "edge": 1.181,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "odds_api_backfill",
     "hash_id": "a5f5af1542fa56c21d56c2c272d32cc9df097a7c39dbdb0a8dc8e26150c91d43"
   },
@@ -12490,7 +12490,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "5e818e69e891a541a6c5483cb1f6f4b0d3cec202927a9770636756805afce341"
   },
@@ -12545,7 +12545,7 @@
     "pick_display": "Oklahoma City Thunder ATS -14.5",
     "bet_type": "ATS",
     "line": -14.5,
-    "price": -14.5,
+    "price": -102.0,
     "handicap": -14.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -12553,7 +12553,7 @@
     "edge": 8.379,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.4706,
     "odds_origin": "legacy_source_report",
     "hash_id": "3405cad36df0dca7e1c18f53c82ac5d4747597f708cfe40df5919a2a838cba89"
   },
@@ -12566,7 +12566,7 @@
     "pick_display": "Boston Celtics ATS -12.5",
     "bet_type": "ATS",
     "line": -12.5,
-    "price": -12.5,
+    "price": -110.0,
     "handicap": -12.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -12574,7 +12574,7 @@
     "edge": 5.523,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "odds_api_backfill",
     "hash_id": "dd22b27a38b1c233bb85cd38526bcf3f4ccb76d20646c0a11702eeb36d229f55"
   },
@@ -12587,7 +12587,7 @@
     "pick_display": "Detroit Pistons ATS -8.5",
     "bet_type": "ATS",
     "line": -8.5,
-    "price": -8.5,
+    "price": -110.0,
     "handicap": -8.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -12595,7 +12595,7 @@
     "edge": 4.25,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "b3c0ecbcd919cd24a129f5ff89caff78d66768650c470b24861af049203db752"
   },
@@ -12608,7 +12608,7 @@
     "pick_display": "San Antonio Spurs ATS -11",
     "bet_type": "ATS",
     "line": -11.0,
-    "price": -11.0,
+    "price": -105.0,
     "handicap": -11.0,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -12616,7 +12616,7 @@
     "edge": 1.681,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4762,
     "odds_origin": "legacy_source_report",
     "hash_id": "974455856d497e18c88a20b83397fe6d9b4a78389859691ccf3ea3ba230ce1a1"
   },
@@ -12658,7 +12658,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "d89ae6a3c672b46f5bc5952e39347f4ab29603aa9efc88f8016f72e498fa1889"
   },
@@ -12818,7 +12818,7 @@
     "pick_display": "New York Yankees ML",
     "bet_type": "ML",
     "line": -240.0,
-    "price": -240.0,
+    "price": 123.0,
     "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -12868,7 +12868,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "143f71a1b19c62e48c47963f041754b6d3ca07085dfe8b3a14fcd929ddf74f74"
   },
@@ -12889,7 +12889,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "8e4726a68ea09732382551f3c518ee4be16b37d123aee9a384920d9798443fda"
   },
@@ -12923,7 +12923,7 @@
     "pick_display": "Orlando Magic +3.5",
     "bet_type": "ATS",
     "line": 13.5,
-    "price": 13.5,
+    "price": -115.0,
     "handicap": null,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -12973,7 +12973,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.25,
+    "profit_units": -1.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "47aede329be9e5d1861ffa142cccdfd196c9e9cd353e3ec5a97381c4b9e5d2d5"
   },
@@ -13120,7 +13120,7 @@
     "edge": 0.105,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "9dfa5ea4585a482b497c0c5c75a8150228363984297536ea149cf90b1c657fd8"
   },
@@ -13288,7 +13288,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.8929,
     "odds_origin": "legacy_source_report",
     "hash_id": "760ecd8917b2e0c4a68cb0230d6994fa85a2ccaf3bc94e099c5e330e0f172cfb"
   },
@@ -13351,7 +13351,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4587,
+    "profit_units": 0.6881,
     "odds_origin": "legacy_source_report",
     "hash_id": "2938ae942dba85d668b11bda4c095e3e9c3cfbbccf0954fab3384841d2f9b2bf"
   },
@@ -13372,7 +13372,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "fd4e0d8548e318d856de2ee238f230934b4bb5267711aacc01f65dd5e0c2c9a9"
   },
@@ -13427,7 +13427,7 @@
     "pick_display": "Portland Trail Blazers ATS -16.5",
     "bet_type": "ATS",
     "line": -16.5,
-    "price": -16.5,
+    "price": -110.0,
     "handicap": -16.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -13435,7 +13435,7 @@
     "edge": 8.895,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "ba7dce9b7cb1fc9e174e538c72000ce95c7b73ae581da86cd710d701a63bc7c7"
   },
@@ -13469,7 +13469,7 @@
     "pick_display": "San Antonio Spurs ATS -10.5",
     "bet_type": "ATS",
     "line": -10.5,
-    "price": -10.5,
+    "price": -110.0,
     "handicap": -10.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -13477,7 +13477,7 @@
     "edge": 4.684,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "626562ff6cbd11265bb935aecfbdd1e0fc4b81e48ad5629099c0ece3130a9066"
   },
@@ -13490,7 +13490,7 @@
     "pick_display": "Cleveland Cavaliers ATS -10.5",
     "bet_type": "ATS",
     "line": -10.5,
-    "price": -10.5,
+    "price": -110.0,
     "handicap": -10.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -13498,7 +13498,7 @@
     "edge": 1.968,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.6818,
     "odds_origin": "legacy_source_report",
     "hash_id": "01f3b3f4a2eee1030e888fc84d98782a44fab0b0abeb6c563355d4877a894829"
   },
@@ -13511,7 +13511,7 @@
     "pick_display": "Chicago Bulls ATS +6.5",
     "bet_type": "ATS",
     "line": 6.5,
-    "price": 6.5,
+    "price": -110.0,
     "handicap": 6.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -13519,7 +13519,7 @@
     "edge": 7.816,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "5c7d63bbf3a5b0982d4bb8cb82222ac3b42806a60f70c1ee680759de38c2deeb"
   },
@@ -13532,7 +13532,7 @@
     "pick_display": "Los Angeles Lakers ATS -13.5",
     "bet_type": "ATS",
     "line": -13.5,
-    "price": -13.5,
+    "price": -110.0,
     "handicap": -13.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -13540,7 +13540,7 @@
     "edge": 3.186,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "a900837012d9a855791e7db29ac0e56e79230025e6f66d6aff582a2e6ef11fe5"
   },
@@ -13561,7 +13561,7 @@
     "edge": 0.419,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "31fe60d14c600b76eac5943d8290b13db2e1dc5a50b8a8a25aece730026874df"
   },
@@ -13574,7 +13574,7 @@
     "pick_display": "Houston Rockets ATS -13.5",
     "bet_type": "ATS",
     "line": -13.5,
-    "price": -13.5,
+    "price": -110.0,
     "handicap": -13.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -13582,7 +13582,7 @@
     "edge": 0.086,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "29e2d4f2da91ee0bdc02fc83c6970339bc70bd0ada65b3e56997e9f70a565c96"
   },
@@ -13603,7 +13603,7 @@
     "edge": 0.067,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4082,
+    "profit_units": 0.2041,
     "odds_origin": "legacy_source_report",
     "hash_id": "cce843d1964e6334b7a8069f90a879e8c420fbb0b463e8c4728770a733747089"
   },
@@ -13624,7 +13624,7 @@
     "edge": 0.02,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4444,
+    "profit_units": 0.2222,
     "odds_origin": "legacy_source_report",
     "hash_id": "8f2dc9cdbf0e1d910b736c79882f86cf206a1799b25dbb054a503d787f06c0c3"
   },
@@ -13645,7 +13645,7 @@
     "edge": 0.017,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "c63748d81c3fbae288eb19ffa24eb69854edb184e5409148973d07069fa9313b"
   },
@@ -13666,7 +13666,7 @@
     "edge": 0.007,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5435,
+    "profit_units": 0.2717,
     "odds_origin": "legacy_source_report",
     "hash_id": "70228b76eff4dae5a37e738dd61f66fcdb206c1efc95e792d399e8b1da08ae6c"
   },
@@ -13707,7 +13707,7 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2282a060fd47d7fa58b45efbbbcc3849e4963279cf691ec3a540e2aaca74b06e"
@@ -13729,7 +13729,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "9e91d1bc46bd050705ad1637b478b2934fb8595c18d05cf67de3442ccf973237"
   },
@@ -13749,7 +13749,7 @@
     "tier": "",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "e537ab5e99705cca6f9a37dd4ec17457b7e6bfd7fce32fa255c6af7c8b5b99a4"
@@ -13792,7 +13792,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.25,
     "odds_origin": "legacy_source_report",
     "hash_id": "f86477751810e820ccbfd46b2a3f69b53cd52d4a1b74121850e47ad89efb7d1d"
   },
@@ -13812,7 +13812,7 @@
     "tier": "A",
     "edge": 0,
     "units": 2.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2a6309910f395f9278cf6dabaedb3abe331fe26905d34ed8d671e21db751690c"
@@ -13834,7 +13834,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5515,
+    "profit_units": 0.9191,
     "odds_origin": "legacy_source_report",
     "hash_id": "9fed05db2aa1df71f5178632ffa376387a195d35e7f84a6d8488c9a3c4b7b84f"
   },
@@ -13889,7 +13889,7 @@
     "pick_display": "Boston Celtics ATS -16.5",
     "bet_type": "ATS",
     "line": -16.5,
-    "price": -16.5,
+    "price": -112.0,
     "handicap": -16.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -13897,7 +13897,7 @@
     "edge": 9.048,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3393,
     "odds_origin": "odds_api_backfill",
     "hash_id": "f59be64d6c361e0f8431eec2ccb2d89f6a11a341473b30d47c5fa7602e8de5a1"
   },
@@ -13910,7 +13910,7 @@
     "pick_display": "Denver Nuggets ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -110.0,
     "handicap": -11.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -13931,7 +13931,7 @@
     "pick_display": "Milwaukee Bucks ATS -9.5",
     "bet_type": "ATS",
     "line": -9.5,
-    "price": -9.5,
+    "price": -112.0,
     "handicap": -9.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -13939,7 +13939,7 @@
     "edge": 5.376,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.8929,
     "odds_origin": "odds_api_backfill",
     "hash_id": "b109e1ea9c68e2f97fb1c07968b3a39e6bc9f1c7253e3ebecfb1082ac96a1c14"
   },
@@ -13952,7 +13952,7 @@
     "pick_display": "Houston Rockets ATS -10",
     "bet_type": "ATS",
     "line": -10.0,
-    "price": -10.0,
+    "price": -110.0,
     "handicap": -10.0,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -13960,7 +13960,7 @@
     "edge": 10.313,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "f4ab369152201fea33edabd6a677a33281cff6d4b9859f0cedeeaa365cdaefe9"
   },
@@ -13973,7 +13973,7 @@
     "pick_display": "Detroit Pistons ATS +5",
     "bet_type": "ATS",
     "line": 5.0,
-    "price": 5.0,
+    "price": -110.0,
     "handicap": 5.0,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -13981,7 +13981,7 @@
     "edge": 7.405,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "44b678f852431e96eafff6510df771086a79ac2b35df53ef3ff1dfc28e718fec"
   },
@@ -13994,7 +13994,7 @@
     "pick_display": "San Antonio Spurs ATS -17.5",
     "bet_type": "ATS",
     "line": -17.5,
-    "price": -17.5,
+    "price": -110.0,
     "handicap": -17.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -14002,7 +14002,7 @@
     "edge": 2.195,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "757d91f73b34b7caf33709f90b2a2651952be7a103ab3bcd491cb8c74314e2a5"
   },
@@ -14023,7 +14023,7 @@
     "edge": 0.055,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4545,
+    "profit_units": 0.2273,
     "odds_origin": "legacy_source_report",
     "hash_id": "a01877ec60a48e3dea4b40447d12e48d92b3631ae267ff1c39fdb2ad9d78926b"
   },
@@ -14057,7 +14057,7 @@
     "pick_display": "Atlanta Hawks ATS -7.5",
     "bet_type": "ATS",
     "line": -7.5,
-    "price": -7.5,
+    "price": -115.0,
     "handicap": -7.5,
     "ccr": 4.0,
     "ccr_avg": 4.0,
@@ -14065,7 +14065,7 @@
     "edge": 5.768,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4348,
     "odds_origin": "odds_api_backfill",
     "hash_id": "3106dce7eb3e9749d1f580169db96bcad189e5c8fbd0c6d6c7f250092ddf17af"
   },
@@ -14078,7 +14078,7 @@
     "pick_display": "Memphis Grizzlies ATS +3.5",
     "bet_type": "ATS",
     "line": 3.5,
-    "price": 3.5,
+    "price": -110.0,
     "handicap": 3.5,
     "ccr": 4.0,
     "ccr_avg": 4.0,
@@ -14086,7 +14086,7 @@
     "edge": 4.735,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "354db312c032afee6180dac106a6d3a3844f370f677118d032ca96a7a4a81d79"
   },
@@ -14149,7 +14149,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 1.0,
+    "profit_units": 1.1667,
     "odds_origin": "legacy_source_report",
     "hash_id": "7e813bf40416690b55de8535445d2514567a7728af4e67aa2bdea70ceda3002b"
   },
@@ -14246,7 +14246,7 @@
     "pick_display": "Houston Rockets ATS -3.5",
     "bet_type": "ATS",
     "line": -3.5,
-    "price": -3.5,
+    "price": -110.0,
     "handicap": -3.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -14267,7 +14267,7 @@
     "pick_display": "Los Angeles Lakers ATS +4.5",
     "bet_type": "ATS",
     "line": 4.5,
-    "price": 4.5,
+    "price": -110.0,
     "handicap": 4.5,
     "ccr": 4.0,
     "ccr_avg": 4.0,
@@ -14275,7 +14275,7 @@
     "edge": 5.867,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "ce3399bef8a976d72369d076b7028be9b2d5b7b39cd8c7bdbadb4f877385feeb"
   },
@@ -14288,7 +14288,7 @@
     "pick_display": "Miami Heat ATS +3.5",
     "bet_type": "ATS",
     "line": 3.5,
-    "price": 3.5,
+    "price": -110.0,
     "handicap": 3.5,
     "ccr": 4.0,
     "ccr_avg": 4.0,
@@ -14296,7 +14296,7 @@
     "edge": 4.611,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "197521d784a647bc2460f06cc989154a530462faf19757ab9ba58deb736259f8"
   },
@@ -14317,7 +14317,7 @@
     "edge": 0.024,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4082,
+    "profit_units": 0.2041,
     "odds_origin": "legacy_source_report",
     "hash_id": "4ba73e3cc10eb1e47d3082486aa2c9c68fe1c3f364a4b7d6e43a9ed196e438fa"
   },
@@ -14338,7 +14338,7 @@
     "edge": 0.02,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5556,
+    "profit_units": 0.2778,
     "odds_origin": "legacy_source_report",
     "hash_id": "19757028a6dbe0088ae87c4d6be9a4de8302f2ea0592be2f81795e7ead108b12"
   },
@@ -14359,7 +14359,7 @@
     "edge": 0.06,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6757,
+    "profit_units": 0.3378,
     "odds_origin": "legacy_source_report",
     "hash_id": "230d71c6e816524091df398c57920f9b37facad8b57aa08ca17f2e554ac96306"
   },
@@ -14380,7 +14380,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 1.1538,
+    "profit_units": 1.3462,
     "odds_origin": "legacy_source_report",
     "hash_id": "53d7040a3d4774a7bfd0097feb66b855378448ec6c6ff438e77d9ae5495128cd"
   },
@@ -14477,7 +14477,7 @@
     "pick_display": "San Antonio Spurs ATS -3.5",
     "bet_type": "ATS",
     "line": -3.5,
-    "price": -3.5,
+    "price": -110.0,
     "handicap": -3.5,
     "ccr": 9.0,
     "ccr_avg": 9.0,
@@ -14498,7 +14498,7 @@
     "pick_display": "Cleveland Cavaliers ATS -1.5",
     "bet_type": "ATS",
     "line": -1.5,
-    "price": -1.5,
+    "price": -110.0,
     "handicap": -1.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -14506,7 +14506,7 @@
     "edge": 4.757,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "b331066d1c2bdc218aef7b5542162e7b9e7861396748e59acca9ec3aecd9a282"
   },
@@ -14519,7 +14519,7 @@
     "pick_display": "Los Angeles Clippers ATS +7.5",
     "bet_type": "ATS",
     "line": 7.5,
-    "price": 7.5,
+    "price": -110.0,
     "handicap": 7.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -14540,7 +14540,7 @@
     "pick_display": "Minnesota Timberwolves ATS +6.5",
     "bet_type": "ATS",
     "line": 6.5,
-    "price": 6.5,
+    "price": -110.0,
     "handicap": 6.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -14548,7 +14548,7 @@
     "edge": 8.554,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "662dc9dd58d9dd296a1da440d73bbceacc825013ce4b3897b887ba951bd7160d"
   },
@@ -14561,7 +14561,7 @@
     "pick_display": "Phoenix Suns ATS -10.5",
     "bet_type": "ATS",
     "line": -10.5,
-    "price": -10.5,
+    "price": -110.0,
     "handicap": -10.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -14569,7 +14569,7 @@
     "edge": 2.914,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "d49e824f30384bf4f2c754ec939d3bd2ce40028a25a6d2db11c88905fa3d1e59"
   },
@@ -14687,7 +14687,7 @@
     "pick_display": "Golden State Warriors ATS -13.5",
     "bet_type": "ATS",
     "line": -13.5,
-    "price": -13.5,
+    "price": -110.0,
     "handicap": -13.5,
     "ccr": 9.0,
     "ccr_avg": 9.0,
@@ -14708,7 +14708,7 @@
     "pick_display": "New Orleans Pelicans ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -110.0,
     "handicap": -11.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -14716,7 +14716,7 @@
     "edge": 9.431,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.6818,
     "odds_origin": "legacy_source_report",
     "hash_id": "09246e94a1ad22159f9781c8ffd5d09254512010af0bd81f6d0f6f3ad697cea2"
   },
@@ -14737,7 +14737,7 @@
     "edge": 0.537,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "60f4ce24d15d385962b678aab83a0cff7587b948a66478710c34f84ba8eef73f"
   },
@@ -14758,7 +14758,7 @@
     "edge": 0.017,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5051,
+    "profit_units": 0.3788,
     "odds_origin": "legacy_source_report",
     "hash_id": "61367c4935c3e4a71e8a9a1dd08c39bbe00350fb4f8a5c7c424b6e376c586d68"
   },
@@ -14771,7 +14771,7 @@
     "pick_display": "Los Angeles Clippers ATS -11.5",
     "bet_type": "ATS",
     "line": -11.5,
-    "price": -11.5,
+    "price": -110.0,
     "handicap": -11.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -14779,7 +14779,7 @@
     "edge": 2.511,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "e2cab3ec62be6e3117494f8d4cfd2266572a1bb95f287b9b978842d0731a3d77"
   },
@@ -14800,7 +14800,7 @@
     "edge": 0.069,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "01c326a4813a3f10713d70cf85641358295c5a3150150b12851623a10c8bab56"
   },
@@ -14821,7 +14821,7 @@
     "edge": 0.004,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4484,
+    "profit_units": 0.2242,
     "odds_origin": "legacy_source_report",
     "hash_id": "587654fe2ce95f3403a5591ad5ab6276e55b30655bb3509a010e37169cda6b90"
   },
@@ -14842,7 +14842,7 @@
     "edge": 0.032,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "3e6b3ec0d1b3a128d159921ed9b7cc6d2c704df8961f8094ab918ba89a65e15d"
   },
@@ -14863,7 +14863,7 @@
     "edge": 0.002,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "611fd12c9cebc0371de00272789f4c69db7b65d1560a344e6dacae8669e844f2"
   },
@@ -15086,7 +15086,7 @@
     "pick_display": "Los Angeles Lakers ATS -2",
     "bet_type": "ATS",
     "line": -2.0,
-    "price": -2.0,
+    "price": -110.0,
     "handicap": -2.0,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -15094,7 +15094,7 @@
     "edge": 7.595,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "f22d97d41c9fa6bb13f647af830d3c3408433742c409da6e011523b43ed4ae96"
   },
@@ -15107,7 +15107,7 @@
     "pick_display": "Boston Celtics ATS -9.5",
     "bet_type": "ATS",
     "line": -9.5,
-    "price": -9.5,
+    "price": -110.0,
     "handicap": -9.5,
     "ccr": 8.0,
     "ccr_avg": 8.0,
@@ -15115,7 +15115,7 @@
     "edge": 4.538,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "af38c495b26823377f110c77b5c21c81a563ff682dd7c0e3afe4afa2b12ac33c"
   },
@@ -15128,7 +15128,7 @@
     "pick_display": "Cleveland Cavaliers ATS -15",
     "bet_type": "ATS",
     "line": -15.0,
-    "price": -15.0,
+    "price": -110.0,
     "handicap": -15.0,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -15136,7 +15136,7 @@
     "edge": 3.455,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "90c5203326876e817f5af2bf8b274061d80c860514f743e183d24389934dffd0"
   },
@@ -15149,7 +15149,7 @@
     "pick_display": "Minnesota Timberwolves ATS +2.5",
     "bet_type": "ATS",
     "line": 2.5,
-    "price": 2.5,
+    "price": -110.0,
     "handicap": 2.5,
     "ccr": 5.0,
     "ccr_avg": 5.0,
@@ -15157,7 +15157,7 @@
     "edge": 5.057,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "317b205b7a58b1b60246c351ba0bd3ef44883e222b71a18a341dcbc768d3e193"
   },
@@ -15178,7 +15178,7 @@
     "edge": 0.076,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5405,
+    "profit_units": 0.2703,
     "odds_origin": "legacy_source_report",
     "hash_id": "e213c76977f5ab770f545705d0a71d4f9d1fa43dce4d0dc5a21255dfa1fe1417"
   },
@@ -15191,7 +15191,7 @@
     "pick_display": "Washington Wizards ATS +3.5",
     "bet_type": "ATS",
     "line": 3.5,
-    "price": 3.5,
+    "price": -110.0,
     "handicap": 3.5,
     "ccr": 4.0,
     "ccr_avg": 4.0,
@@ -15199,7 +15199,7 @@
     "edge": 5.197,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "a209b26d7deafdd70f09d8c9a4fd42b612d55f03f15263ec1b273ec02b0df723"
   },
@@ -15220,7 +15220,7 @@
     "edge": 0.122,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4505,
+    "profit_units": 0.2252,
     "odds_origin": "legacy_source_report",
     "hash_id": "bf0ae365ca89aabd475f78e2af821069aca40104c76281e679f1858220a441ce"
   },
@@ -15241,7 +15241,7 @@
     "edge": 0.031,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.6452,
+    "profit_units": 0.3226,
     "odds_origin": "legacy_source_report",
     "hash_id": "b34888b5eb3d737b6a809bca17f9f91eee343a5d907972a20b75e4d26047a015"
   },
@@ -15388,7 +15388,7 @@
     "edge": 7.424,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "8f5dbe473c0fe883e0e3d4ea021c9975c0ab019c6c9afd0abe8fbfb27a0ace73"
   },
@@ -15401,7 +15401,7 @@
     "pick_display": "Miami Heat ATS -17.5",
     "bet_type": "ATS",
     "line": -17.5,
-    "price": -17.5,
+    "price": -110.0,
     "handicap": -17.5,
     "ccr": 6.0,
     "ccr_avg": 6.0,
@@ -15409,7 +15409,7 @@
     "edge": 16.828,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "ece8b5e9cbd0dae849d9c5c02a9151cc418cdb182e3ce98d8c7e03b6fdf41bbf"
   },
@@ -15430,7 +15430,7 @@
     "edge": 0.034,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.12,
+    "profit_units": 0.56,
     "odds_origin": "legacy_source_report",
     "hash_id": "98753d4d13af0536842353fcca1a93073d216909903ff0c410f6792679a9791b"
   },
@@ -15464,7 +15464,7 @@
     "pick_display": "Toronto FC ML",
     "bet_type": "ML",
     "line": 105.0,
-    "price": 105.0,
+    "price": -110.0,
     "handicap": null,
     "ccr": 7.17,
     "ccr_avg": 7.17,
@@ -15472,7 +15472,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.3125,
+    "profit_units": 1.8182,
     "odds_origin": "legacy_source_report",
     "hash_id": "71ffb660d929d93ff3675930f4c20dd15af76cdaaceb98173b695d56a3e2a6c2"
   },
@@ -15493,7 +15493,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -2.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "3d589845b20d1d025a35a34c592524656144d6385dec5bfcb8b7a5fe36c52f9f"
   },
@@ -15527,7 +15527,7 @@
     "pick_display": "Arango -3.5 Games",
     "bet_type": "ATS",
     "line": -110.0,
-    "price": -110.0,
+    "price": 100.0,
     "handicap": -3.5,
     "ccr": 9.0,
     "ccr_avg": 9.0,
@@ -15535,7 +15535,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 2.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "85a11bd494ee44905e60799cb586dc6b1f8a8ca77b14e379164786fe23408d4a"
   },
@@ -15619,7 +15619,7 @@
     "edge": 13.256,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "0cebe6cdb9e92b4d57ccd82f82eb67781ca9960d9c8039d15a37b81d91991de7"
   },
@@ -15640,7 +15640,7 @@
     "edge": 7.088,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "ea23b559ea1a4b23b3954e2e85c92718092f7d3adc8ff2cf89420a100a1b9eea"
   },
@@ -15661,7 +15661,7 @@
     "edge": 3.561,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "ca92de65543ded2aa13a9443f0b60b8ff1dbb22479bd859721d04fa54a940de4"
   },
@@ -15682,7 +15682,7 @@
     "edge": 0.079,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4,
+    "profit_units": 0.2,
     "odds_origin": "legacy_source_report",
     "hash_id": "fbc43a073e863e0cfb2a47851464fd475802cec81a1a86bdd15f2aec6e766784"
   },
@@ -15703,7 +15703,7 @@
     "edge": 0.003,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "4ecf2f01c6c3403a9b97234ab9e3686fcfe980dd6dcab3670aa55b31c9de68a9"
   },
@@ -15745,7 +15745,7 @@
     "edge": 13.256,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "5302c2a3838a8adf4e4f3574ff8272466f4f97dc6301dd6a4572341352845f92"
   },
@@ -15766,7 +15766,7 @@
     "edge": 0.002,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "db322c916fc8abc581680896b353fb503b7eff08817073cc720c72e383aab8de"
   },
@@ -15787,7 +15787,7 @@
     "edge": 5.6,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "a9a56c390c410154a5406b8d43f33751a91671e5f97be9da7faa3095b92ef782"
   },
@@ -15808,7 +15808,7 @@
     "edge": -0.003,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "f35d29659394c2510e54fc25e401354e6c3da221e92ae7357335e60b935944d1"
   },
@@ -15829,7 +15829,7 @@
     "edge": 5.6,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.8182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "1e7fadcd2fbc80e47fed3ef08e4b3fa27d8da65ddc3bf43cb18c8deb89927db4"
   },
@@ -15850,7 +15850,7 @@
     "edge": 0.083,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.4082,
+    "profit_units": 0.2041,
     "odds_origin": "legacy_source_report",
     "hash_id": "6ba611d4980c402bb108e36ae4306ff35196f5e7810971eed894cd393a0f6bfc"
   },
@@ -15892,7 +15892,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 0.6993,
+    "profit_units": 0.6119,
     "odds_origin": "legacy_source_report",
     "hash_id": "e4ac25d1879831d8d07537e0b29fad5f17cceb32f0ec514e9d4def3f751801bc"
   },
@@ -15913,7 +15913,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "a5c2ada23f12b6e8b030179efc2cc33ae392bb708326bc9929c63295064b7c2e"
   },
@@ -15934,7 +15934,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "4f56d16c6d6563e0b37ab2f7a49abc36c83556804649c396901e513d43bf4b55"
   },
@@ -15955,7 +15955,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.17647058823529,
+    "profit_units": 0.8824,
     "odds_origin": "legacy_source_report",
     "hash_id": "1e4b3b0769d7c8e7a1dd5f7834b39b27399b859bb11fe698b2ee6582c9827ecd"
   },
@@ -15976,7 +15976,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.0,
+    "profit_units": 1.4,
     "odds_origin": "legacy_source_report",
     "hash_id": "5f3fb2c3c36b69326c5305a2222ca73f2cfb73671ad8b2041db53bdefcb122e4"
   },
@@ -15997,7 +15997,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.0,
+    "profit_units": 1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "5cd044899fac01a8c8a64a0b2816bf37d253313e2628d287c04ff866f3e7ab75"
   },
@@ -16018,7 +16018,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "14e1df53d85c180ce1db84b592795317c97ae30cd8542d004ddebb2ff8fa795b"
   },
@@ -16102,7 +16102,7 @@
     "edge": 4.5,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "29775c082af6b0a3fa5ecfb416365488d4bcc78bae134e38627d31c8baceefe7"
   },
@@ -16123,7 +16123,7 @@
     "edge": 2.043,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "e07fdb23be2352ba1a789d9240b811246a6aad628f40433d086bc243bbd911ba"
   },
@@ -16144,7 +16144,7 @@
     "edge": 0.11,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.526315789473684,
+    "profit_units": 0.2632,
     "odds_origin": "legacy_source_report",
     "hash_id": "8ed40b22602630f0aa80d4d564e3790b48ce8aa2a20aeb17378b8d9b1965c588"
   },
@@ -16165,7 +16165,7 @@
     "edge": 0.02,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "7b0b5f47fc8bc5e51ab9ac0a46349483d488e1b1844e1c6222809b0fba093cba"
   },
@@ -16186,7 +16186,7 @@
     "edge": 0.004,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "9290ab2eaf42461f824c616d6ee964a04b8167a0ec0ae0f0eabebe76c583dfae"
   },
@@ -16207,7 +16207,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "df4f1fc2cb094289af1ede8eeb9c1af35993457b705ba1925ce8a3e308d260b2"
   },
@@ -16228,7 +16228,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "24691e6b764ae9a86e4bfefb2825b13588e238f349637c1982195ef6e1605f3c"
   },
@@ -16249,7 +16249,7 @@
     "edge": 5.405,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "c199de5335b2dffbe472277c25f2f80c3388f7b7c6bd239a6dd91edcf4b141a9"
   },
@@ -16270,7 +16270,7 @@
     "edge": 0.089,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "234366891931a756e6eb8f15e11701aef437217a343eac397d13bb0209364ce3"
   },
@@ -16291,7 +16291,7 @@
     "edge": 0.088,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.645161290322581,
+    "profit_units": 0.3226,
     "odds_origin": "legacy_source_report",
     "hash_id": "4e3cd1c812043bcc4d8f12a4d4701a427f330406926045c70f03bf53549264ac"
   },
@@ -16312,7 +16312,7 @@
     "edge": 0.102,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.1,
+    "profit_units": 0.55,
     "odds_origin": "legacy_source_report",
     "hash_id": "76ed658e729b034faac034f4d94cc90e9eba8c0f8c117202754bca93a7ecf2a3"
   },
@@ -16333,7 +16333,7 @@
     "edge": 0.088,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.1,
+    "profit_units": 0.55,
     "odds_origin": "legacy_source_report",
     "hash_id": "1df6e9e5abfdc4a919b00e41e8259f8f252e02bd6d735845e0e5edd81cd7ed0c"
   },
@@ -16354,7 +16354,7 @@
     "edge": 0.001,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.769230769230769,
+    "profit_units": 0.3846,
     "odds_origin": "legacy_source_report",
     "hash_id": "1afd475f34a69da30730708dda62a01b13732db26044d3565e2ef59dffadae34"
   },
@@ -16375,7 +16375,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.645161290322581,
+    "profit_units": 1.129,
     "odds_origin": "legacy_source_report",
     "hash_id": "5d8a6432cfcef531c6075ff127fb03e71cdb84b83ab72321f2515e73e2ab1c02"
   },
@@ -16396,7 +16396,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 0.952380952380952,
+    "profit_units": 0.8333,
     "odds_origin": "legacy_source_report",
     "hash_id": "96907f20548a15d0ac84cf41b142f6c9ec9b478fe857f604ffaf109da1931d71"
   },
@@ -16417,7 +16417,7 @@
     "edge": 9.157,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "16db838d6c5b5ac0fc917f3ae96f468be2c59988aec65aedeb72dee452f30444"
   },
@@ -16438,7 +16438,7 @@
     "edge": 7.38,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "a88d809e56d66084eca0e965e2893a7ca9678b96f5091298cb16adae6c72331a"
   },
@@ -16480,7 +16480,7 @@
     "edge": 5.039,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "8574354c0aea930c546dcdcc4590ae7bca05a461a6bc914b17f4272bc5db27ce"
   },
@@ -16501,7 +16501,7 @@
     "edge": 0.067,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.357142857142857,
+    "profit_units": 0.1786,
     "odds_origin": "legacy_source_report",
     "hash_id": "2b0764f68017aca6ed9ffd59d94e6f86578942556ef88d5f862f5efa349b7032"
   },
@@ -16543,7 +16543,7 @@
     "edge": 11.395,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "03a6a2dac8ca86447559a872bcb0608de73503b04f118307340de835cdb97775"
   },
@@ -16564,7 +16564,7 @@
     "edge": 5.302,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "4ac48a52182acffbba20e927a1695164fc02cedb74e0480c6ff6c26c884ee104"
   },
@@ -16585,7 +16585,7 @@
     "edge": 4.921,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "d7ff309a0f4407c76d085ef13c1fd502bc7c146a2bf0b3b412a3033d29242fd7"
   },
@@ -16606,7 +16606,7 @@
     "edge": -0.001,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.416666666666667,
+    "profit_units": 0.2083,
     "odds_origin": "legacy_source_report",
     "hash_id": "653dcb2c00ffc7c9a7e6a369ba67afc95a83160d2a56b7d4692d530a2b65d047"
   },
@@ -16627,7 +16627,7 @@
     "edge": 0.079,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.1,
+    "profit_units": 0.55,
     "odds_origin": "legacy_source_report",
     "hash_id": "7318838749c5ac55a22a0ce7defbeb55b4941f259b701f808dccc26743f9a951"
   },
@@ -16648,7 +16648,7 @@
     "edge": 0.07,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "a219fec707c05b8c74fba2bb886f028defa240d768e477460c96278ef0e6d7f6"
   },
@@ -16669,7 +16669,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "f12b35e287e9d6c730a06de87a8ff73326fd7cb3ac6196d333d674f3a4634607"
   },
@@ -16690,7 +16690,7 @@
     "edge": 7.879,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "0ce24a1a6c37091495378a85b665fb0d14736239ed287f81c5879606b28c1690"
   },
@@ -16711,7 +16711,7 @@
     "edge": 4.683,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "472765ec1ca3d84e5e5990400cad01c1b6c64e057dcc6539908da7caede7848c"
   },
@@ -16732,7 +16732,7 @@
     "edge": 0.004,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "84455986c04e87fc7ab5b46371f4c6755e4ce2e51e3ab1627b7fa23e8c29f0db"
   },
@@ -16753,7 +16753,7 @@
     "edge": 0.072,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.1,
+    "profit_units": 0.55,
     "odds_origin": "legacy_source_report",
     "hash_id": "94f0776ea94f7ab0d012061064b4d54c2f23584d0c87caf2cfe7a2a6a63f6851"
   },
@@ -16774,7 +16774,7 @@
     "edge": 0.062,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "61b1469545558291a87f07c0be8040b196fe0c1123b4242286641243da361db5"
   },
@@ -16795,7 +16795,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.518134715025907,
+    "profit_units": 0.6477,
     "odds_origin": "legacy_source_report",
     "hash_id": "e5f320e5b81635d92b573153c23bbe7fb356d10558b01afa5cedf793eec01b93"
   },
@@ -16816,7 +16816,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "49ed0f1d737c0191d4ff939487b47cb629605abb1a497caed9fed4ca57ce87a3"
   },
@@ -16837,7 +16837,7 @@
     "edge": 6.697,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "b00e81972e015f7dc06eb07e337244df5366b77f4fd7ce18f4f8d2296a35cb35"
   },
@@ -16858,7 +16858,7 @@
     "edge": 4.371,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "69b7d68fc0f2329f0225fb36094fcc77239930bd59a1d9b5da2de892876ed36e"
   },
@@ -16879,7 +16879,7 @@
     "edge": 5.056,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "61584e7243e9be1d64b02843e68e405e48b9bc1a0aae09c6e52556442a3d1ed2"
   },
@@ -16900,7 +16900,7 @@
     "edge": 0.028,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.465116279069767,
+    "profit_units": 0.3488,
     "odds_origin": "legacy_source_report",
     "hash_id": "3f45e0333f01b5b84d53912316e5e3ac4ca5cbb1922ff695773f6a9f35f1e263"
   },
@@ -16921,7 +16921,7 @@
     "edge": 6.214,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "672ab882f746a75b14478d682a2e727760c412e215a8805a3d82c39192181007"
   },
@@ -16942,7 +16942,7 @@
     "edge": 0.043,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.465116279069767,
+    "profit_units": 0.2326,
     "odds_origin": "legacy_source_report",
     "hash_id": "1ea6ca5572170c9790f63459ed1f463ac2c69c5c5ad1e43de938c1cee5ae2257"
   },
@@ -16963,7 +16963,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.806451612903226,
+    "profit_units": 1.4113,
     "odds_origin": "legacy_source_report",
     "hash_id": "7e916c1b262e856037e03eeac2bbfdaaf4db6f48015cf6a3fff2f95e372f2f76"
   },
@@ -16984,7 +16984,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "39521f769e7cb11686e5e631cce4b33410368066e43d6b98a236bf9ab06d3e24"
   },
@@ -17026,7 +17026,7 @@
     "edge": 5.328,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "d894c7e35e86a5102da9cd6dc0fd9ce33e208602be1019b73e09112305a997d8"
   },
@@ -17047,7 +17047,7 @@
     "edge": 0.046,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "26463a17a28b1ea013f48e1d6e73818833d5dd75fd3a47b46e3cfb6faacab861"
   },
@@ -17068,7 +17068,7 @@
     "edge": 6.328,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "346c208b9a0f4237f50638733f804414ead148efce2b648e0388fdad7c95a99e"
   },
@@ -17089,7 +17089,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.1628,
+    "profit_units": 0.8721,
     "odds_origin": "legacy_source_report",
     "hash_id": "509c5dfbc41a94639cb2ebaf10660c193848716a4ba588edd83ec58f0602aac2"
   },
@@ -17110,7 +17110,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.0811,
+    "profit_units": 0.9459,
     "odds_origin": "legacy_source_report",
     "hash_id": "198e097e5842a9815f90318eb9739cd7b0620190afff371a9fbec9f53b2ce9ff"
   },
@@ -17131,7 +17131,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "6a3a2258b687a7876f620890c14506ee07ff5f8ae54d6ec3e23d5809f616a465"
   },
@@ -17152,7 +17152,7 @@
     "edge": 7.812,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "91782f77576dcb75b4b0149a0fffc3d4225f972b9c62d9756b236b08841e22fc"
   },
@@ -17194,7 +17194,7 @@
     "edge": 4.319,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "72d9354d0b8603a5d12d855a7c7d6b2b6899c3167cf451bd024087aa5ba8b294"
   },
@@ -17215,7 +17215,7 @@
     "edge": 2.342,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "85054f1e8d730e4b3f1d0062ccc32a143193bc99b1096b52c48365fadd4da9b3"
   },
@@ -17236,7 +17236,7 @@
     "edge": 1.355,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "823423a4f44962069dd2165ece61cf28692656ab2f923fc37b30f164535f9f8b"
   },
@@ -17257,7 +17257,7 @@
     "edge": 0.067,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "8717aa8d9c21d95e7df1f1fe20d7c3efdb9c56eff38e0a8b353d58214af9b236"
   },
@@ -17278,7 +17278,7 @@
     "edge": 0.015,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5128,
+    "profit_units": 0.2564,
     "odds_origin": "legacy_source_report",
     "hash_id": "79c55b5931b9a2cacf02584d4b0ae85475ca1e671c28cc3e5056e0e76adc153d"
   },
@@ -17299,7 +17299,7 @@
     "edge": 5.948,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "bdde0005aceeb312b31bc2003573291e0e39931ead49a127c1874b84235bc2b1"
   },
@@ -17320,7 +17320,7 @@
     "edge": 4.91,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "b128c8215c38549f23f3099939278266738352a29392537239ee318ffcbae7ec"
   },
@@ -17341,7 +17341,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.5102,
+    "profit_units": 0.6378,
     "odds_origin": "legacy_source_report",
     "hash_id": "d98f09792f8adb2750fc2dddd9c6e29d597f48954ade3a5af0348b11389f44db"
   },
@@ -17362,7 +17362,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "L",
-    "profit_units": -2.0,
+    "profit_units": -1.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "bbd85f8d0158924f8fd5563b52e66ea719850a6c17c82d60971af3fdd9d976cb"
   },
@@ -17404,7 +17404,7 @@
     "edge": 6.971,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "3e5bd49bef7c56df2563d580239810541c32b6abba4a0581ba6578fee4059491"
   },
@@ -17425,7 +17425,7 @@
     "edge": 1.618,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "22fa584aff7d498777b112424a75cc147ee1a380e1c1155594883d03f07b2e22"
   },
@@ -17446,7 +17446,7 @@
     "edge": 5.586,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.4545,
     "odds_origin": "legacy_source_report",
     "hash_id": "fe99604de74d887e2a41dfc248dc6a0e9c3a94ef048d5f7930543488d3b876c2"
   },
@@ -17467,7 +17467,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.04166666666667,
+    "profit_units": 1.0417,
     "odds_origin": "legacy_source_report",
     "hash_id": "0ae6d92868f20c10e40ee304b4b8b6a61b1220e2eade00aeca20dc390d14f28f"
   },
@@ -17488,7 +17488,7 @@
     "edge": 11.605,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "8afc8b3997d28b9651c681d85953832bb15fe7464cdcdd408a84fc42d2789fce"
   },
@@ -17509,7 +17509,7 @@
     "edge": 8.405,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "aa31812911f3d4f3d5b933c7db2655111a58a328df9c80b0da22140f1bc3ea5d"
   },
@@ -17530,7 +17530,7 @@
     "edge": 6.714,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "dccf12f5e3e0329327271cc81533e2637cf083ca378d7d61c0ee0a7964a6a9d6"
   },
@@ -17551,7 +17551,7 @@
     "edge": 7.863,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.75,
     "odds_origin": "legacy_source_report",
     "hash_id": "1b8c1fe1188c834b25b0882b758cceec3ab0bd95a2369eadbfa05cb34a8ef36f"
   },
@@ -17572,7 +17572,7 @@
     "edge": 2.558,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9091,
+    "profit_units": 0.6818,
     "odds_origin": "legacy_source_report",
     "hash_id": "fbf4c640b67bdad995075ac15c019076faf9b2a5ca202f17f0a93d87509773ba"
   },
@@ -17593,7 +17593,7 @@
     "edge": 2.557,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "8dfac4d6c3819cde29e12ad5f7be3db965e854cddc2e19c6f5215d39bdf5df41"
   },
@@ -17614,7 +17614,7 @@
     "edge": 0.029,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.645161290322581,
+    "profit_units": 0.3226,
     "odds_origin": "legacy_source_report",
     "hash_id": "b018aa29c73a12aa419baf3d2531d1f165ea17ad15ab7b4b75508d110e01d5e1"
   },
@@ -17635,7 +17635,7 @@
     "edge": 10.605,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "legacy_source_report",
     "hash_id": "37e66396b61bf35c38de5187ad08656d681f9077dbb5f9cab56275c7e60840f6"
   },
@@ -17656,7 +17656,7 @@
     "edge": 0.072,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.769230769230769,
+    "profit_units": 0.3846,
     "odds_origin": "legacy_source_report",
     "hash_id": "b1d27dc54ac5e8c5223bc4aa90d5becdb4421d448be64c7adf459c6959bf8108"
   },
@@ -17677,7 +17677,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.11111111111111,
+    "profit_units": 0.8333,
     "odds_origin": "legacy_source_report",
     "hash_id": "d70dcec1813d6573cf1aa4d5b8af3429b40198d68cc019e2ca010e3e70f0b338"
   },
@@ -17698,7 +17698,7 @@
     "edge": 6.713,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.6818,
     "odds_origin": "legacy_source_report",
     "hash_id": "ef99b2b07097ef798ed638dcbe5b2ed57b99db81c1127cba05ad00fde41a25b2"
   },
@@ -17719,7 +17719,7 @@
     "edge": 0.635,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.6818,
     "odds_origin": "legacy_source_report",
     "hash_id": "c6aa83c8e8dfe813293f50ef8da00ac9e9a61a2cfe41414e11e3261ba4c4d369"
   },
@@ -17740,7 +17740,7 @@
     "edge": 8.31,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "legacy_source_report",
     "hash_id": "8762fcb7a47697995473683207bc22217b4eb27d6a91bcbed13a19bd489aaf99"
   },
@@ -17761,7 +17761,7 @@
     "edge": 0.182,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.416666666666667,
+    "profit_units": 0.2083,
     "odds_origin": "legacy_source_report",
     "hash_id": "627d0346c958eda5cd66d810fc91cf016b53018498e8d4777aa3e98d15d60f60"
   },
@@ -17782,7 +17782,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.08108108108108,
+    "profit_units": 0.8108,
     "odds_origin": "legacy_source_report",
     "hash_id": "a03a3f37bbd2732bb9f36c2ce81ea616c7218cfed5e74c298ad7ffd463bc3353"
   },
@@ -17845,7 +17845,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "unresolved",
     "hash_id": "bbf09de5531fdb435c97e9ec3744643de4e57998ac33cf72ca868cb1ba2d79e7"
   },
@@ -17929,7 +17929,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -0.5,
     "odds_origin": "unresolved",
     "hash_id": "ef084dee7d6eab2c921fa8e2247ffb725fda03456b4f4b1d3a37f6f7d0f63252"
   },
@@ -18013,7 +18013,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.81818181818182,
+    "profit_units": 1.3636,
     "odds_origin": "ats_repaired_std110",
     "hash_id": "49a51c435c0a660a67db9b65cbcbf463635a4646aebabb6dbfe5138d803985cd"
   },
@@ -18034,7 +18034,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.909090909090909,
+    "profit_units": 0.9091,
     "odds_origin": "legacy_source_report",
     "hash_id": "8e9830350820078f88c331fe32c13be83154b774846273a2d3e1e944d42ef662"
   },
@@ -18076,7 +18076,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.490196078431373,
+    "profit_units": 0.2451,
     "odds_origin": "legacy_source_report",
     "hash_id": "a3e6d080cfd6d58a0b874b2b42217e3b21d51f72c07442f93765df5c43e0b2ff"
   },
@@ -18097,7 +18097,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.363636363636364,
+    "profit_units": 0.1818,
     "odds_origin": "legacy_source_report",
     "hash_id": "223fcf6d37af590dc562cffdf20d29762150a0e451008f11eeb6a1d09e6a9dcb"
   }
