@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-03T16:06:44.789881+00:00",
-  "iso_date": "2026-07-15",
-  "display_date": "Wed \u00b7 Jul 15, 2026",
+  "generated_at": "2026-08-04T15:12:24.676593+00:00",
+  "iso_date": "2026-07-18",
+  "display_date": "Sat \u00b7 Jul 18, 2026",
   "summary": {
     "wins": 0,
-    "losses": 1,
+    "losses": 3,
     "voids": 2,
-    "units_staked": 1.25,
-    "units_pl": -1.25,
-    "roi_pct": -100.0
+    "units_staked": 3.5,
+    "units_pl": -4.0,
+    "roi_pct": -114.29
   },
   "picks": [
     {
       "sport": "ATP",
-      "game": "Casper Ruud vs Alexander Bublik",
+      "game": "Casper Ruud vs Albert Ramos-Vinolas",
       "pick": "Casper Ruud ML",
       "bet_type": "ML",
       "odds": -180.0,
@@ -22,21 +22,41 @@
       "profit_units": 0.0
     },
     {
+      "sport": "MLB",
+      "game": "Detroit Tigers @ Los Angeles Angels",
+      "pick": "Tarik Skubal Over 8.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": 107.0,
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.75
+    },
+    {
+      "sport": "MMA",
+      "game": "Kamaru Usman vs Dricus Du Plessis",
+      "pick": "Dricus Du Plessis by KO/TKO",
+      "bet_type": "Method of Victory",
+      "odds": null,
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0
+    },
+    {
       "sport": "WNBA",
-      "game": "Los Angeles Sparks @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -11.5",
+      "game": "Portland Fire @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -13.5",
       "bet_type": "ATS",
-      "odds": -110.0,
+      "odds": -106.0,
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25
     },
     {
       "sport": "WTA",
-      "game": "Irina-Camelia Begu vs Jaqueline Cristian",
-      "pick": "Irina-Camelia Begu ML",
+      "game": "Player M vs Player N",
+      "pick": "Player M ML",
       "bet_type": "ML",
-      "odds": -200.0,
+      "odds": -170.0,
       "result": "V",
       "units": 1.0,
       "profit_units": 0.0
