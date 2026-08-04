@@ -275,10 +275,16 @@ document.getElementById('finder').addEventListener('change', function(){
       else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
     }
 
-    // Free-pick ledger record (picks.json — the public free ledger).
-    const wins = picks.filter(p => p.result === 'W').length;
-    const losses = picks.filter(p => p.result === 'L').length;
-    const units = picks.reduce((s,p) => {
+    // Free-pick ledger record: BEST rows only. Paid-card rows are a separate
+    // product and must never contaminate the free-pick trend.
+    const freePicks = picks.filter(p => p.sport === 'BEST');
+    const wins = freePicks.filter(p => p.result === 'W').length;
+    const losses = freePicks.filter(p => p.result === 'L').length;
+    // Real P&L from the ledger, not the stake — a win returns stake x price.
+    // See the longer note in index.html; the old ±stake math counted a -1560
+    // winner as +1.00u when it returned +0.13u.
+    const units = freePicks.reduce((s,p) => {
+      if (typeof p.profit_units === 'number') return s + p.profit_units;
       if (p.result === 'W') return s + Math.abs(p.units || 0);
       if (p.result === 'L') return s - Math.abs(p.units || 0);
       return s;
@@ -289,7 +295,7 @@ document.getElementById('finder').addEventListener('change', function(){
     if (units >= 0) uEl.classList.add('pos');
 
     // Current run + last 7 / last 21 (picks sorted newest-first)
-    const graded = picks.filter(p => p.result === 'W' || p.result === 'L');
+    const graded = freePicks.filter(p => p.result === 'W' || p.result === 'L');
     if (graded.length) {
       const top = graded[0].result;
       let run = 0;

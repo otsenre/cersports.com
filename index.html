@@ -1346,10 +1346,13 @@ function buildRecordFold(grid, total) {
 }
 
 function buildRecord(picks) {
+  // The public ledger on this page is the Free Pick lineage. Paid-card rows
+  // are a separate product and must not inflate the free record or its trends.
+  const freePicks = picks.filter(p => p.sport === 'BEST');
   const grid = document.getElementById('recordGrid');
   grid.innerHTML = '';
 
-  picks.forEach((p, i) => {
+  freePicks.forEach((p, i) => {
     const card = document.createElement('div');
     card.className = 'record-card' + (i >= RECORD_VISIBLE ? ' record-folded' : '');
     const resultClass = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
@@ -1372,29 +1375,47 @@ function buildRecord(picks) {
     grid.appendChild(card);
   });
 
-  buildRecordFold(grid, picks.length);
+  buildRecordFold(grid, freePicks.length);
 
   // Summary — public ledger entries include the daily BEST pick rows.
   // COMPUTED OVER THE FULL ARRAY, deliberately unaffected by the fold above.
-  const wins = picks.filter(p => p.result === 'W').length;
-  const losses = picks.filter(p => p.result === 'L').length;
+  const wins = freePicks.filter(p => p.result === 'W').length;
+  const losses = freePicks.filter(p => p.result === 'L').length;
   const total = wins + losses;
-  const units = picks.reduce((sum, p) => {
-    if (p.result === 'W') return sum + Math.abs(p.units || 0);
-    if (p.result === 'L') return sum - Math.abs(p.units || 0);
-    return sum;
-  }, 0);
+  // REAL P&L, from the ledger's own profit_units — not the stake.
+  //
+  // A win returns the stake TIMES THE PRICE: 1u at -200 returns +0.50u, at +150
+  // returns +1.50u. Only a LOSS costs the stake. The previous line counted every
+  // win as +stake, which overstated favourite wins and understated underdog wins
+  // — and this product leans on favourites, so it flattered. One example from
+  // the record: Alcaraz ML at -1560 won and was being counted as +1.00u when it
+  // actually returned +0.13u.
+  //
+  // picks.json now carries profit_units because it is a projection of the
+  // ledgers rather than a hand-maintained file. Rows without it are graded but
+  // unpriced; they are EXCLUDED from the units total and counted separately
+  // rather than silently treated as zero, because a missing price is not a
+  // break-even bet.
+  const gradedRows  = freePicks.filter(p => p.result === 'W' || p.result === 'L');
+  const pricedRows  = gradedRows.filter(p => typeof p.profit_units === 'number');
+  const units       = pricedRows.reduce((sum, p) => sum + p.profit_units, 0);
+  const unpricedCnt = gradedRows.length - pricedRows.length;
 
   if (total > 0) {
     document.getElementById('sumRecord').textContent = `${wins}-${losses}`;
-    document.getElementById('sumUnits').textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
+    // Disclose an incomplete denominator rather than quietly reporting a total
+    // that excludes rows. "n of m priced" is the honest form when some graded
+    // picks have no recorded price.
+    document.getElementById('sumUnits').textContent =
+      (units >= 0 ? '+' : '') + units.toFixed(1) + 'u'
+      + (unpricedCnt ? ` (${pricedRows.length}/${gradedRows.length} priced)` : '');
     document.getElementById('sumWinPct').textContent = Math.round((wins/total)*100) + '%';
     document.getElementById('recordSummary').style.display = 'flex';
     document.getElementById('statRecord').textContent = `${wins}-${losses}`;
     document.getElementById('statGames').textContent = total;
 
     // Current form — streak + last 7 / last 21 (picks arrive sorted newest-first)
-    const graded = picks.filter(p => p.result === 'W' || p.result === 'L');
+    const graded = freePicks.filter(p => p.result === 'W' || p.result === 'L');
     if (graded.length) {
       const top = graded[0].result;
       let run = 0;
@@ -1622,15 +1643,15 @@ async function loadThrowback() {
     const s = data.summary || {};
     const sumEl = document.getElementById('tbSummary');
     sumEl.innerHTML = `
-      <div><span class="sum-num white">${s.wins ?? 0}-${s.losses ?? 0}</span><span class="sum-label">Record</span></div>
+      <div><span class="sum-num white">${s.wins ?? 0}-${s.losses ?? 0}-${s.voids ?? 0}V${s.pushes ? `/${s.pushes}P` : ''}</span><span class="sum-label">Record</span></div>
       <div><span class="sum-num ${signClass(s.units_pl)}">${fmtSigned(s.units_pl, 2, 'u')}</span><span class="sum-label">Units</span></div>
       <div><span class="sum-num ${signClass(s.roi_pct)}">${fmtSigned(s.roi_pct, 2, '%')}</span><span class="sum-label">ROI</span></div>
     `;
 
     const picksEl = document.getElementById('tbPicks');
     picksEl.innerHTML = data.picks.map(p => {
-      const rc = p.result === 'W' ? 'result-w' : 'result-l';
-      const rt = p.result === 'W' ? 'WIN ✓' : 'LOSS';
+      const rc = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
+      const rt = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS' : p.result === 'V' ? 'VOID' : 'PUSH';
       const odds = (p.odds === null || p.odds === undefined) ? '—' :
                    (p.odds > 0 ? '+' + p.odds : String(p.odds));
       return `
