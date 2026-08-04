@@ -1,36 +1,18 @@
 {
-  "generated_at": "2026-08-04T15:12:24.676593+00:00",
+  "generated_at": "2026-08-04T20:22:00.598351+00:00",
   "iso_date": "2026-07-18",
   "display_date": "Sat \u00b7 Jul 18, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 3,
-    "voids": 2,
-    "units_staked": 3.5,
-    "units_pl": -4.0,
-    "roi_pct": -114.29
+    "wins": 1,
+    "losses": 5,
+    "voids": 0,
+    "pushes": 0,
+    "total_picks": 6,
+    "units_staked": 8.25,
+    "units_pl": -6.15,
+    "roi_pct": -74.55
   },
   "picks": [
-    {
-      "sport": "ATP",
-      "game": "Casper Ruud vs Albert Ramos-Vinolas",
-      "pick": "Casper Ruud ML",
-      "bet_type": "ML",
-      "odds": -180.0,
-      "result": "V",
-      "units": 1.0,
-      "profit_units": 0.0
-    },
-    {
-      "sport": "MLB",
-      "game": "Detroit Tigers @ Los Angeles Angels",
-      "pick": "Tarik Skubal Over 8.5 Pitcher Strikeouts",
-      "bet_type": "Prop",
-      "odds": 107.0,
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.75
-    },
     {
       "sport": "MMA",
       "game": "Kamaru Usman vs Dricus Du Plessis",
@@ -38,28 +20,64 @@
       "bet_type": "Method of Victory",
       "odds": null,
       "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "ad816cc6d722d0f6bde91916d848f9093a8df497b30305d8fcda7a156623075b"
     },
     {
       "sport": "WNBA",
       "game": "Portland Fire @ Minnesota Lynx",
       "pick": "Minnesota Lynx -13.5",
       "bet_type": "ATS",
-      "odds": -106.0,
+      "odds": "-106.0",
       "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25
+      "units": 2.0,
+      "profit_units": -2.0,
+      "hash_id": "a2aba81c86adac705e155d751c1627b4afe82d63964324e0078df1936c05b2aa"
     },
     {
-      "sport": "WTA",
-      "game": "Player M vs Player N",
-      "pick": "Player M ML",
+      "sport": "WNBA",
+      "game": "New York Liberty @ Indiana Fever",
+      "pick": "New York Liberty -2.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "c93d65443c1eccd97c390ce70f757724100d3022d3a45ac30122360cbe081e76"
+    },
+    {
+      "sport": "MMA",
+      "game": "Kamaru Usman vs Dricus Du Plessis",
+      "pick": "Dricus Du Plessis ML",
       "bet_type": "ML",
-      "odds": -170.0,
-      "result": "V",
+      "odds": "-250.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 0.6,
+      "hash_id": "6d215a17b936e2ae06f563aab08eb2795789870517683a06955e87d90bd438da"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Washington Mystics @ Golden State Valkyries",
+      "pick": "Golden State Valkyries -9.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "2cf533b28f59faa971be5b4717562f3bc3998af9fd129e32b83d3d5ce271d821"
+    },
+    {
+      "sport": "MMA",
+      "game": "Christian Leroy Duncan vs Jared Cannonier",
+      "pick": "Jared Cannonier ML",
+      "bet_type": "ML",
+      "odds": "310.0",
+      "result": "L",
       "units": 1.0,
-      "profit_units": 0.0
+      "profit_units": -1.0,
+      "hash_id": "b6877d90eb32c8fa9791e781c87e42d8d680edf89d71feaa4418a5e4eaa03216"
     }
   ]
 }
