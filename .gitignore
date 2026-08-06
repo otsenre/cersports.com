@@ -1,2 +1,11 @@
 
 *.deb
+
+# Pipeline byproducts (regenerated; never block the morning run gate)
+picks.generated.json
+picks.backup_*
+
+# Unreferenced legacy orphans (kept, not tracked)
+intro.png
+outro.png
+kickoff.html
