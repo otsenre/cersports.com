@@ -1,28 +1,39 @@
 {
-  "generated_at": "2026-08-05T19:59:53.974087+00:00",
+  "generated_at": "2026-08-06T11:39:42.767608+00:00",
   "iso_date": "2026-07-19",
   "display_date": "Sun \u00b7 Jul 19, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 3,
-    "voids": 0,
+    "wins": 1,
+    "losses": 1,
+    "voids": 2,
     "pushes": 0,
-    "total_picks": 3,
-    "units_staked": 4.0,
-    "units_pl": -4.0,
-    "roi_pct": -100.0
+    "total_picks": 4,
+    "units_staked": 2.75,
+    "units_pl": -0.01,
+    "roi_pct": -0.45
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Los Angeles Sparks @ Dallas Wings",
-      "pick": "Dallas Wings -10.5",
-      "bet_type": "ATS",
-      "odds": "-118.0",
-      "result": "L",
+      "sport": "ATP",
+      "game": "Casper Ruud vs Alexander Bublik",
+      "pick": "Casper Ruud ML",
+      "bet_type": "ML",
+      "odds": "-180.0",
+      "result": "V",
+      "units": 1.0,
+      "profit_units": 0.0,
+      "hash_id": "7fcc6198b728687b1bee12e9245ceda49ecbffdbe4ebb1316464ae23ac2fb5c3"
+    },
+    {
+      "sport": "MLB",
+      "game": "Pittsburgh Pirates @ Cleveland Guardians",
+      "pick": "Paul Skenes Over 7.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
+      "odds": "119.0",
+      "result": "W",
       "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "002e01957baa10f0885f4ed6c21f1cab48b3ea415678466e7d95271d113ab87b"
+      "profit_units": 1.4875,
+      "hash_id": "7eb9546870215ffd34eef95a2d616851963a1dfccbfc6dd1af43540be07a19ff"
     },
     {
       "sport": "WNBA",
@@ -36,15 +47,15 @@
       "hash_id": "b03c4087ff9ad24c7d7ae9f0eb6ec61375b1d0cfa78df9405be0e166ea3fb54b"
     },
     {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Phoenix Mercury",
-      "pick": "Connecticut Sun +4.5",
-      "bet_type": "ATS",
-      "odds": "-115.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "209930f851988bc9fb69fa1a89616ed3089409e8752fa07eb293d832828b3dc3"
+      "sport": "WTA",
+      "game": "Anhelina Kalinina vs Anna Blinkova",
+      "pick": "Anhelina Kalinina ML",
+      "bet_type": "ML",
+      "odds": "-160.0",
+      "result": "V",
+      "units": 1.0,
+      "profit_units": 0.0,
+      "hash_id": "5977f308fd34c991c13ed28e8133fa76f8bbb7566084ec85254dc068c420a738"
     }
   ]
 }
