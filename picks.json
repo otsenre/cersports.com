@@ -15,7 +15,7 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "pending",
+    "result": "V",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "b14d9e51170c72c6b7d7ac1795cb3f05d112dfdf22c1aca2bad2c9b6c832d7b0"
@@ -36,7 +36,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "pending",
+    "result": "W",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "6ce9fb0d756ab12a5c6fa0895fc3b0d85e22b1b44b955cf2c8316d44c82528c5"
@@ -57,7 +57,7 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "pending",
+    "result": "W",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "5b42af5aa4d74656c972e557ef03f81718296f3c4fc69c8e231fa13298d7a5d0"
@@ -78,7 +78,7 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "pending",
+    "result": "L",
     "profit_units": null,
     "odds_origin": "prop_board_exact",
     "hash_id": "f84e9f251d3002e21b56f8a8762ff3e0624abf5cf67b3544fdb2dba3765b44a7"
@@ -99,7 +99,7 @@
     "tier": "A",
     "edge": 0,
     "units": 2.0,
-    "result": "pending",
+    "result": "L",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "0e9687b9503d213322db7a6621d9247a3944783106df3d81f337109faa447d6c"
@@ -117,7 +117,7 @@
     "ccr": 6.5,
     "ccr_avg": 6.5,
     "tier": "B",
-    "result": null,
+    "result": "W",
     "units": 1.0,
     "hash_id": "e83e7412ade0a7d9b6235fdb6e11034acc5978ee8e1488818dfe7b15786f0854",
     "price": 104.0,
@@ -139,7 +139,7 @@
     "tier": "C",
     "edge": 0,
     "units": 0.75,
-    "result": "pending",
+    "result": "V",
     "profit_units": null,
     "odds_origin": "source_report",
     "hash_id": "de5685443e77cea65280c7f5c436fcc84a8047ffa5f2cf0ed00df37c029217e4"
@@ -10828,7 +10828,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "PUSH",
+    "result": "P",
     "profit_units": 0.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "a7d4cdc1c8806edd33e57f733101af8f6e2d45af92b396346c7ac06fba9df5e8"
@@ -11080,7 +11080,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.5,
-    "result": "PUSH",
+    "result": "P",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "4fe684c102549c9d6b370ed80b0319bf5d293b81e688f75d4740f06ce1849a86"
@@ -13852,7 +13852,7 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "PUSH",
+    "result": "P",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2282a060fd47d7fa58b45efbbbcc3849e4963279cf691ec3a540e2aaca74b06e"
@@ -13894,7 +13894,7 @@
     "tier": "",
     "edge": 0,
     "units": 1.0,
-    "result": "PUSH",
+    "result": "P",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "e537ab5e99705cca6f9a37dd4ec17457b7e6bfd7fce32fa255c6af7c8b5b99a4"
@@ -13957,7 +13957,7 @@
     "tier": "A",
     "edge": 0,
     "units": 2.0,
-    "result": "PUSH",
+    "result": "P",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2a6309910f395f9278cf6dabaedb3abe331fe26905d34ed8d671e21db751690c"
