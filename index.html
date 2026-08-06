@@ -682,6 +682,65 @@ footer {
   letter-spacing: 1px;
 }
 
+/* ── UNIFORM SCORECARDS ──
+   The free pick and the paid card are the SAME scorecard shape. Same table
+   columns, same band math, same benchmark line. "Paid card" and "Free pick"
+   differ only in which ledger they read — a visitor compares like for like. */
+.scorecard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+@media (max-width: 860px){ .scorecard-grid { grid-template-columns: 1fr; } }
+.scorecard-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 20px 22px;
+}
+.scorecard-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border2);
+}
+.scorecard-title { font-size: 15px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.scorecard-sub { font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.scorecard-table { width: 100%; border-collapse: collapse; font-family: 'Barlow Condensed', sans-serif; }
+.scorecard-table th, .scorecard-table td {
+  padding: 8px 6px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.scorecard-table th {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--border2);
+}
+.scorecard-table th:first-child, .scorecard-table td:first-child {
+  text-align: left; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; color: var(--muted); font-size: 10px; width: 82px;
+}
+.scorecard-note { margin-top: 12px; font-size: 10.5px; line-height: 1.5; color: var(--muted); }
+
+/* ── "WE WORK WITH DATA" / FIRES-AT PANEL ──
+   Public, corroborating evidence of the daily run: when it fired, what it
+   worked over, and what is expected next. Nothing here is proprietary — no
+   model names, no internal signals, no policy. The as-of line is load-bearing:
+   the ledger lags one grading cycle and every number on the page must agree. */
+.daypanel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; margin-top: 40px; }
+.daypanel-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.daypanel-h { font-size: 15px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+.daypanel-asof { font-size: 11px; color: var(--muted); letter-spacing: .05em; margin-bottom: 18px; }
+.daycell-k { display: block; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.daycell-v { display: block; font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.daycell-s { display: block; font-size: 10.5px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+.daypanel-foot { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border2); font-size: 11px; line-height: 1.6; color: var(--muted); }
+
 /* ── THROWBACK CARD ── */
 .throwback-section { background: var(--black); }
 .throwback-card {
@@ -1125,12 +1184,70 @@ footer {
   </div>
 </section>
 
-<!-- PERFORMANCE PANEL -->
+<!-- PERFORMANCE — UNIFORM SCORECARDS (free + paid, same shape) -->
 <section class="perf-section" id="performance">
   <div class="section-inner">
     <div class="section-label">System performance</div>
     <h2 class="section-title">THE <em>NUMBERS</em></h2>
-    <p class="section-body">Paid Card performance since the ledger anchor. The Free Pick record is tracked separately below from every issued free-pick row.</p>
+    <p class="section-body">One scorecard shape, two ledgers: the paid card and the free pick are read the same way — record, units, margin, and each benchmarked against the same indices.</p>
+
+    <div class="scorecard-grid">
+
+      <!-- PAID CARD SCORECARD (existing tearsheet + table, now inside the grid) -->
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">Paid Card</span>
+          <span class="scorecard-sub" id="paidSub">every published pick</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="paidTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>3-DAY</th>
+                <th>7-DAY</th>
+                <th>21-DAY</th>
+                <th>MTD</th>
+                <th>30-DAY</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="7" style="color:var(--muted);padding:14px;font-size:13px;">Loading paid card…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="paidNote">—</p>
+      </div>
+
+      <!-- FREE PICK SCORECARD (same shape, free ledger) -->
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">Free Pick</span>
+          <span class="scorecard-sub" id="freeSub">the one daily best pick</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="freeTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>3-DAY</th>
+                <th>7-DAY</th>
+                <th>21-DAY</th>
+                <th>MTD</th>
+                <th>30-DAY</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="7" style="color:var(--muted);padding:14px;font-size:13px;">Loading free pick…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="freeNote">—</p>
+      </div>
+
+    </div>
 
     <!-- SCREENSHOT-READY TEARSHEET. A capture gets separated from this page, so
          every number it shows must carry its own context: the product, the
@@ -1154,25 +1271,54 @@ footer {
       <div class="ts-foot" id="tsFoot">—</div>
     </div>
 
-    <div style="overflow-x:auto;">
-      <table class="perf-table" id="perfTable">
-        <thead>
-          <tr>
-            <th></th>
-            <th>3-DAY</th>
-            <th>7-DAY</th>
-            <th>21-DAY</th>
-            <th>MTD</th>
-            <th>30-DAY</th>
-            <th>ALL-TIME</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td colspan="6" style="color:var(--muted);padding:18px;font-size:13px;">Loading performance…</td></tr>
-        </tbody>
-      </table>
-    </div>
     <p class="perf-anchor-note" id="perfAnchor">—</p>
+  </div>
+</section>
+
+<!-- WE WORK WITH DATA — fires-at telemetry / process panel -->
+<section class="perf-section" id="dataday">
+  <div class="section-inner">
+    <div class="section-label">The daily run, in the open</div>
+    <h2 class="section-title">WE WORK <em>WITH DATA</em></h2>
+    <p class="section-body">What fired, when it fired, and what is expected next — from the day's actual run, not a fixed clock.</p>
+
+    <div class="daypanel" id="dayPanel" style="display:none;">
+      <div class="daypanel-h">Yesterday's run · <span id="dayAsOf">—</span></div>
+      <div class="daypanel-asof" id="dayAsofNote">Results as of the last completed grading cycle.</div>
+      <div class="daypanel-grid">
+        <div>
+          <span class="daycell-k">Site pushed</span>
+          <span class="daycell-v" id="dayFire">—</span>
+          <span class="daycell-s" id="dayFireS">when yesterday's run went live</span>
+        </div>
+        <div>
+          <span class="daycell-k">Day before</span>
+          <span class="daycell-v" id="dayFirePrior">—</span>
+          <span class="daycell-s">prior run fire</span>
+        </div>
+        <div>
+          <span class="daycell-k">Events evaluated</span>
+          <span class="daycell-v" id="dayEvents">—</span>
+          <span class="daycell-s" id="daySports">across the capping board</span>
+        </div>
+        <div>
+          <span class="daycell-k">Market offerings</span>
+          <span class="daycell-v" id="dayMarkets">—</span>
+          <span class="daycell-s">lines &amp; props scanned</span>
+        </div>
+        <div>
+          <span class="daycell-k">Model pickers</span>
+          <span class="daycell-v" id="dayPickers">—</span>
+          <span class="daycell-s">codenames only — never identities</span>
+        </div>
+        <div>
+          <span class="daycell-k">Card expected</span>
+          <span class="daycell-v" id="dayCardExp">—</span>
+          <span class="daycell-s" id="dayCardExpS">promised delivery window</span>
+        </div>
+      </div>
+      <div class="daypanel-foot" id="dayFoot">—</div>
+    </div>
   </div>
 </section>
 
@@ -1576,6 +1722,9 @@ function renderTearsheet(data) {
     n.textContent = txt;
     if (cls !== undefined) n.className = n.className.replace(/\b(pos|neg)\b/g, '') + ' ' + cls;
   };
+  // A prior render may have hidden this sheet (empty bands → hide-closed). A
+  // valid band must show it again — fill-and-hide must be symmetric.
+  el.style.display = 'block';
   set('tsReturn', fmtSigned(b.bankroll_return_pct, 2, '%'), signClass(b.bankroll_return_pct));
   set('tsBench', fmtSigned(b.spx_return_pct, 2, '%'), signClass(b.spx_return_pct));
   set('tsDiff', fmtSigned(b.vs_spx, 2, '%'), signClass(b.vs_spx));
@@ -1599,10 +1748,12 @@ function perfCell(b, value, digits, suffix) {
 }
 
 async function loadPerformance() {
+  if (siteDayRendered) return;
   try {
     const res = await fetch(PERF_URL + '?t=' + Date.now());
+    if (siteDayRendered) return; // site_day got it here first; don't overwrite authoritative cutoff
     const data = await res.json();
-    const tbody = document.querySelector('#perfTable tbody');
+    const tbody = document.querySelector('#paidTable tbody');
     if (!tbody || !data.bands) return;
     const bands = data.bands;
     const rows = [
@@ -1626,6 +1777,111 @@ async function loadPerformance() {
     }
   } catch (e) {
     console.error('perf load failed', e);
+  }
+}
+
+// ── UNIFORM SCORECARDS (paid + free) from site_day.json ──────────────────────
+// site_day.json is the authoritative source for BOTH scorecards AND the
+// tearsheet, because it applies the settled-cutoff rule (as_of lags one grading
+// cycle). performance.json does not apply that rule, so once site_day renders,
+// the legacy fetch must not overwrite it. `siteDayRendered` guards that.
+let siteDayRendered = false;
+// Both tables render with the IDENTICAL builder — same columns, same band math,
+// same empty-band handling as the tearsheet. The only difference is the ledger
+// each reads. A visitor comparing "free vs paid" reads like for like.
+function renderScorecardTable(tableId, bands) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  if (!tbody || !Array.isArray(bands)) return;
+  const rows = [
+    { label: 'RECORD',  cells: bands.map(b => bandIsEmpty(b) ? '<span class="perf-num perf-empty">&mdash;</span>' : `<span class="perf-num">${b.record}</span>`) },
+    { label: 'UNITS',   cells: bands.map(b => perfCell(b, b.units_pl, 2, 'u')) },
+    { label: 'MARGIN/BET', cells: bands.map(b => perfCell(b, b.roi_pct, 2, '%')) },
+    { label: 'vs S&P',  cells: bands.map(b => perfCell(b, b.vs_spx, 2, '%')) },
+    { label: 'vs DOW',  cells: bands.map(b => perfCell(b, b.vs_dji, 2, '%')) },
+    { label: 'vs NASDAQ', cells: bands.map(b => perfCell(b, b.vs_ndx, 2, '%')) },
+  ];
+  tbody.innerHTML = rows.map(r =>
+    `<tr><td>${r.label}</td>${r.cells.map(c => `<td>${c}</td>`).join('')}</tr>`
+  ).join('');
+}
+
+function scorecardNote(bands, as_of) {
+  const at = (bands || []).find(b => b.label === 'ALL-TIME');
+  if (!at || bandIsEmpty(at)) {
+    return `Ledger anchor ${'2026-04-01'} · no settled picks yet (as of ${as_of})`;
+  }
+  return `n=${at.n} settled · ${at.record} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. Every settled pick included; nothing excluded.`;
+}
+
+const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
+
+async function loadSiteDay() {
+  try {
+    const res = await fetch(SITE_DAY_URL + '?t=' + Date.now());
+    const d = await res.json();
+    if (!d || !d.scorecard) return;
+
+    const paid = d.scorecard.paid || {};
+    const free = d.scorecard.free || {};
+    renderScorecardTable('paidTable', paid.bands);
+    renderScorecardTable('freeTable', free.bands);
+    const note = (id, bands) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = scorecardNote(bands, d.as_of);
+    };
+    note('paidNote', paid.bands);
+    note('freeNote', free.bands);
+
+    // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
+    // SAME lagging cutoff as the tables so a screenshot never contradicts the
+    // page it came from.
+    renderTearsheet({ bands: paid.bands, as_of: d.as_of, anchor: d.anchor });
+    const anchor = document.getElementById('perfAnchor');
+    if (anchor && d.anchor && d.as_of) {
+      anchor.textContent = `Ledger anchor ${d.anchor} · As of ${d.as_of} (last completed grading cycle)`;
+    }
+
+    // ── fires-at / process panel ──
+    const panel = document.getElementById('dayPanel');
+    if (!panel) return;
+    const set = (id, txt) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = txt;
+    };
+    set('dayAsOf', d.as_of || '—');
+    const fire = d.fire || {};
+    const thisRun = fire.this_run || {};
+    const prior = fire.prior_run || {};
+    set('dayFire', thisRun.fire_pt || '—');
+    set('dayFirePrior', prior.fire_pt || '—');
+
+    const proc = d.process || {};
+    set('dayEvents', proc.events_evaluated != null ? proc.events_evaluated.toLocaleString() : '—');
+    const sports = (proc.sports || []);
+    set('daySports', sports.length
+      ? sports.join(' · ') + (proc.card_picks != null ? ` · ${proc.card_picks} on the card` : '')
+      : 'across the capping board');
+    set('dayMarkets', proc.market_offerings != null ? proc.market_offerings.toLocaleString() : '—');
+    set('dayPickers', d.pickers_contributing != null ? d.pickers_contributing + ' (6 active)' : '—');
+
+    const sched = d.schedule || {};
+    set('dayCardExp', sched.card_time ? (sched.free_pick_time ? sched.free_pick_time + ' → ' : '') + sched.card_time : '—');
+    set('dayCardExpS', sched.combined_label
+      ? sched.combined_label
+      : 'promised delivery window');
+
+    const drift = sched.drift_alarm_minutes;
+    set('dayAsofNote',
+      `Results as of the last completed grading cycle — picks settle on the run after they post.`
+      + (drift ? ` Promise tolerance ±${drift} min.` : ''));
+    set('dayFoot',
+      `Yesterday's run went live at the time shown, with the prior run's fire beside it for comparison. `
+      + `The card ships as soon as the day's slate satisfies its quality gate — an NFL night slate can fire later than an NBA morning one. `
+      + `All counts are from the day's actual run artifacts; nothing here is fabricated.`);
+    panel.style.display = 'block';
+    siteDayRendered = true;
+  } catch (e) {
+    console.error('site_day load failed', e);
   }
 }
 
@@ -1671,6 +1927,7 @@ async function loadThrowback() {
 }
 
 loadPerformance();
+loadSiteDay();
 loadThrowback();
 </script>
 </body>
