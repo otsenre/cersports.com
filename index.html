@@ -1805,12 +1805,15 @@ function renderScorecardTable(tableId, bands) {
   ).join('');
 }
 
-function scorecardNote(bands, as_of) {
+function scorecardNote(bands, as_of, product) {
   const at = (bands || []).find(b => b.label === 'ALL-TIME');
   if (!at || bandIsEmpty(at)) {
     return `Ledger anchor ${'2026-04-01'} · no settled picks yet (as of ${as_of})`;
   }
-  return `n=${at.n} settled · ${at.record} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. Every settled pick included; nothing excluded.`;
+  const what = product === 'paid'
+    ? 'Every settled paid-card pick included; nothing excluded.'
+    : 'Every settled free pick included; nothing excluded.';
+  return `n=${at.n} settled · ${at.record} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}`;
 }
 
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
@@ -1825,12 +1828,12 @@ async function loadSiteDay() {
     const free = d.scorecard.free || {};
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
-    const note = (id, bands) => {
+    const note = (id, bands, product) => {
       const el = document.getElementById(id);
-      if (el) el.textContent = scorecardNote(bands, d.as_of);
+      if (el) el.textContent = scorecardNote(bands, d.as_of, product);
     };
-    note('paidNote', paid.bands);
-    note('freeNote', free.bands);
+    note('paidNote', paid.bands, 'paid');
+    note('freeNote', free.bands, 'free');
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
