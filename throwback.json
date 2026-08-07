@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-08-06T17:01:28.767922+00:00",
-  "iso_date": "2026-07-30",
-  "display_date": "Thu \u00b7 Jul 30, 2026",
+  "generated_at": "2026-08-07T15:08:29.919807+00:00",
+  "iso_date": "2026-07-17",
+  "display_date": "Fri \u00b7 Jul 17, 2026",
   "summary": {
-    "wins": 3,
+    "wins": 2,
     "losses": 2,
-    "voids": 0,
+    "voids": 1,
     "pushes": 0,
     "total_picks": 5,
-    "units_staked": 7.0,
-    "units_pl": -0.01,
-    "roi_pct": -0.18
+    "units_staked": 4.5,
+    "units_pl": 0.87,
+    "roi_pct": 19.31
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Elina Svitolina vs Polina Kudermetova",
-      "pick": "Elina Svitolina -5.5 Games",
-      "bet_type": "ATS",
-      "odds": "-114.0",
-      "result": "L",
-      "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "5b087663713405454955b539d14bab456ddf1e7a45f130e5a73fd46c17c226dd"
-    },
-    {
-      "sport": "ATP",
-      "game": "Lorenzo Musetti vs Rafael Jodar",
-      "pick": "Lorenzo Musetti ML",
+      "sport": "MMA",
+      "game": "Damien Anderson vs Ezra Elliott",
+      "pick": "Damien Anderson ML",
       "bet_type": "ML",
-      "odds": "154.0",
+      "odds": "-135.0",
       "result": "L",
-      "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "feb442e6bc5449c54f192a6e095c7d897e3b01da462484cf9a8c918cdc871fe3"
-    },
-    {
-      "sport": "ATP",
-      "game": "Ben Shelton vs Ugo Humbert",
-      "pick": "Ben Shelton ML",
-      "bet_type": "ML",
-      "odds": "-190.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 0.7895,
-      "hash_id": "9aa14dc49931dadad463950c8ee0d1920f08fc32685dd1872ea3ecd7b3c3572b"
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "6b298cc424f5ff9e128e2198076b1de97c3bb47f9590e6c436150b2cc00cd121"
     },
     {
       "sport": "WNBA",
-      "game": "Minnesota Lynx @ Toronto Tempo",
-      "pick": "Minnesota Lynx -12.5",
+      "game": "Atlanta Dream @ Toronto Tempo",
+      "pick": "Atlanta Dream -9.5",
       "bet_type": "ATS",
       "odds": "-105.0",
       "result": "W",
       "units": 1.5,
       "profit_units": 1.4286,
-      "hash_id": "fb82f28877308f8dc7868df798bf6cc75b8f313f0d01e085c2bece7aaad7027e"
+      "hash_id": "edfaead915dca7b15088bdfd65068994364177ad2fefe0c7962f8aadc38ad54c"
     },
     {
-      "sport": "WTA",
-      "game": "Anastasia Potapova vs Diana Shnaider",
-      "pick": "Diana Shnaider ML",
+      "sport": "MMA",
+      "game": "Alvin Hines vs RJ Harris",
+      "pick": "Alvin Hines ML",
       "bet_type": "ML",
-      "odds": "-130.0",
+      "odds": "-145.0",
+      "result": "L",
+      "units": 0.75,
+      "profit_units": -0.75,
+      "hash_id": "340b948a8b740c07b17aaab522342b6788f10807752ac243a2210fd04f35d62e"
+    },
+    {
+      "sport": "MMA",
+      "game": "Jose Delgado vs Austin Bashi",
+      "pick": "Jose Delgado ML",
+      "bet_type": "ML",
+      "odds": "-115.0",
+      "result": "V",
+      "units": 0.75,
+      "profit_units": 0.0,
+      "hash_id": "226bd8448efcbd5fc4162e77ee33c13b69bebea52e7c1c60f6b6c1250978d986"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Phoenix Mercury",
+      "pick": "Connecticut Sun +4.5",
+      "bet_type": "ATS",
+      "odds": "-105.0",
       "result": "W",
-      "units": 1.0,
-      "profit_units": 0.7692,
-      "hash_id": "40539e8176ddcabd84d9f09505ebb64a884c9fd6e31bc1c726ad1f8bbdb0bca1"
+      "units": 1.25,
+      "profit_units": 1.1905,
+      "hash_id": "36fef9b28394c561ed86d547d5762cef69476d95bee430faf61f76677999ccb2"
     }
   ]
 }
