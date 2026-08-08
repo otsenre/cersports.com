@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-08-07T15:08:29.919807+00:00",
-  "iso_date": "2026-07-17",
-  "display_date": "Fri \u00b7 Jul 17, 2026",
+  "generated_at": "2026-08-08T16:52:14.216364+00:00",
+  "iso_date": "2026-07-22",
+  "display_date": "Wed \u00b7 Jul 22, 2026",
   "summary": {
     "wins": 2,
-    "losses": 2,
-    "voids": 1,
+    "losses": 3,
+    "voids": 0,
     "pushes": 0,
     "total_picks": 5,
-    "units_staked": 4.5,
-    "units_pl": 0.87,
-    "roi_pct": 19.31
+    "units_staked": 5.5,
+    "units_pl": -2.96,
+    "roi_pct": -53.77
   },
   "picks": [
     {
-      "sport": "MMA",
-      "game": "Damien Anderson vs Ezra Elliott",
-      "pick": "Damien Anderson ML",
-      "bet_type": "ML",
-      "odds": "-135.0",
+      "sport": "WNBA",
+      "game": "Las Vegas Aces @ Washington Mystics",
+      "pick": "Las Vegas Aces -6.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
+      "result": "L",
+      "units": 1.75,
+      "profit_units": -1.75,
+      "hash_id": "5835a1ed60bfe0432eaa2e66ea657b04516314fd032c38b5ecc92868bfe5bee5"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Seattle Storm",
+      "pick": "Minnesota Lynx -10.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "7fcfa201206337df1700990348c0c83d0ef078d41a01aa2a2febe3c3854f9221"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Dallas Wings @ Portland Fire",
+      "pick": "Dallas Wings -5.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
       "result": "L",
       "units": 1.0,
       "profit_units": -1.0,
-      "hash_id": "6b298cc424f5ff9e128e2198076b1de97c3bb47f9590e6c436150b2cc00cd121"
+      "hash_id": "968ca3d36d7dc9e699c83d4bec17c9f71d902d1bbceaa97a2e79d2ebb3390b38"
     },
     {
-      "sport": "WNBA",
-      "game": "Atlanta Dream @ Toronto Tempo",
-      "pick": "Atlanta Dream -9.5",
-      "bet_type": "ATS",
-      "odds": "-105.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.4286,
-      "hash_id": "edfaead915dca7b15088bdfd65068994364177ad2fefe0c7962f8aadc38ad54c"
-    },
-    {
-      "sport": "MMA",
-      "game": "Alvin Hines vs RJ Harris",
-      "pick": "Alvin Hines ML",
+      "sport": "MLB",
+      "game": "Pittsburgh Pirates @ New York Yankees",
+      "pick": "New York Yankees ML",
       "bet_type": "ML",
-      "odds": "-145.0",
-      "result": "L",
-      "units": 0.75,
-      "profit_units": -0.75,
-      "hash_id": "340b948a8b740c07b17aaab522342b6788f10807752ac243a2210fd04f35d62e"
-    },
-    {
-      "sport": "MMA",
-      "game": "Jose Delgado vs Austin Bashi",
-      "pick": "Jose Delgado ML",
-      "bet_type": "ML",
-      "odds": "-115.0",
-      "result": "V",
-      "units": 0.75,
-      "profit_units": 0.0,
-      "hash_id": "226bd8448efcbd5fc4162e77ee33c13b69bebea52e7c1c60f6b6c1250978d986"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Connecticut Sun @ Phoenix Mercury",
-      "pick": "Connecticut Sun +4.5",
-      "bet_type": "ATS",
-      "odds": "-105.0",
+      "odds": "-170.0",
       "result": "W",
-      "units": 1.25,
-      "profit_units": 1.1905,
-      "hash_id": "36fef9b28394c561ed86d547d5762cef69476d95bee430faf61f76677999ccb2"
+      "units": 1.0,
+      "profit_units": 0.5882,
+      "hash_id": "e20fc1a4fe162ae6596c272c9423f59cad893815ba8a0df4706c93e77c0e1c9e"
+    },
+    {
+      "sport": "MLB",
+      "game": "Chicago White Sox @ Texas Rangers",
+      "pick": "Chicago White Sox ML",
+      "bet_type": "ML",
+      "odds": "-110.0",
+      "result": "W",
+      "units": 0.5,
+      "profit_units": 0.4545,
+      "hash_id": "ab72c9863ec32425472d783272b9aded79622e84e718d294ba05e1e9785bd7ae"
     }
   ]
 }
