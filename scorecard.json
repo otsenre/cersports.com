@@ -1,0 +1,204 @@
+{
+  "contract": 1,
+  "generated_utc": "2026-08-09T02:44:01+00:00",
+  "products": {
+    "free": {
+      "label": "Free Pick of the Day",
+      "blurb": "every pick posted publicly",
+      "as_of": "2026-08-08",
+      "since": "2026-04-05",
+      "count_only": true,
+      "withheld_reason": "advised stake history under reconciliation",
+      "unresolved": 1,
+      "small_sample": false,
+      "bands": [
+        {
+          "label": "3D",
+          "record": "2-0",
+          "wins": 2,
+          "losses": 0,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 1,
+          "settled": 2,
+          "start": "2026-08-06",
+          "end": "2026-08-08"
+        },
+        {
+          "label": "7D",
+          "record": "4-2",
+          "wins": 4,
+          "losses": 2,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 1,
+          "settled": 6,
+          "start": "2026-08-02",
+          "end": "2026-08-08"
+        },
+        {
+          "label": "21D",
+          "record": "8-11",
+          "wins": 8,
+          "losses": 11,
+          "pushes": 0,
+          "voided": 1,
+          "unsettled": 1,
+          "settled": 19,
+          "start": "2026-07-19",
+          "end": "2026-08-08"
+        },
+        {
+          "label": "MTD",
+          "record": "4-3",
+          "wins": 4,
+          "losses": 3,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 1,
+          "settled": 7,
+          "start": "2026-08-01",
+          "end": "2026-08-08"
+        },
+        {
+          "label": "30D",
+          "record": "9-19",
+          "wins": 9,
+          "losses": 19,
+          "pushes": 0,
+          "voided": 1,
+          "unsettled": 1,
+          "settled": 28,
+          "start": "2026-07-10",
+          "end": "2026-08-08"
+        },
+        {
+          "label": "ALL-TIME",
+          "record": "55-67-1P",
+          "wins": 55,
+          "losses": 67,
+          "pushes": 1,
+          "voided": 3,
+          "unsettled": 1,
+          "settled": 123,
+          "start": "2026-04-05",
+          "end": "2026-08-08"
+        }
+      ],
+      "plain": "This product has 55-67-1P across 123 settled picks since 2026-04-05. Units and ROI are intentionally withheld while the advised stake history is reconciled. 1 pick(s) remain unresolved. 3 pick(s) were void.",
+      "today": {
+        "day": "2026-08-08",
+        "pick": "Cincinnati Reds ML",
+        "result": ""
+      }
+    },
+    "paid": {
+      "label": "Daily Card",
+      "blurb": "every pick sent to subscribers",
+      "as_of": "2026-08-08",
+      "since": "2026-03-20",
+      "count_only": false,
+      "withheld_reason": null,
+      "unresolved": 5,
+      "small_sample": false,
+      "bands": [
+        {
+          "label": "3D",
+          "record": "7-3",
+          "wins": 7,
+          "losses": 3,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 5,
+          "settled": 10,
+          "start": "2026-08-06",
+          "end": "2026-08-08",
+          "net_units": 3.8,
+          "roi_pct": 33.07,
+          "vs_all_time": "above"
+        },
+        {
+          "label": "7D",
+          "record": "16-11",
+          "wins": 16,
+          "losses": 11,
+          "pushes": 0,
+          "voided": 3,
+          "unsettled": 5,
+          "settled": 27,
+          "start": "2026-08-02",
+          "end": "2026-08-08",
+          "net_units": 5.79,
+          "roi_pct": 17.81,
+          "vs_all_time": "above"
+        },
+        {
+          "label": "21D",
+          "record": "35-28",
+          "wins": 35,
+          "losses": 28,
+          "pushes": 0,
+          "voided": 26,
+          "unsettled": 5,
+          "settled": 63,
+          "start": "2026-07-19",
+          "end": "2026-08-08",
+          "net_units": -0.78,
+          "roi_pct": -1.14,
+          "vs_all_time": "above"
+        },
+        {
+          "label": "MTD",
+          "record": "18-13",
+          "wins": 18,
+          "losses": 13,
+          "pushes": 0,
+          "voided": 5,
+          "unsettled": 5,
+          "settled": 31,
+          "start": "2026-08-01",
+          "end": "2026-08-08",
+          "net_units": 4.62,
+          "roi_pct": 12.66,
+          "vs_all_time": "above"
+        },
+        {
+          "label": "30D",
+          "record": "46-41",
+          "wins": 46,
+          "losses": 41,
+          "pushes": 0,
+          "voided": 36,
+          "unsettled": 5,
+          "settled": 87,
+          "start": "2026-07-10",
+          "end": "2026-08-08",
+          "net_units": -6.19,
+          "roi_pct": -6.57,
+          "vs_all_time": "below"
+        },
+        {
+          "label": "ALL-TIME",
+          "record": "381-306-4P",
+          "wins": 381,
+          "losses": 306,
+          "pushes": 4,
+          "voided": 64,
+          "unsettled": 5,
+          "settled": 691,
+          "start": "2026-03-20",
+          "end": "2026-08-08",
+          "net_units": -13.95,
+          "roi_pct": -1.74,
+          "vs_all_time": null
+        }
+      ],
+      "plain": "This product has made 691 picks since 2026-03-20. About 56 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
+      "today": {
+        "day": "2026-08-08",
+        "pick": "Iga Swiatek ML",
+        "result": "PENDING"
+      }
+    }
+  }
+}
