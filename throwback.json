@@ -1,72 +1,50 @@
 {
-  "generated_at": "2026-08-08T16:52:14.216364+00:00",
-  "iso_date": "2026-07-22",
-  "display_date": "Wed \u00b7 Jul 22, 2026",
+  "generated_at": "2026-08-09T09:21:24.674134+00:00",
+  "iso_date": "2026-08-06",
+  "display_date": "Thu \u00b7 Aug 6, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 3,
+    "wins": 3,
+    "losses": 0,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 5.5,
-    "units_pl": -2.96,
-    "roi_pct": -53.77
+    "total_picks": 3,
+    "units_staked": 3.5,
+    "units_pl": 2.97,
+    "roi_pct": 84.92
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Washington Mystics",
-      "pick": "Las Vegas Aces -6.5",
-      "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "L",
-      "units": 1.75,
-      "profit_units": -1.75,
-      "hash_id": "5835a1ed60bfe0432eaa2e66ea657b04516314fd032c38b5ecc92868bfe5bee5"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Seattle Storm",
-      "pick": "Minnesota Lynx -10.5",
-      "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "L",
+      "sport": "MLB",
+      "game": "Miami Marlins @ Atlanta Braves",
+      "pick": "Atlanta Braves ML",
+      "bet_type": "ML",
+      "odds": "-138.0",
+      "result": "W",
       "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "7fcfa201206337df1700990348c0c83d0ef078d41a01aa2a2febe3c3854f9221"
+      "profit_units": 0.9058,
+      "hash_id": "20d3791742eaf129d74fc4122d73bef108f0c4bbcd1b6da048d2771c342c912f"
     },
     {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Portland Fire",
-      "pick": "Dallas Wings -5.5",
+      "sport": "MLB",
+      "game": "Pittsburgh Pirates @ Milwaukee Brewers",
+      "pick": "Milwaukee Brewers ML",
+      "bet_type": "ML",
+      "odds": "-123.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.0163,
+      "hash_id": "61a43435317b6be12face38bf5102a89839fcb82ae6bdee4824895be41d80169"
+    },
+    {
+      "sport": "MLB",
+      "game": "Washington Nationals @ Philadelphia Phillies",
+      "pick": "Philadelphia Phillies -2.5",
       "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "968ca3d36d7dc9e699c83d4bec17c9f71d902d1bbceaa97a2e79d2ebb3390b38"
-    },
-    {
-      "sport": "MLB",
-      "game": "Pittsburgh Pirates @ New York Yankees",
-      "pick": "New York Yankees ML",
-      "bet_type": "ML",
-      "odds": "-170.0",
+      "odds": "105.0",
       "result": "W",
       "units": 1.0,
-      "profit_units": 0.5882,
-      "hash_id": "e20fc1a4fe162ae6596c272c9423f59cad893815ba8a0df4706c93e77c0e1c9e"
-    },
-    {
-      "sport": "MLB",
-      "game": "Chicago White Sox @ Texas Rangers",
-      "pick": "Chicago White Sox ML",
-      "bet_type": "ML",
-      "odds": "-110.0",
-      "result": "W",
-      "units": 0.5,
-      "profit_units": 0.4545,
-      "hash_id": "ab72c9863ec32425472d783272b9aded79622e84e718d294ba05e1e9785bd7ae"
+      "profit_units": 1.05,
+      "hash_id": "583606dfa34973c63594a0d72a974533041f23c2cdfee568fc391bb2446f2eac"
     }
   ]
 }
