@@ -1,17 +1,15 @@
 {
   "contract": 1,
-  "generated_utc": "2026-08-09T02:46:41+00:00",
+  "generated_utc": "2026-08-09T02:49:29+00:00",
   "products": {
     "free": {
       "label": "Free Pick of the Day",
       "blurb": "every pick posted publicly",
       "as_of": "2026-08-08",
       "since": "2026-04-05",
-      "count_only": true,
-      "withheld": [
-        "roi_pct"
-      ],
-      "withheld_reason": "stake totals disagree between picks.json and master, so ROI is not yet computable; P&L is reconciled and shown",
+      "count_only": false,
+      "withheld": [],
+      "withheld_reason": null,
       "unresolved": 1,
       "small_sample": false,
       "bands": [
@@ -26,7 +24,9 @@
           "settled": 2,
           "start": "2026-08-06",
           "end": "2026-08-08",
-          "net_units": 2.74
+          "net_units": 2.74,
+          "roi_pct": 99.48,
+          "vs_all_time": "above"
         },
         {
           "label": "7D",
@@ -39,7 +39,9 @@
           "settled": 6,
           "start": "2026-08-02",
           "end": "2026-08-08",
-          "net_units": 1.71
+          "net_units": 1.71,
+          "roi_pct": 24.36,
+          "vs_all_time": "above"
         },
         {
           "label": "21D",
@@ -52,7 +54,9 @@
           "settled": 19,
           "start": "2026-07-19",
           "end": "2026-08-08",
-          "net_units": -6.75
+          "net_units": -6.75,
+          "roi_pct": -28.71,
+          "vs_all_time": "below"
         },
         {
           "label": "MTD",
@@ -65,7 +69,9 @@
           "settled": 7,
           "start": "2026-08-01",
           "end": "2026-08-08",
-          "net_units": -0.04
+          "net_units": -0.04,
+          "roi_pct": -0.51,
+          "vs_all_time": "above"
         },
         {
           "label": "30D",
@@ -78,7 +84,9 @@
           "settled": 28,
           "start": "2026-07-10",
           "end": "2026-08-08",
-          "net_units": -16.06
+          "net_units": -16.06,
+          "roi_pct": -45.55,
+          "vs_all_time": "below"
         },
         {
           "label": "ALL-TIME",
@@ -91,10 +99,12 @@
           "settled": 123,
           "start": "2026-04-05",
           "end": "2026-08-08",
-          "net_units": -27.46
+          "net_units": -27.46,
+          "roi_pct": -17.78,
+          "vs_all_time": null
         }
       ],
-      "plain": "This product has 55-67-1P across 123 settled picks since 2026-04-05, -27.46 units. ROI is withheld: the two stake records disagree, so the money is trustworthy but the percentage is not yet. 1 pick(s) remain unresolved. 3 pick(s) were void.",
+      "plain": "This product has made 123 picks since 2026-04-05. About 45 out of every 100 won. That is fewer than it needs to break even, so it is down overall.",
       "today": {
         "day": "2026-08-08",
         "pick": "Cincinnati Reds ML",
