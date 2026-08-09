@@ -192,7 +192,14 @@ body::after {
       <div class="record-strip" id="sysStrip">
         <div class="record-stat"><div class="num" id="sysRecord">—</div><div class="cap">All-Time</div></div>
         <div class="record-stat"><div class="num" id="sysRoi">—</div><div class="cap">ROI</div></div>
-        <div class="record-stat"><div class="num" id="sysVsMkt">—</div><div class="cap">vs S&amp;P 500</div></div>
+        <!-- HIDDEN 2026-08-09. The vs S&P 500 figure is not trustworthy: its
+             short bands imply impossible index moves (3D +30.7%, 7D +11.7%)
+             while 30D (+2.0%) and ALL-TIME (+31.8% since the 2026-03-20 anchor)
+             are plausible — so the per-band index window is wrong, not merely
+             stale. The record and ROI beside it ARE correct and stay visible.
+             Showing nothing beats showing a comparison we cannot stand behind.
+             Restore when task vs-spx-short-bands-are-impossible is fixed. -->
+        <div class="record-stat" id="sysVsMktWrap" style="display:none"><div class="num" id="sysVsMkt">—</div><div class="cap">vs S&amp;P 500</div></div>
       </div>
       <div class="ledger-sub" id="sysRecent">&nbsp;</div>
     </div>
