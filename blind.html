@@ -320,27 +320,53 @@ document.getElementById('finder').addEventListener('change', function(){
 // performance panel uses. We anchor on ALL-TIME (honest) plus a recent band.
 (async function loadPerf(){
   try {
-    const res = await fetch('performance.json?t=' + Date.now());
-    const perf = await res.json();
-    const bands = perf.bands || [];
+    // RECORD comes from scorecard.json — one producer (brand/gauge.py).
+    // performance.json is still fetched for vs_spx ONLY: the market comparison
+    // is not a record, so it does not belong to the scorecard producer.
+    //
+    // NOTE: this CHANGES the displayed number. performance.json computes the
+    // superseded paid population (paid_card.json receipts, anchor 2026-04-01)
+    // and reports 202-221 / -13.57%. The locked rule (STYLE_GUIDE §7b) is
+    // paid = data/picks_ledger.csv, "all picks sent out", which is 381-306 /
+    // -1.74% from 2026-03-20. Same product, and performance.json was measuring
+    // a narrower slice of it.
+    const [sres, pres] = await Promise.all([
+      fetch('scorecard.json?t=' + Date.now()),
+      fetch('performance.json?t=' + Date.now())
+    ]);
+    const snap = await sres.json();
+    const perf = await pres.json();
+    const paid = snap.products && snap.products.paid;
+    const bands = (paid && paid.bands) || [];
     const byLabel = l => bands.find(b => b.label === l);
+    const perfBand = l => (perf.bands || []).find(b => b.label === l);
     const all = byLabel('ALL-TIME');
     if (all) {
       document.getElementById('sysRecord').textContent = all.record;
       const roiEl = document.getElementById('sysRoi');
-      roiEl.textContent = (all.roi_pct >= 0 ? '+' : '') + Number(all.roi_pct).toFixed(1) + '%';
-      if (all.roi_pct >= 0) roiEl.classList.add('pos');
-      const vs = Number(all.vs_spx);
+      if (all.roi_pct != null) {
+        roiEl.textContent = (all.roi_pct >= 0 ? '+' : '') + Number(all.roi_pct).toFixed(1) + '%';
+        if (all.roi_pct >= 0) roiEl.classList.add('pos');
+      } else {
+        roiEl.textContent = '—';   // withheld, never invented
+      }
+      const pa = perfBand('ALL-TIME');
+      const vs = pa ? Number(pa.vs_spx) : NaN;
       const vsEl = document.getElementById('sysVsMkt');
-      vsEl.textContent = (vs >= 0 ? '+' : '') + vs.toFixed(1) + '%';
-      if (vs >= 0) vsEl.classList.add('pos');
+      if (isFinite(vs)) {
+        vsEl.textContent = (vs >= 0 ? '+' : '') + vs.toFixed(1) + '%';
+        if (vs >= 0) vsEl.classList.add('pos');
+      }
     }
-    // Honest recency line — show trailing 7D/30D so a good OR bad recent run is visible.
+    // Honest recency — a good OR bad recent run stays visible, with voids and
+    // unsettled stated rather than quietly dropped.
     const d30 = byLabel('30D'), d7 = byLabel('7D');
+    const fmt = b => b.record + (b.roi_pct != null ? ' (' + (b.roi_pct >= 0 ? '+' : '') + Number(b.roi_pct).toFixed(1) + '% ROI)' : '');
     const parts = [];
-    if (d7)  parts.push(`Last 7d: ${d7.record} (${d7.roi_pct >= 0 ? '+' : ''}${Number(d7.roi_pct).toFixed(1)}% ROI)`);
-    if (d30) parts.push(`Last 30d: ${d30.record} (${d30.roi_pct >= 0 ? '+' : ''}${Number(d30.roi_pct).toFixed(1)}% ROI)`);
-    if (parts.length) document.getElementById('sysRecent').textContent = parts.join('  ·  ') + `  ·  since ${perf.anchor}`;
+    if (d7)  parts.push('Last 7d: ' + fmt(d7));
+    if (d30) parts.push('Last 30d: ' + fmt(d30));
+    if (paid && paid.unresolved) parts.push(paid.unresolved + ' unsettled');
+    if (parts.length) document.getElementById('sysRecent').textContent = parts.join('  ·  ') + '  ·  since ' + (paid.since || perf.anchor);
   } catch(e) { /* leave dashes */ }
 })();
 </script>
