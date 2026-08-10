@@ -47,7 +47,18 @@ const byId=id=>document.getElementById(id);const params=new URLSearchParams(loca
 (async()=>{try{const res=await fetch('/picks.json?t='+Date.now());const picks=await res.json();// EVERY row of picks.json is a free pick (Node 0, 2026-08-09) — the BEST
 // label is gone from the data, so filtering on it found NOTHING and the
 // page showed a stale pick. Take the most recent row instead.
-const freePicks=picks.slice().sort((a,b)=>new Date(b.date)-new Date(a.date));const latest=freePicks[0];if(latest){const sport=latest.source_sport||latest.sport;byId('meta').textContent=`${sport} · ${new Date(latest.date+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;byId('pick').textContent=latest.pick_display||latest.pick;const ccr=Number(latest.ccr)||0;byId('ccr').textContent=`CCR ${ccr.toFixed(1)}`;byId('tag').textContent=ccr>=9?'ELITE PICK':ccr>=7?'STRONG PICK':'QUALIFIED PICK';const result=byId('result');const outcome=String(latest.result||'').toUpperCase();if(outcome==='W'){result.textContent='WIN ✓';result.className='result win'}else if(outcome==='L'){result.textContent='LOSS';result.className='result loss'}else if(outcome==='V'||outcome==='P'){result.textContent=outcome==='V'?'VOID':'PUSH';result.className='result pending'}else{result.textContent='PENDING';result.className='result pending'}}// RECORD comes from scorecard.json — ONE producer, computed in one place.
+const freePicks=picks.slice().sort((a,b)=>new Date(b.date)-new Date(a.date));const latest=await(async()=>{
+// THE DESIGNATED pick of the day, from scorecard.json -> products.free.todays_pick.
+// Several picks share a date (5 on 2026-08-09) so 'most recent row' is not the
+// free pick — the page showed Rybakina while the receipt named New York Liberty
+// -9.5. The selector writes the answer to reports/<date>/free_pick.json, which
+// is server-side; the snapshot carries it to the browser. Falls back to the
+// latest row only if the snapshot has no designation.
+try{const r=await fetch('scorecard.json?t='+Date.now());const sn=await r.json();
+const t=sn.products&&sn.products.free&&sn.products.free.todays_pick;
+if(t&&t.hash_id){const hit=picks.find(p=>p.hash_id===t.hash_id);if(hit)return hit;}
+}catch(e){}
+return freePicks[0];})();if(latest){const sport=latest.source_sport||latest.sport;byId('meta').textContent=`${sport} · ${new Date(latest.date+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;byId('pick').textContent=latest.pick_display||latest.pick;const ccr=Number(latest.ccr)||0;byId('ccr').textContent=`CCR ${ccr.toFixed(1)}`;byId('tag').textContent=ccr>=9?'ELITE PICK':ccr>=7?'STRONG PICK':'QUALIFIED PICK';const result=byId('result');const outcome=String(latest.result||'').toUpperCase();if(outcome==='W'){result.textContent='WIN ✓';result.className='result win'}else if(outcome==='L'){result.textContent='LOSS';result.className='result loss'}else if(outcome==='V'||outcome==='P'){result.textContent=outcome==='V'?'VOID':'PUSH';result.className='result pending'}else{result.textContent='PENDING';result.className='result pending'}}// RECORD comes from scorecard.json — ONE producer, computed in one place.
 // This block used to recompute wins/losses/units here in the page, which made
 // today.html a third independent implementation of the record, free to disagree
 // with the gauge and the site. It did.
