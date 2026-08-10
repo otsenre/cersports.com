@@ -1,6 +1,6 @@
 {
   "contract": 1,
-  "generated_utc": "2026-08-10T04:13:28+00:00",
+  "generated_utc": "2026-08-10T04:58:21+00:00",
   "products": {
     "free": {
       "label": "Free Pick of the Day",
@@ -84,8 +84,8 @@
           "settled": 117,
           "start": "2026-07-11",
           "end": "2026-08-09",
-          "net_units": -22.05,
-          "roi_pct": -14.29,
+          "net_units": -20.91,
+          "roi_pct": -13.45,
           "vs_all_time": "below"
         },
         {
@@ -99,8 +99,8 @@
           "settled": 824,
           "start": "2026-03-20",
           "end": "2026-08-09",
-          "net_units": -54.99,
-          "roi_pct": -5.59,
+          "net_units": -45.39,
+          "roi_pct": -4.54,
           "vs_all_time": null
         }
       ],
