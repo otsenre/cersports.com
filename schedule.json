@@ -13,26 +13,23 @@
     "",
     "RULE: these are PROMISES TO CUSTOMERS, not internal job times. Only widen them toward",
     "honesty. 'card' is 8:45 rather than 8:30 because the measured send on 2026-08-01 was",
-    "08:37 — promising 8:30 would ship a claim we already know we miss."
+    "08:37 \u2014 promising 8:30 would ship a claim we already know we miss.",
+    "",
+    "2026-08-09 \u2014 THE FIXED PROMISE IS WITHDRAWN. Node 0: the 7:50/8:05 times were arbitrary, chosen months ago for an NBA-only product and kept because they had been promised and imposed discipline on manual work. Delivery is READY-BASED now: the free pick ships when the data is in, timed to leave the customer room to act. Measured fires were 08:08 PT (08-07) and 09:52 PT (08-08) - nearly two hours apart - so 7:50 was a claim we already knew we missed daily. Widened to 'by 10:00 AM PT' per this file's own rule, and the wording changed from 'posts at' to 'posts by'. NEXT STEP (task site-timing-promise-is-stale): replace the static window entirely with the ACTUAL delivery time once fired plus a dynamic estimate for today and tomorrow, from tracked timing. An estimate that tightens as we improve earns trust; a promise we miss spends it."
   ],
-
-  "updated": "2026-08-01",
+  "updated": "2026-08-09",
   "timezone_label": "AM PT",
-
-  "free_pick_time": "7:50",
-  "free_pick_label": "7:50 AM PT",
-  "free_pick_sentence": "The free pick posts at 7:50 AM PT.",
-
-  "card_time": "8:45",
-  "card_label": "8:45 AM PT",
-  "card_sentence": "The full card lands in your inbox by 8:45 AM PT.",
-
-  "combined_label": "Free pick · 7:50 AM PT · Card by 8:45",
-
+  "free_pick_time": "10:00",
+  "free_pick_label": "by 10:00 AM PT",
+  "free_pick_sentence": "The free pick posts when the day's data is in, by 10:00 AM PT.",
+  "card_time": "10:30",
+  "card_label": "by 10:30 AM PT",
+  "card_sentence": "The full card follows the free pick, by 10:30 AM PT.",
+  "combined_label": "Free pick when the data is in \u00b7 by 10:00 AM PT",
   "_machine": {
-    "_note": "Wall-clock targets the drift check compares actual delivery against. The free pick is DATA-GATED (scheduler job pipeline.daily, after pick.llm), so its actual time moves with the data; this is the promise it must not embarrass.",
-    "free_pick_hhmm": "07:50",
-    "card_hhmm": "08:45",
+    "_note": "Wall-clock OUTER BOUND the drift check compares actual delivery against - not a target. Delivery is data-gated and ready-based; measured fires ranged 08:08 to 09:52 PT. These are the times a customer was promised and must not be embarrassed by.",
+    "free_pick_hhmm": "10:00",
+    "card_hhmm": "10:30",
     "tz": "America/Los_Angeles",
     "drift_alarm_minutes": 15
   }
