@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CERSports — Data-Driven Sports Intelligence</title>
-<meta name="description" content="CCR-rated sports picks from a committee of independent pickers, run every morning. One free best pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
+<meta name="description" content="CCR-rated sports picks from independent pickers, run every morning. One free pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
 <meta property="og:title" content="CERSports — The Model Runs">
 <meta property="og:description" content="A committee of independent pickers. One free pick daily. Every result posted publicly. Free pick when the day's data is in, by 10:00 AM PT.">
 <meta property="og:image" content="https://cersports.com/og-image.jpg">
@@ -1062,7 +1062,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">Under the hood</div>
     <h2 class="section-title">HOW THE <em>MODEL</em> WORKS</h2>
-    <p class="section-body">A committee of six independent AI pickers — cross-checked against our own statistical models — reads every slate each morning. One consensus output. No gut calls.</p>
+    <p class="section-body">Independent pickers and statistical models read every slate each morning. One consensus output. No gut calls.</p>
 
     <div class="steps-grid">
       <div class="step-card">
@@ -1078,13 +1078,13 @@ footer {
       <div class="step-card">
         <div class="step-num">03</div>
         <div class="step-title">Consensus + Publish</div>
-        <div class="step-body">Every picker's read is cross-referenced against the statistical models. Agreement scoring produces a unified CCR rating. Only plays above threshold qualify. Report published automatically with social cards by <span data-schedule="card_label">by 10:30 AM PT</span>.</div>
+        <div class="step-body">Every picker's read is cross-referenced against the statistical models. Agreement scoring produces a unified CCR rating. Only qualifying plays publish, after the day’s data is in.</div>
       </div>
     </div>
 
     <!-- THE COMMITTEE (codenamed roster — rendered from pickers.json) -->
     <div class="committee">
-      <div class="committee-label">The Committee · six independent pickers, one card</div>
+      <div class="committee-label">The Committee · independent pickers, one card</div>
       <div class="committee-grid" id="committeeGrid"></div>
       <p class="committee-note">Each picker reads the slate independently. We keep their identities under wraps — you get the consensus, not the noise.</p>
     </div>
@@ -1096,7 +1096,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">Our rating system</div>
     <h2 class="section-title">WHAT IS <em>CCR?</em></h2>
-    <p class="section-body">The CERSports Confidence Rating is a 0–10 score produced by our consensus engine. It measures how much edge the system has detected across the full six-picker committee combined.</p>
+    <p class="section-body">The CERSports Confidence Rating is a 0–10 score produced by our consensus engine. It measures the strength of agreement across the day’s qualified inputs.</p>
 
     <div class="ccr-scale">
       <div class="ccr-tier ccr-t1">
@@ -1160,7 +1160,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">Free picks daily</div>
     <h2 class="section-title">FOLLOW THE <em>MODEL</em></h2>
-    <p class="section-body">Teaser picks from the Learn Three Bet system drop in our public Telegram group after the model run. Follow the public feed, then upgrade for the full card.</p>
+    <p class="section-body">Free picks and game alerts drop in our public Telegram group after the morning run. Follow the public feed, then upgrade for the full card.</p>
 
     <div class="social-grid">
       <a href="https://www.tiktok.com/@cersports" target="_blank" class="social-card">
@@ -1200,7 +1200,7 @@ footer {
       <div class="scorecard-panel">
         <div class="scorecard-head">
           <span class="scorecard-title">Paid Card</span>
-          <span class="scorecard-sub" id="paidSub">every published pick</span>
+          <span class="scorecard-sub" id="paidSub">every delivered paid-card pick</span>
         </div>
         <div style="overflow-x:auto;">
           <table class="scorecard-table" id="paidTable">
@@ -1227,7 +1227,7 @@ footer {
       <div class="scorecard-panel">
         <div class="scorecard-head">
           <span class="scorecard-title">Free Pick</span>
-          <span class="scorecard-sub" id="freeSub">the one daily best pick</span>
+          <span class="scorecard-sub" id="freeSub">every published free pick</span>
         </div>
         <div style="overflow-x:auto;">
           <table class="scorecard-table" id="freeTable">
@@ -1286,13 +1286,13 @@ footer {
     <p class="section-body">What fired, when it fired, and what is expected next — from the day's actual run, not a fixed clock.</p>
 
     <div class="daypanel" id="dayPanel" style="display:none;">
-      <div class="daypanel-h">Yesterday's run · <span id="dayAsOf">—</span></div>
+      <div class="daypanel-h" id="dayRunTitle">Today’s morning run · <span id="dayAsOf">—</span></div>
       <div class="daypanel-asof" id="dayAsofNote">Results as of the last completed grading cycle.</div>
       <div class="daypanel-grid">
         <div>
           <span class="daycell-k">Site pushed</span>
           <span class="daycell-v" id="dayFire">—</span>
-          <span class="daycell-s" id="dayFireS">when yesterday's run went live</span>
+          <span class="daycell-s" id="dayFireS">free pick live on site</span>
         </div>
         <div>
           <span class="daycell-k">Day before</span>
@@ -1315,7 +1315,7 @@ footer {
           <span class="daycell-s">independent pickers that weighed in</span>
         </div>
         <div>
-          <span class="daycell-k">Card expected</span>
+          <span class="daycell-k" id="dayCardK">Card status</span>
           <span class="daycell-v" id="dayCardExp">—</span>
           <span class="daycell-s" id="dayCardExpS">when the data is in</span>
         </div>
@@ -1847,7 +1847,7 @@ async function loadSiteDay() {
     const delivery = d.paid_card_delivery || {};
     const deliveryEl = document.getElementById('deliveryUpdate');
     if (deliveryEl && delivery.state === 'live') {
-      deliveryEl.innerHTML = `<strong>TODAY'S FULL REPORT IS LIVE</strong><br>Subscribers: check your inbox.${delivery.first_leg_time ? ` First leg fires at ${delivery.first_leg_time}.` : ''}`;
+      deliveryEl.innerHTML = `<strong>TODAY'S FULL REPORT IS LIVE</strong><br>Subscribers: check your inbox.${delivery.delivered_at_pt ? ` Delivered at ${delivery.delivered_at_pt}.` : ''}${delivery.first_leg_time ? ` First leg fires at ${delivery.first_leg_time}.` : ''}`;
       deliveryEl.style.display = 'block';
     }
     renderScorecardTable('paidTable', paid.bands);
@@ -1875,7 +1875,7 @@ async function loadSiteDay() {
       const el = document.getElementById(id);
       if (el) el.textContent = txt;
     };
-    set('dayAsOf', d.as_of || '—');
+    set('dayAsOf', d.run_date || '—');
     const fire = d.fire || {};
     const thisRun = fire.this_run || {};
     const prior = fire.prior_run || {};
@@ -1906,10 +1906,15 @@ async function loadSiteDay() {
     set('dayPickers', d.pickers_contributing != null ? d.pickers_contributing : '—');
 
     const sched = d.schedule || {};
-    set('dayCardExp', sched.card_time ? (sched.free_pick_time ? sched.free_pick_time + ' → ' : '') + sched.card_time : '—');
-    set('dayCardExpS', sched.combined_label
-      ? sched.combined_label
-      : 'promised delivery window');
+    if (delivery.state === 'live') {
+      set('dayCardK', 'Card delivered');
+      set('dayCardExp', delivery.delivered_at_pt || 'Live');
+      set('dayCardExpS', delivery.first_leg_time ? `First leg fires at ${delivery.first_leg_time}` : 'Subscribers notified');
+    } else {
+      set('dayCardK', 'Card expected');
+      set('dayCardExp', sched.card_time || '—');
+      set('dayCardExpS', sched.combined_label || 'when the data is in');
+    }
 
     const drift = sched.drift_alarm_minutes;
     set('dayAsofNote',
