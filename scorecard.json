@@ -1,6 +1,6 @@
 {
   "contract": 1,
-  "generated_utc": "2026-08-10T17:04:55+00:00",
+  "generated_utc": "2026-08-10T17:09:22+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -33,9 +33,9 @@
           "settled": 11,
           "start": "2026-08-08",
           "end": "2026-08-10",
-          "net_units": -2.05,
-          "roi_pct": -13.9,
-          "vs_all_time": "below"
+          "net_units": -0.48,
+          "roi_pct": -4.4,
+          "vs_all_time": "above"
         },
         {
           "label": "7D",
@@ -48,8 +48,8 @@
           "settled": 37,
           "start": "2026-08-04",
           "end": "2026-08-10",
-          "net_units": 5.44,
-          "roi_pct": 10.66,
+          "net_units": 3.89,
+          "roi_pct": 10.51,
           "vs_all_time": "above"
         },
         {
@@ -63,8 +63,8 @@
           "settled": 90,
           "start": "2026-07-21",
           "end": "2026-08-10",
-          "net_units": -6.14,
-          "roi_pct": -5.1,
+          "net_units": -4.1,
+          "roi_pct": -4.56,
           "vs_all_time": "below"
         },
         {
@@ -78,8 +78,8 @@
           "settled": 51,
           "start": "2026-08-01",
           "end": "2026-08-10",
-          "net_units": 3.87,
-          "roi_pct": 5.45,
+          "net_units": 2.24,
+          "roi_pct": 4.39,
           "vs_all_time": "above"
         },
         {
@@ -93,8 +93,8 @@
           "settled": 116,
           "start": "2026-07-12",
           "end": "2026-08-10",
-          "net_units": -20.94,
-          "roi_pct": -13.51,
+          "net_units": -14.59,
+          "roi_pct": -12.58,
           "vs_all_time": "below"
         },
         {
@@ -108,8 +108,8 @@
           "settled": 829,
           "start": "2026-03-20",
           "end": "2026-08-10",
-          "net_units": -45.49,
-          "roi_pct": -4.51,
+          "net_units": -36.84,
+          "roi_pct": -4.47,
           "vs_all_time": null
         }
       ],
