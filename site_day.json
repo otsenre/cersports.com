@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:22:13.314009+00:00",
+  "generated_at": "2026-08-10T21:54:52.152667+00:00",
   "as_of": "2026-08-09",
   "anchor": "2026-03-20",
   "bankroll_units": 100.0,
@@ -10,15 +10,15 @@
     "timezone_label": "AM PT"
   },
   "fire": {
-    "as_of": "2026-08-09",
+    "as_of": "2026-08-10",
     "this_run": {
-      "fire_utc": "2026-08-09T02:21:24-07:00",
-      "fire_pt": "2026-08-09 02:21 PDT"
+      "fire_utc": "2026-08-10T07:48:02-07:00",
+      "fire_pt": "2026-08-10 07:48 PDT"
     },
     "prior_run": {
-      "date": "2026-08-08",
-      "fire_utc": "2026-08-08T09:52:14-07:00",
-      "fire_pt": "2026-08-08 09:52 PDT"
+      "date": "2026-08-09",
+      "fire_utc": "2026-08-09T02:21:24-07:00",
+      "fire_pt": "2026-08-09 02:21 PDT"
     }
   },
   "scorecard": {
@@ -280,8 +280,8 @@
     }
   },
   "process": {
-    "events_evaluated": 15,
-    "market_offerings": 106,
+    "events_evaluated": 10,
+    "market_offerings": 70,
     "sports": [
       "MLB",
       "WNBA",
@@ -292,13 +292,16 @@
       "WTA",
       "MMA"
     ],
-    "card_picks": 5,
+    "card_picks": 4,
     "card_sports": [
       "MLB",
       "WNBA"
     ]
   },
   "pickers_contributing": 11,
+  "morning_state": {
+    "free_pick_site_published_at_utc": "2026-08-10T07:48:02-07:00"
+  },
   "paid_card_delivery": {
     "state": "live",
     "first_leg_time": "5:00 PM PT"

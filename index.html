@@ -912,16 +912,16 @@ footer {
 <div class="stat-strip">
   <div class="stat-strip-inner">
     <div class="stat-item">
-      <div class="stat-num" data-schedule="free_pick_time">10:00</div>
-      <div class="stat-label">Free Pick · <span data-schedule="timezone_label">AM PT</span></div>
+      <div class="stat-num" id="statFreePublished">—</div>
+      <div class="stat-label">Free Pick · Live PT</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">6</div>
+      <div class="stat-num" id="statPickers">—</div>
       <div class="stat-label">Model Pickers</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statGames">—</div>
-      <div class="stat-label">Games Analyzed Today</div>
+      <div class="stat-label">Events Analyzed Today</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statRecord">—</div>
@@ -936,7 +936,7 @@ footer {
     <div class="section-label">Track record</div>
     <h2 class="section-title">THE <em>LEDGER</em></h2>
     <p class="section-body">Every pick posted publicly. Every result recorded. We don't cherry-pick wins.</p>
-    <p style="font-size:12px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:-8px;margin-bottom:16px">Free published picks · One best pick daily</p>
+    <p style="font-size:12px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:-8px;margin-bottom:16px">Free published picks · One free pick daily</p>
 
     <div class="record-grid" id="recordGrid">
       <div class="record-card" style="color:var(--muted);font-size:13px;padding:24px">Loading picks...</div>
@@ -1578,8 +1578,6 @@ function buildRecord(picks) {
       + (unpricedCnt ? ` (${pricedRows.length}/${gradedRows.length} priced)` : '');
     document.getElementById('sumWinPct').textContent = Math.round((wins/total)*100) + '%';
     document.getElementById('recordSummary').style.display = 'flex';
-    document.getElementById('statRecord').textContent = `${wins}-${losses}`;
-    document.getElementById('statGames').textContent = total;
 
     // Current form — streak + last 7 / last 21 (picks arrive sorted newest-first)
     const graded = freePicks.filter(p => p.result === 'W' || p.result === 'L');
@@ -1885,6 +1883,20 @@ async function loadSiteDay() {
     set('dayFirePrior', prior.fire_pt || '—');
 
     const proc = d.process || {};
+    const morning = d.morning_state || {};
+    const ptTime = (utc) => {
+      if (!utc) return '—';
+      const when = new Date(utc);
+      if (Number.isNaN(when.getTime())) return '—';
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Los_Angeles', hour: 'numeric', minute: '2-digit', hour12: true,
+      }).format(when);
+    };
+    set('statFreePublished', ptTime(morning.free_pick_site_published_at_utc));
+    set('statPickers', d.pickers_contributing != null ? d.pickers_contributing.toLocaleString() : '—');
+    set('statGames', proc.events_evaluated != null ? proc.events_evaluated.toLocaleString() : '—');
+    const freeAllTime = (free.bands || []).find(b => b.label === 'ALL-TIME');
+    set('statRecord', freeAllTime && freeAllTime.record ? freeAllTime.record : '—');
     set('dayEvents', proc.events_evaluated != null ? proc.events_evaluated.toLocaleString() : '—');
     const sports = (proc.sports || []);
     set('daySports', sports.length
