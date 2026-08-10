@@ -186,6 +186,8 @@ nav {
 }
 .pick-locked a { color: var(--gold); text-decoration: none; }
 .pick-locked a:hover { text-decoration: underline; }
+.delivery-update { display:none; max-width:480px; margin:-24px 0 28px; padding:12px 16px; border-left:3px solid var(--gold); background:var(--surface); color:var(--muted); font:700 12px 'Barlow Condensed',sans-serif; letter-spacing:1px; }
+.delivery-update strong { color:var(--white); letter-spacing:2px; }
 
 .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn-primary {
@@ -897,6 +899,7 @@ footer {
         <a href="#pricing">Unlock full report</a>
       </div>
     </div>
+    <div class="delivery-update" id="deliveryUpdate"></div>
 
     <div class="hero-ctas">
       <a href="#pricing" class="btn-primary">Get Full Report</a>
@@ -1843,6 +1846,12 @@ async function loadSiteDay() {
 
     const paid = d.scorecard.paid || {};
     const free = d.scorecard.free || {};
+    const delivery = d.paid_card_delivery || {};
+    const deliveryEl = document.getElementById('deliveryUpdate');
+    if (deliveryEl && delivery.state === 'live') {
+      deliveryEl.innerHTML = `<strong>TODAY'S FULL REPORT IS LIVE</strong><br>Subscribers: check your inbox.${delivery.first_leg_time ? ` First leg fires at ${delivery.first_leg_time}.` : ''}`;
+      deliveryEl.style.display = 'block';
+    }
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
     const note = (id, bands, product) => {
