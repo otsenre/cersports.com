@@ -1515,7 +1515,7 @@ function buildRecord(picks) {
   // The public ledger on this page is the complete Free Pick lineage. This
   // intentionally includes every issued free-pick row, including historical
   // multi-pick days. Paid-card rows are a separate product.
-  const freePicks = picks.filter(p => p.sport === 'BEST');
+  const freePicks = picks;
   const grid = document.getElementById('recordGrid');
   grid.innerHTML = '';
 
@@ -1814,7 +1814,7 @@ function renderScorecardTable(tableId, bands) {
   if (!tbody || !Array.isArray(bands)) return;
   const rows = [
     { label: 'RECORD',  cells: bands.map(b => bandIsEmpty(b) ? '<span class="perf-num perf-empty">&mdash;</span>' : `<span class="perf-num">${b.record}</span>`) },
-    { label: 'UNITS',   cells: bands.map(b => perfCell(b, b.units_pl, 2, 'u')) },
+    { label: 'UNITS',   cells: bands.map(b => perfCell(b, b.units_pl ?? b.net_units, 2, 'u')) },
     { label: 'MARGIN/BET', cells: bands.map(b => perfCell(b, b.roi_pct, 2, '%')) },
     { label: 'vs S&P',  cells: bands.map(b => perfCell(b, b.vs_spx, 2, '%')) },
     { label: 'vs DOW',  cells: bands.map(b => perfCell(b, b.vs_dji, 2, '%')) },
@@ -1854,12 +1854,12 @@ async function loadSiteDay() {
     }
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
-    const note = (id, bands, product) => {
+    const note = (id, bands, product, asOf = d.as_of) => {
       const el = document.getElementById(id);
-      if (el) el.textContent = scorecardNote(bands, d.as_of, product);
+      if (el) el.textContent = scorecardNote(bands, asOf, product);
     };
     note('paidNote', paid.bands, 'paid');
-    note('freeNote', free.bands, 'free');
+    note('freeNote', free.bands, 'free', free.as_of || d.as_of);
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
