@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CERSports — Data-Driven Sports Intelligence</title>
-<meta name="description" content="CCR-rated sports picks from a six-model committee, run every morning. One free best pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
+<meta name="description" content="CCR-rated sports picks from a committee of independent pickers, run every morning. One free best pick daily, full card for subscribers. Every result posted — we don't cherry-pick wins.">
 <meta property="og:title" content="CERSports — The Model Runs">
-<meta property="og:description" content="Six-model committee. One free best pick daily. Every result posted publicly. Free pick when the day's data is in, by 10:00 AM PT.">
+<meta property="og:description" content="A committee of independent pickers. One free pick daily. Every result posted publicly. Free pick when the day's data is in, by 10:00 AM PT.">
 <meta property="og:image" content="https://cersports.com/og-image.jpg">
 <link rel="icon" href="/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
@@ -1307,9 +1307,9 @@ footer {
           <span class="daycell-s">lines &amp; props priced on those games</span>
         </div>
         <div>
-          <span class="daycell-k">Model pickers</span>
+          <span class="daycell-k">Pickers</span>
           <span class="daycell-v" id="dayPickers">—</span>
-          <span class="daycell-s">independent models that weighed in</span>
+          <span class="daycell-s">independent pickers that weighed in</span>
         </div>
         <div>
           <span class="daycell-k">Card expected</span>
@@ -1902,7 +1902,7 @@ async function loadSiteDay() {
       (proc.events_evaluated != null
         ? `Today we looked at ${proc.events_evaluated} games across ${_sp} sport${_sp === 1 ? '' : 's'}, `
           + `priced ${proc.market_offerings != null ? proc.market_offerings.toLocaleString() : '—'} lines and props on them, `
-          + `and ${d.pickers_contributing || 0} independent models weighed in. `
+          + `and ${d.pickers_contributing || 0} independent pickers weighed in. `
           + `${proc.card_picks != null ? proc.card_picks : 0} qualified for the card. `
         : '')
       + `The pick ships when the day's data is in, not on a clock — a night slate settles later than an afternoon one. `
