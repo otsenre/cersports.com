@@ -1299,22 +1299,22 @@ footer {
         <div>
           <span class="daycell-k">Events evaluated</span>
           <span class="daycell-v" id="dayEvents">—</span>
-          <span class="daycell-s" id="daySports">across the capping board</span>
+          <span class="daycell-s" id="daySports">games on today's board</span>
         </div>
         <div>
           <span class="daycell-k">Market offerings</span>
           <span class="daycell-v" id="dayMarkets">—</span>
-          <span class="daycell-s">lines &amp; props scanned</span>
+          <span class="daycell-s">lines &amp; props priced on those games</span>
         </div>
         <div>
           <span class="daycell-k">Model pickers</span>
           <span class="daycell-v" id="dayPickers">—</span>
-          <span class="daycell-s">codenames only — never identities</span>
+          <span class="daycell-s">independent models that weighed in</span>
         </div>
         <div>
           <span class="daycell-k">Card expected</span>
           <span class="daycell-v" id="dayCardExp">—</span>
-          <span class="daycell-s" id="dayCardExpS">promised delivery window</span>
+          <span class="daycell-s" id="dayCardExpS">when the data is in</span>
         </div>
       </div>
       <div class="daypanel-foot" id="dayFoot">—</div>
@@ -1882,7 +1882,7 @@ async function loadSiteDay() {
       ? sports.join(' · ') + (proc.card_picks != null ? ` · ${proc.card_picks} on the card` : '')
       : 'across the capping board');
     set('dayMarkets', proc.market_offerings != null ? proc.market_offerings.toLocaleString() : '—');
-    set('dayPickers', d.pickers_contributing != null ? d.pickers_contributing + ' (6 active)' : '—');
+    set('dayPickers', d.pickers_contributing != null ? d.pickers_contributing : '—');
 
     const sched = d.schedule || {};
     set('dayCardExp', sched.card_time ? (sched.free_pick_time ? sched.free_pick_time + ' → ' : '') + sched.card_time : '—');
@@ -1894,10 +1894,19 @@ async function loadSiteDay() {
     set('dayAsofNote',
       `Results as of the last completed grading cycle — picks settle on the run after they post.`
       + (drift ? ` Promise tolerance ±${drift} min.` : ''));
+    // ONE SENTENCE from the same numbers shown above, so the panel states what
+    // it examined instead of listing disconnected figures. Generated from the
+    // data — it cannot drift from the cells beside it.
+    const _sp = (proc.sports || []).length;
     set('dayFoot',
-      `Yesterday's run went live at the time shown, with the prior run's fire beside it for comparison. `
-      + `The card ships as soon as the day's slate satisfies its quality gate — an NFL night slate can fire later than an NBA morning one. `
-      + `All counts are from the day's actual run artifacts; nothing here is fabricated.`);
+      (proc.events_evaluated != null
+        ? `Today we looked at ${proc.events_evaluated} games across ${_sp} sport${_sp === 1 ? '' : 's'}, `
+          + `priced ${proc.market_offerings != null ? proc.market_offerings.toLocaleString() : '—'} lines and props on them, `
+          + `and ${d.pickers_contributing || 0} independent models weighed in. `
+          + `${proc.card_picks != null ? proc.card_picks : 0} qualified for the card. `
+        : '')
+      + `The pick ships when the day's data is in, not on a clock — a night slate settles later than an afternoon one. `
+      + `Every count here comes from the run's own artifacts. Nothing is estimated and nothing is rounded up.`);
     panel.style.display = 'block';
     siteDayRendered = true;
   } catch (e) {
