@@ -1835,7 +1835,35 @@ function scorecardNote(bands, as_of, product) {
   const what = product === 'paid'
     ? 'Every settled paid-card pick included; nothing excluded.'
     : 'Every settled free pick included; nothing excluded.';
-  return `n=${at.n} settled · ${at.record} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}`;
+
+  // FULL DISPOSITION — W-L-P-V-pending, so a provisional record cannot be read
+  // as a final one. `record` already carries W-L(-P); voids and still-open
+  // picks were counted but never shown, so a window with an unsettled pick
+  // looked exactly like a closed one. Node 0, 2026-08-11: "at some point we
+  // say, here is the final grade, w-l-p-v-pending".
+  //
+  // Voids are stated because they are IN the population and out of the
+  // denominator — a reader who totals the record and finds it short of n
+  // deserves the reason. "0 pending — final" is an affirmative claim and is
+  // only printed when it was actually measured.
+  const bits = [];
+  // The free record encodes pushes ("446-379-5P"); the paid builder does not,
+  // so paid's pushes were invisible in both places. State them only when the
+  // record string is not already carrying them, to avoid saying it twice.
+  if (at.pushes && !/-\d+P\b/.test(String(at.record || ''))) {
+    bits.push(`${at.pushes} push`);
+  }
+  if (at.voided) bits.push(`${at.voided} void`);
+  if (at.unsettled == null) {
+    // Not measured. Say nothing rather than imply finality.
+  } else if (at.unsettled > 0) {
+    bits.push(`${at.unsettled} still open — PROVISIONAL`);
+  } else {
+    bits.push('0 pending — final');
+  }
+  const disposition = bits.length ? ` · ${bits.join(' · ')}` : '';
+
+  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}`;
 }
 
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
