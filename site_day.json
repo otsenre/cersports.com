@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T17:00:19.439722+00:00",
+  "generated_at": "2026-08-11T17:09:47.473245+00:00",
   "run_date": "2026-08-11",
   "as_of": "2026-08-10",
   "anchor": "2026-03-20",
@@ -307,5 +307,30 @@
     "state": "live",
     "delivered_at_pt": "9:46 AM PT",
     "first_leg_time": "3:46 PM PT"
+  },
+  "status": {
+    "contract": 1,
+    "date": "2026-08-11",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 9:46 AM PT \u00b7 4 picks, MLB + WNBA \u00b7 first leg fires 3:46 PM PT \u00b7 \u26c8 Weather watch on 15 games",
+    "parts": [
+      "Paid card shipped 9:46 AM PT",
+      "4 picks, MLB + WNBA",
+      "first leg fires 3:46 PM PT",
+      "\u26c8 Weather watch on 15 games"
+    ],
+    "expected_by": {
+      "label": "10:15 AM PT",
+      "hhmm": "10:15",
+      "n": 5,
+      "missed_days": 1,
+      "earliest": "7:47 AM",
+      "latest": "10:01 AM",
+      "basis": "p90 of 5 measured fires"
+    },
+    "free_pick_live": true,
+    "card_live": true,
+    "first_leg_time": "3:46 PM PT",
+    "updated_pt": "10:09 AM PT"
   }
 }

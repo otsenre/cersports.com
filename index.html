@@ -882,7 +882,11 @@ footer {
   <div class="hero-inner">
     <div class="hero-eyebrow">
       <span class="live-dot"></span>
-      <span data-schedule="combined_label">Free pick when the data is in · by 10:00 AM PT</span> · System live
+      <!-- ROLLING DAY LINE. site_day.json .status.line replaces this at runtime:
+           "what just happened · what's next · by when". The static text below is
+           the fallback and MUST stay a true sentence — a failed fetch degrades to
+           it, and it is what search engines and no-JS clients read. -->
+      <span id="dayStatusLine" data-schedule="combined_label">Free pick when the data is in · by 10:00 AM PT</span> · System live
     </div>
     <h1 class="hero-headline">THE<br><em>MODEL</em><br>RUNS.</h1>
     <p class="hero-sub">Data-driven CCR picks. Every morning. No gut calls.</p>
@@ -1904,6 +1908,22 @@ async function loadSiteDay() {
       : 'across the capping board');
     set('dayMarkets', proc.market_offerings != null ? proc.market_offerings.toLocaleString() : '—');
     set('dayPickers', d.pickers_contributing != null ? d.pickers_contributing : '—');
+
+    // ROLLING DAY LINE — "what just happened · what's next · by when".
+    // Composed server-side in day_status.py so the sentence cannot drift from
+    // the numbers on this page. Overwrites the hero's static promise, which
+    // stayed true-looking all day even on 2026-08-11 when the chain had died
+    // and the site kept advertising a free pick "by 10:00 AM PT" for hours.
+    // schedule.js also targets this node via data-schedule, so remove that
+    // binding once we win to stop the two writers racing on one element.
+    const status = d.status || {};
+    if (status.line) {
+      const el = document.getElementById('dayStatusLine');
+      if (el) {
+        el.removeAttribute('data-schedule');   // we are the authority now
+        el.textContent = status.line;
+      }
+    }
 
     const sched = d.schedule || {};
     if (delivery.state === 'live') {
