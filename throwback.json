@@ -1,72 +1,116 @@
 {
-  "generated_at": "2026-08-10T15:59:41.292149+00:00",
-  "iso_date": "2026-07-22",
-  "display_date": "Wed \u00b7 Jul 22, 2026",
+  "generated_at": "2026-08-11T16:43:06.836141+00:00",
+  "iso_date": "2026-07-29",
+  "display_date": "Wed \u00b7 Jul 29, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 3,
+    "wins": 4,
+    "losses": 5,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 5.5,
-    "units_pl": -2.96,
-    "roi_pct": -53.77
+    "total_picks": 9,
+    "units_staked": 10.75,
+    "units_pl": -3.23,
+    "roi_pct": -30.08
   },
   "picks": [
     {
+      "sport": "ATP",
+      "game": "Ben Shelton vs Ugo Humbert",
+      "pick": "Ben Shelton ML",
+      "bet_type": "ML",
+      "odds": "-200.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.5,
+      "hash_id": "31137bd04dfb55d6d9498a933aa59f1d20fce933102fb0a0ad618317a6827e5d"
+    },
+    {
       "sport": "WNBA",
-      "game": "Las Vegas Aces @ Washington Mystics",
-      "pick": "Las Vegas Aces -6.5",
+      "game": "Golden State Valkyries @ Phoenix Mercury",
+      "pick": "Golden State Valkyries -4.5",
       "bet_type": "ATS",
+      "odds": "-115.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "8aef5ef8786310a189d32c27c4de0405c27b9c890c233ca32ad7b52f40896b21"
+    },
+    {
+      "sport": "WTA",
+      "game": "Naomi Osaka vs Ashlyn Krueger",
+      "pick": "Naomi Osaka -4.5 Games",
+      "bet_type": "ATS",
+      "odds": "-105.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.1905,
+      "hash_id": "bd30e4b5a89d0546d7c0bc77eba513d844be584c539384a603b598d53139a9b2"
+    },
+    {
+      "sport": "ATP",
+      "game": "Alejandro Tabilo vs Terence Atmane",
+      "pick": "Alejandro Tabilo ML",
+      "bet_type": "ML",
+      "odds": "-110.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.9091,
+      "hash_id": "231fb3d95621bdc67b10e9e7512404eae58ba2a86dbc0e1b01bcc45f71a92d4f"
+    },
+    {
+      "sport": "ATP",
+      "game": "Stefanos Tsitsipas vs Alex de Minaur",
+      "pick": "Alex de Minaur ML",
+      "bet_type": "ML",
+      "odds": "-150.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.6667,
+      "hash_id": "41d26b4ac5c18029b4dfcd48ce8b8dd37f05c664d2b4435e106a53a40cb5429e"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Dallas Wings",
+      "pick": "Atlanta Dream -1.5",
+      "bet_type": "ATS",
+      "odds": "-105.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "4f8b26fde3fe4eaa2741c932f27cbeb2eaa7c46659ce15b47986b78178c7da55"
+    },
+    {
+      "sport": "WTA",
+      "game": "Elina Svitolina vs Polina Kudermetova",
+      "pick": "Elina Svitolina -5.5",
+      "bet_type": "ATS",
+      "odds": "102.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "bd30549d2849e7afa2aa47d0ebf6a5dfe6ab1a4a37aa66646d3498681e508e05"
+    },
+    {
+      "sport": "WTA",
+      "game": "Elina Svitolina vs Polina Kudermetova",
+      "pick": "Under 19.5",
+      "bet_type": "Total Games",
+      "odds": "-103.0",
+      "result": "L",
+      "units": 0.75,
+      "profit_units": -0.75,
+      "hash_id": "d65006693ba56ae0cee044e387fa87d3a94eacf3fcae841427bbf004b2858bd8"
+    },
+    {
+      "sport": "MLB",
+      "game": "Baltimore Orioles @ Detroit Tigers",
+      "pick": "Tarik Skubal Over 8.5 Pitcher Strikeouts",
+      "bet_type": "Prop",
       "odds": "-110.0",
       "result": "L",
       "units": 1.75,
       "profit_units": -1.75,
-      "hash_id": "5835a1ed60bfe0432eaa2e66ea657b04516314fd032c38b5ecc92868bfe5bee5"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Seattle Storm",
-      "pick": "Minnesota Lynx -10.5",
-      "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "7fcfa201206337df1700990348c0c83d0ef078d41a01aa2a2febe3c3854f9221"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Portland Fire",
-      "pick": "Dallas Wings -5.5",
-      "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "968ca3d36d7dc9e699c83d4bec17c9f71d902d1bbceaa97a2e79d2ebb3390b38"
-    },
-    {
-      "sport": "MLB",
-      "game": "Pittsburgh Pirates @ New York Yankees",
-      "pick": "New York Yankees ML",
-      "bet_type": "ML",
-      "odds": "-170.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.5882,
-      "hash_id": "e20fc1a4fe162ae6596c272c9423f59cad893815ba8a0df4706c93e77c0e1c9e"
-    },
-    {
-      "sport": "MLB",
-      "game": "Chicago White Sox @ Texas Rangers",
-      "pick": "Chicago White Sox ML",
-      "bet_type": "ML",
-      "odds": "-110.0",
-      "result": "W",
-      "units": 0.5,
-      "profit_units": 0.4545,
-      "hash_id": "ab72c9863ec32425472d783272b9aded79622e84e718d294ba05e1e9785bd7ae"
+      "hash_id": "776af358517ba8736d094b01c58eb623f69201aab533760697b79a99a005c334"
     }
   ]
 }
