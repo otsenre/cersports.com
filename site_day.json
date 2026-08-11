@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:43:11.190977+00:00",
+  "generated_at": "2026-08-11T16:47:02.615054+00:00",
   "run_date": "2026-08-11",
   "as_of": "2026-08-10",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-08-11",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-08-11T09:44:02-07:00",
+      "fire_pt": "2026-08-11 09:44 PDT"
     },
     "prior_run": {
       "date": "2026-08-10",
@@ -301,9 +301,11 @@
   },
   "pickers_contributing": 11,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-08-11T09:44:02-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "9:46 AM PT",
+    "first_leg_time": "3:46 PM PT"
   }
 }
