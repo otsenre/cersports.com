@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T17:46:27.986716+00:00",
+  "generated_at": "2026-08-11T17:54:35.267776+00:00",
   "run_date": "2026-08-11",
   "as_of": "2026-08-10",
   "anchor": "2026-03-20",
@@ -187,7 +187,10 @@
           "roi_minus_spx_pct": -1.84,
           "spx_return_pct": -0.06,
           "dji_return_pct": -0.11,
-          "ndx_return_pct": -0.32
+          "ndx_return_pct": -0.32,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 1
         },
         {
           "label": "7D",
@@ -213,7 +216,10 @@
           "roi_minus_spx_pct": 8.32,
           "spx_return_pct": 2.01,
           "dji_return_pct": 1.5,
-          "ndx_return_pct": 2.67
+          "ndx_return_pct": 2.67,
+          "pushes": 0,
+          "voided": 2,
+          "unsettled": 1
         },
         {
           "label": "21D",
@@ -239,7 +245,10 @@
           "roi_minus_spx_pct": -1.45,
           "spx_return_pct": 4.16,
           "dji_return_pct": 4.12,
-          "ndx_return_pct": 4.3
+          "ndx_return_pct": 4.3,
+          "pushes": 0,
+          "voided": 22,
+          "unsettled": 1
         },
         {
           "label": "MTD",
@@ -265,7 +274,10 @@
           "roi_minus_spx_pct": 5.43,
           "spx_return_pct": 3.52,
           "dji_return_pct": 2.84,
-          "ndx_return_pct": 4.85
+          "ndx_return_pct": 4.85,
+          "pushes": 0,
+          "voided": 5,
+          "unsettled": 1
         },
         {
           "label": "30D",
@@ -291,7 +303,10 @@
           "roi_minus_spx_pct": -11.47,
           "spx_return_pct": 2.35,
           "dji_return_pct": 2.54,
-          "ndx_return_pct": 1.23
+          "ndx_return_pct": 1.23,
+          "pushes": 0,
+          "voided": 36,
+          "unsettled": 1
         },
         {
           "label": "ALL-TIME",
@@ -317,7 +332,10 @@
           "roi_minus_spx_pct": -20.9,
           "spx_return_pct": 19.16,
           "dji_return_pct": 18.43,
-          "ndx_return_pct": 22.9
+          "ndx_return_pct": 22.9,
+          "pushes": 4,
+          "voided": 64,
+          "unsettled": 1
         }
       ]
     }
@@ -373,6 +391,6 @@
     "free_pick_live": true,
     "card_live": true,
     "first_leg_time": "3:46 PM PT",
-    "updated_pt": "10:46 AM PT"
+    "updated_pt": "10:54 AM PT"
   }
 }
