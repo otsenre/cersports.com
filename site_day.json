@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T17:09:47.473245+00:00",
+  "generated_at": "2026-08-11T17:34:48.394379+00:00",
   "run_date": "2026-08-11",
   "as_of": "2026-08-10",
   "anchor": "2026-03-20",
@@ -38,7 +38,14 @@
           "end": "2026-08-11",
           "units_pl": -0.47,
           "roi_pct": -7.81,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": -0.47,
+          "spx_return_pct": -0.34,
+          "dji_return_pct": -0.3,
+          "ndx_return_pct": -0.9,
+          "vs_spx": -0.13,
+          "vs_dji": -0.17,
+          "vs_ndx": 0.43
         },
         {
           "label": "7D",
@@ -53,7 +60,14 @@
           "end": "2026-08-11",
           "units_pl": 4.57,
           "roi_pct": 14.75,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": 4.57,
+          "spx_return_pct": -0.07,
+          "dji_return_pct": -0.39,
+          "ndx_return_pct": -0.51,
+          "vs_spx": 4.64,
+          "vs_dji": 4.96,
+          "vs_ndx": 5.08
         },
         {
           "label": "21D",
@@ -68,7 +82,14 @@
           "end": "2026-08-11",
           "units_pl": -6.01,
           "roi_pct": -6.68,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": -6.01,
+          "spx_return_pct": 2.95,
+          "dji_return_pct": 3.16,
+          "ndx_return_pct": 2.37,
+          "vs_spx": -8.96,
+          "vs_dji": -9.17,
+          "vs_ndx": -8.38
         },
         {
           "label": "MTD",
@@ -83,7 +104,14 @@
           "end": "2026-08-11",
           "units_pl": 1.24,
           "roi_pct": 2.38,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": 1.24,
+          "spx_return_pct": 3.22,
+          "dji_return_pct": 2.64,
+          "ndx_return_pct": 4.24,
+          "vs_spx": -1.98,
+          "vs_dji": -1.4,
+          "vs_ndx": -3.0
         },
         {
           "label": "30D",
@@ -98,7 +126,14 @@
           "end": "2026-08-11",
           "units_pl": -11.59,
           "roi_pct": -10.26,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": -11.59,
+          "spx_return_pct": 2.05,
+          "dji_return_pct": 2.35,
+          "ndx_return_pct": 0.64,
+          "vs_spx": -13.64,
+          "vs_dji": -13.94,
+          "vs_ndx": -12.23
         },
         {
           "label": "ALL-TIME",
@@ -113,7 +148,14 @@
           "end": "2026-08-11",
           "units_pl": -37.84,
           "roi_pct": -4.59,
-          "bankroll_units": 100
+          "bankroll_units": 100,
+          "bankroll_return_pct": -37.84,
+          "spx_return_pct": 18.82,
+          "dji_return_pct": 18.2,
+          "ndx_return_pct": 22.19,
+          "vs_spx": -56.66,
+          "vs_dji": -56.04,
+          "vs_ndx": -60.03
         }
       ],
       "as_of": "2026-08-11",
@@ -331,6 +373,6 @@
     "free_pick_live": true,
     "card_live": true,
     "first_leg_time": "3:46 PM PT",
-    "updated_pt": "10:09 AM PT"
+    "updated_pt": "10:34 AM PT"
   }
 }
