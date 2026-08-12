@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-12",
+    "source_sport": "MLB",
+    "game": "Tampa Bay Rays @ Athletics",
+    "pick": "Tampa Bay Rays -1.5",
+    "pick_display": "Tampa Bay Rays -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": -126.0,
+    "handicap": null,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "6c4c5902a267d5645ae0a7c6bf5c5691b3cf0b98e1e445b4a7f0620fac85907c"
+  },
+  {
     "date": "2026-08-11",
     "source_sport": "MLB",
     "game": "Kansas City Royals @ Los Angeles Dodgers",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": null,
+    "profit_units": -1.0,
     "odds_origin": "free_pick_receipt",
     "hash_id": "878b4e462d2b03fd5b9078c1dd1a4c10e9ebf8862558af4d9be7ef3a5863296d"
   },
@@ -10814,7 +10834,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "a7d4cdc1c8806edd33e57f733101af8f6e2d45af92b396346c7ac06fba9df5e8"
@@ -11054,7 +11074,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "4fe684c102549c9d6b370ed80b0319bf5d293b81e688f75d4740f06ce1849a86"
@@ -13694,7 +13714,7 @@
     "tier": "C",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2282a060fd47d7fa58b45efbbbcc3849e4963279cf691ec3a540e2aaca74b06e"
@@ -13734,7 +13754,7 @@
     "tier": "",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "e537ab5e99705cca6f9a37dd4ec17457b7e6bfd7fce32fa255c6af7c8b5b99a4"
@@ -13794,7 +13814,7 @@
     "tier": "A",
     "edge": 0,
     "units": 1.0,
-    "result": "P",
+    "result": "PUSH",
     "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "2a6309910f395f9278cf6dabaedb3abe331fe26905d34ed8d671e21db751690c"
