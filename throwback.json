@@ -1,39 +1,50 @@
 {
-  "generated_at": "2026-08-12T14:55:07.022998+00:00",
-  "iso_date": "2026-08-07",
-  "display_date": "Fri \u00b7 Aug 7, 2026",
+  "generated_at": "2026-08-13T15:10:08.135007+00:00",
+  "iso_date": "2026-07-26",
+  "display_date": "Sun \u00b7 Jul 26, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 0,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 2,
-    "units_staked": 2.75,
-    "units_pl": 3.06,
-    "roi_pct": 111.11
+    "total_picks": 3,
+    "units_staked": 3.25,
+    "units_pl": -1.34,
+    "roi_pct": -41.3
   },
   "picks": [
     {
       "sport": "MLB",
-      "game": "New York Mets @ Pittsburgh Pirates",
-      "pick": "New York Mets ML",
+      "game": "Chicago Cubs @ Pittsburgh Pirates",
+      "pick": "Chicago Cubs ML",
       "bet_type": "ML",
-      "odds": "122.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.83,
-      "hash_id": "d301eb29a848e42a8d0136e75ea47d09ecbbeaf588aab885397db72a385afb8c"
+      "odds": "110.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "d55cc78bebcd14fccbb49a7cb97fb9be0db4e46f69cd81e7053b3c725e0f97bc"
     },
     {
       "sport": "MLB",
-      "game": "Chicago Cubs @ Kansas City Royals",
-      "pick": "Chicago Cubs -1.5",
-      "bet_type": "ATS",
-      "odds": "-102.0",
+      "game": "New York Yankees @ Philadelphia Phillies",
+      "pick": "Philadelphia Phillies ML",
+      "bet_type": "ML",
+      "odds": "-190.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 1.2255,
-      "hash_id": "023df462b386657c4051764bd9c277d75b6af91441c32244a5859064ea3e99a1"
+      "profit_units": 0.6579,
+      "hash_id": "1b280f859c0dd557d44f727ea3d3555fbdada92a6b8367def7cefe43a2ce5276"
+    },
+    {
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Detroit Tigers",
+      "pick": "Detroit Tigers ML",
+      "bet_type": "ML",
+      "odds": "-190.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "8bae771adf40fdab08bdc65f6ff4508306949dcdaf00bf301cb06cc4df333a8b"
     }
   ]
 }
