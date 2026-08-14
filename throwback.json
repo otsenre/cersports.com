@@ -1,50 +1,72 @@
 {
-  "generated_at": "2026-08-13T15:10:08.135007+00:00",
-  "iso_date": "2026-07-26",
-  "display_date": "Sun \u00b7 Jul 26, 2026",
+  "generated_at": "2026-08-14T15:12:05.415027+00:00",
+  "iso_date": "2026-07-23",
+  "display_date": "Thu \u00b7 Jul 23, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 2,
-    "voids": 0,
+    "wins": 2,
+    "losses": 0,
+    "voids": 3,
     "pushes": 0,
-    "total_picks": 3,
-    "units_staked": 3.25,
-    "units_pl": -1.34,
-    "roi_pct": -41.3
+    "total_picks": 5,
+    "units_staked": 2.25,
+    "units_pl": 0.98,
+    "roi_pct": 43.39
   },
   "picks": [
-    {
-      "sport": "MLB",
-      "game": "Chicago Cubs @ Pittsburgh Pirates",
-      "pick": "Chicago Cubs ML",
-      "bet_type": "ML",
-      "odds": "110.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "d55cc78bebcd14fccbb49a7cb97fb9be0db4e46f69cd81e7053b3c725e0f97bc"
-    },
-    {
-      "sport": "MLB",
-      "game": "New York Yankees @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies ML",
-      "bet_type": "ML",
-      "odds": "-190.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.6579,
-      "hash_id": "1b280f859c0dd557d44f727ea3d3555fbdada92a6b8367def7cefe43a2ce5276"
-    },
     {
       "sport": "MLB",
       "game": "Kansas City Royals @ Detroit Tigers",
       "pick": "Detroit Tigers ML",
       "bet_type": "ML",
-      "odds": "-190.0",
-      "result": "L",
+      "odds": "-210.0",
+      "result": "W",
       "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "8bae771adf40fdab08bdc65f6ff4508306949dcdaf00bf301cb06cc4df333a8b"
+      "profit_units": 0.4762,
+      "hash_id": "9739f0e6e39b470e318119a7ca1374a1348dbcd2d4fc907da7cfbd1879238556"
+    },
+    {
+      "sport": "MLB",
+      "game": "San Diego Padres @ Atlanta Braves",
+      "pick": "Atlanta Braves ML",
+      "bet_type": "ML",
+      "odds": "-250.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 0.5,
+      "hash_id": "8bad9bfd3161f1fbf4aa4ac8e7bdb09393ee5b718b944ddc2dedc746364d889d"
+    },
+    {
+      "sport": "MMA",
+      "game": "Juliana Velasquez vs Aline Pereira",
+      "pick": "Juliana Velasquez ML",
+      "bet_type": "ML",
+      "odds": "130.0",
+      "result": "V",
+      "units": 0.5,
+      "profit_units": 0.0,
+      "hash_id": "94e3acf5e2507fd8a16279827da305e2db22eb753e9c99db266afbddea92f73e"
+    },
+    {
+      "sport": "MMA",
+      "game": "Uriah Hall vs Sam Alvey",
+      "pick": "Uriah Hall by KO/TKO",
+      "bet_type": "Method of Victory",
+      "odds": null,
+      "result": "V",
+      "units": 0.75,
+      "profit_units": 0.0,
+      "hash_id": "fb27be43b572a379b39fbae320b1d7e35d3b074ab1b22946bf958c04face8cb1"
+    },
+    {
+      "sport": "MMA",
+      "game": "Andre Ewell vs Daniel Da Silva",
+      "pick": "Andre Ewell ML",
+      "bet_type": "ML",
+      "odds": "105.0",
+      "result": "V",
+      "units": 1.0,
+      "profit_units": 0.0,
+      "hash_id": "1dae1f58a67bf4180f1f0b859e0d09134ffbffa581eea98d5c8a9f5058c1264b"
     }
   ]
 }
