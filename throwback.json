@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-08-14T15:12:05.415027+00:00",
-  "iso_date": "2026-07-23",
-  "display_date": "Thu \u00b7 Jul 23, 2026",
+  "generated_at": "2026-08-15T15:12:05.360759+00:00",
+  "iso_date": "2026-08-02",
+  "display_date": "Sun \u00b7 Aug 2, 2026",
   "summary": {
     "wins": 2,
-    "losses": 0,
-    "voids": 3,
+    "losses": 1,
+    "voids": 2,
     "pushes": 0,
     "total_picks": 5,
-    "units_staked": 2.25,
-    "units_pl": 0.98,
-    "roi_pct": 43.39
+    "units_staked": 3.5,
+    "units_pl": 0.96,
+    "roi_pct": 27.45
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ Detroit Tigers",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-210.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.4762,
-      "hash_id": "9739f0e6e39b470e318119a7ca1374a1348dbcd2d4fc907da7cfbd1879238556"
-    },
-    {
-      "sport": "MLB",
-      "game": "San Diego Padres @ Atlanta Braves",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": "-250.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.5,
-      "hash_id": "8bad9bfd3161f1fbf4aa4ac8e7bdb09393ee5b718b944ddc2dedc746364d889d"
-    },
-    {
-      "sport": "MMA",
-      "game": "Juliana Velasquez vs Aline Pereira",
-      "pick": "Juliana Velasquez ML",
-      "bet_type": "ML",
-      "odds": "130.0",
-      "result": "V",
-      "units": 0.5,
-      "profit_units": 0.0,
-      "hash_id": "94e3acf5e2507fd8a16279827da305e2db22eb753e9c99db266afbddea92f73e"
-    },
-    {
-      "sport": "MMA",
-      "game": "Uriah Hall vs Sam Alvey",
-      "pick": "Uriah Hall by KO/TKO",
-      "bet_type": "Method of Victory",
-      "odds": null,
-      "result": "V",
-      "units": 0.75,
-      "profit_units": 0.0,
-      "hash_id": "fb27be43b572a379b39fbae320b1d7e35d3b074ab1b22946bf958c04face8cb1"
-    },
-    {
-      "sport": "MMA",
-      "game": "Andre Ewell vs Daniel Da Silva",
-      "pick": "Andre Ewell ML",
-      "bet_type": "ML",
+      "sport": "WTA",
+      "game": "Maria Camila Osorio Serrano vs Lucrezia Stefanini",
+      "pick": "Maria Camila Osorio Serrano -4.5 Games",
+      "bet_type": "ATS",
       "odds": "105.0",
       "result": "V",
+      "units": 1.5,
+      "profit_units": 0.0,
+      "hash_id": "3a467df6fc1ac834ea5bc1f5cb3851c78b63a48c7ca30f3175570841174b0072"
+    },
+    {
+      "sport": "ATP",
+      "game": "Marin Cilic vs Sho Shimabukuro",
+      "pick": "Marin Cilic ML",
+      "bet_type": "ML",
+      "odds": "-145.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.6897,
+      "hash_id": "f8464bb38944bf210d81ebee625d5f5ed693e9471d41564957d17c076871e6d7"
+    },
+    {
+      "sport": "WTA",
+      "game": "Lanlana Tararudee vs Emerson Jones",
+      "pick": "Lanlana Tararudee -3.5 Games",
+      "bet_type": "ATS",
+      "odds": "-113.0",
+      "result": "V",
       "units": 1.0,
       "profit_units": 0.0,
-      "hash_id": "1dae1f58a67bf4180f1f0b859e0d09134ffbffa581eea98d5c8a9f5058c1264b"
+      "hash_id": "2a846ce3254f38e0b199466a46bbbc93e604b5b221b512b4d44513597a9752a5"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Connecticut Sun @ Dallas Wings",
+      "pick": "Dallas Wings -10.5",
+      "bet_type": "ATS",
+      "odds": "-118.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.2712,
+      "hash_id": "57875a63cc36de6cf78bc1e166f23541490103e3f33aafe696a7089bbd3889f8"
+    },
+    {
+      "sport": "ATP",
+      "game": "Christopher O'Connell vs James Duckworth",
+      "pick": "Christopher O'Connell -2.5 Games",
+      "bet_type": "ATS",
+      "odds": "-120.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "cd84a1793ba95b6d12950c8f662eb1c84e6c78e0ee30c1eb704b760bfc120e7b"
     }
   ]
 }
