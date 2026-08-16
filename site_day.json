@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:48:09.056329+00:00",
+  "generated_at": "2026-08-16T17:29:03.386313+00:00",
   "run_date": "2026-08-16",
   "as_of": "2026-08-15",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-08-16",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-08-16T09:49:02-07:00",
+      "fire_pt": "2026-08-16 09:49 PDT"
     },
     "prior_run": {
       "date": "2026-08-15",
@@ -353,27 +353,31 @@
       "WTA",
       "MMA"
     ],
-    "card_picks": 3,
+    "card_picks": 7,
     "card_sports": [
       "MLB",
-      "WNBA"
+      "WNBA",
+      "WTA"
     ]
   },
   "pickers_contributing": 12,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-08-16T09:49:02-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "10:28 AM PT",
+    "first_leg_time": "10:38 AM PT"
   },
   "status": {
     "contract": 1,
     "date": "2026-08-16",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT \u00b7 \u26c8 Weather watch on 18 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 10:28 AM PT \u00b7 7 picks, MLB + WNBA + WTA \u00b7 first leg fires 10:38 AM PT \u00b7 \u26c8 Weather watch on 18 games",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT",
+      "Paid card shipped 10:28 AM PT",
+      "7 picks, MLB + WNBA + WTA",
+      "first leg fires 10:38 AM PT",
       "\u26c8 Weather watch on 18 games"
     ],
     "expected_by": {
@@ -385,9 +389,9 @@
       "latest": "10:01 AM",
       "basis": "p90 of 10 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
-    "first_leg_time": null,
-    "updated_pt": "9:48 AM PT"
+    "free_pick_live": true,
+    "card_live": true,
+    "first_leg_time": "10:38 AM PT",
+    "updated_pt": "10:29 AM PT"
   }
 }
