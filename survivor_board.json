@@ -1,8 +1,8 @@
 {
-  "day": "2026-08-15",
-  "deadline_utc": "2026-08-15T20:01:00+00:00",
-  "deadline_reason": "game starts within 35 minutes of the first pick; publishing 5 minutes before first pitch",
-  "earliest_start_utc": "2026-08-15T20:06:00+00:00",
+  "day": "2026-08-16",
+  "deadline_utc": "2026-08-16T18:35:23+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-08-16T19:16:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
@@ -10,19 +10,22 @@
       "source": "human:reaper",
       "record": {
         "wins": 12,
-        "losses": 6,
+        "losses": 7,
         "pushes": 1,
-        "current": 1,
+        "current": 0,
         "longest": 4,
-        "alive": true
+        "alive": true,
+        "pl_units": 3.17,
+        "pl_priced": 20,
+        "pl_settled": 20
       },
-      "note": "1 up, building again",
+      "note": "reset after a loss \u2014 best run so far is 4",
       "pick": {
-        "pick": "Inter Miami CF ML",
-        "game": "Inter Miami CF @ Nashville SC",
+        "pick": "Draw",
+        "game": "Philadelphia Union @ New York City FC",
         "sport": "MLS",
-        "odds": 160,
-        "start_utc": "2026-08-16T00:30:00+00:00"
+        "odds": 260,
+        "start_utc": "2026-08-16T22:00:00+00:00"
       }
     },
     {
@@ -30,19 +33,22 @@
       "source": "human:shark",
       "record": {
         "wins": 12,
-        "losses": 8,
+        "losses": 9,
         "pushes": 0,
-        "current": 1,
+        "current": 0,
         "longest": 4,
-        "alive": true
+        "alive": true,
+        "pl_units": -1.94,
+        "pl_priced": 16,
+        "pl_settled": 21
       },
-      "note": "1 up, building again",
+      "note": "reset after a loss \u2014 best run so far is 4",
       "pick": {
-        "pick": "Bryce Eldridge Over 5.5 Hitter Fantasy Score",
-        "game": "Colorado Rockies @ San Francisco Giants",
+        "pick": "Alec Burleson Over 1.5 Hits+Runs+RBIs",
+        "game": "St. Louis Cardinals @ Chicago Cubs",
         "sport": "MLB",
-        "odds": null,
-        "start_utc": "2026-08-15T20:06:00+00:00"
+        "odds": -140,
+        "start_utc": "2026-08-16T19:16:00+00:00"
       }
     }
   ]
