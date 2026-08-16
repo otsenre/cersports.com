@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-08-15T15:12:05.360759+00:00",
-  "iso_date": "2026-08-02",
-  "display_date": "Sun \u00b7 Aug 2, 2026",
+  "generated_at": "2026-08-16T16:48:05.316326+00:00",
+  "iso_date": "2026-08-01",
+  "display_date": "Sat \u00b7 Aug 1, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 1,
-    "voids": 2,
+    "wins": 1,
+    "losses": 4,
+    "voids": 0,
     "pushes": 0,
     "total_picks": 5,
-    "units_staked": 3.5,
-    "units_pl": 0.96,
-    "roi_pct": 27.45
+    "units_staked": 5.75,
+    "units_pl": -4.29,
+    "roi_pct": -74.53
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Maria Camila Osorio Serrano vs Lucrezia Stefanini",
-      "pick": "Maria Camila Osorio Serrano -4.5 Games",
-      "bet_type": "ATS",
-      "odds": "105.0",
-      "result": "V",
-      "units": 1.5,
-      "profit_units": 0.0,
-      "hash_id": "3a467df6fc1ac834ea5bc1f5cb3851c78b63a48c7ca30f3175570841174b0072"
-    },
-    {
-      "sport": "ATP",
-      "game": "Marin Cilic vs Sho Shimabukuro",
-      "pick": "Marin Cilic ML",
-      "bet_type": "ML",
-      "odds": "-145.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.6897,
-      "hash_id": "f8464bb38944bf210d81ebee625d5f5ed693e9471d41564957d17c076871e6d7"
-    },
-    {
-      "sport": "WTA",
-      "game": "Lanlana Tararudee vs Emerson Jones",
-      "pick": "Lanlana Tararudee -3.5 Games",
-      "bet_type": "ATS",
-      "odds": "-113.0",
-      "result": "V",
-      "units": 1.0,
-      "profit_units": 0.0,
-      "hash_id": "2a846ce3254f38e0b199466a46bbbc93e604b5b221b512b4d44513597a9752a5"
-    },
-    {
       "sport": "WNBA",
-      "game": "Connecticut Sun @ Dallas Wings",
-      "pick": "Dallas Wings -10.5",
+      "game": "Las Vegas Aces @ Chicago Sky",
+      "pick": "Las Vegas Aces -6.5",
       "bet_type": "ATS",
-      "odds": "-118.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.2712,
-      "hash_id": "57875a63cc36de6cf78bc1e166f23541490103e3f33aafe696a7089bbd3889f8"
+      "odds": "-104.0",
+      "result": "L",
+      "units": 1.75,
+      "profit_units": -1.75,
+      "hash_id": "dc59b23f26f6f8bdb7befe88884ea7d3f80108cc8fa0cbfd5d7b77a69a8109e3"
     },
     {
-      "sport": "ATP",
-      "game": "Christopher O'Connell vs James Duckworth",
-      "pick": "Christopher O'Connell -2.5 Games",
+      "sport": "WTA",
+      "game": "Diana Shnaider vs Jessica Pegula",
+      "pick": "Diana Shnaider +4.5 Games",
       "bet_type": "ATS",
-      "odds": "-120.0",
+      "odds": "-105.0",
+      "result": "W",
+      "units": 0.75,
+      "profit_units": 0.7143,
+      "hash_id": "1b71d10ea06506f3679e1f4d01f4dbcf7666b3753c79b5f924da652ffe141eb4"
+    },
+    {
+      "sport": "MLB",
+      "game": "Arizona Diamondbacks @ Cleveland Guardians",
+      "pick": "Cleveland Guardians ML",
+      "bet_type": "ML",
+      "odds": "-164.0",
       "result": "L",
       "units": 1.0,
       "profit_units": -1.0,
-      "hash_id": "cd84a1793ba95b6d12950c8f662eb1c84e6c78e0ee30c1eb704b760bfc120e7b"
+      "hash_id": "a9f0482930818227589955a0150bc9cb13bfabf1c80c510d4df0d4f119b916ba"
+    },
+    {
+      "sport": "WNBA",
+      "game": "New York Liberty @ Phoenix Mercury",
+      "pick": "New York Liberty -3.5",
+      "bet_type": "ATS",
+      "odds": "-105.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "2ff3977549fc003e34c4f3a9a78c63024452f71d46dec6441ca26166fb1f20c4"
+    },
+    {
+      "sport": "MLB",
+      "game": "Boston Red Sox @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": "-156.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "213f4322d4a5227098cc5022de206fc41e87b95a57715243dfc40e4b74be1870"
     }
   ]
 }

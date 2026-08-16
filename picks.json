@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-16",
+    "source_sport": "MLB",
+    "game": "Seattle Mariners @ Houston Astros",
+    "pick": "Houston Astros -1.5",
+    "pick_display": "Houston Astros -1.5",
+    "bet_type": "F5 ATS",
+    "line": null,
+    "price": 170.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "9c8861d707185c655a39bc5fb89bd3a482c5a4bc58b37d35254ca98b5b52f98f"
+  },
+  {
     "date": "2026-08-15",
     "source_sport": "MLB",
     "game": "Baltimore Orioles @ Tampa Bay Rays",
