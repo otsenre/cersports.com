@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Survivor Pool — CERSports</title>
+<meta name="description" content="One pick a day. Win survives, loss resets the run.">
+<style>
+:root{
+  --black:#080808; --surface:#101010; --border:rgba(255,255,255,0.08);
+  --white:#ffffff; --off-white:#e8e8e8; --muted:#666666;
+  --gold:#c9a84c; --gold-light:#e8c96a;
+  --red:#c0392b; --green:#1a7a4a; --green-light:#22c55e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--black); color:var(--off-white);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:680px;margin:0 auto;padding:32px 20px 64px}
+header{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:28px}
+h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
+.tag{color:var(--gold);font-size:11px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+.rule{color:var(--muted);font-size:13px;margin-top:8px}
+.deadline{
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:12px 14px;margin-bottom:22px;font-size:13px;color:var(--off-white)
+}
+.deadline b{color:var(--gold-light)}
+.deadline .why{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:16px 18px;margin-bottom:14px
+}
+.who{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.name{font-size:18px;color:var(--white);font-weight:640;letter-spacing:-0.01em}
+.state{font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:99px}
+.alive{color:var(--green-light);border:1px solid rgba(34,197,94,.35)}
+.out{color:var(--red);border:1px solid rgba(192,57,43,.4)}
+
+.score{display:flex;gap:18px;margin-top:10px;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column}
+.stat .v{font-size:19px;color:var(--white);font-variant-numeric:tabular-nums;font-weight:600}
+.stat .k{font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:1px}
+.streak .v{color:var(--gold-light)}
+
+.note{color:var(--muted);font-size:12.5px;font-style:italic;margin-top:10px}
+
+.pick{border-top:1px solid var(--border);margin-top:13px;padding-top:13px}
+.pick .p{font-size:16px;color:var(--white);font-weight:600}
+.pick .odds{color:var(--gold);font-variant-numeric:tabular-nums;margin-left:6px}
+.pick .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.nopick{color:var(--muted);font-size:13px;font-style:italic;margin-top:13px;
+        border-top:1px solid var(--border);padding-top:13px}
+
+.empty{
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:28px 18px;text-align:center;color:var(--muted);font-size:14px
+}
+footer{margin-top:30px;color:var(--muted);font-size:11.5px;line-height:1.7}
+footer a{color:var(--gold);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="tag">CERSports</div>
+    <h1>Survivor Pool</h1>
+    <div class="rule">One pick per person, per day. A win survives; a loss resets the run to zero.</div>
+  </header>
+
+  <div id="board"><div class="empty">Loading today's board…</div></div>
+
+  <footer>
+    Picks are published at the day's deadline — 120 minutes before the earliest
+    game a participant picked, floored so there is always a window.
+    A pick made after the deadline still counts toward the run; it just misses
+    this board.
+    <br><a href="index.html">← CERSports</a>
+  </footer>
+</div>
+
+<script>
+// The payload is written by publish_survivor_board.py at the day's deadline.
+// Everything here is presentation: no record is computed in the browser, so the
+// page and the ledger cannot drift.
+const URL = 'survivor_board.json';
+
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function localTime(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return '';
+  return d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit', timeZoneName:'short'});
+}
+
+function signed(v){
+  if(v === null || v === undefined || v === '') return '';
+  const n = Number(v);
+  if(!isFinite(n)) return '';
+  return (n > 0 ? '+' : '') + n;
+}
+
+function card(e){
+  const r = e.record || {};
+  const alive = r.alive !== false;
+  // A picker with no settled picks has no record to show — say that rather
+  // than printing 0-0, which reads as a result.
+  const hasRecord = (r.wins || 0) + (r.losses || 0) > 0;
+  const parts = [];
+  parts.push(`<div class="card"><div class="who">
+      <span class="name">${esc(e.name)}</span>
+      <span class="state ${alive ? 'alive' : 'out'}">${alive ? 'Alive' : 'Out'}</span>
+    </div>`);
+  if(hasRecord){
+    parts.push(`<div class="score">
+      <span class="stat"><span class="v">${r.wins|0}-${r.losses|0}</span><span class="k">Record</span></span>
+      <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Streak</span></span>
+      <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
+    </div>`);
+  }
+  if(e.note) parts.push(`<div class="note">${esc(e.note)}</div>`);
+
+  if(e.pick){
+    const start = localTime(e.pick.start_utc);
+    const meta = [e.pick.game, e.pick.sport, start].filter(Boolean).map(esc).join(' · ');
+    parts.push(`<div class="pick">
+        <div class="p">${esc(e.pick.pick)}<span class="odds">${esc(signed(e.pick.odds))}</span></div>
+        ${meta ? `<div class="meta">${meta}</div>` : ''}
+      </div>`);
+  } else {
+    parts.push(`<div class="nopick">No pick in before the deadline.</div>`);
+  }
+  parts.push('</div>');
+  return parts.join('');
+}
+
+(async function(){
+  const el = document.getElementById('board');
+  let data;
+  try{
+    const res = await fetch(URL + '?t=' + Date.now());
+    if(!res.ok) throw new Error(res.status);
+    data = await res.json();
+  }catch(err){
+    el.innerHTML = '<div class="empty">Today\'s board isn\'t up yet.</div>';
+    return;
+  }
+  // Node 0's rule: some days there is nothing, and that is a real answer.
+  if(!data || !data.submitted_count){
+    el.innerHTML = '<div class="empty">No survivor picks were logged before today\'s deadline.</div>';
+    return;
+  }
+  const head = data.deadline_utc
+    ? `<div class="deadline">Picks locked at <b>${esc(localTime(data.deadline_utc))}</b>
+         <span class="why">${esc(data.deadline_reason || '')}</span></div>`
+    : '';
+  el.innerHTML = head + (data.entries || []).map(card).join('');
+})();
+</script>
+</body>
+</html>
