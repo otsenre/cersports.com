@@ -45,6 +45,8 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
 .stat .v{font-size:19px;color:var(--white);font-variant-numeric:tabular-nums;font-weight:600}
 .stat .k{font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:1px}
 .streak .v{color:var(--gold-light)}
+.pl-up{color:var(--green-light)}
+.pl-down{color:var(--red)}
 
 .note{color:var(--muted);font-size:12.5px;font-style:italic;margin-top:10px}
 
@@ -105,6 +107,20 @@ function signed(v){
   return (n > 0 ? '+' : '') + n;
 }
 
+// P&L NEVER APPEARS WITHOUT ITS COVERAGE. Some picks are pick'em props with no
+// price — genuinely unpriced, not missing — and they are not in the P&L even
+// though they ARE in the record. A bare figure beside a 12-8 would describe a
+// different set of picks than the record does.
+function plStat(r){
+  if(r.pl_units === null || r.pl_units === undefined || !r.pl_priced) return '';
+  const v = (r.pl_units > 0 ? '+' : '') + Number(r.pl_units).toFixed(2) + 'u';
+  const cls = r.pl_units >= 0 ? 'pl-up' : 'pl-down';
+  const cover = (r.pl_priced === r.pl_settled)
+      ? 'P&amp;L'
+      : `P&amp;L · ${r.pl_priced|0}/${r.pl_settled|0} priced`;
+  return `<span class="stat"><span class="v ${cls}">${esc(v)}</span><span class="k">${cover}</span></span>`;
+}
+
 function card(e){
   const r = e.record || {};
   const alive = r.alive !== false;
@@ -121,6 +137,7 @@ function card(e){
       <span class="stat"><span class="v">${r.wins|0}-${r.losses|0}</span><span class="k">Record</span></span>
       <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Streak</span></span>
       <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
+      ${plStat(r)}
     </div>`);
   }
   if(e.note) parts.push(`<div class="note">${esc(e.note)}</div>`);
