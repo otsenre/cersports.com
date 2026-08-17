@@ -51,6 +51,5 @@
         "start_utc": "2026-08-16T19:16:00+00:00"
       }
     }
-  ],
-  "_probe": "commit-gap-test"
+  ]
 }
