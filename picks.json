@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-17",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "Atlanta Braves @ Minnesota Twins",
+    "pick": "Atlanta Braves ML",
+    "bet_type": "ML",
+    "line": -120.0,
+    "pick_display": "Atlanta Braves ML",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "2af1f55c37454d92540fda5cbd696c925c8b2299457a2ff750e0c1d995bd24a4"
+  },
+  {
     "date": "2026-08-16",
     "source_sport": "MLB",
     "game": "Seattle Mariners @ Houston Astros",
