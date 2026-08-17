@@ -1,72 +1,50 @@
 {
-  "generated_at": "2026-08-16T16:48:05.316326+00:00",
-  "iso_date": "2026-08-01",
-  "display_date": "Sat \u00b7 Aug 1, 2026",
+  "generated_at": "2026-08-17T15:48:05.913558+00:00",
+  "iso_date": "2026-07-25",
+  "display_date": "Sat \u00b7 Jul 25, 2026",
   "summary": {
     "wins": 1,
-    "losses": 4,
-    "voids": 0,
+    "losses": 1,
+    "voids": 1,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 5.75,
-    "units_pl": -4.29,
-    "roi_pct": -74.53
+    "total_picks": 3,
+    "units_staked": 1.75,
+    "units_pl": -0.32,
+    "roi_pct": -18.18
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Chicago Sky",
-      "pick": "Las Vegas Aces -6.5",
-      "bet_type": "ATS",
-      "odds": "-104.0",
+      "sport": "MMA",
+      "game": "Saygid Izagakhmaev vs Abubakar Vagaev",
+      "pick": "Saygid Izagakhmaev ML",
+      "bet_type": "ML",
+      "odds": "200.0",
       "result": "L",
-      "units": 1.75,
-      "profit_units": -1.75,
-      "hash_id": "dc59b23f26f6f8bdb7befe88884ea7d3f80108cc8fa0cbfd5d7b77a69a8109e3"
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "15330547bc1a6c21ca229d4fda08c926ff78127af5f2e2b2d113d6bea49c469a"
     },
     {
-      "sport": "WTA",
-      "game": "Diana Shnaider vs Jessica Pegula",
-      "pick": "Diana Shnaider +4.5 Games",
-      "bet_type": "ATS",
-      "odds": "-105.0",
+      "sport": "MMA",
+      "game": "Ramazonbek Temirov vs Stephen Erceg",
+      "pick": "Over 2.5 Rounds",
+      "bet_type": "Total Rounds",
+      "odds": "-190.0",
+      "result": "V",
+      "units": 0.75,
+      "profit_units": 0.0,
+      "hash_id": "d4855a6e98df7a6ec93d01c4a4dc1ca76223da13aa55766cfd16c44299a79024"
+    },
+    {
+      "sport": "MLB",
+      "game": "Toronto Blue Jays @ Boston Red Sox",
+      "pick": "Toronto Blue Jays ML",
+      "bet_type": "ML",
+      "odds": "-110.0",
       "result": "W",
       "units": 0.75,
-      "profit_units": 0.7143,
-      "hash_id": "1b71d10ea06506f3679e1f4d01f4dbcf7666b3753c79b5f924da652ffe141eb4"
-    },
-    {
-      "sport": "MLB",
-      "game": "Arizona Diamondbacks @ Cleveland Guardians",
-      "pick": "Cleveland Guardians ML",
-      "bet_type": "ML",
-      "odds": "-164.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "a9f0482930818227589955a0150bc9cb13bfabf1c80c510d4df0d4f119b916ba"
-    },
-    {
-      "sport": "WNBA",
-      "game": "New York Liberty @ Phoenix Mercury",
-      "pick": "New York Liberty -3.5",
-      "bet_type": "ATS",
-      "odds": "-105.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "2ff3977549fc003e34c4f3a9a78c63024452f71d46dec6441ca26166fb1f20c4"
-    },
-    {
-      "sport": "MLB",
-      "game": "Boston Red Sox @ Los Angeles Dodgers",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": "-156.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "213f4322d4a5227098cc5022de206fc41e87b95a57715243dfc40e4b74be1870"
+      "profit_units": 0.6818,
+      "hash_id": "79af93bd9608646baa08d61fa2da2bff946bf521a8f4e06384f42b35294f8c88"
     }
   ]
 }
