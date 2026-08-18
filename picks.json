@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-18",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Atlanta Dream @ Las Vegas Aces",
+    "pick": "Las Vegas Aces -3.5",
+    "bet_type": "ATS",
+    "line": -103.0,
+    "pick_display": "Las Vegas Aces -3.5",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "cfee7d0b09308262293d188ec2bf57bd6bb1bfe54bceb7d266da1ab6dc95a528"
+  },
+  {
     "date": "2026-08-17",
     "source_sport": "MLB",
     "game": "Atlanta Braves @ Minnesota Twins",
