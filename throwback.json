@@ -1,50 +1,39 @@
 {
-  "generated_at": "2026-08-18T01:56:13.850185+00:00",
-  "iso_date": "2026-07-25",
-  "display_date": "Sat \u00b7 Jul 25, 2026",
+  "generated_at": "2026-08-18T15:13:04.336413+00:00",
+  "iso_date": "2026-08-07",
+  "display_date": "Fri \u00b7 Aug 7, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 1,
-    "voids": 1,
+    "wins": 2,
+    "losses": 0,
+    "voids": 0,
     "pushes": 0,
-    "total_picks": 3,
-    "units_staked": 1.75,
-    "units_pl": -0.32,
-    "roi_pct": -18.18
+    "total_picks": 2,
+    "units_staked": 2.75,
+    "units_pl": 3.06,
+    "roi_pct": 111.11
   },
   "picks": [
     {
-      "sport": "MMA",
-      "game": "Saygid Izagakhmaev vs Abubakar Vagaev",
-      "pick": "Saygid Izagakhmaev ML",
+      "sport": "MLB",
+      "game": "New York Mets @ Pittsburgh Pirates",
+      "pick": "New York Mets ML",
       "bet_type": "ML",
-      "odds": "200.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "15330547bc1a6c21ca229d4fda08c926ff78127af5f2e2b2d113d6bea49c469a"
-    },
-    {
-      "sport": "MMA",
-      "game": "Ramazonbek Temirov vs Stephen Erceg",
-      "pick": "Over 2.5 Rounds",
-      "bet_type": "Total Rounds",
-      "odds": "-190.0",
-      "result": "V",
-      "units": 0.75,
-      "profit_units": 0.0,
-      "hash_id": "d4855a6e98df7a6ec93d01c4a4dc1ca76223da13aa55766cfd16c44299a79024"
+      "odds": "122.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.83,
+      "hash_id": "d301eb29a848e42a8d0136e75ea47d09ecbbeaf588aab885397db72a385afb8c"
     },
     {
       "sport": "MLB",
-      "game": "Toronto Blue Jays @ Boston Red Sox",
-      "pick": "Toronto Blue Jays ML",
-      "bet_type": "ML",
-      "odds": "-110.0",
+      "game": "Chicago Cubs @ Kansas City Royals",
+      "pick": "Chicago Cubs -1.5",
+      "bet_type": "ATS",
+      "odds": "-102.0",
       "result": "W",
-      "units": 0.75,
-      "profit_units": 0.6818,
-      "hash_id": "79af93bd9608646baa08d61fa2da2bff946bf521a8f4e06384f42b35294f8c88"
+      "units": 1.25,
+      "profit_units": 1.2255,
+      "hash_id": "023df462b386657c4051764bd9c277d75b6af91441c32244a5859064ea3e99a1"
     }
   ]
 }

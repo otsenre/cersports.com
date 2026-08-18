@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-08-18",
-    "sport": "BEST",
     "source_sport": "WNBA",
     "game": "Atlanta Dream @ Las Vegas Aces",
     "pick": "Las Vegas Aces -3.5",
-    "bet_type": "ATS",
-    "line": -103.0,
     "pick_display": "Las Vegas Aces -3.5",
-    "edge": 0,
+    "bet_type": "ATS",
+    "line": -3.5,
+    "price": -110.0,
+    "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
-    "tier": "B",
-    "result": null,
+    "tier": "",
+    "edge": 0,
     "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "cfee7d0b09308262293d188ec2bf57bd6bb1bfe54bceb7d266da1ab6dc95a528"
   },
   {
@@ -1192,7 +1195,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "4c3b3a0e51cdc07c87bd7d863b1f3954b630920d49e9118679652a6bd3d96391"
   },
@@ -1932,7 +1935,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 1.3636,
+    "profit_units": 0.9090666666666666,
     "odds_origin": "source_report",
     "hash_id": "06f4919208322d80646fa3fab640754ba27f6508486306b760096e6336477fd8"
   },
@@ -2252,7 +2255,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "13fd39d16487d9afecf285481409b8d3f2f1c86c32b0df636b69ed5afdf616a7"
   },
@@ -2872,7 +2875,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -1.0,
     "odds_origin": "source_report",
     "hash_id": "2a7302b37c1d30f2df3f2fd1339ae36bac3cdd299379651fc331c0cdcdc99beb"
   },
