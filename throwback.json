@@ -1,39 +1,50 @@
 {
-  "generated_at": "2026-08-18T15:13:04.336413+00:00",
-  "iso_date": "2026-08-07",
-  "display_date": "Fri \u00b7 Aug 7, 2026",
+  "generated_at": "2026-08-19T15:13:05.588947+00:00",
+  "iso_date": "2026-08-06",
+  "display_date": "Thu \u00b7 Aug 6, 2026",
   "summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 2,
-    "units_staked": 2.75,
-    "units_pl": 3.06,
-    "roi_pct": 111.11
+    "total_picks": 3,
+    "units_staked": 3.5,
+    "units_pl": 2.97,
+    "roi_pct": 84.92
   },
   "picks": [
     {
       "sport": "MLB",
-      "game": "New York Mets @ Pittsburgh Pirates",
-      "pick": "New York Mets ML",
+      "game": "Miami Marlins @ Atlanta Braves",
+      "pick": "Atlanta Braves ML",
       "bet_type": "ML",
-      "odds": "122.0",
+      "odds": "-138.0",
       "result": "W",
-      "units": 1.5,
-      "profit_units": 1.83,
-      "hash_id": "d301eb29a848e42a8d0136e75ea47d09ecbbeaf588aab885397db72a385afb8c"
+      "units": 1.25,
+      "profit_units": 0.9058,
+      "hash_id": "20d3791742eaf129d74fc4122d73bef108f0c4bbcd1b6da048d2771c342c912f"
     },
     {
       "sport": "MLB",
-      "game": "Chicago Cubs @ Kansas City Royals",
-      "pick": "Chicago Cubs -1.5",
-      "bet_type": "ATS",
-      "odds": "-102.0",
+      "game": "Pittsburgh Pirates @ Milwaukee Brewers",
+      "pick": "Milwaukee Brewers ML",
+      "bet_type": "ML",
+      "odds": "-123.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 1.2255,
-      "hash_id": "023df462b386657c4051764bd9c277d75b6af91441c32244a5859064ea3e99a1"
+      "profit_units": 1.0163,
+      "hash_id": "61a43435317b6be12face38bf5102a89839fcb82ae6bdee4824895be41d80169"
+    },
+    {
+      "sport": "MLB",
+      "game": "Washington Nationals @ Philadelphia Phillies",
+      "pick": "Philadelphia Phillies -2.5",
+      "bet_type": "ATS",
+      "odds": "105.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 1.05,
+      "hash_id": "583606dfa34973c63594a0d72a974533041f23c2cdfee568fc391bb2446f2eac"
     }
   ]
 }
