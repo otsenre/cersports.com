@@ -15,7 +15,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "L",
-    "profit_units": null,
+    "profit_units": -1.0,
     "odds_origin": "free_pick_receipt",
     "hash_id": "cfee7d0b09308262293d188ec2bf57bd6bb1bfe54bceb7d266da1ab6dc95a528"
   },
