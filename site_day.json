@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:13:09.312880+00:00",
+  "generated_at": "2026-08-19T15:45:06.039733+00:00",
   "run_date": "2026-08-19",
   "as_of": "2026-08-18",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-08-19",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-08-19T08:14:02-07:00",
+      "fire_pt": "2026-08-19 08:14 PDT"
     },
     "prior_run": {
       "date": "2026-08-18",
@@ -363,20 +363,31 @@
   },
   "pickers_contributing": 11,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-08-19T08:14:02-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:44 AM PT",
+    "first_leg_time": "10:11 AM PT",
+    "first_leg_utc": "2026-08-19T17:11:00+00:00",
+    "leg_times_utc": [
+      "2026-08-19T17:11:00+00:00",
+      "2026-08-19T20:20:00+00:00",
+      "2026-08-19T23:00:00+00:00",
+      "2026-08-20T00:10:00+00:00",
+      "2026-08-20T00:30:00+00:00",
+      "2026-08-20T02:10:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-19",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT \u00b7 \u26c8 Weather: Toronto Blue Jays @ Tampa Bay Rays, Washington Nationals @ Texas Rangers",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:44 AM PT \u00b7 6 picks, ATP + MLB + WNBA + WTA \u00b7 first leg fires 10:11 AM PT",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT",
-      "\u26c8 Weather: Toronto Blue Jays @ Tampa Bay Rays, Washington Nationals @ Texas Rangers"
+      "Paid card shipped 8:44 AM PT",
+      "6 picks, ATP + MLB + WNBA + WTA",
+      "first leg fires 10:11 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -387,9 +398,9 @@
       "latest": "10:01 AM",
       "basis": "p90 of 13 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
-    "first_leg_time": null,
-    "updated_pt": "8:13 AM PT"
+    "free_pick_live": true,
+    "card_live": true,
+    "first_leg_time": "10:11 AM PT",
+    "updated_pt": "8:45 AM PT"
   }
 }
