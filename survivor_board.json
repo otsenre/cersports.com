@@ -1,54 +1,54 @@
 {
-  "day": "2026-08-18",
-  "deadline_utc": "2026-08-18T20:41:00+00:00",
+  "day": "2026-08-19",
+  "deadline_utc": "2026-08-19T22:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-18T22:41:00+00:00",
+  "earliest_start_utc": "2026-08-20T00:06:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 14,
+        "wins": 15,
         "losses": 9,
         "pushes": 0,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": -0.81,
-        "pl_priced": 18,
-        "pl_settled": 23
+        "pl_units": 0.06,
+        "pl_priced": 19,
+        "pl_settled": 24
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
-        "pick": "Over 12",
+        "pick": "Over 11.5",
         "game": "Los Angeles Dodgers @ Colorado Rockies",
         "sport": "MLB",
-        "odds": -115,
-        "start_utc": "2026-08-19T00:41:00+00:00"
+        "odds": 100,
+        "start_utc": "2026-08-20T00:40:00+00:00"
       }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 12,
+        "wins": 14,
         "losses": 8,
         "pushes": 1,
-        "current": 0,
+        "current": 2,
         "longest": 4,
         "alive": true,
-        "pl_units": 2.17,
-        "pl_priced": 21,
-        "pl_settled": 21
+        "pl_units": 3.64,
+        "pl_priced": 23,
+        "pl_settled": 23
       },
-      "note": "reset after a loss \u2014 best run so far is 4",
+      "note": "2 up, building again",
       "pick": {
-        "pick": "Cleveland Guardians ML",
-        "game": "San Francisco Giants @ Cleveland Guardians",
+        "pick": "Over 7.5",
+        "game": "Washington Nationals @ Texas Rangers",
         "sport": "MLB",
-        "odds": -193,
-        "start_utc": "2026-08-18T22:41:00+00:00"
+        "odds": -114,
+        "start_utc": "2026-08-20T00:06:00+00:00"
       }
     }
   ]
