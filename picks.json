@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-19",
+    "sport": "BEST",
+    "source_sport": "WNBA",
+    "game": "Minnesota Lynx @ Golden State Valkyries",
+    "pick": "Minnesota Lynx -1.5",
+    "bet_type": "ATS",
+    "line": -117.0,
+    "pick_display": "Minnesota Lynx -1.5",
+    "edge": 0,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "ccdd1d3d39083ffad2d988e1e7f28f179262d6fc3248ae18d9933f56006cbda5"
+  },
+  {
     "date": "2026-08-18",
     "source_sport": "WNBA",
     "game": "Atlanta Dream @ Las Vegas Aces",
