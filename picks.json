@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-20",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Arthur Fils vs Thiago Agustin Tirante",
+    "pick": "Arthur Fils -3.5 Games",
+    "bet_type": "ATS",
+    "line": -125.0,
+    "pick_display": "Arthur Fils -3.5 Games",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "629674e2484143ce36f0eee71c794b33bd623b3b13c68c7b08224fd793340d8e"
+  },
+  {
     "date": "2026-08-19",
     "source_sport": "WNBA",
     "game": "Minnesota Lynx @ Golden State Valkyries",
