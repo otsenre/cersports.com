@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:57:09.782158+00:00",
+  "generated_at": "2026-08-20T15:27:03.955219+00:00",
   "run_date": "2026-08-20",
   "as_of": "2026-08-19",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-08-20",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-08-20T07:58:01-07:00",
+      "fire_pt": "2026-08-20 07:58 PDT"
     },
     "prior_run": {
       "date": "2026-08-19",
@@ -360,22 +360,32 @@
       "WTA"
     ]
   },
-  "pickers_contributing": 6,
+  "pickers_contributing": 10,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-08-20T07:58:01-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:26 AM PT",
+    "first_leg_time": "12:00 PM PT",
+    "first_leg_utc": "2026-08-20T19:00:00+00:00",
+    "leg_times_utc": [
+      "2026-08-20T19:00:00+00:00",
+      "2026-08-20T23:00:00+00:00",
+      "2026-08-21T00:00:00+00:00",
+      "2026-08-21T00:30:00+00:00",
+      "2026-08-21T02:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-20",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT \u00b7 \u26c8 Weather on 3 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:26 AM PT \u00b7 5 picks, ATP + WNBA + WTA \u00b7 first leg fires 12:00 PM PT",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT",
-      "\u26c8 Weather on 3 games"
+      "Paid card shipped 8:26 AM PT",
+      "5 picks, ATP + WNBA + WTA",
+      "first leg fires 12:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -386,9 +396,9 @@
       "latest": "10:01 AM",
       "basis": "p90 of 14 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
-    "first_leg_time": null,
-    "updated_pt": "7:57 AM PT"
+    "free_pick_live": true,
+    "card_live": true,
+    "first_leg_time": "12:00 PM PT",
+    "updated_pt": "8:27 AM PT"
   }
 }
