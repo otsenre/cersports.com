@@ -1,8 +1,8 @@
 {
-  "day": "2026-08-19",
-  "deadline_utc": "2026-08-19T22:06:00+00:00",
+  "day": "2026-08-20",
+  "deadline_utc": "2026-08-20T22:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-20T00:06:00+00:00",
+  "earliest_start_utc": "2026-08-21T00:06:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
@@ -10,22 +10,22 @@
       "source": "human:shark",
       "record": {
         "wins": 15,
-        "losses": 9,
+        "losses": 10,
         "pushes": 0,
-        "current": 3,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 0.06,
-        "pl_priced": 19,
-        "pl_settled": 24
+        "alive": false,
+        "pl_units": -0.94,
+        "pl_priced": 20,
+        "pl_settled": 25
       },
-      "note": "3 straight, best is 4",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 11.5",
-        "game": "Los Angeles Dodgers @ Colorado Rockies",
+        "pick": "Texas Rangers ML",
+        "game": "Washington Nationals @ Texas Rangers",
         "sport": "MLB",
-        "odds": 100,
-        "start_utc": "2026-08-20T00:40:00+00:00"
+        "odds": -160,
+        "start_utc": "2026-08-21T00:06:00+00:00"
       }
     },
     {
@@ -33,22 +33,22 @@
       "source": "human:reaper",
       "record": {
         "wins": 14,
-        "losses": 8,
+        "losses": 9,
         "pushes": 1,
-        "current": 2,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 3.64,
-        "pl_priced": 23,
-        "pl_settled": 23
+        "alive": false,
+        "pl_units": 2.64,
+        "pl_priced": 24,
+        "pl_settled": 24
       },
-      "note": "2 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 7.5",
-        "game": "Washington Nationals @ Texas Rangers",
+        "pick": "Houston Astros ML",
+        "game": "Los Angeles Angels @ Houston Astros",
         "sport": "MLB",
-        "odds": -114,
-        "start_utc": "2026-08-20T00:06:00+00:00"
+        "odds": -180,
+        "start_utc": "2026-08-21T00:11:00+00:00"
       }
     }
   ]
