@@ -1,50 +1,61 @@
 {
-  "generated_at": "2026-08-19T15:13:05.588947+00:00",
-  "iso_date": "2026-08-06",
-  "display_date": "Thu \u00b7 Aug 6, 2026",
+  "generated_at": "2026-08-20T14:57:05.531431+00:00",
+  "iso_date": "2026-08-10",
+  "display_date": "Mon \u00b7 Aug 10, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 0,
+    "wins": 2,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 3,
-    "units_staked": 3.5,
-    "units_pl": 2.97,
-    "roi_pct": 84.92
+    "total_picks": 4,
+    "units_staked": 6.0,
+    "units_pl": -1.61,
+    "roi_pct": -26.9
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Miami Marlins @ Atlanta Braves",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": "-138.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.9058,
-      "hash_id": "20d3791742eaf129d74fc4122d73bef108f0c4bbcd1b6da048d2771c342c912f"
-    },
-    {
-      "sport": "MLB",
-      "game": "Pittsburgh Pirates @ Milwaukee Brewers",
-      "pick": "Milwaukee Brewers ML",
-      "bet_type": "ML",
-      "odds": "-123.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.0163,
-      "hash_id": "61a43435317b6be12face38bf5102a89839fcb82ae6bdee4824895be41d80169"
-    },
-    {
-      "sport": "MLB",
-      "game": "Washington Nationals @ Philadelphia Phillies",
-      "pick": "Philadelphia Phillies -2.5",
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Atlanta Dream",
+      "pick": "Atlanta Dream -14.5",
       "bet_type": "ATS",
-      "odds": "105.0",
+      "odds": "-115.0",
+      "result": "L",
+      "units": 2.0,
+      "profit_units": -2.0,
+      "hash_id": "964d7d2267025e431eb6fb2c89e2ff36c3b345f220c9599e14a26aa0ef35d7ec"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Seattle Storm",
+      "pick": "Chicago Sky -1.5",
+      "bet_type": "ATS",
+      "odds": "-104.0",
+      "result": "L",
+      "units": 1.75,
+      "profit_units": -1.75,
+      "hash_id": "b3d97048fad61916fe58814f37e8e4c38bf73ce84781b9febbab27bba58a942c"
+    },
+    {
+      "sport": "MLB",
+      "game": "Texas Rangers @ Los Angeles Angels",
+      "pick": "Texas Rangers ML",
+      "bet_type": "ML",
+      "odds": "-112.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.1161,
+      "hash_id": "c129ea948e68d928815de0a02874606ba8cac95b2fa735191069b24e75ea190c"
+    },
+    {
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ Athletics",
+      "pick": "Tampa Bay Rays -1.5",
+      "bet_type": "ATS",
+      "odds": "102.0",
       "result": "W",
       "units": 1.0,
-      "profit_units": 1.05,
-      "hash_id": "583606dfa34973c63594a0d72a974533041f23c2cdfee568fc391bb2446f2eac"
+      "profit_units": 1.02,
+      "hash_id": "a0cb8bc8b7f08a2d5c6dbd113bc9d153a18726c6b6d7be45353a141a7586a5f1"
     }
   ]
 }
