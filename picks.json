@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-21",
+    "sport": "BEST",
+    "source_sport": "ATP",
+    "game": "Brandon Nakashima vs Taylor Fritz",
+    "pick": "Brandon Nakashima +1.5 Games",
+    "bet_type": "ATS",
+    "line": 100.0,
+    "pick_display": "Brandon Nakashima +1.5 Games",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "02dcd6e0ce10c2ed8ecd94e52af42629b72056e0463a8abc296fe6004dd38aef"
+  },
+  {
     "date": "2026-08-20",
     "source_sport": "ATP",
     "game": "Arthur Fils vs Thiago Agustin Tirante",
