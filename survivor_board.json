@@ -1,31 +1,31 @@
 {
-  "day": "2026-08-20",
-  "deadline_utc": "2026-08-20T22:06:00+00:00",
+  "day": "2026-08-21",
+  "deadline_utc": "2026-08-21T22:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-21T00:06:00+00:00",
+  "earliest_start_utc": "2026-08-22T00:41:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 15,
+        "wins": 16,
         "losses": 10,
         "pushes": 0,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": -0.94,
-        "pl_priced": 20,
-        "pl_settled": 25
+        "alive": true,
+        "pl_units": -0.32,
+        "pl_priced": 21,
+        "pl_settled": 26
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
-        "pick": "Texas Rangers ML",
-        "game": "Washington Nationals @ Texas Rangers",
+        "pick": "Over 10.5",
+        "game": "Cleveland Guardians @ Colorado Rockies",
         "sport": "MLB",
-        "odds": -160,
-        "start_utc": "2026-08-21T00:06:00+00:00"
+        "odds": -110,
+        "start_utc": "2026-08-22T00:41:00+00:00"
       }
     },
     {
@@ -33,22 +33,22 @@
       "source": "human:reaper",
       "record": {
         "wins": 14,
-        "losses": 9,
+        "losses": 10,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 2.64,
-        "pl_priced": 24,
-        "pl_settled": 24
+        "pl_units": 1.64,
+        "pl_priced": 25,
+        "pl_settled": 25
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Houston Astros ML",
-        "game": "Los Angeles Angels @ Houston Astros",
+        "pick": "Los Angeles Dodgers ML",
+        "game": "Pittsburgh Pirates @ Los Angeles Dodgers",
         "sport": "MLB",
-        "odds": -180,
-        "start_utc": "2026-08-21T00:11:00+00:00"
+        "odds": -230,
+        "start_utc": "2026-08-22T02:11:00+00:00"
       }
     }
   ]
