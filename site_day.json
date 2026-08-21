@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:09:10.133373+00:00",
+  "generated_at": "2026-08-21T15:40:05.044655+00:00",
   "run_date": "2026-08-21",
   "as_of": "2026-08-20",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-08-21",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-08-21T08:10:02-07:00",
+      "fire_pt": "2026-08-21 08:10 PDT"
     },
     "prior_run": {
       "date": "2026-08-20",
@@ -363,20 +363,30 @@
   },
   "pickers_contributing": 11,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-08-21T08:10:02-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:39 AM PT",
+    "first_leg_time": "10:00 AM PT",
+    "first_leg_utc": "2026-08-21T17:00:00+00:00",
+    "leg_times_utc": [
+      "2026-08-21T17:00:00+00:00",
+      "2026-08-21T19:00:00+00:00",
+      "2026-08-21T23:30:00+00:00",
+      "2026-08-21T23:30:00+00:00",
+      "2026-08-22T02:11:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-21",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT \u00b7 \u26c8 Weather on 3 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:39 AM PT \u00b7 5 picks, ATP + MLB + WNBA + WTA \u00b7 first leg fires 10:00 AM PT",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT",
-      "\u26c8 Weather on 3 games"
+      "Paid card shipped 8:39 AM PT",
+      "5 picks, ATP + MLB + WNBA + WTA",
+      "first leg fires 10:00 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -387,9 +397,9 @@
       "latest": "10:01 AM",
       "basis": "p90 of 15 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
-    "first_leg_time": null,
-    "updated_pt": "8:09 AM PT"
+    "free_pick_live": true,
+    "card_live": true,
+    "first_leg_time": "10:00 AM PT",
+    "updated_pt": "8:40 AM PT"
   }
 }
