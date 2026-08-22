@@ -1,54 +1,54 @@
 {
-  "day": "2026-08-21",
-  "deadline_utc": "2026-08-21T22:41:00+00:00",
+  "day": "2026-08-22",
+  "deadline_utc": "2026-08-22T21:16:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-22T00:41:00+00:00",
+  "earliest_start_utc": "2026-08-22T23:16:00+00:00",
   "submitted_count": 2,
   "entries": [
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 15,
+        "losses": 10,
+        "pushes": 1,
+        "current": 1,
+        "longest": 4,
+        "alive": true,
+        "pl_units": 2.08,
+        "pl_priced": 26,
+        "pl_settled": 26
+      },
+      "note": "1 up, building again",
+      "pick": {
+        "pick": "Under 8",
+        "game": "San Francisco Giants @ Boston Red Sox",
+        "sport": "MLB",
+        "odds": -110,
+        "start_utc": "2026-08-22T23:16:00+00:00"
+      }
+    },
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
         "wins": 16,
-        "losses": 10,
+        "losses": 11,
         "pushes": 0,
-        "current": 1,
-        "longest": 4,
-        "alive": true,
-        "pl_units": -0.32,
-        "pl_priced": 21,
-        "pl_settled": 26
-      },
-      "note": "1 up, building again",
-      "pick": {
-        "pick": "Over 10.5",
-        "game": "Cleveland Guardians @ Colorado Rockies",
-        "sport": "MLB",
-        "odds": -110,
-        "start_utc": "2026-08-22T00:41:00+00:00"
-      }
-    },
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 14,
-        "losses": 10,
-        "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 1.64,
-        "pl_priced": 25,
-        "pl_settled": 25
+        "pl_units": -1.32,
+        "pl_priced": 22,
+        "pl_settled": 27
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Los Angeles Dodgers ML",
         "game": "Pittsburgh Pirates @ Los Angeles Dodgers",
         "sport": "MLB",
-        "odds": -230,
-        "start_utc": "2026-08-22T02:11:00+00:00"
+        "odds": -255,
+        "start_utc": "2026-08-22T23:16:00+00:00"
       }
     }
   ]
