@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-08-22",
-    "sport": "BEST",
-    "source_sport": "WNBA",
-    "game": "Indiana Fever @ New York Liberty",
-    "pick": "New York Liberty -2.5",
-    "bet_type": "ATS",
-    "line": -109.0,
-    "pick_display": "New York Liberty -2.5",
-    "edge": 0,
-    "ccr": 7.0,
-    "ccr_avg": 7.0,
-    "tier": "B",
-    "result": null,
-    "units": 1.0,
-    "hash_id": "2544e62542ca6c46db47cec3a87242380792406487f3e40b504c4c165b4f7935"
-  },
-  {
     "date": "2026-08-21",
     "source_sport": "ATP",
     "game": "Brandon Nakashima vs Taylor Fritz",
