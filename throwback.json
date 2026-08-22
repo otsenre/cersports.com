@@ -1,28 +1,72 @@
 {
-  "generated_at": "2026-08-21T15:09:06.474212+00:00",
-  "iso_date": "2026-08-03",
-  "display_date": "Mon \u00b7 Aug 3, 2026",
+  "generated_at": "2026-08-22T15:15:09.674734+00:00",
+  "iso_date": "2026-07-31",
+  "display_date": "Fri \u00b7 Jul 31, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 1,
+    "wins": 2,
+    "losses": 3,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 1,
-    "units_staked": 1.25,
-    "units_pl": -1.25,
-    "roi_pct": -100.0
+    "total_picks": 5,
+    "units_staked": 5.5,
+    "units_pl": -1.8,
+    "roi_pct": -32.73
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Chicago Cubs",
-      "pick": "Los Angeles Dodgers ML",
+      "sport": "ATP",
+      "game": "Lorenzo Musetti vs Rafael Jodar",
+      "pick": "Lorenzo Musetti ML",
       "bet_type": "ML",
-      "odds": "-120.0",
+      "odds": "154.0",
       "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "aa4d195699ae6bc7499c9bc85c3eb76f891b3226d65dbc3a267a70f7068ca0ab"
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "a1fd5984445a6f005b0f5242af7040bb4f086bf290b14e0e6b2810e5e0797f65"
+    },
+    {
+      "sport": "ATP",
+      "game": "Brandon Nakashima vs Alex de Minaur",
+      "pick": "Brandon Nakashima ML",
+      "bet_type": "ML",
+      "odds": "135.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 1.35,
+      "hash_id": "7a3a3808ec2f530644f2808df134f7df16f55f69cc5f7d902224fc2bee0e0b8d"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Seattle Storm @ Atlanta Dream",
+      "pick": "Atlanta Dream -12.5",
+      "bet_type": "ATS",
+      "odds": "-110.0",
+      "result": "L",
+      "units": 1.75,
+      "profit_units": -1.75,
+      "hash_id": "12b28ad85b38442f94bcf71de3c5328948a6d81d0f651f26c1d1c125608f4c68"
+    },
+    {
+      "sport": "WTA",
+      "game": "Liudmila Samsonova vs Diana Shnaider",
+      "pick": "Diana Shnaider ML",
+      "bet_type": "ML",
+      "odds": "-125.0",
+      "result": "W",
+      "units": 0.75,
+      "profit_units": 0.6,
+      "hash_id": "5a081b386a7a18fb99cf2124670acbd8b900d60bd9e6b7fdb80a102a6a09cc97"
+    },
+    {
+      "sport": "WTA",
+      "game": "Elina Svitolina vs Alexandra Eala",
+      "pick": "Elina Svitolina ML",
+      "bet_type": "ML",
+      "odds": "-163.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "056227ad526167e2001648aec83f5812103984aebe4092d9ed59787e1bca3c72"
     }
   ]
 }
