@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:28:46.679000+00:00",
+  "generated_at": "2026-08-23T22:25:01.043121+00:00",
   "run_date": "2026-08-23",
   "as_of": "2026-08-22",
   "anchor": "2026-03-20",
@@ -399,6 +399,6 @@
     "free_pick_live": true,
     "card_live": true,
     "first_leg_time": "11:11 AM PT",
-    "updated_pt": "1:28 PM PT"
+    "updated_pt": "3:25 PM PT"
   }
 }
