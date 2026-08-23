@@ -1542,7 +1542,14 @@ function buildRecord(picks) {
       <div class="record-meta">
         ${p.result ? `<span class="result-badge ${resultClass}">${resultText}</span>` : ''}
         <span class="record-ccr">CCR ${(Number(p.ccr) || 0).toFixed(1)}</span>
-        ${p.units ? `<span class="record-ccr">${p.units > 0 ? '+' : ''}${p.units}u</span>` : ''}
+        <!-- THE ADVISED STAKE, disclosed. It used to render as "+1u", which next
+             to a WIN badge reads as profit, not stake — disclosed and unreadable
+             at the same time. The free pick carries the stake it was advised at
+             (render_picks_json.py), and showing it is HALF OF THAT DECISION: a
+             units-weighted record the reader cannot see the weights for is a
+             staking plan nobody could follow. If this ever stops rendering, the
+             ledger must go back to flat 1u the same day. -->
+        ${p.units ? `<span class="record-ccr">${Number(p.units)}u stake</span>` : ''}
       </div>
     `;
     grid.appendChild(card);

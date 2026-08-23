@@ -275,10 +275,12 @@ document.getElementById('finder').addEventListener('change', function(){
       else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
     }
 
-    // Free-pick ledger record: every issued free-pick row carries the BEST
-    // lineage marker, including historical multi-pick days. Paid-card rows
-    // are a separate product and must never contaminate this trend.
-    const freePicks = picks.filter(p => p.sport === 'BEST');
+    // Free-pick ledger record. EVERY ROW OF picks.json IS A FREE PICK — picks.README.md rule 1: no
+    // filter by sport, tier, label or origin, ever. This filtered on
+    // p.sport === 'BEST' and matched NOTHING: rows carry `source_sport`, and
+    // the 'BEST' label is a historical artifact the README forbids branching
+    // on. The shirt-QR landing page showed a 0-0 free record as a result.
+    const freePicks = picks;
     const wins = freePicks.filter(p => p.result === 'W').length;
     const losses = freePicks.filter(p => p.result === 'L').length;
     // Real P&L from the ledger, not the stake — a win returns stake x price.
