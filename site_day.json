@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:31:20.560738+00:00",
+  "generated_at": "2026-08-23T20:28:46.679000+00:00",
   "run_date": "2026-08-23",
   "as_of": "2026-08-22",
   "anchor": "2026-03-20",
@@ -36,16 +36,16 @@
           "n": 3,
           "start": "2026-08-20",
           "end": "2026-08-22",
-          "units_pl": 2.68,
-          "roi_pct": 89.17,
+          "units_pl": 3.78,
+          "roi_pct": 89.02,
           "bankroll_units": 100,
-          "bankroll_return_pct": 2.68,
+          "bankroll_return_pct": 3.78,
           "spx_return_pct": -0.44,
           "dji_return_pct": -0.35,
           "ndx_return_pct": -0.57,
-          "vs_spx": 3.12,
-          "vs_dji": 3.03,
-          "vs_ndx": 3.25
+          "vs_spx": 4.22,
+          "vs_dji": 4.13,
+          "vs_ndx": 4.35
         },
         {
           "label": "7D",
@@ -58,16 +58,16 @@
           "n": 7,
           "start": "2026-08-16",
           "end": "2026-08-22",
-          "units_pl": 0.55,
-          "roi_pct": 7.89,
+          "units_pl": 1.41,
+          "roi_pct": 16.59,
           "bankroll_units": 100,
-          "bankroll_return_pct": 0.55,
+          "bankroll_return_pct": 1.41,
           "spx_return_pct": -1.43,
           "dji_return_pct": -0.85,
           "ndx_return_pct": -2.05,
-          "vs_spx": 1.98,
-          "vs_dji": 1.4,
-          "vs_ndx": 2.6
+          "vs_spx": 2.84,
+          "vs_dji": 2.26,
+          "vs_ndx": 3.46
         },
         {
           "label": "21D",
@@ -80,16 +80,16 @@
           "n": 59,
           "start": "2026-08-02",
           "end": "2026-08-22",
-          "units_pl": 2.07,
-          "roi_pct": 3.5,
+          "units_pl": 4.29,
+          "roi_pct": 5.63,
           "bankroll_units": 100,
-          "bankroll_return_pct": 2.07,
+          "bankroll_return_pct": 4.29,
           "spx_return_pct": 2.47,
           "dji_return_pct": 1.51,
           "ndx_return_pct": 3.18,
-          "vs_spx": -0.4,
-          "vs_dji": 0.56,
-          "vs_ndx": -1.11
+          "vs_spx": 1.82,
+          "vs_dji": 2.78,
+          "vs_ndx": 1.11
         },
         {
           "label": "MTD",
@@ -102,16 +102,16 @@
           "n": 65,
           "start": "2026-08-01",
           "end": "2026-08-22",
-          "units_pl": -0.84,
-          "roi_pct": -1.29,
+          "units_pl": -0.02,
+          "roi_pct": -0.03,
           "bankroll_units": 100,
-          "bankroll_return_pct": -0.84,
+          "bankroll_return_pct": -0.02,
           "spx_return_pct": 2.47,
           "dji_return_pct": 1.51,
           "ndx_return_pct": 3.18,
-          "vs_spx": -3.31,
-          "vs_dji": -2.35,
-          "vs_ndx": -4.02
+          "vs_spx": -2.49,
+          "vs_dji": -1.53,
+          "vs_ndx": -3.2
         },
         {
           "label": "30D",
@@ -124,16 +124,16 @@
           "n": 100,
           "start": "2026-07-24",
           "end": "2026-08-22",
-          "units_pl": -4.65,
-          "roi_pct": -4.65,
+          "units_pl": -5.02,
+          "roi_pct": -3.95,
           "bankroll_units": 100,
-          "bankroll_return_pct": -4.65,
+          "bankroll_return_pct": -5.02,
           "spx_return_pct": 3.59,
           "dji_return_pct": 3.03,
           "ndx_return_pct": 4.15,
-          "vs_spx": -8.24,
-          "vs_dji": -7.68,
-          "vs_ndx": -8.8
+          "vs_spx": -8.61,
+          "vs_dji": -8.05,
+          "vs_ndx": -9.17
         },
         {
           "label": "ALL-TIME",
@@ -146,16 +146,16 @@
           "n": 848,
           "start": "2026-03-20",
           "end": "2026-08-22",
-          "units_pl": -40.91,
-          "roi_pct": -4.85,
+          "units_pl": -39.78,
+          "roi_pct": -3.96,
           "bankroll_units": 100,
-          "bankroll_return_pct": -40.91,
+          "bankroll_return_pct": -39.78,
           "spx_return_pct": 17.95,
           "dji_return_pct": 16.89,
           "ndx_return_pct": 20.94,
-          "vs_spx": -58.86,
-          "vs_dji": -57.8,
-          "vs_ndx": -61.85
+          "vs_spx": -57.73,
+          "vs_dji": -56.67,
+          "vs_ndx": -60.72
         }
       ],
       "as_of": "2026-08-22",
@@ -381,11 +381,11 @@
     "contract": 1,
     "date": "2026-08-23",
     "stage": "card_shipped",
-    "line": "Paid card shipped 7:57 AM PT \u00b7 5 picks, MLB + WNBA + WTA \u00b7 1 of 5 legs underway \u00b7 next 1:00 PM PT",
+    "line": "Paid card shipped 7:57 AM PT \u00b7 5 picks, MLB + WNBA + WTA \u00b7 2 of 5 legs underway \u00b7 next 4:00 PM PT",
     "parts": [
       "Paid card shipped 7:57 AM PT",
       "5 picks, MLB + WNBA + WTA",
-      "1 of 5 legs underway \u00b7 next 1:00 PM PT"
+      "2 of 5 legs underway \u00b7 next 4:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -399,6 +399,6 @@
     "free_pick_live": true,
     "card_live": true,
     "first_leg_time": "11:11 AM PT",
-    "updated_pt": "12:31 PM PT"
+    "updated_pt": "1:28 PM PT"
   }
 }
