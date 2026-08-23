@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-08-23T14:55:25+00:00",
+  "generated_utc": "2026-08-23T19:31:19+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -199,10 +199,10 @@
           "settled": 11,
           "start": "2026-08-21",
           "end": "2026-08-23",
-          "net_units": 0.38,
-          "roi_pct": 3.39,
+          "net_units": 0.05,
+          "roi_pct": 0.32,
           "vs_all_time": "above",
-          "text": "DAILY CARD 3D: 6-5 \u00b7 ROI: +3.4%"
+          "text": "DAILY CARD 3D: 6-5 \u00b7 ROI: +0.3%"
         },
         {
           "label": "7D",
@@ -215,10 +215,10 @@
           "settled": 25,
           "start": "2026-08-17",
           "end": "2026-08-23",
-          "net_units": -0.38,
-          "roi_pct": -1.43,
+          "net_units": 1.05,
+          "roi_pct": 3.23,
           "vs_all_time": "above",
-          "text": "DAILY CARD 7D: 14-11 \u00b7 ROI: -1.4%"
+          "text": "DAILY CARD 7D: 14-11 \u00b7 ROI: +3.2%"
         },
         {
           "label": "21D",
@@ -231,10 +231,10 @@
           "settled": 89,
           "start": "2026-08-03",
           "end": "2026-08-23",
-          "net_units": 8.43,
-          "roi_pct": 8.49,
+          "net_units": 8.05,
+          "roi_pct": 6.81,
           "vs_all_time": "above",
-          "text": "DAILY CARD 21D: 51-38 \u00b7 ROI: +8.5%"
+          "text": "DAILY CARD 21D: 51-38 \u00b7 ROI: +6.8%"
         },
         {
           "label": "MTD",
@@ -247,10 +247,10 @@
           "settled": 97,
           "start": "2026-08-01",
           "end": "2026-08-23",
-          "net_units": 6.94,
-          "roi_pct": 6.44,
+          "net_units": 6.68,
+          "roi_pct": 5.16,
           "vs_all_time": "above",
-          "text": "DAILY CARD MTD: 55-42 \u00b7 ROI: +6.4%"
+          "text": "DAILY CARD MTD: 55-42 \u00b7 ROI: +5.2%"
         },
         {
           "label": "30D",
@@ -263,10 +263,10 @@
           "settled": 121,
           "start": "2026-07-25",
           "end": "2026-08-23",
-          "net_units": 5.16,
-          "roi_pct": 3.91,
+          "net_units": 5.91,
+          "roi_pct": 3.71,
           "vs_all_time": "above",
-          "text": "DAILY CARD 30D: 69-52 \u00b7 ROI: +3.9%"
+          "text": "DAILY CARD 30D: 69-52 \u00b7 ROI: +3.7%"
         },
         {
           "label": "ALL-TIME",
@@ -279,10 +279,10 @@
           "settled": 762,
           "start": "2026-03-20",
           "end": "2026-08-23",
-          "net_units": -13.17,
-          "roi_pct": -1.5,
+          "net_units": -6.95,
+          "roi_pct": -0.77,
           "vs_all_time": null,
-          "text": "DAILY CARD ALL-TIME: 420-338-4P \u00b7 ROI: -1.5%"
+          "text": "DAILY CARD ALL-TIME: 420-338-4P \u00b7 ROI: -0.8%"
         }
       ],
       "plain": "This product has made 762 picks since 2026-03-20. About 55 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
