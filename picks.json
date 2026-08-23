@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-08-23",
-    "sport": "BEST",
     "source_sport": "WTA",
     "game": "Oleksandra Oliynykova vs Mayar Sherif",
     "pick": "Mayar Sherif ML",
-    "bet_type": "ML",
-    "line": -138.0,
     "pick_display": "Mayar Sherif ML",
-    "edge": 0,
-    "ccr": 6.5,
+    "bet_type": "ML",
+    "line": null,
+    "price": -146.0,
+    "handicap": null,
+    "ccr": 7.0,
     "ccr_avg": 6.5,
-    "tier": "B",
-    "result": null,
+    "tier": "",
+    "edge": 0,
     "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "bbbac43c16e16cc682ed87df4b2d4dc786a1b75c47e29bc178f5f376c76fe75a"
   },
   {
@@ -32,7 +35,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.9174,
+    "profit_units": 0.91744,
     "odds_origin": "free_pick_receipt",
     "hash_id": "2544e62542ca6c46db47cec3a87242380792406487f3e40b504c4c165b4f7935"
   },
