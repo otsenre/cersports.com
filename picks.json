@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-08-24",
-    "sport": "BEST",
     "source_sport": "WTA",
     "game": "Petra Marcinko vs Alycia Parks",
     "pick": "Petra Marcinko ML",
-    "bet_type": "ML",
-    "line": -124.0,
     "pick_display": "Petra Marcinko ML",
-    "edge": 0,
+    "bet_type": "ML",
+    "line": null,
+    "price": -125.0,
+    "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
-    "tier": "B",
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
     "result": null,
-    "units": 1.0,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "25b6946b41d360c9ebe09a651238caf66dca35292369be7c3130627342a2e7ac"
   },
   {
