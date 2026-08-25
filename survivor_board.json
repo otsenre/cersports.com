@@ -1,54 +1,54 @@
 {
-  "day": "2026-08-24",
-  "deadline_utc": "2026-08-24T23:40:00+00:00",
+  "day": "2026-08-25",
+  "deadline_utc": "2026-08-25T21:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-25T01:40:00+00:00",
+  "earliest_start_utc": "2026-08-25T23:06:00+00:00",
   "submitted_count": 2,
   "entries": [
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 17,
-        "losses": 10,
-        "pushes": 1,
-        "current": 3,
-        "longest": 4,
-        "alive": true,
-        "pl_units": 3.72,
-        "pl_priced": 28,
-        "pl_settled": 28
-      },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "San Diego Padres ML",
-        "game": "Pittsburgh Pirates @ San Diego Padres",
-        "sport": "MLB",
-        "odds": -105,
-        "start_utc": "2026-08-25T01:40:00+00:00"
-      }
-    },
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
         "wins": 18,
-        "losses": 11,
+        "losses": 12,
         "pushes": 0,
-        "current": 2,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 0.27,
-        "pl_priced": 24,
+        "alive": false,
+        "pl_units": -0.73,
+        "pl_priced": 25,
+        "pl_settled": 30
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "New York Yankees ML",
+        "game": "Houston Astros @ New York Yankees",
+        "sport": "MLB",
+        "odds": -140,
+        "start_utc": "2026-08-25T23:06:00+00:00"
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 17,
+        "losses": 11,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": 2.72,
+        "pl_priced": 29,
         "pl_settled": 29
       },
-      "note": "2 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 9",
-        "game": "Chicago Cubs @ Arizona Diamondbacks",
+        "pick": "New York Yankees ML",
+        "game": "Houston Astros @ New York Yankees",
         "sport": "MLB",
-        "odds": -110,
-        "start_utc": "2026-08-25T01:40:00+00:00"
+        "odds": -140,
+        "start_utc": "2026-08-25T23:06:00+00:00"
       }
     }
   ]
