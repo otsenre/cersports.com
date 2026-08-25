@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-25",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Maya Joint vs Panna Udvardy",
+    "pick": "Maya Joint -4.5 Games",
+    "bet_type": "ATS",
+    "line": 106.0,
+    "pick_display": "Maya Joint -4.5 Games",
+    "edge": 0,
+    "ccr": 7.5,
+    "ccr_avg": 7.5,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "c5363581516b00d402efd8682ceea74e133dfe1032c6becb9e7d3a79f6066f47"
+  },
+  {
     "date": "2026-08-24",
     "source_sport": "WTA",
     "game": "Petra Marcinko vs Alycia Parks",
