@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-08-25",
-    "sport": "BEST",
     "source_sport": "WTA",
     "game": "Maya Joint vs Panna Udvardy",
     "pick": "Maya Joint -4.5 Games",
-    "bet_type": "ATS",
-    "line": 106.0,
     "pick_display": "Maya Joint -4.5 Games",
-    "edge": 0,
+    "bet_type": "ATS",
+    "line": null,
+    "price": -103.0,
+    "handicap": null,
     "ccr": 7.5,
     "ccr_avg": 7.5,
-    "tier": "B",
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
     "result": null,
-    "units": 1.0,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "c5363581516b00d402efd8682ceea74e133dfe1032c6becb9e7d3a79f6066f47"
   },
   {
@@ -32,7 +35,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.25,
     "odds_origin": "free_pick_receipt",
     "hash_id": "25b6946b41d360c9ebe09a651238caf66dca35292369be7c3130627342a2e7ac"
   },
