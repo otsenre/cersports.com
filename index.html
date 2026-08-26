@@ -887,7 +887,12 @@ footer {
            "what just happened · what's next · by when". The static text below is
            the fallback and MUST stay a true sentence — a failed fetch degrades to
            it, and it is what search engines and no-JS clients read. -->
-      <span id="dayStatusLine" data-schedule="combined_label">Good morning. Today’s slate is live. Paid Card is forming — expected this morning.</span>
+      <!-- NO data-schedule binding: site_day.json's status line is the authority
+           here and already strips it at runtime ("we are the authority now"),
+           so the binding only ever raced. Its removal is what the writer below
+           asked for. The sentence stays a true sentence for no-JS and crawlers,
+           which a short label like combined_label is not. -->
+      <span id="dayStatusLine">Good morning. Today’s slate is live. Paid Card is forming — expected this morning.</span>
     </div>
     <h1 class="hero-headline">THE<br><em>MODEL</em><br>RUNS.</h1>
     <p class="hero-sub">Data-driven CCR picks. Every morning. No gut calls.</p>
