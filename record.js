@@ -38,6 +38,14 @@
       var value = keys[key];
       if (typeof value === 'string' && value.length) {
         nodes[i].textContent = value;
+        // Opt-in sign colouring. The PUBLISHED string decides it, so a page
+        // never re-derives "are we up?" from numbers of its own — that second
+        // calculation is how a page ends up green on a losing figure.
+        if (nodes[i].hasAttribute('data-record-sign')) {
+          nodes[i].classList.remove('pos', 'neg');
+          if (value.charAt(0) === '+') nodes[i].classList.add('pos');
+          else if (value.charAt(0) === '-') nodes[i].classList.add('neg');
+        }
       }
       // No else: an unknown key, or one whose value is empty because the pick
       // is still held, keeps the fallback text on purpose. A missing value must

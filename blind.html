@@ -150,6 +150,7 @@ body::after {
 }
 .disclaimer a { color:var(--muted); }
 </style>
+<script defer src="record.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -180,11 +181,14 @@ body::after {
     <div class="ledger-block">
       <div class="ledger-name">Free Pick Ledger</div>
       <div class="record-strip" id="freeStrip">
-        <div class="record-stat"><div class="num" id="freeRecord">—</div><div class="cap">Record</div></div>
-        <div class="record-stat"><div class="num" id="freeUnits">—</div><div class="cap">Units</div></div>
+        <div class="record-stat"><div class="num" id="freeRecord" data-record="free.record.all_time">454-392-5P</div><div class="cap">Record</div></div>
+        <div class="record-stat"><div class="num" id="freeUnits" data-record="free.units.all_time" data-record-sign>-46.70u</div><div class="cap">Units</div></div>
         <div class="record-stat"><div class="num" id="freeRun">—</div><div class="cap">Current Run</div></div>
       </div>
-      <div class="ledger-sub" id="freeForm">&nbsp;</div>
+      <!-- "Last 7 DAYS", not "last 7 picks". These bands are day windows from
+           the producer; the page used to count the last 7 graded rows instead,
+           which is a different measurement wearing the same label. -->
+      <div class="ledger-sub" id="freeForm">Last 7 days: <span data-record="free.record.7d">3-3</span>  ·  Last 21 days: <span data-record="free.record.21d">21-18</span></div>
     </div>
 
     <div class="ledger-block" style="margin-top:18px">
@@ -298,21 +302,17 @@ document.getElementById('finder').addEventListener('change', function(){
     // the 'BEST' label is a historical artifact the README forbids branching
     // on. The shirt-QR landing page showed a 0-0 free record as a result.
     const freePicks = picks;
-    const wins = freePicks.filter(p => p.result === 'W').length;
-    const losses = freePicks.filter(p => p.result === 'L').length;
-    // Real P&L from the ledger, not the stake — a win returns stake x price.
-    // See the longer note in index.html; the old ±stake math counted a -1560
-    // winner as +1.00u when it returned +0.13u.
-    const units = freePicks.reduce((s,p) => {
-      if (typeof p.profit_units === 'number') return s + p.profit_units;
-      if (p.result === 'W') return s + Math.abs(p.units || 0);
-      if (p.result === 'L') return s - Math.abs(p.units || 0);
-      return s;
-    }, 0);
-    document.getElementById('freeRecord').textContent = `${wins}-${losses}`;
-    const uEl = document.getElementById('freeUnits');
-    uEl.textContent = (units >= 0 ? '+' : '') + units.toFixed(1) + 'u';
-    if (units >= 0) uEl.classList.add('pos');
+    // RECORD AND UNITS ARE NOT COMPUTED HERE ANY MORE — they are bound to
+    // scorecard.json via record.js (data-record on the strip above).
+    //
+    // This page used to count wins and losses out of picks.json in the browser
+    // and sum its own P&L. Same source the producer reads, but a SECOND
+    // implementation of it, and the two could not agree by construction: this
+    // one counted only W and L, so it silently dropped the 5 pushes and 57
+    // voided picks that the published record discloses as "454-392-5P".
+    //
+    // A landing page may DISPLAY a number. It may not compute one.
+    // See marketing/LANDING_PAGE_PLAYBOOK.md.
 
     // Current run + last 7 / last 21 (picks sorted newest-first)
     const graded = freePicks.filter(p => p.result === 'W' || p.result === 'L');
@@ -324,9 +324,6 @@ document.getElementById('finder').addEventListener('change', function(){
       runEl.textContent = `${run}${top}`;
       runEl.className = 'num ' + (top === 'W' ? 'pos' : '');
       if (top === 'L') runEl.style.color = 'var(--red)';
-      const rec = arr => { const w = arr.filter(p=>p.result==='W').length; return `${w}-${arr.length-w}`; };
-      document.getElementById('freeForm').textContent =
-        `Last 7: ${rec(graded.slice(0,7))}  ·  Last 21: ${rec(graded.slice(0,21))}`;
     }
   } catch(e) {
     document.getElementById('pickTeam').innerHTML = '<span class="pick-loading">See today’s pick on the ledger →</span>';
