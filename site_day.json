@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:33:13.713944+00:00",
+  "generated_at": "2026-08-26T15:40:05.939255+00:00",
   "run_date": "2026-08-26",
   "as_of": "2026-08-25",
   "anchor": "2026-03-20",
@@ -353,8 +353,9 @@
       "WTA",
       "MMA"
     ],
-    "card_picks": 3,
+    "card_picks": 6,
     "card_sports": [
+      "MLB",
       "WNBA",
       "WTA"
     ]
@@ -364,15 +365,28 @@
     "free_pick_site_published_at_utc": "2026-08-26T08:32:17-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:38 AM PT",
+    "first_leg_time": "10:11 AM PT",
+    "first_leg_utc": "2026-08-26T17:11:00+00:00",
+    "leg_times_utc": [
+      "2026-08-26T17:11:00+00:00",
+      "2026-08-26T21:00:00+00:00",
+      "2026-08-26T23:10:00+00:00",
+      "2026-08-27T01:30:00+00:00",
+      "2026-08-27T02:00:00+00:00",
+      "2026-08-27T02:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-26",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review.",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:38 AM PT \u00b7 6 picks, MLB + WNBA + WTA \u00b7 first leg fires 10:11 AM PT",
     "parts": [
-      "Today's Paid Card is in review."
+      "Paid card shipped 8:38 AM PT",
+      "6 picks, MLB + WNBA + WTA",
+      "first leg fires 10:11 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -384,10 +398,10 @@
       "basis": "p90 of 20 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-08-26",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:33 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "10:11 AM PT",
+    "updated_pt": "8:40 AM PT"
   }
 }
