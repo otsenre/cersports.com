@@ -14655,7 +14655,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 1.197,
+    "profit_units": 1.1879,
     "odds_origin": "unresolved",
     "hash_id": "467292d84d96738ea1581635465ce5fcb382998606a775ceee1f8eda38aac807"
   },
@@ -14855,7 +14855,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.3699,
+    "profit_units": 1.3333,
     "odds_origin": "unresolved",
     "hash_id": "98cba1eb2ed30234f75d1e0b79c50c02ca805c0ffd02b658f4bda4f71635ee02"
   },
@@ -15135,7 +15135,7 @@
     "edge": 0,
     "units": 1.75,
     "result": "W",
-    "profit_units": 1.4371,
+    "profit_units": 1.4264,
     "odds_origin": "unresolved",
     "hash_id": "c335deb9a69e6b9404d967b75279bb80519380a5dfd6a6cb7eb221af6ce1b047"
   },
