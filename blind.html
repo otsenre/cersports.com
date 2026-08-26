@@ -252,8 +252,25 @@ document.getElementById('finder').addEventListener('change', function(){
     const picks = await res.json();
     picks.sort((a,b) => new Date(b.date) - new Date(a.date));
 
-    const bestEntry = picks.find(p => p.sport === 'BEST');
-    const latest = bestEntry || picks.find(p => p.sport !== 'BEST' && p.pick !== 'No Play');
+    // ONE PRODUCER ANSWERS "WHICH PICK IS TODAY'S". scorecard.json is the
+    // snapshot brand/gauge.py publishes and today.html already reads. This page
+    // used to hunt for a row labelled sport === 'BEST' — a label
+    // render_picks_json stopped emitting ("never emit a second sport label") —
+    // so that branch was DEAD and the page silently fell back to whatever row
+    // happened to be newest. It looked right only because the newest row is
+    // usually today's.
+    //
+    // Reading the snapshot also puts the free pick's WITHHOLD in one place:
+    // while a pick is held until its release, todays_pick is simply absent, and
+    // every page reading it shows nothing — no per-page date logic to get wrong.
+    let hinted = null;
+    try {
+      const sres = await fetch('scorecard.json?t=' + Date.now());
+      const snap = await sres.json();
+      const t = snap.products && snap.products.free && snap.products.free.todays_pick;
+      if (t && t.hash_id) hinted = picks.find(p => p.hash_id === t.hash_id) || null;
+    } catch (e) { /* fall through to the ledger's newest row */ }
+    const latest = hinted || picks.find(p => p.pick !== 'No Play');
     if (latest) {
       const displaySport = latest.source_sport || latest.sport;
       document.getElementById('pickSportDate').textContent =
