@@ -195,7 +195,8 @@ body::after {
     <div class="ledger-block" style="margin-top:18px">
       <div class="ledger-name">Full System <span class="ledger-note">free + paid, graded daily</span></div>
       <div class="record-strip" id="sysStrip">
-        <div class="record-stat"><div class="num" id="sysRecord">—</div><div class="cap">All-Time</div></div>
+        <div class="record-stat"><div class="num" id="sysRecord" data-record="paid.record.all_time">423-347-4P</div><div class="cap">All-Time</div></div>
+        <div class="record-stat"><div class="num streak" id="sysRun" data-record="paid.streak" data-record-sign>1L</div><div class="cap">Current Run</div></div>
         <div class="record-stat"><div class="num" id="sysRoi">—</div><div class="cap">ROI</div></div>
         <div class="record-stat" id="sysVsMktWrap"><div class="num" id="sysVsMkt">—</div><div class="cap">vs S&amp;P 500</div></div>
       </div>
@@ -352,7 +353,15 @@ document.getElementById('finder').addEventListener('change', function(){
     const perfBand = l => (perf.bands || []).find(b => b.label === l);
     const all = byLabel('ALL-TIME');
     if (all) {
-      document.getElementById('sysRecord').textContent = all.record;
+      // sysRecord and sysRun are BOUND (data-record) — not written here.
+      //
+      // ROI IS NOT BOUND, DELIBERATELY. It is the one figure the producer can
+      // WITHHOLD (products.paid.withheld), and record.js's fallback doctrine —
+      // keep the last shipped text — is exactly wrong for a withheld value: it
+      // would re-show a stale ROI on the day gauge.py decided the ratio was not
+      // computable. Absence has to render as "—", never as "the number from
+      // last week", so this stays imperative. Same for vs S&P 500, which comes
+      // from performance.json and is not a record at all.
       const roiEl = document.getElementById('sysRoi');
       if (all.roi_pct != null) {
         roiEl.textContent = (all.roi_pct >= 0 ? '+' : '') + Number(all.roi_pct).toFixed(1) + '%';
