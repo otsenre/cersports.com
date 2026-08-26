@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-26",
+    "sport": "BEST",
+    "source_sport": "WTA",
+    "game": "Ann Li vs Maria Timofeeva",
+    "pick": "Ann Li ML",
+    "bet_type": "ML",
+    "line": -193.0,
+    "pick_display": "Ann Li ML",
+    "edge": 0,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "e96efc05fa7026777068b1a982d581639eb6173155f9e92938c30158adc720e1"
+  },
+  {
     "date": "2026-08-25",
     "source_sport": "WTA",
     "game": "Maya Joint vs Panna Udvardy",
