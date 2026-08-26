@@ -42,9 +42,15 @@
         // never re-derives "are we up?" from numbers of its own — that second
         // calculation is how a page ends up green on a losing figure.
         if (nodes[i].hasAttribute('data-record-sign')) {
+          var head = value.charAt(0);
+          var tail = value.charAt(value.length - 1).toUpperCase();
           nodes[i].classList.remove('pos', 'neg');
-          if (value.charAt(0) === '+') nodes[i].classList.add('pos');
-          else if (value.charAt(0) === '-') nodes[i].classList.add('neg');
+          if (head === '+') nodes[i].classList.add('pos');
+          else if (head === '-') nodes[i].classList.add('neg');
+          // A streak reads "7W" / "3L" — signed by its last character, not its
+          // first. Still the PUBLISHED string deciding, which is the point.
+          else if (tail === 'W') nodes[i].classList.add('pos');
+          else if (tail === 'L') nodes[i].classList.add('neg');
         }
       }
       // No else: an unknown key, or one whose value is empty because the pick

@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-08-26T19:05:07+00:00",
+  "generated_utc": "2026-08-26T19:45:31+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -169,6 +169,7 @@
         }
       ],
       "plain": "This product has made 851 picks since 2026-03-20. About 54 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
+      "streak": "3L",
       "today": {
         "day": "2026-08-26",
         "pick": "Ann Li ML",
@@ -286,6 +287,7 @@
         }
       ],
       "plain": "This product has made 774 picks since 2026-03-20. About 55 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
+      "streak": "1L",
       "today": {
         "day": "2026-08-26",
         "pick": "Elise Mertens -4.5 Games",
@@ -323,6 +325,7 @@
     "free.since": "2026-03-20",
     "free.as_of": "2026-08-26",
     "free.plain": "This product has made 851 picks since 2026-03-20. About 54 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
+    "free.streak": "3L",
     "free.today.pick": "Ann Li ML",
     "free.today.game": "Ann Li vs Maria Timofeeva",
     "free.today.sport": "WTA",
@@ -355,6 +358,7 @@
     "paid.since": "2026-03-20",
     "paid.as_of": "2026-08-26",
     "paid.plain": "This product has made 774 picks since 2026-03-20. About 55 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
+    "paid.streak": "1L",
     "paid.today.pick": "",
     "paid.today.game": "",
     "paid.today.sport": ""

@@ -116,6 +116,7 @@ body::after {
 .record-stat { flex:1; min-width:90px; text-align:center; }
 .record-stat .num { font-family:'Bebas Neue',sans-serif; font-size:30px; color:var(--white); line-height:1; }
 .record-stat .num.pos { color:var(--green-light); }
+.record-stat .num.streak.neg { color:var(--red); }
 .record-stat .cap {
   font-family:'Barlow Condensed',sans-serif; text-transform:uppercase; letter-spacing:1px;
   font-size:11px; color:var(--muted); margin-top:4px;
@@ -183,7 +184,7 @@ body::after {
       <div class="record-strip" id="freeStrip">
         <div class="record-stat"><div class="num" id="freeRecord" data-record="free.record.all_time">454-392-5P</div><div class="cap">Record</div></div>
         <div class="record-stat"><div class="num" id="freeUnits" data-record="free.units.all_time" data-record-sign>-46.70u</div><div class="cap">Units</div></div>
-        <div class="record-stat"><div class="num" id="freeRun">—</div><div class="cap">Current Run</div></div>
+        <div class="record-stat"><div class="num streak" id="freeRun" data-record="free.streak" data-record-sign>3L</div><div class="cap">Current Run</div></div>
       </div>
       <!-- "Last 7 DAYS", not "last 7 picks". These bands are day windows from
            the producer; the page used to count the last 7 graded rows instead,
@@ -296,13 +297,7 @@ document.getElementById('finder').addEventListener('change', function(){
       else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
     }
 
-    // Free-pick ledger record. EVERY ROW OF picks.json IS A FREE PICK — picks.README.md rule 1: no
-    // filter by sport, tier, label or origin, ever. This filtered on
-    // p.sport === 'BEST' and matched NOTHING: rows carry `source_sport`, and
-    // the 'BEST' label is a historical artifact the README forbids branching
-    // on. The shirt-QR landing page showed a 0-0 free record as a result.
-    const freePicks = picks;
-    // RECORD AND UNITS ARE NOT COMPUTED HERE ANY MORE — they are bound to
+    // THE FREE-PICK LEDGER STRIP IS NOT COMPUTED HERE ANY MORE — they are bound to
     // scorecard.json via record.js (data-record on the strip above).
     //
     // This page used to count wins and losses out of picks.json in the browser
@@ -311,20 +306,19 @@ document.getElementById('finder').addEventListener('change', function(){
     // one counted only W and L, so it silently dropped the 5 pushes and 57
     // voided picks that the published record discloses as "454-392-5P".
     //
+    // It also had to be told, in a comment, that EVERY row of picks.json is a
+    // free pick (picks.README.md rule 1: never filter by sport, tier, label or
+    // origin) — because it once filtered on p.sport === 'BEST', matched
+    // nothing, and published a 0-0 free record on the shirt-QR landing page.
+    // Binding removes the whole class of mistake: there is no filter here to
+    // get wrong, because there is no population here at all.
+    //
     // A landing page may DISPLAY a number. It may not compute one.
     // See marketing/LANDING_PAGE_PLAYBOOK.md.
 
-    // Current run + last 7 / last 21 (picks sorted newest-first)
-    const graded = freePicks.filter(p => p.result === 'W' || p.result === 'L');
-    if (graded.length) {
-      const top = graded[0].result;
-      let run = 0;
-      for (const g of graded) { if (g.result === top) run++; else break; }
-      const runEl = document.getElementById('freeRun');
-      runEl.textContent = `${run}${top}`;
-      runEl.className = 'num ' + (top === 'W' ? 'pos' : '');
-      if (top === 'L') runEl.style.color = 'var(--red)';
-    }
+    // Current run is bound too (free.streak). It was the last figure this page
+    // derived for itself; brand/gauge.py:_streak now publishes it, using the
+    // same rule the page used — pushes and voids skipped, not treated as breaks.
   } catch(e) {
     document.getElementById('pickTeam').innerHTML = '<span class="pick-loading">See today’s pick on the ledger →</span>';
     document.getElementById('pickTag').textContent = '';
