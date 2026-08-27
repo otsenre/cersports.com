@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — CERSports</title>
+<meta name="description" content="What CERSports collects, what it deletes, and when. Slip images are hard-deleted within 14 days. We never sell anything.">
+<meta property="og:title" content="Privacy — CERSports">
+<meta property="og:description" content="We keep the numbers and delete the pictures. Slip images are hard-deleted within 14 days.">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#080808; --surface:#101010; --surface2:#161616;
+  --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.14);
+  --white:#fff; --off-white:#e8e8e8; --muted:#888; --muted2:#555;
+  --gold:#c9a84c; --gold-light:#e8c96a; --green-light:#22c55e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--black);color:var(--off-white);
+     font-family:'Barlow',system-ui,sans-serif;font-weight:300;line-height:1.7;
+     -webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{padding:44px 0 24px;border-bottom:1px solid var(--border)}
+.tag{font-family:'Barlow Condensed',sans-serif;font-size:.78rem;letter-spacing:.16em;
+     text-transform:uppercase;color:var(--gold);text-decoration:none}
+h1{font-family:'Bebas Neue',sans-serif;font-size:2.7rem;letter-spacing:.02em;
+   margin:14px 0 8px;color:var(--white);line-height:1}
+.lede{color:var(--muted);font-size:1rem;margin:0}
+h2{font-family:'Bebas Neue',sans-serif;font-size:1.45rem;letter-spacing:.02em;
+   color:var(--white);margin:38px 0 10px}
+h3{font-family:'Barlow Condensed',sans-serif;font-size:.8rem;letter-spacing:.14em;
+   text-transform:uppercase;color:var(--gold);margin:22px 0 6px;font-weight:700}
+p{margin:0 0 14px}
+ul{margin:0 0 14px;padding-left:20px}
+li{margin-bottom:7px}
+b,strong{color:var(--white);font-weight:500}
+a{color:var(--gold)}
+.short{background:var(--surface);border:1px solid var(--border2);border-radius:10px;
+       padding:22px 22px 8px;margin:26px 0}
+.short p{color:var(--off-white)}
+table{width:100%;border-collapse:collapse;margin:0 0 16px;font-size:.94rem}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border)}
+th{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;
+   letter-spacing:.1em;font-size:.72rem;color:var(--muted)}
+.scroll{overflow-x:auto}
+.note{color:var(--muted);font-size:.88rem}
+.updated{font-family:'Barlow Condensed',sans-serif;letter-spacing:.12em;
+         text-transform:uppercase;font-size:.72rem;color:var(--muted2);margin-top:6px}
+footer{margin:48px 0 40px;padding-top:22px;border-top:1px solid var(--border);
+       color:var(--muted2);font-size:.8rem;line-height:1.7}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="tag" href="/">&larr; CERSports</a>
+  <h1>Privacy</h1>
+  <p class="lede">What we collect, what we delete, and when.</p>
+  <div class="updated">Last updated 2026-08-26</div>
+</header>
+
+<div class="short">
+  <p><b>The short version.</b> You send us betting slips. We read the numbers off
+  them, keep the numbers, and <b>delete the pictures within 14&nbsp;days</b>. We
+  never sell anything. Your record is private unless you choose to make it
+  public. Ask us to delete you and we delete you — the rows and the images both.</p>
+</div>
+
+<h2>What we collect</h2>
+
+<h3>Because you signed up</h3>
+<p>Your Telegram chat ID and username. That is how we know where to send a pick
+and which record is yours.</p>
+
+<h3>Because you sent it to us</h3>
+<ul>
+  <li>Photographs of betting slips you forward — BetMGM tickets, PrizePicks entries.</li>
+  <li>What we read off them: the wager, stake, odds, legs, payout, result, timestamp,
+      and the book's own bet or entry ID.</li>
+  <li>Picks you log yourself.</li>
+</ul>
+
+<h3>Because the system ran</h3>
+<p>Which features you used and when, so we can size the thing and find bugs.</p>
+
+<p>We do not ask for, want, or store: your name, your address, your date of
+birth, your sportsbook login, your bank details, or any payment card. Payments,
+if you subscribe, run through Stripe and we never see the card.</p>
+
+<h2>The screenshots, specifically</h2>
+<p>This is the part that deserves plain speech, because it is the most sensitive
+thing you hand us.</p>
+<p>A slip screenshot often shows more than the bet. It can show your account
+balance, your username, a live bet ID, and whatever else was on your screen when
+you took it. <b>We only need the numbers.</b> The picture is evidence that we
+read those numbers correctly, and it stops being useful once the reading is
+confirmed. So:</p>
+<ul>
+  <li><b>Images are hard-deleted within 14 days.</b> Not archived, not moved —
+      removed from disk. A nightly job does it and records how many went.</li>
+  <li><b>An image is only deleted once its data is safely extracted.</b> If a slip
+      never parsed, we do not quietly bin it inside the window.</li>
+  <li><b>An image nothing references is deleted too.</b> A photograph of your
+      betting account that produced no data is pure risk and no use.</li>
+  <li><b>The machine transcription is scrubbed on the same clock.</b> Reading a slip
+      produces a full text transcription, including things it had no use for.
+      That is wiped with the image.</li>
+</ul>
+<p>What survives is the row: the wager, the stake, the odds, the result. That is
+your record, and it is the reason you sent the slip.</p>
+
+<h2>Who can see it</h2>
+<ul>
+  <li><b>You.</b> It is your record.</li>
+  <li><b>The two operators</b> who run CERSports. Two people, and no one else.</li>
+  <li><b>Nobody else.</b> We do not sell it, rent it, trade it, or hand it to a data
+      broker or an advertiser. There is no third party in this arrangement.</li>
+</ul>
+<p>Each member's data is stored under their own owner tag and kept apart from
+everyone else's.</p>
+<p><b>Public boards are opt-in.</b> CERSports runs a public contest called
+<a href="survivor.html">The Streak</a>, where pickers' records, streaks and P&amp;L
+are shown by name. You are <b>not</b> on it unless you ask to be, and you can ask
+to come off. Signing up does not put your record in front of anyone.</p>
+
+<h2>Who else touches it</h2>
+<p>Reading the numbers off a slip is done by automated image-recognition services
+under contract. <b>We send them the picture and nothing else</b> — no name, no
+contact details, no account identifier. They see a betting slip; they do not see
+whose it is.</p>
+<p>We do not name which services we use, or which part of the system uses which.
+That is how the product is built, and publishing it would hand away the method
+without telling you anything useful about your privacy. What matters to you is
+the shape of it: the image goes out stripped of you, and the result comes back as
+numbers.</p>
+
+<h2>Learning from what we hold</h2>
+<p>We would like to learn from the aggregate: which markets are hard to price,
+where lines move, which kinds of bets settle badly. This is how the product gets
+less wrong over time.</p>
+<p>Where we do that, it is <b>aggregate and de-identified</b> — patterns across
+many slips, never “this member bets X”. Your individual history is not a product,
+is not published, and is not shared. If you would rather we left your data out of
+it entirely, say so and we will. It costs you nothing.</p>
+
+<h2>How long we keep things</h2>
+<div class="scroll">
+<table>
+  <tr><th>What</th><th>How long</th></tr>
+  <tr><td>Slip images</td><td><b>14 days maximum</b>, usually less — deleted once parsed</td></tr>
+  <tr><td>Machine transcriptions of slips</td><td>the same 14 days</td></tr>
+  <tr><td>Parsed bets — your record</td><td>while your account is open, because it <i>is</i> the record</td></tr>
+  <tr><td>Contact details</td><td>while your account is open</td></tr>
+  <tr><td>Deletion records</td><td>kept — counts and fingerprints, never contents</td></tr>
+</table>
+</div>
+
+<h2>Your controls</h2>
+<ul>
+  <li><b>Delete everything.</b> Ask, and we hard-delete every row and every image
+      tied to you. Not hidden, not flagged — removed. This also removes the
+      fingerprints that let us spot a duplicate slip, which is the correct trade.</li>
+  <li><b>Get a copy.</b> Ask, and we will put your data together and send it.</li>
+  <li><b>Come off the public board</b>, or never go on it.</li>
+  <li><b>Opt out of aggregate learning.</b></li>
+  <li><b>Leave.</b> Stop sending slips and ask us to delete; nothing lingers.</li>
+</ul>
+<p class="note"><b>How:</b> message us on Telegram, or email
+<a href="mailto:info@cersports.com">info@cersports.com</a>. Today these are done
+<b>by hand</b> — a person runs them, rather than a button in an app. We would
+rather say so than imply a self-service portal that does not exist. We will
+confirm when it is done.</p>
+
+<h2>What we will not do</h2>
+<ul>
+  <li>Sell or share your data with anyone.</li>
+  <li>Publish your picks or your record without you asking.</li>
+  <li>Use your betting history to target you with advertising.</li>
+  <li>Keep slip images “just in case”.</li>
+  <li>Pretend a deletion happened when it did not. Deletions are recorded.</li>
+</ul>
+
+<h2>Honest limits</h2>
+<p>We are two people running this on our own hardware. We are not a bank and we
+do not have a security team. We take the obvious precautions and we deliberately
+hold as little as possible — which is the real protection here, and the reason
+the images go in 14 days rather than living forever. If something goes wrong we
+will tell you rather than hope you do not notice.</p>
+
+<h2>Changes</h2>
+<p>If this changes we will say so and date it, the same way the ledger publishes
+its losses. A policy quietly edited is not a policy.</p>
+<p>Questions: <a href="mailto:info@cersports.com">info@cersports.com</a></p>
+
+<footer>
+  <span class="na">#NotFinancialAdvice — for entertainment only.</span> 21+.
+  © 2026 CERSports. All rights reserved. Sports involves risk. Past model
+  performance does not guarantee future results. Please play responsibly.
+  CERSports does not accept wagers. If betting stops being fun, call
+  1-800-GAMBLER.
+  <br><a href="/">Home</a> · <a href="what.html">What is this?</a> ·
+  <a href="survivor.html">The Streak</a>
+</footer>
+</div>
+</body>
+</html>
