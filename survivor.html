@@ -54,6 +54,7 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
 .pick{border-top:1px solid var(--border);margin-top:13px;padding-top:13px}
 .pick .p{font-size:16px;color:var(--white);font-weight:600}
 .pick .odds{color:var(--gold);font-variant-numeric:tabular-nums;margin-left:6px}
+.record-stat .sep{color:var(--muted);padding:0 1px}
 .pick .risk{color:var(--off-white);font-variant-numeric:tabular-nums;margin-left:8px;
             font-size:12.5px;border:1px solid var(--border);border-radius:4px;
             padding:1px 6px}
@@ -196,22 +197,52 @@ function card(e){
   // that the bounce moves it. next_wager_from_base IS this pick's stake: the
   // loss streak is computed from SETTLED rows, and today's pick is unsettled,
   // so the "next" wager is the one riding on the pick shown here.
-  function riskTag(rec){
-    const w = rec && rec.next_wager_from_base;
-    if(w === null || w === undefined) return '';
-    return `<span class="risk">&#160;\u00b7&#160;${Number(w).toFixed(1)}u</span>`;
+  // THE REAL STAKE: the base this pick was sized at, plus what the streak adds.
+  // Not an assumed 1u base — the sizing is done at ingest and travels with the
+  // pick, so if it is missing we say nothing rather than invent one.
+  function riskTag(rec, pick){
+    const base = pick && pick.units;
+    const ramp = rec && rec.ramp_units;
+    if(base === null || base === undefined) return '';
+    if(ramp === null || ramp === undefined) return '';
+    const total = Number(base) + Number(ramp);
+    const note = Number(ramp) > 0
+      ? ` (${Number(base).toFixed(1)}u base +${Number(ramp).toFixed(1)}u)` : '';
+    return `<span class="risk">&#160;\u00b7&#160;${total.toFixed(1)}u${note}</span>`;
   }
-  function wagerStat(rec){
+  // TWO DIFFERENT NUMBERS, AND THEY WERE WEARING ONE LABEL.
+  //
+  // The stake ON today's pick is DETERMINED — the losing run that set it is
+  // already settled. What the NEXT wager will be is not: a win resets to base,
+  // a loss steps the ramp, a push repeats. Showing the current stake under the
+  // label "Next wager" claimed to know an outcome that has not happened.
+  //
+  // So while a pick is pending, this shows BOTH branches. Once it settles (or
+  // before one is in) there is a single knowable next wager, and it says that.
+  function wagerStat(rec, pending){
     const w = rec.next_wager_from_base;
     if(w === null || w === undefined) return '';
+    if(pending){
+      const streak = rec.loss_streak;
+      if(streak === null || streak === undefined) return '';
+      // Only the RAMP is knowable for the next pick: its base has not been
+      // sized yet — that happens when the wager is ingested.
+      const onLoss = Math.min(streak + 1, 2);
+      return `<span class="stat"><span class="v">+0<span class="sep">/</span>`
+           + `+${onLoss.toFixed(0)}u</span>`
+           + `<span class="k">Next ramp: win / loss</span></span>`;
+    }
     const up = w > 1;
+    // NO PICK IN YET: show the ramp, which is base-independent.
     // UNITS, NOT A MULTIPLIER. The rule is ADDITIVE — the ledger's base plus up
     // to 2u — and next_wager_from_base is computed against a 1u base. Rendering
     // it as "3×" claimed a multiple: true only when the base happens to be 1u,
     // and wrong at 2u, where the stake is 4u but "4×" reads as 8u. The label
     // names the base so the number cannot be misread.
-    return `<span class="stat"><span class="v${up ? ' pl-up' : ''}">${Number(w).toFixed(1)}u</span>`
-         + `<span class="k">Next wager (1u base)</span></span>`;
+    const rp = rec.ramp_units;
+    if(rp === null || rp === undefined) return '';
+    return `<span class="stat"><span class="v${up ? ' pl-up' : ''}">+${Number(rp).toFixed(0)}u</span>`
+         + `<span class="k">Next ramp</span></span>`;
   }
   // A picker with no settled picks has no record to show — say that rather
   // than printing 0-0, which reads as a result.
@@ -226,7 +257,7 @@ function card(e){
       <span class="stat"><span class="v">${r.wins|0}-${r.losses|0}</span><span class="k">Record</span></span>
       <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Streak</span></span>
       <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
-      ${wagerStat(r)}
+      ${wagerStat(r, Boolean(e.pick) && !e.pick.result)}
       ${plStat(r)}
     </div>`);
   }
@@ -241,7 +272,7 @@ function card(e){
              "Seattle Storm -7.5" + "-110" + "3.0u" pasted as
              "-7.5-1103.0u". The page is read by pasting it as often as by
              looking at it. -->
-        <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span>${riskTag(r)}</div>
+        <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span>${riskTag(r, e.pick)}</div>
         ${meta ? `<div class="meta">${meta}</div>` : ''}
       </div>`);
   } else {

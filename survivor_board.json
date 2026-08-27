@@ -1,60 +1,64 @@
 {
-  "day": "2026-08-26",
-  "deadline_utc": "2026-08-26T21:05:00+00:00",
+  "day": "2026-08-27",
+  "deadline_utc": "2026-08-27T21:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-26T23:05:00+00:00",
+  "earliest_start_utc": "2026-08-27T23:06:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 18,
+        "wins": 19,
         "losses": 13,
         "pushes": 0,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": -1.73,
-        "pl_priced": 26,
-        "pl_settled": 31,
-        "pl_flat_units": -1.73,
-        "next_wager_from_base": 3.0,
-        "loss_streak": 2
+        "alive": true,
+        "pl_units": -0.73,
+        "pl_priced": 27,
+        "pl_settled": 32,
+        "pl_flat_units": -0.73,
+        "next_wager_from_base": 1.0,
+        "ramp_units": 0.0,
+        "loss_streak": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
-        "pick": "Over 9",
+        "pick": "New York Yankees ML",
         "game": "Houston Astros @ New York Yankees",
         "sport": "MLB",
-        "odds": 100,
-        "start_utc": "2026-08-26T23:05:00+00:00"
+        "odds": -154,
+        "units": 1,
+        "start_utc": "2026-08-27T23:06:00+00:00"
       }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 17,
+        "wins": 18,
         "losses": 12,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": 2.72,
-        "pl_priced": 30,
-        "pl_settled": 30,
-        "pl_flat_units": 2.72,
-        "next_wager_from_base": 3.0,
-        "loss_streak": 2
+        "alive": true,
+        "pl_units": 3.63,
+        "pl_priced": 31,
+        "pl_settled": 31,
+        "pl_flat_units": 3.63,
+        "next_wager_from_base": 1.0,
+        "ramp_units": 0.0,
+        "loss_streak": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
-        "pick": "Seattle Storm -7.5",
-        "game": "Toronto Tempo @ Seattle Storm",
-        "sport": "WNBA",
-        "odds": -110,
-        "start_utc": "2026-08-27T02:00:00+00:00"
+        "pick": "Los Angeles Dodgers ML",
+        "game": "Los Angeles Dodgers @ Atlanta Braves",
+        "sport": "MLB",
+        "odds": 108,
+        "units": 1,
+        "start_utc": "2026-08-27T23:16:00+00:00"
       }
     }
   ]
