@@ -255,7 +255,11 @@ function card(e){
   if(hasRecord){
     parts.push(`<div class="score">
       <span class="stat"><span class="v">${r.wins|0}-${r.losses|0}</span><span class="k">Record</span></span>
-      <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Streak</span></span>
+      <!-- "Win streak", not "Streak". The ramp beside it is driven by the LOSS
+           run and moves the opposite way — a win resets the stake to base. Two
+           streaks sitting next to each other with one unlabelled invites
+           exactly the wrong reading: that a 1-win streak raises the wager. -->
+      <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Win streak</span></span>
       <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
       ${wagerStat(r, Boolean(e.pick) && !e.pick.result)}
       ${plStat(r)}
