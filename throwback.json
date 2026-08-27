@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T15:33:08.778541+00:00",
-  "iso_date": "2026-08-09",
-  "display_date": "Sun \u00b7 Aug 9, 2026",
+  "generated_at": "2026-08-27T16:58:08.834043+00:00",
+  "iso_date": "2026-08-20",
+  "display_date": "Thu \u00b7 Aug 20, 2026",
   "summary": {
     "wins": 3,
     "losses": 2,
@@ -9,64 +9,64 @@
     "pushes": 0,
     "total_picks": 5,
     "units_staked": 7.5,
-    "units_pl": 0.82,
-    "roi_pct": 10.89
+    "units_pl": 0.43,
+    "roi_pct": 5.79
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ New York Liberty",
-      "pick": "New York Liberty -9.5",
+      "sport": "ATP",
+      "game": "Arthur Fils vs Thiago Agustin Tirante",
+      "pick": "Arthur Fils -3.5 Games",
       "bet_type": "ATS",
-      "odds": "-125.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.2,
-      "hash_id": "e1767209d67bff64493d222485e2bce3094dc9f567f3218067d11770afe1950a"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Los Angeles Sparks",
-      "pick": "Golden State Valkyries -6.5",
-      "bet_type": "ATS",
-      "odds": "-114.0",
-      "result": "L",
-      "units": 2.0,
-      "profit_units": -2.0,
-      "hash_id": "574ee375ccc40827bb74619e8fcab2cb099b6adeaad1c965e238ddba39dbf2b9"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -5.5",
-      "bet_type": "ATS",
-      "odds": "-114.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.7544,
-      "hash_id": "041b576fbbdec9b1771ad3b4558df1c16fe15aaaaca65d09a8fa47c47131794d"
-    },
-    {
-      "sport": "MLB",
-      "game": "Detroit Tigers @ San Francisco Giants",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-116.0",
+      "odds": "-132.0",
       "result": "W",
       "units": 1.0,
-      "profit_units": 0.8621,
-      "hash_id": "aa47cacbcd5de5d14ec15edb38cc53cac03933c8067357a3f4fb8329da177bd9"
+      "profit_units": 0.7576,
+      "hash_id": "629674e2484143ce36f0eee71c794b33bd623b3b13c68c7b08224fd793340d8e"
     },
     {
-      "sport": "MLB",
-      "game": "Baltimore Orioles @ Texas Rangers",
-      "pick": "Texas Rangers -1.5",
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Los Angeles Sparks",
+      "pick": "Atlanta Dream -8.5",
       "bet_type": "ATS",
-      "odds": "160.0",
+      "odds": "-115.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 1.7391,
+      "hash_id": "b72c4964fcb263becc806ea13164ec037367623d00b1b64441b35c6ea8164326"
+    },
+    {
+      "sport": "ATP",
+      "game": "Flavio Cobolli vs Tommy Paul",
+      "pick": "Tommy Paul ML",
+      "bet_type": "ML",
+      "odds": "-154.0",
       "result": "L",
       "units": 1.0,
       "profit_units": -1.0,
-      "hash_id": "036dc9d7be581dc593ef234b1078cc014705d73091bb0f1e69b6d3414f8d63b8"
+      "hash_id": "ec16e171b28b1c167f1848508e18a6ac8918fb456d6a9305d0a92e7e7d8945e3"
+    },
+    {
+      "sport": "WTA",
+      "game": "Elena Rybakina vs Iga Swiatek",
+      "pick": "Iga Swiatek ML",
+      "bet_type": "ML",
+      "odds": "-160.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 0.9375,
+      "hash_id": "b7ca1c894271cb7a353f76ded3e3e6d2ab322858025a312b6809274489101553"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Indiana Fever @ Dallas Wings",
+      "pick": "Indiana Fever ML",
+      "bet_type": "ML",
+      "odds": "-154.0",
+      "result": "L",
+      "units": 2.0,
+      "profit_units": -2.0,
+      "hash_id": "4ba354465d032d40d454f32183c0b94de4a5dbcd73401d7398ea615171bdea47"
     }
   ]
 }
