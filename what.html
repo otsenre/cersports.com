@@ -174,7 +174,26 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
   .step { grid-template-columns: 44px 1fr; gap: 14px; }
   section { padding: 48px 0; }
 }
+
+.tracking{margin:22px 0 6px}
+.tcard{background:var(--surface2,#161616);border:1px solid var(--border,rgba(255,255,255,.1));
+       border-radius:9px;padding:16px 16px 12px;margin-bottom:12px}
+.tcard .tk{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;color:#fff;letter-spacing:.02em}
+.tcard .tsub{font-size:.8rem;color:#888;margin-bottom:12px}
+.trow{display:flex;flex-wrap:wrap;gap:10px}
+.trow span{flex:1;min-width:78px;text-align:center;background:rgba(255,255,255,.03);
+           border-radius:6px;padding:9px 6px}
+.trow b{display:block;font-family:'Bebas Neue',sans-serif;font-size:1.3rem;
+        color:#e8e8e8;font-weight:400;line-height:1.15}
+.trow i{display:block;font-family:'Barlow Condensed',sans-serif;font-style:normal;
+        text-transform:uppercase;letter-spacing:.11em;font-size:.63rem;color:#888;margin-top:3px}
+.tnote{margin-top:14px;padding:13px 15px;border:1px solid rgba(201,168,76,.35);
+       border-radius:8px;background:rgba(201,168,76,.05);font-size:.87rem;
+       line-height:1.65;color:#b9b9b9}
+.tnote b{color:#e8c96a}
+.fine-print{font-size:.8rem;color:#666;margin-top:10px}
 </style>
+<script defer src="record.js"></script>
 </head>
 <body>
 
@@ -260,6 +279,54 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
       <div class="proof-row"><span class="tick">✓</span><div><b>Wins and losses, both posted.</b><span>The full record is public. We don't cherry-pick the good days.</span></div></div>
       <div class="proof-row"><span class="tick">✓</span><div><b>One free pick, every single day.</b><span>You can follow along and judge for yourself without spending a cent.</span></div></div>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="label">What you actually see</div>
+    <h2>Forward a slip. Get a scorecard.</h2>
+    <p>Photograph a BetMGM ticket or a PrizePicks entry, send it to the bot, and
+      it reads the bet, prices it, waits for the games, and grades it. You stop
+      guessing how you are doing and start knowing.</p>
+
+    <div class="tracking">
+      <div class="tcard">
+        <div class="tk">Sportsbook tickets</div>
+        <div class="tsub">BetMGM slips, graded automatically</div>
+        <div class="trow">
+          <span><b data-record="tracking.tickets.n">143</b><i>tracked</i></span>
+          <span><b data-record="tracking.tickets.record">31-110</b><i>W-L</i></span>
+          <span><b data-record="tracking.tickets.staked">$2,880</b><i>risked</i></span>
+          <span><b data-record="tracking.tickets.pl">+$506</b><i>P&amp;L</i></span>
+          <span><b data-record="tracking.tickets.roi">+17.6%</b><i>ROI</i></span>
+        </div>
+      </div>
+      <div class="tcard">
+        <div class="tk">PrizePicks entries</div>
+        <div class="tsub">multi-leg entries, graded leg by leg</div>
+        <div class="trow">
+          <span><b data-record="tracking.props.n">829</b><i>tracked</i></span>
+          <span><b data-record="tracking.props.record">161-668</b><i>W-L</i></span>
+          <span><b data-record="tracking.props.staked">$8,447</b><i>risked</i></span>
+          <span><b data-record="tracking.props.pl">+$4,200</b><i>P&amp;L</i></span>
+          <span><b data-record="tracking.props.roi">+49.7%</b><i>ROI</i></span>
+        </div>
+      </div>
+      <div class="tnote">
+        <b>Read this before you read those numbers.</b> That is one operator's
+        own betting history since
+        <span data-record="tracking.since">2026-06-10</span> — their
+        bets, chosen by them, <b>not our model's picks</b>. It is here to show
+        what the tracking gives you, not to suggest you will do the same. Our
+        model's own record is on the <a href="/">home page</a>, wins and losses
+        together, and it is a very different number.
+      </div>
+    </div>
+
+    <p class="fine-print">Zero-stake promotional entries are excluded, and every
+      ROI above is computed only over the bets whose numbers we actually hold —
+      the same coverage rule the rest of the site uses.</p>
   </div>
 </section>
 

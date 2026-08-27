@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-08-26T19:45:31+00:00",
+  "generated_utc": "2026-08-27T05:32:12+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -295,6 +295,23 @@
       }
     }
   },
+  "tracking": {
+    "tickets": {
+      "n": 143,
+      "record": "31-110",
+      "staked": 2880.18,
+      "pl": 506.35,
+      "roi_pct": 17.580498441069658
+    },
+    "props": {
+      "n": 829,
+      "record": "161-668",
+      "staked": 8446.53,
+      "pl": 4199.98,
+      "roi_pct": 49.72432466350086
+    },
+    "since": "2026-06-10"
+  },
   "keys": {
     "free.record.3d": "0-2",
     "free.settled.3d": "2",
@@ -326,9 +343,6 @@
     "free.as_of": "2026-08-26",
     "free.plain": "This product has made 851 picks since 2026-03-20. About 54 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
     "free.streak": "3L",
-    "free.today.pick": "Ann Li ML",
-    "free.today.game": "Ann Li vs Maria Timofeeva",
-    "free.today.sport": "WTA",
     "paid.record.3d": "2-6",
     "paid.settled.3d": "8",
     "paid.roi.3d": "-37.0%",
@@ -359,8 +373,19 @@
     "paid.as_of": "2026-08-26",
     "paid.plain": "This product has made 774 picks since 2026-03-20. About 55 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
     "paid.streak": "1L",
+    "tracking.tickets.n": "143",
+    "tracking.tickets.record": "31-110",
+    "tracking.tickets.staked": "$2,880",
+    "tracking.tickets.pl": "+$506",
+    "tracking.tickets.roi": "+17.6%",
     "paid.today.pick": "",
     "paid.today.game": "",
-    "paid.today.sport": ""
+    "paid.today.sport": "",
+    "tracking.props.n": "829",
+    "tracking.props.record": "161-668",
+    "tracking.props.staked": "$8,447",
+    "tracking.props.pl": "+$4,200",
+    "tracking.props.roi": "+49.7%",
+    "tracking.since": "2026-06-10"
   }
 }
