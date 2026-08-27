@@ -73,6 +73,10 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
      background:var(--gold);color:#141414;border:1px solid var(--gold)}
 .btn.ghost{background:transparent;color:var(--off-white);border-color:var(--border)}
 .cta .fine{margin:10px 0 0;font-size:11px;color:var(--muted)}
+.staking{margin-top:24px;padding:14px 16px;border:1px solid var(--border);
+         border-radius:8px;color:var(--muted);font-size:12px;line-height:1.65}
+.staking b{color:var(--off-white)}
+.flat{color:var(--muted);font-weight:400}
 footer{margin-top:30px;color:var(--muted);font-size:11.5px;line-height:1.7}
 footer a{color:var(--gold);text-decoration:none}
 </style>
@@ -99,6 +103,22 @@ footer a{color:var(--gold);text-decoration:none}
     <a class="btn" href="https://t.me/cersportspicks" target="_blank" rel="noopener">Join on Telegram</a>
     <a class="btn ghost" href="what.html">What is this?</a>
     <p class="fine">21+. For entertainment. Nothing here is financial advice.</p>
+  </div>
+
+  <!-- THE RESTATEMENT, DISCLOSED. On 2026-08-26 the staking changed from flat
+       to the bounce, and the whole history is recomputed under the one rule so
+       the column is comparable end to end. That moves published figures — the
+       page had shown Reaper at +1.72u — so it says so, and shows the flat
+       number beside it rather than quietly replacing it. Same reason the free
+       pick's stake change carries a dated split. -->
+  <div class="staking">
+    <b>Staking changed 2026-08-26.</b> Wagers now follow <i>the bounce</i>: the
+    ledger's base for that pick, plus 1u after a loss and 2u at most, reset by a
+    win. A push moves nothing and the next wager repeats. Every past pick is
+    recomputed under that same rule so the record reads end to end — the
+    <i>flat</i> figure beside each P&amp;L is what the identical picks returned at
+    base stakes, so the ramp is visible rather than baked in.
+    <br>Also corrected that day: pushes had been counted as full losses.
   </div>
 
   <footer>
@@ -141,10 +161,16 @@ function plStat(r){
   if(r.pl_units === null || r.pl_units === undefined || !r.pl_priced) return '';
   const v = (r.pl_units > 0 ? '+' : '') + Number(r.pl_units).toFixed(2) + 'u';
   const cls = r.pl_units >= 0 ? 'pl-up' : 'pl-down';
+  // The flat figure travels with the pressed one. A ramp that only ever shows
+  // its own total is unfalsifiable — this is the number to check it against.
+  const f = r.pl_flat_units;
+  const flat = (f === null || f === undefined) ? ''
+    : ` <span class="flat">(flat ${(f > 0 ? '+' : '') + Number(f).toFixed(2)}u)</span>`;
   const cover = (r.pl_priced === r.pl_settled)
       ? 'P&amp;L'
       : `P&amp;L · ${r.pl_priced|0}/${r.pl_settled|0} priced`;
-  return `<span class="stat"><span class="v ${cls}">${esc(v)}</span><span class="k">${cover}</span></span>`;
+  return `<span class="stat"><span class="v ${cls}">${esc(v)}</span>`
+       + `<span class="k">${cover}${flat}</span></span>`;
 }
 
 function card(e){
