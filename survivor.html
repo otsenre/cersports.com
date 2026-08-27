@@ -54,6 +54,9 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
 .pick{border-top:1px solid var(--border);margin-top:13px;padding-top:13px}
 .pick .p{font-size:16px;color:var(--white);font-weight:600}
 .pick .odds{color:var(--gold);font-variant-numeric:tabular-nums;margin-left:6px}
+.pick .risk{color:var(--off-white);font-variant-numeric:tabular-nums;margin-left:8px;
+            font-size:12.5px;border:1px solid var(--border);border-radius:4px;
+            padding:1px 6px}
 .pick .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
 .nopick{color:var(--muted);font-size:13px;font-style:italic;margin-top:13px;
         border-top:1px solid var(--border);padding-top:13px}
@@ -188,6 +191,16 @@ function card(e){
   // THE WAGER IS THE POINT OF THE RUN, so it sits on the scoreboard beside it.
   // Shown as a multiple of the picker's own base, because the base is whatever
   // that pick was sized at in the ledger — it is not always 1u.
+  // WHAT IS ACTUALLY ON THIS PICK. The line carried the selection and the price
+  // but not the stake, which was fine while every wager was 1u and is not now
+  // that the bounce moves it. next_wager_from_base IS this pick's stake: the
+  // loss streak is computed from SETTLED rows, and today's pick is unsettled,
+  // so the "next" wager is the one riding on the pick shown here.
+  function riskTag(rec){
+    const w = rec && rec.next_wager_from_base;
+    if(w === null || w === undefined) return '';
+    return `<span class="risk">${Number(w).toFixed(1)}u</span>`;
+  }
   function wagerStat(rec){
     const w = rec.next_wager_from_base;
     if(w === null || w === undefined) return '';
@@ -223,7 +236,7 @@ function card(e){
     const start = localTime(e.pick.start_utc);
     const meta = [e.pick.game, e.pick.sport, start].filter(Boolean).map(esc).join(' · ');
     parts.push(`<div class="pick">
-        <div class="p">${esc(e.pick.pick)}<span class="odds">${esc(signed(e.pick.odds))}</span></div>
+        <div class="p">${esc(e.pick.pick)}<span class="odds">${esc(signed(e.pick.odds))}</span>${riskTag(r)}</div>
         ${meta ? `<div class="meta">${meta}</div>` : ''}
       </div>`);
   } else {
