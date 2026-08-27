@@ -192,6 +192,16 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
        line-height:1.65;color:#b9b9b9}
 .tnote b{color:#e8c96a}
 .fine-print{font-size:.8rem;color:#666;margin-top:10px}
+
+.tbars{margin:2px 0 10px}
+.tbar{display:flex;justify-content:space-between;align-items:center;gap:12px;
+      padding:8px 10px;border-radius:6px;background:rgba(255,255,255,.03);margin-bottom:6px}
+.tbar span{font-size:.9rem;color:#cfcfcf}
+.tbar b{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;
+        letter-spacing:.1em;font-size:.7rem;font-weight:700}
+.tbar b.up{color:#22c55e}
+.tbar b.dn{color:#c0392b}
+.tcap{font-size:.86rem;color:#8d8d8d;line-height:1.6}
 </style>
 <script defer src="record.js"></script>
 </head>
@@ -284,49 +294,53 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
 
 <section>
   <div class="wrap">
-    <div class="label">What you actually see</div>
-    <h2>Forward a slip. Get a scorecard.</h2>
-    <p>Photograph a BetMGM ticket or a PrizePicks entry, send it to the bot, and
-      it reads the bet, prices it, waits for the games, and grades it. You stop
-      guessing how you are doing and start knowing.</p>
+    <div class="label">What you actually learn</div>
+    <h2>Numbers don't lie. Most people never look.</h2>
+    <p>Photograph a BetMGM ticket or a PrizePicks entry and send it to the bot.
+      It reads the bet, prices it, waits for the games, and grades it. Do that for
+      a few weeks and you stop guessing how you are doing — you find out where you
+      are actually good, and where you have been quietly donating.</p>
 
-    <div class="tracking">
+    <!-- ILLUSTRATIVE ONLY. Every figure in this block is invented to show the
+         SHAPE of the output. No member's real wagers, record or ROI appears
+         here or in scorecard.json — see /privacy. data-sample marks these so
+         check_published_records does not read them as published claims. -->
+    <div class="tracking" data-sample="illustration">
       <div class="tcard">
-        <div class="tk">Sportsbook tickets</div>
-        <div class="tsub">BetMGM slips, graded automatically</div>
-        <div class="trow">
-          <span><b data-record="tracking.tickets.n">143</b><i>tracked</i></span>
-          <span><b data-record="tracking.tickets.record">31-110</b><i>W-L</i></span>
-          <span><b data-record="tracking.tickets.staked">$2,880</b><i>risked</i></span>
-          <span><b data-record="tracking.tickets.pl">+$506</b><i>P&amp;L</i></span>
-          <span><b data-record="tracking.tickets.roi">+17.6%</b><i>ROI</i></span>
+        <div class="tk">Where you're strong</div>
+        <div class="tsub">the same bettor, broken out by what they actually bet</div>
+        <div class="tbars">
+          <div class="tbar"><span>NBA player props</span><b class="up">up</b></div>
+          <div class="tbar"><span>NFL sides</span><b class="up">up a little</b></div>
+          <div class="tbar"><span>Same-game parlays</span><b class="dn">down, badly</b></div>
+          <div class="tbar"><span>Live in-game bets</span><b class="dn">down</b></div>
         </div>
+        <div class="tcap">Most people would swear the parlays were their edge.</div>
       </div>
+
       <div class="tcard">
-        <div class="tk">PrizePicks entries</div>
-        <div class="tsub">multi-leg entries, graded leg by leg</div>
-        <div class="trow">
-          <span><b data-record="tracking.props.n">829</b><i>tracked</i></span>
-          <span><b data-record="tracking.props.record">161-668</b><i>W-L</i></span>
-          <span><b data-record="tracking.props.staked">$8,447</b><i>risked</i></span>
-          <span><b data-record="tracking.props.pl">+$4,200</b><i>P&amp;L</i></span>
-          <span><b data-record="tracking.props.roi">+49.7%</b><i>ROI</i></span>
-        </div>
+        <div class="tk">Did you beat the number?</div>
+        <div class="tsub">your price against the closing line — the honest early signal</div>
+        <div class="tcap">Whether a bet won is mostly luck in the short run. Whether
+          you got a better price than the market closed at is not. Track it and you
+          know if you are good months before the money says so.</div>
       </div>
+
+      <div class="tcard">
+        <div class="tk">The stuff you'd rather not know</div>
+        <div class="tsub">it is all in the tickets already</div>
+        <div class="tcap">How much you actually staked this month. Whether you bet
+          bigger after a loss. Which day of the week costs you money. Whether that
+          hot streak was real or four bets long.</div>
+      </div>
+
       <div class="tnote">
-        <b>Read this before you read those numbers.</b> That is one operator's
-        own betting history since
-        <span data-record="tracking.since">2026-06-10</span> — their
-        bets, chosen by them, <b>not our model's picks</b>. It is here to show
-        what the tracking gives you, not to suggest you will do the same. Our
-        model's own record is on the <a href="/">home page</a>, wins and losses
-        together, and it is a very different number.
+        <b>These panels are illustrations, not anyone's results.</b> They show the
+        shape of what your own tickets produce. Your scorecard is yours — it is
+        never published, never shown to other members, and never used as an
+        example. See <a href="privacy.html">privacy</a>.
       </div>
     </div>
-
-    <p class="fine-print">Zero-stake promotional entries are excluded, and every
-      ROI above is computed only over the bets whose numbers we actually hold —
-      the same coverage rule the rest of the site uses.</p>
   </div>
 </section>
 
