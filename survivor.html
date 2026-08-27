@@ -223,13 +223,15 @@ function card(e){
     const w = rec.next_wager_from_base;
     if(w === null || w === undefined) return '';
     if(pending){
-      const streak = rec.loss_streak;
-      if(streak === null || streak === undefined) return '';
+      const run = rec.loss_run;
+      if(run === null || run === undefined) return '';
       // Only the RAMP is knowable for the next pick: its base has not been
       // sized yet — that happens when the wager is ingested.
-      const onLoss = Math.min(streak + 1, 2);
+      const TIERS = {1:1,2:2,3:3,4:4,5:5,6:5,7:5,8:5,9:5,
+                     10:7,11:9,12:11,13:13,14:15};
+      const step = n => (n <= 0 ? 0 : (TIERS[n] !== undefined ? TIERS[n] : 15));
       return `<span class="stat"><span class="v">+0<span class="sep">/</span>`
-           + `+${onLoss.toFixed(0)}u</span>`
+           + `+${step(run + 1)}u</span>`
            + `<span class="k">Next ramp: win / loss</span></span>`;
     }
     const up = w > 1;

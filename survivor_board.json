@@ -19,9 +19,9 @@
         "pl_priced": 27,
         "pl_settled": 32,
         "pl_flat_units": -0.73,
-        "next_wager_from_base": 1.0,
+        "next_wager_from_base": null,
         "ramp_units": 0.0,
-        "loss_streak": 0
+        "loss_run": 0
       },
       "note": "1 up, building again",
       "pick": {
@@ -47,9 +47,9 @@
         "pl_priced": 31,
         "pl_settled": 31,
         "pl_flat_units": 3.63,
-        "next_wager_from_base": 1.0,
+        "next_wager_from_base": null,
         "ramp_units": 0.0,
-        "loss_streak": 0
+        "loss_run": 0
       },
       "note": "1 up, building again",
       "pick": {
