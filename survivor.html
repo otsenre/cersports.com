@@ -167,7 +167,13 @@ function plStat(r){
   // The flat figure travels with the pressed one. A ramp that only ever shows
   // its own total is unfalsifiable — this is the number to check it against.
   const f = r.pl_flat_units;
-  const flat = (f === null || f === undefined) ? ''
+  // Only show the flat comparison once it DIFFERS. Staking is forward-only from
+  // 2026-08-27, so until a bounced pick settles the two figures are identical
+  // and "-1.73u (flat -1.73u)" reads as a rendering fault rather than a
+  // comparison. It appears by itself, the moment the ramp has done something.
+  const same = (f === null || f === undefined)
+    || Number(f).toFixed(2) === Number(r.pl_units).toFixed(2);
+  const flat = same ? ''
     : ` <span class="flat">(flat ${(f > 0 ? '+' : '') + Number(f).toFixed(2)}u)</span>`;
   const cover = (r.pl_priced === r.pl_settled)
       ? 'P&amp;L'
@@ -186,8 +192,13 @@ function card(e){
     const w = rec.next_wager_from_base;
     if(w === null || w === undefined) return '';
     const up = w > 1;
-    return `<span class="stat"><span class="v${up ? ' pl-up' : ''}">${Number(w).toFixed(w % 1 ? 1 : 0)}\u00d7</span>`
-         + `<span class="k">Next wager</span></span>`;
+    // UNITS, NOT A MULTIPLIER. The rule is ADDITIVE — the ledger's base plus up
+    // to 2u — and next_wager_from_base is computed against a 1u base. Rendering
+    // it as "3×" claimed a multiple: true only when the base happens to be 1u,
+    // and wrong at 2u, where the stake is 4u but "4×" reads as 8u. The label
+    // names the base so the number cannot be misread.
+    return `<span class="stat"><span class="v${up ? ' pl-up' : ''}">${Number(w).toFixed(1)}u</span>`
+         + `<span class="k">Next wager (1u base)</span></span>`;
   }
   // A picker with no settled picks has no record to show — say that rather
   // than printing 0-0, which reads as a result.
