@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-08-27",
-    "sport": "BEST",
     "source_sport": "MLB",
     "game": "Houston Astros @ New York Yankees",
     "pick": "New York Yankees ML",
-    "bet_type": "ML",
-    "line": -151.0,
     "pick_display": "New York Yankees ML",
-    "edge": 0,
+    "bet_type": "ML",
+    "line": null,
+    "price": -153.0,
+    "handicap": null,
     "ccr": 7.0,
     "ccr_avg": 7.0,
-    "tier": "B",
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
     "result": null,
-    "units": 1.0,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "600a92da100482e23fc813a36ddf88545ee8c353628175866ac959e3490f19e0"
   },
   {
@@ -32,7 +35,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.505,
+    "profit_units": 0.3788,
     "odds_origin": "free_pick_receipt",
     "hash_id": "e96efc05fa7026777068b1a982d581639eb6173155f9e92938c30158adc720e1"
   },
