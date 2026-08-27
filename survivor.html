@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Survivor Pool — CERSports</title>
+<title>The Streak — CERSports</title>
 <meta name="description" content="One pick a day. Win survives, loss resets the run.">
 <style>
 :root{
@@ -62,6 +62,17 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
   background:var(--surface);border:1px solid var(--border);border-radius:10px;
   padding:28px 18px;text-align:center;color:var(--muted);font-size:14px
 }
+/* The ask. A scoreboard people land on that never invited them in was a
+   conversion surface doing nothing. */
+.cta{margin-top:34px;padding:24px 20px;background:var(--surface);
+     border:1px solid var(--border);border-radius:10px;text-align:center}
+.cta h2{margin:0 0 10px;font-size:20px;color:var(--white);letter-spacing:.01em}
+.cta p{margin:0 auto 18px;max-width:52ch;color:var(--muted);font-size:14px;line-height:1.65}
+.btn{display:inline-block;margin:0 6px 8px;padding:11px 22px;border-radius:6px;
+     font-size:14px;font-weight:600;text-decoration:none;
+     background:var(--gold);color:#141414;border:1px solid var(--gold)}
+.btn.ghost{background:transparent;color:var(--off-white);border-color:var(--border)}
+.cta .fine{margin:10px 0 0;font-size:11px;color:var(--muted)}
 footer{margin-top:30px;color:var(--muted);font-size:11.5px;line-height:1.7}
 footer a{color:var(--gold);text-decoration:none}
 </style>
@@ -70,11 +81,25 @@ footer a{color:var(--gold);text-decoration:none}
 <div class="wrap">
   <header>
     <a class="tag" href="index.html">&larr; CERSports</a>
-    <h1>Survivor Pool</h1>
-    <div class="rule">One pick per person, per day. A win survives; a loss resets the run to zero.</div>
+    <h1>The Streak</h1>
+    <!-- RENAMED from "Survivor Pool" 2026-08-26. It never was one: nobody is
+         eliminated — Shark has 13 losses and is still playing. It is one pick a
+         day, scored on the run and on P&L. -->
+    <div class="rule">One pick each, every day. A win extends the run; a loss resets it
+      and raises the next wager. Nobody is eliminated — the run is the scoreboard.</div>
   </header>
 
   <div id="board"><div class="empty">Loading today's board…</div></div>
+
+  <div class="cta">
+    <h2>Think you can beat them?</h2>
+    <p>Shark and Reaper each post one pick a day, before the deadline, win or lose.
+      Every result is on this page. Come take a run at them — you get the pick, and
+      you get to find out whether you'd have done any better.</p>
+    <a class="btn" href="https://t.me/cersportspicks" target="_blank" rel="noopener">Join on Telegram</a>
+    <a class="btn ghost" href="what.html">What is this?</a>
+    <p class="fine">21+. For entertainment. Nothing here is financial advice.</p>
+  </div>
 
   <footer>
     Picks are published at the day's deadline — 120 minutes before the earliest
@@ -125,19 +150,30 @@ function plStat(r){
 function card(e){
   const r = e.record || {};
   const alive = r.alive !== false;
+  // THE WAGER IS THE POINT OF THE RUN, so it sits on the scoreboard beside it.
+  // Shown as a multiple of the picker's own base, because the base is whatever
+  // that pick was sized at in the ledger — it is not always 1u.
+  function wagerStat(rec){
+    const w = rec.next_wager_from_base;
+    if(w === null || w === undefined) return '';
+    const up = w > 1;
+    return `<span class="stat"><span class="v${up ? ' pl-up' : ''}">${Number(w).toFixed(w % 1 ? 1 : 0)}\u00d7</span>`
+         + `<span class="k">Next wager</span></span>`;
+  }
   // A picker with no settled picks has no record to show — say that rather
   // than printing 0-0, which reads as a result.
   const hasRecord = (r.wins || 0) + (r.losses || 0) > 0;
   const parts = [];
   parts.push(`<div class="card"><div class="who">
       <span class="name">${esc(e.name)}</span>
-      <span class="state ${alive ? 'alive' : 'out'}">${alive ? 'Alive' : 'Out'}</span>
+      <span class="state ${alive ? 'alive' : 'out'}">${alive ? 'On a run' : 'Reset'}</span>
     </div>`);
   if(hasRecord){
     parts.push(`<div class="score">
       <span class="stat"><span class="v">${r.wins|0}-${r.losses|0}</span><span class="k">Record</span></span>
       <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Streak</span></span>
       <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
+      ${wagerStat(r)}
       ${plStat(r)}
     </div>`);
   }

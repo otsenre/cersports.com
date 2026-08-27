@@ -15,9 +15,12 @@
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": -1.73,
+        "pl_units": 2.47,
         "pl_priced": 26,
-        "pl_settled": 31
+        "pl_settled": 31,
+        "pl_flat_units": -1.73,
+        "next_wager_from_base": 3.0,
+        "loss_streak": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
@@ -38,9 +41,12 @@
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 1.72,
+        "pl_units": 7.15,
         "pl_priced": 30,
-        "pl_settled": 30
+        "pl_settled": 30,
+        "pl_flat_units": 2.72,
+        "next_wager_from_base": 3.0,
+        "loss_streak": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
