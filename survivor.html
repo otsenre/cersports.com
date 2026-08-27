@@ -199,7 +199,7 @@ function card(e){
   function riskTag(rec){
     const w = rec && rec.next_wager_from_base;
     if(w === null || w === undefined) return '';
-    return `<span class="risk">${Number(w).toFixed(1)}u</span>`;
+    return `<span class="risk">&#160;\u00b7&#160;${Number(w).toFixed(1)}u</span>`;
   }
   function wagerStat(rec){
     const w = rec.next_wager_from_base;
@@ -236,7 +236,12 @@ function card(e){
     const start = localTime(e.pick.start_utc);
     const meta = [e.pick.game, e.pick.sport, start].filter(Boolean).map(esc).join(' · ');
     parts.push(`<div class="pick">
-        <div class="p">${esc(e.pick.pick)}<span class="odds">${esc(signed(e.pick.odds))}</span>${riskTag(r)}</div>
+        <!-- Real separator characters, not just CSS margins. The margins space
+             these correctly on the page but vanish when the text is COPIED, so
+             "Seattle Storm -7.5" + "-110" + "3.0u" pasted as
+             "-7.5-1103.0u". The page is read by pasting it as often as by
+             looking at it. -->
+        <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span>${riskTag(r)}</div>
         ${meta ? `<div class="meta">${meta}</div>` : ''}
       </div>`);
   } else {
