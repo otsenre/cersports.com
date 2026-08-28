@@ -12,11 +12,19 @@
  * free pick" to anyone who scanned a shirt, because it resolved the pick by
  * guessing instead of reading the snapshot.
  *
- * THE ELEMENT'S EXISTING TEXT IS THE FALLBACK AND MUST STAY CORRECT. If the
- * fetch fails, or a social-card screenshot is captured before it resolves, the
- * page keeps its shipped value rather than going blank or showing a zero.
- * check_published_records.py asserts those inline fallbacks still match the
- * JSON: a fallback that rots is just the old bug with extra steps.
+ * THE FALLBACK IS THE WORD "unavailable", NOT A NUMBER. Ernie, 2026-08-28: "if
+ * the json file with all the stats fails, there should be a place holder,
+ * unavailable." Nothing here is hardcoded; every figure is read from the file.
+ *
+ * It used to be a shipped value, and that value rotted -- on 2026-08-28 blind
+ * .html carried -46.32u against a published -47.57u, 3-3 against 2-4, and 18-16
+ * against 13-16. Every one of those was FLATTERING. A visitor whose fetch failed
+ * was shown a better record than the real one, on the page whose only job is
+ * proof, and nothing on screen said it was stale. A placeholder cannot be wrong
+ * in our favour; a number can, and did.
+ *
+ * check_published_records.py enforces the pair: an inline value must be either
+ * exactly what the JSON publishes or one of its PLACEHOLDERS.
  *
  * KEYS ARE COMPUTED BY THE PRODUCER (brand/gauge.py:_flat_keys), not here. This
  * file does no arithmetic and no formatting on purpose — a page must never be
