@@ -1861,6 +1861,24 @@ function ruleProvenanceNote(stats) {
   return out;
 }
 
+// DID WE BEAT THE CLOSING LINE? The primary measure of whether the free pick is
+// performing, because outcome is noise at this sample size and the price is not.
+// Beat-rate and average CLV are BOTH shown: when they disagree that is the
+// information — a sub-50% beat rate with positive mean CLV means we lose small
+// and win big on price.
+function clvNote(stats) {
+  const c = stats && stats.clv;
+  if (!c || !c.n) return '';
+  const pct = v => `${(v * 100).toFixed(1)}%`;
+  let out = ` Closing line value: beat the close on ${c.beat} of ${c.n} priced picks (${pct(c.beat_rate)})`;
+  if (c.first && c.last) out += `, ${c.first} to ${c.last}`;
+  out += '.';
+  if (c.rolling && c.rolling.n) {
+    out += ` Last ${c.rolling.n}: ${pct(c.rolling.beat_rate)}.`;
+  }
+  return out;
+}
+
 function scorecardNote(bands, as_of, product, stats) {
   const at = (bands || []).find(b => b.label === 'ALL-TIME');
   if (!at || bandIsEmpty(at)) {
@@ -1897,7 +1915,7 @@ function scorecardNote(bands, as_of, product, stats) {
   }
   const disposition = bits.length ? ` · ${bits.join(' · ')}` : '';
 
-  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${ruleProvenanceNote(stats)}`;
+  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${clvNote(stats)}${ruleProvenanceNote(stats)}`;
 }
 
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
