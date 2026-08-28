@@ -1,72 +1,83 @@
 {
-  "generated_at": "2026-08-27T16:58:08.834043+00:00",
-  "iso_date": "2026-08-20",
-  "display_date": "Thu \u00b7 Aug 20, 2026",
+  "generated_at": "2026-08-28T14:57:08.661725+00:00",
+  "iso_date": "2026-08-27",
+  "display_date": "Thu \u00b7 Aug 27, 2026",
   "summary": {
     "wins": 3,
-    "losses": 2,
+    "losses": 3,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 7.5,
-    "units_pl": 0.43,
-    "roi_pct": 5.79
+    "total_picks": 6,
+    "units_staked": 6.25,
+    "units_pl": -1.41,
+    "roi_pct": -22.56
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Arthur Fils vs Thiago Agustin Tirante",
-      "pick": "Arthur Fils -3.5 Games",
-      "bet_type": "ATS",
-      "odds": "-132.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.7576,
-      "hash_id": "629674e2484143ce36f0eee71c794b33bd623b3b13c68c7b08224fd793340d8e"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Atlanta Dream @ Los Angeles Sparks",
-      "pick": "Atlanta Dream -8.5",
-      "bet_type": "ATS",
-      "odds": "-115.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.7391,
-      "hash_id": "b72c4964fcb263becc806ea13164ec037367623d00b1b64441b35c6ea8164326"
-    },
-    {
-      "sport": "ATP",
-      "game": "Flavio Cobolli vs Tommy Paul",
-      "pick": "Tommy Paul ML",
+      "sport": "WTA",
+      "game": "Diane Parry vs Clara Tauson",
+      "pick": "Clara Tauson ML",
       "bet_type": "ML",
-      "odds": "-154.0",
+      "odds": "-200.0",
       "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "ec16e171b28b1c167f1848508e18a6ac8918fb456d6a9305d0a92e7e7d8945e3"
+      "units": 0.75,
+      "profit_units": -0.75,
+      "hash_id": "8f6ac4f98225ba31415ad68ef241c0480deb922b574607ac7cff692828c2c57d"
     },
     {
       "sport": "WTA",
-      "game": "Elena Rybakina vs Iga Swiatek",
-      "pick": "Iga Swiatek ML",
+      "game": "Elise Mertens vs Yuliia Starodubtseva",
+      "pick": "Elise Mertens ML",
       "bet_type": "ML",
-      "odds": "-160.0",
+      "odds": "-225.0",
       "result": "W",
-      "units": 1.5,
-      "profit_units": 0.9375,
-      "hash_id": "b7ca1c894271cb7a353f76ded3e3e6d2ab322858025a312b6809274489101553"
+      "units": 1.0,
+      "profit_units": 0.4444,
+      "hash_id": "885e8fd87577c86a2143d86430e6d645119d9a6b73d7a539155add644baaa481"
+    },
+    {
+      "sport": "WTA",
+      "game": "Ann Li vs Alycia Parks",
+      "pick": "Ann Li ML",
+      "bet_type": "ML",
+      "odds": "-243.0",
+      "result": "W",
+      "units": 0.75,
+      "profit_units": 0.3086,
+      "hash_id": "edfec6977b1847202f005db2811ed0327814a0a85df907583a5123d01719454e"
     },
     {
       "sport": "WNBA",
-      "game": "Indiana Fever @ Dallas Wings",
-      "pick": "Indiana Fever ML",
-      "bet_type": "ML",
-      "odds": "-154.0",
+      "game": "Washington Mystics @ Phoenix Mercury",
+      "pick": "Washington Mystics -3.5",
+      "bet_type": "ATS",
+      "odds": "-115.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.087,
+      "hash_id": "bfe6e39f87f3f429bcd140f863540127c1c8fcd32c1c08badf903e61e88003bc"
+    },
+    {
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Atlanta Braves",
+      "pick": "Atlanta Braves -1.5",
+      "bet_type": "ATS",
+      "odds": "180.0",
       "result": "L",
-      "units": 2.0,
-      "profit_units": -2.0,
-      "hash_id": "4ba354465d032d40d454f32183c0b94de4a5dbcd73401d7398ea615171bdea47"
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "a752038bec523296384371161059e3536b095d3813bc069b7d12646bece2ff7c"
+    },
+    {
+      "sport": "MLB",
+      "game": "Houston Astros @ New York Yankees",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": "-153.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "600a92da100482e23fc813a36ddf88545ee8c353628175866ac959e3490f19e0"
     }
   ]
 }
