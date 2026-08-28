@@ -1841,7 +1841,27 @@ function renderScorecardTable(tableId, bands) {
   ).join('');
 }
 
-function scorecardNote(bands, as_of, product) {
+// THE RECORD SPANS MORE THAN ONE SELECTION RULE, AND THE READER IS TOLD.
+// The published free-pick record runs continuously from 2026-03-20; the rule
+// choosing those picks does not. A reader comparing a 30-day band with all-time
+// is comparing samples drawn under different rules, and this product's whole
+// claim is that its record can be trusted. Stated as a fact with dates, not as
+// an apology or a disclaimer — brand/gauge.py measures it, this only renders it.
+function ruleProvenanceNote(stats) {
+  if (!stats || !Array.isArray(stats.selection_eras) || stats.selection_eras.length < 2) return '';
+  const since = stats.current_rule_since;
+  const locked = stats.current_rule_locked_until;
+  const n = stats.selection_eras.length;
+  let out = ` Selection rule changed ${n - 1} time${n > 2 ? 's' : ''}; the current rule has chosen every pick since ${since}`;
+  out += locked ? `, and is locked until ${locked}.` : '.';
+  const spanning = (stats.bands || []).filter(b => b.spans_rule_change).map(b => b.label);
+  if (spanning.length) {
+    out += ` Windows covering more than one rule: ${spanning.join(', ')}.`;
+  }
+  return out;
+}
+
+function scorecardNote(bands, as_of, product, stats) {
   const at = (bands || []).find(b => b.label === 'ALL-TIME');
   if (!at || bandIsEmpty(at)) {
     return `Ledger anchor ${'2026-04-01'} · no settled picks yet (as of ${as_of})`;
@@ -1877,7 +1897,7 @@ function scorecardNote(bands, as_of, product) {
   }
   const disposition = bits.length ? ` · ${bits.join(' · ')}` : '';
 
-  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}`;
+  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${ruleProvenanceNote(stats)}`;
 }
 
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
@@ -1898,12 +1918,12 @@ async function loadSiteDay() {
     }
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
-    const note = (id, bands, product, asOf = d.as_of) => {
+    const note = (id, bands, product, asOf = d.as_of, stats = null) => {
       const el = document.getElementById(id);
-      if (el) el.textContent = scorecardNote(bands, asOf, product);
+      if (el) el.textContent = scorecardNote(bands, asOf, product, stats);
     };
     note('paidNote', paid.bands, 'paid');
-    note('freeNote', free.bands, 'free', free.as_of || d.as_of);
+    note('freeNote', free.bands, 'free', free.as_of || d.as_of, free);
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
