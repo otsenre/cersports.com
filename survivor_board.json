@@ -1,36 +1,36 @@
 {
-  "day": "2026-08-28",
-  "deadline_utc": "2026-08-28T21:16:00+00:00",
-  "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-08-28T23:16:00+00:00",
+  "day": "2026-08-29",
+  "deadline_utc": "2026-08-29T18:42:53+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-08-29T20:11:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 19,
+        "wins": 20,
         "losses": 14,
         "pushes": 0,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": -1.73,
-        "pl_priced": 28,
-        "pl_settled": 33,
-        "pl_flat_units": -1.73,
+        "alive": true,
+        "pl_units": -0.84,
+        "pl_priced": 29,
+        "pl_settled": 34,
+        "pl_flat_units": -1.28,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 0.0,
+        "loss_run": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
         "pick": "Atlanta Braves ML",
         "game": "Colorado Rockies @ Atlanta Braves",
         "sport": "MLB",
-        "odds": -225,
+        "odds": -223,
         "units": 1,
-        "start_utc": "2026-08-28T23:16:00+00:00"
+        "start_utc": "2026-08-29T20:11:00+00:00"
       }
     },
     {
@@ -38,27 +38,27 @@
       "source": "human:reaper",
       "record": {
         "wins": 18,
-        "losses": 13,
+        "losses": 14,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 2.63,
-        "pl_priced": 32,
-        "pl_settled": 32,
-        "pl_flat_units": 2.63,
+        "pl_units": 0.63,
+        "pl_priced": 33,
+        "pl_settled": 33,
+        "pl_flat_units": 1.63,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Kansas City Chiefs -1.0",
-        "game": "Seattle Seahawks @ Kansas City Chiefs",
-        "sport": "NFL",
-        "odds": -108,
+        "pick": "Milwaukee Brewers ML",
+        "game": "Texas Rangers @ Milwaukee Brewers",
+        "sport": "MLB",
+        "odds": -160,
         "units": 1,
-        "start_utc": "2026-08-29T00:00:00+00:00"
+        "start_utc": "2026-08-29T23:16:00+00:00"
       }
     }
   ]
