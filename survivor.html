@@ -153,6 +153,37 @@ function localTime(iso){
   return d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit', timeZoneName:'short'});
 }
 
+// SAY WHICH DAY THE BOARD IS FOR, ALWAYS.
+//
+// On 2026-08-28 this page served the 2026-08-27 board -- two already-settled
+// picks, under a deadline that had passed 21 hours earlier -- with nothing on
+// screen saying so, while the surrounding copy said "today's deadline".
+// publish_survivor_board.py had been blocked since 07:33 and no alert fires on
+// it, so the page was the only place the staleness could have shown, and it did
+// not. This is record.js's 2026-08-26 bug on another page: yesterday's settled
+// result presented as today's.
+//
+// The label is unconditional rather than only-when-stale. A date that appears
+// only on bad days is a date nobody learns to read, and it makes the good days
+// depend on the staleness check being right; this way the reader always has the
+// fact and the check only adds emphasis.
+function boardDate(day){
+  if(!day) return '';
+  const d = new Date(day + 'T12:00:00Z');   // midday, so no timezone flips the date
+  if(isNaN(d)) return day;
+  return d.toLocaleDateString([], {weekday:'long', month:'short', day:'numeric'});
+}
+
+// STALE = the earliest game started more than STALE_AFTER_H ago. Deliberately
+// not "day !== today": the viewer's date is not the product's date, and a board
+// legitimately outlives its own deadline by the length of a slate.
+const STALE_AFTER_H = 14;
+function isStale(data){
+  const t = Date.parse(data && (data.earliest_start_utc || data.deadline_utc) || '');
+  if(isNaN(t)) return false;
+  return (Date.now() - t) > STALE_AFTER_H * 3600 * 1000;
+}
+
 function signed(v){
   if(v === null || v === undefined || v === '') return '';
   const n = Number(v);
@@ -304,11 +335,18 @@ function card(e){
     el.innerHTML = '<div class="empty">No survivor picks were logged before today\'s deadline.</div>';
     return;
   }
+  const stale = isStale(data);
+  const when = boardDate(data.day);
   const head = data.deadline_utc
-    ? `<div class="deadline">Picks locked at <b>${esc(localTime(data.deadline_utc))}</b>
+    ? `<div class="deadline">${when ? `Board for <b>${esc(when)}</b> — picks locked at `
+                                    : 'Picks locked at '}<b>${esc(localTime(data.deadline_utc))}</b>
          <span class="why">${esc(data.deadline_reason || '')}</span></div>`
     : '';
-  el.innerHTML = head + (data.entries || []).map(card).join('');
+  const note = stale
+    ? `<div class="empty">This is the last board we published${when ? ` (${esc(when)})` : ''}.
+         Today's is not up yet.</div>`
+    : '';
+  el.innerHTML = note + head + (data.entries || []).map(card).join('');
 })();
 </script>
 </body>
