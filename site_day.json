@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T14:58:55.641410+00:00",
+  "generated_at": "2026-08-29T15:34:13.683273+00:00",
   "run_date": "2026-08-29",
   "as_of": "2026-08-28",
   "anchor": "2026-03-20",
@@ -208,10 +208,10 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 115,
-        "beat": 52,
-        "beat_rate": 0.4522,
-        "avg_clv": 0.0137,
+        "n": 116,
+        "beat": 53,
+        "beat_rate": 0.4569,
+        "avg_clv": 0.0136,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
@@ -222,9 +222,9 @@
             "avg_clv": -0.0024
           },
           "ML": {
-            "n": 38,
-            "beat": 22,
-            "beat_rate": 0.5789,
+            "n": 39,
+            "beat": 23,
+            "beat_rate": 0.5897,
             "avg_clv": 0.0061
           },
           "TOTAL": {
@@ -236,15 +236,15 @@
         },
         "rolling": {
           "n": 30,
-          "beat": 20,
-          "beat_rate": 0.6667,
-          "avg_clv": 0.007,
+          "beat": 21,
+          "beat_rate": 0.7,
+          "avg_clv": 0.0078,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-08-28",
-        "generated_utc": "2026-08-28T18:18:33+00:00"
+        "last": "2026-08-29",
+        "generated_utc": "2026-08-29T15:02:39+00:00"
       }
     },
     "paid": {
@@ -452,16 +452,27 @@
     "free_pick_site_published_at_utc": "2026-08-29T07:57:34-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:33 AM PT",
+    "first_leg_time": "10:00 AM PT",
+    "first_leg_utc": "2026-08-29T17:00:00+00:00",
+    "leg_times_utc": [
+      "2026-08-29T17:00:00+00:00",
+      "2026-08-29T17:11:00+00:00",
+      "2026-08-29T23:30:00+00:00",
+      "2026-08-29T23:30:00+00:00",
+      "2026-08-30T00:30:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-29",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Chicago Fire @ Seattle Sounders FC, CF Montreal @ Inter Miami CF",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:33 AM PT \u00b7 5 picks, MLB + MLS + WNBA + WTA \u00b7 first leg fires 10:00 AM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Chicago Fire @ Seattle Sounders FC, CF Montreal @ Inter Miami CF"
+      "Paid card shipped 8:33 AM PT",
+      "5 picks, MLB + MLS + WNBA + WTA",
+      "first leg fires 10:00 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -473,10 +484,10 @@
       "basis": "p90 of 23 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-08-29",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:58 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "10:00 AM PT",
+    "updated_pt": "8:34 AM PT"
   }
 }
