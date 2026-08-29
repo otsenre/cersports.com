@@ -1,83 +1,50 @@
 {
-  "generated_at": "2026-08-28T14:57:08.661725+00:00",
-  "iso_date": "2026-08-27",
-  "display_date": "Thu \u00b7 Aug 27, 2026",
+  "generated_at": "2026-08-29T14:58:53.493585+00:00",
+  "iso_date": "2026-08-15",
+  "display_date": "Sat \u00b7 Aug 15, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 3,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 6,
-    "units_staked": 6.25,
-    "units_pl": -1.41,
-    "roi_pct": -22.56
+    "total_picks": 3,
+    "units_staked": 3.5,
+    "units_pl": -0.96,
+    "roi_pct": -27.38
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Diane Parry vs Clara Tauson",
-      "pick": "Clara Tauson ML",
-      "bet_type": "ML",
-      "odds": "-200.0",
-      "result": "L",
-      "units": 0.75,
-      "profit_units": -0.75,
-      "hash_id": "8f6ac4f98225ba31415ad68ef241c0480deb922b574607ac7cff692828c2c57d"
-    },
-    {
-      "sport": "WTA",
-      "game": "Elise Mertens vs Yuliia Starodubtseva",
-      "pick": "Elise Mertens ML",
-      "bet_type": "ML",
-      "odds": "-225.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.4444,
-      "hash_id": "885e8fd87577c86a2143d86430e6d645119d9a6b73d7a539155add644baaa481"
-    },
-    {
-      "sport": "WTA",
-      "game": "Ann Li vs Alycia Parks",
-      "pick": "Ann Li ML",
-      "bet_type": "ML",
-      "odds": "-243.0",
-      "result": "W",
-      "units": 0.75,
-      "profit_units": 0.3086,
-      "hash_id": "edfec6977b1847202f005db2811ed0327814a0a85df907583a5123d01719454e"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Washington Mystics @ Phoenix Mercury",
-      "pick": "Washington Mystics -3.5",
-      "bet_type": "ATS",
-      "odds": "-115.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.087,
-      "hash_id": "bfe6e39f87f3f429bcd140f863540127c1c8fcd32c1c08badf903e61e88003bc"
-    },
-    {
       "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Atlanta Braves",
-      "pick": "Atlanta Braves -1.5",
+      "game": "Baltimore Orioles @ Tampa Bay Rays",
+      "pick": "Tampa Bay Rays -1.5",
       "bet_type": "ATS",
-      "odds": "180.0",
+      "odds": "160.0",
       "result": "L",
       "units": 1.0,
       "profit_units": -1.0,
-      "hash_id": "a752038bec523296384371161059e3536b095d3813bc069b7d12646bece2ff7c"
+      "hash_id": "44a66cb537aae151ae5c660117a425e302f7b1605648a05e47ef6ead04bba287"
     },
     {
       "sport": "MLB",
-      "game": "Houston Astros @ New York Yankees",
-      "pick": "New York Yankees ML",
+      "game": "Kansas City Royals @ Los Angeles Angels",
+      "pick": "Los Angeles Angels ML",
       "bet_type": "ML",
-      "odds": "-153.0",
-      "result": "L",
+      "odds": "-144.0",
+      "result": "W",
       "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "600a92da100482e23fc813a36ddf88545ee8c353628175866ac959e3490f19e0"
+      "profit_units": 1.0417,
+      "hash_id": "c5e8dcdf8c32393bce488c4f2c8316ae8cb3b62e29645e1de7698db18666eea4"
+    },
+    {
+      "sport": "MLB",
+      "game": "Seattle Mariners @ Houston Astros",
+      "pick": "Houston Astros -1.5",
+      "bet_type": "ATS",
+      "odds": "-215.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "41d4b09278f2215c5b674dc7bc123b213c88754c6aa814ed9c4be990d84a23dd"
     }
   ]
 }
