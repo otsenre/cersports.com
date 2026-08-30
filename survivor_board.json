@@ -1,64 +1,64 @@
 {
-  "day": "2026-08-29",
-  "deadline_utc": "2026-08-29T18:42:53+00:00",
+  "day": "2026-08-30",
+  "deadline_utc": "2026-08-30T17:19:14+00:00",
   "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-08-29T20:11:00+00:00",
+  "earliest_start_utc": "2026-08-30T17:36:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 20,
+        "wins": 21,
         "losses": 14,
         "pushes": 0,
-        "current": 1,
+        "current": 2,
         "longest": 4,
         "alive": true,
-        "pl_units": -0.84,
-        "pl_priced": 29,
-        "pl_settled": 34,
-        "pl_flat_units": -1.28,
+        "pl_units": -0.39,
+        "pl_priced": 30,
+        "pl_settled": 35,
+        "pl_flat_units": -0.83,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "1 up, building again",
+      "note": "2 up, building again",
       "pick": {
         "pick": "Atlanta Braves ML",
         "game": "Colorado Rockies @ Atlanta Braves",
         "sport": "MLB",
-        "odds": -223,
+        "odds": -228,
         "units": 1,
-        "start_utc": "2026-08-29T20:11:00+00:00"
+        "start_utc": "2026-08-30T17:36:00+00:00"
       }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 18,
+        "wins": 19,
         "losses": 14,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": 0.63,
-        "pl_priced": 33,
-        "pl_settled": 33,
-        "pl_flat_units": 1.63,
+        "alive": true,
+        "pl_units": 2.51,
+        "pl_priced": 34,
+        "pl_settled": 34,
+        "pl_flat_units": 2.26,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 0.0,
+        "loss_run": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
-        "pick": "Milwaukee Brewers ML",
-        "game": "Texas Rangers @ Milwaukee Brewers",
+        "pick": "Atlanta Braves -1.5",
+        "game": "Colorado Rockies @ Atlanta Braves",
         "sport": "MLB",
-        "odds": -160,
+        "odds": -114,
         "units": 1,
-        "start_utc": "2026-08-29T23:16:00+00:00"
+        "start_utc": "2026-08-30T17:36:00+00:00"
       }
     }
   ]
