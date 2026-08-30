@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-30",
+    "source_sport": "WNBA",
+    "game": "Connecticut Sun @ Dallas Wings",
+    "pick": "Dallas Wings -15.5",
+    "pick_display": "Dallas Wings -15.5",
+    "bet_type": "ATS",
+    "line": -15.5,
+    "price": -105.0,
+    "handicap": null,
+    "ccr": 7.5,
+    "ccr_avg": 7.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "c22b0998b96630b3d16f9ec13a78c915ebad26e84169b3b958577ec9a5368ec4"
+  },
+  {
     "date": "2026-08-29",
     "source_sport": "MLS",
     "game": "CF Montr\u00e9al @ Inter Miami CF",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.4255,
+    "profit_units": 0.6383,
     "odds_origin": "free_pick_receipt",
     "hash_id": "430c69a4be7e6b3c23cc35bab78393799e8f3d7a06cf15f75193db7061371c87"
   },
@@ -14715,7 +14735,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 1.1879,
+    "profit_units": 1.197,
     "odds_origin": "unresolved",
     "hash_id": "467292d84d96738ea1581635465ce5fcb382998606a775ceee1f8eda38aac807"
   },
@@ -14915,7 +14935,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.3333,
+    "profit_units": 1.3699,
     "odds_origin": "unresolved",
     "hash_id": "98cba1eb2ed30234f75d1e0b79c50c02ca805c0ffd02b658f4bda4f71635ee02"
   },
@@ -15195,7 +15215,7 @@
     "edge": 0,
     "units": 1.75,
     "result": "W",
-    "profit_units": 1.4264,
+    "profit_units": 1.4371,
     "odds_origin": "unresolved",
     "hash_id": "c335deb9a69e6b9404d967b75279bb80519380a5dfd6a6cb7eb221af6ce1b047"
   },
