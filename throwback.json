@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-08-30T14:59:06.897403+00:00",
-  "iso_date": "2026-08-03",
-  "display_date": "Mon \u00b7 Aug 3, 2026",
+  "generated_at": "2026-08-31T14:57:29.167085+00:00",
+  "iso_date": "2026-08-15",
+  "display_date": "Sat \u00b7 Aug 15, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 1,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 1,
-    "units_staked": 1.25,
-    "units_pl": -1.25,
-    "roi_pct": -100.0
+    "total_picks": 3,
+    "units_staked": 3.5,
+    "units_pl": -0.96,
+    "roi_pct": -27.38
   },
   "picks": [
     {
       "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Chicago Cubs",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": "-120.0",
+      "game": "Baltimore Orioles @ Tampa Bay Rays",
+      "pick": "Tampa Bay Rays -1.5",
+      "bet_type": "ATS",
+      "odds": "160.0",
       "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "aa4d195699ae6bc7499c9bc85c3eb76f891b3226d65dbc3a267a70f7068ca0ab"
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "44a66cb537aae151ae5c660117a425e302f7b1605648a05e47ef6ead04bba287"
+    },
+    {
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Los Angeles Angels",
+      "pick": "Los Angeles Angels ML",
+      "bet_type": "ML",
+      "odds": "-144.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.0417,
+      "hash_id": "c5e8dcdf8c32393bce488c4f2c8316ae8cb3b62e29645e1de7698db18666eea4"
+    },
+    {
+      "sport": "MLB",
+      "game": "Seattle Mariners @ Houston Astros",
+      "pick": "Houston Astros -1.5",
+      "bet_type": "ATS",
+      "odds": "-215.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "41d4b09278f2215c5b674dc7bc123b213c88754c6aa814ed9c4be990d84a23dd"
     }
   ]
 }
