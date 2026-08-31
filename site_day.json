@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:57:33.246692+00:00",
+  "generated_at": "2026-08-31T15:32:04.031371+00:00",
   "run_date": "2026-08-31",
   "as_of": "2026-08-30",
   "anchor": "2026-03-20",
@@ -227,7 +227,7 @@
             "n": 67,
             "beat": 28,
             "beat_rate": 0.4179,
-            "avg_clv": -0.0024
+            "avg_clv": -0.0022
           },
           "ML": {
             "n": 39,
@@ -246,13 +246,13 @@
           "n": 30,
           "beat": 22,
           "beat_rate": 0.7333,
-          "avg_clv": 0.0097,
+          "avg_clv": 0.01,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-08-30",
-        "generated_utc": "2026-08-30T15:01:11+00:00"
+        "generated_utc": "2026-08-31T15:01:43+00:00"
       }
     },
     "paid": {
@@ -459,16 +459,27 @@
     "free_pick_site_published_at_utc": "2026-08-31T07:56:43-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:31 AM PT",
+    "first_leg_time": "8:30 AM PT",
+    "first_leg_utc": "2026-08-31T15:30:00+00:00",
+    "leg_times_utc": [
+      "2026-08-31T15:30:00+00:00",
+      "2026-08-31T17:50:00+00:00",
+      "2026-08-31T18:40:00+00:00",
+      "2026-08-31T23:00:00+00:00",
+      "2026-09-01T00:11:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-08-31",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Baltimore Orioles @ Colorado Rockies",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:31 AM PT \u00b7 5 picks, ATP + MLB + WTA \u00b7 1 of 5 games started \u00b7 next 10:50 AM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Baltimore Orioles @ Colorado Rockies"
+      "Paid card shipped 8:31 AM PT",
+      "5 picks, ATP + MLB + WTA",
+      "1 of 5 games started \u00b7 next 10:50 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -480,10 +491,10 @@
       "basis": "p90 of 25 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-08-31",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:57 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "8:30 AM PT",
+    "updated_pt": "8:32 AM PT"
   }
 }
