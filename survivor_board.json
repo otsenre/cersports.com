@@ -1,9 +1,9 @@
 {
   "day": "2026-09-01",
-  "deadline_utc": "2026-09-01T21:41:00+00:00",
+  "deadline_utc": "2026-09-01T20:46:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-01T23:41:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-09-01T22:46:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -24,7 +24,14 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Atlanta Braves ML",
+        "game": "Atlanta Braves @ Washington Nationals",
+        "sport": "MLB",
+        "odds": -172,
+        "units": 1,
+        "start_utc": "2026-09-01T22:46:00+00:00"
+      }
     },
     {
       "name": "Reaper",
