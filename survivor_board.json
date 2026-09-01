@@ -1,64 +1,57 @@
 {
-  "day": "2026-08-31",
-  "deadline_utc": "2026-08-31T22:41:00+00:00",
+  "day": "2026-09-01",
+  "deadline_utc": "2026-09-01T21:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-01T00:41:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-01T23:41:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
         "wins": 22,
-        "losses": 14,
+        "losses": 15,
         "pushes": 0,
-        "current": 3,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 0.05,
-        "pl_priced": 31,
-        "pl_settled": 36,
-        "pl_flat_units": -0.4,
+        "alive": false,
+        "pl_units": -0.95,
+        "pl_priced": 32,
+        "pl_settled": 37,
+        "pl_flat_units": -1.4,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Over 11",
-        "game": "Baltimore Orioles @ Colorado Rockies",
-        "sport": "MLB",
-        "odds": -102,
-        "units": 1,
-        "start_utc": "2026-09-01T00:41:00+00:00"
-      }
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": null
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
         "wins": 19,
-        "losses": 15,
+        "losses": 16,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 1.51,
-        "pl_priced": 35,
-        "pl_settled": 35,
-        "pl_flat_units": 1.26,
+        "pl_units": -0.49,
+        "pl_priced": 36,
+        "pl_settled": 36,
+        "pl_flat_units": 0.26,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 11",
-        "game": "Baltimore Orioles @ Colorado Rockies",
+        "pick": "Over 10",
+        "game": "Milwaukee Brewers @ Chicago Cubs",
         "sport": "MLB",
-        "odds": -102,
+        "odds": -110,
         "units": 1,
-        "start_utc": "2026-09-01T00:41:00+00:00"
+        "start_utc": "2026-09-01T23:41:00+00:00"
       }
     }
   ]
