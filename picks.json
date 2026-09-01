@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-01",
+    "source_sport": "WTA",
+    "game": "Janice Tjen vs Mirra Andreeva",
+    "pick": "Mirra Andreeva -5.5 Games",
+    "pick_display": "Mirra Andreeva -5.5 Games",
+    "bet_type": "ATS",
+    "line": null,
+    "price": -127.0,
+    "handicap": null,
+    "ccr": 8.0,
+    "ccr_avg": 8.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "2c7c46cc2706c1308a87df4e737b9fd9e77003961474cd960785f6e6233313c0"
+  },
+  {
     "date": "2026-08-31",
     "source_sport": "ATP",
     "game": "Hubert Hurkacz vs Damir Dzumhur",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.05,
+    "profit_units": 1.3125,
     "odds_origin": "free_pick_receipt",
     "hash_id": "fe8f2bf670df6e9fdfd749405df1238835a1fcb8816f34b8b1740ecd979dfd1b"
   },
