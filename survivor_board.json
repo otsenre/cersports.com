@@ -3,7 +3,7 @@
   "deadline_utc": "2026-08-31T22:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
   "earliest_start_utc": "2026-09-01T00:41:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -52,7 +52,14 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Over 11",
+        "game": "Baltimore Orioles @ Colorado Rockies",
+        "sport": "MLB",
+        "odds": -102,
+        "units": 1,
+        "start_utc": "2026-09-01T00:41:00+00:00"
+      }
     }
   ]
 }
