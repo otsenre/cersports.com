@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-02T17:52:19+00:00",
   "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
   "earliest_start_utc": "2026-09-02T19:11:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -52,7 +52,14 @@
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Over 8.5",
+        "game": "Milwaukee Brewers @ Chicago Cubs",
+        "sport": "MLB",
+        "odds": -103,
+        "units": 1,
+        "start_utc": "2026-09-02T23:41:00+00:00"
+      }
     }
   ]
 }
