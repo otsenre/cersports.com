@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-02",
+    "source_sport": "MLB",
+    "game": "New York Yankees @ Los Angeles Angels",
+    "pick": "New York Yankees ML",
+    "pick_display": "New York Yankees ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -157.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "d3dab32d3fca26d1a43cf39d9f3d399a0300f8f0aeb5d8ddb9614135bf051b4a"
+  },
+  {
     "date": "2026-09-01",
     "source_sport": "WTA",
     "game": "Janice Tjen vs Mirra Andreeva",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.7874,
+    "profit_units": 1.1811,
     "odds_origin": "free_pick_receipt",
     "hash_id": "2c7c46cc2706c1308a87df4e737b9fd9e77003961474cd960785f6e6233313c0"
   },
@@ -12493,9 +12513,9 @@
     "ccr_avg": 6.5,
     "tier": "C",
     "edge": 0,
-    "units": 1.0,
+    "units": 1.25,
     "result": "W",
-    "profit_units": 0.7407,
+    "profit_units": 0.9259,
     "odds_origin": "legacy_source_report",
     "hash_id": "02a8b2a1713dd2b5d8e3378c43b2e195b38eb8e066b94135bff5d37f9e9c77e8"
   },
