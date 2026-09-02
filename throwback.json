@@ -1,72 +1,39 @@
 {
-  "generated_at": "2026-09-01T15:05:09.757092+00:00",
-  "iso_date": "2026-08-09",
-  "display_date": "Sun \u00b7 Aug 9, 2026",
+  "generated_at": "2026-09-02T14:52:22.160104+00:00",
+  "iso_date": "2026-08-07",
+  "display_date": "Fri \u00b7 Aug 7, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 2,
+    "wins": 2,
+    "losses": 0,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 7.5,
-    "units_pl": 0.82,
-    "roi_pct": 10.89
+    "total_picks": 2,
+    "units_staked": 2.75,
+    "units_pl": 3.06,
+    "roi_pct": 111.11
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ New York Liberty",
-      "pick": "New York Liberty -9.5",
-      "bet_type": "ATS",
-      "odds": "-125.0",
+      "sport": "MLB",
+      "game": "New York Mets @ Pittsburgh Pirates",
+      "pick": "New York Mets ML",
+      "bet_type": "ML",
+      "odds": "122.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 1.2,
-      "hash_id": "e1767209d67bff64493d222485e2bce3094dc9f567f3218067d11770afe1950a"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Los Angeles Sparks",
-      "pick": "Golden State Valkyries -6.5",
-      "bet_type": "ATS",
-      "odds": "-114.0",
-      "result": "L",
-      "units": 2.0,
-      "profit_units": -2.0,
-      "hash_id": "574ee375ccc40827bb74619e8fcab2cb099b6adeaad1c965e238ddba39dbf2b9"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Dallas Wings @ Minnesota Lynx",
-      "pick": "Minnesota Lynx -5.5",
-      "bet_type": "ATS",
-      "odds": "-114.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.7544,
-      "hash_id": "041b576fbbdec9b1771ad3b4558df1c16fe15aaaaca65d09a8fa47c47131794d"
+      "profit_units": 1.83,
+      "hash_id": "d301eb29a848e42a8d0136e75ea47d09ecbbeaf588aab885397db72a385afb8c"
     },
     {
       "sport": "MLB",
-      "game": "Detroit Tigers @ San Francisco Giants",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-116.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.8621,
-      "hash_id": "aa47cacbcd5de5d14ec15edb38cc53cac03933c8067357a3f4fb8329da177bd9"
-    },
-    {
-      "sport": "MLB",
-      "game": "Baltimore Orioles @ Texas Rangers",
-      "pick": "Texas Rangers -1.5",
+      "game": "Chicago Cubs @ Kansas City Royals",
+      "pick": "Chicago Cubs -1.5",
       "bet_type": "ATS",
-      "odds": "160.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "036dc9d7be581dc593ef234b1078cc014705d73091bb0f1e69b6d3414f8d63b8"
+      "odds": "-102.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.2255,
+      "hash_id": "023df462b386657c4051764bd9c277d75b6af91441c32244a5859064ea3e99a1"
     }
   ]
 }
