@@ -189,7 +189,7 @@ body::after {
       <!-- "Last 7 DAYS", not "last 7 picks". These bands are day windows from
            the producer; the page used to count the last 7 graded rows instead,
            which is a different measurement wearing the same label. -->
-      <div class="ledger-sub" id="freeForm">Last 7 days: <span data-record="free.record.7d">unavailable</span>  ·  Last 21 days: <span data-record="free.record.21d">unavailable</span></div>
+      <div class="ledger-sub" id="freeForm">Last 10 picks: <span data-record="free.record.l10">unavailable</span>  ·  Last 25 picks: <span data-record="free.record.l25">unavailable</span></div>
     </div>
 
     <div class="ledger-block" style="margin-top:18px">
@@ -379,11 +379,11 @@ document.getElementById('finder').addEventListener('change', function(){
     }
     // Honest recency — a good OR bad recent run stays visible, with voids and
     // unsettled stated rather than quietly dropped.
-    const d30 = byLabel('30D'), d7 = byLabel('7D');
+    const dLong = byLabel('L50'), dShort = byLabel('L10');
     const fmt = b => b.record + (b.roi_pct != null ? ' (' + (b.roi_pct >= 0 ? '+' : '') + Number(b.roi_pct).toFixed(1) + '% ROI)' : '');
     const parts = [];
-    if (d7)  parts.push('Last 7d: ' + fmt(d7));
-    if (d30) parts.push('Last 30d: ' + fmt(d30));
+    if (dShort) parts.push('Last 10 picks: ' + fmt(dShort));
+    if (dLong)  parts.push('Last 50 picks: ' + fmt(dLong));
     if (paid && paid.unresolved) parts.push(paid.unresolved + ' unsettled');
     if (parts.length) document.getElementById('sysRecent').textContent = parts.join('  ·  ') + '  ·  since ' + (paid.since || perf.anchor);
   } catch(e) { /* leave dashes */ }
