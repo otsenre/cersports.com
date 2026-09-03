@@ -1987,6 +1987,9 @@ function renderPickerBoard(sets, todays, which) {
       'them. Expand a lane again for the market families inside it — that is ' +
       'where an edge is usually specific. Every level clears the same 30-pick ' +
       'gate on its own sample.';
+    // A restatement has to say so. STYLE_GUIDE 7b.
+    const prov = (window.__cerProvenance || {});
+    if (prov.note) note.textContent += ' ' + prov.note;
   }
 }
 
@@ -2015,6 +2018,7 @@ async function loadCommittee() {
       const sres = await fetch('scorecard.json?t=' + Date.now());
       const snap = await sres.json();
       snapForBoard = snap;
+      window.__cerProvenance = snap.provenance || {};
       (snap.free_pick_pickers || []).forEach(r => { byName[r.picker] = r; });
       todays = ((snap.products || {}).free || {}).todays_picker || null;
     } catch (e) { /* roster without records is still a roster */ }
