@@ -458,6 +458,14 @@ section { padding: 80px 24px; }
   color: var(--muted); border: 0; cursor: pointer;
 }
 .lb-tab.is-on { background: var(--gold); color: #080808; }
+.lb-expand {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: .06em;
+  padding: 0 5px; margin-left: 6px; background: transparent; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 3px; cursor: pointer; vertical-align: middle;
+}
+.lb-expand.is-open { background: var(--border); color: var(--text); }
+.lb-lane td { font-size: 12px; }
+.lb-lane-name { padding-left: 18px !important; color: var(--muted); }
 .lb-note { color: var(--muted); font-size: 11.5px; margin-top: 12px; max-width: 620px; }
 .pos { color: #22c55e; } .neg { color: #ef4444; }
 @media (max-width: 640px) {
@@ -1872,16 +1880,36 @@ function renderPickerBoard(sets, todays, which) {
   // gauge already ordered these: ranked first by floor, then the unranked.
   const ranked = rows.filter(r => r.ranked);
   const rest = rows.filter(r => !r.ranked);
+  // A picker row, plus its LANES. A source that spans nine sports is nine
+  // questions wearing one name: one picker here runs +75% in one lane and -30%
+  // in another under a single +13.7% headline. The umbrella stays because it is
+  // the right unit for IDENTITY; the lanes are the right unit for judging.
+  const laneLine = (l, key) => `<tr class="lb-lane ${l.ranked ? '' : 'lb-unranked'}" data-lane-of="${key}" hidden>` +
+      `<td></td>` +
+      `<td class="lb-lane-name">${l.lane}</td>` +
+      `<td>${l.record}</td>` +
+      `<td>${num(l.net_units, 2, 'u')}</td>` +
+      `<td>${num(l.roi_pct, 1, '%')}</td>` +
+      `<td>${num(l.roi_lcb95, 1, '%')}</td>` +
+      `<td>${l.settled}</td></tr>`;
+
   const line = r => {
     const you = r.picker === todays ? ' <span class="picker-today">today</span>' : '';
+    const key = r.picker.replace(/[^a-z0-9]+/gi, '-');
+    const lanes = r.lanes || [];
+    const toggle = lanes.length
+      ? `<button type="button" class="lb-expand" data-expand="${key}" ` +
+        `aria-expanded="false" title="${lanes.length} lanes">+${lanes.length}</button>`
+      : '';
     return `<tr class="${r.ranked ? '' : 'lb-unranked'}">` +
       `<td class="lb-rank">${r.rank == null ? '&mdash;' : r.rank}</td>` +
-      `<td>${r.picker}${you}</td>` +
+      `<td>${r.picker}${you} ${toggle}</td>` +
       `<td>${r.record}</td>` +
       `<td>${num(r.net_units, 2, 'u')}</td>` +
       `<td>${num(r.roi_pct, 1, '%')}</td>` +
       `<td>${num(r.roi_lcb95, 1, '%')}</td>` +
-      `<td>${r.settled}</td></tr>`;
+      `<td>${r.settled}</td></tr>` +
+      lanes.map(l => laneLine(l, key)).join('');
   };
 
   let html = ranked.map(line).join('');
@@ -1892,6 +1920,17 @@ function renderPickerBoard(sets, todays, which) {
   }
   tbody.innerHTML = html;
 
+  tbody.querySelectorAll('.lb-expand').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.getAttribute('data-expand');
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.classList.toggle('is-open', !open);
+      tbody.querySelectorAll(`[data-lane-of="${key}"]`)
+           .forEach(row => { row.hidden = open; });
+    });
+  });
+
   const note = document.getElementById('pickerBoardNote');
   if (note) {
     note.textContent =
@@ -1899,7 +1938,9 @@ function renderPickerBoard(sets, todays, which) {
       'record can still support. It is the ranking metric because raw ROI over ' +
       'a handful of picks is variance, not skill: a 4-0 start would otherwise ' +
       'outrank a 200-pick season forever. A picker needs 30 settled picks ' +
-      'before it is ranked at all.';
+      'before it is ranked at all. Expand a picker to see it by sport — most ' +
+      'span eight or nine, and one number across all of them describes none of ' +
+      'them. Each lane clears the same 30-pick gate on its own.';
   }
 }
 
