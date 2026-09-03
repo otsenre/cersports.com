@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:47:31.882650+00:00",
+  "generated_at": "2026-09-03T15:02:33.213166+00:00",
   "run_date": "2026-09-03",
   "as_of": "2026-09-02",
   "anchor": "2026-03-20",
@@ -211,7 +211,7 @@
         "n": 118,
         "beat": 55,
         "beat_rate": 0.4661,
-        "avg_clv": 0.0137,
+        "avg_clv": 0.0136,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
@@ -225,7 +225,7 @@
             "n": 40,
             "beat": 24,
             "beat_rate": 0.6,
-            "avg_clv": 0.0066
+            "avg_clv": 0.0063
           },
           "TOTAL": {
             "n": 11,
@@ -238,13 +238,13 @@
           "n": 30,
           "beat": 23,
           "beat_rate": 0.7667,
-          "avg_clv": 0.0115,
+          "avg_clv": 0.0111,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-09-02",
-        "generated_utc": "2026-09-02T14:56:23+00:00"
+        "generated_utc": "2026-09-03T14:51:12+00:00"
       }
     },
     "paid": {
@@ -440,7 +440,7 @@
       "WNBA",
       "WTA"
     ],
-    "card_picks": 3,
+    "card_picks": 4,
     "card_sports": [
       "MLB",
       "WTA"
@@ -451,16 +451,26 @@
     "free_pick_site_published_at_utc": "2026-09-03T07:46:44-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:01 AM PT",
+    "first_leg_time": "11:10 AM PT",
+    "first_leg_utc": "2026-09-03T18:10:00+00:00",
+    "leg_times_utc": [
+      "2026-09-03T18:10:00+00:00",
+      "2026-09-03T18:20:00+00:00",
+      "2026-09-04T02:10:00+00:00",
+      "2026-09-04T02:10:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-03",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Milwaukee Brewers @ Chicago Cubs",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:01 AM PT \u00b7 4 picks, MLB + WTA \u00b7 first leg fires 11:10 AM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Milwaukee Brewers @ Chicago Cubs"
+      "Paid card shipped 8:01 AM PT",
+      "4 picks, MLB + WTA",
+      "first leg fires 11:10 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -472,10 +482,10 @@
       "basis": "p90 of 28 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-03",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:47 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "11:10 AM PT",
+    "updated_pt": "8:02 AM PT"
   }
 }
