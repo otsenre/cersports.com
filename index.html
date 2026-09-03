@@ -695,6 +695,14 @@ footer {
   margin-top: 40px;
 }
 @media (max-width: 860px){ .scorecard-grid { grid-template-columns: 1fr; } }
+/* Says what stage a product is at, so an immature record cannot be mistaken
+   for a mature one. The gauge also self-labels a small sample in the note. */
+.dev-badge {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--border);
+  border-radius: 3px; padding: 1px 6px; margin-left: 8px; vertical-align: middle;
+}
 .scorecard-panel {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1202,7 +1210,7 @@ footer {
   <div class="section-inner">
     <div class="section-label">System performance</div>
     <h2 class="section-title">THE <em>NUMBERS</em></h2>
-    <p class="section-body">One scorecard shape, two ledgers: the paid card and the free pick are read the same way — record, units, margin, and each benchmarked against the same indices.</p>
+    <p class="section-body">One scorecard shape, every product: each is read the same way — record, units, margin, and each benchmarked against the same indices. Anchor and Syndicate Session are still in development; their records are published from the first ticket, not from the first good month.</p>
 
     <div class="scorecard-grid">
 
@@ -1254,6 +1262,59 @@ footer {
           </table>
         </div>
         <p class="scorecard-note" id="freeNote">—</p>
+      </div>
+
+
+      <!-- ANCHOR + SYNDICATE — in development, published anyway. Node 0,
+           2026-09-03. Same component, same bands, same small-sample label; the
+           only difference is a badge saying what stage the product is at. A
+           product that only appears once it looks good is advertising. -->
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">Anchor <span class="dev-badge">in development</span></span>
+          <span class="scorecard-sub" id="anchorSub">one-unit, three-wager qualifying ticket</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="anchorTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>LAST 10</th>
+                <th>LAST 25</th>
+                <th>LAST 50</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="5" style="color:var(--muted);padding:14px;font-size:13px;">Loading anchor…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="anchorNote">—</p>
+      </div>
+
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">Syndicate Session <span class="dev-badge">in development</span></span>
+          <span class="scorecard-sub" id="syndicateSub">one-unit, three-wager session card</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="syndicateTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>LAST 10</th>
+                <th>LAST 25</th>
+                <th>LAST 50</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="5" style="color:var(--muted);padding:14px;font-size:13px;">Loading syndicate…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="syndicateNote">—</p>
       </div>
 
     </div>
@@ -1880,9 +1941,15 @@ function scorecardNote(bands, as_of, product, stats) {
   if (!at || bandIsEmpty(at)) {
     return `Ledger anchor ${'2026-04-01'} · no settled picks yet (as of ${as_of})`;
   }
-  const what = product === 'paid'
-    ? 'Every settled paid-card pick included; nothing excluded.'
-    : 'Every settled free pick included; nothing excluded.';
+  // Named per product. This used to be a paid/not-paid ternary, so when anchor
+  // and syndicate were published (2026-09-03) both would have described
+  // themselves as free picks — the same class of mislabelling that once put the
+  // paid card's record on a free-pick video.
+  const NOUN = {
+    paid: 'paid-card pick', free: 'free pick',
+    anchor: 'Anchor ticket', syndicate: 'Syndicate Session card',
+  };
+  const what = `Every settled ${NOUN[product] || 'pick'} included; nothing excluded.`;
 
   // FULL DISPOSITION — W-L-P-V-pending, so a provisional record cannot be read
   // as a final one. `record` already carries W-L(-P); voids and still-open
@@ -1932,12 +1999,21 @@ async function loadSiteDay() {
     }
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
+    // In-development products render through the SAME component. If either is
+    // absent from the payload its panel keeps its loading row rather than
+    // showing zeros — absent beats stale (STYLE_GUIDE 7b).
+    const anchorSc = d.scorecard.anchor || {};
+    const syndicateSc = d.scorecard.syndicate || {};
+    if (anchorSc.bands) renderScorecardTable('anchorTable', anchorSc.bands);
+    if (syndicateSc.bands) renderScorecardTable('syndicateTable', syndicateSc.bands);
     const note = (id, bands, product, asOf = d.as_of, stats = null) => {
       const el = document.getElementById(id);
       if (el) el.textContent = scorecardNote(bands, asOf, product, stats);
     };
     note('paidNote', paid.bands, 'paid');
     note('freeNote', free.bands, 'free', free.as_of || d.as_of, free);
+    if (anchorSc.bands) note('anchorNote', anchorSc.bands, 'anchor', anchorSc.as_of || d.as_of, anchorSc);
+    if (syndicateSc.bands) note('syndicateNote', syndicateSc.bands, 'syndicate', syndicateSc.as_of || d.as_of, syndicateSc);
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
