@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-03",
+    "source_sport": "WTA",
+    "game": "Yuliia Starodubtseva vs Maria Sakkari",
+    "pick": "Maria Sakkari ML",
+    "pick_display": "Maria Sakkari ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -180.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "b823d1d5fa4681409084293adf319502ad11b054d9372a2e80e2ca1439e9c4f2"
+  },
+  {
     "date": "2026-09-02",
     "source_sport": "MLB",
     "game": "New York Yankees @ Los Angeles Angels",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.6369,
+    "profit_units": 0.7962,
     "odds_origin": "free_pick_receipt",
     "hash_id": "d3dab32d3fca26d1a43cf39d9f3d399a0300f8f0aeb5d8ddb9614135bf051b4a"
   },
