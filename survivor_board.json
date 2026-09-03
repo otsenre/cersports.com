@@ -1,64 +1,57 @@
 {
-  "day": "2026-09-02",
-  "deadline_utc": "2026-09-02T17:52:19+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-09-02T19:11:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-09-03",
+  "deadline_utc": "2026-09-03T21:15:00+00:00",
+  "deadline_reason": "120 minutes before the earliest survivor game",
+  "earliest_start_utc": "2026-09-03T23:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
+      "name": "Shark",
+      "source": "human:shark",
       "record": {
-        "wins": 20,
+        "wins": 23,
         "losses": 16,
-        "pushes": 1,
+        "pushes": 0,
         "current": 1,
         "longest": 4,
         "alive": true,
-        "pl_units": 2.24,
-        "pl_priced": 37,
-        "pl_settled": 37,
-        "pl_flat_units": 1.17,
+        "pl_units": -0.04,
+        "pl_priced": 34,
+        "pl_settled": 39,
+        "pl_flat_units": -1.42,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Over 11.5",
-        "game": "Baltimore Orioles @ Colorado Rockies",
-        "sport": "MLB",
-        "odds": 100,
-        "units": 1,
-        "start_utc": "2026-09-02T19:11:00+00:00"
-      }
+      "pick": null
     },
     {
-      "name": "Shark",
-      "source": "human:shark",
+      "name": "Reaper",
+      "source": "human:reaper",
       "record": {
-        "wins": 22,
-        "losses": 16,
-        "pushes": 0,
+        "wins": 20,
+        "losses": 17,
+        "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": -2.95,
-        "pl_priced": 33,
+        "pl_units": 1.24,
+        "pl_priced": 38,
         "pl_settled": 38,
-        "pl_flat_units": -2.4,
+        "pl_flat_units": 0.17,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 8.5",
-        "game": "Milwaukee Brewers @ Chicago Cubs",
+        "pick": "Baltimore Orioles ML",
+        "game": "Boston Red Sox @ Baltimore Orioles",
         "sport": "MLB",
-        "odds": -103,
+        "odds": 106,
         "units": 1,
-        "start_utc": "2026-09-02T23:41:00+00:00"
+        "start_utc": "2026-09-03T23:15:00+00:00"
       }
     }
   ]
