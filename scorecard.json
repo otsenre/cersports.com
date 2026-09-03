@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-03T21:05:02+00:00",
+  "generated_utc": "2026-09-03T21:15:34+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -616,7 +616,7 @@
       "rank": 3
     },
     {
-      "picker": "NBA Consensus",
+      "picker": "The Table",
       "record": "27-20",
       "wins": 27,
       "losses": 20,
@@ -652,7 +652,7 @@
       "rank": 5
     },
     {
-      "picker": "WNBA Model",
+      "picker": "The Shoe",
       "record": "30-36",
       "wins": 30,
       "losses": 36,
@@ -706,7 +706,7 @@
       "rank": null
     },
     {
-      "picker": "MLB HR",
+      "picker": "The Deuce",
       "record": "1-8",
       "wins": 1,
       "losses": 8,
@@ -724,7 +724,7 @@
       "rank": null
     },
     {
-      "picker": "MLB Charlie",
+      "picker": "Charlie",
       "record": "4-2",
       "wins": 4,
       "losses": 2,
@@ -760,7 +760,7 @@
       "rank": null
     },
     {
-      "picker": "MLB Magic",
+      "picker": "The Ace",
       "record": "4-0",
       "wins": 4,
       "losses": 0,
@@ -778,7 +778,7 @@
       "rank": null
     },
     {
-      "picker": "MLB Bayes",
+      "picker": "The Book",
       "record": "1-0",
       "wins": 1,
       "losses": 0,
@@ -796,7 +796,7 @@
       "rank": null
     },
     {
-      "picker": "NBA Decay",
+      "picker": "The Turn",
       "record": "1-0",
       "wins": 1,
       "losses": 0,
