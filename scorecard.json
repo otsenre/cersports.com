@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-03T20:56:10+00:00",
+  "generated_utc": "2026-09-03T21:05:02+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -562,6 +562,24 @@
   },
   "free_pick_pickers": [
     {
+      "picker": "The Shark",
+      "record": "52-46",
+      "wins": 52,
+      "losses": 46,
+      "pushes": 0,
+      "voided": 1,
+      "settled": 98,
+      "pending": 0,
+      "net_units": 3.21,
+      "roi_pct": 2.62,
+      "roi_lcb95": -15.02,
+      "start": "2026-03-30",
+      "end": "2026-09-01",
+      "small_sample": false,
+      "ranked": true,
+      "rank": 1
+    },
+    {
       "picker": "The Closer",
       "record": "105-97",
       "wins": 105,
@@ -572,24 +590,12 @@
       "pending": 0,
       "net_units": -12.7,
       "roi_pct": -5.3,
+      "roi_lcb95": -16.04,
       "start": "2026-05-06",
       "end": "2026-09-02",
-      "small_sample": false
-    },
-    {
-      "picker": "Unattributed",
-      "record": "120-81-1P",
-      "wins": 120,
-      "losses": 81,
-      "pushes": 1,
-      "voided": 12,
-      "settled": 202,
-      "pending": 0,
-      "net_units": 14.81,
-      "roi_pct": 6.93,
-      "start": "2026-03-20",
-      "end": "2026-06-06",
-      "small_sample": false
+      "small_sample": false,
+      "ranked": true,
+      "rank": 2
     },
     {
       "picker": "The Dealer",
@@ -602,54 +608,12 @@
       "pending": 1,
       "net_units": -18.81,
       "roi_pct": -11.76,
+      "roi_lcb95": -24.27,
       "start": "2026-04-04",
       "end": "2026-09-03",
-      "small_sample": false
-    },
-    {
-      "picker": "The Shark",
-      "record": "52-46",
-      "wins": 52,
-      "losses": 46,
-      "pushes": 0,
-      "voided": 1,
-      "settled": 98,
-      "pending": 0,
-      "net_units": 3.21,
-      "roi_pct": 2.62,
-      "start": "2026-03-30",
-      "end": "2026-09-01",
-      "small_sample": false
-    },
-    {
-      "picker": "The Rounder",
-      "record": "33-34-1P",
-      "wins": 33,
-      "losses": 34,
-      "pushes": 1,
-      "voided": 0,
-      "settled": 68,
-      "pending": 0,
-      "net_units": -10.97,
-      "roi_pct": -12.47,
-      "start": "2026-03-21",
-      "end": "2026-08-29",
-      "small_sample": false
-    },
-    {
-      "picker": "WNBA Model",
-      "record": "30-36",
-      "wins": 30,
-      "losses": 36,
-      "pushes": 0,
-      "voided": 1,
-      "settled": 66,
-      "pending": 0,
-      "net_units": -18.29,
-      "roi_pct": -19.4,
-      "start": "2026-05-09",
-      "end": "2026-08-10",
-      "small_sample": false
+      "small_sample": false,
+      "ranked": true,
+      "rank": 3
     },
     {
       "picker": "NBA Consensus",
@@ -662,9 +626,66 @@
       "pending": 0,
       "net_units": -1.1,
       "roi_pct": -2.8,
+      "roi_lcb95": -28.07,
       "start": "2026-04-07",
       "end": "2026-05-07",
-      "small_sample": false
+      "small_sample": false,
+      "ranked": true,
+      "rank": 4
+    },
+    {
+      "picker": "The Rounder",
+      "record": "33-34-1P",
+      "wins": 33,
+      "losses": 34,
+      "pushes": 1,
+      "voided": 0,
+      "settled": 68,
+      "pending": 0,
+      "net_units": -10.97,
+      "roi_pct": -12.47,
+      "roi_lcb95": -30.96,
+      "start": "2026-03-21",
+      "end": "2026-08-29",
+      "small_sample": false,
+      "ranked": true,
+      "rank": 5
+    },
+    {
+      "picker": "WNBA Model",
+      "record": "30-36",
+      "wins": 30,
+      "losses": 36,
+      "pushes": 0,
+      "voided": 1,
+      "settled": 66,
+      "pending": 0,
+      "net_units": -18.29,
+      "roi_pct": -19.4,
+      "roi_lcb95": -38.53,
+      "start": "2026-05-09",
+      "end": "2026-08-10",
+      "small_sample": false,
+      "ranked": true,
+      "rank": 6
+    },
+    {
+      "picker": "Unattributed",
+      "record": "120-81-1P",
+      "wins": 120,
+      "losses": 81,
+      "pushes": 1,
+      "voided": 12,
+      "settled": 202,
+      "pending": 0,
+      "net_units": 14.81,
+      "roi_pct": 6.93,
+      "roi_lcb95": -4.78,
+      "start": "2026-03-20",
+      "end": "2026-06-06",
+      "small_sample": false,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "The Counter",
@@ -677,9 +698,12 @@
       "pending": 0,
       "net_units": -0.22,
       "roi_pct": -0.8,
+      "roi_lcb95": -26.94,
       "start": "2026-04-14",
       "end": "2026-08-26",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "MLB HR",
@@ -692,9 +716,12 @@
       "pending": 0,
       "net_units": -4.45,
       "roi_pct": -52.35,
+      "roi_lcb95": -100.0,
       "start": "2026-05-22",
       "end": "2026-08-05",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "MLB Charlie",
@@ -707,9 +734,12 @@
       "pending": 0,
       "net_units": 1.1,
       "roi_pct": 14.23,
+      "roi_lcb95": -36.04,
       "start": "2026-07-16",
       "end": "2026-08-04",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "The Grinder",
@@ -722,9 +752,12 @@
       "pending": 0,
       "net_units": -2.89,
       "roi_pct": -50.2,
+      "roi_lcb95": -100.0,
       "start": "2026-05-05",
       "end": "2026-07-12",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "MLB Magic",
@@ -737,9 +770,12 @@
       "pending": 0,
       "net_units": 4.45,
       "roi_pct": 77.31,
+      "roi_lcb95": 52.06,
       "start": "2026-08-01",
       "end": "2026-08-06",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "MLB Bayes",
@@ -752,9 +788,12 @@
       "pending": 0,
       "net_units": 2.04,
       "roi_pct": 163.0,
+      "roi_lcb95": null,
       "start": "2026-08-07",
       "end": "2026-08-07",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     },
     {
       "picker": "NBA Decay",
@@ -767,9 +806,12 @@
       "pending": 0,
       "net_units": 1.16,
       "roi_pct": 92.59,
+      "roi_lcb95": null,
       "start": "2026-05-04",
       "end": "2026-05-04",
-      "small_sample": true
+      "small_sample": true,
+      "ranked": false,
+      "rank": null
     }
   ],
   "keys": {

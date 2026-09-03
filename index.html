@@ -427,6 +427,32 @@ section { padding: 80px 24px; }
   text-transform: uppercase; font-size: 13px; color: var(--off-white);
 }
 .committee-note { color: var(--muted); font-size: 12.5px; margin-top: 16px; max-width: 620px; }
+/* Per-picker leaderboard */
+.lb-wrap { margin-top: 28px; }
+.lb-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.lb-title {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 13px;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--text);
+}
+.lb-sub { font-size: 11.5px; color: var(--muted); }
+.lb-table { width: 100%; border-collapse: collapse; font-family: 'Barlow Condensed', sans-serif; }
+.lb-table th, .lb-table td {
+  padding: 7px 10px; text-align: right; font-size: 13px;
+  border-bottom: 1px solid var(--border); white-space: nowrap;
+}
+.lb-table th {
+  font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+}
+.lb-table th:nth-child(1), .lb-table td:nth-child(1),
+.lb-table th:nth-child(2), .lb-table td:nth-child(2) { text-align: left; }
+.lb-rank { color: var(--muted); }
+.lb-unranked td { opacity: .62; }
+.lb-divider td {
+  text-align: left; font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--muted); padding-top: 14px; border-bottom: none;
+}
+.lb-note { color: var(--muted); font-size: 11.5px; margin-top: 12px; max-width: 620px; }
+.pos { color: #22c55e; } .neg { color: #ef4444; }
 @media (max-width: 640px) {
   .committee-grid { grid-template-columns: repeat(3, 1fr); }
 }
@@ -1113,6 +1139,32 @@ footer {
       <div class="committee-label">The Committee · independent pickers, one card</div>
       <div class="committee-grid" id="committeeGrid"></div>
       <p class="committee-note">Each picker reads the slate independently. We keep their identities under wraps — you get the consensus, not the noise.</p>
+
+      <!-- PER-PICKER LEADERBOARD, ranked by lower confidence bound.
+           Raw ROI across n=5 and n=202 is a variance ordering, not a ranking:
+           a 4-0 at +77% would sit above a 105-97 forever. The LCB is the same
+           one-sided 95% bootstrap bound the promotion gate uses, so a picker's
+           position here and its promotion decision cannot disagree. -->
+      <div class="lb-wrap">
+        <div class="lb-head">
+          <span class="lb-title">Free-pick leaderboard</span>
+          <span class="lb-sub">ranked by 95% lower bound on ROI · every published free pick</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="lb-table" id="pickerBoard">
+            <thead>
+              <tr>
+                <th>#</th><th>Picker</th><th>Record</th>
+                <th>Units</th><th>ROI</th><th>Floor</th><th>n</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="7" style="color:var(--muted);padding:14px;font-size:13px;">Loading leaderboard…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="lb-note" id="pickerBoardNote">—</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1775,6 +1827,59 @@ document.getElementById('manualModal').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 
+// ── Per-picker leaderboard ──────────────────────────────────────────────────
+//
+// Every number is rendered VERBATIM from scorecard.json. The page does no
+// arithmetic on a record: brand/gauge.free_picks_by_picker() decides the order,
+// the rank, and who is eligible to be ranked at all, so the site cannot invent
+// a standing the ledger does not support.
+function renderPickerBoard(byName, todays) {
+  const tbody = document.querySelector('#pickerBoard tbody');
+  if (!tbody) return;
+  const rows = Object.keys(byName).map(k => byName[k]);
+  if (!rows.length) return;
+
+  const num = (v, dp, suffix) => {
+    if (v == null) return '<span class="lb-rank">&mdash;</span>';
+    const n = Number(v);
+    const cls = n > 0 ? 'pos' : (n < 0 ? 'neg' : '');
+    return `<span class="${cls}">${n >= 0 ? '+' : ''}${n.toFixed(dp)}${suffix}</span>`;
+  };
+
+  // gauge already ordered these: ranked first by floor, then the unranked.
+  const ranked = rows.filter(r => r.ranked);
+  const rest = rows.filter(r => !r.ranked);
+  const line = r => {
+    const you = r.picker === todays ? ' <span class="picker-today">today</span>' : '';
+    return `<tr class="${r.ranked ? '' : 'lb-unranked'}">` +
+      `<td class="lb-rank">${r.rank == null ? '&mdash;' : r.rank}</td>` +
+      `<td>${r.picker}${you}</td>` +
+      `<td>${r.record}</td>` +
+      `<td>${num(r.net_units, 2, 'u')}</td>` +
+      `<td>${num(r.roi_pct, 1, '%')}</td>` +
+      `<td>${num(r.roi_lcb95, 1, '%')}</td>` +
+      `<td>${r.settled}</td></tr>`;
+  };
+
+  let html = ranked.map(line).join('');
+  if (rest.length) {
+    html += '<tr class="lb-divider"><td colspan="7">Not yet ranked &mdash; ' +
+            'under 30 settled picks, or no picker recorded</td></tr>';
+    html += rest.map(line).join('');
+  }
+  tbody.innerHTML = html;
+
+  const note = document.getElementById('pickerBoardNote');
+  if (note) {
+    note.textContent =
+      'Floor is the 95% lower confidence bound on ROI — the worst case the ' +
+      'record can still support. It is the ranking metric because raw ROI over ' +
+      'a handful of picks is variance, not skill: a 4-0 start would otherwise ' +
+      'outrank a 200-pick season forever. A picker needs 30 settled picks ' +
+      'before it is ranked at all.';
+  }
+}
+
 // ── The Committee (persona roster from pickers.json) ────────────────────────
 //
 // Each chip carries that picker's record ON THE FREE PICK PRODUCT, published by
@@ -1821,6 +1926,8 @@ async function loadCommittee() {
         line;
       grid.appendChild(chip);
     });
+
+    renderPickerBoard(byName, todays);
 
     const note = document.querySelector('.committee-note');
     if (note && todays) {
