@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:35:35.544087+00:00",
+  "generated_at": "2026-09-03T20:49:20.919098+00:00",
   "run_date": "2026-09-03",
   "as_of": "2026-09-02",
   "anchor": "2026-03-20",
@@ -842,6 +842,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-03",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "11:10 AM PT",
-    "updated_pt": "1:35 PM PT"
+    "updated_pt": "1:49 PM PT"
   }
 }

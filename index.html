@@ -414,6 +414,14 @@ section { padding: 80px 24px; }
   width: 30px; height: 30px; border-radius: 50%; margin: 0 auto 10px;
   box-shadow: 0 0 18px -2px currentColor;
 }
+.picker-stat {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; letter-spacing: .04em; color: var(--muted); margin-top: 2px;
+}
+.picker-today {
+  font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--gold); margin-left: 6px; white-space: nowrap;
+}
 .picker-name {
   font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px;
   text-transform: uppercase; font-size: 13px; color: var(--off-white);
@@ -1317,6 +1325,54 @@ footer {
         <p class="scorecard-note" id="syndicateNote">—</p>
       </div>
 
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">CER Props <span class="dev-badge">in development</span></span>
+          <span class="scorecard-sub" id="prizepicksSub">daily 2-Pick + 3-Pick Power Play card</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="prizepicksTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>LAST 10</th>
+                <th>LAST 25</th>
+                <th>LAST 50</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="5" style="color:var(--muted);padding:14px;font-size:13px;">Loading props…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="prizepicksNote">—</p>
+      </div>
+
+      <div class="scorecard-panel">
+        <div class="scorecard-head">
+          <span class="scorecard-title">Pull the Handle <span class="dev-badge">in development</span></span>
+          <span class="scorecard-sub" id="ppmeSub">on-demand hitter Power Play entries</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="scorecard-table" id="ppmeTable">
+            <thead>
+              <tr>
+                <th></th>
+                <th>LAST 10</th>
+                <th>LAST 25</th>
+                <th>LAST 50</th>
+                <th>ALL-TIME</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="5" style="color:var(--muted);padding:14px;font-size:13px;">Loading entries…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="scorecard-note" id="ppmeNote">—</p>
+      </div>
+
     </div>
 
     <!-- SCREENSHOT-READY TEARSHEET. A capture gets separated from this page, so
@@ -1720,21 +1776,58 @@ document.getElementById('manualModal').addEventListener('click', function(e) {
 });
 
 // ── The Committee (codenamed roster from pickers.json) ───────────────────────
+//
+// Each chip carries that picker's record ON THE FREE PICK PRODUCT, published by
+// brand/gauge.free_picks_by_picker() and rendered verbatim. The page never
+// computes a record. A picker with nothing settled shows its name only —
+// absent beats stale, and "0-0" reads as break-even rather than as no data.
+//
+// The roster is codenames. The mapping to the real model behind each name is
+// private and never ships: a client should not be blaming a vendor because a
+// Rockies game landed on 11 when the card said over 11.5.
 async function loadCommittee() {
   const grid = document.getElementById('committeeGrid');
   if (!grid) return;
   try {
     const res = await fetch('pickers.json?t=' + Date.now());
     const data = await res.json();
+
+    // Stats are optional: the roster must still render if scorecard.json is
+    // unreachable, so this failure is swallowed separately from the roster's.
+    let byName = {}, todays = null;
+    try {
+      const sres = await fetch('scorecard.json?t=' + Date.now());
+      const snap = await sres.json();
+      (snap.free_pick_pickers || []).forEach(r => { byName[r.picker] = r; });
+      todays = ((snap.products || {}).free || {}).todays_picker || null;
+    } catch (e) { /* roster without records is still a roster */ }
+
     grid.innerHTML = '';
     (data.pickers || []).forEach(p => {
       const chip = document.createElement('div');
       chip.className = 'picker-chip';
+      const st = byName[p.name];
+      let line = '';
+      if (st) {
+        const roi = st.roi_pct == null ? '' :
+          ` · ${st.roi_pct >= 0 ? '+' : ''}${Number(st.roi_pct).toFixed(1)}%`;
+        line = `<div class="picker-stat">${st.record}${roi}` +
+               `${st.small_sample ? ' · small sample' : ''}</div>`;
+      }
       chip.innerHTML =
         `<div class="picker-dot" style="background:${p.color};color:${p.color}"></div>` +
-        `<div class="picker-name">${p.name}</div>`;
+        `<div class="picker-name">${p.name}${p.name === todays ? ' <span class="picker-today">today\u2019s free pick</span>' : ''}</div>` +
+        line;
       grid.appendChild(chip);
     });
+
+    const note = document.querySelector('.committee-note');
+    if (note && todays) {
+      note.textContent =
+        'Each picker reads the slate independently. We keep their identities under wraps — ' +
+        'you get the consensus, not the noise. Records shown are each picker\u2019s own free picks, ' +
+        'graded in public. Today\u2019s free pick came from ' + todays + '.';
+    }
   } catch(e) { /* leave empty */ }
 }
 
@@ -1948,6 +2041,7 @@ function scorecardNote(bands, as_of, product, stats) {
   const NOUN = {
     paid: 'paid-card pick', free: 'free pick',
     anchor: 'Anchor ticket', syndicate: 'Syndicate Session card',
+    prizepicks: 'CER Props card', ppme: 'Power Play entry',
   };
   const what = `Every settled ${NOUN[product] || 'pick'} included; nothing excluded.`;
 
@@ -2002,18 +2096,22 @@ async function loadSiteDay() {
     // In-development products render through the SAME component. If either is
     // absent from the payload its panel keeps its loading row rather than
     // showing zeros — absent beats stale (STYLE_GUIDE 7b).
-    const anchorSc = d.scorecard.anchor || {};
-    const syndicateSc = d.scorecard.syndicate || {};
-    if (anchorSc.bands) renderScorecardTable('anchorTable', anchorSc.bands);
-    if (syndicateSc.bands) renderScorecardTable('syndicateTable', syndicateSc.bands);
+    const DEV_PRODUCTS = ['anchor', 'syndicate', 'prizepicks', 'ppme'];
+    const devSc = {};
+    DEV_PRODUCTS.forEach(function (key) {
+      devSc[key] = d.scorecard[key] || {};
+      if (devSc[key].bands) renderScorecardTable(key + 'Table', devSc[key].bands);
+    });
     const note = (id, bands, product, asOf = d.as_of, stats = null) => {
       const el = document.getElementById(id);
       if (el) el.textContent = scorecardNote(bands, asOf, product, stats);
     };
     note('paidNote', paid.bands, 'paid');
     note('freeNote', free.bands, 'free', free.as_of || d.as_of, free);
-    if (anchorSc.bands) note('anchorNote', anchorSc.bands, 'anchor', anchorSc.as_of || d.as_of, anchorSc);
-    if (syndicateSc.bands) note('syndicateNote', syndicateSc.bands, 'syndicate', syndicateSc.as_of || d.as_of, syndicateSc);
+    DEV_PRODUCTS.forEach(function (key) {
+      const sc = devSc[key];
+      if (sc.bands) note(key + 'Note', sc.bands, key, sc.as_of || d.as_of, sc);
+    });
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
