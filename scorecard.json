@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-03T21:37:54+00:00",
+  "generated_utc": "2026-09-03T21:45:06+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -593,7 +593,44 @@
           "end": "2026-09-01",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "8-2",
+              "wins": 8,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": 8.55,
+              "roi_pct": 87.73,
+              "roi_lcb95": 19.4,
+              "start": "2026-06-02",
+              "end": "2026-08-24",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": 0.54,
+              "roi_pct": 6.58,
+              "roi_lcb95": -64.25,
+              "start": "2026-04-03",
+              "end": "2026-09-01",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "12-11",
@@ -610,7 +647,61 @@
           "end": "2026-06-06",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 11,
+              "pending": 0,
+              "net_units": 3.41,
+              "roi_pct": 22.02,
+              "roi_lcb95": -37.3,
+              "start": "2026-03-30",
+              "end": "2026-06-06",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "4-4",
+              "wins": 4,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": -0.99,
+              "roi_pct": -8.24,
+              "roi_lcb95": -66.06,
+              "start": "2026-04-05",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 0.23,
+              "roi_pct": 4.13,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-08",
+              "end": "2026-05-07",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "10-7",
@@ -627,7 +718,44 @@
           "end": "2026-08-31",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": 1.29,
+              "roi_pct": 39.78,
+              "roi_lcb95": -33.99,
+              "start": "2026-06-03",
+              "end": "2026-08-31",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "8-6",
+              "wins": 8,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 14,
+              "pending": 0,
+              "net_units": -1.42,
+              "roi_pct": -10.0,
+              "roi_lcb95": -43.83,
+              "start": "2026-05-05",
+              "end": "2026-08-06",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "4-3",
@@ -644,7 +772,27 @@
           "end": "2026-08-30",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-3",
+              "wins": 4,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": 1.07,
+              "roi_pct": 11.85,
+              "roi_lcb95": -47.43,
+              "start": "2026-05-03",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "5-5",
@@ -661,7 +809,27 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "5-5",
+              "wins": 5,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -1.13,
+              "roi_pct": -7.8,
+              "roi_lcb95": -50.11,
+              "start": "2026-04-18",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "8-12",
@@ -678,7 +846,78 @@
           "end": "2026-08-17",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 1.88,
+              "roi_pct": 83.45,
+              "roi_lcb95": 67.57,
+              "start": "2026-05-07",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "4-4",
+              "wins": 4,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": 0.19,
+              "roi_pct": 1.97,
+              "roi_lcb95": -53.8,
+              "start": "2026-04-28",
+              "end": "2026-08-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "2-5",
+              "wins": 2,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": -4.19,
+              "roi_pct": -50.75,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-18",
+              "end": "2026-08-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-3",
+              "wins": 0,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -4.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-25",
+              "end": "2026-05-30",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         },
         {
           "record": "2-2",
@@ -695,7 +934,44 @@
           "end": "2026-08-07",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -1.36,
+              "roi_pct": -36.36,
+              "roi_lcb95": -100.0,
+              "start": "2026-07-11",
+              "end": "2026-07-18",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.39,
+              "roi_pct": 31.25,
+              "roi_lcb95": null,
+              "start": "2026-06-25",
+              "end": "2026-08-07",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "0-1",
@@ -712,7 +988,27 @@
           "end": "2026-04-19",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-19",
+              "end": "2026-04-19",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 8,
@@ -750,7 +1046,78 @@
           "end": "2026-09-02",
           "small_sample": false,
           "lane": "MLB",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "8-3",
+              "wins": 8,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 11,
+              "pending": 0,
+              "net_units": 5.69,
+              "roi_pct": 44.65,
+              "roi_lcb95": -2.16,
+              "start": "2026-05-12",
+              "end": "2026-07-29",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "16-9",
+              "wins": 16,
+              "losses": 9,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 25,
+              "pending": 0,
+              "net_units": 3.18,
+              "roi_pct": 11.79,
+              "roi_lcb95": -14.89,
+              "start": "2026-05-24",
+              "end": "2026-09-02",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "4-1",
+              "wins": 4,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": 2.38,
+              "roi_pct": 47.52,
+              "roi_lcb95": -20.74,
+              "start": "2026-06-29",
+              "end": "2026-08-12",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.41,
+              "roi_pct": -7.08,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-23",
+              "end": "2026-08-03",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         },
         {
           "record": "22-13",
@@ -767,7 +1134,44 @@
           "end": "2026-08-21",
           "small_sample": false,
           "lane": "ATP",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "7-4",
+              "wins": 7,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 11,
+              "pending": 0,
+              "net_units": 3.99,
+              "roi_pct": 28.49,
+              "roi_lcb95": -20.12,
+              "start": "2026-06-22",
+              "end": "2026-08-21",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "15-9",
+              "wins": 15,
+              "losses": 9,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 24,
+              "pending": 0,
+              "net_units": 1.17,
+              "roi_pct": 4.91,
+              "roi_lcb95": -21.88,
+              "start": "2026-05-14",
+              "end": "2026-07-31",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "19-26",
@@ -784,7 +1188,61 @@
           "end": "2026-08-25",
           "small_sample": false,
           "lane": "WTA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "14-17",
+              "wins": 14,
+              "losses": 17,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 31,
+              "pending": 0,
+              "net_units": -6.12,
+              "roi_pct": -18.26,
+              "roi_lcb95": -46.34,
+              "start": "2026-05-16",
+              "end": "2026-08-23",
+              "small_sample": false,
+              "market": "ML",
+              "ranked": true
+            },
+            {
+              "record": "5-8",
+              "wins": 5,
+              "losses": 8,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -5.47,
+              "roi_pct": -31.28,
+              "roi_lcb95": -71.86,
+              "start": "2026-06-06",
+              "end": "2026-08-25",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-07-08",
+              "end": "2026-07-08",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "12-11",
@@ -801,7 +1259,44 @@
           "end": "2026-08-09",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "11-9",
+              "wins": 11,
+              "losses": 9,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 20,
+              "pending": 0,
+              "net_units": 1.84,
+              "roi_pct": 6.39,
+              "roi_lcb95": -29.01,
+              "start": "2026-05-08",
+              "end": "2026-08-09",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -1.57,
+              "roi_pct": -52.48,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-07",
+              "end": "2026-06-18",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "7-8",
@@ -818,7 +1313,61 @@
           "end": "2026-06-14",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-6",
+              "wins": 4,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -2.54,
+              "roi_pct": -22.55,
+              "roi_lcb95": -64.31,
+              "start": "2026-05-09",
+              "end": "2026-06-11",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.27,
+              "roi_pct": -4.55,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-11",
+              "end": "2026-06-14",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-06-06",
+              "end": "2026-06-06",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "7-13",
@@ -835,7 +1384,44 @@
           "end": "2026-06-13",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-10",
+              "wins": 6,
+              "losses": 10,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 16,
+              "pending": 0,
+              "net_units": -5.5,
+              "roi_pct": -24.7,
+              "roi_lcb95": -63.12,
+              "start": "2026-05-06",
+              "end": "2026-06-13",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-3",
+              "wins": 1,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -2.27,
+              "roi_pct": -53.4,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-26",
+              "end": "2026-06-08",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "5-6",
@@ -852,7 +1438,27 @@
           "end": "2026-08-08",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "5-6",
+              "wins": 5,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 11,
+              "pending": 0,
+              "net_units": -3.17,
+              "roi_pct": -26.96,
+              "roi_lcb95": -66.62,
+              "start": "2026-06-13",
+              "end": "2026-08-08",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "3-5",
@@ -869,7 +1475,44 @@
           "end": "2026-07-25",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-4",
+              "wins": 2,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -3.39,
+              "roi_pct": -37.63,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-13",
+              "end": "2026-07-25",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.15,
+              "roi_pct": -6.67,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-16",
+              "end": "2026-07-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 8,
@@ -907,7 +1550,44 @@
           "end": "2026-07-28",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "16-2",
+              "wins": 16,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 12,
+              "settled": 18,
+              "pending": 0,
+              "net_units": 1.48,
+              "roi_pct": 6.51,
+              "roi_lcb95": -13.28,
+              "start": "2026-04-11",
+              "end": "2026-07-28",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "3-1",
+              "wins": 3,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 2.03,
+              "roi_pct": 42.64,
+              "roi_lcb95": -37.68,
+              "start": "2026-05-19",
+              "end": "2026-07-16",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "6-3-2P",
@@ -924,7 +1604,44 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "5-3-2P",
+              "wins": 5,
+              "losses": 3,
+              "pushes": 2,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": 4.73,
+              "roi_pct": 43.97,
+              "roi_lcb95": -23.64,
+              "start": "2026-04-04",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-25",
+              "end": "2026-04-25",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "12-16",
@@ -941,7 +1658,78 @@
           "end": "2026-05-28",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "10-12",
+              "wins": 10,
+              "losses": 12,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 22,
+              "pending": 0,
+              "net_units": -4.28,
+              "roi_pct": -13.81,
+              "roi_lcb95": -48.17,
+              "start": "2026-04-17",
+              "end": "2026-05-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-3",
+              "wins": 0,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -3.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-27",
+              "end": "2026-05-09",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.33,
+              "roi_pct": -10.26,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-10",
+              "end": "2026-04-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-14",
+              "end": "2026-04-14",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         },
         {
           "record": "9-8-1P",
@@ -958,7 +1746,61 @@
           "end": "2026-05-08",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "9-3",
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 12,
+              "pending": 0,
+              "net_units": 2.32,
+              "roi_pct": 16.31,
+              "roi_lcb95": -18.66,
+              "start": "2026-04-04",
+              "end": "2026-05-08",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-4-1P",
+              "wins": 0,
+              "losses": 4,
+              "pushes": 1,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": -6.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-18",
+              "end": "2026-04-30",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-05",
+              "end": "2026-04-05",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "6-5",
@@ -975,7 +1817,27 @@
           "end": "2026-09-03",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 12,
+              "settled": 11,
+              "pending": 1,
+              "net_units": -3.5,
+              "roi_pct": -23.31,
+              "roi_lcb95": -57.37,
+              "start": "2026-04-14",
+              "end": "2026-09-03",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-1",
@@ -992,7 +1854,27 @@
           "end": "2026-07-30",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 3,
+              "pending": 0,
+              "net_units": 0.6,
+              "roi_pct": 18.46,
+              "roi_lcb95": -65.71,
+              "start": "2026-05-20",
+              "end": "2026-07-30",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "8-15",
@@ -1009,7 +1891,95 @@
           "end": "2026-08-27",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-10",
+              "wins": 7,
+              "losses": 10,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 17,
+              "pending": 0,
+              "net_units": -4.72,
+              "roi_pct": -25.53,
+              "roi_lcb95": -58.73,
+              "start": "2026-04-15",
+              "end": "2026-08-27",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-2",
+              "wins": 0,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -2.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-16",
+              "end": "2026-05-11",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.61,
+              "roi_pct": -24.28,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-14",
+              "end": "2026-04-22",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-16",
+              "end": "2026-08-16",
+              "small_sample": true,
+              "market": "F5 ATS",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-15",
+              "end": "2026-08-15",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 5
         },
         {
           "record": "5-7",
@@ -1026,7 +1996,61 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-7",
+              "wins": 3,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -5.67,
+              "roi_pct": -41.23,
+              "roi_lcb95": -82.69,
+              "start": "2026-04-25",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.15,
+              "roi_pct": 76.92,
+              "roi_lcb95": null,
+              "start": "2026-05-13",
+              "end": "2026-05-13",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.96,
+              "roi_pct": 96.15,
+              "roi_lcb95": null,
+              "start": "2026-05-14",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         }
       ],
       "lane_count": 8,
@@ -1064,7 +2088,44 @@
           "end": "2026-05-07",
           "small_sample": false,
           "lane": "NBA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "19-15",
+              "wins": 19,
+              "losses": 15,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 34,
+              "pending": 0,
+              "net_units": 0.82,
+              "roi_pct": 2.66,
+              "roi_lcb95": -27.77,
+              "start": "2026-04-07",
+              "end": "2026-05-07",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": true
+            },
+            {
+              "record": "8-5",
+              "wins": 8,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -1.92,
+              "roi_pct": -23.29,
+              "roi_lcb95": -59.0,
+              "start": "2026-04-07",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 1,
@@ -1102,7 +2163,44 @@
           "end": "2026-08-08",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "11-13",
+              "wins": 11,
+              "losses": 13,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 24,
+              "pending": 0,
+              "net_units": -5.02,
+              "roi_pct": -14.44,
+              "roi_lcb95": -46.0,
+              "start": "2026-04-30",
+              "end": "2026-08-08",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.15,
+              "roi_pct": 76.92,
+              "roi_lcb95": null,
+              "start": "2026-05-13",
+              "end": "2026-05-13",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "2-1-1P",
@@ -1119,7 +2217,44 @@
           "end": "2026-08-29",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-1-1P",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 1,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.86,
+              "roi_pct": -28.72,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-12",
+              "end": "2026-08-29",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-03-21",
+              "end": "2026-03-21",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "8-12",
@@ -1136,7 +2271,61 @@
           "end": "2026-07-22",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-6",
+              "wins": 4,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -3.23,
+              "roi_pct": -24.36,
+              "roi_lcb95": -67.58,
+              "start": "2026-05-21",
+              "end": "2026-07-22",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "3-5",
+              "wins": 3,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": -2.46,
+              "roi_pct": -26.58,
+              "roi_lcb95": -79.39,
+              "start": "2026-05-17",
+              "end": "2026-07-18",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.17,
+              "roi_pct": -8.33,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-09",
+              "end": "2026-06-21",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "3-2",
@@ -1153,7 +2342,44 @@
           "end": "2026-04-16",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.69,
+              "roi_pct": -16.23,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-09",
+              "end": "2026-04-16",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.14,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-03",
+              "end": "2026-04-03",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "2-1",
@@ -1170,7 +2396,44 @@
           "end": "2026-04-17",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.88,
+              "roi_pct": -32.01,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-06",
+              "end": "2026-04-17",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.87,
+              "roi_pct": 86.96,
+              "roi_lcb95": null,
+              "start": "2026-04-04",
+              "end": "2026-04-04",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "4-3",
@@ -1187,7 +2450,27 @@
           "end": "2026-08-04",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-3",
+              "wins": 4,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": -1.15,
+              "roi_pct": -13.52,
+              "roi_lcb95": -58.75,
+              "start": "2026-04-27",
+              "end": "2026-08-04",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-2",
@@ -1204,7 +2487,44 @@
           "end": "2026-07-28",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -1.61,
+              "roi_pct": -43.03,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-30",
+              "end": "2026-07-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.57,
+              "roi_pct": 45.46,
+              "roi_lcb95": null,
+              "start": "2026-07-04",
+              "end": "2026-07-04",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 7,
@@ -1242,7 +2562,61 @@
           "end": "2026-08-10",
           "small_sample": false,
           "lane": "WNBA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "23-30",
+              "wins": 23,
+              "losses": 30,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 53,
+              "pending": 0,
+              "net_units": -16.15,
+              "roi_pct": -20.58,
+              "roi_lcb95": -40.41,
+              "start": "2026-05-19",
+              "end": "2026-08-10",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": true
+            },
+            {
+              "record": "6-6",
+              "wins": 6,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 12,
+              "pending": 0,
+              "net_units": -3.08,
+              "roi_pct": -20.87,
+              "roi_lcb95": -59.23,
+              "start": "2026-05-09",
+              "end": "2026-08-05",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.94,
+              "roi_pct": 94.34,
+              "roi_lcb95": null,
+              "start": "2026-05-28",
+              "end": "2026-05-28",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         }
       ],
       "lane_count": 1,
@@ -1280,7 +2654,44 @@
           "end": "2026-05-16",
           "small_sample": false,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "40-29",
+              "wins": 40,
+              "losses": 29,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 69,
+              "pending": 0,
+              "net_units": 14.8,
+              "roi_pct": 20.27,
+              "roi_lcb95": 0.53,
+              "start": "2026-03-20",
+              "end": "2026-05-16",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "40-20",
+              "wins": 40,
+              "losses": 20,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 60,
+              "pending": 0,
+              "net_units": 9.65,
+              "roi_pct": 25.92,
+              "roi_lcb95": -3.39,
+              "start": "2026-03-20",
+              "end": "2026-04-15",
+              "small_sample": false,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "16-11",
@@ -1297,7 +2708,61 @@
           "end": "2026-05-16",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "12-7",
+              "wins": 12,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 19,
+              "pending": 0,
+              "net_units": -0.81,
+              "roi_pct": -2.72,
+              "roi_lcb95": -32.71,
+              "start": "2026-03-25",
+              "end": "2026-05-13",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -0.25,
+              "roi_pct": -2.59,
+              "roi_lcb95": -66.45,
+              "start": "2026-04-01",
+              "end": "2026-05-01",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.07,
+              "roi_pct": -2.38,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-06",
+              "end": "2026-05-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "7-6",
@@ -1314,7 +2779,44 @@
           "end": "2026-04-04",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 11,
+              "pending": 0,
+              "net_units": -2.44,
+              "roi_pct": -13.37,
+              "roi_lcb95": -54.1,
+              "start": "2026-03-21",
+              "end": "2026-04-04",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.6,
+              "roi_pct": -16.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-01",
+              "end": "2026-04-02",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "7-7",
@@ -1331,7 +2833,44 @@
           "end": "2026-05-19",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 11,
+              "pending": 0,
+              "net_units": -2.21,
+              "roi_pct": -16.04,
+              "roi_lcb95": -52.62,
+              "start": "2026-04-09",
+              "end": "2026-05-19",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.16,
+              "roi_pct": -4.55,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-04",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "8-7",
@@ -1348,7 +2887,61 @@
           "end": "2026-05-19",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-6",
+              "wins": 7,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -3.33,
+              "roi_pct": -20.81,
+              "roi_lcb95": -59.44,
+              "start": "2026-04-02",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 6,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.93,
+              "roi_pct": 93.46,
+              "roi_lcb95": null,
+              "start": "2026-04-06",
+              "end": "2026-05-19",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-03",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "1-1-1P",
@@ -1365,7 +2958,44 @@
           "end": "2026-05-10",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1-1P",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 1,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-18",
+              "end": "2026-05-02",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.14,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-05-10",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-0",
@@ -1382,7 +3012,27 @@
           "end": "2026-06-06",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.89,
+              "roi_pct": 89.29,
+              "roi_lcb95": null,
+              "start": "2026-05-16",
+              "end": "2026-05-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 7,
@@ -1420,7 +3070,27 @@
           "end": "2026-05-21",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 2.17,
+              "roi_pct": 86.96,
+              "roi_lcb95": 86.95,
+              "start": "2026-05-19",
+              "end": "2026-05-21",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-0",
@@ -1437,7 +3107,27 @@
           "end": "2026-04-15",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 1.19,
+              "roi_pct": 47.71,
+              "roi_lcb95": 33.56,
+              "start": "2026-04-14",
+              "end": "2026-04-15",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "4-2",
@@ -1454,7 +3144,44 @@
           "end": "2026-06-27",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-1",
+              "wins": 4,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": 1.98,
+              "roi_pct": 39.64,
+              "roi_lcb95": -21.67,
+              "start": "2026-05-19",
+              "end": "2026-06-27",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-05-04",
+              "end": "2026-05-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "2-1",
@@ -1471,7 +3198,44 @@
           "end": "2026-07-15",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.09,
+              "roi_pct": -4.54,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-29",
+              "end": "2026-07-15",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.4,
+              "roi_pct": 40.0,
+              "roi_lcb95": null,
+              "start": "2026-05-10",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "4-2",
@@ -1488,7 +3252,27 @@
           "end": "2026-08-26",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-2",
+              "wins": 4,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -1.49,
+              "roi_pct": -19.25,
+              "roi_lcb95": -61.05,
+              "start": "2026-04-14",
+              "end": "2026-08-26",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-3",
@@ -1505,7 +3289,44 @@
           "end": "2026-08-05",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -1.39,
+              "roi_pct": -34.66,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-15",
+              "end": "2026-08-05",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-06-28",
+              "end": "2026-06-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "0-1",
@@ -1522,7 +3343,27 @@
           "end": "2026-07-31",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-07-31",
+              "end": "2026-07-31",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 7,
@@ -1560,7 +3401,27 @@
           "end": "2026-08-05",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-8",
+              "wins": 1,
+              "losses": 8,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 9,
+              "pending": 0,
+              "net_units": -4.45,
+              "roi_pct": -52.35,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-22",
+              "end": "2026-08-05",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -1598,7 +3459,44 @@
           "end": "2026-08-04",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-1",
+              "wins": 3,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 1.3,
+              "roi_pct": 23.66,
+              "roi_lcb95": -41.82,
+              "start": "2026-07-16",
+              "end": "2026-08-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.2,
+              "roi_pct": -8.83,
+              "roi_lcb95": -100.0,
+              "start": "2026-07-26",
+              "end": "2026-07-30",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 1,
@@ -1636,7 +3534,27 @@
           "end": "2026-05-09",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.89,
+              "roi_pct": -23.64,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-05",
+              "end": "2026-05-09",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "0-2",
@@ -1653,7 +3571,44 @@
           "end": "2026-06-10",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-05-05",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-06-10",
+              "end": "2026-06-10",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 2,
@@ -1691,7 +3646,27 @@
           "end": "2026-08-06",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-0",
+              "wins": 4,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 4.45,
+              "roi_pct": 77.31,
+              "roi_lcb95": 52.06,
+              "start": "2026-08-01",
+              "end": "2026-08-06",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -1729,7 +3704,27 @@
           "end": "2026-08-07",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 2.04,
+              "roi_pct": 163.0,
+              "roi_lcb95": null,
+              "start": "2026-08-07",
+              "end": "2026-08-07",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -1767,7 +3762,27 @@
           "end": "2026-05-04",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.16,
+              "roi_pct": 92.59,
+              "roi_lcb95": null,
+              "start": "2026-05-04",
+              "end": "2026-05-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -1807,7 +3822,61 @@
           "end": "2026-08-31",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-1",
+              "wins": 7,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": 10.63,
+              "roi_pct": 118.06,
+              "roi_lcb95": 34.38,
+              "start": "2026-06-02",
+              "end": "2026-08-24",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "3-1",
+              "wins": 3,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 3.5,
+              "roi_pct": 55.98,
+              "roi_lcb95": -23.64,
+              "start": "2026-04-03",
+              "end": "2026-08-31",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-25",
+              "end": "2026-08-25",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "11-6",
@@ -1824,7 +3893,61 @@
           "end": "2026-05-14",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "5-1",
+              "wins": 5,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": 7.93,
+              "roi_pct": 83.43,
+              "roi_lcb95": 18.39,
+              "start": "2026-03-30",
+              "end": "2026-04-29",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "4-3",
+              "wins": 4,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": 0.51,
+              "roi_pct": 4.87,
+              "roi_lcb95": -53.33,
+              "start": "2026-04-07",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 0.23,
+              "roi_pct": 4.13,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-08",
+              "end": "2026-05-07",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "2-1",
@@ -1841,7 +3964,27 @@
           "end": "2026-08-26",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": 1.73,
+              "roi_pct": 43.18,
+              "roi_lcb95": -18.18,
+              "start": "2026-05-30",
+              "end": "2026-08-26",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "8-5",
@@ -1858,7 +4001,44 @@
           "end": "2026-08-06",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-4",
+              "wins": 7,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 11,
+              "pending": 0,
+              "net_units": 0.41,
+              "roi_pct": 3.5,
+              "roi_lcb95": -35.65,
+              "start": "2026-05-05",
+              "end": "2026-08-06",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.02,
+              "roi_pct": -0.98,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-03",
+              "end": "2026-06-05",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "7-11",
@@ -1875,7 +4055,78 @@
           "end": "2026-09-02",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 1.88,
+              "roi_pct": 83.45,
+              "roi_lcb95": 67.57,
+              "start": "2026-05-07",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "4-3",
+              "wins": 4,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": 1.44,
+              "roi_pct": 16.96,
+              "roi_lcb95": -43.02,
+              "start": "2026-04-28",
+              "end": "2026-08-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-4",
+              "wins": 1,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": -4.42,
+              "roi_pct": -70.67,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-19",
+              "end": "2026-08-08",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-4",
+              "wins": 0,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -5.75,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-25",
+              "end": "2026-09-02",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         },
         {
           "record": "3-4",
@@ -1892,7 +4143,61 @@
           "end": "2026-08-25",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.71,
+              "roi_pct": -18.92,
+              "roi_lcb95": -65.0,
+              "start": "2026-08-07",
+              "end": "2026-08-22",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -1.11,
+              "roi_pct": -31.82,
+              "roi_lcb95": -100.0,
+              "start": "2026-07-11",
+              "end": "2026-08-24",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-25",
+              "end": "2026-08-25",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "1-1",
@@ -1909,7 +4214,27 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.36,
+              "roi_pct": -13.22,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-18",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 7,
@@ -1947,7 +4272,44 @@
           "end": "2026-08-30",
           "small_sample": false,
           "lane": "ATP",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "13-6",
+              "wins": 13,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 19,
+              "pending": 0,
+              "net_units": 8.28,
+              "roi_pct": 34.86,
+              "roi_lcb95": -0.18,
+              "start": "2026-06-22",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "9-7",
+              "wins": 9,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 16,
+              "pending": 0,
+              "net_units": -0.21,
+              "roi_pct": -1.25,
+              "roi_lcb95": -36.37,
+              "start": "2026-05-20",
+              "end": "2026-08-18",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "25-15",
@@ -1964,7 +4326,78 @@
           "end": "2026-09-03",
           "small_sample": false,
           "lane": "MLB",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "9-3",
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 12,
+              "pending": 0,
+              "net_units": 5.67,
+              "roi_pct": 40.49,
+              "roi_lcb95": -2.6,
+              "start": "2026-05-12",
+              "end": "2026-07-29",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "11-7",
+              "wins": 11,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 18,
+              "pending": 1,
+              "net_units": 1.74,
+              "roi_pct": 8.37,
+              "roi_lcb95": -24.12,
+              "start": "2026-05-24",
+              "end": "2026-09-03",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 28.04,
+              "roi_lcb95": -37.68,
+              "start": "2026-06-29",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "3-4",
+              "wins": 3,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 7,
+              "pending": 0,
+              "net_units": -1.72,
+              "roi_pct": -16.42,
+              "roi_lcb95": -75.52,
+              "start": "2026-06-23",
+              "end": "2026-09-01",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         },
         {
           "record": "24-21",
@@ -1981,7 +4414,61 @@
           "end": "2026-08-30",
           "small_sample": false,
           "lane": "WTA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "11-8",
+              "wins": 11,
+              "losses": 8,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 19,
+              "pending": 0,
+              "net_units": 3.4,
+              "roi_pct": 13.73,
+              "roi_lcb95": -23.17,
+              "start": "2026-06-06",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "12-13",
+              "wins": 12,
+              "losses": 13,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 25,
+              "pending": 0,
+              "net_units": -3.87,
+              "roi_pct": -13.47,
+              "roi_lcb95": -45.72,
+              "start": "2026-05-16",
+              "end": "2026-08-23",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.21,
+              "roi_pct": 80.65,
+              "roi_lcb95": null,
+              "start": "2026-08-16",
+              "end": "2026-08-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "10-12",
@@ -1998,7 +4485,61 @@
           "end": "2026-08-30",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "10-8",
+              "wins": 10,
+              "losses": 8,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 18,
+              "pending": 0,
+              "net_units": 2.18,
+              "roi_pct": 8.39,
+              "roi_lcb95": -31.47,
+              "start": "2026-05-22",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-3",
+              "wins": 0,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -3.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-07",
+              "end": "2026-06-18",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-16",
+              "end": "2026-08-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "6-5",
@@ -2015,7 +4556,61 @@
           "end": "2026-06-14",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -0.87,
+              "roi_pct": -12.06,
+              "roi_lcb95": -71.32,
+              "start": "2026-05-20",
+              "end": "2026-06-11",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.27,
+              "roi_pct": -4.55,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-11",
+              "end": "2026-06-14",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-06-06",
+              "end": "2026-06-06",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "7-8",
@@ -2032,7 +4627,61 @@
           "end": "2026-09-01",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-7",
+              "wins": 6,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -3.7,
+              "roi_pct": -25.1,
+              "roi_lcb95": -62.65,
+              "start": "2026-06-13",
+              "end": "2026-09-01",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-08-28",
+              "end": "2026-08-28",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-15",
+              "end": "2026-08-15",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "4-8",
@@ -2049,7 +4698,44 @@
           "end": "2026-06-13",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-5",
+              "wins": 3,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": -2.52,
+              "roi_pct": -23.42,
+              "roi_lcb95": -75.59,
+              "start": "2026-05-18",
+              "end": "2026-06-13",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-3",
+              "wins": 1,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -2.27,
+              "roi_pct": -53.4,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-26",
+              "end": "2026-06-08",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "4-5",
@@ -2066,7 +4752,44 @@
           "end": "2026-08-23",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-1",
+              "wins": 2,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 3,
+              "pending": 0,
+              "net_units": 0.38,
+              "roi_pct": 11.58,
+              "roi_lcb95": -56.39,
+              "start": "2026-05-16",
+              "end": "2026-08-23",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "2-4",
+              "wins": 2,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -3.39,
+              "roi_pct": -37.63,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-13",
+              "end": "2026-07-25",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-1",
@@ -2083,7 +4806,27 @@
           "end": "2026-08-28",
           "small_sample": true,
           "lane": "NFL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.31,
+              "roi_pct": -11.25,
+              "roi_lcb95": -100.0,
+              "start": "2026-08-22",
+              "end": "2026-08-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 9,
@@ -2121,7 +4864,27 @@
           "end": "2026-07-30",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 1.85,
+              "roi_pct": 92.5,
+              "roi_lcb95": 20.0,
+              "start": "2026-05-20",
+              "end": "2026-07-30",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "19-4",
@@ -2138,7 +4901,44 @@
           "end": "2026-08-23",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "17-2",
+              "wins": 17,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 12,
+              "settled": 19,
+              "pending": 0,
+              "net_units": 2.16,
+              "roi_pct": 8.71,
+              "roi_lcb95": -9.85,
+              "start": "2026-04-11",
+              "end": "2026-08-23",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.19,
+              "roi_pct": -4.08,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-19",
+              "end": "2026-07-16",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "5-3-2P",
@@ -2155,7 +4955,44 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-3-2P",
+              "wins": 4,
+              "losses": 3,
+              "pushes": 2,
+              "voided": 1,
+              "settled": 9,
+              "pending": 0,
+              "net_units": 2.63,
+              "roi_pct": 29.26,
+              "roi_lcb95": -42.15,
+              "start": "2026-04-04",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-25",
+              "end": "2026-04-25",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "6-6",
@@ -2172,7 +5009,61 @@
           "end": "2026-05-17",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-6",
+              "wins": 4,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -2.8,
+              "roi_pct": -20.4,
+              "roi_lcb95": -66.01,
+              "start": "2026-04-25",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.15,
+              "roi_pct": 76.92,
+              "roi_lcb95": null,
+              "start": "2026-05-13",
+              "end": "2026-05-13",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.96,
+              "roi_pct": 96.15,
+              "roi_lcb95": null,
+              "start": "2026-05-14",
+              "end": "2026-05-14",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "9-8-1P",
@@ -2189,7 +5080,61 @@
           "end": "2026-05-08",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "9-3",
+              "wins": 9,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 12,
+              "pending": 0,
+              "net_units": 2.31,
+              "roi_pct": 15.15,
+              "roi_lcb95": -20.84,
+              "start": "2026-04-04",
+              "end": "2026-05-08",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-4-1P",
+              "wins": 0,
+              "losses": 4,
+              "pushes": 1,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": -6.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-18",
+              "end": "2026-04-30",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-05",
+              "end": "2026-04-05",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "10-15",
@@ -2206,7 +5151,61 @@
           "end": "2026-05-28",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "9-12",
+              "wins": 9,
+              "losses": 12,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 21,
+              "pending": 0,
+              "net_units": -5.65,
+              "roi_pct": -19.14,
+              "roi_lcb95": -54.15,
+              "start": "2026-04-17",
+              "end": "2026-05-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-3",
+              "wins": 0,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -3.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-27",
+              "end": "2026-05-09",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-14",
+              "end": "2026-04-14",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "7-6",
@@ -2223,7 +5222,27 @@
           "end": "2026-09-03",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-6",
+              "wins": 7,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 12,
+              "settled": 13,
+              "pending": 1,
+              "net_units": -4.2,
+              "roi_pct": -26.24,
+              "roi_lcb95": -56.51,
+              "start": "2026-04-17",
+              "end": "2026-09-03",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "10-15",
@@ -2240,7 +5259,78 @@
           "end": "2026-08-27",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "8-12",
+              "wins": 8,
+              "losses": 12,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 20,
+              "pending": 0,
+              "net_units": -6.94,
+              "roi_pct": -31.18,
+              "roi_lcb95": -60.34,
+              "start": "2026-04-15",
+              "end": "2026-08-27",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-2",
+              "wins": 0,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -2.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-16",
+              "end": "2026-05-11",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.61,
+              "roi_pct": -24.28,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-14",
+              "end": "2026-04-22",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.67,
+              "roi_pct": 66.67,
+              "roi_lcb95": null,
+              "start": "2026-08-20",
+              "end": "2026-08-20",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 4
         }
       ],
       "lane_count": 8,
@@ -2278,7 +5368,44 @@
           "end": "2026-05-07",
           "small_sample": false,
           "lane": "NBA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "19-15",
+              "wins": 19,
+              "losses": 15,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 34,
+              "pending": 0,
+              "net_units": 0.5,
+              "roi_pct": 1.61,
+              "roi_lcb95": -28.41,
+              "start": "2026-04-07",
+              "end": "2026-05-07",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": true
+            },
+            {
+              "record": "8-4",
+              "wins": 8,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 12,
+              "pending": 0,
+              "net_units": -1.42,
+              "roi_pct": -18.35,
+              "roi_lcb95": -55.38,
+              "start": "2026-04-07",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 1,
@@ -2316,7 +5443,61 @@
           "end": "2026-08-29",
           "small_sample": false,
           "lane": "WNBA",
-          "ranked": true
+          "ranked": true,
+          "markets": [
+            {
+              "record": "20-22",
+              "wins": 20,
+              "losses": 22,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 42,
+              "pending": 0,
+              "net_units": -5.92,
+              "roi_pct": -9.35,
+              "roi_lcb95": -33.3,
+              "start": "2026-05-19",
+              "end": "2026-08-29",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": true
+            },
+            {
+              "record": "5-4",
+              "wins": 5,
+              "losses": 4,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 9,
+              "pending": 0,
+              "net_units": -3.01,
+              "roi_pct": -23.62,
+              "roi_lcb95": -65.05,
+              "start": "2026-05-09",
+              "end": "2026-08-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.94,
+              "roi_pct": 94.34,
+              "roi_lcb95": null,
+              "start": "2026-05-28",
+              "end": "2026-05-28",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         }
       ],
       "lane_count": 1,
@@ -2354,7 +5535,27 @@
           "end": "2026-08-23",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "10-10",
+              "wins": 10,
+              "losses": 10,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 20,
+              "pending": 0,
+              "net_units": -0.99,
+              "roi_pct": -3.34,
+              "roi_lcb95": -41.21,
+              "start": "2026-05-31",
+              "end": "2026-08-23",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "10-13",
@@ -2371,7 +5572,61 @@
           "end": "2026-08-23",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "5-3",
+              "wins": 5,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 8,
+              "pending": 0,
+              "net_units": 1.32,
+              "roi_pct": 14.22,
+              "roi_lcb95": -39.73,
+              "start": "2026-05-17",
+              "end": "2026-07-18",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "4-9",
+              "wins": 4,
+              "losses": 9,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -7.11,
+              "roi_pct": -42.47,
+              "roi_lcb95": -82.64,
+              "start": "2026-05-21",
+              "end": "2026-08-23",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.17,
+              "roi_pct": -8.33,
+              "roi_lcb95": -100.0,
+              "start": "2026-06-09",
+              "end": "2026-06-21",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "3-3",
@@ -2388,7 +5643,27 @@
           "end": "2026-09-03",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 1,
+              "net_units": -2.37,
+              "roi_pct": -31.63,
+              "roi_lcb95": -80.9,
+              "start": "2026-07-09",
+              "end": "2026-09-03",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-2",
@@ -2405,7 +5680,44 @@
           "end": "2026-08-29",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -2.36,
+              "roi_pct": -52.48,
+              "roi_lcb95": -100.0,
+              "start": "2026-08-01",
+              "end": "2026-08-29",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-03-21",
+              "end": "2026-03-21",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-3",
@@ -2422,7 +5734,44 @@
           "end": "2026-08-22",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-3",
+              "wins": 0,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -3.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-07-28",
+              "end": "2026-08-22",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.68,
+              "roi_pct": 45.45,
+              "roi_lcb95": null,
+              "start": "2026-07-04",
+              "end": "2026-07-04",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-0",
@@ -2439,7 +5788,27 @@
           "end": "2026-04-04",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.87,
+              "roi_pct": 86.96,
+              "roi_lcb95": null,
+              "start": "2026-04-04",
+              "end": "2026-04-04",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "1-0",
@@ -2456,7 +5825,27 @@
           "end": "2026-04-03",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.14,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-03",
+              "end": "2026-04-03",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 7,
@@ -2494,7 +5883,44 @@
           "end": "2026-05-16",
           "small_sample": false,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "40-29",
+              "wins": 40,
+              "losses": 29,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 69,
+              "pending": 0,
+              "net_units": 14.86,
+              "roi_pct": 20.36,
+              "roi_lcb95": 0.61,
+              "start": "2026-03-20",
+              "end": "2026-05-16",
+              "small_sample": false,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "40-20",
+              "wins": 40,
+              "losses": 20,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 60,
+              "pending": 0,
+              "net_units": 9.65,
+              "roi_pct": 25.92,
+              "roi_lcb95": -3.39,
+              "start": "2026-03-20",
+              "end": "2026-04-15",
+              "small_sample": false,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "16-11",
@@ -2511,7 +5937,61 @@
           "end": "2026-05-16",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "12-7",
+              "wins": 12,
+              "losses": 7,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 19,
+              "pending": 0,
+              "net_units": -1.19,
+              "roi_pct": -4.01,
+              "roi_lcb95": -33.9,
+              "start": "2026-03-25",
+              "end": "2026-05-13",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -0.05,
+              "roi_pct": -0.57,
+              "roi_lcb95": -66.01,
+              "start": "2026-04-01",
+              "end": "2026-05-01",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.07,
+              "roi_pct": -2.38,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-06",
+              "end": "2026-05-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "7-7",
@@ -2528,7 +6008,44 @@
           "end": "2026-05-19",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 11,
+              "pending": 0,
+              "net_units": -2.21,
+              "roi_pct": -16.04,
+              "roi_lcb95": -52.62,
+              "start": "2026-04-09",
+              "end": "2026-05-19",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.16,
+              "roi_pct": -4.55,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-04",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "7-6",
@@ -2545,7 +6062,44 @@
           "end": "2026-04-04",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "6-5",
+              "wins": 6,
+              "losses": 5,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 11,
+              "pending": 0,
+              "net_units": -2.69,
+              "roi_pct": -14.54,
+              "roi_lcb95": -55.15,
+              "start": "2026-03-21",
+              "end": "2026-04-04",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-1",
+              "wins": 1,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -0.6,
+              "roi_pct": -16.0,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-01",
+              "end": "2026-04-02",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "8-7",
@@ -2562,7 +6116,61 @@
           "end": "2026-05-19",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "7-6",
+              "wins": 7,
+              "losses": 6,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 13,
+              "pending": 0,
+              "net_units": -3.52,
+              "roi_pct": -22.32,
+              "roi_lcb95": -60.28,
+              "start": "2026-04-02",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 6,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.93,
+              "roi_pct": 93.46,
+              "roi_lcb95": null,
+              "start": "2026-04-06",
+              "end": "2026-05-19",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.25,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-03",
+              "end": "2026-05-17",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 3
         },
         {
           "record": "1-1-1P",
@@ -2579,7 +6187,44 @@
           "end": "2026-05-10",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1-1P",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 1,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": -1.5,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-04-18",
+              "end": "2026-05-02",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.14,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-05-10",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-0",
@@ -2596,7 +6241,27 @@
           "end": "2026-06-06",
           "small_sample": true,
           "lane": "MMA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.89,
+              "roi_pct": 89.29,
+              "roi_lcb95": null,
+              "start": "2026-05-16",
+              "end": "2026-05-16",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 7,
@@ -2634,7 +6299,27 @@
           "end": "2026-05-21",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-0",
+              "wins": 2,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 2,
+              "pending": 0,
+              "net_units": 2.17,
+              "roi_pct": 86.96,
+              "roi_lcb95": 86.95,
+              "start": "2026-05-19",
+              "end": "2026-05-21",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "2-0",
@@ -2651,7 +6336,44 @@
           "end": "2026-05-10",
           "small_sample": true,
           "lane": "WNBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.4,
+              "roi_pct": 40.0,
+              "roi_lcb95": null,
+              "start": "2026-05-10",
+              "end": "2026-05-10",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.91,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-04-29",
+              "end": "2026-04-29",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "4-2",
@@ -2668,7 +6390,44 @@
           "end": "2026-06-27",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "4-1",
+              "wins": 4,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 5,
+              "pending": 0,
+              "net_units": 1.98,
+              "roi_pct": 39.64,
+              "roi_lcb95": -21.67,
+              "start": "2026-05-19",
+              "end": "2026-06-27",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-05-04",
+              "end": "2026-05-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "1-3",
@@ -2685,7 +6444,44 @@
           "end": "2026-08-05",
           "small_sample": true,
           "lane": "ATP",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -1.64,
+              "roi_pct": -54.55,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-15",
+              "end": "2026-08-05",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-06-28",
+              "end": "2026-06-28",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "2-2",
@@ -2702,7 +6498,27 @@
           "end": "2026-08-28",
           "small_sample": true,
           "lane": "WTA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 2,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -2.25,
+              "roi_pct": -39.06,
+              "roi_lcb95": -100.0,
+              "start": "2026-04-14",
+              "end": "2026-08-28",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "1-1",
@@ -2719,7 +6535,44 @@
           "end": "2026-08-30",
           "small_sample": true,
           "lane": "MLS",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-07-31",
+              "end": "2026-07-31",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.36,
+              "roi_pct": 90.91,
+              "roi_lcb95": null,
+              "start": "2026-08-30",
+              "end": "2026-08-30",
+              "small_sample": true,
+              "market": "TOTAL",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         },
         {
           "record": "0-1",
@@ -2736,7 +6589,27 @@
           "end": "2026-08-27",
           "small_sample": true,
           "lane": "NFL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-08-27",
+              "end": "2026-08-27",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "1-0",
@@ -2753,7 +6626,27 @@
           "end": "2026-04-14",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 0.86,
+              "roi_pct": 57.14,
+              "roi_lcb95": null,
+              "start": "2026-04-14",
+              "end": "2026-04-14",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 8,
@@ -2791,7 +6684,27 @@
           "end": "2026-08-05",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-9",
+              "wins": 1,
+              "losses": 9,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 10,
+              "pending": 0,
+              "net_units": -5.7,
+              "roi_pct": -58.46,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-22",
+              "end": "2026-08-05",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -2829,7 +6742,27 @@
           "end": "2026-08-17",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "3-3",
+              "wins": 3,
+              "losses": 3,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 6,
+              "pending": 0,
+              "net_units": -0.82,
+              "roi_pct": -9.66,
+              "roi_lcb95": -73.04,
+              "start": "2026-08-01",
+              "end": "2026-08-17",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -2867,7 +6800,44 @@
           "end": "2026-08-19",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 4,
+              "pending": 0,
+              "net_units": -0.77,
+              "roi_pct": -14.72,
+              "roi_lcb95": -100.0,
+              "start": "2026-07-16",
+              "end": "2026-08-19",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 1,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-07-26",
+              "end": "2026-07-30",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 1,
@@ -2905,7 +6875,27 @@
           "end": "2026-05-09",
           "small_sample": true,
           "lane": "NHL",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-2",
+              "wins": 1,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 3,
+              "pending": 0,
+              "net_units": -0.89,
+              "roi_pct": -23.64,
+              "roi_lcb95": -100.0,
+              "start": "2026-05-05",
+              "end": "2026-05-09",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         },
         {
           "record": "0-2",
@@ -2922,7 +6912,44 @@
           "end": "2026-06-10",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-05-05",
+              "end": "2026-05-05",
+              "small_sample": true,
+              "market": "PROP",
+              "ranked": false
+            },
+            {
+              "record": "0-1",
+              "wins": 0,
+              "losses": 1,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": -1.0,
+              "roi_pct": -100.0,
+              "roi_lcb95": null,
+              "start": "2026-06-10",
+              "end": "2026-06-10",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 2
         }
       ],
       "lane_count": 2,
@@ -2960,7 +6987,27 @@
           "end": "2026-08-25",
           "small_sample": true,
           "lane": "MLB",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "2-2",
+              "wins": 2,
+              "losses": 2,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 4,
+              "pending": 0,
+              "net_units": 1.65,
+              "roi_pct": 25.35,
+              "roi_lcb95": -100.0,
+              "start": "2026-08-07",
+              "end": "2026-08-25",
+              "small_sample": true,
+              "market": "ML",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,
@@ -2998,7 +7045,27 @@
           "end": "2026-05-04",
           "small_sample": true,
           "lane": "NBA",
-          "ranked": false
+          "ranked": false,
+          "markets": [
+            {
+              "record": "1-0",
+              "wins": 1,
+              "losses": 0,
+              "pushes": 0,
+              "voided": 0,
+              "settled": 1,
+              "pending": 0,
+              "net_units": 1.16,
+              "roi_pct": 92.59,
+              "roi_lcb95": null,
+              "start": "2026-05-04",
+              "end": "2026-05-04",
+              "small_sample": true,
+              "market": "SPREAD",
+              "ranked": false
+            }
+          ],
+          "market_count": 1
         }
       ],
       "lane_count": 1,

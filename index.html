@@ -466,6 +466,8 @@ section { padding: 80px 24px; }
 .lb-expand.is-open { background: var(--border); color: var(--text); }
 .lb-lane td { font-size: 12px; }
 .lb-lane-name { padding-left: 18px !important; color: var(--muted); }
+.lb-mkt td { font-size: 11.5px; }
+.lb-mkt-name { padding-left: 36px !important; color: var(--muted); opacity: .85; }
 .lb-note { color: var(--muted); font-size: 11.5px; margin-top: 12px; max-width: 620px; }
 .pos { color: #22c55e; } .neg { color: #ef4444; }
 @media (max-width: 640px) {
@@ -1884,14 +1886,35 @@ function renderPickerBoard(sets, todays, which) {
   // questions wearing one name: one picker here runs +75% in one lane and -30%
   // in another under a single +13.7% headline. The umbrella stays because it is
   // the right unit for IDENTITY; the lanes are the right unit for judging.
-  const laneLine = (l, key) => `<tr class="lb-lane ${l.ranked ? '' : 'lb-unranked'}" data-lane-of="${key}" hidden>` +
+  // Level three: the market family, which is where a promotion decision is
+  // actually made -- the documented dog edge is ML-only, and a lane that mixes
+  // ML with spreads cannot show it.
+  const mktLine = (m, lkey) => `<tr class="lb-mkt ${m.ranked ? '' : 'lb-unranked'}" data-mkt-of="${lkey}" hidden>` +
       `<td></td>` +
-      `<td class="lb-lane-name">${l.lane}</td>` +
+      `<td class="lb-mkt-name">${m.market}</td>` +
+      `<td>${m.record}</td>` +
+      `<td>${num(m.net_units, 2, 'u')}</td>` +
+      `<td>${num(m.roi_pct, 1, '%')}</td>` +
+      `<td>${num(m.roi_lcb95, 1, '%')}</td>` +
+      `<td>${m.settled}</td></tr>`;
+
+  const laneLine = (l, key) => {
+    const lkey = key + '-' + String(l.lane).replace(/[^a-z0-9]+/gi, '-');
+    const mkts = l.markets || [];
+    const toggle = mkts.length
+      ? `<button type="button" class="lb-expand" data-expand-mkt="${lkey}" ` +
+        `aria-expanded="false" title="${mkts.length} markets">+${mkts.length}</button>`
+      : '';
+    return `<tr class="lb-lane ${l.ranked ? '' : 'lb-unranked'}" data-lane-of="${key}" hidden>` +
+      `<td></td>` +
+      `<td class="lb-lane-name">${l.lane} ${toggle}</td>` +
       `<td>${l.record}</td>` +
       `<td>${num(l.net_units, 2, 'u')}</td>` +
       `<td>${num(l.roi_pct, 1, '%')}</td>` +
       `<td>${num(l.roi_lcb95, 1, '%')}</td>` +
-      `<td>${l.settled}</td></tr>`;
+      `<td>${l.settled}</td></tr>` +
+      mkts.map(m => mktLine(m, lkey)).join('');
+  };
 
   const line = r => {
     const you = r.picker === todays ? ' <span class="picker-today">today</span>' : '';
@@ -1928,6 +1951,27 @@ function renderPickerBoard(sets, todays, which) {
       btn.classList.toggle('is-open', !open);
       tbody.querySelectorAll(`[data-lane-of="${key}"]`)
            .forEach(row => { row.hidden = open; });
+      // Collapsing a picker must also collapse the markets under it, or they
+      // are left floating with no lane above them.
+      if (open) {
+        tbody.querySelectorAll(`[data-mkt-of^="${key}-"]`)
+             .forEach(row => { row.hidden = true; });
+        tbody.querySelectorAll(`[data-expand-mkt^="${key}-"]`).forEach(b => {
+          b.setAttribute('aria-expanded', 'false');
+          b.classList.remove('is-open');
+        });
+      }
+    });
+  });
+
+  tbody.querySelectorAll('.lb-expand[data-expand-mkt]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lkey = btn.getAttribute('data-expand-mkt');
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.classList.toggle('is-open', !open);
+      tbody.querySelectorAll(`[data-mkt-of="${lkey}"]`)
+           .forEach(row => { row.hidden = open; });
     });
   });
 
@@ -1940,7 +1984,9 @@ function renderPickerBoard(sets, todays, which) {
       'outrank a 200-pick season forever. A picker needs 30 settled picks ' +
       'before it is ranked at all. Expand a picker to see it by sport — most ' +
       'span eight or nine, and one number across all of them describes none of ' +
-      'them. Each lane clears the same 30-pick gate on its own.';
+      'them. Expand a lane again for the market families inside it — that is ' +
+      'where an edge is usually specific. Every level clears the same 30-pick ' +
+      'gate on its own sample.';
   }
 }
 
