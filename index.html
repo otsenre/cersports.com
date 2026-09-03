@@ -1108,7 +1108,7 @@ footer {
       </div>
     </div>
 
-    <!-- THE COMMITTEE (codenamed roster — rendered from pickers.json) -->
+    <!-- THE COMMITTEE (persona roster — rendered from pickers.json) -->
     <div class="committee">
       <div class="committee-label">The Committee · independent pickers, one card</div>
       <div class="committee-grid" id="committeeGrid"></div>
@@ -1775,16 +1775,17 @@ document.getElementById('manualModal').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 
-// ── The Committee (codenamed roster from pickers.json) ───────────────────────
+// ── The Committee (persona roster from pickers.json) ────────────────────────
 //
 // Each chip carries that picker's record ON THE FREE PICK PRODUCT, published by
 // brand/gauge.free_picks_by_picker() and rendered verbatim. The page never
 // computes a record. A picker with nothing settled shows its name only —
 // absent beats stale, and "0-0" reads as break-even rather than as no data.
 //
-// The roster is codenames. The mapping to the real model behind each name is
-// private and never ships: a client should not be blaming a vendor because a
-// Rockies game landed on 11 when the card said over 11.5.
+// Every picker has a legal name and a persona. The roster is personas; the
+// mapping to the model behind one is private and never ships. A client should
+// not be blaming a vendor because a Rockies game landed on 11 when the card
+// said over 11.5 — the pick is ours, and so is the miss.
 async function loadCommittee() {
   const grid = document.getElementById('committeeGrid');
   if (!grid) return;

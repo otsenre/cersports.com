@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-03T20:47:11+00:00",
+  "generated_utc": "2026-09-03T20:56:10+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -127,7 +127,7 @@
         "pick": "Maria Sakkari ML",
         "result": ""
       },
-      "todays_picker": "Mr. Pink"
+      "todays_picker": "The Dealer"
     },
     "paid": {
       "todays_pick": null,
@@ -562,7 +562,7 @@
   },
   "free_pick_pickers": [
     {
-      "picker": "Mr. Brown",
+      "picker": "The Closer",
       "record": "105-97",
       "wins": 105,
       "losses": 97,
@@ -592,7 +592,7 @@
       "small_sample": false
     },
     {
-      "picker": "Mr. Pink",
+      "picker": "The Dealer",
       "record": "67-58-3P",
       "wins": 67,
       "losses": 58,
@@ -607,7 +607,7 @@
       "small_sample": false
     },
     {
-      "picker": "Mr. Orange",
+      "picker": "The Shark",
       "record": "52-46",
       "wins": 52,
       "losses": 46,
@@ -622,7 +622,7 @@
       "small_sample": false
     },
     {
-      "picker": "Mr. Blue",
+      "picker": "The Rounder",
       "record": "33-34-1P",
       "wins": 33,
       "losses": 34,
@@ -667,7 +667,7 @@
       "small_sample": false
     },
     {
-      "picker": "Mr. White",
+      "picker": "The Counter",
       "record": "16-9",
       "wins": 16,
       "losses": 9,
@@ -712,7 +712,7 @@
       "small_sample": true
     },
     {
-      "picker": "Mr. Green",
+      "picker": "The Grinder",
       "record": "1-4",
       "wins": 1,
       "losses": 4,
