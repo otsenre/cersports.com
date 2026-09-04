@@ -1,58 +1,58 @@
 {
-  "day": "2026-09-03",
-  "deadline_utc": "2026-09-03T21:15:00+00:00",
+  "day": "2026-09-04",
+  "deadline_utc": "2026-09-04T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-03T23:15:00+00:00",
+  "earliest_start_utc": "2026-09-05T00:10:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 23,
+        "wins": 24,
         "losses": 16,
         "pushes": 0,
-        "current": 1,
+        "current": 2,
         "longest": 4,
         "alive": true,
-        "pl_units": -0.04,
-        "pl_priced": 34,
-        "pl_settled": 39,
-        "pl_flat_units": -1.42,
+        "pl_units": 0.76,
+        "pl_priced": 35,
+        "pl_settled": 40,
+        "pl_flat_units": -0.62,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "1 up, building again",
-      "pick": null
+      "note": "2 up, building again",
+      "pick": {
+        "pick": "Over 10",
+        "game": "Toronto Blue Jays @ Kansas City Royals",
+        "sport": "MLB",
+        "odds": -105,
+        "units": 1,
+        "start_utc": "2026-09-05T00:10:00+00:00"
+      }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
         "wins": 20,
-        "losses": 17,
+        "losses": 18,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 1.24,
-        "pl_priced": 38,
-        "pl_settled": 38,
-        "pl_flat_units": 0.17,
+        "pl_units": -0.76,
+        "pl_priced": 39,
+        "pl_settled": 39,
+        "pl_flat_units": -0.83,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Baltimore Orioles ML",
-        "game": "Boston Red Sox @ Baltimore Orioles",
-        "sport": "MLB",
-        "odds": 106,
-        "units": 1,
-        "start_utc": "2026-09-03T23:15:00+00:00"
-      }
+      "pick": null
     }
   ]
 }
