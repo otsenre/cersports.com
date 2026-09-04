@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:57:05.795229+00:00",
+  "generated_at": "2026-09-04T03:42:42.738871+00:00",
   "run_date": "2026-09-03",
   "as_of": "2026-09-02",
   "anchor": "2026-03-20",
@@ -7302,7 +7302,7 @@
       "WTA"
     ]
   },
-  "pickers_contributing": 13,
+  "pickers_contributing": 14,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-03T07:46:44-07:00"
   },
@@ -7322,11 +7322,11 @@
     "contract": 1,
     "date": "2026-09-03",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:01 AM PT \u00b7 4 picks, MLB + WTA \u00b7 2 of 4 games started \u00b7 next 7:10 PM PT",
+    "line": "Paid card shipped 8:01 AM PT \u00b7 4 picks, MLB + WTA \u00b7 all 4 games started",
     "parts": [
       "Paid card shipped 8:01 AM PT",
       "4 picks, MLB + WTA",
-      "2 of 4 games started \u00b7 next 7:10 PM PT"
+      "all 4 games started"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7342,6 +7342,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-03",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "11:10 AM PT",
-    "updated_pt": "2:57 PM PT"
+    "updated_pt": "8:42 PM PT"
   }
 }
