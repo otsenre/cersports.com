@@ -1,39 +1,50 @@
 {
-  "generated_at": "2026-09-04T03:42:25.945711+00:00",
-  "iso_date": "2026-08-07",
-  "display_date": "Fri \u00b7 Aug 7, 2026",
+  "generated_at": "2026-09-04T15:19:46.176662+00:00",
+  "iso_date": "2026-08-12",
+  "display_date": "Wed \u00b7 Aug 12, 2026",
   "summary": {
-    "wins": 2,
-    "losses": 0,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 2,
+    "total_picks": 3,
     "units_staked": 2.75,
-    "units_pl": 3.06,
-    "roi_pct": 111.11
+    "units_pl": -1.4,
+    "roi_pct": -51.08
   },
   "picks": [
     {
       "sport": "MLB",
-      "game": "New York Mets @ Pittsburgh Pirates",
-      "pick": "New York Mets ML",
-      "bet_type": "ML",
-      "odds": "122.0",
+      "game": "Tampa Bay Rays @ Athletics",
+      "pick": "Tampa Bay Rays -1.5",
+      "bet_type": "ATS",
+      "odds": "-126.0",
       "result": "W",
-      "units": 1.5,
-      "profit_units": 1.83,
-      "hash_id": "d301eb29a848e42a8d0136e75ea47d09ecbbeaf588aab885397db72a385afb8c"
+      "units": 0.75,
+      "profit_units": 0.5952,
+      "hash_id": "6c4c5902a267d5645ae0a7c6bf5c5691b3cf0b98e1e445b4a7f0620fac85907c"
     },
     {
       "sport": "MLB",
-      "game": "Chicago Cubs @ Kansas City Royals",
-      "pick": "Chicago Cubs -1.5",
+      "game": "Philadelphia Phillies @ St. Louis Cardinals",
+      "pick": "Philadelphia Phillies ML",
+      "bet_type": "ML",
+      "odds": "-156.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "ff89cef8c9c482efed4987ab9a8451aa60e226e159744dc7be36f5ce36846f73"
+    },
+    {
+      "sport": "MLB",
+      "game": "Texas Rangers @ Los Angeles Angels",
+      "pick": "Texas Rangers -1.5",
       "bet_type": "ATS",
-      "odds": "-102.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.2255,
-      "hash_id": "023df462b386657c4051764bd9c277d75b6af91441c32244a5859064ea3e99a1"
+      "odds": "125.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "596fb9accec796625ddf7e4bee76211e9a96ad2122c4aabfafd4b611e648dd43"
     }
   ]
 }
