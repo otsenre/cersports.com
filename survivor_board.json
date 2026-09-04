@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-04T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
   "earliest_start_utc": "2026-09-05T00:10:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -52,7 +52,14 @@
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Washington Nationals ML",
+        "game": "Washington Nationals @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": 237,
+        "units": 1,
+        "start_utc": "2026-09-05T02:11:00+00:00"
+      }
     }
   ]
 }
