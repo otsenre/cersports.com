@@ -1046,82 +1046,67 @@ footer {
 
     <div class="pricing-grid">
 
-      <!-- DAY PASS -->
       <div class="price-card">
-        <div class="price-tier">Day Pass</div>
-        <div class="price-amount">$2<span style="font-size:28px">.99</span></div>
+        <div class="price-tier">48-Hour Pass</div>
+        <div class="price-amount">$5</div>
         <div class="price-period">one-time</div>
-        <div class="price-daily">$2.99 / day</div>
+        <div class="price-daily">$2.50 / day</div>
         <div class="price-divider"></div>
         <div class="price-features">
-          <div class="price-feature highlight">Full daily card — every pick we post</div>
-          <div class="price-feature highlight">All sports: NBA · NHL · MLB · MLS · Tennis</div>
+          <div class="price-feature highlight">The full daily card — every pick, ATP · EPL · MLB · MLS · NCAAF · NFL · NHL · WNBA · WTA</div>
           <div class="price-feature highlight">CCR rating + live odds on every pick</div>
-          <div class="price-feature highlight">Bonus props lineup PDFs when available</div>
-          <div class="price-feature highlight">Delivered to your inbox each morning</div>
-          <div class="price-feature">One-time · 1 day access</div>
+          <div class="price-feature highlight">Two complete sessions — buy any time of day</div>
+          <div class="price-feature highlight">Delivered to your inbox</div>
+          <div class="price-feature">One-time · 48 hours access</div>
         </div>
-        <a href="#" class="price-btn price-btn-default" onclick="checkout('day');return false;">Buy Day Pass</a>
-        <div class="price-fulfillment">Instant access · expires after 24 hrs</div>
+        <a href="#" class="price-btn price-btn-default" onclick="checkout('day');return false;">Buy 48-Hour Pass</a>
+        <div class="price-fulfillment">Instant access · 48 hours</div>
       </div>
-
-      <!-- WEEK PASS -->
       <div class="price-card">
         <div class="price-tier">Week Pass</div>
-        <div class="price-amount">$9<span style="font-size:28px">.99</span></div>
+        <div class="price-amount">$19</div>
         <div class="price-period">7 days</div>
-        <div class="price-daily">$1.43 / day · save 52%</div>
+        <div class="price-daily">$2.71 / day · save -9%</div>
         <div class="price-divider"></div>
         <div class="price-features">
-          <div class="price-feature highlight">Full daily card — every pick we post</div>
-          <div class="price-feature highlight">All sports: NBA · NHL · MLB · MLS · Tennis</div>
-          <div class="price-feature highlight">CCR rating + live odds on every pick</div>
+          <div class="price-feature highlight">Everything in the 48-Hour Pass</div>
+          <div class="price-feature highlight"><strong>Telegram delivery</strong> — /card and /props in the private channel</div>
           <div class="price-feature highlight">Bonus props lineup PDFs when available</div>
-          <div class="price-feature highlight">Delivered to your inbox each morning</div>
           <div class="price-feature">One-time · 7 days access</div>
         </div>
         <a href="#" class="price-btn price-btn-default" onclick="checkout('week');return false;">Buy Week Pass</a>
-        <div class="price-fulfillment">Instant access · expires after 7 days</div>
+        <div class="price-fulfillment">Instant access · 7 days</div>
       </div>
-
-      <!-- MONTHLY -->
       <div class="price-card featured">
         <div class="price-tier">Monthly</div>
-        <div class="price-amount">$24<span style="font-size:28px">.99</span></div>
+        <div class="price-amount">$49</div>
         <div class="price-period">per month · auto-renews</div>
-        <div class="price-daily">$0.83 / day · save 72%</div>
+        <div class="price-daily">$1.63 / day · save 35%</div>
         <div class="price-divider"></div>
         <div class="price-features">
-          <div class="price-feature highlight">Full daily card — every pick we post</div>
-          <div class="price-feature highlight">All sports: NBA · NHL · MLB · MLS · Tennis</div>
-          <div class="price-feature highlight">CCR rating + live odds on every pick</div>
-          <div class="price-feature highlight">Bonus props lineup PDFs when available</div>
-          <div class="price-feature highlight">Delivered to your inbox each morning</div>
+          <div class="price-feature highlight">Everything in the Week Pass</div>
+          <div class="price-feature highlight">Continuous access — never a gap between cards</div>
+          <div class="price-feature highlight">On-demand tools: /analyze and /ppme</div>
           <div class="price-feature">Auto-renews monthly · cancel anytime</div>
         </div>
         <a href="#" class="price-btn price-btn-featured" onclick="checkout('monthly');return false;">Subscribe Monthly</a>
         <div class="price-fulfillment">Instant access · cancel anytime</div>
       </div>
-
-      <!-- ANNUAL -->
       <div class="price-card">
-        <div class="price-tier">Annual</div>
-        <div class="price-amount">$149<span style="font-size:22px">.99</span></div>
-        <div class="price-period">per year · best value</div>
-        <div class="price-daily">$0.41 / day · save 86%</div>
+        <div class="price-tier">Annual <span class="dev-badge">best value</span></div>
+        <div class="price-amount">$349</div>
+        <div class="price-period">per year</div>
+        <div class="price-daily">$0.96 / day · save 62%</div>
         <div class="price-divider"></div>
         <div class="price-features">
-          <div class="price-feature highlight">Full daily card — every pick we post</div>
-          <div class="price-feature highlight">All sports: NBA · NHL · MLB · MLS · Tennis</div>
-          <div class="price-feature highlight">CCR rating + live odds on every pick</div>
-          <div class="price-feature highlight">Bonus props lineup PDFs when available</div>
-          <div class="price-feature highlight">Delivered to your inbox each morning</div>
+          <div class="price-feature highlight">Everything in Monthly, locked for the year</div>
+          <div class="price-feature highlight">Every product we publish to subscribers</div>
+          <div class="price-feature highlight">Founder access to anything we build next</div>
           <div class="price-feature">Auto-renews yearly · cancel anytime</div>
         </div>
         <a href="#" class="price-btn price-btn-default" onclick="checkout('annual');return false;">Subscribe Annual</a>
         <div class="price-fulfillment">Instant access · best value</div>
       </div>
-
     </div>
   </div>
 </section>
@@ -1586,17 +1571,17 @@ const STRIPE_PK = 'pk_live_vr5kStRpnl19OqbbkptZjldh';
 // Dashboard → Payment Links → + New → select product → copy link
 // Replace the placeholder URLs below with your actual payment links
 const PAYMENT_LINKS = {
-  day:     'https://buy.stripe.com/7sY00k7DG7uT3i53DObZe00',     // $2.99 day pass
-  week:    'https://buy.stripe.com/8x214obTWeXlg4R6Q0bZe03',    // $9.99 week pass
-  monthly: 'https://buy.stripe.com/eVq4gA3nq2az7yleisbZe02', // $24.99/mo subscription
-  annual:  'https://buy.stripe.com/5kQ3cw5vy5mLcSF3DObZe01',  // $149.99/yr subscription
+  day:     'https://buy.stripe.com/cNi14o4ru2azbOB5LWbZe04',   // $5 48-hour pass
+  week:    'https://buy.stripe.com/eVqfZi4rubL9g4RfmwbZe05',   // $19 week pass
+  monthly: 'https://buy.stripe.com/8x28wQ6zCbL9cSF5LWbZe06',   // $49/mo subscription
+  annual:  'https://buy.stripe.com/14A3cwf684iH4m92zKbZe07',   // $349/yr subscription
 };
 
 const TIER_INFO = {
-  day:     { title: 'DAY PASS — $2.99',     sub: 'Full report delivered to your email within 15 minutes of payment.' },
-  week:    { title: 'WEEK PASS — $9.99',    sub: '7 days of full reports delivered to your email. Access begins immediately.' },
-  monthly: { title: 'MONTHLY — $24.99/mo',  sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
-  annual:  { title: 'ANNUAL — $149.99/yr',  sub: 'Best value. Instant recurring access. Cancel anytime.' },
+  day:     { title: '48-HOUR PASS — $5',   sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
+  week:    { title: 'WEEK PASS — $19',     sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
+  monthly: { title: 'MONTHLY — $49/mo',    sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
+  annual:  { title: 'ANNUAL — $349/yr',    sub: 'Everything, locked for the year. Instant access. Cancel anytime.' },
 };
 
 // ── PICKS DATA ───────────────────────────────────────────────────────────────
