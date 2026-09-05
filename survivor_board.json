@@ -1,36 +1,36 @@
 {
-  "day": "2026-09-04",
-  "deadline_utc": "2026-09-04T22:10:00+00:00",
+  "day": "2026-09-05",
+  "deadline_utc": "2026-09-05T20:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-05T00:10:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-05T22:41:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 24,
+        "wins": 25,
         "losses": 16,
         "pushes": 0,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": 0.76,
-        "pl_priced": 35,
-        "pl_settled": 40,
-        "pl_flat_units": -0.62,
+        "pl_units": 1.71,
+        "pl_priced": 36,
+        "pl_settled": 41,
+        "pl_flat_units": 0.33,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
-        "pick": "Over 10",
-        "game": "Toronto Blue Jays @ Kansas City Royals",
+        "pick": "Milwaukee Brewers ML",
+        "game": "Milwaukee Brewers @ Cincinnati Reds",
         "sport": "MLB",
-        "odds": -105,
+        "odds": -155,
         "units": 1,
-        "start_utc": "2026-09-05T00:10:00+00:00"
+        "start_utc": "2026-09-05T22:41:00+00:00"
       }
     },
     {
@@ -38,28 +38,21 @@
       "source": "human:reaper",
       "record": {
         "wins": 20,
-        "losses": 18,
+        "losses": 19,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": -0.76,
-        "pl_priced": 39,
-        "pl_settled": 39,
-        "pl_flat_units": -0.83,
+        "pl_units": -3.76,
+        "pl_priced": 40,
+        "pl_settled": 40,
+        "pl_flat_units": -1.83,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 3.0,
+        "loss_run": 3
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Washington Nationals ML",
-        "game": "Washington Nationals @ Los Angeles Dodgers",
-        "sport": "MLB",
-        "odds": 237,
-        "units": 1,
-        "start_utc": "2026-09-05T02:11:00+00:00"
-      }
+      "pick": null
     }
   ]
 }
