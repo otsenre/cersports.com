@@ -20,6 +20,26 @@
     "hash_id": "1be0fac9574f3114d6c52aff3bc5ed21284c89f0a65bc43ff73914d71ae0556a"
   },
   {
+    "date": "2026-09-05",
+    "source_sport": "MLS",
+    "game": "Sporting Kansas City @ FC Dallas",
+    "pick": "FC Dallas ML",
+    "pick_display": "FC Dallas ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -235.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "096631bcc7696020f0e037a7f852a6fb2d23a79c66a833a15f51826c24e44587"
+  },
+  {
     "date": "2026-09-04",
     "source_sport": "ATP",
     "game": "Carlos Alcaraz vs Wu Yibing",
