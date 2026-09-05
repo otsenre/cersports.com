@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-05",
+    "sport": "BEST",
+    "source_sport": "MLB",
+    "game": "Detroit Tigers @ Cleveland Guardians",
+    "pick": "Cleveland Guardians ML",
+    "bet_type": "ML",
+    "line": -152.0,
+    "pick_display": "Cleveland Guardians ML",
+    "edge": 0,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "1be0fac9574f3114d6c52aff3bc5ed21284c89f0a65bc43ff73914d71ae0556a"
+  },
+  {
     "date": "2026-09-04",
     "source_sport": "ATP",
     "game": "Carlos Alcaraz vs Wu Yibing",
