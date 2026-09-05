@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:02:07.882125+00:00",
+  "generated_at": "2026-09-05T20:19:27.889285+00:00",
   "run_date": "2026-09-05",
   "as_of": "2026-09-04",
   "anchor": "2026-03-20",
@@ -173,9 +173,9 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 118,
-        "beat": 55,
-        "beat_rate": 0.4661,
+        "n": 120,
+        "beat": 57,
+        "beat_rate": 0.475,
         "avg_clv": 0.0136,
         "since": null,
         "true_closes_from": "2026-06-17",
@@ -187,10 +187,10 @@
             "avg_clv": -0.0022
           },
           "ML": {
-            "n": 40,
-            "beat": 24,
-            "beat_rate": 0.6,
-            "avg_clv": 0.0063
+            "n": 42,
+            "beat": 26,
+            "beat_rate": 0.619,
+            "avg_clv": 0.0067
           },
           "TOTAL": {
             "n": 11,
@@ -201,15 +201,15 @@
         },
         "rolling": {
           "n": 30,
-          "beat": 23,
-          "beat_rate": 0.7667,
-          "avg_clv": 0.0111,
+          "beat": 24,
+          "beat_rate": 0.8,
+          "avg_clv": 0.0122,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-02",
-        "generated_utc": "2026-09-04T15:21:40+00:00"
+        "last": "2026-09-05",
+        "generated_utc": "2026-09-05T20:03:36+00:00"
       }
     },
     "paid": {
@@ -7437,6 +7437,7 @@
   },
   "paid_card_delivery": {
     "state": "live",
+    "delivered_at_pt": "1:18 PM PT",
     "first_leg_time": "1:30 PM PT",
     "first_leg_utc": "2026-09-05T20:30:00+00:00",
     "leg_times_utc": [
@@ -7452,9 +7453,9 @@
     "contract": 1,
     "date": "2026-09-05",
     "stage": "card_shipped",
-    "line": "Paid card shipped \u00b7 6 picks, ATP + MLB + MLS \u00b7 first leg fires 1:30 PM PT",
+    "line": "Paid card shipped 1:18 PM PT \u00b7 6 picks, ATP + MLB + MLS \u00b7 first leg fires 1:30 PM PT",
     "parts": [
-      "Paid card shipped",
+      "Paid card shipped 1:18 PM PT",
       "6 picks, ATP + MLB + MLS",
       "first leg fires 1:30 PM PT"
     ],
@@ -7470,8 +7471,8 @@
     "free_pick_live": true,
     "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-05",
-    "paid_card_session_state": "REVIEW",
+    "paid_card_session_state": "RELEASED",
     "first_leg_time": "1:30 PM PT",
-    "updated_pt": "1:02 PM PT"
+    "updated_pt": "1:19 PM PT"
   }
 }
