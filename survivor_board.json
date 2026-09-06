@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-06T17:26:35+00:00",
   "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
   "earliest_start_utc": "2026-09-06T17:41:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -52,7 +52,14 @@
         "loss_run": 4
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Dodgers -1.5",
+        "game": "Washington Nationals @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": 105,
+        "units": 1,
+        "start_utc": "2026-09-07T02:11:00+00:00"
+      }
     }
   ]
 }
