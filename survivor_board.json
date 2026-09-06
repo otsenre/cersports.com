@@ -1,8 +1,8 @@
 {
-  "day": "2026-09-05",
-  "deadline_utc": "2026-09-05T20:41:00+00:00",
-  "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-05T22:41:00+00:00",
+  "day": "2026-09-06",
+  "deadline_utc": "2026-09-06T17:26:35+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-09-06T17:41:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -10,27 +10,27 @@
       "source": "human:shark",
       "record": {
         "wins": 25,
-        "losses": 16,
+        "losses": 17,
         "pushes": 0,
-        "current": 3,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 1.71,
-        "pl_priced": 36,
-        "pl_settled": 41,
-        "pl_flat_units": 0.33,
+        "alive": false,
+        "pl_units": 0.71,
+        "pl_priced": 37,
+        "pl_settled": 42,
+        "pl_flat_units": -0.67,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "3 straight, best is 4",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Milwaukee Brewers ML",
-        "game": "Milwaukee Brewers @ Cincinnati Reds",
+        "pick": "Chicago Cubs ML",
+        "game": "Chicago Cubs @ Miami Marlins",
         "sport": "MLB",
-        "odds": -155,
+        "odds": -146,
         "units": 1,
-        "start_utc": "2026-09-05T22:41:00+00:00"
+        "start_utc": "2026-09-06T17:41:00+00:00"
       }
     },
     {
@@ -38,18 +38,18 @@
       "source": "human:reaper",
       "record": {
         "wins": 20,
-        "losses": 19,
+        "losses": 20,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": -3.76,
-        "pl_priced": 40,
-        "pl_settled": 40,
-        "pl_flat_units": -1.83,
+        "pl_units": -7.76,
+        "pl_priced": 41,
+        "pl_settled": 41,
+        "pl_flat_units": -2.83,
         "next_wager_from_base": null,
-        "ramp_units": 3.0,
-        "loss_run": 3
+        "ramp_units": 4.0,
+        "loss_run": 4
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": null
