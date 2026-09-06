@@ -1,72 +1,61 @@
 {
-  "generated_at": "2026-09-05T20:01:49.235746+00:00",
-  "iso_date": "2026-08-25",
-  "display_date": "Tue \u00b7 Aug 25, 2026",
+  "generated_at": "2026-09-06T14:51:22.713304+00:00",
+  "iso_date": "2026-08-10",
+  "display_date": "Mon \u00b7 Aug 10, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 3,
-    "voids": 1,
+    "wins": 2,
+    "losses": 2,
+    "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 4.75,
-    "units_pl": -2.7,
-    "roi_pct": -56.92
+    "total_picks": 4,
+    "units_staked": 6.0,
+    "units_pl": -1.61,
+    "roi_pct": -26.9
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Maya Joint vs Panna Udvardy",
-      "pick": "Maya Joint -4.5 Games",
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Atlanta Dream",
+      "pick": "Atlanta Dream -14.5",
       "bet_type": "ATS",
-      "odds": "-103.0",
+      "odds": "-115.0",
       "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "c5363581516b00d402efd8682ceea74e133dfe1032c6becb9e7d3a79f6066f47"
-    },
-    {
-      "sport": "WTA",
-      "game": "Diane Parry vs Oleksandra Oliynykova",
-      "pick": "Under 20.5 Games",
-      "bet_type": "Total Games",
-      "odds": "-105.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "ca2b8036735acb883b9c348aaf15d9c7d5e9d858171f735f680e3218c6b31650"
-    },
-    {
-      "sport": "MLB",
-      "game": "Boston Red Sox @ Miami Marlins",
-      "pick": "Boston Red Sox ML",
-      "bet_type": "ML",
-      "odds": "-157.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.7962,
-      "hash_id": "08c5d6e9955a7e6550f4a5c560e5189eba3e3c421b481b6b7e7d260e81b946de"
-    },
-    {
-      "sport": "WTA",
-      "game": "Anastasia Potapova vs Nikola Bartunkova",
-      "pick": "Anastasia Potapova ML",
-      "bet_type": "ML",
-      "odds": "151.0",
-      "result": "V",
-      "units": 1.5,
-      "profit_units": 0.0,
-      "hash_id": "755920ce98c08c1d78ff698173e2179ca80e2aa993c1d4bd68c5a6640430c815"
+      "units": 2.0,
+      "profit_units": -2.0,
+      "hash_id": "964d7d2267025e431eb6fb2c89e2ff36c3b345f220c9599e14a26aa0ef35d7ec"
     },
     {
       "sport": "WNBA",
-      "game": "Chicago Sky @ Connecticut Sun",
-      "pick": "Chicago Sky -5.5",
+      "game": "Chicago Sky @ Seattle Storm",
+      "pick": "Chicago Sky -1.5",
       "bet_type": "ATS",
-      "odds": "-113.0",
+      "odds": "-104.0",
       "result": "L",
+      "units": 1.75,
+      "profit_units": -1.75,
+      "hash_id": "b3d97048fad61916fe58814f37e8e4c38bf73ce84781b9febbab27bba58a942c"
+    },
+    {
+      "sport": "MLB",
+      "game": "Texas Rangers @ Los Angeles Angels",
+      "pick": "Texas Rangers ML",
+      "bet_type": "ML",
+      "odds": "-112.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 1.1161,
+      "hash_id": "c129ea948e68d928815de0a02874606ba8cac95b2fa735191069b24e75ea190c"
+    },
+    {
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ Athletics",
+      "pick": "Tampa Bay Rays -1.5",
+      "bet_type": "ATS",
+      "odds": "102.0",
+      "result": "W",
       "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "1d3ecb543451cfc26e615cb5b59cb7e712a5f573e3f2ffbdb3635e9ff3fdbd59"
+      "profit_units": 1.02,
+      "hash_id": "a0cb8bc8b7f08a2d5c6dbd113bc9d153a18726c6b6d7be45353a141a7586a5f1"
     }
   ]
 }
