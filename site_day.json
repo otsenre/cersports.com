@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:49:23.391136+00:00",
+  "generated_at": "2026-09-07T15:24:35.896423+00:00",
   "run_date": "2026-09-07",
   "as_of": "2026-09-06",
   "anchor": "2026-03-20",
@@ -206,7 +206,7 @@
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-09-05",
-        "generated_utc": "2026-09-06T14:55:13+00:00"
+        "generated_utc": "2026-09-07T14:50:38+00:00"
       }
     },
     "paid": {
@@ -7470,15 +7470,27 @@
     "free_pick_site_published_at_utc": "2026-09-07T07:47:41-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:23 AM PT",
+    "first_leg_time": "1:00 PM PT",
+    "first_leg_utc": "2026-09-07T20:00:00+00:00",
+    "leg_times_utc": [
+      "2026-09-07T20:00:00+00:00",
+      "2026-09-07T21:11:00+00:00",
+      "2026-09-07T23:00:00+00:00",
+      "2026-09-08T00:10:00+00:00",
+      "2026-09-08T02:06:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-07",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review.",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:23 AM PT \u00b7 5 picks, ATP + MLB + WTA \u00b7 first leg fires 1:00 PM PT",
     "parts": [
-      "Today's Paid Card is in review."
+      "Paid card shipped 8:23 AM PT",
+      "5 picks, ATP + MLB + WTA",
+      "first leg fires 1:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7490,10 +7502,10 @@
       "basis": "p90 of 32 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-07",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:49 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "1:00 PM PT",
+    "updated_pt": "8:24 AM PT"
   }
 }
