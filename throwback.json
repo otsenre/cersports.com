@@ -1,61 +1,83 @@
 {
-  "generated_at": "2026-09-06T14:51:22.713304+00:00",
-  "iso_date": "2026-08-10",
-  "display_date": "Mon \u00b7 Aug 10, 2026",
+  "generated_at": "2026-09-07T14:48:54.135101+00:00",
+  "iso_date": "2026-08-24",
+  "display_date": "Mon \u00b7 Aug 24, 2026",
   "summary": {
     "wins": 2,
-    "losses": 2,
+    "losses": 4,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 4,
-    "units_staked": 6.0,
-    "units_pl": -1.61,
-    "roi_pct": -26.9
+    "total_picks": 6,
+    "units_staked": 8.75,
+    "units_pl": -4.02,
+    "roi_pct": -45.96
   },
   "picks": [
     {
+      "sport": "WTA",
+      "game": "Petra Marcinko vs Alycia Parks",
+      "pick": "Petra Marcinko ML",
+      "bet_type": "ML",
+      "odds": "-125.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "25b6946b41d360c9ebe09a651238caf66dca35292369be7c3130627342a2e7ac"
+    },
+    {
       "sport": "WNBA",
-      "game": "Toronto Tempo @ Atlanta Dream",
-      "pick": "Atlanta Dream -14.5",
+      "game": "Golden State Valkyries @ Minnesota Lynx",
+      "pick": "Minnesota Lynx -5.5",
       "bet_type": "ATS",
-      "odds": "-115.0",
+      "odds": "-105.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "6230a736f3856e5718bf4674f102d4677d40e9f0369758392037da080b48476f"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Atlanta Dream @ Los Angeles Sparks",
+      "pick": "Atlanta Dream -9.5",
+      "bet_type": "ATS",
+      "odds": "-114.0",
       "result": "L",
       "units": 2.0,
       "profit_units": -2.0,
-      "hash_id": "964d7d2267025e431eb6fb2c89e2ff36c3b345f220c9599e14a26aa0ef35d7ec"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Chicago Sky @ Seattle Storm",
-      "pick": "Chicago Sky -1.5",
-      "bet_type": "ATS",
-      "odds": "-104.0",
-      "result": "L",
-      "units": 1.75,
-      "profit_units": -1.75,
-      "hash_id": "b3d97048fad61916fe58814f37e8e4c38bf73ce84781b9febbab27bba58a942c"
+      "hash_id": "c5aadd801f4db1e2b2057762a18061286012d1d92159bf7ab2ab941354eceac1"
     },
     {
       "sport": "MLB",
-      "game": "Texas Rangers @ Los Angeles Angels",
-      "pick": "Texas Rangers ML",
+      "game": "Cleveland Guardians @ Los Angeles Angels",
+      "pick": "Cleveland Guardians ML",
       "bet_type": "ML",
-      "odds": "-112.0",
+      "odds": "-155.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 1.1161,
-      "hash_id": "c129ea948e68d928815de0a02874606ba8cac95b2fa735191069b24e75ea190c"
+      "profit_units": 0.8065,
+      "hash_id": "686d0d39c3856e88d40508ae6b1a5ed762e5697c75d5efb3a0dff24f9f707fbc"
+    },
+    {
+      "sport": "WTA",
+      "game": "Dayana Yastremska vs Janice Tjen",
+      "pick": "Janice Tjen -2.5 Games",
+      "bet_type": "ATS",
+      "odds": "-124.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "5a7905974c0155ca33ff790bef0a3bce105a92f6fe7f528e77246937527538aa"
     },
     {
       "sport": "MLB",
-      "game": "Tampa Bay Rays @ Athletics",
-      "pick": "Tampa Bay Rays -1.5",
-      "bet_type": "ATS",
-      "odds": "102.0",
+      "game": "Tampa Bay Rays @ Detroit Tigers",
+      "pick": "Tampa Bay Rays ML",
+      "bet_type": "ML",
+      "odds": "-128.0",
       "result": "W",
-      "units": 1.0,
-      "profit_units": 1.02,
-      "hash_id": "a0cb8bc8b7f08a2d5c6dbd113bc9d153a18726c6b6d7be45353a141a7586a5f1"
+      "units": 1.5,
+      "profit_units": 1.1719,
+      "hash_id": "51f036b5707850bcc4d69c14ede36788e88bf25dc94673c1f0ca6cb6f6f43819"
     }
   ]
 }
