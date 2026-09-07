@@ -1,9 +1,9 @@
 {
   "day": "2026-09-07",
-  "deadline_utc": "2026-09-08T00:06:00+00:00",
+  "deadline_utc": "2026-09-07T23:11:00+00:00",
   "deadline_reason": "120 minutes before the earliest survivor game",
-  "earliest_start_utc": "2026-09-08T02:06:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-09-08T01:11:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -24,7 +24,14 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Dodgers -1.5",
+        "game": "Cincinnati Reds @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": 128,
+        "units": 1,
+        "start_utc": "2026-09-08T01:11:00+00:00"
+      }
     },
     {
       "name": "Shark",
