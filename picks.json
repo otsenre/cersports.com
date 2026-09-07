@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-07",
+    "source_sport": "ATP",
+    "game": "Alexander Zverev vs Luciano Darderi",
+    "pick": "Under 33.5 Games",
+    "pick_display": "Under 33.5 Games",
+    "bet_type": "Total Games",
+    "line": null,
+    "price": -120.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "82feba0fac0e51ef0c0bc672c78737b0903945f2d1a3191ce44c393481e1ee11"
+  },
+  {
     "date": "2026-09-06",
     "source_sport": "WTA",
     "game": "Jessica Pegula vs Sorana Cirstea",
