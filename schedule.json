@@ -17,7 +17,7 @@
     "",
     "2026-08-09 — THE FIXED PROMISE IS WITHDRAWN. Node 0: the 7:50/8:05 times were arbitrary, chosen months ago for an NBA-only product and kept because they had been promised and imposed discipline on manual work. Delivery is READY-BASED now: the free pick ships when the data is in, timed to leave the customer room to act. Measured fires were 08:08 PT (08-07) and 09:52 PT (08-08) - nearly two hours apart - so 7:50 was a claim we already knew we missed daily. Widened to 'by 10:00 AM PT' per this file's own rule, and the wording changed from 'posts at' to 'posts by'. NEXT STEP (task site-timing-promise-is-stale): replace the static window entirely with the ACTUAL delivery time once fired plus a dynamic estimate for today and tomorrow, from tracked timing. An estimate that tightens as we improve earns trust; a promise we miss spends it."
   ],
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "timezone_label": "AM PT",
   "free_pick_time": "10:00",
   "free_pick_label": "by 10:00 AM PT",
@@ -33,11 +33,12 @@
     "tz": "America/Los_Angeles",
     "drift_alarm_minutes": 15
   },
-  "nfl_weekly_week": "1",
+  "nfl_weekly_week": "2",
   "nfl_weekly_games": "16",
   "nfl_weekly_picks": "48",
-  "nfl_weekly_next_label": "Tue Sep 8, 5:20 PM PT",
+  "nfl_weekly_next_label": "Wed Sep 16, 5:15 PM PT",
   "nfl_weekly_rule": "24 hours before the week's first kickoff",
-  "nfl_weekly_sentence": "NFL Weekly Week 1: every moneyline, spread and total for all 16 games — 48 picks, one card. Ships Tue Sep 8, 5:20 PM PT — 24 hours before the week's first kickoff.",
-  "nfl_weekly_short": "NFL Weekly Week 1 · Tue Sep 8, 5:20 PM PT"
+  "nfl_weekly_sentence": "NFL Weekly Week 2: every moneyline, spread and total for all 16 games — 48 picks, one card. Ships Wed Sep 16, 5:15 PM PT — 24 hours before the week's first kickoff.",
+  "nfl_weekly_short": "NFL Weekly Week 2 · Wed Sep 16, 5:15 PM PT",
+  "nfl_weekly_blurb": "NFL Weekly: every moneyline, spread and total for every game — one card a week, shipped 24 hours before the week's first kickoff."
 }
