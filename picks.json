@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-08",
+    "source_sport": "MLB",
+    "game": "Cincinnati Reds @ Los Angeles Dodgers",
+    "pick": "Los Angeles Dodgers -2.5",
+    "pick_display": "Los Angeles Dodgers -2.5",
+    "bet_type": "ATS",
+    "line": -2.5,
+    "price": 115.0,
+    "handicap": null,
+    "ccr": 8.0,
+    "ccr_avg": 8.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "34571ef0206bdb955d85e63f2549818caa9371fcf719faad3cd06cf46171ffa8"
+  },
+  {
     "date": "2026-09-07",
     "source_sport": "ATP",
     "game": "Alexander Zverev vs Luciano Darderi",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 0.8333,
+    "profit_units": 1.25,
     "odds_origin": "free_pick_receipt",
     "hash_id": "82feba0fac0e51ef0c0bc672c78737b0903945f2d1a3191ce44c393481e1ee11"
   },
