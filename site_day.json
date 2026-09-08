@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:54:56.880762+00:00",
+  "generated_at": "2026-09-08T16:27:29.664269+00:00",
   "run_date": "2026-09-08",
   "as_of": "2026-09-07",
   "anchor": "2026-03-20",
@@ -170,18 +170,18 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 120,
-        "beat": 57,
-        "beat_rate": 0.475,
+        "n": 121,
+        "beat": 58,
+        "beat_rate": 0.4793,
         "avg_clv": 0.0136,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
           "ATS": {
-            "n": 67,
-            "beat": 28,
-            "beat_rate": 0.4179,
-            "avg_clv": -0.0022
+            "n": 68,
+            "beat": 29,
+            "beat_rate": 0.4265,
+            "avg_clv": -0.002
           },
           "ML": {
             "n": 42,
@@ -200,13 +200,13 @@
           "n": 30,
           "beat": 24,
           "beat_rate": 0.8,
-          "avg_clv": 0.0122,
+          "avg_clv": 0.0124,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-05",
-        "generated_utc": "2026-09-07T14:50:38+00:00"
+        "last": "2026-09-08",
+        "generated_utc": "2026-09-08T14:56:45+00:00"
       }
     },
     "paid": {
@@ -7495,8 +7495,7 @@
     "card_picks": 3,
     "card_sports": [
       "ATP",
-      "MLB",
-      "WTA"
+      "MLB"
     ]
   },
   "pickers_contributing": 11,
@@ -7504,15 +7503,25 @@
     "free_pick_site_published_at_utc": "2026-09-08T07:53:28-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "9:26 AM PT",
+    "first_leg_time": "10:00 AM PT",
+    "first_leg_utc": "2026-09-08T17:00:00+00:00",
+    "leg_times_utc": [
+      "2026-09-08T17:00:00+00:00",
+      "2026-09-08T22:36:00+00:00",
+      "2026-09-09T02:11:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-08",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review.",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 9:26 AM PT \u00b7 3 picks, ATP + MLB \u00b7 first leg fires 10:00 AM PT",
     "parts": [
-      "Today's Paid Card is in review."
+      "Paid card shipped 9:26 AM PT",
+      "3 picks, ATP + MLB",
+      "first leg fires 10:00 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7524,10 +7533,10 @@
       "basis": "p90 of 33 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-08",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:55 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "10:00 AM PT",
+    "updated_pt": "9:27 AM PT"
   }
 }
