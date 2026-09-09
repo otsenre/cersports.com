@@ -30,7 +30,8 @@
         "sport": "MLB",
         "odds": 119,
         "units": 1,
-        "start_utc": "2026-09-08T22:41:00+00:00"
+        "start_utc": "2026-09-08T22:41:00+00:00",
+        "result": null
       }
     },
     {
@@ -58,7 +59,8 @@
         "sport": "MLB",
         "odds": -330,
         "units": 1,
-        "start_utc": "2026-09-09T02:11:00+00:00"
+        "start_utc": "2026-09-09T02:11:00+00:00",
+        "result": null
       }
     }
   ]
