@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-09",
+    "source_sport": "MLS",
+    "game": "Nashville SC @ Toronto FC",
+    "pick": "Nashville SC ML",
+    "pick_display": "Nashville SC ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": 105.0,
+    "handicap": null,
+    "ccr": 6.75,
+    "ccr_avg": 6.75,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "7b0e53bc5dd890f7f5e6f07a2434df52e39c9d7166f8b16097ba8db3c1f4bb04"
+  },
+  {
     "date": "2026-09-08",
     "source_sport": "MLB",
     "game": "Cincinnati Reds @ Los Angeles Dodgers",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "free_pick_receipt",
     "hash_id": "34571ef0206bdb955d85e63f2549818caa9371fcf719faad3cd06cf46171ffa8"
   },
