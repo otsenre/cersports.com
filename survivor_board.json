@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-08",
-  "deadline_utc": "2026-09-08T20:41:00+00:00",
+  "day": "2026-09-09",
+  "deadline_utc": "2026-09-09T21:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-08T22:41:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-09T23:06:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Minnesota Twins ML",
-        "game": "Minnesota Twins @ Detroit Tigers",
-        "sport": "MLB",
-        "odds": 119,
-        "units": 1,
-        "start_utc": "2026-09-08T22:41:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Shark",
@@ -54,13 +46,13 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "Los Angeles Dodgers ML",
-        "game": "Cincinnati Reds @ Los Angeles Dodgers",
+        "pick": "New York Yankees ML",
+        "game": "Colorado Rockies @ New York Yankees",
         "sport": "MLB",
-        "odds": -330,
+        "odds": -245,
         "units": 1,
-        "start_utc": "2026-09-09T02:11:00+00:00",
-        "result": "W"
+        "start_utc": "2026-09-09T23:06:00+00:00",
+        "result": null
       }
     }
   ]
