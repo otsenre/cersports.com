@@ -46,10 +46,10 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "New York Yankees ML",
+        "pick": "New York Yankees -1.5",
         "game": "Colorado Rockies @ New York Yankees",
         "sport": "MLB",
-        "odds": -245,
+        "odds": -115,
         "units": 1,
         "start_utc": "2026-09-09T23:06:00+00:00",
         "result": null
