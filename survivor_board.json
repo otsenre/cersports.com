@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-09T21:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-09-09T23:06:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "3 straight, best is 4",
-      "pick": null
+      "pick": {
+        "pick": "Draw",
+        "game": "Orlando City SC @ Atlanta United FC",
+        "sport": "MLS",
+        "odds": 285,
+        "units": 1,
+        "start_utc": "2026-09-09T23:30:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
