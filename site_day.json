@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:29:10.138513+00:00",
+  "generated_at": "2026-09-09T15:51:35.087971+00:00",
   "run_date": "2026-09-09",
   "as_of": "2026-09-08",
   "anchor": "2026-03-20",
@@ -170,10 +170,10 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 121,
+        "n": 122,
         "beat": 58,
-        "beat_rate": 0.4793,
-        "avg_clv": 0.0136,
+        "beat_rate": 0.4754,
+        "avg_clv": 0.0134,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
@@ -184,10 +184,10 @@
             "avg_clv": -0.002
           },
           "ML": {
-            "n": 42,
+            "n": 43,
             "beat": 26,
-            "beat_rate": 0.619,
-            "avg_clv": 0.0067
+            "beat_rate": 0.6047,
+            "avg_clv": 0.0063
           },
           "TOTAL": {
             "n": 11,
@@ -198,15 +198,15 @@
         },
         "rolling": {
           "n": 30,
-          "beat": 24,
-          "beat_rate": 0.8,
-          "avg_clv": 0.0124,
+          "beat": 23,
+          "beat_rate": 0.7667,
+          "avg_clv": 0.0103,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-08",
-        "generated_utc": "2026-09-08T14:56:45+00:00"
+        "last": "2026-09-09",
+        "generated_utc": "2026-09-09T15:31:23+00:00"
       }
     },
     "paid": {
@@ -7484,11 +7484,12 @@
     "sports": [
       "NFL"
     ],
-    "card_picks": 5,
+    "card_picks": 6,
     "card_sports": [
       "ATP",
       "MLB",
-      "MLS"
+      "MLS",
+      "NFL"
     ]
   },
   "pickers_contributing": 12,
@@ -7496,16 +7497,28 @@
     "free_pick_site_published_at_utc": "2026-09-09T08:27:40-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:51 AM PT",
+    "first_leg_time": "12:06 PM PT",
+    "first_leg_utc": "2026-09-09T19:06:00+00:00",
+    "leg_times_utc": [
+      "2026-09-09T19:06:00+00:00",
+      "2026-09-09T22:36:00+00:00",
+      "2026-09-09T23:06:00+00:00",
+      "2026-09-09T23:30:00+00:00",
+      "2026-09-09T23:30:00+00:00",
+      "2026-09-10T00:20:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-09",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Arizona Diamondbacks @ Kansas City Royals",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:51 AM PT \u00b7 6 picks, ATP + MLB + MLS + NFL \u00b7 first leg fires 12:06 PM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Arizona Diamondbacks @ Kansas City Royals"
+      "Paid card shipped 8:51 AM PT",
+      "6 picks, ATP + MLB + MLS + NFL",
+      "first leg fires 12:06 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7517,10 +7530,10 @@
       "basis": "p90 of 34 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-09",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:29 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "12:06 PM PT",
+    "updated_pt": "8:51 AM PT"
   }
 }
