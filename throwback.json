@@ -1,72 +1,83 @@
 {
-  "generated_at": "2026-09-08T14:54:39.064796+00:00",
-  "iso_date": "2026-08-21",
-  "display_date": "Fri \u00b7 Aug 21, 2026",
+  "generated_at": "2026-09-09T15:28:45.209546+00:00",
+  "iso_date": "2026-09-02",
+  "display_date": "Wed \u00b7 Sep 2, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 2,
+    "wins": 5,
+    "losses": 1,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 6.75,
-    "units_pl": 0.02,
-    "roi_pct": 0.28
+    "total_picks": 6,
+    "units_staked": 9.0,
+    "units_pl": 4.12,
+    "roi_pct": 45.83
   },
   "picks": [
     {
       "sport": "ATP",
-      "game": "Brandon Nakashima vs Taylor Fritz",
-      "pick": "Brandon Nakashima +1.5 Games",
+      "game": "Carlos Alcaraz vs Jaime Faria",
+      "pick": "Carlos Alcaraz -6.5 Games",
       "bet_type": "ATS",
-      "odds": "100.0",
+      "odds": "-117.0",
       "result": "W",
-      "units": 1.0,
-      "profit_units": 1.0,
-      "hash_id": "02dcd6e0ce10c2ed8ecd94e52af42629b72056e0463a8abc296fe6004dd38aef"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Chicago Sky",
-      "pick": "Golden State Valkyries -6.5",
-      "bet_type": "ATS",
-      "odds": "-104.0",
-      "result": "L",
-      "units": 1.75,
-      "profit_units": -1.75,
-      "hash_id": "7b0a6e4ad230009287ce6c0f1d45e5e115a8d11cbe1e4978da584e76960a7c74"
-    },
-    {
-      "sport": "WTA",
-      "game": "Madison Keys vs Sara Bejlek",
-      "pick": "Madison Keys ML",
-      "bet_type": "ML",
-      "odds": "-220.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "d2ccf6c67acb2380cb91975f5f199fdaaecf57f51f1030df8169787cf8fc45cf"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Washington Mystics",
-      "pick": "Minnesota Lynx ML",
-      "bet_type": "ML",
-      "odds": "-140.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.0714,
-      "hash_id": "305cd9d4b45d036b09dbb6137f0fcf17a4b7f72649162bf96d0ff8e748ea0a54"
+      "units": 1.25,
+      "profit_units": 1.0684,
+      "hash_id": "295392f736d5256ec94eb6b86e01d2e5b908d3e063ccb707ead28208254ec837"
     },
     {
       "sport": "MLB",
-      "game": "Pittsburgh Pirates @ Los Angeles Dodgers",
-      "pick": "Los Angeles Dodgers ML",
+      "game": "New York Yankees @ Los Angeles Angels",
+      "pick": "New York Yankees ML",
       "bet_type": "ML",
-      "odds": "-215.0",
+      "odds": "-157.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 0.6977,
-      "hash_id": "6b1b422b7619ef35c79f03aa27c03b605125485af5e7869540a7c95b4bf0a0d6"
+      "profit_units": 0.9554,
+      "hash_id": "d3dab32d3fca26d1a43cf39d9f3d399a0300f8f0aeb5d8ddb9614135bf051b4a"
+    },
+    {
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Washington Nationals",
+      "pick": "Atlanta Braves ML",
+      "bet_type": "ML",
+      "odds": "-135.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 0.9259,
+      "hash_id": "07b1f68cdb4c968e010a8ab8fd570c193e1194973ddd1607bf9c3e1a2e70ec3f"
+    },
+    {
+      "sport": "WTA",
+      "game": "Polina Iatcenko vs Aryna Sabalenka",
+      "pick": "Under 17.5 Games",
+      "bet_type": "Total Games",
+      "odds": "-130.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 1.5385,
+      "hash_id": "6dff3695cb71a7f119036785f5c31d26f09eaa35ccc6b0d19fc6d51540c8d23f"
+    },
+    {
+      "sport": "WTA",
+      "game": "Maya Joint vs Elina Svitolina",
+      "pick": "Under 18.5 Games",
+      "bet_type": "Total Games",
+      "odds": "-105.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "12acca392fe5d03be2e6a9c43f02e27bf3112fb45b4d73303737bc6aef472ee8"
+    },
+    {
+      "sport": "WTA",
+      "game": "Sofia Kenin vs Jessica Pegula",
+      "pick": "Under 18.5 Games",
+      "bet_type": "Total Games",
+      "odds": "-132.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.1364,
+      "hash_id": "c51c1f4fa1ddeb04cd4ad086f8f29a1311b9233ca86c5346a5685e404c08447a"
     }
   ]
 }
