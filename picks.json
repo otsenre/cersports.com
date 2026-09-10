@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-10",
+    "source_sport": "NCAAF",
+    "game": "Florida A&M Rattlers @ Miami Hurricanes",
+    "pick": "Miami Hurricanes -58.5",
+    "pick_display": "Miami Hurricanes -58.5",
+    "bet_type": "ATS",
+    "line": -58.5,
+    "price": -106.0,
+    "handicap": null,
+    "ccr": 6.33,
+    "ccr_avg": 6.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "43b84dd8fb36f886ca1cef68312cbeca743d811b564100cc83c0d17cff0fb7d0"
+  },
+  {
     "date": "2026-09-09",
     "source_sport": "MLS",
     "game": "Nashville SC @ Toronto FC",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.0,
+    "profit_units": -1.5,
     "odds_origin": "free_pick_receipt",
     "hash_id": "7b0e53bc5dd890f7f5e6f07a2434df52e39c9d7166f8b16097ba8db3c1f4bb04"
   },
