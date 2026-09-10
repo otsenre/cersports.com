@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-09",
-  "deadline_utc": "2026-09-09T21:06:00+00:00",
+  "day": "2026-09-10",
+  "deadline_utc": "2026-09-10T21:05:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-09T23:06:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-10T23:05:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,13 +25,13 @@
       },
       "note": "2 up, building again",
       "pick": {
-        "pick": "New York Yankees -1.5",
+        "pick": "New York Yankees ML",
         "game": "Colorado Rockies @ New York Yankees",
         "sport": "MLB",
-        "odds": -115,
+        "odds": -300,
         "units": 1,
-        "start_utc": "2026-09-09T23:06:00+00:00",
-        "result": "W"
+        "start_utc": "2026-09-10T23:05:00+00:00",
+        "result": null
       }
     },
     {
@@ -53,15 +53,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Draw",
-        "game": "Orlando City SC @ Atlanta United FC",
-        "sport": "MLS",
-        "odds": 285,
-        "units": 1,
-        "start_utc": "2026-09-09T23:30:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
