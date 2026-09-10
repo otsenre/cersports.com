@@ -1,83 +1,50 @@
 {
-  "generated_at": "2026-09-09T15:28:45.209546+00:00",
-  "iso_date": "2026-09-02",
-  "display_date": "Wed \u00b7 Sep 2, 2026",
+  "generated_at": "2026-09-10T16:11:44.934818+00:00",
+  "iso_date": "2026-08-14",
+  "display_date": "Fri \u00b7 Aug 14, 2026",
   "summary": {
-    "wins": 5,
-    "losses": 1,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 6,
-    "units_staked": 9.0,
-    "units_pl": 4.12,
-    "roi_pct": 45.83
+    "total_picks": 3,
+    "units_staked": 4.0,
+    "units_pl": -2.02,
+    "roi_pct": -50.58
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Carlos Alcaraz vs Jaime Faria",
-      "pick": "Carlos Alcaraz -6.5 Games",
-      "bet_type": "ATS",
-      "odds": "-117.0",
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Chicago Cubs",
+      "pick": "Chicago Cubs ML",
+      "bet_type": "ML",
+      "odds": "-172.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 1.0684,
-      "hash_id": "295392f736d5256ec94eb6b86e01d2e5b908d3e063ccb707ead28208254ec837"
+      "profit_units": 0.7267,
+      "hash_id": "3ba01d34e825be04d673f1f22434f1ef73750cb940eb4f264ee8b56a9063a78e"
     },
     {
       "sport": "MLB",
-      "game": "New York Yankees @ Los Angeles Angels",
-      "pick": "New York Yankees ML",
+      "game": "Chicago White Sox @ Detroit Tigers",
+      "pick": "Detroit Tigers ML",
       "bet_type": "ML",
-      "odds": "-157.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 0.9554,
-      "hash_id": "d3dab32d3fca26d1a43cf39d9f3d399a0300f8f0aeb5d8ddb9614135bf051b4a"
+      "odds": "-142.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "a5f1ade31e5f1a65c0f673851fab8ef254c59639c0c45289a60134525c57dac7"
     },
     {
       "sport": "MLB",
-      "game": "Atlanta Braves @ Washington Nationals",
+      "game": "Arizona Diamondbacks @ Atlanta Braves",
       "pick": "Atlanta Braves ML",
       "bet_type": "ML",
-      "odds": "-135.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.9259,
-      "hash_id": "07b1f68cdb4c968e010a8ab8fd570c193e1194973ddd1607bf9c3e1a2e70ec3f"
-    },
-    {
-      "sport": "WTA",
-      "game": "Polina Iatcenko vs Aryna Sabalenka",
-      "pick": "Under 17.5 Games",
-      "bet_type": "Total Games",
-      "odds": "-130.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.5385,
-      "hash_id": "6dff3695cb71a7f119036785f5c31d26f09eaa35ccc6b0d19fc6d51540c8d23f"
-    },
-    {
-      "sport": "WTA",
-      "game": "Maya Joint vs Elina Svitolina",
-      "pick": "Under 18.5 Games",
-      "bet_type": "Total Games",
-      "odds": "-105.0",
+      "odds": "-186.0",
       "result": "L",
       "units": 1.5,
       "profit_units": -1.5,
-      "hash_id": "12acca392fe5d03be2e6a9c43f02e27bf3112fb45b4d73303737bc6aef472ee8"
-    },
-    {
-      "sport": "WTA",
-      "game": "Sofia Kenin vs Jessica Pegula",
-      "pick": "Under 18.5 Games",
-      "bet_type": "Total Games",
-      "odds": "-132.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.1364,
-      "hash_id": "c51c1f4fa1ddeb04cd4ad086f8f29a1311b9233ca86c5346a5685e404c08447a"
+      "hash_id": "6ce5a5781dac1e3b33150d55eaf9564b2200fd335d38f0563128c58b9ceda331"
     }
   ]
 }
