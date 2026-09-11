@@ -1,50 +1,61 @@
 {
-  "generated_at": "2026-09-10T16:11:44.934818+00:00",
-  "iso_date": "2026-08-14",
-  "display_date": "Fri \u00b7 Aug 14, 2026",
+  "generated_at": "2026-09-11T15:00:50.114113+00:00",
+  "iso_date": "2026-09-03",
+  "display_date": "Thu \u00b7 Sep 3, 2026",
   "summary": {
-    "wins": 1,
+    "wins": 2,
     "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 3,
-    "units_staked": 4.0,
-    "units_pl": -2.02,
-    "roi_pct": -50.58
+    "total_picks": 4,
+    "units_staked": 5.25,
+    "units_pl": -1.08,
+    "roi_pct": -20.59
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "St. Louis Cardinals @ Chicago Cubs",
-      "pick": "Chicago Cubs ML",
+      "sport": "WTA",
+      "game": "Yuliia Starodubtseva vs Maria Sakkari",
+      "pick": "Maria Sakkari ML",
       "bet_type": "ML",
-      "odds": "-172.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 0.7267,
-      "hash_id": "3ba01d34e825be04d673f1f22434f1ef73750cb940eb4f264ee8b56a9063a78e"
-    },
-    {
-      "sport": "MLB",
-      "game": "Chicago White Sox @ Detroit Tigers",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-142.0",
+      "odds": "-180.0",
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25,
-      "hash_id": "a5f1ade31e5f1a65c0f673851fab8ef254c59639c0c45289a60134525c57dac7"
+      "hash_id": "b823d1d5fa4681409084293adf319502ad11b054d9372a2e80e2ca1439e9c4f2"
     },
     {
       "sport": "MLB",
-      "game": "Arizona Diamondbacks @ Atlanta Braves",
-      "pick": "Atlanta Braves ML",
+      "game": "Chicago White Sox @ Houston Astros",
+      "pick": "Houston Astros ML",
       "bet_type": "ML",
-      "odds": "-186.0",
-      "result": "L",
+      "odds": "-153.0",
+      "result": "W",
       "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "6ce5a5781dac1e3b33150d55eaf9564b2200fd335d38f0563128c58b9ceda331"
+      "profit_units": 0.9804,
+      "hash_id": "829e98cc7826d0e72f563926cec282d9d7d6cfbf7b49c6111fcafaadc79091dd"
+    },
+    {
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": "-285.0",
+      "result": "W",
+      "units": 1.25,
+      "profit_units": 0.4386,
+      "hash_id": "de11deb25d5d2333d2b3d899ef6c25ba51807ccef1fba84168c2c0b8cfdb1a40"
+    },
+    {
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers -1.5",
+      "bet_type": "ATS",
+      "odds": "-132.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "05f42189eb1ca07b3d8045c802a8ad6a08874e739e6d6a7089ef5803bd602d58"
     }
   ]
 }
