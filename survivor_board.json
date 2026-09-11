@@ -1,9 +1,9 @@
 {
   "day": "2026-09-11",
-  "deadline_utc": "2026-09-11T21:46:00+00:00",
+  "deadline_utc": "2026-09-11T21:11:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-11T23:46:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-09-11T23:11:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -53,7 +53,15 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Dodgers -1.5",
+        "game": "Los Angeles Dodgers @ Miami Marlins",
+        "sport": "MLB",
+        "odds": -120,
+        "units": 1,
+        "start_utc": "2026-09-11T23:11:00+00:00",
+        "result": null
+      }
     }
   ]
 }
