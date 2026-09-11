@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-10",
-  "deadline_utc": "2026-09-10T21:05:00+00:00",
+  "day": "2026-09-11",
+  "deadline_utc": "2026-09-11T21:46:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-10T23:05:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-11T23:46:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,12 +25,12 @@
       },
       "note": "2 up, building again",
       "pick": {
-        "pick": "New York Yankees ML",
-        "game": "Colorado Rockies @ New York Yankees",
+        "pick": "Milwaukee Brewers ML",
+        "game": "Cincinnati Reds @ Milwaukee Brewers",
         "sport": "MLB",
-        "odds": -300,
+        "odds": -197,
         "units": 1,
-        "start_utc": "2026-09-10T23:05:00+00:00",
+        "start_utc": "2026-09-11T23:46:00+00:00",
         "result": null
       }
     },
@@ -53,15 +53,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Los Angeles Rams -3.5",
-        "game": "San Francisco 49ers @ Los Angeles Rams",
-        "sport": "NFL",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-09-11T00:35:00+00:00",
-        "result": null
-      }
+      "pick": null
     }
   ]
 }
