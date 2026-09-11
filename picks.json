@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-11",
+    "source_sport": "ATP",
+    "game": "Ben Shelton vs Frances Tiafoe",
+    "pick": "Ben Shelton -4.5 Games",
+    "pick_display": "Ben Shelton -4.5 Games",
+    "bet_type": "ATS",
+    "line": null,
+    "price": 100.0,
+    "handicap": null,
+    "ccr": 6.33,
+    "ccr_avg": 6.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "0cc14d75b3be8cecf1e6686a8c2248840db30815a57a1d8220cf58866e947073"
+  },
+  {
     "date": "2026-09-10",
     "source_sport": "NCAAF",
     "game": "Florida A&M Rattlers @ Miami Hurricanes",
@@ -15,7 +35,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 0.9434,
+    "profit_units": 1.1792,
     "odds_origin": "free_pick_receipt",
     "hash_id": "43b84dd8fb36f886ca1cef68312cbeca743d811b564100cc83c0d17cff0fb7d0"
   },
