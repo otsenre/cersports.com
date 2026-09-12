@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-11",
-  "deadline_utc": "2026-09-11T21:11:00+00:00",
+  "day": "2026-09-12",
+  "deadline_utc": "2026-09-12T20:11:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-11T23:11:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-12T22:11:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": {
-        "pick": "Milwaukee Brewers ML",
-        "game": "Cincinnati Reds @ Milwaukee Brewers",
-        "sport": "MLB",
-        "odds": -197,
-        "units": 1,
-        "start_utc": "2026-09-11T23:46:00+00:00",
-        "result": null
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -54,12 +46,12 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Los Angeles Dodgers -1.5",
-        "game": "Los Angeles Dodgers @ Miami Marlins",
+        "pick": "Tampa Bay Rays -1.5",
+        "game": "Houston Astros @ Tampa Bay Rays",
         "sport": "MLB",
-        "odds": -120,
+        "odds": 144,
         "units": 1,
-        "start_utc": "2026-09-11T23:11:00+00:00",
+        "start_utc": "2026-09-12T22:11:00+00:00",
         "result": null
       }
     }
