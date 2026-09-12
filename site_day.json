@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:34:08.600322+00:00",
+  "generated_at": "2026-09-12T15:52:06.622899+00:00",
   "run_date": "2026-09-12",
   "as_of": "2026-09-11",
   "anchor": "2026-03-20",
@@ -206,7 +206,7 @@
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-09-09",
-        "generated_utc": "2026-09-11T15:02:48+00:00"
+        "generated_utc": "2026-09-12T15:36:15+00:00"
       }
     },
     "paid": {
@@ -7631,16 +7631,29 @@
     "free_pick_site_published_at_utc": "2026-09-12T08:31:19-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:48 AM PT",
+    "first_leg_time": "10:36 AM PT",
+    "first_leg_utc": "2026-09-12T17:36:00+00:00",
+    "leg_times_utc": [
+      "2026-09-12T17:36:00+00:00",
+      "2026-09-12T19:00:00+00:00",
+      "2026-09-12T20:00:00+00:00",
+      "2026-09-12T20:11:00+00:00",
+      "2026-09-12T22:11:00+00:00",
+      "2026-09-13T00:30:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-12",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather on 8 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:48 AM PT \u00b7 6 picks, EPL + MLB + MLS + WTA \u00b7 first leg fires 10:36 AM PT \u00b7 \u26c8 Weather: New York Mets @ New York Yankees",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather on 8 games"
+      "Paid card shipped 8:48 AM PT",
+      "6 picks, EPL + MLB + MLS + WTA",
+      "first leg fires 10:36 AM PT",
+      "\u26c8 Weather: New York Mets @ New York Yankees"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7652,10 +7665,10 @@
       "basis": "p90 of 37 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-12",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:34 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "10:36 AM PT",
+    "updated_pt": "8:52 AM PT"
   }
 }
