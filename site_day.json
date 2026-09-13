@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T17:02:29.670075+00:00",
+  "generated_at": "2026-09-13T17:10:07.345636+00:00",
   "run_date": "2026-09-13",
   "as_of": "2026-09-12",
   "anchor": "2026-03-20",
@@ -206,7 +206,7 @@
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-09-09",
-        "generated_utc": "2026-09-12T15:36:15+00:00"
+        "generated_utc": "2026-09-13T17:03:08+00:00"
       }
     },
     "paid": {
@@ -7779,16 +7779,28 @@
     "free_pick_site_published_at_utc": "2026-09-13T09:58:42-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "10:03 AM PT",
+    "first_leg_time": "10:36 AM PT",
+    "first_leg_utc": "2026-09-13T17:36:00+00:00",
+    "leg_times_utc": [
+      "2026-09-13T17:36:00+00:00",
+      "2026-09-13T18:00:00+00:00",
+      "2026-09-13T18:00:00+00:00",
+      "2026-09-13T19:00:00+00:00",
+      "2026-09-13T23:00:00+00:00",
+      "2026-09-14T01:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-13",
-    "stage": "paid_card_released",
-    "line": "Today\u2019s Paid Card is live. \u00b7 \u26c8 Weather on 4 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 10:03 AM PT \u00b7 6 picks, ATP + MLB + MLS + WTA \u00b7 first leg fires 10:36 AM PT",
     "parts": [
-      "Today\u2019s Paid Card is live.",
-      "\u26c8 Weather on 4 games"
+      "Paid card shipped 10:03 AM PT",
+      "6 picks, ATP + MLB + MLS + WTA",
+      "first leg fires 10:36 AM PT"
     ],
     "expected_by": {
       "label": "10:15 AM PT",
@@ -7800,10 +7812,10 @@
       "basis": "p90 of 38 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-13",
     "paid_card_session_state": "RELEASED",
-    "first_leg_time": null,
-    "updated_pt": "10:03 AM PT"
+    "first_leg_time": "10:36 AM PT",
+    "updated_pt": "10:10 AM PT"
   }
 }
