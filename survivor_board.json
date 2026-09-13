@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-12",
-  "deadline_utc": "2026-09-12T20:11:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-12T22:11:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-09-13",
+  "deadline_utc": "2026-09-13T17:52:30+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-09-13T18:11:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -28,9 +28,9 @@
         "pick": "Milwaukee Brewers ML",
         "game": "Cincinnati Reds @ Milwaukee Brewers",
         "sport": "MLB",
-        "odds": -190,
+        "odds": -199,
         "units": 1,
-        "start_utc": "2026-09-12T23:11:00+00:00",
+        "start_utc": "2026-09-13T18:11:00+00:00",
         "result": null
       }
     },
@@ -53,15 +53,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Tampa Bay Rays -1.5",
-        "game": "Houston Astros @ Tampa Bay Rays",
-        "sport": "MLB",
-        "odds": 144,
-        "units": 1,
-        "start_utc": "2026-09-12T22:11:00+00:00",
-        "result": null
-      }
+      "pick": null
     }
   ]
 }
