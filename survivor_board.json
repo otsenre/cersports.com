@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-13",
-  "deadline_utc": "2026-09-13T17:31:00+00:00",
-  "deadline_reason": "game starts within 35 minutes of the first pick; publishing 5 minutes before first pitch",
-  "earliest_start_utc": "2026-09-13T17:36:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-09-14",
+  "deadline_utc": "2026-09-14T22:15:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-09-15T00:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": {
-        "pick": "Milwaukee Brewers ML",
-        "game": "Cincinnati Reds @ Milwaukee Brewers",
-        "sport": "MLB",
-        "odds": -199,
-        "units": 1,
-        "start_utc": "2026-09-13T18:11:00+00:00",
-        "result": null
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -54,12 +46,12 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 7.5",
-        "game": "New York Mets @ New York Yankees",
-        "sport": "MLB",
-        "odds": -119,
+        "pick": "Kansas City Chiefs ML",
+        "game": "Denver Broncos @ Kansas City Chiefs",
+        "sport": "NFL",
+        "odds": -135,
         "units": 1,
-        "start_utc": "2026-09-13T17:36:00+00:00",
+        "start_utc": "2026-09-15T00:15:00+00:00",
         "result": null
       }
     }
