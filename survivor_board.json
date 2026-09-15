@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-14",
-  "deadline_utc": "2026-09-14T22:15:00+00:00",
+  "day": "2026-09-15",
+  "deadline_utc": "2026-09-15T20:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-15T00:15:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-15T22:40:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,43 +25,35 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "San Diego Padres ML",
-        "game": "San Diego Padres @ Colorado Rockies",
+        "pick": "Tampa Bay Rays ML",
+        "game": "Athletics @ Tampa Bay Rays",
         "sport": "MLB",
-        "odds": -200,
+        "odds": -230,
         "units": 1,
-        "start_utc": "2026-09-15T00:41:00+00:00",
-        "result": "W"
+        "start_utc": "2026-09-15T22:40:00+00:00",
+        "result": null
       }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 24,
+        "wins": 25,
         "losses": 24,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": -3.54,
-        "pl_priced": 49,
-        "pl_settled": 49,
-        "pl_flat_units": -2.48,
+        "alive": true,
+        "pl_units": -1.32,
+        "pl_priced": 50,
+        "pl_settled": 50,
+        "pl_flat_units": -1.74,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 0.0,
+        "loss_run": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Kansas City Chiefs ML",
-        "game": "Denver Broncos @ Kansas City Chiefs",
-        "sport": "NFL",
-        "odds": -135,
-        "units": 1,
-        "start_utc": "2026-09-15T00:15:00+00:00",
-        "result": null
-      }
+      "note": "1 up, building again",
+      "pick": null
     }
   ]
 }
