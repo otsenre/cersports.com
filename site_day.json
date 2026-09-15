@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:19:23.399876+00:00",
+  "generated_at": "2026-09-15T15:29:04.053255+00:00",
   "run_date": "2026-09-15",
   "as_of": "2026-09-14",
   "anchor": "2026-03-20",
@@ -206,7 +206,7 @@
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-09-14",
-        "generated_utc": "2026-09-14T15:11:42+00:00"
+        "generated_utc": "2026-09-15T15:20:00+00:00"
       }
     },
     "paid": {
@@ -7894,8 +7894,10 @@
       "WNBA",
       "WTA"
     ],
-    "card_picks": 2,
+    "card_picks": 5,
     "card_sports": [
+      "LALIGA",
+      "MLB",
       "WTA"
     ]
   },
@@ -7904,16 +7906,27 @@
     "free_pick_site_published_at_utc": "2026-09-15T08:16:01-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:26 AM PT",
+    "first_leg_time": "11:00 AM PT",
+    "first_leg_utc": "2026-09-15T18:00:00+00:00",
+    "leg_times_utc": [
+      "2026-09-15T18:00:00+00:00",
+      "2026-09-15T18:00:00+00:00",
+      "2026-09-15T19:00:00+00:00",
+      "2026-09-15T23:40:00+00:00",
+      "2026-09-16T00:30:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-15",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: San Francisco Giants @ St. Louis Cardinals",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:26 AM PT \u00b7 5 picks, LALIGA + MLB + WTA \u00b7 first leg fires 11:00 AM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: San Francisco Giants @ St. Louis Cardinals"
+      "Paid card shipped 8:26 AM PT",
+      "5 picks, LALIGA + MLB + WTA",
+      "first leg fires 11:00 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7925,10 +7938,10 @@
       "basis": "p90 of 40 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-15",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:19 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "11:00 AM PT",
+    "updated_pt": "8:29 AM PT"
   }
 }
