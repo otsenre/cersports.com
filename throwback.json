@@ -1,83 +1,50 @@
 {
-  "generated_at": "2026-09-14T15:09:54.048612+00:00",
-  "iso_date": "2026-08-26",
-  "display_date": "Wed \u00b7 Aug 26, 2026",
+  "generated_at": "2026-09-15T15:18:55.258998+00:00",
+  "iso_date": "2026-09-14",
+  "display_date": "Mon \u00b7 Sep 14, 2026",
   "summary": {
-    "wins": 5,
-    "losses": 1,
+    "wins": 1,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 6,
-    "units_staked": 7.25,
-    "units_pl": 3.53,
-    "roi_pct": 48.67
+    "total_picks": 3,
+    "units_staked": 3.0,
+    "units_pl": -1.15,
+    "roi_pct": -38.49
   },
   "picks": [
     {
-      "sport": "WTA",
-      "game": "Ann Li vs Maria Timofeeva",
-      "pick": "Ann Li ML",
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Cincinnati Reds",
+      "pick": "Los Angeles Dodgers ML",
       "bet_type": "ML",
-      "odds": "-198.0",
-      "result": "W",
-      "units": 0.5,
-      "profit_units": 0.2525,
-      "hash_id": "e96efc05fa7026777068b1a982d581639eb6173155f9e92938c30158adc720e1"
-    },
-    {
-      "sport": "WTA",
-      "game": "Alycia Parks vs Maja Chwalinska",
-      "pick": "Alycia Parks ML",
-      "bet_type": "ML",
-      "odds": "145.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 1.45,
-      "hash_id": "7c033173a329aaf5fd7d6b13ecfafa917ff1ff90877843ef92ffe0d3bf0f1568"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Connecticut Sun",
-      "pick": "Golden State Valkyries -13.5",
-      "bet_type": "ATS",
-      "odds": "-110.0",
+      "odds": "-210.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 1.1364,
-      "hash_id": "4935d49c0f7e182930afda7ce63be2af269f524393bcfa5fddc0a58a26aaf697"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Seattle Storm",
-      "pick": "Seattle Storm -7.5",
-      "bet_type": "ATS",
-      "odds": "-102.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.2255,
-      "hash_id": "187fa6cf2d859aa1ef46de4903f1686ef1c76d5cbf6cf3897e8859d45352cb0e"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Seattle Storm",
-      "pick": "Seattle Storm ML",
-      "bet_type": "ML",
-      "odds": "-280.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 0.7143,
-      "hash_id": "ae2be07eb0ad08107655483befabc56db0dbfbeb72489dac6ce6519d7027d60d"
+      "profit_units": 0.5952,
+      "hash_id": "acd06ba103397d324941f255d3aea6c4228ca1f9989cad57462631c3fb5e10ae"
     },
     {
       "sport": "MLB",
-      "game": "Tampa Bay Rays @ Detroit Tigers",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-113.0",
+      "game": "Baltimore Orioles @ New York Mets",
+      "pick": "New York Mets -1.5",
+      "bet_type": "ATS",
+      "odds": "-200.0",
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25,
-      "hash_id": "feed9f770b8a7c8cecba05c51f3d940d3367595cfebe001384246c1cac9ebfc0"
+      "hash_id": "a4529b8a8376630103b109aa5a9bc274a651b97c10f85bda08b9304e4690f102"
+    },
+    {
+      "sport": "WTA",
+      "game": "Caroline Dolehide vs Renata Zarazua",
+      "pick": "Caroline Dolehide -1.5 Games",
+      "bet_type": "ATS",
+      "odds": "-112.0",
+      "result": "L",
+      "units": 0.5,
+      "profit_units": -0.5,
+      "hash_id": "d744e66ed21e0ca8ba89c4aaad74bd6fe01a6ac3ad4efd6d5077a979ea247510"
     }
   ]
 }
