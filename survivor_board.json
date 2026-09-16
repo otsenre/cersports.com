@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-16T20:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-09-16T22:41:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -53,7 +53,15 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Over 11",
+        "game": "San Diego Padres @ Colorado Rockies",
+        "sport": "MLB",
+        "odds": -118,
+        "units": 1,
+        "start_utc": "2026-09-17T00:41:00+00:00",
+        "result": null
+      }
     }
   ]
 }
