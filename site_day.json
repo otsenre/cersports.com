@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:18:49.984443+00:00",
+  "generated_at": "2026-09-16T15:25:04.573783+00:00",
   "run_date": "2026-09-16",
   "as_of": "2026-09-15",
   "anchor": "2026-03-20",
@@ -170,9 +170,9 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 123,
-        "beat": 60,
-        "beat_rate": 0.4878,
+        "n": 124,
+        "beat": 61,
+        "beat_rate": 0.4919,
         "avg_clv": 0.0136,
         "since": null,
         "true_closes_from": "2026-06-17",
@@ -184,9 +184,9 @@
             "avg_clv": -0.002
           },
           "ML": {
-            "n": 44,
-            "beat": 28,
-            "beat_rate": 0.6364,
+            "n": 45,
+            "beat": 29,
+            "beat_rate": 0.6444,
             "avg_clv": 0.0071
           },
           "TOTAL": {
@@ -200,13 +200,13 @@
           "n": 30,
           "beat": 25,
           "beat_rate": 0.8333,
-          "avg_clv": 0.0118,
+          "avg_clv": 0.0115,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-14",
-        "generated_utc": "2026-09-15T15:20:00+00:00"
+        "last": "2026-09-16",
+        "generated_utc": "2026-09-16T15:19:52+00:00"
       }
     },
     "paid": {
@@ -7943,16 +7943,26 @@
     "free_pick_site_published_at_utc": "2026-09-16T08:15:38-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:20 AM PT",
+    "first_leg_time": "10:00 AM PT",
+    "first_leg_utc": "2026-09-16T17:00:00+00:00",
+    "leg_times_utc": [
+      "2026-09-16T17:00:00+00:00",
+      "2026-09-16T17:16:00+00:00",
+      "2026-09-16T17:41:00+00:00",
+      "2026-09-16T23:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-16",
-    "stage": "paid_card_released",
-    "line": "Today\u2019s Paid Card is live. \u00b7 \u26c8 Weather: Milwaukee Brewers @ Pittsburgh Pirates, San Diego Padres @ Colorado Rockies",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:20 AM PT \u00b7 4 picks, LALIGA + MLB + WTA \u00b7 first leg fires 10:00 AM PT",
     "parts": [
-      "Today\u2019s Paid Card is live.",
-      "\u26c8 Weather: Milwaukee Brewers @ Pittsburgh Pirates, San Diego Padres @ Colorado Rockies"
+      "Paid card shipped 8:20 AM PT",
+      "4 picks, LALIGA + MLB + WTA",
+      "first leg fires 10:00 AM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7964,10 +7974,10 @@
       "basis": "p90 of 41 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-16",
     "paid_card_session_state": "RELEASED",
-    "first_leg_time": null,
-    "updated_pt": "8:19 AM PT"
+    "first_leg_time": "10:00 AM PT",
+    "updated_pt": "8:25 AM PT"
   }
 }
