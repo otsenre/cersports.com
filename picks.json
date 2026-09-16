@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-16",
+    "sport": "FREE_PICK",
+    "source_sport": "MLB",
+    "game": "San Francisco Giants @ St. Louis Cardinals",
+    "pick": "St. Louis Cardinals ML",
+    "bet_type": "ML",
+    "line": -155.0,
+    "pick_display": "St. Louis Cardinals ML",
+    "edge": 0,
+    "ccr": 5.0,
+    "ccr_avg": 5.0,
+    "tier": "B",
+    "result": null,
+    "units": 1.0,
+    "hash_id": "69940754610aea595d70894b51841b6e6d176643245dd9efdf1dc3920a69b457"
+  },
+  {
     "date": "2026-09-15",
     "source_sport": "WTA",
     "game": "Janice Tjen vs Sloane Stephens",
