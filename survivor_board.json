@@ -9,21 +9,21 @@
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 31,
+        "wins": 32,
         "losses": 20,
         "pushes": 0,
-        "current": 1,
+        "current": 2,
         "longest": 5,
         "alive": true,
-        "pl_units": -0.84,
-        "pl_priced": 46,
-        "pl_settled": 51,
-        "pl_flat_units": -0.63,
+        "pl_units": -0.4,
+        "pl_priced": 47,
+        "pl_settled": 52,
+        "pl_flat_units": -0.2,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "1 up, building again",
+      "note": "2 up, building again",
       "pick": {
         "pick": "Tampa Bay Rays ML",
         "game": "Athletics @ Tampa Bay Rays",
@@ -31,7 +31,7 @@
         "odds": -230,
         "units": 1,
         "start_utc": "2026-09-15T22:40:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
