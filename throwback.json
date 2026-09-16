@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-09-15T15:18:55.258998+00:00",
-  "iso_date": "2026-09-14",
-  "display_date": "Mon \u00b7 Sep 14, 2026",
+  "generated_at": "2026-09-16T15:18:23.477228+00:00",
+  "iso_date": "2026-09-10",
+  "display_date": "Thu \u00b7 Sep 10, 2026",
   "summary": {
     "wins": 1,
     "losses": 2,
     "voids": 0,
     "pushes": 0,
     "total_picks": 3,
-    "units_staked": 3.0,
-    "units_pl": -1.15,
-    "roi_pct": -38.49
+    "units_staked": 3.5,
+    "units_pl": -1.07,
+    "roi_pct": -30.59
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Cincinnati Reds",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": "-210.0",
+      "sport": "NCAAF",
+      "game": "Florida A&M Rattlers @ Miami Hurricanes",
+      "pick": "Miami Hurricanes -58.5",
+      "bet_type": "ATS",
+      "odds": "-106.0",
       "result": "W",
       "units": 1.25,
-      "profit_units": 0.5952,
-      "hash_id": "acd06ba103397d324941f255d3aea6c4228ca1f9989cad57462631c3fb5e10ae"
-    },
-    {
-      "sport": "MLB",
-      "game": "Baltimore Orioles @ New York Mets",
-      "pick": "New York Mets -1.5",
-      "bet_type": "ATS",
-      "odds": "-200.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "a4529b8a8376630103b109aa5a9bc274a651b97c10f85bda08b9304e4690f102"
+      "profit_units": 1.1792,
+      "hash_id": "43b84dd8fb36f886ca1cef68312cbeca743d811b564100cc83c0d17cff0fb7d0"
     },
     {
       "sport": "WTA",
-      "game": "Caroline Dolehide vs Renata Zarazua",
-      "pick": "Caroline Dolehide -1.5 Games",
+      "game": "Aryna Sabalenka vs Jessica Pegula",
+      "pick": "Aryna Sabalenka -2.5 Games",
       "bet_type": "ATS",
-      "odds": "-112.0",
+      "odds": "-135.0",
       "result": "L",
-      "units": 0.5,
-      "profit_units": -0.5,
-      "hash_id": "d744e66ed21e0ca8ba89c4aaad74bd6fe01a6ac3ad4efd6d5077a979ea247510"
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "d96d54b4ab5ddcf1cf325cbb1bab370df1c838664a449ea5a4811c23e9aff39a"
+    },
+    {
+      "sport": "MLB",
+      "game": "Texas Rangers @ Seattle Mariners",
+      "pick": "Seattle Mariners -1.5",
+      "bet_type": "ATS",
+      "odds": "184.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "c31feed5ffbd7799b9b68ee8173078ebdfbb7707bf68192668d3c5a8671bee9f"
     }
   ]
 }

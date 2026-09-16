@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-09-16",
-    "sport": "FREE_PICK",
     "source_sport": "MLB",
     "game": "San Francisco Giants @ St. Louis Cardinals",
     "pick": "St. Louis Cardinals ML",
-    "bet_type": "ML",
-    "line": -155.0,
     "pick_display": "St. Louis Cardinals ML",
-    "edge": 0,
+    "bet_type": "ML",
+    "line": null,
+    "price": -157.0,
+    "handicap": null,
     "ccr": 5.0,
     "ccr_avg": 5.0,
-    "tier": "B",
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
     "result": null,
-    "units": 1.0,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "69940754610aea595d70894b51841b6e6d176643245dd9efdf1dc3920a69b457"
   },
   {
@@ -32,7 +35,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.606,
+    "profit_units": 0.303,
     "odds_origin": "free_pick_receipt",
     "hash_id": "3d89174a5f33f097fcaa38c31c0c7ac8d61ba33324a499a898dbf115d8f275af"
   },
