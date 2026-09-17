@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-09-17",
-    "sport": "FREE_PICK",
     "source_sport": "WNBA",
     "game": "Washington Mystics @ Chicago Sky",
     "pick": "Washington Mystics ML",
-    "bet_type": "ML",
-    "line": -120.0,
     "pick_display": "Washington Mystics ML",
-    "edge": 0,
+    "bet_type": "ML",
+    "line": null,
+    "price": -124.0,
+    "handicap": null,
     "ccr": 9.0,
     "ccr_avg": 9.0,
-    "tier": "B",
-    "result": null,
+    "tier": "",
+    "edge": 0,
     "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "bd2b5b4bdd46bb40253da6b12bcdf2a61de5e15daa308184690999dbb7f13be0"
   },
   {
