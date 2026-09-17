@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-16",
-  "deadline_utc": "2026-09-16T20:41:00+00:00",
+  "day": "2026-09-17",
+  "deadline_utc": "2026-09-17T22:15:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-16T22:41:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-18T00:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Over 11",
-        "game": "San Diego Padres @ Colorado Rockies",
-        "sport": "MLB",
-        "odds": -118,
-        "units": 1,
-        "start_utc": "2026-09-17T00:41:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Shark",
@@ -54,13 +46,13 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Los Angeles Dodgers ML",
-        "game": "Los Angeles Dodgers @ Cincinnati Reds",
-        "sport": "MLB",
-        "odds": -215,
+        "pick": "Over 55",
+        "game": "Detroit Lions @ Buffalo Bills",
+        "sport": "NFL",
+        "odds": -110,
         "units": 1,
-        "start_utc": "2026-09-16T22:41:00+00:00",
-        "result": "L"
+        "start_utc": "2026-09-18T00:15:00+00:00",
+        "result": null
       }
     }
   ]
