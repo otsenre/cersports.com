@@ -1,10 +1,31 @@
 {
-  "day": "2026-09-17",
-  "deadline_utc": "2026-09-17T22:15:00+00:00",
+  "day": "2026-09-18",
+  "deadline_utc": "2026-09-18T21:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-18T00:15:00+00:00",
+  "earliest_start_utc": "2026-09-18T23:30:00+00:00",
   "submitted_count": 1,
   "entries": [
+    {
+      "name": "Shark",
+      "source": "human:shark",
+      "record": {
+        "wins": 33,
+        "losses": 21,
+        "pushes": 0,
+        "current": 1,
+        "longest": 5,
+        "alive": true,
+        "pl_units": 0.42,
+        "pl_priced": 49,
+        "pl_settled": 54,
+        "pl_flat_units": -0.29,
+        "next_wager_from_base": null,
+        "ramp_units": 0.0,
+        "loss_run": 0
+      },
+      "note": "1 up, building again",
+      "pick": null
+    },
     {
       "name": "Reaper",
       "source": "human:reaper",
@@ -24,34 +45,13 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
-    },
-    {
-      "name": "Shark",
-      "source": "human:shark",
-      "record": {
-        "wins": 32,
-        "losses": 21,
-        "pushes": 0,
-        "current": 0,
-        "longest": 5,
-        "alive": false,
-        "pl_units": -1.4,
-        "pl_priced": 48,
-        "pl_settled": 53,
-        "pl_flat_units": -1.2,
-        "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 55",
-        "game": "Detroit Lions @ Buffalo Bills",
-        "sport": "NFL",
+        "pick": "Miami Hurricanes -20.5",
+        "game": "Miami Hurricanes @ Wake Forest Demon Deacons",
+        "sport": "NCAAF",
         "odds": -110,
         "units": 1,
-        "start_utc": "2026-09-18T00:15:00+00:00",
+        "start_utc": "2026-09-18T23:30:00+00:00",
         "result": null
       }
     }
