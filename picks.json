@@ -1,19 +1,22 @@
 [
   {
     "date": "2026-09-18",
-    "sport": "FREE_PICK",
     "source_sport": "NCAAF",
     "game": "Portland State Vikings @ Oregon Ducks",
     "pick": "Oregon Ducks -58.0",
-    "bet_type": "ATS",
-    "line": -110.0,
     "pick_display": "Oregon Ducks -58.0",
-    "edge": 0,
+    "bet_type": "ATS",
+    "line": -58.0,
+    "price": -110.0,
+    "handicap": null,
     "ccr": 6.5,
     "ccr_avg": 6.5,
-    "tier": "B",
-    "result": null,
+    "tier": "",
+    "edge": 0,
     "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
     "hash_id": "45d0146cbd1ac7a0843b6eb4e1b2a6322d56e5a10019745b62d484b0342dd978"
   },
   {
