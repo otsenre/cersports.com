@@ -39,18 +39,18 @@
       "source": "human:reaper",
       "record": {
         "wins": 26,
-        "losses": 26,
+        "losses": 27,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": -1.63,
-        "pl_priced": 53,
-        "pl_settled": 53,
-        "pl_flat_units": -2.89,
+        "pl_units": -3.63,
+        "pl_priced": 54,
+        "pl_settled": 54,
+        "pl_flat_units": -3.89,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
@@ -60,7 +60,7 @@
         "odds": -114,
         "units": 1,
         "start_utc": "2026-09-19T17:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
