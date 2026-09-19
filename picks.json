@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-19",
+    "source_sport": "MLS",
+    "game": "Orlando City SC @ New England Revolution",
+    "pick": "New England Revolution ML",
+    "pick_display": "New England Revolution ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -129.0,
+    "handicap": null,
+    "ccr": 5.5,
+    "ccr_avg": 5.5,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "b89ae97278998f151a6f2aa6ffe26896dad280fc5855e483c35e2b125e72196e"
+  },
+  {
     "date": "2026-09-18",
     "source_sport": "NCAAF",
     "game": "Portland State Vikings @ Oregon Ducks",
