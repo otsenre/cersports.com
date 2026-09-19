@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-09-18T15:04:27.628189+00:00",
-  "iso_date": "2026-08-26",
-  "display_date": "Wed \u00b7 Aug 26, 2026",
+  "generated_at": "2026-09-19T15:12:36.750754+00:00",
+  "iso_date": "2026-09-13",
+  "display_date": "Sun \u00b7 Sep 13, 2026",
   "summary": {
-    "wins": 5,
-    "losses": 1,
+    "wins": 1,
+    "losses": 5,
     "voids": 0,
     "pushes": 0,
     "total_picks": 6,
-    "units_staked": 7.25,
-    "units_pl": 3.53,
-    "roi_pct": 48.67
+    "units_staked": 6.25,
+    "units_pl": -3.85,
+    "roi_pct": -61.6
   },
   "picks": [
     {
+      "sport": "ATP",
+      "game": "Alexander Zverev vs Ben Shelton",
+      "pick": "Alexander Zverev ML",
+      "bet_type": "ML",
+      "odds": "-150.0",
+      "result": "L",
+      "units": 0.75,
+      "profit_units": -0.75,
+      "hash_id": "7669c201ba992e5423024caa4d5d67953a5560e08da97040b9f65e9adc73f27b"
+    },
+    {
       "sport": "WTA",
-      "game": "Ann Li vs Maria Timofeeva",
-      "pick": "Ann Li ML",
-      "bet_type": "ML",
-      "odds": "-198.0",
-      "result": "W",
-      "units": 0.5,
-      "profit_units": 0.2525,
-      "hash_id": "e96efc05fa7026777068b1a982d581639eb6173155f9e92938c30158adc720e1"
-    },
-    {
-      "sport": "WTA",
-      "game": "Alycia Parks vs Maja Chwalinska",
-      "pick": "Alycia Parks ML",
-      "bet_type": "ML",
-      "odds": "145.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 1.45,
-      "hash_id": "7c033173a329aaf5fd7d6b13ecfafa917ff1ff90877843ef92ffe0d3bf0f1568"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Connecticut Sun",
-      "pick": "Golden State Valkyries -13.5",
+      "game": "Emiliana Arango vs Peyton Stearns",
+      "pick": "Emiliana Arango +3.5 Games",
       "bet_type": "ATS",
-      "odds": "-110.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.1364,
-      "hash_id": "4935d49c0f7e182930afda7ce63be2af269f524393bcfa5fddc0a58a26aaf697"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Seattle Storm",
-      "pick": "Seattle Storm -7.5",
-      "bet_type": "ATS",
-      "odds": "-102.0",
-      "result": "W",
-      "units": 1.25,
-      "profit_units": 1.2255,
-      "hash_id": "187fa6cf2d859aa1ef46de4903f1686ef1c76d5cbf6cf3897e8859d45352cb0e"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Seattle Storm",
-      "pick": "Seattle Storm ML",
-      "bet_type": "ML",
-      "odds": "-280.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 0.7143,
-      "hash_id": "ae2be07eb0ad08107655483befabc56db0dbfbeb72489dac6ce6519d7027d60d"
-    },
-    {
-      "sport": "MLB",
-      "game": "Tampa Bay Rays @ Detroit Tigers",
-      "pick": "Detroit Tigers ML",
-      "bet_type": "ML",
-      "odds": "-113.0",
+      "odds": "102.0",
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25,
-      "hash_id": "feed9f770b8a7c8cecba05c51f3d940d3367595cfebe001384246c1cac9ebfc0"
+      "hash_id": "f941a9e41d40b8ee920748a9827bb9c9b627cce8e091b41fc4fb0ca037a9629d"
+    },
+    {
+      "sport": "WTA",
+      "game": "Iryna Shymanovich vs Lea Ma",
+      "pick": "Iryna Shymanovich ML",
+      "bet_type": "ML",
+      "odds": "-210.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "bb433283e741ae36bdc044ef061b916e32c5c7ba58250e1bb86cc6bbd8fefe5d"
+    },
+    {
+      "sport": "WTA",
+      "game": "Bianca Andreescu vs Cristina Bucsa",
+      "pick": "Bianca Andreescu ML",
+      "bet_type": "ML",
+      "odds": "-122.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "3cd8d73145787b6a26e36dd5ad03ee01f5d828708c2aa1d4b6598b55274fbfd0"
+    },
+    {
+      "sport": "MLS",
+      "game": "Philadelphia Union @ San Diego FC",
+      "pick": "Philadelphia Union ML",
+      "bet_type": "ML",
+      "odds": "140.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 1.4,
+      "hash_id": "a76d70f7ea854120548ea45c6cee621c366c34a454f5a30ee5cdb1ce6a3d2a70"
+    },
+    {
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ Atlanta Braves",
+      "pick": "Atlanta Braves -1.5",
+      "bet_type": "ATS",
+      "odds": "155.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "d4b5b4a453b9b45218cf3b1f9ff985d3e98a7d9b75498d93109a393dd89bf727"
     }
   ]
 }
