@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-19",
-  "deadline_utc": "2026-09-19T16:14:44+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-09-19T17:00:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-09-20",
+  "deadline_utc": "2026-09-20T18:05:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-09-20T20:05:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,15 +24,7 @@
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Over 11",
-        "game": "Seattle Mariners @ Colorado Rockies",
-        "sport": "MLB",
-        "odds": -108,
-        "units": 1,
-        "start_utc": "2026-09-20T00:11:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -54,13 +46,13 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Dallas Wings -9.5",
-        "game": "Phoenix Mercury @ Dallas Wings",
-        "sport": "WNBA",
-        "odds": -114,
+        "pick": "Jacksonville Jaguars +2.5",
+        "game": "Jacksonville Jaguars @ Denver Broncos",
+        "sport": "NFL",
+        "odds": -101,
         "units": 1,
-        "start_utc": "2026-09-19T17:00:00+00:00",
-        "result": "L"
+        "start_utc": "2026-09-20T20:05:00+00:00",
+        "result": null
       }
     }
   ]
