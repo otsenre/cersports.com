@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T15:19:02.212067+00:00",
+  "generated_at": "2026-09-20T15:29:04.973276+00:00",
   "run_date": "2026-09-20",
   "as_of": "2026-09-19",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-09-20",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-09-20T08:19:34-07:00",
+      "fire_pt": "2026-09-20 08:19 PDT"
     },
     "prior_run": {
       "date": "2026-09-19",
@@ -169,9 +169,9 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 125,
-        "beat": 62,
-        "beat_rate": 0.496,
+        "n": 126,
+        "beat": 63,
+        "beat_rate": 0.5,
         "avg_clv": 0.0135,
         "since": null,
         "true_closes_from": "2026-06-17",
@@ -183,10 +183,10 @@
             "avg_clv": -0.002
           },
           "ML": {
-            "n": 46,
-            "beat": 30,
-            "beat_rate": 0.6522,
-            "avg_clv": 0.0071
+            "n": 47,
+            "beat": 31,
+            "beat_rate": 0.6596,
+            "avg_clv": 0.0073
           },
           "TOTAL": {
             "n": 11,
@@ -204,8 +204,8 @@
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-17",
-        "generated_utc": "2026-09-19T15:14:19+00:00"
+        "last": "2026-09-19",
+        "generated_utc": "2026-09-20T15:20:16+00:00"
       }
     },
     "paid": {
@@ -8078,28 +8078,41 @@
       "WNBA",
       "WTA"
     ],
-    "card_picks": 5,
+    "card_picks": 6,
     "card_sports": [
       "MLB",
+      "NFL",
       "WNBA"
     ]
   },
   "pickers_contributing": 14,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-09-20T08:19:34-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:22 AM PT",
+    "first_leg_time": "10:00 AM PT",
+    "first_leg_utc": "2026-09-20T17:00:00+00:00",
+    "leg_times_utc": [
+      "2026-09-20T17:00:00+00:00",
+      "2026-09-20T17:36:00+00:00",
+      "2026-09-20T17:41:00+00:00",
+      "2026-09-20T19:00:00+00:00",
+      "2026-09-20T20:25:00+00:00",
+      "2026-09-21T01:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-20",
-    "stage": "free_staged",
-    "line": "Working today's slate \u00b7 free pick lands 9:00 AM PT \u00b7 \u26c8 Weather on 8 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:22 AM PT \u00b7 6 picks, MLB + NFL + WNBA \u00b7 first leg fires 10:00 AM PT \u00b7 \u26c8 Weather: Kansas City Royals @ Pittsburgh Pirates",
     "parts": [
-      "Working today's slate",
-      "free pick lands 9:00 AM PT",
-      "\u26c8 Weather on 8 games"
+      "Paid card shipped 8:22 AM PT",
+      "6 picks, MLB + NFL + WNBA",
+      "first leg fires 10:00 AM PT",
+      "\u26c8 Weather: Kansas City Royals @ Pittsburgh Pirates"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8110,11 +8123,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 45 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
+    "free_pick_live": true,
+    "card_live": true,
     "paid_card_session_id": null,
     "paid_card_session_state": null,
-    "first_leg_time": null,
-    "updated_pt": "8:19 AM PT"
+    "first_leg_time": "10:00 AM PT",
+    "updated_pt": "8:29 AM PT"
   }
 }
