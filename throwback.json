@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-09-19T15:12:36.750754+00:00",
-  "iso_date": "2026-09-13",
-  "display_date": "Sun \u00b7 Sep 13, 2026",
+  "generated_at": "2026-09-20T15:18:21.517313+00:00",
+  "iso_date": "2026-09-01",
+  "display_date": "Tue \u00b7 Sep 1, 2026",
   "summary": {
-    "wins": 1,
-    "losses": 5,
+    "wins": 4,
+    "losses": 2,
     "voids": 0,
     "pushes": 0,
     "total_picks": 6,
-    "units_staked": 6.25,
-    "units_pl": -3.85,
-    "roi_pct": -61.6
+    "units_staked": 8.25,
+    "units_pl": 1.69,
+    "roi_pct": 20.44
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Alexander Zverev vs Ben Shelton",
-      "pick": "Alexander Zverev ML",
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Washington Nationals",
+      "pick": "Atlanta Braves ML",
       "bet_type": "ML",
-      "odds": "-150.0",
-      "result": "L",
-      "units": 0.75,
-      "profit_units": -0.75,
-      "hash_id": "7669c201ba992e5423024caa4d5d67953a5560e08da97040b9f65e9adc73f27b"
-    },
-    {
-      "sport": "WTA",
-      "game": "Emiliana Arango vs Peyton Stearns",
-      "pick": "Emiliana Arango +3.5 Games",
-      "bet_type": "ATS",
-      "odds": "102.0",
+      "odds": "-167.0",
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25,
-      "hash_id": "f941a9e41d40b8ee920748a9827bb9c9b627cce8e091b41fc4fb0ca037a9629d"
-    },
-    {
-      "sport": "WTA",
-      "game": "Iryna Shymanovich vs Lea Ma",
-      "pick": "Iryna Shymanovich ML",
-      "bet_type": "ML",
-      "odds": "-210.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "bb433283e741ae36bdc044ef061b916e32c5c7ba58250e1bb86cc6bbd8fefe5d"
-    },
-    {
-      "sport": "WTA",
-      "game": "Bianca Andreescu vs Cristina Bucsa",
-      "pick": "Bianca Andreescu ML",
-      "bet_type": "ML",
-      "odds": "-122.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "3cd8d73145787b6a26e36dd5ad03ee01f5d828708c2aa1d4b6598b55274fbfd0"
-    },
-    {
-      "sport": "MLS",
-      "game": "Philadelphia Union @ San Diego FC",
-      "pick": "Philadelphia Union ML",
-      "bet_type": "ML",
-      "odds": "140.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 1.4,
-      "hash_id": "a76d70f7ea854120548ea45c6cee621c366c34a454f5a30ee5cdb1ce6a3d2a70"
+      "hash_id": "b220ea0cb0712fddb01de85e6d63d80f02f5cfebd07c590917c32932b5ddf3d6"
     },
     {
       "sport": "MLB",
-      "game": "Philadelphia Phillies @ Atlanta Braves",
-      "pick": "Atlanta Braves -1.5",
-      "bet_type": "ATS",
-      "odds": "155.0",
-      "result": "L",
+      "game": "New York Yankees @ Los Angeles Angels",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": "-180.0",
+      "result": "W",
       "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "d4b5b4a453b9b45218cf3b1f9ff985d3e98a7d9b75498d93109a393dd89bf727"
+      "profit_units": 0.5556,
+      "hash_id": "82e1a4c7d3ccbcaa7574ef69f8452f467f9d5ae9d74727e8901a4b1e513c38ae"
+    },
+    {
+      "sport": "WTA",
+      "game": "Janice Tjen vs Mirra Andreeva",
+      "pick": "Mirra Andreeva -5.5 Games",
+      "bet_type": "ATS",
+      "odds": "-127.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.1811,
+      "hash_id": "2c7c46cc2706c1308a87df4e737b9fd9e77003961474cd960785f6e6233313c0"
+    },
+    {
+      "sport": "WTA",
+      "game": "Coco Gauff vs Zeynep Sonmez",
+      "pick": "Coco Gauff -6.5 Games",
+      "bet_type": "ATS",
+      "odds": "-145.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "990a0898d73acb148423204142620e337b73bbd46d3fc829d86286b9af6b45c7"
+    },
+    {
+      "sport": "ATP",
+      "game": "Darwin Blanch vs Taylor Fritz",
+      "pick": "Taylor Fritz -7.5 Games",
+      "bet_type": "ATS",
+      "odds": "-125.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.2,
+      "hash_id": "bb9d176c5d45e99e9e5e8c38d6fc7ee76a1c350c925228a84aa16498efc5a7b9"
+    },
+    {
+      "sport": "ATP",
+      "game": "Alex de Minaur vs Andrea Guerrieri",
+      "pick": "Alex de Minaur -9.5 Games",
+      "bet_type": "ATS",
+      "odds": "100.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.5,
+      "hash_id": "28070a92858821715807be953df1ab7006be5d46c1bc7b6244f23b7e6de68909"
     }
   ]
 }
