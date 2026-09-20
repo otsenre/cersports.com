@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-20",
+    "source_sport": "MLB",
+    "game": "Kansas City Royals @ Pittsburgh Pirates",
+    "pick": "Pittsburgh Pirates ML",
+    "pick_display": "Pittsburgh Pirates ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -110.0,
+    "handicap": null,
+    "ccr": 5.0,
+    "ccr_avg": 5.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "39926e9120c2cf183129232f883100ae9d9864ec797bade94d9b4a08af54b93a"
+  },
+  {
     "date": "2026-09-19",
     "source_sport": "MLS",
     "game": "Orlando City SC @ New England Revolution",
