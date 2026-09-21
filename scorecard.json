@@ -1,17 +1,10 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-21T16:06:21+00:00",
+  "generated_utc": "2026-09-21T19:12:18+00:00",
   "products": {
     "free": {
-      "todays_pick": {
-        "hash_id": "39926e9120c2cf183129232f883100ae9d9864ec797bade94d9b4a08af54b93a",
-        "pick": "Pittsburgh Pirates ML",
-        "game": "Kansas City Royals @ Pittsburgh Pirates",
-        "sport": "MLB",
-        "ccr": 5.0,
-        "odds": -110.0,
-        "date": "2026-09-20"
-      },
+      "todays_pick": null,
+      "todays_pick_due_utc": "2026-09-22T00:00:00+00:00",
       "short": "FREE PICK",
       "label": "Free Pick of the Day",
       "blurb": "every pick posted publicly",
@@ -131,6 +124,7 @@
     },
     "paid": {
       "todays_pick": null,
+      "todays_pick_due_utc": "",
       "short": "DAILY CARD",
       "label": "Daily Card",
       "blurb": "every pick sent to subscribers",
@@ -217,6 +211,7 @@
     },
     "anchor": {
       "todays_pick": null,
+      "todays_pick_due_utc": "",
       "short": "ANCHOR",
       "label": "Anchor",
       "blurb": "one-unit, three-wager qualifying ticket",
@@ -303,6 +298,7 @@
     },
     "syndicate": {
       "todays_pick": null,
+      "todays_pick_due_utc": "",
       "short": "SYNDICATE",
       "label": "Syndicate Session",
       "blurb": "one-unit, three-wager session card",
@@ -389,6 +385,7 @@
     },
     "prizepicks": {
       "todays_pick": null,
+      "todays_pick_due_utc": "",
       "short": "CER PROPS",
       "label": "CER Props",
       "blurb": "daily 2-Pick + 3-Pick Power Play card",
@@ -475,6 +472,7 @@
     },
     "ppme": {
       "todays_pick": null,
+      "todays_pick_due_utc": "",
       "short": "PPME",
       "label": "Pull the Handle",
       "blurb": "on-demand hitter Power Play entries",
@@ -7908,9 +7906,9 @@
     "free.as_of": "2026-09-20",
     "free.plain": "This product has made 890 picks since 2026-03-20. About 54 out of every 100 won. It wins more often than it loses, but the odds it takes are short enough that the wins do not cover the losses.",
     "free.streak": "4W",
-    "free.today.pick": "Pittsburgh Pirates ML",
-    "free.today.game": "Kansas City Royals @ Pittsburgh Pirates",
-    "free.today.sport": "MLB",
+    "free.today.pick": "",
+    "free.today.game": "",
+    "free.today.sport": "",
     "paid.record.l10": "4-6",
     "paid.settled.l10": "10",
     "paid.roi.l10": "-24.2%",
