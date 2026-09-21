@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-09-20T15:18:21.517313+00:00",
-  "iso_date": "2026-09-01",
-  "display_date": "Tue \u00b7 Sep 1, 2026",
+  "generated_at": "2026-09-21T16:06:20.818015+00:00",
+  "iso_date": "2026-09-20",
+  "display_date": "Sun \u00b7 Sep 20, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 2,
+    "wins": 5,
+    "losses": 1,
     "voids": 0,
     "pushes": 0,
     "total_picks": 6,
-    "units_staked": 8.25,
-    "units_pl": 1.69,
-    "roi_pct": 20.44
+    "units_staked": 9.0,
+    "units_pl": 5.32,
+    "roi_pct": 59.07
   },
   "picks": [
     {
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Washington Nationals",
-      "pick": "Atlanta Braves ML",
-      "bet_type": "ML",
-      "odds": "-167.0",
+      "sport": "WNBA",
+      "game": "Seattle Storm @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -16.5",
+      "bet_type": "ATS",
+      "odds": "-104.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 1.9231,
+      "hash_id": "dbbe032fcb9ece61177724843bec252bd64e7fc03200da858ebac410450adcb1"
+    },
+    {
+      "sport": "WNBA",
+      "game": "Minnesota Lynx @ Connecticut Sun",
+      "pick": "Minnesota Lynx -17.5",
+      "bet_type": "ATS",
+      "odds": "-106.0",
       "result": "L",
       "units": 1.25,
       "profit_units": -1.25,
-      "hash_id": "b220ea0cb0712fddb01de85e6d63d80f02f5cfebd07c590917c32932b5ddf3d6"
+      "hash_id": "e22c056f92a24facee3efbd03f1c88a6a7ea18b1f1551b5b7895e951bb49ad50"
     },
     {
       "sport": "MLB",
-      "game": "New York Yankees @ Los Angeles Angels",
-      "pick": "New York Yankees ML",
+      "game": "Kansas City Royals @ Pittsburgh Pirates",
+      "pick": "Pittsburgh Pirates ML",
       "bet_type": "ML",
-      "odds": "-180.0",
+      "odds": "-110.0",
       "result": "W",
       "units": 1.0,
-      "profit_units": 0.5556,
-      "hash_id": "82e1a4c7d3ccbcaa7574ef69f8452f467f9d5ae9d74727e8901a4b1e513c38ae"
+      "profit_units": 0.9091,
+      "hash_id": "39926e9120c2cf183129232f883100ae9d9864ec797bade94d9b4a08af54b93a"
     },
     {
-      "sport": "WTA",
-      "game": "Janice Tjen vs Mirra Andreeva",
-      "pick": "Mirra Andreeva -5.5 Games",
-      "bet_type": "ATS",
-      "odds": "-127.0",
+      "sport": "MLB",
+      "game": "Athletics @ Cleveland Guardians",
+      "pick": "Cleveland Guardians ML",
+      "bet_type": "ML",
+      "odds": "-230.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 1.1811,
-      "hash_id": "2c7c46cc2706c1308a87df4e737b9fd9e77003961474cd960785f6e6233313c0"
+      "profit_units": 0.6522,
+      "hash_id": "f569786d48eb491121236fbbd530ac14eca5ec9afd832018ad71171c0cea0a29"
     },
     {
-      "sport": "WTA",
-      "game": "Coco Gauff vs Zeynep Sonmez",
-      "pick": "Coco Gauff -6.5 Games",
+      "sport": "WNBA",
+      "game": "New York Liberty @ Toronto Tempo",
+      "pick": "New York Liberty -14.5",
       "bet_type": "ATS",
-      "odds": "-145.0",
-      "result": "L",
-      "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "990a0898d73acb148423204142620e337b73bbd46d3fc829d86286b9af6b45c7"
-    },
-    {
-      "sport": "ATP",
-      "game": "Darwin Blanch vs Taylor Fritz",
-      "pick": "Taylor Fritz -7.5 Games",
-      "bet_type": "ATS",
-      "odds": "-125.0",
+      "odds": "-106.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 1.2,
-      "hash_id": "bb9d176c5d45e99e9e5e8c38d6fc7ee76a1c350c925228a84aa16498efc5a7b9"
+      "profit_units": 1.4151,
+      "hash_id": "03e7b439ea71785fb56f9b7bd1f5870ef91c2471cb9736fc7a3218c2c3ccbe65"
     },
     {
-      "sport": "ATP",
-      "game": "Alex de Minaur vs Andrea Guerrieri",
-      "pick": "Alex de Minaur -9.5 Games",
+      "sport": "NFL",
+      "game": "Miami Dolphins @ San Francisco 49ers",
+      "pick": "San Francisco 49ers -12.5",
       "bet_type": "ATS",
-      "odds": "100.0",
+      "odds": "-105.0",
       "result": "W",
-      "units": 1.5,
-      "profit_units": 1.5,
-      "hash_id": "28070a92858821715807be953df1ab7006be5d46c1bc7b6244f23b7e6de68909"
+      "units": 1.75,
+      "profit_units": 1.6667,
+      "hash_id": "9bfb047f06e6069c9f47191be266732cad892858d903b1a2b53c9364cbc202a7"
     }
   ]
 }
