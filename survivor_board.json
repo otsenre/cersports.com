@@ -1,8 +1,8 @@
 {
   "day": "2026-09-21",
-  "deadline_utc": "2026-09-21T22:15:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-22T00:15:00+00:00",
+  "deadline_utc": "2026-09-21T20:40:48+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-09-21T22:36:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
