@@ -1625,14 +1625,36 @@ async function loadPicks() {
     // server-side. brand/gauge.py carries it into scorecard.json as
     // products.free.todays_pick. Matched by hash_id, so it is exact.
     let designated = null;
+    let freePickDue = '';
     try {
       const sres = await fetch('scorecard.json?t=' + Date.now());
       const snap = await sres.json();
-      const t = snap.products && snap.products.free && snap.products.free.todays_pick;
+      const free = (snap.products && snap.products.free) || {};
+      const t = free.todays_pick;
+      freePickDue = free.todays_pick_due_utc || '';
       if (t && t.hash_id) designated = picks.find(p => p.hash_id === t.hash_id) || null;
     } catch (e) { /* fall through to the old behaviour */ }
-    // Fallback only when no pick was designated that day.
-    const latest = designated || picks.find(p => p.pick !== 'No Play');
+    // NO FALLBACK WHILE TODAY'S PICK IS STAGED.
+    //
+    // The free pick is DECIDED at card build and RELEASED about two hours before
+    // its own game. In that window the server designates nothing
+    // (`todays_pick: null`) and states when it will be out. Falling back to "the
+    // newest row in picks.json" then drew YESTERDAY's pick under today's slot,
+    // which is not merely old — it is a different pick presented as today's.
+    // Measured 2026-09-21: staged, due 2026-09-22T00:00:00Z, hero showing
+    // 09-20's Pittsburgh Pirates.
+    const latest = designated
+      || (freePickDue ? null : picks.find(p => p.pick !== 'No Play'));
+    if (!latest && freePickDue) {
+      document.getElementById('pickSportDate').textContent = 'Free Pick · Today';
+      document.getElementById('pickTeam').textContent = 'Pick releases soon';
+      const ccrEl = document.getElementById('pickCCR');
+      ccrEl.textContent = '';
+      ccrEl.className = 'ccr-badge';
+      document.getElementById('pickTag').textContent =
+        '⏳ Due ' + new Date(freePickDue).toLocaleTimeString(
+          'en-US', {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'});
+    }
     if (latest) {
       const displaySport = latest.source_sport || latest.sport;
       document.getElementById('pickSportDate').textContent =
