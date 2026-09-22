@@ -1,83 +1,72 @@
 {
-  "generated_at": "2026-09-21T16:06:20.818015+00:00",
-  "iso_date": "2026-09-20",
-  "display_date": "Sun \u00b7 Sep 20, 2026",
+  "generated_at": "2026-09-22T15:01:56.134445+00:00",
+  "iso_date": "2026-09-18",
+  "display_date": "Fri \u00b7 Sep 18, 2026",
   "summary": {
     "wins": 5,
-    "losses": 1,
+    "losses": 0,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 6,
-    "units_staked": 9.0,
-    "units_pl": 5.32,
-    "roi_pct": 59.07
+    "total_picks": 5,
+    "units_staked": 6.5,
+    "units_pl": 5.03,
+    "roi_pct": 77.35
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Seattle Storm @ Las Vegas Aces",
-      "pick": "Las Vegas Aces -16.5",
+      "sport": "NCAAF",
+      "game": "Portland State Vikings @ Oregon Ducks",
+      "pick": "Oregon Ducks -58.0",
       "bet_type": "ATS",
-      "odds": "-104.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.9231,
-      "hash_id": "dbbe032fcb9ece61177724843bec252bd64e7fc03200da858ebac410450adcb1"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Minnesota Lynx @ Connecticut Sun",
-      "pick": "Minnesota Lynx -17.5",
-      "bet_type": "ATS",
-      "odds": "-106.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "e22c056f92a24facee3efbd03f1c88a6a7ea18b1f1551b5b7895e951bb49ad50"
-    },
-    {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ Pittsburgh Pirates",
-      "pick": "Pittsburgh Pirates ML",
-      "bet_type": "ML",
       "odds": "-110.0",
       "result": "W",
       "units": 1.0,
       "profit_units": 0.9091,
-      "hash_id": "39926e9120c2cf183129232f883100ae9d9864ec797bade94d9b4a08af54b93a"
-    },
-    {
-      "sport": "MLB",
-      "game": "Athletics @ Cleveland Guardians",
-      "pick": "Cleveland Guardians ML",
-      "bet_type": "ML",
-      "odds": "-230.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 0.6522,
-      "hash_id": "f569786d48eb491121236fbbd530ac14eca5ec9afd832018ad71171c0cea0a29"
+      "hash_id": "45d0146cbd1ac7a0843b6eb4e1b2a6322d56e5a10019745b62d484b0342dd978"
     },
     {
       "sport": "WNBA",
-      "game": "New York Liberty @ Toronto Tempo",
-      "pick": "New York Liberty -14.5",
+      "game": "Indiana Fever @ Toronto Tempo",
+      "pick": "Indiana Fever -14.5",
       "bet_type": "ATS",
       "odds": "-106.0",
       "result": "W",
-      "units": 1.5,
-      "profit_units": 1.4151,
-      "hash_id": "03e7b439ea71785fb56f9b7bd1f5870ef91c2471cb9736fc7a3218c2c3ccbe65"
+      "units": 2.0,
+      "profit_units": 1.8868,
+      "hash_id": "2a86c75c55f63f253fef0ac573b7301484936905d20a1b17a971aa2784342b73"
     },
     {
-      "sport": "NFL",
-      "game": "Miami Dolphins @ San Francisco 49ers",
-      "pick": "San Francisco 49ers -12.5",
-      "bet_type": "ATS",
-      "odds": "-105.0",
+      "sport": "MLB",
+      "game": "San Francisco Giants @ Los Angeles Dodgers",
+      "pick": "Los Angeles Dodgers ML",
+      "bet_type": "ML",
+      "odds": "-300.0",
       "result": "W",
-      "units": 1.75,
-      "profit_units": 1.6667,
-      "hash_id": "9bfb047f06e6069c9f47191be266732cad892858d903b1a2b53c9364cbc202a7"
+      "units": 1.5,
+      "profit_units": 0.5,
+      "hash_id": "df9b065d6feeba4d63404e392204925bd9f23041c2ed49ca79bfbd159c6edf66"
+    },
+    {
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Houston Astros",
+      "pick": "Atlanta Braves ML",
+      "bet_type": "ML",
+      "odds": "-116.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.8621,
+      "hash_id": "860eb376f44a6b91ae4d1e81b0bc1ad1cdbd1b70e0fc8153dd953d03516db587"
+    },
+    {
+      "sport": "MLB",
+      "game": "New York Yankees @ Arizona Diamondbacks",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": "-115.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.8696,
+      "hash_id": "943c719ba3d939a6dbe198d490444df4af04b7086d5b886bcbb14b8ef8bebbe0"
     }
   ]
 }
