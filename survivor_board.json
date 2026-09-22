@@ -10,20 +10,20 @@
       "source": "human:shark",
       "record": {
         "wins": 34,
-        "losses": 23,
+        "losses": 24,
         "pushes": 0,
-        "current": 1,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 0.14,
-        "pl_priced": 52,
-        "pl_settled": 57,
-        "pl_flat_units": -1.38,
+        "alive": false,
+        "pl_units": -0.86,
+        "pl_priced": 53,
+        "pl_settled": 58,
+        "pl_flat_units": -2.38,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "1 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": null
     },
     {
