@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-21",
+    "source_sport": "WNBA",
+    "game": "Dallas Wings @ Phoenix Mercury",
+    "pick": "Dallas Wings -5.5",
+    "pick_display": "Dallas Wings -5.5",
+    "bet_type": "ATS",
+    "line": -5.5,
+    "price": -110.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "0a9611be18e3f24b6d563c4284b7250943c705f88dc3ea0e2d0895ab87045edc"
+  },
+  {
     "date": "2026-09-20",
     "source_sport": "MLB",
     "game": "Kansas City Royals @ Pittsburgh Pirates",
