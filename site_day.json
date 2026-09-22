@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:02:27.617349+00:00",
+  "generated_at": "2026-09-22T15:39:08.034499+00:00",
   "run_date": "2026-09-22",
   "as_of": "2026-09-21",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-09-22",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-09-22T08:02:46-07:00",
+      "fire_pt": "2026-09-22 08:02 PDT"
     },
     "prior_run": {
       "date": "2026-09-21",
@@ -166,17 +166,17 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 127,
-        "beat": 64,
-        "beat_rate": 0.5039,
-        "avg_clv": 0.0136,
+        "n": 128,
+        "beat": 65,
+        "beat_rate": 0.5078,
+        "avg_clv": 0.0135,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
           "ATS": {
-            "n": 68,
-            "beat": 29,
-            "beat_rate": 0.4265,
+            "n": 69,
+            "beat": 30,
+            "beat_rate": 0.4348,
             "avg_clv": -0.002
           },
           "ML": {
@@ -196,13 +196,13 @@
           "n": 30,
           "beat": 26,
           "beat_rate": 0.8667,
-          "avg_clv": 0.0121,
+          "avg_clv": 0.0113,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-20",
-        "generated_utc": "2026-09-21T16:08:02+00:00"
+        "last": "2026-09-21",
+        "generated_utc": "2026-09-22T15:03:53+00:00"
       }
     },
     "paid": {
@@ -5467,16 +5467,16 @@
         "rank": 3
       },
       {
-        "record": "78-64-3P",
+        "record": "78-65-3P",
         "wins": 78,
-        "losses": 64,
+        "losses": 65,
         "pushes": 3,
         "voided": 29,
-        "settled": 145,
-        "pending": 2,
-        "net_units": -21.93,
-        "roi_pct": -11.93,
-        "roi_lcb95": -23.42,
+        "settled": 146,
+        "pending": 1,
+        "net_units": -22.43,
+        "roi_pct": -12.16,
+        "roi_lcb95": -23.71,
         "start": "2026-04-01",
         "end": "2026-09-22",
         "small_sample": false,
@@ -5484,16 +5484,16 @@
         "ranked": true,
         "lanes": [
           {
-            "record": "14-16",
+            "record": "14-17",
             "wins": 14,
-            "losses": 16,
+            "losses": 17,
             "pushes": 0,
             "voided": 0,
-            "settled": 30,
-            "pending": 1,
-            "net_units": -6.15,
-            "roi_pct": -17.71,
-            "roi_lcb95": -44.55,
+            "settled": 31,
+            "pending": 0,
+            "net_units": -6.65,
+            "roi_pct": -18.74,
+            "roi_lcb95": -44.06,
             "start": "2026-04-05",
             "end": "2026-09-22",
             "small_sample": false,
@@ -5515,6 +5515,23 @@
                 "end": "2026-09-19",
                 "small_sample": true,
                 "market": "ML",
+                "ranked": false
+              },
+              {
+                "record": "1-1",
+                "wins": 1,
+                "losses": 1,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 2,
+                "pending": 0,
+                "net_units": 0.17,
+                "roi_pct": 9.53,
+                "roi_lcb95": -66.67,
+                "start": "2026-08-20",
+                "end": "2026-09-22",
+                "small_sample": true,
+                "market": "SPREAD",
                 "ranked": false
               },
               {
@@ -5549,23 +5566,6 @@
                 "end": "2026-04-22",
                 "small_sample": true,
                 "market": "TOTAL",
-                "ranked": false
-              },
-              {
-                "record": "1-0",
-                "wins": 1,
-                "losses": 0,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 1,
-                "pending": 1,
-                "net_units": 0.67,
-                "roi_pct": 66.67,
-                "roi_lcb95": null,
-                "start": "2026-08-20",
-                "end": "2026-09-22",
-                "small_sample": true,
-                "market": "SPREAD",
                 "ranked": false
               }
             ],
@@ -8154,19 +8154,28 @@
   },
   "pickers_contributing": 12,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-09-22T08:02:46-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:35 AM PT",
+    "first_leg_time": "4:30 PM PT",
+    "first_leg_utc": "2026-09-22T23:30:00+00:00",
+    "leg_times_utc": [
+      "2026-09-22T23:30:00+00:00",
+      "2026-09-23T00:00:00+00:00",
+      "2026-09-23T02:00:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-22",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Toronto Blue Jays @ Baltimore Orioles, Cincinnati Reds @ Atlanta Braves",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:35 AM PT \u00b7 3 picks, WNBA \u00b7 first leg fires 4:30 PM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Toronto Blue Jays @ Baltimore Orioles, Cincinnati Reds @ Atlanta Braves"
+      "Paid card shipped 8:35 AM PT",
+      "3 picks, WNBA",
+      "first leg fires 4:30 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8177,11 +8186,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 47 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
+    "free_pick_live": true,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-22",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:02 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "4:30 PM PT",
+    "updated_pt": "8:39 AM PT"
   }
 }
