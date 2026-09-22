@@ -1,10 +1,31 @@
 {
-  "day": "2026-09-21",
-  "deadline_utc": "2026-09-21T20:40:48+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-09-21T22:36:00+00:00",
+  "day": "2026-09-22",
+  "deadline_utc": "2026-09-22T22:41:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-09-23T00:41:00+00:00",
   "submitted_count": 1,
   "entries": [
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 27,
+        "losses": 28,
+        "pushes": 1,
+        "current": 1,
+        "longest": 4,
+        "alive": true,
+        "pl_units": -2.99,
+        "pl_priced": 56,
+        "pl_settled": 56,
+        "pl_flat_units": -3.98,
+        "next_wager_from_base": null,
+        "ramp_units": 0.0,
+        "loss_run": 0
+      },
+      "note": "1 up, building again",
+      "pick": null
+    },
     {
       "name": "Shark",
       "source": "human:shark",
@@ -24,34 +45,13 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
-    },
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 26,
-        "losses": 28,
-        "pushes": 1,
-        "current": 0,
-        "longest": 4,
-        "alive": false,
-        "pl_units": -6.63,
-        "pl_priced": 55,
-        "pl_settled": 55,
-        "pl_flat_units": -4.89,
-        "next_wager_from_base": null,
-        "ramp_units": 3.0,
-        "loss_run": 3
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Under 47.5",
-        "game": "New York Giants @ Los Angeles Rams",
-        "sport": "NFL",
-        "odds": -110,
+        "pick": "Over 11",
+        "game": "Arizona Diamondbacks @ Colorado Rockies",
+        "sport": "MLB",
+        "odds": -105,
         "units": 1,
-        "start_utc": "2026-09-22T00:15:00+00:00",
+        "start_utc": "2026-09-23T00:41:00+00:00",
         "result": null
       }
     }
