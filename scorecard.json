@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-22T03:38:33+00:00",
+  "generated_utc": "2026-09-22T03:52:51+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -650,6 +650,93 @@
         "day": "2026-09-20",
         "pick": "over 46.5",
         "result": "W"
+      }
+    },
+    "pull": {
+      "todays_pick": null,
+      "todays_pick_due_utc": "",
+      "short": "PULL v2",
+      "label": "Pull the Handle v2",
+      "blurb": "2-to-6-leg independent tickets off the full board",
+      "as_of": "2026-09-20",
+      "since": "2026-09-13",
+      "count_only": false,
+      "withheld": [],
+      "withheld_reason": null,
+      "unresolved": 0,
+      "small_sample": true,
+      "bands": [
+        {
+          "label": "L10",
+          "record": "0-10",
+          "wins": 0,
+          "losses": 10,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "settled": 10,
+          "start": "2026-09-17",
+          "end": "2026-09-20",
+          "net_units": -2.45,
+          "roi_pct": -100.0,
+          "vs_all_time": "below",
+          "text": "PULL v2 L10: 0-10 \u00b7 ROI: -100.0%"
+        },
+        {
+          "label": "L25",
+          "record": "1-24",
+          "wins": 1,
+          "losses": 24,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "settled": 25,
+          "start": "2026-09-13",
+          "end": "2026-09-20",
+          "net_units": -3.75,
+          "roi_pct": -60.0,
+          "vs_all_time": "below",
+          "text": "PULL v2 L25: 1-24 \u00b7 ROI: -60.0%"
+        },
+        {
+          "label": "L50",
+          "record": "2-25",
+          "wins": 2,
+          "losses": 25,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "settled": 27,
+          "start": "2026-09-13",
+          "end": "2026-09-20",
+          "net_units": -2.85,
+          "roi_pct": -40.14,
+          "vs_all_time": "below",
+          "text": "PULL v2 L50: 2-25 \u00b7 ROI: -40.1%"
+        },
+        {
+          "label": "ALL-TIME",
+          "record": "2-25",
+          "wins": 2,
+          "losses": 25,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "settled": 27,
+          "start": "2026-09-13",
+          "end": "2026-09-20",
+          "net_units": -2.85,
+          "roi_pct": -40.14,
+          "vs_all_time": null,
+          "text": "PULL v2 ALL-TIME: 2-25 \u00b7 ROI: -40.1%"
+        }
+      ],
+      "plain": "This product has made 27 picks since 2026-09-13. About 7 out of every 100 won. That is fewer than it needs to break even, so it is down overall.",
+      "streak": "16L",
+      "today": {
+        "day": "2026-09-20",
+        "pick": "6-leg ticket",
+        "result": "L"
       }
     }
   },
@@ -8153,6 +8240,31 @@
     "nfl_weekly.streak": "1W",
     "nfl_weekly.today.pick": "",
     "nfl_weekly.today.game": "",
-    "nfl_weekly.today.sport": ""
+    "nfl_weekly.today.sport": "",
+    "pull.record.l10": "0-10",
+    "pull.settled.l10": "10",
+    "pull.roi.l10": "-100.0%",
+    "pull.units.l10": "-2.45u",
+    "pull.record.l25": "1-24",
+    "pull.settled.l25": "25",
+    "pull.roi.l25": "-60.0%",
+    "pull.units.l25": "-3.75u",
+    "pull.record.l50": "2-25",
+    "pull.settled.l50": "27",
+    "pull.roi.l50": "-40.1%",
+    "pull.units.l50": "-2.85u",
+    "pull.record.all_time": "2-25",
+    "pull.settled.all_time": "27",
+    "pull.roi.all_time": "-40.1%",
+    "pull.units.all_time": "-2.85u",
+    "pull.label": "Pull the Handle v2",
+    "pull.short": "PULL v2",
+    "pull.since": "2026-09-13",
+    "pull.as_of": "2026-09-20",
+    "pull.plain": "This product has made 27 picks since 2026-09-13. About 7 out of every 100 won. That is fewer than it needs to break even, so it is down overall.",
+    "pull.streak": "16L",
+    "pull.today.pick": "",
+    "pull.today.game": "",
+    "pull.today.sport": ""
   }
 }
