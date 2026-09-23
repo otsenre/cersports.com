@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:02:38.584684+00:00",
+  "generated_at": "2026-09-23T16:10:05.273109+00:00",
   "run_date": "2026-09-23",
   "as_of": "2026-09-22",
   "anchor": "2026-03-20",
@@ -8158,15 +8158,26 @@
     "free_pick_site_published_at_utc": "2026-09-23T08:00:21-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "9:04 AM PT",
+    "first_leg_time": "4:16 PM PT",
+    "first_leg_utc": "2026-09-23T23:16:00+00:00",
+    "leg_times_utc": [
+      "2026-09-23T23:16:00+00:00",
+      "2026-09-24T00:41:00+00:00",
+      "2026-09-24T01:30:00+00:00",
+      "2026-09-24T02:11:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-23",
-    "stage": "paid_card_released",
-    "line": "Today\u2019s Paid Card is live. \u00b7 \u26c8 Weather: Arizona Diamondbacks @ Colorado Rockies",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 9:04 AM PT \u00b7 4 picks, MLB + MLS \u00b7 first leg fires 4:16 PM PT \u00b7 \u26c8 Weather: Arizona Diamondbacks @ Colorado Rockies",
     "parts": [
-      "Today\u2019s Paid Card is live.",
+      "Paid card shipped 9:04 AM PT",
+      "4 picks, MLB + MLS",
+      "first leg fires 4:16 PM PT",
       "\u26c8 Weather: Arizona Diamondbacks @ Colorado Rockies"
     ],
     "expected_by": {
@@ -8179,10 +8190,10 @@
       "basis": "p90 of 48 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-23",
     "paid_card_session_state": "RELEASED",
-    "first_leg_time": null,
-    "updated_pt": "9:02 AM PT"
+    "first_leg_time": "4:16 PM PT",
+    "updated_pt": "9:10 AM PT"
   }
 }
