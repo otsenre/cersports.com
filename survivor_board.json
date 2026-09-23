@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-23T23:41:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-09-24T01:41:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -53,7 +53,15 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Over 8",
+        "game": "San Diego Padres @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": -115,
+        "units": 1,
+        "start_utc": "2026-09-24T02:11:00+00:00",
+        "result": null
+      }
     }
   ]
 }
