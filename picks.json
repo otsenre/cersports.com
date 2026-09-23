@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-23",
+    "sport": "FREE_PICK",
+    "game": "Dallas Wings @ Seattle Storm",
+    "pick": "Dallas Wings -9.5",
+    "bet_type": "ATS",
+    "line": -9.5,
+    "pick_display": "Dallas Wings -9.5 -9.5 \u2014 Dallas Wings @ Seattle Storm",
+    "edge": 0,
+    "ccr": 7.4,
+    "ccr_avg": 7.4,
+    "tier": "B",
+    "result": null,
+    "units": 1.5,
+    "hash_id": "153e809102eae909ee1c277ac5d82f589a3bb3785898b6ec9fd7a787f0c41c73",
+    "source_sport": "WNBA"
+  },
+  {
     "date": "2026-09-22",
     "source_sport": "WNBA",
     "game": "Los Angeles Sparks @ Las Vegas Aces",
