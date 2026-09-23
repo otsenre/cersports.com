@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-22",
+    "source_sport": "WNBA",
+    "game": "Los Angeles Sparks @ Las Vegas Aces",
+    "pick": "Las Vegas Aces -17.5",
+    "pick_display": "Las Vegas Aces -17.5",
+    "bet_type": "ATS",
+    "line": -17.5,
+    "price": -110.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "ea90f103e2931856bd72f84d63609cf6016881a20f402fd6bdac782ea33838b6"
+  },
+  {
     "date": "2026-09-21",
     "source_sport": "WNBA",
     "game": "Dallas Wings @ Phoenix Mercury",
