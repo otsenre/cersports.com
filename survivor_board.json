@@ -30,21 +30,21 @@
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 27,
+        "wins": 28,
         "losses": 30,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 4,
-        "alive": false,
-        "pl_units": -5.99,
-        "pl_priced": 58,
-        "pl_settled": 58,
-        "pl_flat_units": -5.98,
+        "alive": true,
+        "pl_units": -3.65,
+        "pl_priced": 59,
+        "pl_settled": 59,
+        "pl_flat_units": -5.2,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 0.0,
+        "loss_run": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
         "pick": "Chicago White Sox ML",
         "game": "Chicago White Sox @ Kansas City Royals",
@@ -52,7 +52,7 @@
         "odds": -128,
         "units": 1,
         "start_utc": "2026-09-24T18:11:00+00:00",
-        "result": null
+        "result": "W"
       }
     }
   ]
