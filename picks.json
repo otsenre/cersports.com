@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-23",
+    "source_sport": "MLB",
+    "game": "San Diego Padres @ Los Angeles Dodgers",
+    "pick": "Los Angeles Dodgers ML",
+    "pick_display": "Los Angeles Dodgers ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -218.0,
+    "handicap": null,
+    "ccr": null,
+    "ccr_avg": null,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "285d2b24a2f190ce63fc6135ab4d04b20fb62d89f2abe68d29d6c2734aff4ce9"
+  },
+  {
     "date": "2026-09-22",
     "source_sport": "WNBA",
     "game": "Los Angeles Sparks @ Las Vegas Aces",
