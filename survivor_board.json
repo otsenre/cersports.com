@@ -1,8 +1,8 @@
 {
-  "day": "2026-09-24",
-  "deadline_utc": "2026-09-24T18:06:00+00:00",
-  "deadline_reason": "game starts within 35 minutes of the first pick; publishing 5 minutes before first pitch",
-  "earliest_start_utc": "2026-09-24T18:11:00+00:00",
+  "day": "2026-09-25",
+  "deadline_utc": "2026-09-25T23:41:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-09-26T01:41:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Over 9",
+        "game": "Houston Astros @ Athletics",
+        "sport": "MLB",
+        "odds": -109,
+        "units": 1,
+        "start_utc": "2026-09-26T01:41:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
@@ -45,15 +53,7 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Chicago White Sox ML",
-        "game": "Chicago White Sox @ Kansas City Royals",
-        "sport": "MLB",
-        "odds": -128,
-        "units": 1,
-        "start_utc": "2026-09-24T18:11:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     }
   ]
 }
