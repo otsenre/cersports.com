@@ -1,9 +1,9 @@
 {
   "day": "2026-09-25",
-  "deadline_utc": "2026-09-25T23:41:00+00:00",
+  "deadline_utc": "2026-09-25T21:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-26T01:41:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-09-25T23:40:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -53,7 +53,15 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Over 8",
+        "game": "Colorado Rockies @ Chicago White Sox",
+        "sport": "MLB",
+        "odds": -108,
+        "units": 1,
+        "start_utc": "2026-09-25T23:40:00+00:00",
+        "result": null
+      }
     }
   ]
 }
