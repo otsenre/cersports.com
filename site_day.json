@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:04:34.102958+00:00",
+  "generated_at": "2026-09-25T15:41:04.667619+00:00",
   "run_date": "2026-09-25",
   "as_of": "2026-09-24",
   "anchor": "2026-03-20",
@@ -166,18 +166,18 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 130,
-        "beat": 66,
-        "beat_rate": 0.5077,
-        "avg_clv": 0.0133,
+        "n": 131,
+        "beat": 67,
+        "beat_rate": 0.5115,
+        "avg_clv": 0.0132,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
           "ATS": {
-            "n": 70,
-            "beat": 30,
-            "beat_rate": 0.4286,
-            "avg_clv": -0.002
+            "n": 71,
+            "beat": 31,
+            "beat_rate": 0.4366,
+            "avg_clv": -0.0019
           },
           "ML": {
             "n": 49,
@@ -196,13 +196,13 @@
           "n": 30,
           "beat": 26,
           "beat_rate": 0.8667,
-          "avg_clv": 0.0111,
+          "avg_clv": 0.0102,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-23",
-        "generated_utc": "2026-09-24T15:08:44+00:00"
+        "last": "2026-09-24",
+        "generated_utc": "2026-09-25T15:05:47+00:00"
       }
     },
     "paid": {
@@ -8174,16 +8174,23 @@
     "free_pick_site_published_at_utc": "2026-09-25T08:01:27-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:35 AM PT",
+    "first_leg_time": "1:05 PM PT",
+    "first_leg_utc": "2026-09-25T20:05:00+00:00",
+    "leg_times_utc": [
+      "2026-09-25T20:05:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-25",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather on 6 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:35 AM PT \u00b7 1 pick, MLB \u00b7 first leg fires 1:05 PM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather on 6 games"
+      "Paid card shipped 8:35 AM PT",
+      "1 pick, MLB",
+      "first leg fires 1:05 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8195,10 +8202,10 @@
       "basis": "p90 of 50 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-25",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:04 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "1:05 PM PT",
+    "updated_pt": "8:41 AM PT"
   }
 }
