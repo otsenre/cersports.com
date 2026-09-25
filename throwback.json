@@ -1,83 +1,72 @@
 {
-  "generated_at": "2026-09-24T15:06:06.261170+00:00",
-  "iso_date": "2026-09-11",
-  "display_date": "Fri \u00b7 Sep 11, 2026",
+  "generated_at": "2026-09-25T15:04:08.507653+00:00",
+  "iso_date": "2026-08-31",
+  "display_date": "Mon \u00b7 Aug 31, 2026",
   "summary": {
-    "wins": 3,
-    "losses": 3,
+    "wins": 4,
+    "losses": 1,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 6,
+    "total_picks": 5,
     "units_staked": 7.75,
-    "units_pl": -0.83,
-    "roi_pct": -10.7
+    "units_pl": 4.75,
+    "roi_pct": 61.24
   },
   "picks": [
     {
       "sport": "ATP",
-      "game": "Ben Shelton vs Frances Tiafoe",
-      "pick": "Ben Shelton -4.5 Games",
+      "game": "Hubert Hurkacz vs Damir Dzumhur",
+      "pick": "Hubert Hurkacz -7.5 Games",
       "bet_type": "ATS",
-      "odds": "100.0",
+      "odds": "105.0",
       "result": "W",
-      "units": 1.25,
-      "profit_units": 1.25,
-      "hash_id": "0cc14d75b3be8cecf1e6686a8c2248840db30815a57a1d8220cf58866e947073"
+      "units": 1.75,
+      "profit_units": 1.8375,
+      "hash_id": "fe8f2bf670df6e9fdfd749405df1238835a1fcb8816f34b8b1740ecd979dfd1b"
     },
     {
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Miami Marlins",
-      "pick": "Los Angeles Dodgers ML",
-      "bet_type": "ML",
-      "odds": "-209.0",
-      "result": "W",
-      "units": 1.0,
-      "profit_units": 0.4785,
-      "hash_id": "415ee135ee9dada75c7bd7173bf1f71b9dd6ac33ff65da7cc6d009ade02c5b03"
-    },
-    {
-      "sport": "MLB",
-      "game": "Kansas City Royals @ Boston Red Sox",
-      "pick": "Boston Red Sox -1.5",
+      "sport": "WTA",
+      "game": "Xiyu Wang vs Iga Swiatek",
+      "pick": "Iga Swiatek -6.5 Games",
       "bet_type": "ATS",
-      "odds": "108.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "20da0f3966352b53c1b09b30a4750c2bda3df484a6bd42f0da437fcd4c1f7dd3"
+      "odds": "102.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 2.04,
+      "hash_id": "ba8760d49ce8657be3c2807d1223821bba114381ae2dbb6a604477efbf461d2d"
     },
     {
-      "sport": "MLB",
-      "game": "Baltimore Orioles @ Toronto Blue Jays",
-      "pick": "Toronto Blue Jays ML",
-      "bet_type": "ML",
-      "odds": "-125.0",
+      "sport": "WTA",
+      "game": "Maria Camila Osorio Serrano vs Aryna Sabalenka",
+      "pick": "Aryna Sabalenka -6.5 Games",
+      "bet_type": "ATS",
+      "odds": "106.0",
       "result": "L",
       "units": 1.5,
       "profit_units": -1.5,
-      "hash_id": "0d75305e97e0cb19a3a5e9d6bfe55e10480c2f648d080f19c591d97e03d01d2c"
+      "hash_id": "5ac55ae2bad62a3786fd3b97cbc8c95b857aea713204e35c494f1b40a7f6ebaf"
     },
     {
-      "sport": "LALIGA",
-      "game": "Valencia @ Sevilla",
-      "pick": "Sevilla ML",
-      "bet_type": "ML",
-      "odds": "-104.0",
+      "sport": "WTA",
+      "game": "Sorana Cirstea vs Julia Grabher",
+      "pick": "Sorana Cirstea -6.5 Games",
+      "bet_type": "ATS",
+      "odds": "105.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 1.4423,
-      "hash_id": "42463865738382b522fb6cf75b06b5381444171fc8fe04a27abfa8244d82624a"
+      "profit_units": 1.575,
+      "hash_id": "da2c5c62b0430f409c9ee4ff479ea16e0c06087cd0b140ecb7774fef99812a51"
     },
     {
-      "sport": "NCAAF",
-      "game": "Rutgers Scarlet Knights @ Boston College Eagles",
-      "pick": "Rutgers Scarlet Knights +3.5",
-      "bet_type": "ATS",
-      "odds": "-115.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "8cfff9d6b63065a926be4f5189899c0cd2af3c94285f276dc57a44d9e184b602"
+      "sport": "MLB",
+      "game": "Chicago White Sox @ Houston Astros",
+      "pick": "Houston Astros ML",
+      "bet_type": "ML",
+      "odds": "-126.0",
+      "result": "W",
+      "units": 1.0,
+      "profit_units": 0.7937,
+      "hash_id": "3f9bc8c90417569fa1ed2e90ce9bf24a5e5234b26926ca02c680179b7bd50f1b"
     }
   ]
 }
