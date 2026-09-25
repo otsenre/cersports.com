@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-25",
+    "source_sport": "MLB",
+    "game": "Baltimore Orioles @ New York Yankees",
+    "pick": "New York Yankees -1.5",
+    "pick_display": "New York Yankees -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": 195.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "fccab400b85111f3625094498843fafc2daa8f803a7715a5f1e260cd93367908"
+  },
+  {
     "date": "2026-09-24",
     "source_sport": "WNBA",
     "game": "Golden State Valkyries @ Los Angeles Sparks",
