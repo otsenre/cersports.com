@@ -1,9 +1,9 @@
 {
   "day": "2026-09-26",
-  "deadline_utc": "2026-09-26T21:10:00+00:00",
+  "deadline_utc": "2026-09-26T18:06:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-26T23:10:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-09-26T20:06:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Dodgers ML",
+        "game": "Los Angeles Dodgers @ San Francisco Giants",
+        "sport": "MLB",
+        "odds": -284,
+        "units": 1,
+        "start_utc": "2026-09-26T20:06:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
