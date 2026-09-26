@@ -1,72 +1,61 @@
 {
-  "generated_at": "2026-09-25T15:04:08.507653+00:00",
-  "iso_date": "2026-08-31",
-  "display_date": "Mon \u00b7 Aug 31, 2026",
+  "generated_at": "2026-09-26T15:13:19.700361+00:00",
+  "iso_date": "2026-09-25",
+  "display_date": "Fri \u00b7 Sep 25, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 1,
+    "wins": 0,
+    "losses": 4,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 7.75,
-    "units_pl": 4.75,
-    "roi_pct": 61.24
+    "total_picks": 4,
+    "units_staked": 4.5,
+    "units_pl": -4.5,
+    "roi_pct": -100.0
   },
   "picks": [
     {
-      "sport": "ATP",
-      "game": "Hubert Hurkacz vs Damir Dzumhur",
-      "pick": "Hubert Hurkacz -7.5 Games",
-      "bet_type": "ATS",
-      "odds": "105.0",
-      "result": "W",
-      "units": 1.75,
-      "profit_units": 1.8375,
-      "hash_id": "fe8f2bf670df6e9fdfd749405df1238835a1fcb8816f34b8b1740ecd979dfd1b"
-    },
-    {
-      "sport": "WTA",
-      "game": "Xiyu Wang vs Iga Swiatek",
-      "pick": "Iga Swiatek -6.5 Games",
-      "bet_type": "ATS",
-      "odds": "102.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 2.04,
-      "hash_id": "ba8760d49ce8657be3c2807d1223821bba114381ae2dbb6a604477efbf461d2d"
-    },
-    {
-      "sport": "WTA",
-      "game": "Maria Camila Osorio Serrano vs Aryna Sabalenka",
-      "pick": "Aryna Sabalenka -6.5 Games",
-      "bet_type": "ATS",
-      "odds": "106.0",
-      "result": "L",
-      "units": 1.5,
-      "profit_units": -1.5,
-      "hash_id": "5ac55ae2bad62a3786fd3b97cbc8c95b857aea713204e35c494f1b40a7f6ebaf"
-    },
-    {
-      "sport": "WTA",
-      "game": "Sorana Cirstea vs Julia Grabher",
-      "pick": "Sorana Cirstea -6.5 Games",
-      "bet_type": "ATS",
-      "odds": "105.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.575,
-      "hash_id": "da2c5c62b0430f409c9ee4ff479ea16e0c06087cd0b140ecb7774fef99812a51"
-    },
-    {
       "sport": "MLB",
-      "game": "Chicago White Sox @ Houston Astros",
-      "pick": "Houston Astros ML",
-      "bet_type": "ML",
-      "odds": "-126.0",
-      "result": "W",
+      "game": "Baltimore Orioles @ New York Yankees",
+      "pick": "New York Yankees -1.5",
+      "bet_type": "ATS",
+      "odds": "195.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "fccab400b85111f3625094498843fafc2daa8f803a7715a5f1e260cd93367908"
+    },
+    {
+      "sport": "NCAAF",
+      "game": "Navy Midshipmen @ UAB Blazers",
+      "pick": "Navy Midshipmen -6.5",
+      "bet_type": "ATS",
+      "odds": "-108.0",
+      "result": "L",
       "units": 1.0,
-      "profit_units": 0.7937,
-      "hash_id": "3f9bc8c90417569fa1ed2e90ce9bf24a5e5234b26926ca02c680179b7bd50f1b"
+      "profit_units": -1.0,
+      "hash_id": "07b21abada9777e63d9cbd40a9669b077aaf4390513449fc099996531d715ea0"
+    },
+    {
+      "sport": "NCAAF",
+      "game": "Northwestern Wildcats @ Indiana Hoosiers",
+      "pick": "Indiana Hoosiers -20.5",
+      "bet_type": "ATS",
+      "odds": "-105.0",
+      "result": "L",
+      "units": 1.0,
+      "profit_units": -1.0,
+      "hash_id": "25a2c412ac52bbbb77c9a4aa78676778e3eb53a45fa0f65aa6bcdf1994861984"
+    },
+    {
+      "sport": "NCAAF",
+      "game": "Clemson Tigers @ California Golden Bears",
+      "pick": "California Golden Bears +1.5",
+      "bet_type": "ATS",
+      "odds": "-108.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "6786e4599db1a7122b3b2c72020d9621894e60ac1e166e8a955393fcf1bdc738"
     }
   ]
 }
