@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-25",
-  "deadline_utc": "2026-09-25T21:40:00+00:00",
+  "day": "2026-09-26",
+  "deadline_utc": "2026-09-26T21:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-25T23:40:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-09-26T23:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": {
-        "pick": "Over 9",
-        "game": "Houston Astros @ Athletics",
-        "sport": "MLB",
-        "odds": -109,
-        "units": 1,
-        "start_utc": "2026-09-26T01:41:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -54,13 +46,13 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 8",
-        "game": "Colorado Rockies @ Chicago White Sox",
+        "pick": "Cleveland Guardians ML",
+        "game": "Cleveland Guardians @ Kansas City Royals",
         "sport": "MLB",
-        "odds": -108,
+        "odds": -115,
         "units": 1,
-        "start_utc": "2026-09-25T23:40:00+00:00",
-        "result": "L"
+        "start_utc": "2026-09-26T23:10:00+00:00",
+        "result": null
       }
     }
   ]
