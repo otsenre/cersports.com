@@ -1,61 +1,72 @@
 {
-  "generated_at": "2026-09-26T15:13:19.700361+00:00",
-  "iso_date": "2026-09-25",
-  "display_date": "Fri \u00b7 Sep 25, 2026",
+  "generated_at": "2026-09-27T15:16:15.804330+00:00",
+  "iso_date": "2026-09-24",
+  "display_date": "Thu \u00b7 Sep 24, 2026",
   "summary": {
-    "wins": 0,
-    "losses": 4,
+    "wins": 4,
+    "losses": 1,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 4,
-    "units_staked": 4.5,
-    "units_pl": -4.5,
-    "roi_pct": -100.0
+    "total_picks": 5,
+    "units_staked": 9.0,
+    "units_pl": 3.76,
+    "roi_pct": 41.78
   },
   "picks": [
     {
+      "sport": "WNBA",
+      "game": "Golden State Valkyries @ Los Angeles Sparks",
+      "pick": "Golden State Valkyries -11.5",
+      "bet_type": "ATS",
+      "odds": "-108.0",
+      "result": "L",
+      "units": 2.0,
+      "profit_units": -2.0,
+      "hash_id": "3c3c12dc545fbdcd662aafccd7a1aa3f7529906a11ab03e51e1577aa6aa1b1d9"
+    },
+    {
       "sport": "MLB",
-      "game": "Baltimore Orioles @ New York Yankees",
-      "pick": "New York Yankees -1.5",
-      "bet_type": "ATS",
-      "odds": "195.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "fccab400b85111f3625094498843fafc2daa8f803a7715a5f1e260cd93367908"
+      "game": "Arizona Diamondbacks @ Colorado Rockies",
+      "pick": "Over 10.5",
+      "bet_type": "Total",
+      "odds": "108.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 1.62,
+      "hash_id": "562b511ae56b8e29a456ed93e2c329af85d809450151df6aaa9233cf99f59bae"
     },
     {
-      "sport": "NCAAF",
-      "game": "Navy Midshipmen @ UAB Blazers",
-      "pick": "Navy Midshipmen -6.5",
+      "sport": "WNBA",
+      "game": "Toronto Tempo @ Connecticut Sun",
+      "pick": "Connecticut Sun -1.5",
       "bet_type": "ATS",
-      "odds": "-108.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "07b21abada9777e63d9cbd40a9669b077aaf4390513449fc099996531d715ea0"
+      "odds": "-118.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 1.6949,
+      "hash_id": "be633e7660086647e023c8484a5174aa94ba8b46263a81db6c65340a91423646"
     },
     {
-      "sport": "NCAAF",
-      "game": "Northwestern Wildcats @ Indiana Hoosiers",
-      "pick": "Indiana Hoosiers -20.5",
-      "bet_type": "ATS",
-      "odds": "-105.0",
-      "result": "L",
-      "units": 1.0,
-      "profit_units": -1.0,
-      "hash_id": "25a2c412ac52bbbb77c9a4aa78676778e3eb53a45fa0f65aa6bcdf1994861984"
+      "sport": "MLB",
+      "game": "Miami Marlins @ Chicago Cubs",
+      "pick": "Chicago Cubs ML",
+      "bet_type": "ML",
+      "odds": "-200.0",
+      "result": "W",
+      "units": 1.5,
+      "profit_units": 0.75,
+      "hash_id": "eb2e50e26f957673ea71448657f8119f073f3c54233da13924787b7386a72546"
     },
     {
-      "sport": "NCAAF",
-      "game": "Clemson Tigers @ California Golden Bears",
-      "pick": "California Golden Bears +1.5",
+      "sport": "WNBA",
+      "game": "Las Vegas Aces @ Phoenix Mercury",
+      "pick": "Las Vegas Aces -9.5",
       "bet_type": "ATS",
-      "odds": "-108.0",
-      "result": "L",
-      "units": 1.25,
-      "profit_units": -1.25,
-      "hash_id": "6786e4599db1a7122b3b2c72020d9621894e60ac1e166e8a955393fcf1bdc738"
+      "odds": "-118.0",
+      "result": "W",
+      "units": 2.0,
+      "profit_units": 1.6949,
+      "hash_id": "ab2c78024ee879a5cfd0e41a6f96cbe206862c2826583bea47f814c32318b5e3"
     }
   ]
 }
