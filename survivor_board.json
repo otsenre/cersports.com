@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-26",
-  "deadline_utc": "2026-09-26T18:06:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-26T20:06:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-09-27",
+  "deadline_utc": "2026-09-27T17:59:50+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-09-27T19:06:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,13 +25,13 @@
       },
       "note": "3 straight, best is 5",
       "pick": {
-        "pick": "Los Angeles Dodgers ML",
-        "game": "Los Angeles Dodgers @ San Francisco Giants",
+        "pick": "Houston Astros ML",
+        "game": "Houston Astros @ Athletics",
         "sport": "MLB",
-        "odds": -284,
+        "odds": -191,
         "units": 1,
-        "start_utc": "2026-09-26T20:06:00+00:00",
-        "result": "W"
+        "start_utc": "2026-09-27T19:06:00+00:00",
+        "result": null
       }
     },
     {
@@ -53,15 +53,7 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Cleveland Guardians ML",
-        "game": "Cleveland Guardians @ Kansas City Royals",
-        "sport": "MLB",
-        "odds": -115,
-        "units": 1,
-        "start_utc": "2026-09-26T23:10:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     }
   ]
 }
