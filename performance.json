@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:41:37.301116+00:00",
+  "generated_at": "2026-09-28T21:30:12.147519+00:00",
   "anchor": "2026-03-20",
   "as_of": "2026-09-28",
   "bands": [
@@ -96,21 +96,21 @@
       "record": "547-496",
       "wins": 547,
       "losses": 496,
-      "units_pl": -73.63,
+      "units_pl": -70.83,
       "units_staked": 1098.0,
-      "roi_pct": -6.71,
-      "bankroll_return_pct": -73.63,
+      "roi_pct": -6.45,
+      "bankroll_return_pct": -70.83,
       "bankroll_units": 100.0,
       "turnover_x": 10.98,
-      "max_drawdown_units": -118.6,
-      "max_drawdown_pct": -118.6,
-      "current_drawdown_units": -106.1,
-      "current_drawdown_pct": -106.1,
+      "max_drawdown_units": -115.8,
+      "max_drawdown_pct": -115.8,
+      "current_drawdown_units": -103.29,
+      "current_drawdown_pct": -103.29,
       "n": 1043,
-      "vs_spx": -92.64,
-      "vs_dji": -87.35,
-      "vs_ndx": -98.67,
-      "roi_minus_spx_pct": -25.72,
+      "vs_spx": -89.84,
+      "vs_dji": -84.55,
+      "vs_ndx": -95.87,
+      "roi_minus_spx_pct": -25.46,
       "spx_return_pct": 19.01,
       "dji_return_pct": 13.72,
       "ndx_return_pct": 25.04
@@ -119,15 +119,15 @@
   "indices": {
     "spx": {
       "date": "2026-09-28",
-      "close": 7695.830078125
+      "close": 7683.68994140625
     },
     "dji": {
       "date": "2026-09-28",
-      "close": 51556.30859375
+      "close": 51481.51171875
     },
     "ndx": {
       "date": "2026-09-28",
-      "close": 26879.88671875
+      "close": 26820.380859375
     }
   }
 }
