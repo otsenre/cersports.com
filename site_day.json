@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:53:02.221936+00:00",
+  "generated_at": "2026-09-28T17:30:24.432930+00:00",
   "run_date": "2026-09-28",
   "as_of": "2026-09-27",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-09-28",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-09-28T09:53:31-07:00",
+      "fire_pt": "2026-09-28 09:53 PDT"
     },
     "prior_run": {
       "date": "2026-09-27",
@@ -166,18 +166,18 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 132,
-        "beat": 68,
-        "beat_rate": 0.5152,
+        "n": 133,
+        "beat": 69,
+        "beat_rate": 0.5188,
         "avg_clv": 0.0133,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
           "ATS": {
-            "n": 72,
-            "beat": 32,
-            "beat_rate": 0.4444,
-            "avg_clv": -0.0016
+            "n": 73,
+            "beat": 33,
+            "beat_rate": 0.4521,
+            "avg_clv": -0.0014
           },
           "ML": {
             "n": 49,
@@ -194,15 +194,15 @@
         },
         "rolling": {
           "n": 30,
-          "beat": 27,
-          "beat_rate": 0.9,
-          "avg_clv": 0.0115,
+          "beat": 28,
+          "beat_rate": 0.9333,
+          "avg_clv": 0.0119,
           "meets_threshold": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-09-25",
-        "generated_utc": "2026-09-27T15:17:49+00:00"
+        "last": "2026-09-27",
+        "generated_utc": "2026-09-28T17:01:01+00:00"
       }
     },
     "paid": {
@@ -8225,18 +8225,27 @@
   },
   "pickers_contributing": 10,
   "morning_state": {
-    "free_pick_site_published_at_utc": null
+    "free_pick_site_published_at_utc": "2026-09-28T09:53:31-07:00"
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "10:25 AM PT",
+    "first_leg_time": "5:15 PM PT",
+    "first_leg_utc": "2026-09-29T00:15:00+00:00",
+    "leg_times_utc": [
+      "2026-09-29T00:15:00+00:00",
+      "2026-09-29T00:15:00+00:00"
+    ]
   },
   "status": {
     "contract": 1,
     "date": "2026-09-28",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review.",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 10:25 AM PT \u00b7 2 picks, NFL \u00b7 first leg fires 5:15 PM PT",
     "parts": [
-      "Today's Paid Card is in review."
+      "Paid card shipped 10:25 AM PT",
+      "2 picks, NFL",
+      "first leg fires 5:15 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8247,11 +8256,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 52 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
+    "free_pick_live": true,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-28",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "9:53 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "5:15 PM PT",
+    "updated_pt": "10:30 AM PT"
   }
 }
