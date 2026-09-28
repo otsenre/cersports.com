@@ -2424,7 +2424,10 @@ function renderRecap(rc) {
   const f = rc.free_pick || {};
   document.getElementById('recapFree').innerHTML = f.n
     ? `<div class="recap-free"><div class="throwback-eyebrow">FREE PICK</div>${f.picks.map(recapPickRow).join('')}</div>` : '';
-  const rows = (rc.products || []).filter(l => l.key !== 'paid' && l.key !== 'free').map(l => {
+  // Daily Card and Free Pick lead: their day is above, their running record
+  // belongs beside it (a 4-0 day with no all-time next to it is a highlight).
+  const order = { paid: 0, free: 1 };
+  const rows = (rc.products || []).slice().sort((a, b) => (order[a.key] ?? 2) - (order[b.key] ?? 2)).map(l => {
     const at = (l.bands || {})['ALL-TIME'] || {}, l25 = (l.bands || {})['L25'] || {};
     const band = b => b.record ? `${b.record} · ${fmtSigned(b.units, 2, 'u')}` : '—';
     const dev = l.in_development ? ' <span class="dev-badge">in development</span>' : '';
