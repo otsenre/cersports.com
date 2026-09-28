@@ -2302,6 +2302,13 @@ function clvNote(stats) {
   return out;
 }
 
+// A restated record says so (STYLE_GUIDE 7b). The wording is the producer's
+// (write_site_day.PAID_RESTATEMENT); the page only prints it.
+function restatementNote(stats) {
+  const r = stats && stats.restatement;
+  return r && r.note ? ' ' + r.note : '';
+}
+
 function scorecardNote(bands, as_of, product, stats) {
   const at = (bands || []).find(b => b.label === 'ALL-TIME');
   if (!at || bandIsEmpty(at)) {
@@ -2345,7 +2352,7 @@ function scorecardNote(bands, as_of, product, stats) {
   }
   const disposition = bits.length ? ` · ${bits.join(' · ')}` : '';
 
-  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${clvNote(stats)}${ruleProvenanceNote(stats)}`;
+  return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${clvNote(stats)}${ruleProvenanceNote(stats)}${restatementNote(stats)}`;
 }
 
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
@@ -2379,7 +2386,7 @@ async function loadSiteDay() {
       const el = document.getElementById(id);
       if (el) el.textContent = scorecardNote(bands, asOf, product, stats);
     };
-    note('paidNote', paid.bands, 'paid');
+    note('paidNote', paid.bands, 'paid', d.as_of, paid);
     note('freeNote', free.bands, 'free', free.as_of || d.as_of, free);
     DEV_PRODUCTS.forEach(function (key) {
       const sc = devSc[key];
