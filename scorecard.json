@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-09-28T22:15:09+00:00",
+  "generated_utc": "2026-09-28T22:22:46+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -8,7 +8,7 @@
         "pick": "Philadelphia Eagles ML",
         "game": "Philadelphia Eagles @ Chicago Bears",
         "sport": "NFL",
-        "ccr": null,
+        "ccr": 6.0,
         "odds": -192.0,
         "date": "2026-09-28"
       },
