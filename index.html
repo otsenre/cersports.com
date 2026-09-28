@@ -988,7 +988,7 @@ footer {
   <div class="stat-strip-inner">
     <div class="stat-item">
       <div class="stat-num" id="statFreePublished">—</div>
-      <div class="stat-label">Free Pick · Live PT</div>
+      <div class="stat-label" id="statFreeLabel">Free Pick · PT</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statPickers">—</div>
@@ -1083,7 +1083,7 @@ footer {
         <div class="price-tier">Week Pass</div>
         <div class="price-amount">$19</div>
         <div class="price-period">7 days</div>
-        <div class="price-daily">$2.71 / day · save -9%</div>
+        <div class="price-daily">$2.71 / day</div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">Everything in the 48-Hour Pass</div>
@@ -1491,7 +1491,7 @@ footer {
         <div>
           <span class="daycell-k">Site pushed</span>
           <span class="daycell-v" id="dayFire">—</span>
-          <span class="daycell-s" id="dayFireS">free pick live on site</span>
+          <span class="daycell-s" id="dayFireS">site refreshed</span>
         </div>
         <div>
           <span class="daycell-k">Day before</span>
@@ -2038,7 +2038,7 @@ async function loadCommittee() {
 
     // Stats are optional: the roster must still render if scorecard.json is
     // unreachable, so this failure is swallowed separately from the roster's.
-    let byName = {}, todays = null, snapForBoard = {};
+    let byName = {}, todays = null, todaysDate = null, snapForBoard = {};
     try {
       const sres = await fetch('scorecard.json?t=' + Date.now());
       const snap = await sres.json();
@@ -2046,6 +2046,7 @@ async function loadCommittee() {
       window.__cerProvenance = snap.provenance || {};
       (snap.free_pick_pickers || []).forEach(r => { byName[r.picker] = r; });
       todays = ((snap.products || {}).free || {}).todays_picker || null;
+      todaysDate = ((snap.products || {}).free || {}).todays_picker_date || null;
     } catch (e) { /* roster without records is still a roster */ }
 
     grid.innerHTML = '';
@@ -2087,9 +2088,20 @@ async function loadCommittee() {
       note.textContent =
         'Each picker reads the slate independently. We keep their identities under wraps — ' +
         'you get the consensus, not the noise. Records shown are each picker\u2019s own free picks, ' +
-        'graded in public. Today\u2019s free pick came from ' + todays + '.';
+        'graded in public. ' + freePickAttribution(todays, todaysDate);
     }
   } catch(e) { /* leave empty */ }
+}
+
+// The attribution names the most recent PUBLISHED free pick. Until the day's
+// release that is yesterday's, and calling it "today's" was wrong (2026-09-28).
+function freePickAttribution(name, day) {
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
+  if (!day || day === today) return 'Today\u2019s free pick came from ' + name + '.';
+  const when = new Date(day + 'T12:00:00Z');
+  const label = Number.isNaN(when.getTime()) ? day
+    : new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }).format(when);
+  return 'The latest free pick (' + label + ') came from ' + name + '.';
 }
 
 // ── INIT ─────────────────────────────────────────────────────────────────────
@@ -2407,7 +2419,19 @@ async function loadSiteDay() {
         timeZone: 'America/Los_Angeles', hour: 'numeric', minute: '2-digit', hour12: true,
       }).format(when);
     };
-    set('statFreePublished', ptTime(morning.free_pick_site_published_at_utc));
+    // THE FREE PICK'S OWN CLOCK, not the morning site push. It is withheld
+    // until ~2h before its game; the push time read "free pick live" at 09:53
+    // while the pick went public at 3:15 (2026-09-28).
+    const fpState = morning.free_pick_release_state;
+    const fpLive = fpState === 'released';
+    const fpWhen = fpLive ? morning.free_pick_published_at_utc
+                 : (fpState === 'staged' ? morning.free_pick_release_at_utc : null);
+    set('statFreePublished', ptTime(fpWhen));
+    set('statFreeLabel', fpLive ? 'Free Pick · Live PT'
+                       : fpState === 'staged' ? 'Free Pick · Releases PT' : 'Free Pick · PT');
+    set('dayFireS', fpLive ? `free pick live at ${ptTime(fpWhen)} PT`
+                  : fpState === 'staged' ? `free pick releases at ${ptTime(fpWhen)} PT`
+                  : 'site refreshed');
     set('statPickers', d.pickers_contributing != null ? d.pickers_contributing.toLocaleString() : '—');
     set('statGames', proc.events_evaluated != null ? proc.events_evaluated.toLocaleString() : '—');
     const freeAllTime = (free.bands || []).find(b => b.label === 'ALL-TIME');
