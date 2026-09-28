@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-28",
+    "source_sport": "NFL",
+    "game": "Philadelphia Eagles @ Chicago Bears",
+    "pick": "Philadelphia Eagles ML",
+    "pick_display": "Philadelphia Eagles ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -192.0,
+    "handicap": null,
+    "ccr": null,
+    "ccr_avg": null,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "de3e94af1655a2251c0ee40684fc32bf654a60b2241533716f14c5e68f9c8aa7"
+  },
+  {
     "date": "2026-09-27",
     "source_sport": "WNBA",
     "game": "Indiana Fever @ Las Vegas Aces",

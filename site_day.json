@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:30:34.829259+00:00",
+  "generated_at": "2026-09-28T22:15:29.508684+00:00",
   "run_date": "2026-09-28",
   "as_of": "2026-09-27",
   "anchor": "2026-03-20",
@@ -3356,12 +3356,12 @@
         "pushes": 0,
         "voided": 3,
         "settled": 27,
-        "pending": 0,
+        "pending": 1,
         "net_units": 0.4,
         "roi_pct": 1.32,
         "roi_lcb95": -24.06,
         "start": "2026-04-14",
-        "end": "2026-09-13",
+        "end": "2026-09-28",
         "small_sample": true,
         "picker": "The Counter",
         "ranked": false,
@@ -7621,7 +7621,7 @@
   "pickers_contributing": 12,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-28T09:53:31-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-09-28T22:15:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7638,7 +7638,7 @@
   "recap": {
     "recap_date": "2026-09-27",
     "run_date": "2026-09-28",
-    "generated_at_utc": "2026-09-28T21:31:23+00:00",
+    "generated_at_utc": "2026-09-28T22:16:20+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -7967,6 +7967,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-28",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "5:15 PM PT",
-    "updated_pt": "2:31 PM PT"
+    "updated_pt": "3:16 PM PT"
   }
 }
