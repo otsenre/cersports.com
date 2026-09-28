@@ -810,6 +810,23 @@ footer {
 
 /* ── THROWBACK CARD ── */
 .throwback-section { background: var(--black); }
+.recap-products { max-width: 760px; margin: 28px auto 0; font-family: 'Barlow Condensed', sans-serif; }
+.recap-row { display: grid; grid-template-columns: 1.6fr 1.2fr 1fr 1.2fr; gap: 12px; padding: 10px 0;
+  border-bottom: 1px solid var(--border); font-size: 13px; align-items: center; }
+.recap-row.recap-head { color: var(--muted); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; }
+.recap-row .recap-name { color: var(--off-white); font-weight: 700; }
+.recap-row .recap-name .dev-badge { white-space: nowrap; display: inline-block; margin-top: 3px; }
+.recap-row .recap-day { color: var(--off-white); }
+.recap-row .recap-band { color: var(--muted); }
+.recap-free { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
+.numbers-details > summary { cursor: pointer; color: var(--gold); font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px; text-transform: uppercase; font-size: 13px; margin: 18px 0; list-style: none; }
+.numbers-details > summary::before { content: '▸ '; }
+.numbers-details[open] > summary::before { content: '▾ '; }
+@media (max-width: 768px) {
+  .recap-row { grid-template-columns: 1.4fr 1fr 1.2fr; }
+  .recap-row .recap-l25 { display: none; }
+}
 .throwback-card {
   margin-top: 40px;
   background: var(--surface);
@@ -1006,6 +1023,28 @@ footer {
 </div>
 
 <!-- RECORD -->
+<!-- YESTERDAY — every product, as delivered (day_recap via site_day.json).
+     Replaced the random 21-day SAMPLE CARD on 2026-09-28: a random card shows a
+     good day on a bad run or the reverse; the recap shows what the product did. -->
+<section class="throwback-section" id="yesterday">
+  <div class="section-inner">
+    <div class="section-label">Every product · every day</div>
+    <h2 class="section-title">YESTER<em>DAY</em></h2>
+    <p class="section-body">The card exactly as subscribers received it — every pick, its price and stake, and how it settled — then every product we run, good day or bad.</p>
+
+    <div class="throwback-card" id="recapCard" style="display:none;">
+      <div class="throwback-eyebrow">DAILY CARD</div>
+      <div class="throwback-date" id="recapDate">—</div>
+      <div class="throwback-summary" id="recapSummary"></div>
+      <div id="recapPicks"></div>
+      <div id="recapFree"></div>
+    </div>
+    <div class="recap-products" id="recapProducts"></div>
+    <p class="throwback-note" id="recapNote"></p>
+    <p id="recapEmpty" style="color:var(--muted);font-size:13px;margin-top:32px;">Yesterday's recap is not available yet.</p>
+  </div>
+</section>
+
 <section class="record-section" id="record">
   <div class="section-inner">
     <div class="section-label">Track record</div>
@@ -1296,6 +1335,8 @@ footer {
     <h2 class="section-title">THE <em>NUMBERS</em></h2>
     <p class="section-body">One scorecard shape, every product: each is read the same way — record, units, margin, and each benchmarked against the same indices. Anchor and Syndicate Session are still in development; their records are published from the first ticket, not from the first good month.</p>
 
+    <details class="numbers-details">
+    <summary>Full scorecard &amp; benchmarks — every product, every band</summary>
     <div class="scorecard-grid">
 
       <!-- PAID CARD SCORECARD (existing tearsheet + table, now inside the grid) -->
@@ -1473,6 +1514,7 @@ footer {
       <div class="ts-foot" id="tsFoot">—</div>
     </div>
 
+    </details>
     <p class="perf-anchor-note" id="perfAnchor">—</p>
   </div>
 </section>
@@ -1521,24 +1563,6 @@ footer {
       </div>
       <div class="daypanel-foot" id="dayFoot">—</div>
     </div>
-  </div>
-</section>
-
-<!-- THROWBACK CARD -->
-<section class="throwback-section" id="throwback">
-  <div class="section-inner">
-    <div class="section-label">Recent results · a real day</div>
-    <h2 class="section-title">SAMPLE <em>CARD</em></h2>
-    <p class="section-body">A real prior subscriber card, picked at random from the last 21 days. Rotates daily — no history kept.</p>
-
-    <div class="throwback-card" id="throwbackCard" style="display:none;">
-      <div class="throwback-eyebrow" id="tbEyebrow">THROWBACK</div>
-      <div class="throwback-date" id="tbDate">—</div>
-      <div class="throwback-summary" id="tbSummary"></div>
-      <div id="tbPicks"></div>
-      <p class="throwback-note">Real picks from a real subscriber card. Results unedited. Rotates daily.</p>
-    </div>
-    <p id="throwbackEmpty" style="color:var(--muted);font-size:13px;margin-top:32px;">No sample card available right now — check back tomorrow.</p>
   </div>
 </section>
 
@@ -2355,6 +2379,66 @@ function scorecardNote(bands, as_of, product, stats) {
   return `n=${at.n} settled · ${at.record}${disposition} · Return on a stated ${at.bankroll_units}u bankroll · Ledger anchor 2026-04-01 · As of ${as_of}. ${what}${clvNote(stats)}${ruleProvenanceNote(stats)}${restatementNote(stats)}`;
 }
 
+// ── YESTERDAY (day_recap, carried in site_day.json) ─────────────────────────
+// The page prints the producer's numbers; it computes none. Pull the Handle is
+// totals only by design (on-demand: a day of entries is subscribers' pulls).
+function recapEsc(v) {
+  return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function recapPickRow(p) {
+  const r = p.result;
+  const rc = r === 'W' ? 'result-w' : r === 'L' ? 'result-l' : '';
+  const rt = r === 'W' ? 'WIN ✓' : r === 'L' ? 'LOSS' : r === 'V' ? 'VOID' : r === 'P' ? 'PUSH' : 'OPEN';
+  const odds = (p.odds === null || p.odds === undefined) ? '—' : (p.odds > 0 ? '+' + p.odds : String(p.odds));
+  const stake = p.units ? ` · ${p.units}u` : '';
+  return `<div class="throwback-pick"><span class="sport-tag">${recapEsc(p.sport) || '—'}</span>`
+    + `<span class="game">${recapEsc(p.game)}</span><span class="pick-text">${recapEsc(p.pick)}</span>`
+    + `<span class="odds">${odds}${stake}</span><span class="result-badge ${rc}">${rt}</span></div>`;
+}
+function recapDayText(t) {
+  if (!t || !t.n) return 'no action';
+  if (t.n === t.open) return `${t.open} open`;
+  let out = `${t.record} · ${fmtSigned(t.units, 2, 'u')}`;
+  if (t.voids) out += ` · ${t.voids} void`;
+  if (t.open) out += ` · ${t.open} open`;
+  return out;
+}
+function renderRecap(rc) {
+  if (!rc || !rc.card) return;
+  const when = new Date(rc.recap_date + 'T12:00:00Z');
+  const label = new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(when);
+  document.getElementById('recapEmpty').style.display = 'none';
+  const c = rc.card;
+  const card = document.getElementById('recapCard');
+  card.style.display = 'block';
+  document.getElementById('recapDate').textContent = label + (rc.final ? '' : ' · provisional');
+  if (c.n) {
+    document.getElementById('recapSummary').innerHTML = `
+      <div><span class="sum-num white">${c.record}${c.voids ? ` · ${c.voids}V` : ''}${c.open ? ` · ${c.open} open` : ''}</span><span class="sum-label">Record</span></div>
+      <div><span class="sum-num ${signClass(c.units)}">${fmtSigned(c.units, 2, 'u')}</span><span class="sum-label">Units</span></div>
+      <div><span class="sum-num white">${c.n}</span><span class="sum-label">Picks</span></div>`;
+    document.getElementById('recapPicks').innerHTML = c.picks.map(recapPickRow).join('');
+  } else {
+    document.getElementById('recapPicks').innerHTML = '<p class="throwback-note">No card was delivered.</p>';
+  }
+  const f = rc.free_pick || {};
+  document.getElementById('recapFree').innerHTML = f.n
+    ? `<div class="recap-free"><div class="throwback-eyebrow">FREE PICK</div>${f.picks.map(recapPickRow).join('')}</div>` : '';
+  const rows = (rc.products || []).filter(l => l.key !== 'paid' && l.key !== 'free').map(l => {
+    const at = (l.bands || {})['ALL-TIME'] || {}, l25 = (l.bands || {})['L25'] || {};
+    const band = b => b.record ? `${b.record} · ${fmtSigned(b.units, 2, 'u')}` : '—';
+    const dev = l.in_development ? ' <span class="dev-badge">in development</span>' : '';
+    return `<div class="recap-row"><span class="recap-name">${recapEsc(l.label)}${dev}</span>`
+      + `<span class="recap-day">${recapDayText(l.day)}</span><span class="recap-band recap-l25">${band(l25)}</span>`
+      + `<span class="recap-band">${band(at)}</span></div>`;
+  }).join('');
+  document.getElementById('recapProducts').innerHTML = rows
+    ? `<div class="recap-row recap-head"><span>Product</span><span>Yesterday</span><span class="recap-l25">Last 25</span><span>All-time</span></div>${rows}` : '';
+  document.getElementById('recapNote').textContent =
+    'Every product we run, every day — good or bad. Stakes and prices are as delivered. '
+    + 'Pull the Handle is on-demand, so it is shown as totals only.';
+}
+
 const SITE_DAY_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/site_day.json';
 
 async function loadSiteDay() {
@@ -2371,6 +2455,7 @@ async function loadSiteDay() {
       deliveryEl.innerHTML = `<strong>TODAY'S FULL REPORT IS LIVE</strong><br>Subscribers: check your inbox.${delivery.delivered_at_pt ? ` Delivered at ${delivery.delivered_at_pt}.` : ''}${delivery.first_leg_time ? ` First leg fires at ${delivery.first_leg_time}.` : ''}`;
       deliveryEl.style.display = 'block';
     }
+    renderRecap(d.recap);
     renderScorecardTable('paidTable', paid.bands);
     renderScorecardTable('freeTable', free.bands);
     // In-development products render through the SAME component. If either is
@@ -2503,48 +2588,7 @@ async function loadSiteDay() {
 }
 
 // ── THROWBACK CARD ───────────────────────────────────────────────────────────
-const THROWBACK_URL = 'https://raw.githubusercontent.com/otsenre/cersports.com/main/throwback.json';
-
-async function loadThrowback() {
-  try {
-    const res = await fetch(THROWBACK_URL + '?t=' + Date.now());
-    const data = await res.json();
-    if (!data || !data.picks || data.picks.length === 0) return;
-    document.getElementById('throwbackEmpty').style.display = 'none';
-    document.getElementById('throwbackCard').style.display = 'block';
-    document.getElementById('tbDate').textContent = data.display_date || data.iso_date || '—';
-
-    const s = data.summary || {};
-    const sumEl = document.getElementById('tbSummary');
-    sumEl.innerHTML = `
-      <div><span class="sum-num white">${s.wins ?? 0}-${s.losses ?? 0}-${s.voids ?? 0}V${s.pushes ? `/${s.pushes}P` : ''}</span><span class="sum-label">Record</span></div>
-      <div><span class="sum-num ${signClass(s.units_pl)}">${fmtSigned(s.units_pl, 2, 'u')}</span><span class="sum-label">Units</span></div>
-      <div><span class="sum-num ${signClass(s.roi_pct)}">${fmtSigned(s.roi_pct, 2, '%')}</span><span class="sum-label">ROI</span></div>
-    `;
-
-    const picksEl = document.getElementById('tbPicks');
-    picksEl.innerHTML = data.picks.map(p => {
-      const rc = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
-      const rt = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS' : p.result === 'V' ? 'VOID' : 'PUSH';
-      const odds = (p.odds === null || p.odds === undefined) ? '—' :
-                   (p.odds > 0 ? '+' + p.odds : String(p.odds));
-      return `
-        <div class="throwback-pick">
-          <span class="sport-tag">${p.sport || '—'}</span>
-          <span class="game">${p.game || ''}</span>
-          <span class="pick-text">${p.pick || ''}</span>
-          <span class="odds">${odds}</span>
-          <span class="result-badge ${rc}">${rt}</span>
-        </div>
-      `;
-    }).join('');
-  } catch (e) {
-    console.error('throwback load failed', e);
-  }
-}
-
 loadPerformance();
 loadSiteDay();
-loadThrowback();
 </script>
 </body>
