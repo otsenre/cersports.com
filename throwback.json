@@ -1,72 +1,83 @@
 {
-  "generated_at": "2026-09-27T15:16:15.804330+00:00",
-  "iso_date": "2026-09-24",
-  "display_date": "Thu \u00b7 Sep 24, 2026",
+  "generated_at": "2026-09-28T16:52:29.751208+00:00",
+  "iso_date": "2026-09-12",
+  "display_date": "Sat \u00b7 Sep 12, 2026",
   "summary": {
-    "wins": 4,
-    "losses": 1,
+    "wins": 2,
+    "losses": 4,
     "voids": 0,
     "pushes": 0,
-    "total_picks": 5,
-    "units_staked": 9.0,
-    "units_pl": 3.76,
-    "roi_pct": 41.78
+    "total_picks": 6,
+    "units_staked": 8.25,
+    "units_pl": -3.7,
+    "roi_pct": -44.82
   },
   "picks": [
     {
-      "sport": "WNBA",
-      "game": "Golden State Valkyries @ Los Angeles Sparks",
-      "pick": "Golden State Valkyries -11.5",
-      "bet_type": "ATS",
-      "odds": "-108.0",
-      "result": "L",
-      "units": 2.0,
-      "profit_units": -2.0,
-      "hash_id": "3c3c12dc545fbdcd662aafccd7a1aa3f7529906a11ab03e51e1577aa6aa1b1d9"
-    },
-    {
-      "sport": "MLB",
-      "game": "Arizona Diamondbacks @ Colorado Rockies",
-      "pick": "Over 10.5",
-      "bet_type": "Total",
-      "odds": "108.0",
-      "result": "W",
-      "units": 1.5,
-      "profit_units": 1.62,
-      "hash_id": "562b511ae56b8e29a456ed93e2c329af85d809450151df6aaa9233cf99f59bae"
-    },
-    {
-      "sport": "WNBA",
-      "game": "Toronto Tempo @ Connecticut Sun",
-      "pick": "Connecticut Sun -1.5",
-      "bet_type": "ATS",
-      "odds": "-118.0",
-      "result": "W",
-      "units": 2.0,
-      "profit_units": 1.6949,
-      "hash_id": "be633e7660086647e023c8484a5174aa94ba8b46263a81db6c65340a91423646"
-    },
-    {
-      "sport": "MLB",
-      "game": "Miami Marlins @ Chicago Cubs",
-      "pick": "Chicago Cubs ML",
+      "sport": "EPL",
+      "game": "Arsenal @ Sunderland",
+      "pick": "Arsenal ML",
       "bet_type": "ML",
-      "odds": "-200.0",
+      "odds": "-165.0",
       "result": "W",
       "units": 1.5,
-      "profit_units": 0.75,
-      "hash_id": "eb2e50e26f957673ea71448657f8119f073f3c54233da13924787b7386a72546"
+      "profit_units": 0.9091,
+      "hash_id": "1e22847dd88284010d92ab14658bd2cd067033345176d7b577a2854d1969c97f"
     },
     {
-      "sport": "WNBA",
-      "game": "Las Vegas Aces @ Phoenix Mercury",
-      "pick": "Las Vegas Aces -9.5",
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Miami Marlins",
+      "pick": "Los Angeles Dodgers -1.5",
       "bet_type": "ATS",
-      "odds": "-118.0",
+      "odds": "-104.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "b5e38ff5eb2eae2b1edadd5c8e37e66d3a3d469566aec3c71248b2d961fa8194"
+    },
+    {
+      "sport": "WTA",
+      "game": "Aryna Sabalenka vs Elena Rybakina",
+      "pick": "Aryna Sabalenka ML",
+      "bet_type": "ML",
+      "odds": "-140.0",
       "result": "W",
-      "units": 2.0,
-      "profit_units": 1.6949,
-      "hash_id": "ab2c78024ee879a5cfd0e41a6f96cbe206862c2826583bea47f814c32318b5e3"
+      "units": 1.25,
+      "profit_units": 0.8929,
+      "hash_id": "0ed3acf64852077e8f28613fbbb3ce8b25756b8ddebf93e26f2312fcd9950f37"
+    },
+    {
+      "sport": "MLS",
+      "game": "LAFC @ Sporting Kansas City",
+      "pick": "LAFC ML",
+      "bet_type": "ML",
+      "odds": "-140.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "257c23c2b1ea258d542deb63090d711dc1551248495d1d86fe66eb3f7b649587"
+    },
+    {
+      "sport": "MLB",
+      "game": "New York Mets @ New York Yankees",
+      "pick": "New York Yankees ML",
+      "bet_type": "ML",
+      "odds": "-165.0",
+      "result": "L",
+      "units": 1.5,
+      "profit_units": -1.5,
+      "hash_id": "36027bccbec9d0d09820ea06e45aff07e3958341770c36d87bef804919648d9e"
+    },
+    {
+      "sport": "MLB",
+      "game": "Houston Astros @ Tampa Bay Rays",
+      "pick": "Tampa Bay Rays -1.5",
+      "bet_type": "ATS",
+      "odds": "150.0",
+      "result": "L",
+      "units": 1.25,
+      "profit_units": -1.25,
+      "hash_id": "f4dbb30068d6feabc27f008974918d10d36b5cf46fe085cd6be73baa506817da"
     }
   ]
 }
