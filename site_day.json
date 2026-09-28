@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:35:25.441215+00:00",
+  "generated_at": "2026-09-28T18:42:08.140785+00:00",
   "run_date": "2026-09-28",
   "as_of": "2026-09-27",
   "anchor": "2026-03-20",
@@ -331,7 +331,12 @@
           "voided": 40,
           "unsettled": 0
         }
-      ]
+      ],
+      "restatement": {
+        "date": "2026-09-28",
+        "was": "487-422, -37.07u",
+        "note": "Restated 2026-09-28: this record now counts only the paid-card picks actually delivered to subscribers. It previously counted a separate selection of each day's top-rated picks, most of which were never on the card (published as 487-422, -37.07u). Days before 2026-05-18 cannot be matched to a delivered card and are unchanged."
+      }
     },
     "anchor": {
       "bands": [
@@ -7613,7 +7618,7 @@
       "NFL"
     ]
   },
-  "pickers_contributing": 11,
+  "pickers_contributing": 12,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-28T09:53:31-07:00",
     "free_pick_release_state": "staged",
@@ -7654,6 +7659,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-28",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "5:15 PM PT",
-    "updated_pt": "11:35 AM PT"
+    "updated_pt": "11:42 AM PT"
   }
 }
