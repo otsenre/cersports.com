@@ -6,45 +6,24 @@
   "submitted_count": 1,
   "entries": [
     {
-      "name": "Shark",
-      "source": "human:shark",
-      "record": {
-        "wins": 38,
-        "losses": 25,
-        "pushes": 0,
-        "current": 4,
-        "longest": 5,
-        "alive": true,
-        "pl_units": 1.74,
-        "pl_priced": 58,
-        "pl_settled": 63,
-        "pl_flat_units": -0.65,
-        "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
-      },
-      "note": "4 straight, best is 5",
-      "pick": null
-    },
-    {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 30,
+        "wins": 31,
         "losses": 31,
         "pushes": 1,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": -2.03,
-        "pl_priced": 62,
-        "pl_settled": 62,
-        "pl_flat_units": -4.45,
+        "pl_units": -1.11,
+        "pl_priced": 63,
+        "pl_settled": 63,
+        "pl_flat_units": -3.54,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
         "pick": "Under 41.5",
         "game": "Philadelphia Eagles @ Chicago Bears",
@@ -52,8 +31,29 @@
         "odds": -109,
         "units": 1,
         "start_utc": "2026-09-29T00:15:00+00:00",
-        "result": null
+        "result": "W"
       }
+    },
+    {
+      "name": "Shark",
+      "source": "human:shark",
+      "record": {
+        "wins": 38,
+        "losses": 26,
+        "pushes": 0,
+        "current": 0,
+        "longest": 5,
+        "alive": false,
+        "pl_units": 0.74,
+        "pl_priced": 59,
+        "pl_settled": 64,
+        "pl_flat_units": -1.65,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": null
     }
   ]
 }
