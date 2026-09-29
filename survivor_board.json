@@ -1,8 +1,8 @@
 {
-  "day": "2026-09-28",
-  "deadline_utc": "2026-09-28T22:15:00+00:00",
+  "day": "2026-09-29",
+  "deadline_utc": "2026-09-29T20:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-09-29T00:15:00+00:00",
+  "earliest_start_utc": "2026-09-29T22:40:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -25,13 +25,13 @@
       },
       "note": "3 straight, best is 4",
       "pick": {
-        "pick": "Under 41.5",
-        "game": "Philadelphia Eagles @ Chicago Bears",
-        "sport": "NFL",
-        "odds": -109,
+        "pick": "Las Vegas Aces ML",
+        "game": "Las Vegas Aces @ Indiana Fever",
+        "sport": "WNBA",
+        "odds": -104,
         "units": 1,
-        "start_utc": "2026-09-29T00:15:00+00:00",
-        "result": "W"
+        "start_utc": "2026-09-29T22:40:00+00:00",
+        "result": null
       }
     },
     {
