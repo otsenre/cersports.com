@@ -13,9 +13,9 @@
     "ccr_avg": 6.0,
     "tier": "",
     "edge": 0,
-    "units": 0.75,
+    "units": 1.0,
     "result": "L",
-    "profit_units": -0.75,
+    "profit_units": -1.0,
     "odds_origin": "free_pick_receipt",
     "hash_id": "de3e94af1655a2251c0ee40684fc32bf654a60b2241533716f14c5e68f9c8aa7"
   },
