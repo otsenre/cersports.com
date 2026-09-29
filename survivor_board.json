@@ -3,7 +3,7 @@
   "deadline_utc": "2026-09-29T20:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-09-29T22:40:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -53,7 +53,15 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "San Diego Padres ML",
+        "game": "Chicago Cubs @ San Diego Padres",
+        "sport": "MLB",
+        "odds": -128,
+        "units": 1,
+        "start_utc": "2026-09-30T02:00:00+00:00",
+        "result": null
+      }
     }
   ]
 }
