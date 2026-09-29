@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-29",
+    "source_sport": "NHL",
+    "game": "Florida Panthers @ Carolina Hurricanes",
+    "pick": "Carolina Hurricanes -1.5",
+    "pick_display": "Carolina Hurricanes -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": 194.0,
+    "handicap": null,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "c7f0d4eb6b7c49596e44f6483c94db122b7a5a8a6ea049a9ae3cb7ea1d6d9d47"
+  },
+  {
     "date": "2026-09-28",
     "source_sport": "NFL",
     "game": "Philadelphia Eagles @ Chicago Bears",

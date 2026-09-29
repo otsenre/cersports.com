@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:18:24.288655+00:00",
+  "generated_at": "2026-09-29T19:16:28.053114+00:00",
   "run_date": "2026-09-29",
   "as_of": "2026-09-28",
   "anchor": "2026-03-20",
@@ -3356,12 +3356,12 @@
         "pushes": 0,
         "voided": 3,
         "settled": 28,
-        "pending": 0,
+        "pending": 1,
         "net_units": -0.6,
         "roi_pct": -1.92,
         "roi_lcb95": -27.43,
         "start": "2026-04-14",
-        "end": "2026-09-28",
+        "end": "2026-09-29",
         "small_sample": true,
         "picker": "The Counter",
         "ranked": false,
@@ -3410,12 +3410,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 2,
-            "pending": 0,
+            "pending": 1,
             "net_units": 1.19,
             "roi_pct": 47.71,
             "roi_lcb95": 33.56,
             "start": "2026-04-14",
-            "end": "2026-04-15",
+            "end": "2026-09-29",
             "small_sample": true,
             "lane": "NHL",
             "ranked": false,
@@ -7712,11 +7712,11 @@
       "WTA"
     ]
   },
-  "pickers_contributing": 12,
+  "pickers_contributing": 15,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-29T07:50:35-07:00",
-    "free_pick_release_state": "staged",
-    "free_pick_release_at_utc": "2026-09-30T01:00:00+00:00",
+    "free_pick_release_state": "released",
+    "free_pick_release_at_utc": "2026-09-29T19:10:47+00:00",
     "free_pick_published_at_utc": null
   },
   "paid_card_delivery": {
@@ -7735,7 +7735,7 @@
   "recap": {
     "recap_date": "2026-09-28",
     "run_date": "2026-09-29",
-    "generated_at_utc": "2026-09-29T15:19:14+00:00",
+    "generated_at_utc": "2026-09-29T19:17:19+00:00",
     "final": true,
     "card": {
       "n": 2,
@@ -8036,6 +8036,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-29",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "2:10 PM PT",
-    "updated_pt": "8:19 AM PT"
+    "updated_pt": "12:17 PM PT"
   }
 }
