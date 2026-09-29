@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:23:06.640346+00:00",
+  "generated_at": "2026-09-29T00:21:30.116151+00:00",
   "run_date": "2026-09-28",
   "as_of": "2026-09-27",
   "anchor": "2026-03-20",
@@ -7618,7 +7618,7 @@
       "NFL"
     ]
   },
-  "pickers_contributing": 12,
+  "pickers_contributing": 13,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-28T09:53:31-07:00",
     "free_pick_release_state": "released",
@@ -7638,7 +7638,7 @@
   "recap": {
     "recap_date": "2026-09-27",
     "run_date": "2026-09-28",
-    "generated_at_utc": "2026-09-28T22:23:56+00:00",
+    "generated_at_utc": "2026-09-29T00:22:18+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -7947,11 +7947,11 @@
     "contract": 1,
     "date": "2026-09-28",
     "stage": "card_shipped",
-    "line": "Paid card shipped 10:25 AM PT \u00b7 2 picks, NFL \u00b7 first leg fires 5:15 PM PT",
+    "line": "Paid card shipped 10:25 AM PT \u00b7 2 picks, NFL \u00b7 all 2 games started",
     "parts": [
       "Paid card shipped 10:25 AM PT",
       "2 picks, NFL",
-      "first leg fires 5:15 PM PT"
+      "all 2 games started"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -7967,6 +7967,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-28",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "5:15 PM PT",
-    "updated_pt": "3:23 PM PT"
+    "updated_pt": "5:22 PM PT"
   }
 }
