@@ -14,8 +14,8 @@
     "tier": "",
     "edge": 0,
     "units": 1.0,
-    "result": null,
-    "profit_units": null,
+    "result": "L",
+    "profit_units": -1.0,
     "odds_origin": "free_pick_receipt",
     "hash_id": "c7f0d4eb6b7c49596e44f6483c94db122b7a5a8a6ea049a9ae3cb7ea1d6d9d47"
   },
