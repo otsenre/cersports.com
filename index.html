@@ -2317,11 +2317,24 @@ function clvNote(stats) {
   const c = stats && stats.clv;
   if (!c || !c.n) return '';
   const pct = v => `${(v * 100).toFixed(1)}%`;
-  let out = ` Closing line value: beat the close on ${c.beat} of ${c.n} priced picks (${pct(c.beat_rate)})`;
+  // TIES ARE NOT MISSES. `beat` is strict, so a price equal to the close is a tie.
+  // Counting ties in the denominator makes a market whose lines rarely move read as one
+  // we price badly, so the displayed rate is over DECIDED picks and the tie count is
+  // stated. Falls back to the raw rate on an artifact written before tie tracking -- the
+  // page must never print a number it cannot attribute.
+  const decided = o => (o && o.beat_rate_ex_ties !== null && o.beat_rate_ex_ties !== undefined)
+    ? o.beat_rate_ex_ties : (o || {}).beat_rate;
+  const ties = c.tie || 0;
+  // "priced" while there is no tie data (the count still includes ties), "decided" once
+  // it can be attributed -- the page must never mislabel a denominator it cannot split.
+  const hasTies = c.tie !== null && c.tie !== undefined;
+  let out = ` Closing line value: beat the close on ${c.beat} of ${c.n - ties} ${hasTies ? 'decided' : 'priced'} picks (${pct(decided(c))})`;
+  if (ties) out += `, ${ties} ties excluded`;
   if (c.first && c.last) out += `, ${c.first} to ${c.last}`;
   out += '.';
   if (c.rolling && c.rolling.n) {
-    out += ` Last ${c.rolling.n}: ${pct(c.rolling.beat_rate)}.`;
+    const rHas = c.rolling.tie !== null && c.rolling.tie !== undefined;
+    out += ` Last ${c.rolling.n - (c.rolling.tie || 0)} ${rHas ? 'decided' : 'priced'}: ${pct(decided(c.rolling))}.`;
   }
   return out;
 }
