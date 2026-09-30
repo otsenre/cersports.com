@@ -6,35 +6,6 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 31,
-        "losses": 31,
-        "pushes": 1,
-        "current": 3,
-        "longest": 4,
-        "alive": true,
-        "pl_units": -1.11,
-        "pl_priced": 63,
-        "pl_settled": 63,
-        "pl_flat_units": -3.54,
-        "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
-      },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Las Vegas Aces ML",
-        "game": "Las Vegas Aces @ Indiana Fever",
-        "sport": "WNBA",
-        "odds": -104,
-        "units": 1,
-        "start_utc": "2026-09-29T22:40:00+00:00",
-        "result": null
-      }
-    },
-    {
       "name": "Shark",
       "source": "human:shark",
       "record": {
@@ -61,6 +32,35 @@
         "units": 1,
         "start_utc": "2026-09-30T02:00:00+00:00",
         "result": null
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 31,
+        "losses": 32,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": -2.11,
+        "pl_priced": 64,
+        "pl_settled": 64,
+        "pl_flat_units": -4.54,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Las Vegas Aces ML",
+        "game": "Las Vegas Aces @ Indiana Fever",
+        "sport": "WNBA",
+        "odds": -104,
+        "units": 1,
+        "start_utc": "2026-09-29T22:40:00+00:00",
+        "result": "L"
       }
     }
   ]
