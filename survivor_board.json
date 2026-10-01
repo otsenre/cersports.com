@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-30",
-  "deadline_utc": "2026-09-30T22:00:00+00:00",
+  "day": "2026-10-01",
+  "deadline_utc": "2026-10-01T22:11:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-01T00:00:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-02T00:11:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": {
-        "pick": "Over 6.5",
-        "game": "Boston Red Sox @ New York Yankees",
-        "sport": "MLB",
-        "odds": -121,
-        "units": 1,
-        "start_utc": "2026-10-01T00:00:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -54,13 +46,13 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "Over 6.5",
-        "game": "Boston Red Sox @ New York Yankees",
+        "pick": "Over 7.5",
+        "game": "Philadelphia Phillies @ Atlanta Braves",
         "sport": "MLB",
-        "odds": -121,
+        "odds": 100,
         "units": 1,
-        "start_utc": "2026-10-01T00:00:00+00:00",
-        "result": "W"
+        "start_utc": "2026-10-02T00:11:00+00:00",
+        "result": null
       }
     }
   ]
