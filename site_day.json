@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:01:23.238256+00:00",
+  "generated_at": "2026-10-01T01:02:28.884741+00:00",
   "run_date": "2026-09-30",
   "as_of": "2026-09-29",
   "anchor": "2026-03-20",
@@ -1400,12 +1400,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 115,
-        "pending": 0,
+        "pending": 1,
         "net_units": -1.81,
         "roi_pct": -1.23,
         "roi_lcb95": -17.27,
         "start": "2026-03-30",
-        "end": "2026-09-18",
+        "end": "2026-09-30",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -1667,12 +1667,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 17,
-            "pending": 0,
+            "pending": 1,
             "net_units": -0.13,
             "roi_pct": -0.75,
             "roi_lcb95": -34.02,
             "start": "2026-05-05",
-            "end": "2026-08-31",
+            "end": "2026-09-30",
             "small_sample": true,
             "lane": "ATP",
             "ranked": false,
@@ -1684,12 +1684,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 3,
-                "pending": 0,
+                "pending": 1,
                 "net_units": 1.29,
                 "roi_pct": 39.78,
                 "roi_lcb95": -33.99,
                 "start": "2026-06-03",
-                "end": "2026-08-31",
+                "end": "2026-09-30",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -7778,10 +7778,10 @@
       "WTA"
     ]
   },
-  "pickers_contributing": 13,
+  "pickers_contributing": 16,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-09-30T08:49:24-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-01T01:00:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7802,7 +7802,7 @@
   "recap": {
     "recap_date": "2026-09-29",
     "run_date": "2026-09-30",
-    "generated_at_utc": "2026-09-30T16:02:11+00:00",
+    "generated_at_utc": "2026-10-01T01:03:17+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8113,11 +8113,11 @@
     "contract": 1,
     "date": "2026-09-30",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:54 AM PT \u00b7 6 picks, ATP + NHL + WTA \u00b7 first leg fires 4:30 PM PT",
+    "line": "Paid card shipped 8:54 AM PT \u00b7 6 picks, ATP + NHL + WTA \u00b7 1 of 6 games started \u00b7 next 7:00 PM PT",
     "parts": [
       "Paid card shipped 8:54 AM PT",
       "6 picks, ATP + NHL + WTA",
-      "first leg fires 4:30 PM PT"
+      "1 of 6 games started \u00b7 next 7:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8133,6 +8133,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-09-30",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "4:30 PM PT",
-    "updated_pt": "9:02 AM PT"
+    "updated_pt": "6:03 PM PT"
   }
 }
