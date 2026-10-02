@@ -1667,17 +1667,29 @@ async function loadPicks() {
     // which is not merely old — it is a different pick presented as today's.
     // Measured 2026-09-21: staged, due 2026-09-22T00:00:00Z, hero showing
     // 09-20's Pittsburgh Pirates.
-    const latest = designated
-      || (freePickDue ? null : picks.find(p => p.pick !== 'No Play'));
-    if (!latest && freePickDue) {
+    //
+    // THE SLOT IS TODAY'S OR IT IS EMPTY. Two more ways yesterday's pick got in
+    // (2026-10-02, 05:40 PT, hero showing 10-01's Samsonova):
+    //   * scorecard.json is only rewritten by site.update, after the morning
+    //     pipeline. From midnight until then the live file still names
+    //     YESTERDAY's pick as todays_pick, and nothing here checked its date.
+    //   * Before the card is built the server designates nothing and has no due
+    //     time yet, so the "newest row" fallback below drew yesterday's pick.
+    // The only date that matters is the Pacific date the reader is standing in.
+    const todayPT = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
+    if (designated && designated.date !== todayPT) designated = null;
+    const latest = designated;
+    if (!latest) {
       document.getElementById('pickSportDate').textContent = 'Free Pick · Today';
-      document.getElementById('pickTeam').textContent = 'Pick releases soon';
+      document.getElementById('pickTeam').textContent =
+        freePickDue ? 'Pick releases soon' : 'Free pick coming';
       const ccrEl = document.getElementById('pickCCR');
       ccrEl.textContent = '';
       ccrEl.className = 'ccr-badge';
-      document.getElementById('pickTag').textContent =
-        '⏳ Due ' + new Date(freePickDue).toLocaleTimeString(
-          'en-US', {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'});
+      document.getElementById('pickTag').textContent = freePickDue
+        ? '⏳ Due ' + new Date(freePickDue).toLocaleTimeString(
+            'en-US', {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'})
+        : '⏳ When the day’s data is in';
     }
     if (latest) {
       const displaySport = latest.source_sport || latest.sport;
