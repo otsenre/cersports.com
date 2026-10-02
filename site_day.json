@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:11:26.177119+00:00",
+  "generated_at": "2026-10-02T01:16:26.315085+00:00",
   "run_date": "2026-10-01",
   "as_of": "2026-09-30",
   "anchor": "2026-03-20",
@@ -7793,7 +7793,7 @@
   "recap": {
     "recap_date": "2026-09-30",
     "run_date": "2026-10-01",
-    "generated_at_utc": "2026-10-02T01:12:17+00:00",
+    "generated_at_utc": "2026-10-02T01:17:15+00:00",
     "final": true,
     "card": {
       "n": 6,
@@ -8132,6 +8132,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-01",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "6:30 PM PT",
-    "updated_pt": "6:12 PM PT"
+    "updated_pt": "6:17 PM PT"
   }
 }
