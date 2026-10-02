@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:28:27.568296+00:00",
+  "generated_at": "2026-10-02T01:33:35.763541+00:00",
   "run_date": "2026-10-01",
   "as_of": "2026-09-30",
   "anchor": "2026-03-20",
@@ -7793,7 +7793,7 @@
   "recap": {
     "recap_date": "2026-09-30",
     "run_date": "2026-10-01",
-    "generated_at_utc": "2026-10-02T01:29:19+00:00",
+    "generated_at_utc": "2026-10-02T01:34:59+00:00",
     "final": true,
     "card": {
       "n": 6,
@@ -8112,11 +8112,11 @@
     "contract": 1,
     "date": "2026-10-01",
     "stage": "card_shipped",
-    "line": "Paid card shipped 7:57 AM PT \u00b7 6 picks, ATP + MLS + NHL + WTA \u00b7 first leg fires 6:30 PM PT",
+    "line": "Paid card shipped 7:57 AM PT \u00b7 6 picks, ATP + MLS + NHL + WTA \u00b7 1 of 6 games started \u00b7 next 7:00 PM PT",
     "parts": [
       "Paid card shipped 7:57 AM PT",
       "6 picks, ATP + MLS + NHL + WTA",
-      "first leg fires 6:30 PM PT"
+      "1 of 6 games started \u00b7 next 7:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8132,6 +8132,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-01",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "6:30 PM PT",
-    "updated_pt": "6:29 PM PT"
+    "updated_pt": "6:34 PM PT"
   }
 }
