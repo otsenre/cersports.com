@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:39:19.413275+00:00",
+  "generated_at": "2026-10-02T12:49:34.812523+00:00",
   "run_date": "2026-10-02",
   "as_of": "2026-10-01",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-10-02",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-10-02T05:40:11-07:00",
+      "fire_pt": "2026-10-02 05:40 PDT"
     },
     "prior_run": {
       "date": "2026-10-01",
@@ -7758,7 +7758,7 @@
   "process": {},
   "pickers_contributing": 0,
   "morning_state": {
-    "free_pick_site_published_at_utc": null,
+    "free_pick_site_published_at_utc": "2026-10-02T05:40:11-07:00",
     "free_pick_release_state": null
   },
   "paid_card_delivery": {
@@ -7767,7 +7767,7 @@
   "recap": {
     "recap_date": "2026-10-01",
     "run_date": "2026-10-02",
-    "generated_at_utc": "2026-10-02T12:40:11+00:00",
+    "generated_at_utc": "2026-10-02T12:50:28+00:00",
     "final": true,
     "card": {
       "n": 6,
@@ -8086,11 +8086,11 @@
   "status": {
     "contract": 1,
     "date": "2026-10-02",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT",
+    "stage": "free_live",
+    "line": "Free pick live 5:40 AM \u00b7 paid card next",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT"
+      "Free pick live 5:40 AM",
+      "paid card next"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8101,11 +8101,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 55 measured fires"
     },
-    "free_pick_live": false,
+    "free_pick_live": true,
     "card_live": false,
     "paid_card_session_id": null,
     "paid_card_session_state": null,
     "first_leg_time": null,
-    "updated_pt": "5:40 AM PT"
+    "updated_pt": "5:50 AM PT"
   }
 }

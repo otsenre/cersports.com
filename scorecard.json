@@ -1,10 +1,12 @@
 {
   "contract": 2,
-  "generated_utc": "2026-10-02T12:38:57+00:00",
+  "generated_utc": "2026-10-02T12:49:14+00:00",
   "products": {
     "free": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "pending",
+      "todays_pick_day": "2026-10-02",
       "short": "FREE PICK",
       "label": "Free Pick of the Day",
       "blurb": "every pick posted publicly",
@@ -126,6 +128,8 @@
     "paid": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "DAILY CARD",
       "label": "Daily Card",
       "blurb": "every pick sent to subscribers",
@@ -213,6 +217,8 @@
     "anchor": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "ANCHOR",
       "label": "Anchor",
       "blurb": "one-unit, three-wager qualifying ticket",
@@ -300,6 +306,8 @@
     "syndicate": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "SYNDICATE",
       "label": "Syndicate Session",
       "blurb": "one-unit, three-wager session card",
@@ -387,6 +395,8 @@
     "prizepicks": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "CER PROPS",
       "label": "CER Props",
       "blurb": "daily 2-Pick + 3-Pick Power Play card",
@@ -474,6 +484,8 @@
     "ppme": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "PPME",
       "label": "Pull the Handle",
       "blurb": "on-demand hitter Power Play entries",
@@ -561,6 +573,8 @@
     "nfl_weekly": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "NFL WEEKLY",
       "label": "NFL Weekly",
       "blurb": "the week's unfiltered NFL sheet",
@@ -648,6 +662,8 @@
     "pull": {
       "todays_pick": null,
       "todays_pick_due_utc": "",
+      "todays_pick_state": "",
+      "todays_pick_day": "",
       "short": "PULL v2",
       "label": "Pull the Handle v2",
       "blurb": "2-to-6-leg independent tickets off the full board",
