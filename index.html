@@ -1648,48 +1648,26 @@ async function loadPicks() {
     // The selector writes the answer to reports/<date>/free_pick.json, which is
     // server-side. brand/gauge.py carries it into scorecard.json as
     // products.free.todays_pick. Matched by hash_id, so it is exact.
-    let designated = null;
-    let freePickDue = '';
+    // THE SLOT IS TODAY'S OR IT IS EMPTY -- decided by freePickSlot() below.
+    let free = null;
     try {
       const sres = await fetch('scorecard.json?t=' + Date.now());
       const snap = await sres.json();
-      const free = (snap.products && snap.products.free) || {};
-      const t = free.todays_pick;
-      freePickDue = free.todays_pick_due_utc || '';
-      if (t && t.hash_id) designated = picks.find(p => p.hash_id === t.hash_id) || null;
-    } catch (e) { /* fall through to the old behaviour */ }
-    // NO FALLBACK WHILE TODAY'S PICK IS STAGED.
-    //
-    // The free pick is DECIDED at card build and RELEASED about two hours before
-    // its own game. In that window the server designates nothing
-    // (`todays_pick: null`) and states when it will be out. Falling back to "the
-    // newest row in picks.json" then drew YESTERDAY's pick under today's slot,
-    // which is not merely old — it is a different pick presented as today's.
-    // Measured 2026-09-21: staged, due 2026-09-22T00:00:00Z, hero showing
-    // 09-20's Pittsburgh Pirates.
-    //
-    // THE SLOT IS TODAY'S OR IT IS EMPTY. Two more ways yesterday's pick got in
-    // (2026-10-02, 05:40 PT, hero showing 10-01's Samsonova):
-    //   * scorecard.json is only rewritten by site.update, after the morning
-    //     pipeline. From midnight until then the live file still names
-    //     YESTERDAY's pick as todays_pick, and nothing here checked its date.
-    //   * Before the card is built the server designates nothing and has no due
-    //     time yet, so the "newest row" fallback below drew yesterday's pick.
-    // The only date that matters is the Pacific date the reader is standing in.
+      free = (snap.products && snap.products.free) || {};
+    } catch (e) { /* no scorecard: the slot says "coming", never yesterday's */ }
     const todayPT = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
-    if (designated && designated.date !== todayPT) designated = null;
-    const latest = designated;
+    const slot = freePickSlot(free, picks, todayPT);
+    const latest = slot.pick;
     if (!latest) {
       document.getElementById('pickSportDate').textContent = 'Free Pick · Today';
-      document.getElementById('pickTeam').textContent =
-        freePickDue ? 'Pick releases soon' : 'Free pick coming';
+      document.getElementById('pickTeam').textContent = slot.headline;
       const ccrEl = document.getElementById('pickCCR');
       ccrEl.textContent = '';
       ccrEl.className = 'ccr-badge';
-      document.getElementById('pickTag').textContent = freePickDue
-        ? '⏳ Due ' + new Date(freePickDue).toLocaleTimeString(
+      document.getElementById('pickTag').textContent = slot.due
+        ? '⏳ Due ' + new Date(slot.due).toLocaleTimeString(
             'en-US', {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'})
-        : '⏳ When the day’s data is in';
+        : slot.tag;
     }
     if (latest) {
       const displaySport = latest.source_sport || latest.sport;
@@ -1717,6 +1695,39 @@ async function loadPicks() {
     document.getElementById('pickTeam').textContent = 'See TikTok';
     document.getElementById('pickSportDate').textContent = 'Follow @cersports';
   }
+}
+
+/* WHAT GOES IN THE "TODAY'S FREE PICK" SLOT. Pure: no DOM, no fetch, no clock.
+ * tests/test_site_free_pick_slot.py runs it under node.
+ *
+ * The slot holds TODAY's pick (Pacific) or says why it is empty. It never falls
+ * back to "the newest row in picks.json" -- each fallback below drew YESTERDAY's
+ * pick under today's slot at some point:
+ *   2026-09-21  staged pick, due at 17:00 PT: hero showed 09-20's Pirates.
+ *   2026-10-02  05:40 PT: scorecard.json was still yesterday's file (only the
+ *               morning site.update rewrites it) and named 10-01's Samsonova.
+ *   before the card is built the server designates nothing and has no due time.
+ * And a decided no-pick day (todays_pick_state 'none') said "coming" all day.
+ *
+ *   free     products.free from scorecard.json (or null)
+ *   picks    picks.json rows
+ *   todayPT  'YYYY-MM-DD', the reader's Pacific date
+ * Returns {pick, state, headline, tag, due}; state is pick|staged|none|pending.
+ */
+function freePickSlot(free, picks, todayPT) {
+  const f = free || {};
+  // A scorecard built for another day says nothing about today.
+  const current = !f.todays_pick_day || f.todays_pick_day === todayPT;
+  if (current && f.todays_pick && f.todays_pick.hash_id) {
+    const row = (picks || []).find(p => p.hash_id === f.todays_pick.hash_id);
+    if (row && row.date === todayPT) return {pick: row, state: 'pick', headline: '', tag: '', due: ''};
+  }
+  if (current && f.todays_pick_state === 'none')
+    return {pick: null, state: 'none', headline: 'No free pick today', tag: 'Back tomorrow', due: ''};
+  if (current && f.todays_pick_due_utc)
+    return {pick: null, state: 'staged', headline: 'Pick releases soon', tag: '', due: f.todays_pick_due_utc};
+  return {pick: null, state: 'pending', headline: 'Free pick coming',
+          tag: '\u23f3 When the day\u2019s data is in', due: ''};
 }
 
 /* How many pick cards are shown before the fold.
