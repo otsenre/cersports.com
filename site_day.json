@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:28:25.052239+00:00",
+  "generated_at": "2026-10-02T21:00:53.060872+00:00",
   "run_date": "2026-10-02",
   "as_of": "2026-10-01",
   "anchor": "2026-03-20",
@@ -1400,12 +1400,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 116,
-        "pending": 0,
+        "pending": 1,
         "net_units": -0.63,
         "roi_pct": -0.42,
         "roi_lcb95": -16.46,
         "start": "2026-03-30",
-        "end": "2026-09-30",
+        "end": "2026-10-02",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -1650,12 +1650,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 23,
-            "pending": 0,
+            "pending": 1,
             "net_units": 2.65,
             "roi_pct": 8.03,
             "roi_lcb95": -30.27,
             "start": "2026-03-30",
-            "end": "2026-06-06",
+            "end": "2026-10-02",
             "small_sample": true,
             "lane": "NHL",
             "ranked": false,
@@ -1684,12 +1684,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 8,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -0.99,
                 "roi_pct": -8.24,
                 "roi_lcb95": -66.06,
                 "start": "2026-04-05",
-                "end": "2026-05-14",
+                "end": "2026-10-02",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -7777,10 +7777,10 @@
       "NHL"
     ]
   },
-  "pickers_contributing": 11,
+  "pickers_contributing": 13,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-10-02T05:40:11-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-02T21:00:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7801,7 +7801,7 @@
   "recap": {
     "recap_date": "2026-10-01",
     "run_date": "2026-10-02",
-    "generated_at_utc": "2026-10-02T15:29:15+00:00",
+    "generated_at_utc": "2026-10-02T21:02:18+00:00",
     "final": true,
     "card": {
       "n": 6,
@@ -8114,6 +8114,33 @@
             "units": -6.1
           }
         }
+      },
+      {
+        "key": "single",
+        "label": "The Single",
+        "in_development": false,
+        "totals_only": false,
+        "day": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "voids": 0,
+          "open": 0,
+          "units": 0,
+          "record": "0-0",
+          "final": false
+        },
+        "bands": {
+          "L25": {
+            "record": "4-1",
+            "units": 5.31
+          },
+          "ALL-TIME": {
+            "record": "4-1",
+            "units": 5.31
+          }
+        }
       }
     ]
   },
@@ -8141,6 +8168,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-02",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "4:00 PM PT",
-    "updated_pt": "8:29 AM PT"
+    "updated_pt": "2:02 PM PT"
   }
 }
