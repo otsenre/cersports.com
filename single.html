@@ -172,7 +172,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
     <p><b>One pick, and why.</b> The selection, the line and price it was taken at, the confidence behind it, and every one of our pickers who backed it — each with their own reasoning.</p>
     <p><b>The bar it cleared.</b> A Single is chosen from the whole day’s board, and only when the field is deep enough to choose from. If nothing clears the bar, there is no Single that day. We would rather sell nothing.</p>
     <p><b>Delivered by email</b> within 15 minutes of purchase, before the game starts. Buy on a day with no open offer and nothing is charged — the button only exists while one is open.</p>
-    <p><b>Three per offer.</b> Each Single is sold to at most three people. When they’re gone, it’s closed.</p>
+    <p><b>Three per offer.</b> Each Single is sold to at most three people. When they’re gone, it’s closed. <a href="/#pricing">Seat holders</a> receive every Single automatically, outside those three.</p>
   </section>
 
   <section class="block prose">
@@ -295,12 +295,24 @@ function renderSample(d) {
       chosen from ${esc(f.candidates)} candidates across ${esc(f.events)} events</div>
     <h3>WHO BACKED IT</h3>${srcs}
     <h3>RESULT</h3><span class="res ${esc(s.result)}">${esc({W: 'WIN', L: 'LOSS', P: 'PUSH'}[s.result] || s.result)}</span>`;
+  // THE MATH IS AT TODAY'S PRICE. The sample is the worked example (its odds),
+  // but the fee is what a buyer pays NOW -- the sample may have sold at an
+  // older price ($350 before 2026-10-03), which next to a $500 headline read as
+  // a stale number. Same formula as products/single/dossier.economics:
+  // fee-adjusted = market x (1 + price / stake).
   const e = s.economics;
-  if (e) document.getElementById('econ').innerHTML =
-    `At $${esc(e.list_price_usd)} against a $${Number(e.assumed_stake_usd).toLocaleString()} stake, the fee is
-     ${pct(e.fee_stake_ratio)} of the bet. On this sample at ${esc(odds(p.odds))}, the market break-even was
-     <b>${pct(e.market_break_even_prob)}</b>; with the fee included it was <b>${pct(e.fee_adjusted_break_even_prob)}</b>.
-     The Single is for someone already staking at that size — at smaller stakes the fee costs more than the edge is worth.`;
+  if (e && e.market_break_even_prob != null && e.assumed_stake_usd) {
+    const price = Number(d.price_usd || e.list_price_usd);
+    const stake = Number(e.assumed_stake_usd);
+    const ratio = price / stake;
+    const then = (e.list_price_usd && Number(e.list_price_usd) !== price)
+      ? ` (this one sold at $${esc(e.list_price_usd)})` : '';
+    document.getElementById('econ').innerHTML =
+      `At $${esc(price)} against a $${stake.toLocaleString()} stake, the fee is
+       ${pct(ratio)} of the bet. On the sample above${then} at ${esc(odds(p.odds))}, the market break-even was
+       <b>${pct(e.market_break_even_prob)}</b>; with today's fee included it is <b>${pct(e.market_break_even_prob * (1 + ratio))}</b>.
+       The Single is for someone already staking at that size — at smaller stakes the fee costs more than the edge is worth.`;
+  }
 }
 
 fetch('single.json?t=' + Date.now()).then(r => r.json()).then(d => {
