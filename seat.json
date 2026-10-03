@@ -1,0 +1,12 @@
+{
+  "product": "seat",
+  "name": "The Seat",
+  "price_usd": 2500,
+  "interval": "year",
+  "seats_total": 25,
+  "seats_held": 0,
+  "seats_left": 25,
+  "full": false,
+  "checkout_url": "https://buy.stripe.com/3cI8wQ6zCg1p9Gta2cbZe0j",
+  "counted_at": "2026-10-03T07:15:21+00:00"
+}
