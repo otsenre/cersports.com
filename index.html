@@ -319,7 +319,7 @@ section { padding: 80px 24px; }
 /* ── PRICING ── */
 .pricing-section { background: var(--black); }
 .pricing-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 1px; background: var(--border); margin-top: 48px;
 }
 .nflw-banner { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
@@ -331,6 +331,7 @@ section { padding: 80px 24px; }
 /* THE SINGLE — one horizontal entry UNDER the ladder, not a fifth card in it:
    it is not access but one pick, offered rarely, three per offer (Node 0,
    2026-10-02). Quiet on purpose: black, a hairline of gold, no hype. */
+.founders-note { margin-top: 24px; font-size: 0.95rem; }
 .single-band { display:grid; grid-template-columns: auto 1fr auto; align-items:center;
   gap: 18px 28px; margin-top: 1px; padding: 22px 28px; background: var(--surface);
   border-top: 1px solid rgba(201,168,76,0.45); text-decoration:none; color:inherit;
@@ -1124,9 +1125,9 @@ footer {
 
       <div class="price-card">
         <div class="price-tier">48-Hour Pass</div>
-        <div class="price-amount">$5</div>
+        <div class="price-amount">$50</div>
         <div class="price-period">one-time</div>
-        <div class="price-daily">$2.50 / day</div>
+        <div class="price-daily">$25.00 / day</div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">The full daily card — every pick, ATP · EPL · MLB · MLS · NCAAF · NFL · NHL · WNBA · WTA</div>
@@ -1140,9 +1141,9 @@ footer {
       </div>
       <div class="price-card">
         <div class="price-tier">Week Pass</div>
-        <div class="price-amount">$19</div>
+        <div class="price-amount">$150</div>
         <div class="price-period">7 days</div>
-        <div class="price-daily">$2.71 / day</div>
+        <div class="price-daily">$21.43 / day</div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">Everything in the 48-Hour Pass</div>
@@ -1155,9 +1156,9 @@ footer {
       </div>
       <div class="price-card featured">
         <div class="price-tier">Monthly</div>
-        <div class="price-amount">$49</div>
+        <div class="price-amount">$350</div>
         <div class="price-period">per month · auto-renews</div>
-        <div class="price-daily">$1.63 / day · save 35%</div>
+        <div class="price-daily">$11.67 / day · save 53%</div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">Everything in the Week Pass</div>
@@ -1168,23 +1169,12 @@ footer {
         <a href="#" class="price-btn price-btn-featured" onclick="checkout('monthly');return false;">Subscribe Monthly</a>
         <div class="price-fulfillment">Instant access · cancel anytime</div>
       </div>
-      <div class="price-card">
-        <div class="price-tier">Annual <span class="dev-badge">best value</span></div>
-        <div class="price-amount">$349</div>
-        <div class="price-period">per year</div>
-        <div class="price-daily">$0.96 / day · save 62%</div>
-        <div class="price-divider"></div>
-        <div class="price-features">
-          <div class="price-feature highlight">Everything in Monthly, locked for the year</div>
-          <div class="price-feature highlight">Every product we publish to subscribers</div>
-          <div class="price-feature highlight">Founder access to anything we build next</div>
-          <div class="price-feature">Founders receive every product CERSports publishes to subscribers — including Anchor, Syndicate, CER Props, Pull the Handle and anything that follows — for as long as their subscription runs unbroken.</div>
-          <div class="price-feature">Auto-renews yearly · cancel anytime</div>
-        </div>
-        <a href="#" class="price-btn price-btn-default" onclick="checkout('annual');return false;">Subscribe Annual</a>
-        <div class="price-fulfillment">Instant access · best value</div>
-      </div>
     </div>
+    <!-- FOUNDERS. Quoted verbatim from founder_program.FOUNDER_PROMISE
+         (test_founder_program pins it). It sat on the Annual card until the
+         Annual was retired 2026-10-02; any paid purchase grants founder
+         standing while the window is open. -->
+    <p class="section-body founders-note"><strong>Founders:</strong> any paid plan bought while the founding window is open makes you a founder. Founders receive every product CERSports publishes to subscribers — including Anchor, Syndicate, CER Props, Pull the Handle and anything that follows — for as long as their subscription runs unbroken.</p>
     <!-- THE SINGLE. Text follows single.json (products/single/public.py). The
          inline copy is the no-JS fallback and must stay a true sentence. It
          NEVER names the pick, sport or game of an open Single. -->
@@ -1643,17 +1633,18 @@ const STRIPE_PK = 'pk_live_vr5kStRpnl19OqbbkptZjldh';
 // Dashboard → Payment Links → + New → select product → copy link
 // Replace the placeholder URLs below with your actual payment links
 const PAYMENT_LINKS = {
-  day:     'https://buy.stripe.com/cNi14o4ru2azbOB5LWbZe04',   // $5 48-hour pass
-  week:    'https://buy.stripe.com/eVqfZi4rubL9g4RfmwbZe05',   // $19 week pass
-  monthly: 'https://buy.stripe.com/8x28wQ6zCbL9cSF5LWbZe06',   // $49/mo subscription
-  annual:  'https://buy.stripe.com/14A3cwf684iH4m92zKbZe07',   // $349/yr subscription
+  // Pricing round 2, 2026-10-02. Must match product_registry.PRODUCTS
+  // checkout_url; the old links are deactivated in Stripe. The Annual is
+  // retired for new buyers (The Seat replaces it once its cap is built).
+  day:     'https://buy.stripe.com/7sY6oI0be9D12e1a2cbZe0g',   // $50 48-hour pass
+  week:    'https://buy.stripe.com/aFacN6gacaH5cSF8Y8bZe0h',   // $150 week pass
+  monthly: 'https://buy.stripe.com/aFa4gA9LO5mLg4RdeobZe0i',   // $350/mo subscription
 };
 
 const TIER_INFO = {
-  day:     { title: '48-HOUR PASS — $5',   sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
-  week:    { title: 'WEEK PASS — $19',     sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
-  monthly: { title: 'MONTHLY — $49/mo',    sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
-  annual:  { title: 'ANNUAL — $349/yr',    sub: 'Everything, locked for the year. Instant access. Cancel anytime.' },
+  day:     { title: '48-HOUR PASS — $50',  sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
+  week:    { title: 'WEEK PASS — $150',    sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
+  monthly: { title: 'MONTHLY — $350/mo',   sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
 };
 
 // ── PICKS DATA ───────────────────────────────────────────────────────────────
