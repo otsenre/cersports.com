@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Single — CERSports</title>
+<meta name="description" content="One high-conviction pick, sold on its own with the full research attached. Offered only when the board produces one. Three per offer. Every result public, losses included.">
+<meta property="og:title" content="The Single — CERSports">
+<meta property="og:description" content="One pick. Full research. Three per offer. Offered only when the board produces one.">
+<meta property="og:image" content="https://cersports.com/og-image.jpg">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1MHZXXCT6B');
+</script>
+<!-- THE SINGLE. Everything below the hero renders from single.json, written by
+     products/single/public.py. That payload NEVER carries the pick, sport or game
+     of an OPEN Single -- only its spots left and the time it closes. History and
+     the sample are SETTLED Singles. Do not add a field here that reaches around it. -->
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black: #080808; --surface: #101010; --surface2: #161616;
+  --border: rgba(255,255,255,0.08); --border2: rgba(255,255,255,0.14);
+  --white: #ffffff; --off-white: #e8e8e8; --muted: #8a8a8a; --muted2: #555;
+  --gold: #c9a84c; --gold-light: #e8c96a;
+  --red: #c0392b; --green: #1a7a4a; --green-light: #22c55e;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black); color: var(--off-white);
+  font-family: 'Barlow', sans-serif; font-weight: 400; line-height: 1.65;
+  overflow-x: hidden; -webkit-font-smoothing: antialiased;
+}
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+a { color: inherit; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 22px;
+}
+.eyebrow::before { content: ''; width: 26px; height: 1px; background: var(--gold); opacity: .6; }
+h1, h2, h3 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; text-wrap: balance; line-height: .96; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+/* NAV */
+nav { position: sticky; top: 0; z-index: 150; border-bottom: 1px solid var(--border);
+  background: rgba(8,8,8,0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.nav-inner { max-width: 900px; margin: 0 auto; height: 60px; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between; }
+.brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); text-decoration: none; }
+.brand span { color: var(--gold); }
+.nav-back { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.nav-back:hover { color: var(--white); }
+
+
+.hero { padding: 92px 0 56px; position: relative; }
+.hero::before { content:''; position:absolute; inset:0; z-index:-1;
+  background: radial-gradient(ellipse 60% 55% at 50% 30%, rgba(201,168,76,0.07) 0%, transparent 70%); }
+.hero h1 { font-size: clamp(64px, 12vw, 132px); color: var(--white); letter-spacing: 2px; }
+.hero h1 em { font-style: normal; color: var(--gold); }
+.lede { font-size: 19px; font-weight: 300; color: var(--off-white); max-width: 46ch; margin-top: 22px; }
+.price { font-family:'Bebas Neue',sans-serif; font-size: 44px; color: var(--white); margin-top: 30px; letter-spacing: 1px; }
+.price small { font-family:'Barlow Condensed',sans-serif; font-size: 13px; font-weight:700; letter-spacing:3px;
+  text-transform:uppercase; color: var(--muted); margin-left: 12px; }
+
+.status { margin: 0 0 64px; padding: 26px 28px; background: var(--surface);
+  border-top: 1px solid rgba(201,168,76,0.45); display:flex; gap: 20px 32px; align-items:center;
+  justify-content: space-between; flex-wrap: wrap; }
+.status.is-open { border-top-color: var(--gold); }
+.status .st-head { font-family:'Bebas Neue',sans-serif; font-size: 30px; color: var(--white); letter-spacing: 1px; line-height:1; }
+.status .st-sub { font-family:'Barlow Condensed',sans-serif; font-size: 12px; font-weight:700; letter-spacing:3px;
+  text-transform:uppercase; color: var(--muted); margin-top: 8px; }
+.spots { display:flex; gap: 6px; margin-top: 12px; }
+.spots i { width: 26px; height: 4px; background: var(--gold); }
+.spots i.gone { background: var(--muted2); }
+.btn { display:inline-block; padding: 15px 30px; background: var(--gold); color: var(--black);
+  font-family:'Barlow Condensed',sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; text-decoration: none; transition: background .2s; }
+.btn:hover { background: var(--gold-light); }
+
+section.block { padding: 0 0 64px; }
+section.block h2 { font-size: 40px; color: var(--white); margin-bottom: 18px; letter-spacing: 1px; }
+.prose p { max-width: 62ch; margin-bottom: 14px; color: var(--off-white); }
+.prose b { color: var(--white); font-weight: 500; }
+.facts { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px;
+  background: var(--border); margin-top: 26px; }
+.facts div { background: var(--black); padding: 20px; }
+.facts .k { font-family:'Barlow Condensed',sans-serif; font-size: 11px; font-weight:700; letter-spacing:3px;
+  text-transform:uppercase; color: var(--muted); }
+.facts .v { font-family:'Bebas Neue',sans-serif; font-size: 34px; color: var(--white); margin-top: 6px; line-height:1; }
+.facts .v.gold { color: var(--gold); }
+.note { font-size: 13px; color: var(--muted); margin-top: 12px; max-width: 62ch; }
+
+table.hist { width:100%; border-collapse: collapse; font-size: 14.5px; }
+.hist th { text-align:left; font-family:'Barlow Condensed',sans-serif; font-size: 11px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase; color: var(--muted); padding: 0 10px 10px 0;
+  border-bottom: 1px solid var(--border2); }
+.hist td { padding: 14px 10px 14px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+.hist .pk { color: var(--white); font-weight: 500; }
+.hist .gm { color: var(--muted); font-size: 13px; }
+.res { font-family:'Barlow Condensed',sans-serif; font-weight: 700; letter-spacing: 2px; }
+.res.W { color: var(--green-light); } .res.L { color: var(--red); } .res.P { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.dossier { background: var(--surface); padding: 30px 28px; border-left: 2px solid var(--gold); }
+.dossier .d-pick { font-family:'Bebas Neue',sans-serif; font-size: 38px; color: var(--white); line-height: 1; }
+.dossier .d-meta { font-family:'Barlow Condensed',sans-serif; font-size: 12px; font-weight:700; letter-spacing:3px;
+  text-transform:uppercase; color: var(--muted); margin-top: 10px; }
+.dossier h3 { font-size: 22px; color: var(--gold); letter-spacing: 2px; margin: 28px 0 12px; }
+.src { padding: 12px 0; border-top: 1px solid var(--border); }
+.src .who { color: var(--white); font-weight: 500; }
+.src .who span { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
+.src .why { color: var(--off-white); font-size: 14.5px; margin-top: 4px; }
+[hidden] { display: none !important; }
+.empty { color: var(--muted); }
+footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
+.footer-inner { max-width: 900px; margin: 0 auto; padding: 0 24px; text-align: center; }
+.footer-brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); margin-bottom: 14px; }
+.footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
+.footer-links a { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.footer-links a:hover { color: var(--white); }
+.footer-disclaimer { font-size: 12.5px; color: var(--muted2); max-width: 62ch; margin: 0 auto; line-height: 1.6; }
+.footer-disclaimer .na { color: var(--muted); font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px; }
+
+.brand:focus-visible, a.btn:focus-visible, .nav-back:focus-visible, .footer-links a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+@media (max-width: 600px) {
+  .wrap { padding: 0 16px; }
+  .hist .hide-sm { display: none; }
+  .status, .dossier { padding: 22px 18px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/">CER<span>SPORTS</span></a>
+    <a class="nav-back" href="/#pricing">← All plans</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">One pick · sold on its own</div>
+    <h1>THE <em>SINGLE</em></h1>
+    <p class="lede">One high-conviction selection with the full research attached — offered only on the days the board produces one. Most days it doesn’t.</p>
+    <div class="price" id="price">$350<small>three per offer</small></div>
+  </header>
+
+  <div class="status" id="status">
+    <div>
+      <div class="st-head" id="stHead">No Single is open right now.</div>
+      <div class="st-sub" id="stSub">Offers open when one qualifies and close at its kickoff</div>
+      <div class="spots" id="spots" hidden></div>
+    </div>
+    <a class="btn" id="buy" href="#" hidden>Buy the Single</a>
+  </div>
+
+  <section class="block prose">
+    <h2>What you get</h2>
+    <p><b>One pick, and why.</b> The selection, the line and price it was taken at, the confidence behind it, and every one of our pickers who backed it — each with their own reasoning.</p>
+    <p><b>The bar it cleared.</b> A Single is chosen from the whole day’s board, and only when the field is deep enough to choose from. If nothing clears the bar, there is no Single that day. We would rather sell nothing.</p>
+    <p><b>Delivered by email</b> within 15 minutes of purchase, before the game starts. Buy on a day with no open offer and nothing is charged — the button only exists while one is open.</p>
+    <p><b>Three per offer.</b> Each Single is sold to at most three people. When they’re gone, it’s closed.</p>
+  </section>
+
+  <section class="block">
+    <h2>The record</h2>
+    <div class="facts" id="facts">
+      <div><div class="k">Record</div><div class="v gold" id="fRec">—</div></div>
+      <div><div class="k">Net units</div><div class="v" id="fUnits">—</div></div>
+      <div><div class="k">ROI</div><div class="v" id="fRoi">—</div></div>
+      <div><div class="k">Settled</div><div class="v" id="fN">—</div></div>
+    </div>
+    <p class="note" id="sampleNote"></p>
+    <div style="margin-top:30px; overflow-x:auto">
+      <table class="hist">
+        <thead><tr><th>Date</th><th>Pick</th><th class="hide-sm">Price</th><th>Result</th><th class="hide-sm">Units</th></tr></thead>
+        <tbody id="hist"><tr><td colspan="5" class="empty">Loading…</td></tr></tbody>
+      </table>
+    </div>
+    <p class="note">Every settled Single is listed, losses included. An open Single never appears here until its game has started.</p>
+  </section>
+
+  <section class="block">
+    <h2>What arrives</h2>
+    <p class="note" style="margin:0 0 20px">The most recent settled Single, exactly as its buyers received it.</p>
+    <div class="dossier" id="dossier"><div class="empty">Loading…</div></div>
+  </section>
+
+  <section class="block prose">
+    <h2>The math</h2>
+    <p id="econ">At $350, the Single is priced for someone already staking seriously. The fee raises your break-even: a pick has to win more often than the market price implies to pay for itself.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">CER<span style="color:var(--gold)">SPORTS</span></div>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="https://instagram.com/cersports" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://t.me/cersportspicks" target="_blank" rel="noopener">Telegram</a>
+      <a href="mailto:info@cersports.com">Contact</a>
+    </div>
+    <div class="footer-disclaimer">
+      <span class="na">#NotFinancialAdvice — for entertainment only.</span> 21+. © 2026 CERSports. All rights reserved.
+      Sports involves risk. Past model performance does not guarantee future results.
+      Please play responsibly. CERSports does not accept wagers. <a href="privacy.html">Privacy</a>.
+    </div>
+  </div>
+</footer>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const odds = o => o == null ? '' : (o > 0 ? '+' : '') + Math.round(o);
+const pct = p => (p * 100).toFixed(1) + '%';
+const day = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', {month: 'short', day: 'numeric'});
+
+function renderStatus(d) {
+  const s = d.sale || {}, el = document.getElementById('status');
+  const head = document.getElementById('stHead'), sub = document.getElementById('stSub');
+  const spots = document.getElementById('spots'), buy = document.getElementById('buy');
+  if (s.state === 'open' && s.checkout_url) {
+    el.classList.add('is-open');
+    head.textContent = `A Single is open — ${s.remaining} of ${s.limit} left`;
+    sub.textContent = `Closes ${s.closes_at_pt || 'at kickoff'}`;
+    spots.innerHTML = Array.from({length: s.limit}, (_, i) =>
+      `<i class="${i < s.limit - s.remaining ? 'gone' : ''}"></i>`).join('');
+    spots.hidden = false;
+    buy.href = s.checkout_url; buy.hidden = false;
+    buy.addEventListener('click', () => { try { gtag('event', 'single_checkout_click'); } catch (e) {} });
+  } else if (s.state === 'sold_out') {
+    head.textContent = 'Today’s Single is sold out.';
+    sub.textContent = 'All three spots are taken · the result posts here after the game';
+  } else if (s.state === 'closed') {
+    head.textContent = 'Today’s Single has closed.';
+    sub.textContent = 'Its game has started · the result posts here once it settles';
+  } else {
+    head.textContent = 'No Single is open right now.';
+    sub.textContent = d.last_offer_date
+      ? `Last offered ${day(d.last_offer_date)} · offers open when one qualifies`
+      : 'Offers open when one qualifies and close at its kickoff';
+  }
+}
+
+function renderRecord(d) {
+  const r = d.record || {};
+  document.getElementById('fRec').textContent = r.record || '—';
+  document.getElementById('fUnits').textContent = r.net_units == null ? '—' : (r.net_units > 0 ? '+' : '') + r.net_units.toFixed(2);
+  document.getElementById('fRoi').textContent = r.roi_pct == null ? '—' : (r.roi_pct > 0 ? '+' : '') + r.roi_pct.toFixed(1) + '%';
+  document.getElementById('fN').textContent = r.settled ?? '—';
+  if (r.small_sample) document.getElementById('sampleNote').textContent =
+    `Small sample: ${r.settled} settled. A handful of results says very little about what comes next — judge it after thirty, not ${r.settled}.`;
+  const rows = (d.history || []).map(h => `<tr>
+      <td class="num">${esc(day(h.date))}</td>
+      <td><div class="pk">${esc(h.pick)}</div><div class="gm">${esc(h.sport)} · ${esc(h.game)}</div></td>
+      <td class="num hide-sm">${esc(odds(h.odds))}</td>
+      <td><span class="res ${esc(h.result)}">${esc({W: 'WIN', L: 'LOSS', P: 'PUSH'}[h.result] || h.result)}</span></td>
+      <td class="num hide-sm">${h.profit_units == null ? '' : (h.profit_units > 0 ? '+' : '') + h.profit_units.toFixed(2)}</td></tr>`);
+  document.getElementById('hist').innerHTML = rows.join('') ||
+    '<tr><td colspan="5" class="empty">No Single has settled yet.</td></tr>';
+}
+
+function renderSample(d) {
+  const s = d.sample, el = document.getElementById('dossier');
+  if (!s || !s.pick) { el.innerHTML = '<div class="empty">The first sample appears once a Single settles.</div>'; return; }
+  const p = s.pick, f = s.field || {};
+  const srcs = (s.sources || []).map(x => `<div class="src">
+      <div class="who">${esc(x.persona)}<span>CCR ${esc(x.ccr)} · ${esc(odds(x.odds))}</span></div>
+      ${x.rationale ? `<div class="why">${esc(x.rationale)}</div>` : ''}</div>`).join('');
+  el.innerHTML = `
+    <div class="d-pick">${esc(p.pick)} <span style="color:var(--muted)">${esc(odds(p.odds))}</span></div>
+    <div class="d-meta">${esc(p.sport)} · ${esc(p.game)} · ${esc(p.game_time_pt)}</div>
+    <div class="d-meta">CCR ${esc(p.ccr)} · backed by ${esc(p.n_sources)} pickers ·
+      chosen from ${esc(f.candidates)} candidates across ${esc(f.events)} events</div>
+    <h3>WHO BACKED IT</h3>${srcs}
+    <h3>RESULT</h3><span class="res ${esc(s.result)}">${esc({W: 'WIN', L: 'LOSS', P: 'PUSH'}[s.result] || s.result)}</span>`;
+  const e = s.economics;
+  if (e) document.getElementById('econ').innerHTML =
+    `At $${esc(e.list_price_usd)} against a $${Number(e.assumed_stake_usd).toLocaleString()} stake, the fee is
+     ${pct(e.fee_stake_ratio)} of the bet. On this sample at ${esc(odds(p.odds))}, the market break-even was
+     <b>${pct(e.market_break_even_prob)}</b>; with the fee included it was <b>${pct(e.fee_adjusted_break_even_prob)}</b>.
+     The Single is for someone already staking at that size — at smaller stakes the fee costs more than the edge is worth.`;
+}
+
+fetch('single.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  if (d.price_usd) document.getElementById('price').firstChild.textContent = '$' + d.price_usd;
+  renderStatus(d); renderRecord(d); renderSample(d);
+}).catch(() => {
+  document.getElementById('hist').innerHTML = '<tr><td colspan="5" class="empty">Record unavailable — try again shortly.</td></tr>';
+  document.getElementById('dossier').innerHTML = '<div class="empty">Sample unavailable — try again shortly.</div>';
+});
+</script>
+</body>
+</html>

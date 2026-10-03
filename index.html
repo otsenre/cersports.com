@@ -328,6 +328,26 @@ section { padding: 80px 24px; }
   font-size:14px; line-height:1.5; }
 .nflw-tag { flex:none; font-size:10px; letter-spacing:.12em; font-weight:700;
   background:#c9a84c; color:#080808; padding:2px 7px; border-radius:3px; }
+/* THE SINGLE — one horizontal entry UNDER the ladder, not a fifth card in it:
+   it is not access but one pick, offered rarely, three per offer (Node 0,
+   2026-10-02). Quiet on purpose: black, a hairline of gold, no hype. */
+.single-band { display:grid; grid-template-columns: auto 1fr auto; align-items:center;
+  gap: 18px 28px; margin-top: 1px; padding: 22px 28px; background: var(--surface);
+  border-top: 1px solid rgba(201,168,76,0.45); text-decoration:none; color:inherit;
+  transition: background .2s; }
+.single-band:hover { background: var(--surface2); }
+.single-band .sb-name { font-family:'Bebas Neue',sans-serif; font-size:30px; letter-spacing:2px;
+  color: var(--white); line-height:1; }
+.single-band .sb-name em { font-style:normal; color: var(--gold); }
+.single-band .sb-line { font-family:'Barlow',sans-serif; font-size:14px; color: var(--off-white);
+  line-height:1.5; }
+.single-band .sb-line b { color: var(--white); font-weight:500; }
+.single-band .sb-meta { display:block; font-family:'Barlow Condensed',sans-serif; font-size:11px;
+  font-weight:700; letter-spacing:3px; text-transform:uppercase; color: var(--muted); margin-top:4px; }
+.single-band .sb-cta { font-family:'Barlow Condensed',sans-serif; font-size:12px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase; color: var(--gold); white-space:nowrap; }
+.single-band.is-open { border-top-color: var(--gold); }
+@media (max-width: 720px) { .single-band { grid-template-columns: 1fr; gap: 10px; padding: 20px; } }
 .price-card {
   background: var(--surface); padding: 28px 24px;
   position: relative; display: flex; flex-direction: column;
@@ -1165,6 +1185,15 @@ footer {
         <div class="price-fulfillment">Instant access · best value</div>
       </div>
     </div>
+    <!-- THE SINGLE. Text follows single.json (products/single/public.py). The
+         inline copy is the no-JS fallback and must stay a true sentence. It
+         NEVER names the pick, sport or game of an open Single. -->
+    <a class="single-band" id="singleBand" href="single.html">
+      <div class="sb-name">THE <em>SINGLE</em></div>
+      <div class="sb-line" id="singleLine">One high-conviction pick, sold on its own — offered only when the board produces one.
+        <span class="sb-meta" id="singleMeta">$350 · three per offer</span></div>
+      <div class="sb-cta" id="singleCta">How it works →</div>
+    </a>
   </div>
 </section>
 
@@ -1729,6 +1758,42 @@ function freePickSlot(free, picks, todayPT) {
   return {pick: null, state: 'pending', headline: 'Free pick coming',
           tag: '\u23f3 When the day\u2019s data is in', due: ''};
 }
+
+/* THE SINGLE BAND — reads single.json; never shows an open pick. */
+async function loadSingleBand() {
+  const band = document.getElementById('singleBand');
+  if (!band) return;
+  let d;
+  try { d = await (await fetch('single.json?t=' + Date.now())).json(); } catch (e) { return; }
+  const r = (d && d.record) || {};
+  const rec = r.record ? `Record ${r.record}${r.small_sample ? ' · small sample' : ''}` : '';
+  const sale = (d && d.sale) || {};
+  const line = document.getElementById('singleLine');
+  const meta = document.getElementById('singleMeta');
+  const cta = document.getElementById('singleCta');
+  const price = d.price_usd ? `$${d.price_usd}` : '$350';
+  const say = (main, sub, action) => {
+    line.firstChild.textContent = main + ' ';
+    meta.textContent = sub;
+    cta.textContent = action;
+  };
+  if (sale.state === 'open') {
+    band.classList.add('is-open');
+    say(`A Single is open — ${sale.remaining} of ${sale.limit} left.`,
+        [price, `closes ${sale.closes_at_pt || 'at kickoff'}`, rec].filter(Boolean).join(' · '),
+        'View →');
+  } else if (sale.state === 'sold_out') {
+    say('Today’s Single is sold out.', [price, rec].filter(Boolean).join(' · '), 'How it works →');
+  } else {
+    const last = d.last_offer_date
+      ? new Date(d.last_offer_date + 'T12:00:00').toLocaleDateString('en-US', {month: 'short', day: 'numeric'})
+      : null;
+    say('One high-conviction pick, sold on its own — offered only when the board produces one.',
+        [price + ' · three per offer', rec, last ? `last: ${last}` : ''].filter(Boolean).join(' · '),
+        'How it works →');
+  }
+}
+loadSingleBand();
 
 /* How many pick cards are shown before the fold.
  *
