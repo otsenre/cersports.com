@@ -319,7 +319,7 @@ section { padding: 80px 24px; }
 /* ── PRICING ── */
 .pricing-section { background: var(--black); }
 .pricing-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(4, 1fr);
   gap: 1px; background: var(--border); margin-top: 48px;
 }
 .nflw-banner { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
@@ -662,6 +662,39 @@ footer {
   font-size: 13px; letter-spacing: 1px; color: var(--green-light);
   margin-bottom: 20px; text-align: center;
 }
+
+/* ── PRICING: round 2 (2026-10) ── */
+.price-record { margin: 28px 0 0; padding: 14px 16px; border: 1px solid var(--border2);
+  font-family:'Barlow Condensed',sans-serif; font-size:13px; letter-spacing:.06em; color: var(--off-white); }
+.price-record b { color: var(--white); font-weight:700; }
+.price-record a { color: var(--gold); text-decoration:none; }
+.price-builtfor { font-family:'Barlow Condensed',sans-serif; font-size:12px; letter-spacing:.04em;
+  color: var(--gold); margin: -6px 0 18px; min-height: 1em; }
+.price-builtfor small { display:block; color: var(--muted); letter-spacing:.02em; font-size:11px; margin-top:2px; }
+.price-seats { font-family:'Barlow Condensed',sans-serif; font-size:12px; font-weight:700; letter-spacing:.12em;
+  text-transform:uppercase; color: var(--gold); margin-bottom: 10px; min-height: 1em; }
+.price-card.is-full .price-btn { opacity:.4; pointer-events:none; }
+.season-band { display:grid; grid-template-columns: auto 1fr auto; align-items:center; gap: 24px;
+  margin-top: 1px; padding: 22px 28px; background: var(--surface); border-top: 2px solid var(--border2);
+  text-decoration:none; color: inherit; }
+.season-band[hidden] { display:none; }
+.season-band:hover { background: var(--surface2); }
+.season-band .sb-name { font-family:'Bebas Neue',sans-serif; font-size:30px; letter-spacing:2px; color: var(--white); }
+.season-band .sb-name em { font-style:normal; color: var(--gold); }
+.season-band .sb-line { font-family:'Barlow',sans-serif; font-size:14px; color: var(--off-white); }
+.season-band .sb-meta { display:block; font-family:'Barlow Condensed',sans-serif; font-size:11px;
+  letter-spacing:.08em; color: var(--muted); margin-top:4px; }
+.season-band .sb-cta { font-family:'Barlow Condensed',sans-serif; font-size:12px; font-weight:700;
+  letter-spacing:.12em; text-transform:uppercase; color: var(--gold); }
+@media (max-width: 720px) { .season-band { grid-template-columns: 1fr; gap: 10px; padding: 20px; } }
+.not-for { margin-top: 48px; padding: 28px; border: 1px solid var(--border2); }
+.not-for h3 { font-family:'Bebas Neue',sans-serif; font-size:30px; letter-spacing:2px; color: var(--white); margin-bottom: 14px; }
+.not-for h3 em { font-style:normal; color: var(--red); }
+.not-for ul { list-style:none; display:grid; gap: 12px; }
+.not-for li { font-size:15px; color: var(--off-white); line-height:1.55; padding-left: 18px; position:relative; }
+.not-for li::before { content:'✕'; position:absolute; left:0; color: var(--red); font-size:12px; top:3px; }
+.not-for li b { color: var(--white); font-weight:500; }
+.not-for .nf-close { margin-top: 18px; font-size:14px; color: var(--muted); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
@@ -1109,6 +1142,9 @@ footer {
     <div class="section-label">Access</div>
     <h2 class="section-title">FULL <em>REPORT</em></h2>
     <p class="section-body">Every game on the slate. Full model breakdown, CCR ratings, and the complete pick card — not just the teaser.</p>
+    <!-- THE RECORD SITS BESIDE THE PRICES (pricing round 2, D5). Filled from
+         scorecard.json, the one scorecard; the fallback is a true sentence. -->
+    <div class="price-record" id="priceRecord"><a href="#record">Every pick we've sent, losses included, is in the record above. Read it before you buy.</a></div>
 
     <!-- NFL WEEKLY — the next release date is NOT typed here. schedule.js
          replaces this text from schedule.json, which products/nfl_weekly/
@@ -1128,6 +1164,7 @@ footer {
         <div class="price-amount">$50</div>
         <div class="price-period">one-time</div>
         <div class="price-daily">$25.00 / day</div>
+        <div class="price-builtfor" data-builtfor="day"></div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">The full daily card — every pick, ATP · EPL · MLB · MLS · NCAAF · NFL · NHL · WNBA · WTA</div>
@@ -1144,10 +1181,11 @@ footer {
         <div class="price-amount">$150</div>
         <div class="price-period">7 days</div>
         <div class="price-daily">$21.43 / day</div>
+        <div class="price-builtfor" data-builtfor="week"></div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">Everything in the 48-Hour Pass</div>
-          <div class="price-feature highlight"><strong>Telegram delivery</strong> — the card in your private channel</div>
+          <div class="price-feature highlight"><span><strong>Telegram delivery</strong> — the card in your private channel</span></div>
           <div class="price-feature highlight">On-demand record + history, any time you ask</div>
           <div class="price-feature">One-time · 7 days access</div>
         </div>
@@ -1159,6 +1197,7 @@ footer {
         <div class="price-amount">$350</div>
         <div class="price-period">per month · auto-renews</div>
         <div class="price-daily">$11.67 / day · save 53%</div>
+        <div class="price-builtfor" data-builtfor="monthly"></div>
         <div class="price-divider"></div>
         <div class="price-features">
           <div class="price-feature highlight">Everything in the Week Pass</div>
@@ -1169,12 +1208,39 @@ footer {
         <a href="#" class="price-btn price-btn-featured" onclick="checkout('monthly');return false;">Subscribe Monthly</a>
         <div class="price-fulfillment">Instant access · cancel anytime</div>
       </div>
+      <!-- THE SEAT. "N of 25 left" / "Full" is seat.json (products/seat/cap.py),
+           a count from Stripe -- never typed here. Stripe itself refuses seat 26. -->
+      <div class="price-card" id="seatCard">
+        <div class="price-tier">The Seat <span class="dev-badge">25 seats</span></div>
+        <div class="price-amount">$2,500</div>
+        <div class="price-period">per year · auto-renews</div>
+        <div class="price-seats" id="seatCount"></div>
+        <div class="price-builtfor" data-builtfor="seat"></div>
+        <div class="price-divider"></div>
+        <div class="price-features">
+          <div class="price-feature highlight">Everything in Monthly</div>
+          <div class="price-feature highlight"><span><strong>Every Single</strong> — sent to you, outside the three public spots</span></div>
+          <div class="price-feature highlight">The NFL season: every week's card and the pool sheet</div>
+          <div class="price-feature highlight">Every product we release to subscribers, now and later, while your Seat is held</div>
+          <div class="price-feature">Twenty-five seats, ever. When they're taken, they're taken.</div>
+        </div>
+        <a href="#" class="price-btn price-btn-default" id="seatBtn" onclick="checkout('seat');return false;">Take a Seat</a>
+        <div class="price-fulfillment">Instant access · renews yearly</div>
+      </div>
     </div>
     <!-- FOUNDERS. Quoted verbatim from founder_program.FOUNDER_PROMISE
          (test_founder_program pins it). It sat on the Annual card until the
          Annual was retired 2026-10-02; any paid purchase grants founder
          standing while the window is open. -->
     <p class="section-body founders-note"><strong>Founders:</strong> any paid plan bought while the founding window is open makes you a founder. Founders receive every product CERSports publishes to subscribers — including Anchor, Syndicate, CER Props, Pull the Handle and anything that follows — for as long as their subscription runs unbroken.</p>
+    <!-- NFL SEASON PASS. Hidden unless nfl_season.json says on_sale; price,
+         weeks and link all come from it (products/nfl_season/pricing.py). -->
+    <a class="season-band" id="seasonBand" hidden href="#">
+      <div class="sb-name">NFL <em>SEASON</em> PASS</div>
+      <div class="sb-line" id="seasonLine">Every remaining week's NFL Weekly card, the pool sheet included.
+        <span class="sb-meta" id="seasonMeta"></span></div>
+      <div class="sb-cta">Buy the season →</div>
+    </a>
     <!-- THE SINGLE. Text follows single.json (products/single/public.py). The
          inline copy is the no-JS fallback and must stay a true sentence. It
          NEVER names the pick, sport or game of an open Single. -->
@@ -1184,6 +1250,19 @@ footer {
         <span class="sb-meta" id="singleMeta">three per offer</span></div>
       <div class="sb-cta" id="singleCta">How it works →</div>
     </a>
+    <!-- WHO THIS IS NOT FOR (pricing round 2, D5): the anti-marketing block.
+         The record numbers are filled from scorecard.json; every claim here
+         must stay true with or without them. -->
+    <div class="not-for">
+      <h3>WHO THIS IS <em>NOT</em> FOR</h3>
+      <ul>
+        <li><b>If $50 scares you</b>, don't buy anything here. Take the free pick. It comes from the same committee, every day, for nothing, and its record is public too.</li>
+        <li><b>If you bet small units</b>, the math won't work for you. Every plan above says the unit size it's built for. Below that size, the fee is a bigger share of your action than any edge can pay back.</li>
+        <li><b>If you want a lock</b>, there isn't one. <span id="notForRecord">The record above is every pick we've sent, losses included.</span> Read it before you pay.</li>
+        <li><b>If you want to be told to bet</b>, we won't. We tell you what to bet, how much, and why. Whether you act is your call.</li>
+      </ul>
+      <p class="nf-close">21+. We don't take bets or hold money. #NotFinancialAdvice — For entertainment only.</p>
+    </div>
   </div>
 </section>
 
@@ -1639,12 +1718,14 @@ const PAYMENT_LINKS = {
   day:     'https://buy.stripe.com/7sY6oI0be9D12e1a2cbZe0g',   // $50 48-hour pass
   week:    'https://buy.stripe.com/aFacN6gacaH5cSF8Y8bZe0h',   // $150 week pass
   monthly: 'https://buy.stripe.com/aFa4gA9LO5mLg4RdeobZe0i',   // $350/mo subscription
+  seat:    'https://buy.stripe.com/3cI8wQ6zCg1p9Gta2cbZe0j',   // $2,500/yr, 25 seats (Stripe-capped)
 };
 
 const TIER_INFO = {
   day:     { title: '48-HOUR PASS — $50',  sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
   week:    { title: 'WEEK PASS — $150',    sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
   monthly: { title: 'MONTHLY — $350/mo',   sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
+  seat:    { title: 'THE SEAT — $2,500/yr', sub: 'Everything, every Single, the NFL season. Twenty-five seats; renews yearly. Cancel anytime.' },
 };
 
 // ── PICKS DATA ───────────────────────────────────────────────────────────────
@@ -1788,6 +1869,68 @@ async function loadSingleBand() {
   }
 }
 loadSingleBand();
+
+// ── PRICING EXTRAS (pricing round 2) ────────────────────────────────────────
+// Every number here is read from a payload; nothing below types a price, a
+// count or a unit size. A missing payload leaves its slot empty, never stale.
+const WINDOW_WORDS = { day: 'in 48 hours', week: 'in a week', monthly: 'in a month', seat: 'in a year' };
+const usd = n => '$' + Number(n).toLocaleString('en-US');
+async function getJSON(name) {
+  try { return await (await fetch(name + '?t=' + Date.now())).json(); } catch (e) { return null; }
+}
+async function loadPricingExtras() {
+  const pricing = await getJSON('pricing.json');
+  if (pricing && pricing.tiers) {
+    const pct = Math.round(pricing.fee_share * 100);
+    for (const t of pricing.tiers) {
+      const el = document.querySelector(`[data-builtfor="${t.code}"]`);
+      if (!el || !t.built_for_unit_usd) continue;
+      el.innerHTML = `Built for ${usd(t.built_for_unit_usd)}+ units`
+        + `<small>At that size the price is ${pct}% of the ~${Math.round(t.units_served)}u the card sends ${WINDOW_WORDS[t.code] || ''}.</small>`;
+    }
+  }
+  const seat = await getJSON('seat.json');
+  if (seat) {
+    document.getElementById('seatCount').textContent = seat.full
+      ? `Full · all ${seat.seats_total} seats held`
+      : `${seat.seats_left} of ${seat.seats_total} seats left`;
+    if (seat.full) {
+      document.getElementById('seatCard').classList.add('is-full');
+      document.getElementById('seatBtn').textContent = 'Full';
+    }
+  }
+  const season = await getJSON('nfl_season.json');
+  if (season && season.on_sale && season.checkout_url) {
+    const band = document.getElementById('seasonBand');
+    band.href = season.checkout_url;
+    const closes = season.closes_at_utc ? new Date(season.closes_at_utc).toLocaleString('en-US',
+      { weekday: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles', timeZoneName: 'short' }) : '';
+    const nfl = pricing && pricing.nfl_season;
+    document.getElementById('seasonMeta').textContent = [
+      usd(season.price_usd),
+      `${season.weeks_remaining} weeks left, from Week ${season.first_week}`,
+      closes ? `this price until ${closes}` : '',
+      nfl && nfl.built_for_unit_usd ? `built for ${usd(nfl.built_for_unit_usd)}+ units` : '',
+    ].filter(Boolean).join(' · ');
+    band.hidden = false;
+  }
+  const score = await getJSON('scorecard.json');
+  const paid = score && score.products && score.products.paid;
+  const bands = (paid && paid.bands) || [];
+  const all = bands.find(b => b.label === 'ALL-TIME');
+  const recent = bands.find(b => b.label === 'L25') || bands.find(b => b.label === 'L50');
+  if (all) {
+    const u = x => (x > 0 ? '+' : '') + Number(x).toFixed(2) + 'u';
+    const r = x => (x > 0 ? '+' : '') + Number(x).toFixed(1) + '%';
+    document.getElementById('priceRecord').innerHTML =
+      `<b>THE DAILY CARD, EVERY PICK:</b> ALL-TIME ${all.record} · ${u(all.net_units)} · ROI ${r(all.roi_pct)}`
+      + (recent ? ` &nbsp;|&nbsp; ${recent.label} ${recent.record} · ${u(recent.net_units)}` : '')
+      + ` &nbsp;·&nbsp; <a href="#record">the full record</a>`;
+    document.getElementById('notForRecord').textContent =
+      `The daily card is ${all.record} all-time, ${u(all.net_units)}, every pick shown, losses included.`;
+  }
+}
+loadPricingExtras();
 
 /* How many pick cards are shown before the fold.
  *
