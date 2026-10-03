@@ -1,7 +1,7 @@
 {
   "product": "single",
   "name": "The Single",
-  "price_usd": 350,
+  "price_usd": 500,
   "on_sale": true,
   "sale": {
     "state": "none"
@@ -134,5 +134,5 @@
   },
   "what": "ONE high-conviction selection with the full research attached, offered only when the board produces one",
   "disclaimer": "#NotFinancialAdvice — For entertainment only",
-  "generated_at": "2026-10-03T03:15:55+00:00"
+  "generated_at": "2026-10-03T07:33:56+00:00"
 }
