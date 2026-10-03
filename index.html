@@ -1181,7 +1181,7 @@ footer {
     <a class="single-band" id="singleBand" href="single.html">
       <div class="sb-name">THE <em>SINGLE</em></div>
       <div class="sb-line" id="singleLine">One high-conviction pick, sold on its own — offered only when the board produces one.
-        <span class="sb-meta" id="singleMeta">$350 · three per offer</span></div>
+        <span class="sb-meta" id="singleMeta">three per offer</span></div>
       <div class="sb-cta" id="singleCta">How it works →</div>
     </a>
   </div>
@@ -1763,7 +1763,9 @@ async function loadSingleBand() {
   const line = document.getElementById('singleLine');
   const meta = document.getElementById('singleMeta');
   const cta = document.getElementById('singleCta');
-  const price = d.price_usd ? `$${d.price_usd}` : '$350';
+  // No typed fallback price: a payload without one shows none (a typed $350
+  // outlived the 2026-10-03 move to $500).
+  const price = d.price_usd ? `$${d.price_usd}` : '';
   const say = (main, sub, action) => {
     line.firstChild.textContent = main + ' ';
     meta.textContent = sub;
@@ -1781,7 +1783,7 @@ async function loadSingleBand() {
       ? new Date(d.last_offer_date + 'T12:00:00').toLocaleDateString('en-US', {month: 'short', day: 'numeric'})
       : null;
     say('One high-conviction pick, sold on its own — offered only when the board produces one.',
-        [price + ' · three per offer', rec, last ? `last: ${last}` : ''].filter(Boolean).join(' · '),
+        [price, 'three per offer', rec, last ? `last: ${last}` : ''].filter(Boolean).join(' · '),
         'How it works →');
   }
 }
