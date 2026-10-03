@@ -1,0 +1,138 @@
+{
+  "product": "single",
+  "name": "The Single",
+  "price_usd": 350,
+  "on_sale": true,
+  "sale": {
+    "state": "none"
+  },
+  "record": {
+    "settled": 5,
+    "wins": 4,
+    "losses": 1,
+    "record": "4-1",
+    "net_units": 5.31,
+    "roi_pct": 53.14,
+    "small_sample": true
+  },
+  "history": [
+    {
+      "date": "2026-09-24",
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Washington Mystics",
+      "pick": "Washington Mystics -13.5",
+      "odds": -102.0,
+      "result": "L",
+      "profit_units": -2.0
+    },
+    {
+      "date": "2026-09-23",
+      "sport": "WNBA",
+      "game": "Dallas Wings @ Seattle Storm",
+      "pick": "Dallas Wings -9.5",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.8182
+    },
+    {
+      "date": "2026-09-20",
+      "sport": "WNBA",
+      "game": "Seattle Storm @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -16.5",
+      "odds": -104.0,
+      "result": "W",
+      "profit_units": 1.9231
+    },
+    {
+      "date": "2026-09-18",
+      "sport": "WNBA",
+      "game": "Portland Fire @ Golden State Valkyries",
+      "pick": "Golden State Valkyries -12.5",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.8182
+    },
+    {
+      "date": "2026-09-17",
+      "sport": "WNBA",
+      "game": "Washington Mystics @ Chicago Sky",
+      "pick": "Washington Mystics -1.5",
+      "odds": -114.0,
+      "result": "W",
+      "profit_units": 1.7544
+    }
+  ],
+  "last_offer_date": "2026-09-24",
+  "sample": {
+    "selection_date": "2026-09-24",
+    "pick": {
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Washington Mystics",
+      "pick": "Washington Mystics -13.5",
+      "bet_type": "ATS",
+      "line": "-13.5",
+      "odds": -102.0,
+      "ccr": 9.0,
+      "n_sources": 5,
+      "game_time_utc": "2026-09-24T23:30:00Z",
+      "game_time_pt": "Thu Sep 24, 4:30 PM PT",
+      "lead_minutes": 505.3
+    },
+    "sources": [
+      {
+        "persona": "The Shoe",
+        "ccr": 9.0,
+        "odds": -102.0,
+        "rationale": "",
+        "outcome": "L"
+      },
+      {
+        "persona": "The Counter",
+        "ccr": 8.0,
+        "odds": -102.0,
+        "rationale": "Home court, superior offense, Chicago defensive struggles",
+        "outcome": "L"
+      },
+      {
+        "persona": "The Dealer",
+        "ccr": 7.0,
+        "odds": -115.0,
+        "rationale": "Washington Mystics dominant at home, Chicago Sky struggling on road",
+        "outcome": "L"
+      },
+      {
+        "persona": "The Shark",
+        "ccr": 7.0,
+        "odds": -102.0,
+        "rationale": "Mystics' strong home form, Sky's road struggles, and late-season motivation.",
+        "outcome": "L"
+      },
+      {
+        "persona": "The Rounder",
+        "ccr": 6.0,
+        "odds": -102.0,
+        "rationale": "Washington Mystics are dominant home team; Chicago Sky are significant underdogs with limited offensive firepower. 13.5-point spread reflects market consensus but offers value at -102 odds.",
+        "outcome": "L"
+      }
+    ],
+    "economics": {
+      "assumed_stake_usd": 5000.0,
+      "list_price_usd": 350,
+      "fee_stake_ratio": 0.07,
+      "decimal_odds": 1.9803921568627452,
+      "market_break_even_prob": 0.504950495049505,
+      "fee_adjusted_break_even_prob": 0.5402970297029703,
+      "formula": "(fee_adjusted = market * (1 + list_price / stake))"
+    },
+    "field": {
+      "candidates": 76,
+      "events": 16,
+      "min_candidates": 15,
+      "min_events": 6
+    },
+    "result": "L"
+  },
+  "what": "ONE high-conviction selection with the full research attached, offered only when the board produces one",
+  "disclaimer": "#NotFinancialAdvice — For entertainment only",
+  "generated_at": "2026-10-03T03:15:55+00:00"
+}
