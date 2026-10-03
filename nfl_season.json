@@ -1,0 +1,14 @@
+{
+  "product": "nfl_season",
+  "name": "NFL Season Pass",
+  "season": 2026,
+  "full_price_usd": 750,
+  "on_sale": false,
+  "price_usd": null,
+  "weeks_remaining": 14,
+  "first_week": 5,
+  "closes_at_utc": null,
+  "checkout_url": null,
+  "includes": "every remaining week's NFL Weekly card, pool sheet included",
+  "generated_at": "2026-10-03T07:22:12+00:00"
+}
