@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — CERSports</title>
+<meta name="description" content="How to reach CERSports, when each product arrives, and the terms of every sale.">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1MHZXXCT6B');
+</script>
+<!-- Terms here are Node 0's (2026-10-02). The Single's guarantee is enforced in
+     products/single/credits.py -- change both together, never one. -->
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black: #080808; --surface: #101010; --surface2: #161616;
+  --border: rgba(255,255,255,0.08); --border2: rgba(255,255,255,0.14);
+  --white: #ffffff; --off-white: #e8e8e8; --muted: #8a8a8a; --muted2: #555;
+  --gold: #c9a84c; --gold-light: #e8c96a;
+  --red: #c0392b; --green: #1a7a4a; --green-light: #22c55e;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black); color: var(--off-white);
+  font-family: 'Barlow', sans-serif; font-weight: 400; line-height: 1.65;
+  overflow-x: hidden; -webkit-font-smoothing: antialiased;
+}
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+a { color: inherit; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 22px;
+}
+.eyebrow::before { content: ''; width: 26px; height: 1px; background: var(--gold); opacity: .6; }
+h1, h2, h3 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; text-wrap: balance; line-height: .96; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+/* NAV */
+nav { position: sticky; top: 0; z-index: 150; border-bottom: 1px solid var(--border);
+  background: rgba(8,8,8,0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.nav-inner { max-width: 900px; margin: 0 auto; height: 60px; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between; }
+.brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); text-decoration: none; }
+.brand span { color: var(--gold); }
+.nav-back { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.nav-back:hover { color: var(--white); }
+
+footer { border-top: 1px solid var(--border); padding: 40px 0 54px; }
+.footer-inner { max-width: 900px; margin: 0 auto; padding: 0 24px; text-align: center; }
+.footer-brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 3px; color: var(--white); margin-bottom: 14px; }
+.footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
+.footer-links a { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+.footer-links a:hover { color: var(--white); }
+.footer-disclaimer { font-size: 12.5px; color: var(--muted2); max-width: 62ch; margin: 0 auto; line-height: 1.6; }
+.footer-disclaimer .na { color: var(--muted); font-family: 'Barlow Condensed', sans-serif; font-weight: 700; letter-spacing: 1px; }
+
+.brand:focus-visible, a.btn:focus-visible, .nav-back:focus-visible, .footer-links a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+.hero { padding: 80px 0 40px; }
+.hero h1 { font-size: clamp(56px, 10vw, 104px); color: var(--white); }
+.hero h1 em { font-style: normal; color: var(--gold); }
+.lede { font-size: 18px; font-weight: 300; max-width: 52ch; margin-top: 18px; }
+section.block { padding: 0 0 52px; }
+section.block h2 { font-size: 34px; color: var(--white); margin-bottom: 14px; letter-spacing: 1px; }
+.prose p, .prose li { max-width: 64ch; color: var(--off-white); }
+.prose p { margin-bottom: 12px; }
+.prose ul { padding-left: 20px; margin-bottom: 12px; }
+.prose li { margin-bottom: 8px; }
+.prose b { color: var(--white); font-weight: 500; }
+.prose a { color: var(--gold); }
+.contact { background: var(--surface); border-left: 2px solid var(--gold); padding: 24px 26px; margin-bottom: 52px; }
+.contact .k { font-family:'Barlow Condensed',sans-serif; font-size: 11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color: var(--muted); }
+.contact a { font-family:'Bebas Neue',sans-serif; font-size: 32px; color: var(--white); text-decoration: none; letter-spacing: 1px; }
+.contact a:hover { color: var(--gold); }
+@media (max-width: 600px) { .wrap { padding: 0 16px; } .contact a { font-size: 26px; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="/">CER<span>SPORTS</span></a>
+    <a class="nav-back" href="/">← Home</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Help</div>
+    <h1>SUP<em>PORT</em></h1>
+    <p class="lede">How to reach us, when everything arrives, and the terms of every sale.</p>
+  </header>
+
+  <div class="contact">
+    <div class="k">Email us — a person answers</div>
+    <a href="mailto:info@cersports.com">info@cersports.com</a>
+  </div>
+
+  <section class="block prose">
+    <h2>When it arrives</h2>
+    <ul>
+      <li><b>Daily Card</b> (48-Hour Pass, Week, Monthly, Annual): by email, and on Telegram for plans that include it, when the day’s card is built. Buy any time of day and you get that day’s card.</li>
+      <li><b>NFL Weekly</b>: one card a week, about 24 hours before the week’s first kickoff.</li>
+      <li><b>The Single</b>: by email within 15 minutes of purchase, always before its game. It’s only on sale while one is open, and each one is sold to at most three people.</li>
+    </ul>
+    <p>Nothing arrived? Check spam or promotions first, then email us with the address you bought with.</p>
+  </section>
+
+  <section class="block prose">
+    <h2>The Single’s guarantee</h2>
+    <ul>
+      <li><b>If it loses</b>, your next Single is free. It arrives automatically when the next one qualifies.</li>
+      <li><b>If its game is voided</b> (cancelled or postponed, so it never settles), your next Single is free. Or, if you’d rather not wait, reply to your delivery email and we’ll refund you.</li>
+      <li><b>A win or a push</b> is a final sale.</li>
+    </ul>
+  </section>
+
+  <section class="block prose">
+    <h2>Subscriptions &amp; refunds</h2>
+    <p>Monthly and Annual renew automatically. Cancel any time and you keep access to the end of the period you paid for. Email us to cancel or change your plan.</p>
+    <p>Because what you buy is delivered right away, sales are final. The one exception is the voided Single above.</p>
+  </section>
+
+  <section class="block prose">
+    <h2>What we are, and aren’t</h2>
+    <p>CERSports publishes picks and the research behind them. We don’t take bets and we don’t hold your money. Every result is public, losses included — see <a href="/">the record</a>. Past performance doesn’t guarantee future results. 21+. Please play responsibly.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">CER<span style="color:var(--gold)">SPORTS</span></div>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="https://instagram.com/cersports" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://t.me/cersportspicks" target="_blank" rel="noopener">Telegram</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:info@cersports.com">Contact</a>
+    </div>
+    <div class="footer-disclaimer">
+      <span class="na">#NotFinancialAdvice — for entertainment only.</span> 21+. © 2026 CERSports. All rights reserved.
+      Sports involves risk. Past model performance does not guarantee future results.
+      Please play responsibly. CERSports does not accept wagers. <a href="privacy.html">Privacy</a>.
+    </div>
+  </div>
+</footer>
+</body>
+</html>
