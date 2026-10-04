@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-04",
+    "source_sport": "NHL",
+    "game": "Florida Panthers @ Anaheim Ducks",
+    "pick": "Florida Panthers ML",
+    "pick_display": "Florida Panthers ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -132.0,
+    "handicap": null,
+    "ccr": 6.67,
+    "ccr_avg": 6.666666666666667,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "127fc8d4e8b3efe47d1eac9e68fba1f0ae373bf1d0b421429d934ef91f34a073"
+  },
+  {
     "date": "2026-10-03",
     "source_sport": "MMA",
     "game": "Anthony Wint vs Lucas Armand",
@@ -15435,7 +15455,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "W",
-    "profit_units": 1.197,
+    "profit_units": 1.1879,
     "odds_origin": "unresolved",
     "hash_id": "467292d84d96738ea1581635465ce5fcb382998606a775ceee1f8eda38aac807"
   },
@@ -15635,7 +15655,7 @@
     "edge": 0,
     "units": 2.0,
     "result": "W",
-    "profit_units": 1.3699,
+    "profit_units": 1.3333,
     "odds_origin": "unresolved",
     "hash_id": "98cba1eb2ed30234f75d1e0b79c50c02ca805c0ffd02b658f4bda4f71635ee02"
   },
@@ -15915,7 +15935,7 @@
     "edge": 0,
     "units": 1.75,
     "result": "W",
-    "profit_units": 1.4371,
+    "profit_units": 1.4264,
     "odds_origin": "unresolved",
     "hash_id": "c335deb9a69e6b9404d967b75279bb80519380a5dfd6a6cb7eb221af6ce1b047"
   },
