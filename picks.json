@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-05",
+    "source_sport": "NHL",
+    "game": "Winnipeg Jets @ Pittsburgh Penguins",
+    "pick": "Pittsburgh Penguins ML",
+    "pick_display": "Pittsburgh Penguins ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -173.0,
+    "handicap": null,
+    "ccr": 4.89,
+    "ccr_avg": 4.895,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "b312aa59f8fde128462cc669ffc2907102473e93e628d2a676f8db77f02d18ae"
+  },
+  {
     "date": "2026-10-04",
     "source_sport": "NHL",
     "game": "Florida Panthers @ Anaheim Ducks",
