@@ -282,6 +282,9 @@ document.getElementById('finder').addEventListener('change', function(){
       document.getElementById('pickSportDate').textContent =
         `${displaySport} · ${new Date(latest.date + 'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
       document.getElementById('pickTeam').textContent = latest.pick_display || latest.pick;
+      // Proven-lane mark (promotion threshold, 2026-10-05): a label only, set by
+      // render_picks_json when this free pick came from a validated Lane.
+      if (latest.proven_lane === true) { const m = document.createElement('span'); m.className = 'proven-lane'; m.textContent = '◆ PROVEN LANE'; m.style.cssText = 'display:block;margin-top:6px;font-size:11px;font-weight:700;letter-spacing:1px;color:#c9a84c;'; document.getElementById('pickTeam').appendChild(m); }
 
       const ccr = Number(latest.ccr) || 0;
       const ccrEl = document.getElementById('pickCCR');
