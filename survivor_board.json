@@ -1,8 +1,8 @@
 {
-  "day": "2026-10-04",
-  "deadline_utc": "2026-10-04T16:55:00+00:00",
-  "deadline_reason": "game starts within 35 minutes of the first pick; publishing 5 minutes before first pitch",
-  "earliest_start_utc": "2026-10-04T17:00:00+00:00",
+  "day": "2026-10-05",
+  "deadline_utc": "2026-10-05T19:10:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-10-05T21:10:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -24,7 +24,15 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "New Orleans Saints ML",
+        "game": "Atlanta Falcons @ New Orleans Saints",
+        "sport": "NFL",
+        "odds": -119,
+        "units": 1,
+        "start_utc": "2026-10-06T00:15:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
@@ -32,28 +40,20 @@
       "record": {
         "wins": 34,
         "losses": 34,
-        "pushes": 1,
+        "pushes": 2,
         "current": 0,
         "longest": 4,
         "alive": false,
         "pl_units": -1.32,
-        "pl_priced": 69,
-        "pl_settled": 69,
+        "pl_priced": 70,
+        "pl_settled": 70,
         "pl_flat_units": -3.57,
         "next_wager_from_base": null,
         "ramp_units": 2.0,
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Arizona Cardinals -2.5",
-        "game": "Arizona Cardinals @ New York Giants",
-        "sport": "NFL",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-10-04T17:00:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
