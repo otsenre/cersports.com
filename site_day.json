@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:58:05.741398+00:00",
+  "generated_at": "2026-10-06T15:43:39.966793+00:00",
   "run_date": "2026-10-06",
   "as_of": "2026-10-05",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-10-06",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-10-06T08:01:01-07:00",
+      "fire_pt": "2026-10-06 08:01 PDT"
     },
     "prior_run": {
       "date": "2026-10-05",
@@ -166,13 +166,13 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 139,
-        "beat": 74,
+        "n": 140,
+        "beat": 75,
         "tie": 30,
-        "beat_rate": 0.5324,
-        "beat_rate_ex_ties": 0.6789,
-        "tie_rate": 0.2158,
-        "avg_clv": 0.013,
+        "beat_rate": 0.5357,
+        "beat_rate_ex_ties": 0.6818,
+        "tie_rate": 0.2143,
+        "avg_clv": 0.0129,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
@@ -186,13 +186,13 @@
             "avg_clv": -0.001
           },
           "ML": {
-            "n": 51,
-            "beat": 35,
+            "n": 52,
+            "beat": 36,
             "tie": 4,
-            "tie_rate": 0.0784,
-            "beat_rate": 0.6863,
-            "beat_rate_ex_ties": 0.7447,
-            "avg_clv": 0.0075
+            "tie_rate": 0.0769,
+            "beat_rate": 0.6923,
+            "beat_rate_ex_ties": 0.75,
+            "avg_clv": 0.0074
           },
           "TOTAL": {
             "n": 11,
@@ -211,14 +211,14 @@
           "tie_rate": 0.0667,
           "beat_rate": 0.9,
           "beat_rate_ex_ties": 0.9643,
-          "avg_clv": 0.01,
+          "avg_clv": 0.0092,
           "meets_threshold": true,
           "meets_threshold_naive": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-10-04",
-        "generated_utc": "2026-10-05T14:56:25+00:00"
+        "last": "2026-10-05",
+        "generated_utc": "2026-10-06T15:00:48+00:00"
       }
     },
     "paid": {
@@ -6535,12 +6535,12 @@
         "pushes": 3,
         "voided": 5,
         "settled": 224,
-        "pending": 0,
+        "pending": 3,
         "net_units": -44.51,
         "roi_pct": -17.14,
         "roi_lcb95": -27.1,
         "start": "2026-04-01",
-        "end": "2026-10-05",
+        "end": "2026-10-06",
         "small_sample": false,
         "picker": "The Dealer",
         "ranked": true,
@@ -6606,12 +6606,12 @@
             "pushes": 0,
             "voided": 1,
             "settled": 86,
-            "pending": 0,
+            "pending": 1,
             "net_units": -14.02,
             "roi_pct": -15.71,
             "roi_lcb95": -31.24,
             "start": "2026-04-05",
-            "end": "2026-10-05",
+            "end": "2026-10-06",
             "small_sample": false,
             "lane": "MLB",
             "ranked": true,
@@ -6640,12 +6640,12 @@
                 "pushes": 0,
                 "voided": 1,
                 "settled": 17,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -4.69,
                 "roi_pct": -27.61,
                 "roi_lcb95": -65.52,
                 "start": "2026-08-09",
-                "end": "2026-10-05",
+                "end": "2026-10-06",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -6853,12 +6853,12 @@
             "pushes": 1,
             "voided": 0,
             "settled": 24,
-            "pending": 0,
+            "pending": 2,
             "net_units": -8.1,
             "roi_pct": -26.12,
             "roi_lcb95": -52.59,
             "start": "2026-04-01",
-            "end": "2026-10-05",
+            "end": "2026-10-06",
             "small_sample": true,
             "lane": "NHL",
             "ranked": false,
@@ -6904,12 +6904,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 3,
-                "pending": 0,
+                "pending": 2,
                 "net_units": -5.0,
                 "roi_pct": -100.0,
                 "roi_lcb95": -100.0,
                 "start": "2026-04-01",
-                "end": "2026-10-01",
+                "end": "2026-10-06",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -7848,18 +7848,26 @@
   },
   "pickers_contributing": 10,
   "morning_state": {
-    "free_pick_site_published_at_utc": null,
+    "free_pick_site_published_at_utc": "2026-10-06T08:01:01-07:00",
     "free_pick_release_state": "staged",
     "free_pick_release_at_utc": "2026-10-06T23:30:00+00:00",
     "free_pick_published_at_utc": null
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:28 AM PT",
+    "first_leg_time": "4:00 PM PT",
+    "first_leg_utc": "2026-10-06T23:00:00+00:00",
+    "leg_times_utc": [
+      "2026-10-06T23:00:00+00:00",
+      "2026-10-07T01:00:00+00:00",
+      "2026-10-07T01:30:00+00:00"
+    ]
   },
   "recap": {
     "recap_date": "2026-10-05",
     "run_date": "2026-10-06",
-    "generated_at_utc": "2026-10-06T15:01:01+00:00",
+    "generated_at_utc": "2026-10-06T15:45:04+00:00",
     "final": true,
     "card": {
       "n": 7,
@@ -8214,10 +8222,12 @@
   "status": {
     "contract": 1,
     "date": "2026-10-06",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review.",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:28 AM PT \u00b7 3 picks, MLB + NHL \u00b7 first leg fires 4:00 PM PT",
     "parts": [
-      "Today's Paid Card is in review."
+      "Paid card shipped 8:28 AM PT",
+      "3 picks, MLB + NHL",
+      "first leg fires 4:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8228,11 +8238,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 60 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
+    "free_pick_live": true,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-06",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:01 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "4:00 PM PT",
+    "updated_pt": "8:45 AM PT"
   }
 }
