@@ -10,18 +10,18 @@
       "source": "human:shark",
       "record": {
         "wins": 41,
-        "losses": 29,
+        "losses": 30,
         "pushes": 0,
         "current": 0,
         "longest": 5,
         "alive": false,
-        "pl_units": 0.05,
-        "pl_priced": 65,
-        "pl_settled": 70,
-        "pl_flat_units": -2.58,
+        "pl_units": -2.95,
+        "pl_priced": 66,
+        "pl_settled": 71,
+        "pl_flat_units": -3.58,
         "next_wager_from_base": null,
-        "ramp_units": 2.0,
-        "loss_run": 2
+        "ramp_units": 3.0,
+        "loss_run": 3
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
@@ -31,7 +31,7 @@
         "odds": -105,
         "units": 1,
         "start_utc": "2026-10-07T01:30:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
