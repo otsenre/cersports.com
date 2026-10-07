@@ -1,8 +1,8 @@
 {
-  "day": "2026-10-06",
-  "deadline_utc": "2026-10-06T23:30:00+00:00",
+  "day": "2026-10-07",
+  "deadline_utc": "2026-10-07T21:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-07T01:30:00+00:00",
+  "earliest_start_utc": "2026-10-07T23:00:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -24,15 +24,7 @@
         "loss_run": 3
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Over 7.5",
-        "game": "Milwaukee Brewers @ San Diego Padres",
-        "sport": "MLB",
-        "odds": -105,
-        "units": 1,
-        "start_utc": "2026-10-07T01:30:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -53,7 +45,15 @@
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Over 49.5",
+        "game": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+        "sport": "NCAAF",
+        "odds": -110,
+        "units": 1,
+        "start_utc": "2026-10-07T23:00:00+00:00",
+        "result": null
+      }
     }
   ]
 }
