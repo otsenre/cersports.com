@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:56:29.570344+00:00",
+  "generated_at": "2026-10-08T15:12:58.127504+00:00",
   "run_date": "2026-10-08",
   "as_of": "2026-10-07",
   "anchor": "2026-03-20",
@@ -181,24 +181,24 @@
       "current_rule_since": "2026-08-29",
       "current_rule_locked_until": "2026-11-26",
       "clv": {
-        "n": 141,
-        "beat": 76,
+        "n": 142,
+        "beat": 77,
         "tie": 30,
-        "beat_rate": 0.539,
-        "beat_rate_ex_ties": 0.6847,
-        "tie_rate": 0.2128,
+        "beat_rate": 0.5423,
+        "beat_rate_ex_ties": 0.6875,
+        "tie_rate": 0.2113,
         "avg_clv": 0.0128,
         "since": null,
         "true_closes_from": "2026-06-17",
         "by_market": {
           "ATS": {
-            "n": 78,
-            "beat": 37,
+            "n": 79,
+            "beat": 38,
             "tie": 18,
-            "tie_rate": 0.2308,
-            "beat_rate": 0.4744,
-            "beat_rate_ex_ties": 0.6167,
-            "avg_clv": -0.001
+            "tie_rate": 0.2278,
+            "beat_rate": 0.481,
+            "beat_rate_ex_ties": 0.623,
+            "avg_clv": -0.0008
           },
           "ML": {
             "n": 52,
@@ -226,14 +226,14 @@
           "tie_rate": 0.0333,
           "beat_rate": 0.9333,
           "beat_rate_ex_ties": 0.9655,
-          "avg_clv": 0.0092,
+          "avg_clv": 0.0095,
           "meets_threshold": true,
           "meets_threshold_naive": true
         },
         "window": 30,
         "first": "2026-06-17",
-        "last": "2026-10-06",
-        "generated_utc": "2026-10-07T15:01:54+00:00"
+        "last": "2026-10-07",
+        "generated_utc": "2026-10-08T14:58:40+00:00"
       }
     },
     "paid": {
@@ -4362,12 +4362,12 @@
         "pushes": 0,
         "voided": 6,
         "settled": 233,
-        "pending": 0,
+        "pending": 3,
         "net_units": -14.41,
         "roi_pct": -6.15,
         "roi_lcb95": -17.29,
         "start": "2026-05-11",
-        "end": "2026-10-03",
+        "end": "2026-10-08",
         "small_sample": false,
         "picker": "The Closer",
         "ranked": true,
@@ -4379,12 +4379,12 @@
             "pushes": 0,
             "voided": 2,
             "settled": 68,
-            "pending": 0,
+            "pending": 1,
             "net_units": -0.54,
             "roi_pct": -0.79,
             "roi_lcb95": -19.67,
             "start": "2026-05-12",
-            "end": "2026-09-24",
+            "end": "2026-10-08",
             "small_sample": false,
             "lane": "MLB",
             "ranked": true,
@@ -4413,12 +4413,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 2,
-                "pending": 0,
+                "pending": 1,
                 "net_units": 1.95,
                 "roi_pct": 97.48,
                 "roi_lcb95": 86.96,
                 "start": "2026-09-21",
-                "end": "2026-09-24",
+                "end": "2026-10-08",
                 "small_sample": true,
                 "market": "TOTAL",
                 "ranked": false
@@ -4899,12 +4899,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 1,
-            "pending": 0,
+            "pending": 2,
             "net_units": -1.0,
             "roi_pct": -100.0,
             "roi_lcb95": null,
             "start": "2026-09-25",
-            "end": "2026-09-25",
+            "end": "2026-10-08",
             "small_sample": true,
             "lane": "NCAAF",
             "ranked": false,
@@ -4916,12 +4916,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 1,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -1.0,
                 "roi_pct": -100.0,
                 "roi_lcb95": null,
                 "start": "2026-09-25",
-                "end": "2026-09-25",
+                "end": "2026-10-08",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -5906,12 +5906,12 @@
         "pushes": 2,
         "voided": 1,
         "settled": 138,
-        "pending": 0,
+        "pending": 2,
         "net_units": -13.33,
         "roi_pct": -8.35,
         "roi_lcb95": -23.14,
         "start": "2026-03-30",
-        "end": "2026-10-07",
+        "end": "2026-10-08",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -5923,12 +5923,12 @@
             "pushes": 1,
             "voided": 0,
             "settled": 30,
-            "pending": 0,
+            "pending": 2,
             "net_units": 5.12,
             "roi_pct": 12.65,
             "roi_lcb95": -20.35,
             "start": "2026-03-30",
-            "end": "2026-10-07",
+            "end": "2026-10-08",
             "small_sample": false,
             "lane": "NHL",
             "ranked": true,
@@ -5957,12 +5957,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 15,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -2.35,
                 "roi_pct": -11.75,
                 "roi_lcb95": -54.84,
                 "start": "2026-04-07",
-                "end": "2026-10-05",
+                "end": "2026-10-08",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -5974,12 +5974,12 @@
                 "pushes": 1,
                 "voided": 0,
                 "settled": 6,
-                "pending": 0,
+                "pending": 1,
                 "net_units": 1.3,
                 "roi_pct": 18.55,
                 "roi_lcb95": -57.14,
                 "start": "2026-04-08",
-                "end": "2026-10-07",
+                "end": "2026-10-08",
                 "small_sample": true,
                 "market": "TOTAL",
                 "ranked": false
@@ -7915,8 +7915,9 @@
       "WNBA",
       "WTA"
     ],
-    "card_picks": 2,
+    "card_picks": 5,
     "card_sports": [
+      "MLB",
       "NCAAF",
       "NHL"
     ]
@@ -7929,12 +7930,22 @@
     "free_pick_published_at_utc": null
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:09 AM PT",
+    "first_leg_time": "4:00 PM PT",
+    "first_leg_utc": "2026-10-08T23:00:00+00:00",
+    "leg_times_utc": [
+      "2026-10-08T23:00:00+00:00",
+      "2026-10-08T23:00:00+00:00",
+      "2026-10-08T23:00:00+00:00",
+      "2026-10-08T23:00:00+00:00",
+      "2026-10-09T00:00:00+00:00"
+    ]
   },
   "recap": {
     "recap_date": "2026-10-07",
     "run_date": "2026-10-08",
-    "generated_at_utc": "2026-10-08T14:59:21+00:00",
+    "generated_at_utc": "2026-10-08T15:14:23+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8271,11 +8282,12 @@
   "status": {
     "contract": 1,
     "date": "2026-10-08",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather: Columbus Crew SC @ Orlando City SC, D.C. United @ Inter Miami CF",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:09 AM PT \u00b7 5 picks, MLB + NCAAF + NHL \u00b7 first leg fires 4:00 PM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather: Columbus Crew SC @ Orlando City SC, D.C. United @ Inter Miami CF"
+      "Paid card shipped 8:09 AM PT",
+      "5 picks, MLB + NCAAF + NHL",
+      "first leg fires 4:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8287,10 +8299,10 @@
       "basis": "p90 of 62 measured fires"
     },
     "free_pick_live": true,
-    "card_live": false,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-08",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "7:59 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "4:00 PM PT",
+    "updated_pt": "8:14 AM PT"
   }
 }
