@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-08",
-  "deadline_utc": "2026-10-08T22:15:00+00:00",
+  "day": "2026-10-09",
+  "deadline_utc": "2026-10-10T00:15:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-09T00:15:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-10T02:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -25,13 +25,13 @@
       },
       "note": "2 up, building again",
       "pick": {
-        "pick": "Under 48.5",
-        "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
-        "sport": "NFL",
-        "odds": -115,
+        "pick": "Over 45.5",
+        "game": "Iowa State Cyclones @ BYU Cougars",
+        "sport": "NCAAF",
+        "odds": -110,
         "units": 1,
-        "start_utc": "2026-10-09T00:15:00+00:00",
-        "result": "W"
+        "start_utc": "2026-10-10T02:15:00+00:00",
+        "result": null
       }
     },
     {
@@ -53,15 +53,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Dallas Cowboys ML",
-        "game": "Tampa Bay Buccaneers @ Dallas Cowboys",
-        "sport": "NFL",
-        "odds": -475,
-        "units": 1,
-        "start_utc": "2026-10-09T00:15:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
