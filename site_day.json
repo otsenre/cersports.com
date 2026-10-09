@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:38:45.632710+00:00",
+  "generated_at": "2026-10-09T21:04:48.331387+00:00",
   "run_date": "2026-10-09",
   "as_of": "2026-10-08",
   "anchor": "2026-03-20",
@@ -1512,12 +1512,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 120,
-        "pending": 0,
+        "pending": 1,
         "net_units": -1.86,
         "roi_pct": -1.2,
         "roi_lcb95": -16.79,
         "start": "2026-03-30",
-        "end": "2026-10-07",
+        "end": "2026-10-09",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -1799,12 +1799,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 25,
-            "pending": 0,
+            "pending": 1,
             "net_units": -0.35,
             "roi_pct": -0.97,
             "roi_lcb95": -37.02,
             "start": "2026-03-30",
-            "end": "2026-10-04",
+            "end": "2026-10-09",
             "small_sample": true,
             "lane": "NHL",
             "ranked": false,
@@ -1850,12 +1850,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 4,
-                "pending": 0,
+                "pending": 1,
                 "net_units": 0.23,
                 "roi_pct": 4.13,
                 "roi_lcb95": -100.0,
                 "start": "2026-04-08",
-                "end": "2026-05-07",
+                "end": "2026-10-09",
                 "small_sample": true,
                 "market": "TOTAL",
                 "ranked": false
@@ -7979,7 +7979,7 @@
   "pickers_contributing": 13,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-10-09T08:27:00-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-09T21:00:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7999,7 +7999,7 @@
   "recap": {
     "recap_date": "2026-10-08",
     "run_date": "2026-10-09",
-    "generated_at_utc": "2026-10-09T15:40:15+00:00",
+    "generated_at_utc": "2026-10-09T21:06:20+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8336,11 +8336,11 @@
     "contract": 1,
     "date": "2026-10-09",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:28 AM PT \u00b7 5 picks, LALIGA + NHL + WNBA \u00b7 first leg fires 12:00 PM PT",
+    "line": "Paid card shipped 8:28 AM PT \u00b7 5 picks, LALIGA + NHL + WNBA \u00b7 1 of 5 games started \u00b7 next 4:00 PM PT",
     "parts": [
       "Paid card shipped 8:28 AM PT",
       "5 picks, LALIGA + NHL + WNBA",
-      "first leg fires 12:00 PM PT"
+      "1 of 5 games started \u00b7 next 4:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8356,6 +8356,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-09",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "12:00 PM PT",
-    "updated_pt": "8:40 AM PT"
+    "updated_pt": "2:06 PM PT"
   }
 }

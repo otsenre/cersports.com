@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-09",
+    "source_sport": "NHL",
+    "game": "Seattle Kraken @ Detroit Red Wings",
+    "pick": "Over 6.0",
+    "pick_display": "Over 6.0",
+    "bet_type": "Total",
+    "line": 6.0,
+    "price": -115.0,
+    "handicap": null,
+    "ccr": 8.0,
+    "ccr_avg": 8.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "a085099b9165b77eafdcf1658684d8a0fd65f92cd3aaee4c9884c0f2ea1352d6"
+  },
+  {
     "date": "2026-10-08",
     "source_sport": "NCAAF",
     "game": "Sam Houston Bearkats @ Liberty Flames",
