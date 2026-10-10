@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-10",
+    "sport": "NBA",
+    "game": "Atlanta Hawks @ Indiana Pacers",
+    "pick": "Atlanta Hawks",
+    "bet_type": "ATS",
+    "line": "-0.5",
+    "pick_display": "Atlanta Hawks ATS -0.5",
+    "edge": 9.598,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-10-09",
     "source_sport": "NHL",
     "game": "Seattle Kraken @ Detroit Red Wings",
