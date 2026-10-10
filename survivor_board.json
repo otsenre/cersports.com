@@ -6,35 +6,6 @@
   "submitted_count": 1,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 37,
-        "losses": 34,
-        "pushes": 1,
-        "current": 3,
-        "longest": 4,
-        "alive": true,
-        "pl_units": 3.07,
-        "pl_priced": 72,
-        "pl_settled": 72,
-        "pl_flat_units": -0.92,
-        "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
-      },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Over 45.5",
-        "game": "Iowa State Cyclones @ BYU Cougars",
-        "sport": "NCAAF",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-10-10T02:15:00+00:00",
-        "result": null
-      }
-    },
-    {
       "name": "Shark",
       "source": "human:shark",
       "record": {
@@ -54,6 +25,35 @@
       },
       "note": "1 up, building again",
       "pick": null
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 37,
+        "losses": 35,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": 2.07,
+        "pl_priced": 73,
+        "pl_settled": 73,
+        "pl_flat_units": -1.92,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Over 45.5",
+        "game": "Iowa State Cyclones @ BYU Cougars",
+        "sport": "NCAAF",
+        "odds": -110,
+        "units": 1,
+        "start_utc": "2026-10-10T02:15:00+00:00",
+        "result": "L"
+      }
     }
   ]
 }
