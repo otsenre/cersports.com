@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-10-11",
-    "sport": "NBA",
-    "game": "Milwaukee Bucks @ Charlotte Hornets",
-    "pick": "Charlotte Hornets",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Charlotte Hornets ATS -3.5",
-    "edge": 9.402,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "units": 2.0
-  },
-  {
-    "date": "2026-10-11",
-    "sport": "BEST",
-    "game": "Milwaukee Bucks @ Charlotte Hornets",
-    "pick": "Charlotte Hornets",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Charlotte Hornets ATS -3.5",
-    "edge": 9.402,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NBA"
-  },
-  {
     "date": "2026-10-10",
     "source_sport": "MLS",
     "game": "D.C. United @ Inter Miami CF",
