@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:20:45.047759+00:00",
+  "generated_at": "2026-10-11T16:02:46.820578+00:00",
   "run_date": "2026-10-11",
   "as_of": "2026-10-10",
   "anchor": "2026-03-20",
@@ -130,20 +130,20 @@
           "n": 909,
           "start": "2026-03-20",
           "end": "2026-10-10",
-          "units_pl": -47.99,
+          "units_pl": -48.05,
           "roi_pct": -4.48,
           "bankroll_units": 100,
           "rows": 955,
           "win_pct": 53.7,
           "unpriced": 0,
           "band_full": true,
-          "bankroll_return_pct": -47.99,
+          "bankroll_return_pct": -48.05,
           "spx_return_pct": 20.06,
-          "vs_spx": -68.05,
+          "vs_spx": -68.11,
           "dji_return_pct": 13.33,
-          "vs_dji": -61.32,
+          "vs_dji": -61.38,
           "ndx_return_pct": 26.42,
-          "vs_ndx": -74.41,
+          "vs_ndx": -74.47,
           "rule_changes": [
             "2026-08-25",
             "2026-08-29"
@@ -2019,12 +2019,12 @@
         "pushes": 1,
         "voided": 0,
         "settled": 76,
-        "pending": 0,
+        "pending": 1,
         "net_units": -6.11,
         "roi_pct": -6.24,
         "roi_lcb95": -23.25,
         "start": "2026-03-21",
-        "end": "2026-10-10",
+        "end": "2026-10-11",
         "small_sample": false,
         "picker": "The Rounder",
         "ranked": true,
@@ -3120,9 +3120,9 @@
         "voided": 12,
         "settled": 150,
         "pending": 0,
-        "net_units": 1.8,
-        "roi_pct": 1.27,
-        "roi_lcb95": -11.8,
+        "net_units": 1.74,
+        "roi_pct": 1.23,
+        "roi_lcb95": -11.84,
         "start": "2026-03-20",
         "end": "2026-06-06",
         "small_sample": false,
@@ -3137,9 +3137,9 @@
             "voided": 1,
             "settled": 92,
             "pending": 0,
-            "net_units": 9.38,
-            "roi_pct": 15.57,
-            "roi_lcb95": -1.82,
+            "net_units": 9.33,
+            "roi_pct": 15.48,
+            "roi_lcb95": -1.9,
             "start": "2026-03-20",
             "end": "2026-05-16",
             "small_sample": false,
@@ -3154,9 +3154,9 @@
                 "voided": 0,
                 "settled": 56,
                 "pending": 0,
-                "net_units": 3.54,
-                "roi_pct": 11.52,
-                "roi_lcb95": -8.37,
+                "net_units": 3.49,
+                "roi_pct": 11.34,
+                "roi_lcb95": -8.52,
                 "start": "2026-03-20",
                 "end": "2026-04-15",
                 "small_sample": false,
@@ -7681,7 +7681,7 @@
   "pickers_contributing": 16,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-10-11T07:50:13-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-11T16:00:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7701,7 +7701,7 @@
   "recap": {
     "recap_date": "2026-10-10",
     "run_date": "2026-10-11",
-    "generated_at_utc": "2026-10-11T15:22:11+00:00",
+    "generated_at_utc": "2026-10-11T16:04:21+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -7812,7 +7812,7 @@
           },
           "ALL-TIME": {
             "record": "485-419-5P",
-            "units": -47.99
+            "units": -48.05
           }
         }
       },
@@ -8058,6 +8058,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-11",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "10:00 AM PT",
-    "updated_pt": "8:22 AM PT"
+    "updated_pt": "9:04 AM PT"
   }
 }

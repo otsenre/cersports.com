@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-11",
+    "source_sport": "NFL",
+    "game": "Cincinnati Bengals @ Miami Dolphins",
+    "pick": "Cincinnati Bengals -7.0",
+    "pick_display": "Cincinnati Bengals -7.0",
+    "bet_type": "ATS",
+    "line": -7.0,
+    "price": -108.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "75b49fd24c59387b85fcf4c2390fa6ac362c1e65c62209da140eb2af7dc2a1c5"
+  },
+  {
     "date": "2026-10-10",
     "source_sport": "MLS",
     "game": "D.C. United @ Inter Miami CF",
@@ -18815,7 +18835,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5455,
+    "profit_units": 0.5357,
     "odds_origin": "unresolved",
     "hash_id": "5ee37a399082579e07e70af523285c2704be303506546d669021224fa346031f"
   },
@@ -18835,7 +18855,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "fdd8286d6437d59d84ffd94ccae9cc8819159bd1c2c66c0dbd58a1b0a49a815f"
   },
@@ -18875,7 +18895,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "7571ee9342dfbcfee2608160c1dbdc219429f2db3e0a215d75d61afac46a04b2"
   },
@@ -18895,7 +18915,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "79db9523a5be68ec6e642785809dd47dcd2793f319c22352f943fd0e2ee3d1bc"
   },
@@ -18915,7 +18935,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "12406f2de1b1cb9e2ed788e6c0b9a5b6373db96eda37e4f33fb6787c4cf8a0b3"
   },
@@ -18955,7 +18975,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "55ebb565bbf9d4ea70df007d6337877dce7e8ddf025e59b8ef5de9667d411285"
   },
@@ -18975,7 +18995,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "6c2d0e22be4eaf4294d0445566e18349df3e0cc7532cb8ba7712a4b0c85edd11"
   },
@@ -18995,7 +19015,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3636,
+    "profit_units": 0.3571,
     "odds_origin": "unresolved",
     "hash_id": "f44c1e1ab37ff3256adece018845244993a708eed148aa917039e18f3bfbedfd"
   },
