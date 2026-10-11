@@ -10,20 +10,20 @@
       "source": "human:shark",
       "record": {
         "wins": 43,
-        "losses": 31,
+        "losses": 32,
         "pushes": 0,
-        "current": 1,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 1.34,
-        "pl_priced": 69,
-        "pl_settled": 74,
-        "pl_flat_units": -2.83,
+        "alive": false,
+        "pl_units": 0.34,
+        "pl_priced": 70,
+        "pl_settled": 75,
+        "pl_flat_units": -3.83,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "1 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Over 7.5",
         "game": "Chicago White Sox @ Cleveland Guardians",
@@ -31,7 +31,7 @@
         "odds": 105,
         "units": 1,
         "start_utc": "2026-10-11T00:01:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
@@ -39,18 +39,18 @@
       "source": "human:reaper",
       "record": {
         "wins": 37,
-        "losses": 35,
+        "losses": 36,
         "pushes": 1,
         "current": 0,
         "longest": 4,
         "alive": false,
-        "pl_units": 2.07,
-        "pl_priced": 73,
-        "pl_settled": 73,
-        "pl_flat_units": -1.92,
+        "pl_units": 0.07,
+        "pl_priced": 74,
+        "pl_settled": 74,
+        "pl_flat_units": -2.92,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
@@ -60,7 +60,7 @@
         "odds": 119,
         "units": 1,
         "start_utc": "2026-10-11T00:01:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
