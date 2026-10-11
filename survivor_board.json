@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-10",
-  "deadline_utc": "2026-10-10T22:01:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-11T00:01:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-10-11",
+  "deadline_utc": null,
+  "deadline_reason": "no survivor pick with a known game start",
+  "earliest_start_utc": null,
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,13 +25,13 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 7.5",
-        "game": "Chicago White Sox @ Cleveland Guardians",
-        "sport": "MLB",
-        "odds": 105,
+        "pick": "Cincinnati Bengals -7",
+        "game": "Cincinnati Bengals @ Miami Dolphins",
+        "sport": "NFL",
+        "odds": -111,
         "units": 1,
-        "start_utc": "2026-10-11T00:01:00+00:00",
-        "result": "L"
+        "start_utc": null,
+        "result": null
       }
     },
     {
@@ -53,15 +53,7 @@
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Chicago White Sox ML",
-        "game": "Chicago White Sox @ Cleveland Guardians",
-        "sport": "MLB",
-        "odds": 119,
-        "units": 1,
-        "start_utc": "2026-10-11T00:01:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
