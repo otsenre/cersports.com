@@ -2914,8 +2914,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.0,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "0f91186319616eb6cc5780bce75cffdb81a55303670f34d85e1e401ffc46376e"
   },
@@ -2994,8 +2994,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.0,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "12cfbaa65abb36ee088956c60ccacfd91351e20663292afc037912b38fb19f74"
   },
@@ -3094,8 +3094,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.0,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "861caffeca5b80ec32dbdf2010c6f953c60d7833dc7dd2c15332420f67c051e1"
   },
@@ -3214,8 +3214,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.7143,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "85b9ddd63d7dd43f25187f0de9f5e487d19b782a03ff4fdf891d60efbacd8ea7"
   },
@@ -3314,8 +3314,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.0,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "b7d1f5b077c264717e40d68c42968a38d4bc066af82089be883a9ab539a91b6f"
   },
@@ -3494,8 +3494,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "W",
-    "profit_units": 0.5556,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "c7750e167f869bc02938b5bb9dfaa6ccc072a3717d134ba2f36b6025ffa4979c"
   },
@@ -3934,8 +3934,8 @@
     "tier": "B",
     "edge": 0,
     "units": 0.75,
-    "result": "L",
-    "profit_units": -0.75,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "source_report",
     "hash_id": "0214a37d66ea4a02babcbc608d5d77bd70b16387b7d75e5f47e64fe1f440a7d5"
   },
@@ -7294,8 +7294,8 @@
     "tier": "B",
     "edge": 0,
     "units": 0.75,
-    "result": "W",
-    "profit_units": 0.5172,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "b387e2d4a43679aa725424faf18cfb298aaec75aabe98f01ed5b7a6ceea61c03"
   },
@@ -15414,8 +15414,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.75,
-    "result": "W",
-    "profit_units": 1.2069,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "6071601ffb6c5144d7632bff6b244fdbbf45403e3bdb57d01a5ef60843d01bbe"
   },
@@ -16474,8 +16474,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.75,
-    "result": "W",
-    "profit_units": 1.5909,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "backfilled_from_picks_ledger",
     "hash_id": "210719e3572ec4f11e71aaa28be42a20dd155cbc8212a98741096f28e52ec3cb"
   },
@@ -18835,7 +18835,7 @@
     "edge": 0,
     "units": 0.75,
     "result": "W",
-    "profit_units": 0.5357,
+    "profit_units": 0.5455,
     "odds_origin": "unresolved",
     "hash_id": "5ee37a399082579e07e70af523285c2704be303506546d669021224fa346031f"
   },
@@ -18855,7 +18855,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "fdd8286d6437d59d84ffd94ccae9cc8819159bd1c2c66c0dbd58a1b0a49a815f"
   },
@@ -18895,7 +18895,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "7571ee9342dfbcfee2608160c1dbdc219429f2db3e0a215d75d61afac46a04b2"
   },
@@ -18915,7 +18915,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "79db9523a5be68ec6e642785809dd47dcd2793f319c22352f943fd0e2ee3d1bc"
   },
@@ -18935,7 +18935,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "12406f2de1b1cb9e2ed788e6c0b9a5b6373db96eda37e4f33fb6787c4cf8a0b3"
   },
@@ -18975,7 +18975,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "55ebb565bbf9d4ea70df007d6337877dce7e8ddf025e59b8ef5de9667d411285"
   },
@@ -18995,7 +18995,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "6c2d0e22be4eaf4294d0445566e18349df3e0cc7532cb8ba7712a4b0c85edd11"
   },
@@ -19015,7 +19015,7 @@
     "edge": 0,
     "units": 0.5,
     "result": "W",
-    "profit_units": 0.3571,
+    "profit_units": 0.3636,
     "odds_origin": "unresolved",
     "hash_id": "f44c1e1ab37ff3256adece018845244993a708eed148aa917039e18f3bfbedfd"
   },
