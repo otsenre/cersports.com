@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-12",
+    "sport": "NBA",
+    "game": "Oklahoma City Thunder @ Atlanta Hawks",
+    "pick": "Oklahoma City Thunder",
+    "bet_type": "ATS",
+    "line": "+7.5",
+    "pick_display": "Oklahoma City Thunder ATS +7.5",
+    "edge": 14.095,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-10-11",
     "source_sport": "NFL",
     "game": "Cincinnati Bengals @ Miami Dolphins",
