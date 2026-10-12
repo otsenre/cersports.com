@@ -1202,7 +1202,7 @@ footer {
         <div class="price-features">
           <div class="price-feature highlight">Everything in the Week Pass</div>
           <div class="price-feature highlight">Continuous access — never a gap between cards</div>
-          <div class="price-feature highlight">On-demand tools: /analyze and /ppme</div>
+          <div class="price-feature highlight">On-demand tools: /analyze · /ppme (paused)</div>
           <div class="price-feature">Auto-renews monthly · cancel anytime</div>
         </div>
         <a href="#" class="price-btn price-btn-featured" onclick="checkout('monthly');return false;">Subscribe Monthly</a>
@@ -1566,11 +1566,11 @@ footer {
 
       <div class="scorecard-panel">
         <div class="scorecard-head">
-          <span class="scorecard-title">Pull the Handle <span class="dev-badge">in development</span></span>
-          <span class="scorecard-sub" id="ppmeSub">on-demand hitter Power Play entries</span>
+          <span class="scorecard-title">Pull the Handle <span class="dev-badge" id="pullBadge">in development</span></span>
+          <span class="scorecard-sub" id="pullSub">2-to-6-leg independent tickets off the full board</span>
         </div>
         <div style="overflow-x:auto;">
-          <table class="scorecard-table" id="ppmeTable">
+          <table class="scorecard-table" id="pullTable">
             <thead>
               <tr>
                 <th></th>
@@ -1585,7 +1585,9 @@ footer {
             </tbody>
           </table>
         </div>
-        <p class="scorecard-note" id="ppmeNote">—</p>
+        <p class="scorecard-note" id="pullNote">—</p>
+        <p class="scorecard-note" id="pullPaused" hidden></p>
+        <p class="scorecard-note" id="pullPrevious" hidden></p>
       </div>
 
     </div>
@@ -2591,6 +2593,7 @@ function scorecardNote(bands, as_of, product, stats) {
     paid: 'paid-card pick', free: 'free pick',
     anchor: 'Anchor ticket', syndicate: 'Syndicate Session card',
     prizepicks: 'PrizePicks Power Play card', ppme: 'Power Play entry',
+    pull: 'Pull ticket',
   };
   const what = `Every settled ${NOUN[product] || 'pick'} included; nothing excluded.`;
 
@@ -2710,7 +2713,10 @@ async function loadSiteDay() {
     // In-development products render through the SAME component. If either is
     // absent from the payload its panel keeps its loading row rather than
     // showing zeros — absent beats stale (STYLE_GUIDE 7b).
-    const DEV_PRODUCTS = ['anchor', 'syndicate', 'prizepicks', 'ppme'];
+    // The Pull panel shows the CURRENT product, `pull` (v2). It read `ppme` --
+    // v1, retired 2026-09-13 -- until 2026-10-12; v1's record stays on the panel
+    // as a "previous version" line below, so no record leaves the page.
+    const DEV_PRODUCTS = ['anchor', 'syndicate', 'prizepicks', 'pull'];
     const devSc = {};
     DEV_PRODUCTS.forEach(function (key) {
       devSc[key] = d.scorecard[key] || {};
@@ -2726,6 +2732,25 @@ async function loadSiteDay() {
       const sc = devSc[key];
       if (sc.bands) note(key + 'Note', sc.bands, key, sc.as_of || d.as_of, sc);
     });
+    // PAUSED is a state of the PRODUCT, published by its producer
+    // (products/pull/status.py via the gauge). The record stays; the label says
+    // it is not being delivered and why (Node 0, 2026-10-12).
+    const pullSc = devSc.pull || {};
+    const pullBadge = document.getElementById('pullBadge');
+    const pullPaused = document.getElementById('pullPaused');
+    if (pullSc.paused && pullBadge && pullPaused) {
+      pullBadge.textContent = 'paused';
+      pullPaused.textContent = pullSc.paused;
+      pullPaused.hidden = false;
+    }
+    const v1 = ((d.scorecard.ppme || {}).bands || []).find(b => b.label === 'ALL-TIME');
+    const pullPrev = document.getElementById('pullPrevious');
+    if (v1 && pullPrev) {
+      const u = v1.units_pl ?? v1.net_units;
+      pullPrev.textContent = `Previous version (hitter Power Play entries, retired 2026-09-13): `
+        + `${v1.record}` + (u == null ? '' : ` · ${u >= 0 ? '+' : ''}${Number(u).toFixed(2)}u`) + '.';
+      pullPrev.hidden = false;
+    }
 
     // The tearsheet is the paid card's ALL-TIME shareable summary. It reads the
     // SAME lagging cutoff as the tables so a screenshot never contradicts the
