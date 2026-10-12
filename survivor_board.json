@@ -1,8 +1,8 @@
 {
-  "day": "2026-10-11",
-  "deadline_utc": null,
-  "deadline_reason": "no survivor pick with a known game start",
-  "earliest_start_utc": null,
+  "day": "2026-10-12",
+  "deadline_utc": "2026-10-12T21:10:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-10-12T23:10:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -11,13 +11,13 @@
       "record": {
         "wins": 43,
         "losses": 32,
-        "pushes": 0,
+        "pushes": 1,
         "current": 0,
         "longest": 5,
         "alive": false,
         "pl_units": 0.34,
-        "pl_priced": 70,
-        "pl_settled": 75,
+        "pl_priced": 71,
+        "pl_settled": 76,
         "pl_flat_units": -3.83,
         "next_wager_from_base": null,
         "ramp_units": 1.0,
@@ -25,12 +25,12 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Cincinnati Bengals -7",
-        "game": "Cincinnati Bengals @ Miami Dolphins",
-        "sport": "NFL",
-        "odds": -111,
+        "pick": "Under 5.5",
+        "game": "Ottawa Senators @ New Jersey Devils",
+        "sport": "NHL",
+        "odds": 108,
         "units": 1,
-        "start_utc": null,
+        "start_utc": "2026-10-12T23:10:00+00:00",
         "result": null
       }
     },
