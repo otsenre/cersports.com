@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:02:46.820578+00:00",
+  "generated_at": "2026-10-12T06:34:38.931175+00:00",
   "run_date": "2026-10-11",
   "as_of": "2026-10-10",
   "anchor": "2026-03-20",
@@ -740,8 +740,8 @@
       "streak": "",
       "settled_total": 122,
       "empty": false,
-      "label": "CER Props",
-      "blurb": "daily 2-Pick + 3-Pick Power Play card",
+      "label": "PrizePicks Power Play card",
+      "blurb": "retired daily 2-Pick + 3-Pick Power Play card",
       "in_development": true
     },
     "ppme": {
@@ -2013,13 +2013,13 @@
         "rank": 3
       },
       {
-        "record": "40-35-1P",
+        "record": "40-35-2P",
         "wins": 40,
         "losses": 35,
-        "pushes": 1,
+        "pushes": 2,
         "voided": 0,
-        "settled": 76,
-        "pending": 1,
+        "settled": 77,
+        "pending": 0,
         "net_units": -6.11,
         "roi_pct": -6.24,
         "roi_lcb95": -23.25,
@@ -2477,9 +2477,46 @@
               }
             ],
             "market_count": 1
+          },
+          {
+            "record": "0-0-1P",
+            "wins": 0,
+            "losses": 0,
+            "pushes": 1,
+            "voided": 0,
+            "settled": 1,
+            "pending": 0,
+            "net_units": 0.0,
+            "roi_pct": null,
+            "roi_lcb95": null,
+            "start": "2026-10-11",
+            "end": "2026-10-11",
+            "small_sample": true,
+            "lane": "NFL",
+            "ranked": false,
+            "markets": [
+              {
+                "record": "0-0-1P",
+                "wins": 0,
+                "losses": 0,
+                "pushes": 1,
+                "voided": 0,
+                "settled": 1,
+                "pending": 0,
+                "net_units": 0.0,
+                "roi_pct": null,
+                "roi_lcb95": null,
+                "start": "2026-10-11",
+                "end": "2026-10-11",
+                "small_sample": true,
+                "market": "SPREAD",
+                "ranked": false
+              }
+            ],
+            "market_count": 1
           }
         ],
-        "lane_count": 8,
+        "lane_count": 9,
         "rank": 4
       },
       {
@@ -4410,13 +4447,13 @@
         "rank": 1
       },
       {
-        "record": "49-37-1P",
+        "record": "49-37-2P",
         "wins": 49,
         "losses": 37,
-        "pushes": 1,
+        "pushes": 2,
         "voided": 0,
-        "settled": 87,
-        "pending": 1,
+        "settled": 88,
+        "pending": 0,
         "net_units": -0.54,
         "roi_pct": -0.61,
         "roi_lcb95": -15.83,
@@ -4737,6 +4774,43 @@
             "market_count": 1
           },
           {
+            "record": "1-0-1P",
+            "wins": 1,
+            "losses": 0,
+            "pushes": 1,
+            "voided": 0,
+            "settled": 2,
+            "pending": 0,
+            "net_units": 0.95,
+            "roi_pct": 95.24,
+            "roi_lcb95": null,
+            "start": "2026-09-20",
+            "end": "2026-10-11",
+            "small_sample": true,
+            "lane": "NFL",
+            "ranked": false,
+            "markets": [
+              {
+                "record": "1-0-1P",
+                "wins": 1,
+                "losses": 0,
+                "pushes": 1,
+                "voided": 0,
+                "settled": 2,
+                "pending": 0,
+                "net_units": 0.95,
+                "roi_pct": 95.24,
+                "roi_lcb95": null,
+                "start": "2026-09-20",
+                "end": "2026-10-11",
+                "small_sample": true,
+                "market": "SPREAD",
+                "ranked": false
+              }
+            ],
+            "market_count": 1
+          },
+          {
             "record": "1-0",
             "wins": 1,
             "losses": 0,
@@ -4846,59 +4920,22 @@
               }
             ],
             "market_count": 1
-          },
-          {
-            "record": "1-0",
-            "wins": 1,
-            "losses": 0,
-            "pushes": 0,
-            "voided": 0,
-            "settled": 1,
-            "pending": 1,
-            "net_units": 0.95,
-            "roi_pct": 95.24,
-            "roi_lcb95": null,
-            "start": "2026-09-20",
-            "end": "2026-10-11",
-            "small_sample": true,
-            "lane": "NFL",
-            "ranked": false,
-            "markets": [
-              {
-                "record": "1-0",
-                "wins": 1,
-                "losses": 0,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 1,
-                "pending": 1,
-                "net_units": 0.95,
-                "roi_pct": 95.24,
-                "roi_lcb95": null,
-                "start": "2026-09-20",
-                "end": "2026-10-11",
-                "small_sample": true,
-                "market": "SPREAD",
-                "ranked": false
-              }
-            ],
-            "market_count": 1
           }
         ],
         "lane_count": 11,
         "rank": 2
       },
       {
-        "record": "121-112",
+        "record": "121-113",
         "wins": 121,
-        "losses": 112,
+        "losses": 113,
         "pushes": 0,
         "voided": 6,
-        "settled": 233,
-        "pending": 1,
-        "net_units": -16.1,
-        "roi_pct": -6.89,
-        "roi_lcb95": -16.79,
+        "settled": 234,
+        "pending": 0,
+        "net_units": -17.1,
+        "roi_pct": -7.29,
+        "roi_lcb95": -17.4,
         "start": "2026-05-18",
         "end": "2026-10-11",
         "small_sample": false,
@@ -5065,16 +5102,16 @@
             "market_count": 4
           },
           {
-            "record": "28-25",
+            "record": "28-26",
             "wins": 28,
-            "losses": 25,
+            "losses": 26,
             "pushes": 0,
             "voided": 0,
-            "settled": 53,
-            "pending": 1,
-            "net_units": -4.11,
-            "roi_pct": -7.71,
-            "roi_lcb95": -28.52,
+            "settled": 54,
+            "pending": 0,
+            "net_units": -5.11,
+            "roi_pct": -9.42,
+            "roi_lcb95": -29.56,
             "start": "2026-05-20",
             "end": "2026-10-11",
             "small_sample": false,
@@ -5099,16 +5136,16 @@
                 "ranked": true
               },
               {
-                "record": "5-8",
+                "record": "5-9",
                 "wins": 5,
-                "losses": 8,
+                "losses": 9,
                 "pushes": 0,
                 "voided": 0,
-                "settled": 13,
-                "pending": 1,
-                "net_units": -4.55,
-                "roi_pct": -33.07,
-                "roi_lcb95": -73.82,
+                "settled": 14,
+                "pending": 0,
+                "net_units": -5.55,
+                "roi_pct": -37.61,
+                "roi_lcb95": -75.56,
                 "start": "2026-07-08",
                 "end": "2026-10-11",
                 "small_sample": true,
@@ -5960,22 +5997,93 @@
         "rank": 4
       },
       {
-        "record": "47-55-1P",
-        "wins": 47,
+        "record": "48-55-1P",
+        "wins": 48,
         "losses": 55,
         "pushes": 1,
         "voided": 1,
-        "settled": 103,
-        "pending": 1,
-        "net_units": -14.35,
-        "roi_pct": -13.2,
-        "roi_lcb95": -28.34,
+        "settled": 104,
+        "pending": 0,
+        "net_units": -12.28,
+        "roi_pct": -11.14,
+        "roi_lcb95": -27.17,
         "start": "2026-05-16",
         "end": "2026-10-11",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
         "lanes": [
+          {
+            "record": "9-8-1P",
+            "wins": 9,
+            "losses": 8,
+            "pushes": 1,
+            "voided": 0,
+            "settled": 18,
+            "pending": 0,
+            "net_units": 2.22,
+            "roi_pct": 9.98,
+            "roi_lcb95": -32.27,
+            "start": "2026-06-04",
+            "end": "2026-10-11",
+            "small_sample": true,
+            "lane": "NHL",
+            "ranked": false,
+            "markets": [
+              {
+                "record": "3-0-1P",
+                "wins": 3,
+                "losses": 0,
+                "pushes": 1,
+                "voided": 0,
+                "settled": 4,
+                "pending": 0,
+                "net_units": 3.63,
+                "roi_pct": 80.6,
+                "roi_lcb95": 73.26,
+                "start": "2026-10-02",
+                "end": "2026-10-09",
+                "small_sample": true,
+                "market": "TOTAL",
+                "ranked": false
+              },
+              {
+                "record": "5-6",
+                "wins": 5,
+                "losses": 6,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 11,
+                "pending": 0,
+                "net_units": 0.34,
+                "roi_pct": 2.5,
+                "roi_lcb95": -55.45,
+                "start": "2026-06-04",
+                "end": "2026-10-11",
+                "small_sample": true,
+                "market": "SPREAD",
+                "ranked": false
+              },
+              {
+                "record": "1-2",
+                "wins": 1,
+                "losses": 2,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 3,
+                "pending": 0,
+                "net_units": -1.75,
+                "roi_pct": -43.75,
+                "roi_lcb95": -100.0,
+                "start": "2026-06-06",
+                "end": "2026-10-04",
+                "small_sample": true,
+                "market": "ML",
+                "ranked": false
+              }
+            ],
+            "market_count": 3
+          },
           {
             "record": "10-8",
             "wins": 10,
@@ -6083,77 +6191,6 @@
               }
             ],
             "market_count": 1
-          },
-          {
-            "record": "8-8-1P",
-            "wins": 8,
-            "losses": 8,
-            "pushes": 1,
-            "voided": 0,
-            "settled": 17,
-            "pending": 1,
-            "net_units": 0.15,
-            "roi_pct": 0.73,
-            "roi_lcb95": -42.13,
-            "start": "2026-06-04",
-            "end": "2026-10-11",
-            "small_sample": true,
-            "lane": "NHL",
-            "ranked": false,
-            "markets": [
-              {
-                "record": "3-0-1P",
-                "wins": 3,
-                "losses": 0,
-                "pushes": 1,
-                "voided": 0,
-                "settled": 4,
-                "pending": 0,
-                "net_units": 3.63,
-                "roi_pct": 80.6,
-                "roi_lcb95": 73.26,
-                "start": "2026-10-02",
-                "end": "2026-10-09",
-                "small_sample": true,
-                "market": "TOTAL",
-                "ranked": false
-              },
-              {
-                "record": "4-6",
-                "wins": 4,
-                "losses": 6,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 10,
-                "pending": 1,
-                "net_units": -1.73,
-                "roi_pct": -14.09,
-                "roi_lcb95": -71.39,
-                "start": "2026-06-04",
-                "end": "2026-10-11",
-                "small_sample": true,
-                "market": "SPREAD",
-                "ranked": false
-              },
-              {
-                "record": "1-2",
-                "wins": 1,
-                "losses": 2,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 3,
-                "pending": 0,
-                "net_units": -1.75,
-                "roi_pct": -43.75,
-                "roi_lcb95": -100.0,
-                "start": "2026-06-06",
-                "end": "2026-10-04",
-                "small_sample": true,
-                "market": "ML",
-                "ranked": false
-              }
-            ],
-            "market_count": 3
           },
           {
             "record": "2-1",
@@ -7053,16 +7090,16 @@
         "rank": null
       },
       {
-        "record": "14-11",
-        "wins": 14,
-        "losses": 11,
+        "record": "15-12",
+        "wins": 15,
+        "losses": 12,
         "pushes": 0,
         "voided": 4,
-        "settled": 25,
-        "pending": 2,
-        "net_units": -0.54,
-        "roi_pct": -2.18,
-        "roi_lcb95": -31.68,
+        "settled": 27,
+        "pending": 0,
+        "net_units": -0.79,
+        "roi_pct": -2.93,
+        "roi_lcb95": -31.77,
         "start": "2026-05-22",
         "end": "2026-10-11",
         "small_sample": true,
@@ -7161,6 +7198,60 @@
             "market_count": 1
           },
           {
+            "record": "1-4",
+            "wins": 1,
+            "losses": 4,
+            "pushes": 0,
+            "voided": 0,
+            "settled": 5,
+            "pending": 0,
+            "net_units": -2.75,
+            "roi_pct": -57.89,
+            "roi_lcb95": -100.0,
+            "start": "2026-09-09",
+            "end": "2026-10-11",
+            "small_sample": true,
+            "lane": "NFL",
+            "ranked": false,
+            "markets": [
+              {
+                "record": "1-2",
+                "wins": 1,
+                "losses": 2,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 3,
+                "pending": 0,
+                "net_units": -1.25,
+                "roi_pct": -38.46,
+                "roi_lcb95": -100.0,
+                "start": "2026-09-09",
+                "end": "2026-10-11",
+                "small_sample": true,
+                "market": "SPREAD",
+                "ranked": false
+              },
+              {
+                "record": "0-2",
+                "wins": 0,
+                "losses": 2,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 2,
+                "pending": 0,
+                "net_units": -1.5,
+                "roi_pct": -100.0,
+                "roi_lcb95": -100.0,
+                "start": "2026-09-28",
+                "end": "2026-10-05",
+                "small_sample": true,
+                "market": "ML",
+                "ranked": false
+              }
+            ],
+            "market_count": 2
+          },
+          {
             "record": "1-2",
             "wins": 1,
             "losses": 2,
@@ -7196,60 +7287,6 @@
               }
             ],
             "market_count": 1
-          },
-          {
-            "record": "0-3",
-            "wins": 0,
-            "losses": 3,
-            "pushes": 0,
-            "voided": 0,
-            "settled": 3,
-            "pending": 2,
-            "net_units": -2.5,
-            "roi_pct": -100.0,
-            "roi_lcb95": -100.0,
-            "start": "2026-09-09",
-            "end": "2026-10-11",
-            "small_sample": true,
-            "lane": "NFL",
-            "ranked": false,
-            "markets": [
-              {
-                "record": "0-2",
-                "wins": 0,
-                "losses": 2,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 2,
-                "pending": 0,
-                "net_units": -1.5,
-                "roi_pct": -100.0,
-                "roi_lcb95": -100.0,
-                "start": "2026-09-28",
-                "end": "2026-10-05",
-                "small_sample": true,
-                "market": "ML",
-                "ranked": false
-              },
-              {
-                "record": "0-1",
-                "wins": 0,
-                "losses": 1,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 1,
-                "pending": 2,
-                "net_units": -1.0,
-                "roi_pct": -100.0,
-                "roi_lcb95": null,
-                "start": "2026-09-09",
-                "end": "2026-10-11",
-                "small_sample": true,
-                "market": "SPREAD",
-                "ranked": false
-              }
-            ],
-            "market_count": 2
           },
           {
             "record": "1-1",
@@ -7678,12 +7715,12 @@
       "WTA"
     ]
   },
-  "pickers_contributing": 16,
+  "pickers_contributing": 18,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-10-11T07:50:13-07:00",
     "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-11T16:00:00+00:00",
-    "free_pick_published_at_utc": null
+    "free_pick_published_at_utc": "2026-10-11T16:06:04+00:00"
   },
   "paid_card_delivery": {
     "state": "live",
@@ -7701,7 +7738,7 @@
   "recap": {
     "recap_date": "2026-10-10",
     "run_date": "2026-10-11",
-    "generated_at_utc": "2026-10-11T16:04:21+00:00",
+    "generated_at_utc": "2026-10-12T06:36:18+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -7899,7 +7936,7 @@
       },
       {
         "key": "prizepicks",
-        "label": "CER Props",
+        "label": "PrizePicks Power Play card",
         "in_development": true,
         "totals_only": false,
         "day": {
@@ -7969,12 +8006,12 @@
         },
         "bands": {
           "L25": {
-            "record": "6-19-1P",
-            "units": -8.08
+            "record": "15-10",
+            "units": 0.11
           },
           "ALL-TIME": {
-            "record": "82-64-1P",
-            "units": 0.02
+            "record": "110-84-1P",
+            "units": -0.06
           }
         }
       },
@@ -7997,11 +8034,11 @@
         "bands": {
           "L25": {
             "record": "3-22",
-            "units": -1.75
+            "units": -1.05
           },
           "ALL-TIME": {
             "record": "12-113",
-            "units": -14.3
+            "units": -12.05
           }
         }
       },
@@ -8038,11 +8075,11 @@
     "contract": 1,
     "date": "2026-10-11",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:13 AM PT \u00b7 5 picks, NFL + NHL + WTA \u00b7 first leg fires 10:00 AM PT",
+    "line": "Paid card shipped 8:13 AM PT \u00b7 5 picks, NFL + NHL + WTA \u00b7 all 5 games started",
     "parts": [
       "Paid card shipped 8:13 AM PT",
       "5 picks, NFL + NHL + WTA",
-      "first leg fires 10:00 AM PT"
+      "all 5 games started"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8058,6 +8095,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-11",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "10:00 AM PT",
-    "updated_pt": "9:04 AM PT"
+    "updated_pt": "11:36 PM PT"
   }
 }
