@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T10:55:31.719104+00:00",
+  "generated_at": "2026-10-12T10:58:35.450646+00:00",
   "run_date": "2026-10-12",
   "as_of": "2026-10-11",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-10-12",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-10-12T03:57:18-07:00",
+      "fire_pt": "2026-10-12 03:57 PDT"
     },
     "prior_run": {
       "date": "2026-10-11",
@@ -121,29 +121,29 @@
         },
         {
           "label": "ALL-TIME",
-          "record": "485-419-6P",
-          "wins": 485,
-          "losses": 419,
+          "record": "486-417-6P",
+          "wins": 486,
+          "losses": 417,
           "pushes": 6,
-          "voided": 46,
+          "voided": 47,
           "unsettled": 0,
-          "n": 910,
+          "n": 909,
           "start": "2026-03-20",
           "end": "2026-10-11",
-          "units_pl": -48.05,
-          "roi_pct": -4.48,
+          "units_pl": -45.1,
+          "roi_pct": -4.21,
           "bankroll_units": 100,
           "rows": 956,
-          "win_pct": 53.7,
+          "win_pct": 53.8,
           "unpriced": 0,
           "band_full": true,
-          "bankroll_return_pct": -48.05,
+          "bankroll_return_pct": -45.1,
           "spx_return_pct": 20.06,
-          "vs_spx": -68.11,
+          "vs_spx": -65.16,
           "dji_return_pct": 13.33,
-          "vs_dji": -61.38,
+          "vs_dji": -58.43,
           "ndx_return_pct": 26.42,
-          "vs_ndx": -74.47,
+          "vs_ndx": -71.52,
           "rule_changes": [
             "2026-08-25",
             "2026-08-29"
@@ -158,7 +158,7 @@
       "unresolved": 0,
       "unresolved_swing": 0,
       "streak": "5W",
-      "settled_total": 910,
+      "settled_total": 909,
       "empty": false,
       "selection_eras": [
         {
@@ -948,16 +948,16 @@
         "rank": 1
       },
       {
-        "record": "108-100",
-        "wins": 108,
+        "record": "107-100",
+        "wins": 107,
         "losses": 100,
         "pushes": 0,
-        "voided": 5,
-        "settled": 208,
+        "voided": 6,
+        "settled": 207,
         "pending": 0,
-        "net_units": -12.62,
-        "roi_pct": -5.12,
-        "roi_lcb95": -15.55,
+        "net_units": -13.02,
+        "roi_pct": -5.31,
+        "roi_lcb95": -15.44,
         "start": "2026-05-06",
         "end": "2026-10-08",
         "small_sample": false,
@@ -965,16 +965,16 @@
         "ranked": true,
         "lanes": [
           {
-            "record": "24-12",
-            "wins": 24,
+            "record": "23-12",
+            "wins": 23,
             "losses": 12,
             "pushes": 0,
-            "voided": 1,
-            "settled": 36,
+            "voided": 2,
+            "settled": 35,
             "pending": 0,
-            "net_units": 9.27,
-            "roi_pct": 23.62,
-            "roi_lcb95": 0.2,
+            "net_units": 8.87,
+            "roi_pct": 23.19,
+            "roi_lcb95": -0.14,
             "start": "2026-05-14",
             "end": "2026-09-07",
             "small_sample": false,
@@ -999,16 +999,16 @@
                 "ranked": false
               },
               {
-                "record": "15-9",
-                "wins": 15,
+                "record": "14-9",
+                "wins": 14,
                 "losses": 9,
                 "pushes": 0,
-                "voided": 1,
-                "settled": 24,
+                "voided": 2,
+                "settled": 23,
                 "pending": 0,
-                "net_units": 1.17,
-                "roi_pct": 4.91,
-                "roi_lcb95": -21.88,
+                "net_units": 0.77,
+                "roi_pct": 3.37,
+                "roi_lcb95": -25.47,
                 "start": "2026-05-14",
                 "end": "2026-07-31",
                 "small_sample": true,
@@ -3532,16 +3532,16 @@
         "rank": null
       },
       {
-        "record": "16-12",
-        "wins": 16,
-        "losses": 12,
+        "record": "18-10",
+        "wins": 18,
+        "losses": 10,
         "pushes": 0,
         "voided": 4,
         "settled": 28,
         "pending": 0,
-        "net_units": -1.98,
-        "roi_pct": -6.28,
-        "roi_lcb95": -32.13,
+        "net_units": 1.37,
+        "roi_pct": 4.36,
+        "roi_lcb95": -21.35,
         "start": "2026-04-14",
         "end": "2026-09-29",
         "small_sample": true,
@@ -3584,6 +3584,60 @@
               }
             ],
             "market_count": 1
+          },
+          {
+            "record": "4-1",
+            "wins": 4,
+            "losses": 1,
+            "pushes": 0,
+            "voided": 1,
+            "settled": 5,
+            "pending": 0,
+            "net_units": 0.97,
+            "roi_pct": 19.34,
+            "roi_lcb95": -34.55,
+            "start": "2026-04-15",
+            "end": "2026-08-05",
+            "small_sample": true,
+            "lane": "ATP",
+            "ranked": false,
+            "markets": [
+              {
+                "record": "3-1",
+                "wins": 3,
+                "losses": 1,
+                "pushes": 0,
+                "voided": 1,
+                "settled": 4,
+                "pending": 0,
+                "net_units": 0.06,
+                "roi_pct": 1.45,
+                "roi_lcb95": -63.89,
+                "start": "2026-04-15",
+                "end": "2026-08-05",
+                "small_sample": true,
+                "market": "ML",
+                "ranked": false
+              },
+              {
+                "record": "1-0",
+                "wins": 1,
+                "losses": 0,
+                "pushes": 0,
+                "voided": 0,
+                "settled": 1,
+                "pending": 0,
+                "net_units": 0.91,
+                "roi_pct": 90.91,
+                "roi_lcb95": null,
+                "start": "2026-06-28",
+                "end": "2026-06-28",
+                "small_sample": true,
+                "market": "SPREAD",
+                "ranked": false
+              }
+            ],
+            "market_count": 2
           },
           {
             "record": "4-2",
@@ -3794,60 +3848,6 @@
                 "roi_lcb95": -100.0,
                 "start": "2026-05-22",
                 "end": "2026-09-13",
-                "small_sample": true,
-                "market": "SPREAD",
-                "ranked": false
-              }
-            ],
-            "market_count": 2
-          },
-          {
-            "record": "2-3",
-            "wins": 2,
-            "losses": 3,
-            "pushes": 0,
-            "voided": 1,
-            "settled": 5,
-            "pending": 0,
-            "net_units": -2.39,
-            "roi_pct": -47.73,
-            "roi_lcb95": -100.0,
-            "start": "2026-04-15",
-            "end": "2026-08-05",
-            "small_sample": true,
-            "lane": "ATP",
-            "ranked": false,
-            "markets": [
-              {
-                "record": "2-2",
-                "wins": 2,
-                "losses": 2,
-                "pushes": 0,
-                "voided": 1,
-                "settled": 4,
-                "pending": 0,
-                "net_units": -1.39,
-                "roi_pct": -34.66,
-                "roi_lcb95": -100.0,
-                "start": "2026-04-15",
-                "end": "2026-08-05",
-                "small_sample": true,
-                "market": "ML",
-                "ranked": false
-              },
-              {
-                "record": "0-1",
-                "wins": 0,
-                "losses": 1,
-                "pushes": 0,
-                "voided": 0,
-                "settled": 1,
-                "pending": 0,
-                "net_units": -1.0,
-                "roi_pct": -100.0,
-                "roi_lcb95": null,
-                "start": "2026-06-28",
-                "end": "2026-06-28",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -7700,7 +7700,7 @@
   },
   "pickers_contributing": 1,
   "morning_state": {
-    "free_pick_site_published_at_utc": null,
+    "free_pick_site_published_at_utc": "2026-10-12T03:57:18-07:00",
     "free_pick_release_state": null
   },
   "paid_card_delivery": {
@@ -7709,7 +7709,7 @@
   "recap": {
     "recap_date": "2026-10-11",
     "run_date": "2026-10-12",
-    "generated_at_utc": "2026-10-12T10:57:17+00:00",
+    "generated_at_utc": "2026-10-12T11:00:24+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -7819,8 +7819,8 @@
             "units": -2.43
           },
           "ALL-TIME": {
-            "record": "485-419-6P",
-            "units": -48.05
+            "record": "486-417-6P",
+            "units": -45.1
           }
         }
       },
@@ -8045,11 +8045,11 @@
   "status": {
     "contract": 1,
     "date": "2026-10-12",
-    "stage": "pre_free",
-    "line": "Working today's slate \u00b7 free pick expected by 10:00 AM PT \u00b7 \u26c8 Weather on 6 games",
+    "stage": "free_live",
+    "line": "Free pick live 3:57 AM \u00b7 paid card next \u00b7 \u26c8 Weather on 6 games",
     "parts": [
-      "Working today's slate",
-      "free pick expected by 10:00 AM PT",
+      "Free pick live 3:57 AM",
+      "paid card next",
       "\u26c8 Weather on 6 games"
     ],
     "expected_by": {
@@ -8061,11 +8061,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 65 measured fires"
     },
-    "free_pick_live": false,
+    "free_pick_live": true,
     "card_live": false,
     "paid_card_session_id": null,
     "paid_card_session_state": null,
     "first_leg_time": null,
-    "updated_pt": "3:57 AM PT"
+    "updated_pt": "4:00 AM PT"
   }
 }
