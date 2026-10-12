@@ -2539,6 +2539,10 @@ function ruleProvenanceNote(stats) {
   if (spanning.length) {
     out += ` Windows covering more than one rule: ${spanning.join(', ')}.`;
   }
+  // An era can be more than a rule: before 2026-08-10 this record was a
+  // different product (a multi-pick feed). Its note is the producer's sentence,
+  // printed verbatim (free_pick_selector.SELECTION_ERAS).
+  stats.selection_eras.filter(e => e.note).forEach(e => { out += ' ' + e.note; });
   return out;
 }
 
