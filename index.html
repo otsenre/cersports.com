@@ -1997,7 +1997,11 @@ function buildRecord(picks) {
     const card = document.createElement('div');
     card.className = 'record-card' + (i >= RECORD_VISIBLE ? ' record-folded' : '');
     const resultClass = p.result === 'W' ? 'result-w' : p.result === 'L' ? 'result-l' : '';
-    const resultText = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS' : 'PENDING';
+    // picks.json writes a push as "PUSH" (render_picks_json); anything settled
+    // must not fall through to PENDING (2026-10-12: Bengals -7.0, a 31-24 push).
+    const resultText = p.result === 'W' ? 'WIN ✓' : p.result === 'L' ? 'LOSS'
+      : (p.result === 'P' || p.result === 'PUSH') ? 'PUSH'
+      : (p.result === 'V' || p.result === 'VOID') ? 'VOID' : 'PENDING';
     const dateStr = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US',
       {weekday:'short', month:'short', day:'numeric'});
     const displaySport = p.source_sport || p.sport;
@@ -2629,7 +2633,8 @@ function recapEsc(v) {
 function recapPickRow(p) {
   const r = p.result;
   const rc = r === 'W' ? 'result-w' : r === 'L' ? 'result-l' : '';
-  const rt = r === 'W' ? 'WIN ✓' : r === 'L' ? 'LOSS' : r === 'V' ? 'VOID' : r === 'P' ? 'PUSH' : 'OPEN';
+  const rt = r === 'W' ? 'WIN ✓' : r === 'L' ? 'LOSS' : (r === 'V' || r === 'VOID') ? 'VOID'
+    : (r === 'P' || r === 'PUSH') ? 'PUSH' : 'OPEN';
   const odds = (p.odds === null || p.odds === undefined) ? '—' : (p.odds > 0 ? '+' + p.odds : String(p.odds));
   const stake = p.units ? ` · ${p.units}u` : '';
   return `<div class="throwback-pick"><span class="sport-tag">${recapEsc(p.sport) || '—'}</span>`

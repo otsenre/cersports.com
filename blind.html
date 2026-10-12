@@ -298,6 +298,8 @@ document.getElementById('finder').addEventListener('change', function(){
       const rEl = document.getElementById('pickResult');
       if (latest.result === 'W') { rEl.textContent = 'WIN ✓'; rEl.className = 'pick-result w'; }
       else if (latest.result === 'L') { rEl.textContent = 'LOSS'; rEl.className = 'pick-result l'; }
+      else if (['P', 'PUSH'].includes(latest.result)) { rEl.textContent = 'PUSH'; rEl.className = 'pick-result p'; }
+      else if (['V', 'VOID'].includes(latest.result)) { rEl.textContent = 'VOID'; rEl.className = 'pick-result p'; }
       else { rEl.textContent = 'PENDING'; rEl.className = 'pick-result p'; }
     }
 
