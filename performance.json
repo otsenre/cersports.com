@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:48:10.566539+00:00",
+  "generated_at": "2026-10-12T13:56:15.185727+00:00",
   "anchor": "2026-03-20",
   "as_of": "2026-10-12",
   "bands": [
@@ -93,24 +93,24 @@
       "end": "2026-10-11",
       "band_full": true,
       "band_n": null,
-      "record": "582-514",
-      "wins": 582,
-      "losses": 514,
-      "units_pl": -54.88,
+      "record": "583-513",
+      "wins": 583,
+      "losses": 513,
+      "units_pl": -53.33,
       "units_staked": 1165.25,
-      "roi_pct": -4.71,
-      "bankroll_return_pct": -54.88,
+      "roi_pct": -4.58,
+      "bankroll_return_pct": -53.33,
       "bankroll_units": 100.0,
       "turnover_x": 11.65,
-      "max_drawdown_units": -110.36,
-      "max_drawdown_pct": -110.36,
-      "current_drawdown_units": -87.34,
-      "current_drawdown_pct": -87.34,
+      "max_drawdown_units": -108.82,
+      "max_drawdown_pct": -108.82,
+      "current_drawdown_units": -85.8,
+      "current_drawdown_pct": -85.8,
       "n": 1096,
-      "vs_spx": -74.94,
-      "vs_dji": -68.21,
-      "vs_ndx": -81.3,
-      "roi_minus_spx_pct": -24.77,
+      "vs_spx": -73.39,
+      "vs_dji": -66.66,
+      "vs_ndx": -79.75,
+      "roi_minus_spx_pct": -24.64,
       "spx_return_pct": 20.06,
       "dji_return_pct": 13.33,
       "ndx_return_pct": 26.42
@@ -119,15 +119,15 @@
   "indices": {
     "spx": {
       "date": "2026-10-12",
-      "close": 7815.02978515625
+      "close": 7815.7998046875
     },
     "dji": {
       "date": "2026-10-12",
-      "close": 51776.05078125
+      "close": 51757.94140625
     },
     "ndx": {
       "date": "2026-10-12",
-      "close": 27338.857421875
+      "close": 27353.666015625
     }
   }
 }
