@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-12",
+    "source_sport": "NHL",
+    "game": "Ottawa Senators @ New Jersey Devils",
+    "pick": "Under 6.0",
+    "pick_display": "Under 6.0",
+    "bet_type": "Total",
+    "line": 6.0,
+    "price": 110.0,
+    "handicap": null,
+    "ccr": 8.0,
+    "ccr_avg": 8.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "0abdf36e474cc4913647ba6ead1682fdb662b2596c31d2dac3d301dab3f8479c"
+  },
+  {
     "date": "2026-10-11",
     "source_sport": "NFL",
     "game": "Cincinnati Bengals @ Miami Dolphins",
