@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:28:37.929675+00:00",
+  "generated_at": "2026-10-12T19:01:36.785499+00:00",
   "run_date": "2026-10-12",
   "as_of": "2026-10-11",
   "anchor": "2026-03-20",
@@ -492,7 +492,8 @@
       "empty": false,
       "label": "Anchor",
       "blurb": "one-unit, three-wager qualifying ticket",
-      "in_development": true
+      "in_development": true,
+      "paused": ""
     },
     "syndicate": {
       "bands": [
@@ -617,7 +618,8 @@
       "empty": false,
       "label": "Syndicate Session",
       "blurb": "one-unit, three-wager session card",
-      "in_development": true
+      "in_development": true,
+      "paused": ""
     },
     "prizepicks": {
       "bands": [
@@ -742,7 +744,8 @@
       "empty": false,
       "label": "PrizePicks Power Play card",
       "blurb": "retired daily 2-Pick + 3-Pick Power Play card",
-      "in_development": true
+      "in_development": true,
+      "paused": ""
     },
     "ppme": {
       "bands": [
@@ -867,7 +870,134 @@
       "empty": false,
       "label": "Pull the Handle",
       "blurb": "on-demand hitter Power Play entries",
-      "in_development": true
+      "in_development": true,
+      "paused": ""
+    },
+    "pull": {
+      "bands": [
+        {
+          "label": "L10",
+          "record": "3-7",
+          "wins": 3,
+          "losses": 7,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "n": 10,
+          "start": "2026-10-07",
+          "end": "2026-10-10",
+          "units_pl": 3.1,
+          "roi_pct": 119.23,
+          "bankroll_units": 100,
+          "rows": 10,
+          "win_pct": 30.0,
+          "unpriced": 0,
+          "band_full": true,
+          "band_n": 10,
+          "vs_all_time": "above",
+          "bankroll_return_pct": 3.1,
+          "spx_return_pct": -0.09,
+          "vs_spx": 3.19,
+          "dji_return_pct": 0.26,
+          "vs_dji": 2.84,
+          "ndx_return_pct": -0.85,
+          "vs_ndx": 3.95
+        },
+        {
+          "label": "L25",
+          "record": "5-20",
+          "wins": 5,
+          "losses": 20,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "n": 25,
+          "start": "2026-10-04",
+          "end": "2026-10-10",
+          "units_pl": 2.65,
+          "roi_pct": 39.85,
+          "bankroll_units": 100,
+          "rows": 25,
+          "win_pct": 20.0,
+          "unpriced": 0,
+          "band_full": true,
+          "band_n": 25,
+          "vs_all_time": "above",
+          "bankroll_return_pct": 2.65,
+          "spx_return_pct": 1.15,
+          "vs_spx": 1.5,
+          "dji_return_pct": 0.93,
+          "vs_dji": 1.72,
+          "ndx_return_pct": 0.64,
+          "vs_ndx": 2.01
+        },
+        {
+          "label": "L50",
+          "record": "7-43",
+          "wins": 7,
+          "losses": 43,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "n": 50,
+          "start": "2026-09-29",
+          "end": "2026-10-10",
+          "units_pl": -0.5,
+          "roi_pct": -3.73,
+          "bankroll_units": 100,
+          "rows": 50,
+          "win_pct": 14.0,
+          "unpriced": 0,
+          "band_full": true,
+          "band_n": 50,
+          "vs_all_time": "above",
+          "bankroll_return_pct": -0.5,
+          "spx_return_pct": 1.66,
+          "vs_spx": -2.16,
+          "dji_return_pct": 0.34,
+          "vs_dji": -0.84,
+          "ndx_return_pct": 2.03,
+          "vs_ndx": -2.53
+        },
+        {
+          "label": "ALL-TIME",
+          "record": "13-116",
+          "wins": 13,
+          "losses": 116,
+          "pushes": 0,
+          "voided": 0,
+          "unsettled": 0,
+          "n": 129,
+          "start": "2026-09-13",
+          "end": "2026-10-10",
+          "units_pl": -10.85,
+          "roi_pct": -31.82,
+          "bankroll_units": 100,
+          "rows": 129,
+          "win_pct": 10.1,
+          "unpriced": 0,
+          "band_full": true,
+          "bankroll_return_pct": -10.85,
+          "spx_return_pct": 2.02,
+          "vs_spx": -12.87,
+          "dji_return_pct": -1.75,
+          "vs_dji": -9.1,
+          "ndx_return_pct": 3.92,
+          "vs_ndx": -14.77
+        }
+      ],
+      "as_of": "2026-10-11",
+      "since": "2026-09-13",
+      "small_sample": false,
+      "unresolved": 0,
+      "unresolved_swing": 0,
+      "streak": "1L",
+      "settled_total": 129,
+      "empty": false,
+      "label": "Pull the Handle v2",
+      "blurb": "2-to-6-leg independent tickets off the full board",
+      "in_development": true,
+      "paused": "Paused while the picker is rebuilt: its legs hit about 52% against the 55-58% a pick'em slip needs. The record keeps running in shadow."
     }
   },
   "pickers": {
@@ -7738,7 +7868,7 @@
   "recap": {
     "recap_date": "2026-10-11",
     "run_date": "2026-10-12",
-    "generated_at_utc": "2026-10-12T16:30:16+00:00",
+    "generated_at_utc": "2026-10-12T19:03:10+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8075,11 +8205,11 @@
     "contract": 1,
     "date": "2026-10-12",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:59 AM PT \u00b7 4 picks, EPL + MLB + NFL + NHL \u00b7 first leg fires 12:00 PM PT",
+    "line": "Paid card shipped 8:59 AM PT \u00b7 4 picks, EPL + MLB + NFL + NHL \u00b7 1 of 4 games started \u00b7 next 4:00 PM PT",
     "parts": [
       "Paid card shipped 8:59 AM PT",
       "4 picks, EPL + MLB + NFL + NHL",
-      "first leg fires 12:00 PM PT"
+      "1 of 4 games started \u00b7 next 4:00 PM PT"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8095,6 +8225,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-12",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "12:00 PM PT",
-    "updated_pt": "9:30 AM PT"
+    "updated_pt": "12:03 PM PT"
   }
 }
