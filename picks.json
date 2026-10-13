@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-10-13",
-    "sport": "NBA",
-    "game": "Portland Trail Blazers @ Sacramento Kings",
-    "pick": "Portland Trail Blazers",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Portland Trail Blazers ATS -3.5",
-    "edge": 7.269,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "units": 2.0
-  },
-  {
-    "date": "2026-10-13",
-    "sport": "BEST",
-    "game": "Portland Trail Blazers @ Sacramento Kings",
-    "pick": "Portland Trail Blazers",
-    "bet_type": "ATS",
-    "line": "-3.5",
-    "pick_display": "Portland Trail Blazers ATS -3.5",
-    "edge": 7.269,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NBA"
-  },
-  {
     "date": "2026-10-12",
     "source_sport": "NHL",
     "game": "Ottawa Senators @ New Jersey Devils",
