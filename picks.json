@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-13",
+    "source_sport": "MMA",
+    "game": "Luis Francischinelli vs Will Rentz",
+    "pick": "Luis Francischinelli ML",
+    "pick_display": "Luis Francischinelli ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -250.0,
+    "handicap": null,
+    "ccr": 5.0,
+    "ccr_avg": 5.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "82c98dd14cf04e5046908eb9437a69b446186834fa37511f7aaca6a660dbdef7"
+  },
+  {
     "date": "2026-10-12",
     "source_sport": "NHL",
     "game": "Ottawa Senators @ New Jersey Devils",
