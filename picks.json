@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-14",
+    "sport": "NBA",
+    "game": "Brooklyn Nets @ Miami Heat",
+    "pick": "Miami Heat",
+    "bet_type": "ATS",
+    "line": "-6.5",
+    "pick_display": "Miami Heat ATS -6.5",
+    "edge": 6.549,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "units": 2.0
+  },
+  {
     "date": "2026-10-13",
     "source_sport": "MMA",
     "game": "Luis Francischinelli vs Will Rentz",
