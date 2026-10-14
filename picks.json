@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-14",
+    "source_sport": "MLS",
+    "game": "New York City FC @ Inter Miami CF",
+    "pick": "Inter Miami CF ML",
+    "pick_display": "Inter Miami CF ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -175.0,
+    "handicap": null,
+    "ccr": 6.67,
+    "ccr_avg": 6.666666666666667,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "e40c0ecefdff9a05f99b8f53a61fac6eee7d111ca2e73d4f124e1879d5d77796"
+  },
+  {
     "date": "2026-10-13",
     "source_sport": "MMA",
     "game": "Luis Francischinelli vs Will Rentz",
