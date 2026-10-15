@@ -3,7 +3,7 @@
   "deadline_utc": "2026-10-15T22:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-10-16T00:00:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "3 straight, best is 4",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Dodgers ML",
+        "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": -156,
+        "units": 1,
+        "start_utc": "2026-10-16T00:00:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
