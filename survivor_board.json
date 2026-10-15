@@ -1,8 +1,8 @@
 {
-  "day": "2026-10-14",
-  "deadline_utc": "2026-10-14T21:30:00+00:00",
+  "day": "2026-10-15",
+  "deadline_utc": "2026-10-15T22:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-14T23:30:00+00:00",
+  "earliest_start_utc": "2026-10-16T00:00:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -24,15 +24,7 @@
         "loss_run": 0
       },
       "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Over 7.5",
-        "game": "Milwaukee Brewers @ Los Angeles Dodgers",
-        "sport": "MLB",
-        "odds": -103,
-        "units": 1,
-        "start_utc": "2026-10-15T00:00:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Shark",
@@ -53,7 +45,15 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Over 70.5",
+        "game": "Colorado State Rams @ Texas State Bobcats",
+        "sport": "NCAAF",
+        "odds": -110,
+        "units": 1,
+        "start_utc": "2026-10-16T00:00:00+00:00",
+        "result": null
+      }
     }
   ]
 }
