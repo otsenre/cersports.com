@@ -1,11 +1,11 @@
 {
   "fee_share": 0.03,
   "card": {
-    "units_per_day": 4.975,
-    "picks_per_day": 4.79,
+    "units_per_day": 5.011,
+    "picks_per_day": 4.8,
     "mean_units": 1.04,
     "lookback_days": 90,
-    "through": "2026-10-13"
+    "through": "2026-10-14"
   },
   "tiers": [
     {
@@ -13,7 +13,7 @@
       "name": "48-Hour Pass",
       "price_usd": 50,
       "window_days": 2,
-      "units_served": 9.9,
+      "units_served": 10.0,
       "built_for_unit_usd": 175
     },
     {
@@ -21,7 +21,7 @@
       "name": "Week Pass",
       "price_usd": 150,
       "window_days": 7,
-      "units_served": 34.8,
+      "units_served": 35.1,
       "built_for_unit_usd": 150
     },
     {
@@ -29,7 +29,7 @@
       "name": "Monthly",
       "price_usd": 350,
       "window_days": 30,
-      "units_served": 149.2,
+      "units_served": 150.3,
       "built_for_unit_usd": 100
     },
     {
@@ -37,19 +37,19 @@
       "name": "The Seat",
       "price_usd": 2500,
       "window_days": 365,
-      "units_served": 1815.9,
+      "units_served": 1829.0,
       "built_for_unit_usd": 50
     }
   ],
   "nfl_season": {
-    "price_usd": 539,
-    "weeks_remaining": 13,
-    "units_served": 350.3,
+    "price_usd": 499,
+    "weeks_remaining": 12,
+    "units_served": 315.0,
     "built_for_unit_usd": 75,
     "nfl": {
-      "units_per_week": 26.95,
-      "weeks_measured": 5
+      "units_per_week": 26.25,
+      "weeks_measured": 6
     }
   },
-  "generated_at": "2026-10-14T13:15:03+00:00"
+  "generated_at": "2026-10-15T13:15:56+00:00"
 }
