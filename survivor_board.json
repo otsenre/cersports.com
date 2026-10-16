@@ -6,53 +6,24 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 40,
-        "losses": 36,
-        "pushes": 1,
-        "current": 3,
-        "longest": 4,
-        "alive": true,
-        "pl_units": 5.25,
-        "pl_priced": 77,
-        "pl_settled": 77,
-        "pl_flat_units": -0.05,
-        "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
-      },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Los Angeles Dodgers ML",
-        "game": "Milwaukee Brewers @ Los Angeles Dodgers",
-        "sport": "MLB",
-        "odds": -156,
-        "units": 1,
-        "start_utc": "2026-10-16T00:00:00+00:00",
-        "result": null
-      }
-    },
-    {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 45,
+        "wins": 46,
         "losses": 33,
         "pushes": 1,
-        "current": 1,
+        "current": 2,
         "longest": 5,
         "alive": true,
-        "pl_units": 2.59,
-        "pl_priced": 74,
-        "pl_settled": 79,
-        "pl_flat_units": -3.21,
+        "pl_units": 3.5,
+        "pl_priced": 75,
+        "pl_settled": 80,
+        "pl_flat_units": -2.3,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "1 up, building again",
+      "note": "2 up, building again",
       "pick": {
         "pick": "Over 70.5",
         "game": "Colorado State Rams @ Texas State Bobcats",
@@ -60,7 +31,36 @@
         "odds": -110,
         "units": 1,
         "start_utc": "2026-10-16T00:00:00+00:00",
-        "result": null
+        "result": "W"
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 40,
+        "losses": 37,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": 4.25,
+        "pl_priced": 78,
+        "pl_settled": 78,
+        "pl_flat_units": -1.05,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Los Angeles Dodgers ML",
+        "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+        "sport": "MLB",
+        "odds": -156,
+        "units": 1,
+        "start_utc": "2026-10-16T00:00:00+00:00",
+        "result": "L"
       }
     }
   ]
