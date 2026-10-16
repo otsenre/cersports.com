@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-16",
+    "source_sport": "NHL",
+    "game": "Pittsburgh Penguins @ Colorado Avalanche",
+    "pick": "Colorado Avalanche ML",
+    "pick_display": "Colorado Avalanche ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -192.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "3112e77413c9ca1e781e9d025288e89ea64d8dd44f65a9e5c1ce1f60202bd4e6"
+  },
+  {
     "date": "2026-10-15",
     "source_sport": "NCAAF",
     "game": "Colorado State Rams @ Texas State Bobcats",
