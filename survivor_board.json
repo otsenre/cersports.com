@@ -3,7 +3,7 @@
   "deadline_utc": "2026-10-16T21:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-10-16T23:00:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Memphis Tigers -7",
+        "game": "Memphis Tigers @ Tulane Green Wave",
+        "sport": "NCAAF",
+        "odds": -106,
+        "units": 1,
+        "start_utc": "2026-10-16T23:30:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
