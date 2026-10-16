@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-10-16",
-    "sport": "NBA",
-    "game": "Charlotte Hornets @ Memphis Grizzlies",
-    "pick": "Charlotte Hornets",
-    "bet_type": "ATS",
-    "line": "-1.5",
-    "pick_display": "Charlotte Hornets ATS -1.5",
-    "edge": 11.492,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "units": 2.0
-  },
-  {
-    "date": "2026-10-16",
-    "sport": "BEST",
-    "game": "Charlotte Hornets @ Memphis Grizzlies",
-    "pick": "Charlotte Hornets",
-    "bet_type": "ATS",
-    "line": "-1.5",
-    "pick_display": "Charlotte Hornets ATS -1.5",
-    "edge": 11.492,
-    "ccr": 80,
-    "tier": "A",
-    "result": null,
-    "profit_units": null,
-    "units": 2.0,
-    "source_sport": "NBA"
-  },
-  {
     "date": "2026-10-15",
     "source_sport": "NCAAF",
     "game": "Colorado State Rams @ Texas State Bobcats",
@@ -45,7 +15,7 @@
     "edge": 0,
     "units": 1.25,
     "result": "W",
-    "profit_units": 1.1363,
+    "profit_units": 1.1364,
     "odds_origin": "free_pick_receipt",
     "hash_id": "3013967675cfedd3a5eec117d93fc5a93cb63c4487c9ed068e733d502e732ac8"
   },
