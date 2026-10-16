@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:40:52.019295+00:00",
+  "generated_at": "2026-10-16T01:54:50.201870+00:00",
   "run_date": "2026-10-15",
   "as_of": "2026-10-14",
   "anchor": "2026-03-20",
@@ -1648,12 +1648,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 122,
-        "pending": 0,
+        "pending": 1,
         "net_units": 1.1,
         "roi_pct": 0.7,
         "roi_lcb95": -14.62,
         "start": "2026-03-30",
-        "end": "2026-10-12",
+        "end": "2026-10-15",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -1753,12 +1753,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 2,
-            "pending": 0,
+            "pending": 1,
             "net_units": 2.09,
             "roi_pct": 92.81,
             "roi_lcb95": 90.91,
             "start": "2026-09-10",
-            "end": "2026-09-18",
+            "end": "2026-10-15",
             "small_sample": true,
             "lane": "NCAAF",
             "ranked": false,
@@ -7867,10 +7867,10 @@
       "NHL"
     ]
   },
-  "pickers_contributing": 13,
+  "pickers_contributing": 16,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-10-15T08:02:02-07:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": "2026-10-15T22:00:00+00:00",
     "free_pick_published_at_utc": null
   },
@@ -7890,7 +7890,7 @@
   "recap": {
     "recap_date": "2026-10-14",
     "run_date": "2026-10-15",
-    "generated_at_utc": "2026-10-15T15:42:28+00:00",
+    "generated_at_utc": "2026-10-16T01:56:26+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8226,11 +8226,11 @@
     "contract": 1,
     "date": "2026-10-15",
     "stage": "card_shipped",
-    "line": "Paid card shipped 8:24 AM PT \u00b7 5 picks, NCAAF + NHL \u00b7 first leg fires 4:00 PM PT",
+    "line": "Paid card shipped 8:24 AM PT \u00b7 5 picks, NCAAF + NHL \u00b7 all 5 games started",
     "parts": [
       "Paid card shipped 8:24 AM PT",
       "5 picks, NCAAF + NHL",
-      "first leg fires 4:00 PM PT"
+      "all 5 games started"
     ],
     "expected_by": {
       "label": "10:00 AM PT",
@@ -8246,6 +8246,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-15",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "4:00 PM PT",
-    "updated_pt": "8:42 AM PT"
+    "updated_pt": "6:56 PM PT"
   }
 }
