@@ -14,6 +14,22 @@
     "units": 2.0
   },
   {
+    "date": "2026-10-16",
+    "sport": "BEST",
+    "game": "Charlotte Hornets @ Memphis Grizzlies",
+    "pick": "Charlotte Hornets",
+    "bet_type": "ATS",
+    "line": "-1.5",
+    "pick_display": "Charlotte Hornets ATS -1.5",
+    "edge": 11.492,
+    "ccr": 80,
+    "tier": "A",
+    "result": null,
+    "profit_units": null,
+    "units": 2.0,
+    "source_sport": "NBA"
+  },
+  {
     "date": "2026-10-15",
     "source_sport": "NCAAF",
     "game": "Colorado State Rams @ Texas State Bobcats",
