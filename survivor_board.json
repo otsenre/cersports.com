@@ -6,53 +6,24 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Shark",
-      "source": "human:shark",
+      "name": "Reaper",
+      "source": "human:reaper",
       "record": {
-        "wins": 46,
-        "losses": 33,
+        "wins": 41,
+        "losses": 37,
         "pushes": 1,
-        "current": 2,
-        "longest": 5,
+        "current": 1,
+        "longest": 4,
         "alive": true,
-        "pl_units": 3.5,
-        "pl_priced": 75,
-        "pl_settled": 80,
-        "pl_flat_units": -2.3,
+        "pl_units": 6.07,
+        "pl_priced": 79,
+        "pl_settled": 79,
+        "pl_flat_units": -0.15,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
-      "pick": {
-        "pick": "Memphis Tigers -7",
-        "game": "Memphis Tigers @ Tulane Green Wave",
-        "sport": "NCAAF",
-        "odds": -106,
-        "units": 1,
-        "start_utc": "2026-10-16T23:30:00+00:00",
-        "result": null
-      }
-    },
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 40,
-        "losses": 37,
-        "pushes": 1,
-        "current": 0,
-        "longest": 4,
-        "alive": false,
-        "pl_units": 4.25,
-        "pl_priced": 78,
-        "pl_settled": 78,
-        "pl_flat_units": -1.05,
-        "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
         "pick": "Boston Celtics +5.5",
         "game": "Boston Celtics @ Philadelphia 76ers",
@@ -60,7 +31,36 @@
         "odds": -110,
         "units": 1,
         "start_utc": "2026-10-16T23:00:00+00:00",
-        "result": null
+        "result": "W"
+      }
+    },
+    {
+      "name": "Shark",
+      "source": "human:shark",
+      "record": {
+        "wins": 46,
+        "losses": 34,
+        "pushes": 1,
+        "current": 0,
+        "longest": 5,
+        "alive": false,
+        "pl_units": 2.5,
+        "pl_priced": 76,
+        "pl_settled": 81,
+        "pl_flat_units": -3.3,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Memphis Tigers -7",
+        "game": "Memphis Tigers @ Tulane Green Wave",
+        "sport": "NCAAF",
+        "odds": -106,
+        "units": 1,
+        "start_utc": "2026-10-16T23:30:00+00:00",
+        "result": "L"
       }
     }
   ]
