@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-18",
+    "source_sport": "NFL",
+    "game": "Arizona Cardinals @ Los Angeles Rams",
+    "pick": "Los Angeles Rams -12.5",
+    "pick_display": "Los Angeles Rams -12.5",
+    "bet_type": "ATS",
+    "line": -12.5,
+    "price": -110.0,
+    "handicap": null,
+    "ccr": 7.33,
+    "ccr_avg": 7.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "5b82fa1376867fa63d3432625a4e6099d0e106571f42039b5807afe53c035c14"
+  },
+  {
     "date": "2026-10-17",
     "source_sport": "EPL",
     "game": "Aston Villa @ Newcastle United",
