@@ -1,9 +1,9 @@
 {
   "day": "2026-10-18",
-  "deadline_utc": "2026-10-18T18:05:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-18T20:05:00+00:00",
-  "submitted_count": 1,
+  "deadline_utc": "2026-10-18T18:01:06+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-10-18T19:00:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Real Madrid ML",
+        "game": "Sevilla @ Real Madrid",
+        "sport": "LA LIGA - SPAIN",
+        "odds": -425,
+        "units": 1,
+        "start_utc": "2026-10-18T19:00:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
