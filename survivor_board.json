@@ -1,36 +1,36 @@
 {
-  "day": "2026-10-18",
-  "deadline_utc": "2026-10-18T18:05:18+00:00",
+  "day": "2026-10-19",
+  "deadline_utc": "2026-10-19T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-18T20:05:18+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-20T00:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 42,
+        "wins": 43,
         "losses": 37,
         "pushes": 1,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": 6.98,
-        "pl_priced": 80,
-        "pl_settled": 80,
-        "pl_flat_units": 0.76,
+        "pl_units": 7.22,
+        "pl_priced": 81,
+        "pl_settled": 81,
+        "pl_flat_units": 1.0,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
-        "pick": "Real Madrid ML",
-        "game": "Sevilla @ Real Madrid",
-        "sport": "LA LIGA - SPAIN",
-        "odds": -425,
+        "pick": "Golden State Valkyries -2.5",
+        "game": "Atlanta Dream @ Golden State Valkyries",
+        "sport": "WNBA",
+        "odds": -106,
         "units": 1,
-        "start_utc": "2026-10-25T20:00:00+00:00",
+        "start_utc": "2026-10-20T00:10:00+00:00",
         "result": null
       }
     },
@@ -53,15 +53,7 @@
         "loss_run": 3
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Los Angeles Rams -12.5",
-        "game": "Arizona Cardinals @ Los Angeles Rams",
-        "sport": "NFL",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-10-18T20:05:18+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }

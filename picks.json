@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-19",
+    "source_sport": "MLB",
+    "game": "Cleveland Guardians @ Tampa Bay Rays",
+    "pick": "Cleveland Guardians +1.5",
+    "pick_display": "Cleveland Guardians +1.5",
+    "bet_type": "ATS",
+    "line": 1.5,
+    "price": -182.0,
+    "handicap": null,
+    "ccr": 5.0,
+    "ccr_avg": 5.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "ee767987778daf7d9108b26ad3ba43cf110c478c7abc1baf9ed7d12a0ecdfc4f"
+  },
+  {
     "date": "2026-10-18",
     "source_sport": "NFL",
     "game": "Arizona Cardinals @ Los Angeles Rams",
