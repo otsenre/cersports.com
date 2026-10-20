@@ -6,53 +6,24 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
+      "name": "Shark",
+      "source": "human:shark",
       "record": {
-        "wins": 43,
-        "losses": 37,
+        "wins": 47,
+        "losses": 36,
         "pushes": 1,
-        "current": 3,
-        "longest": 4,
+        "current": 1,
+        "longest": 5,
         "alive": true,
-        "pl_units": 7.22,
-        "pl_priced": 81,
-        "pl_settled": 81,
-        "pl_flat_units": 1.0,
+        "pl_units": -1.56,
+        "pl_priced": 79,
+        "pl_settled": 84,
+        "pl_flat_units": -5.06,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "3 straight, best is 4",
-      "pick": {
-        "pick": "Golden State Valkyries -2.5",
-        "game": "Atlanta Dream @ Golden State Valkyries",
-        "sport": "WNBA",
-        "odds": -106,
-        "units": 1,
-        "start_utc": "2026-10-20T00:10:00+00:00",
-        "result": null
-      }
-    },
-    {
-      "name": "Shark",
-      "source": "human:shark",
-      "record": {
-        "wins": 46,
-        "losses": 36,
-        "pushes": 1,
-        "current": 0,
-        "longest": 5,
-        "alive": false,
-        "pl_units": -2.5,
-        "pl_priced": 78,
-        "pl_settled": 83,
-        "pl_flat_units": -5.3,
-        "next_wager_from_base": null,
-        "ramp_units": 3.0,
-        "loss_run": 3
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
         "pick": "San Francisco 49ers ML",
         "game": "Washington Commanders @ San Francisco 49ers",
@@ -60,7 +31,36 @@
         "odds": -425,
         "units": 1,
         "start_utc": "2026-10-20T00:15:00+00:00",
-        "result": null
+        "result": "W"
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 43,
+        "losses": 38,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": 6.22,
+        "pl_priced": 82,
+        "pl_settled": 82,
+        "pl_flat_units": -0.0,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Golden State Valkyries -2.5",
+        "game": "Atlanta Dream @ Golden State Valkyries",
+        "sport": "WNBA",
+        "odds": -106,
+        "units": 1,
+        "start_utc": "2026-10-20T00:10:00+00:00",
+        "result": "L"
       }
     }
   ]
