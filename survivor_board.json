@@ -1,7 +1,7 @@
 {
   "day": "2026-10-20",
-  "deadline_utc": "2026-10-20T17:00:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
+  "deadline_utc": "2026-10-20T17:18:22+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
   "earliest_start_utc": "2026-10-20T19:00:00+00:00",
   "submitted_count": 2,
   "entries": [
@@ -25,7 +25,7 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "Boston Celtics ML",
+        "pick": "Boston Celtics ML (1H)",
         "game": "Boston Celtics @ Detroit Pistons",
         "sport": "NBA",
         "odds": -120,
