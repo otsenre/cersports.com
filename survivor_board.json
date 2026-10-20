@@ -1,8 +1,8 @@
 {
   "day": "2026-10-20",
-  "deadline_utc": "2026-10-20T17:18:22+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-10-20T19:00:00+00:00",
+  "deadline_utc": "2026-10-23T21:10:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-10-23T23:10:00+00:00",
   "submitted_count": 2,
   "entries": [
     {
@@ -30,7 +30,7 @@
         "sport": "NBA",
         "odds": -120,
         "units": 1,
-        "start_utc": "2026-10-20T19:00:00+00:00",
+        "start_utc": "2026-10-23T23:10:00+00:00",
         "result": null
       }
     },
@@ -59,7 +59,7 @@
         "sport": "NBA",
         "odds": -110,
         "units": 1,
-        "start_utc": "2026-10-20T19:00:00+00:00",
+        "start_utc": "2026-10-23T23:10:00+00:00",
         "result": null
       }
     }
