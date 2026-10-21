@@ -1,11 +1,11 @@
 {
   "fee_share": 0.03,
   "card": {
-    "units_per_day": 5.181,
-    "picks_per_day": 4.86,
+    "units_per_day": 5.183,
+    "picks_per_day": 4.84,
     "mean_units": 1.07,
     "lookback_days": 90,
-    "through": "2026-10-19"
+    "through": "2026-10-20"
   },
   "tiers": [
     {
@@ -29,7 +29,7 @@
       "name": "Monthly",
       "price_usd": 350,
       "window_days": 30,
-      "units_served": 155.4,
+      "units_served": 155.5,
       "built_for_unit_usd": 100
     },
     {
@@ -37,7 +37,7 @@
       "name": "The Seat",
       "price_usd": 2500,
       "window_days": 365,
-      "units_served": 1891.1,
+      "units_served": 1891.8,
       "built_for_unit_usd": 50
     }
   ],
@@ -51,5 +51,5 @@
       "weeks_measured": 6
     }
   },
-  "generated_at": "2026-10-20T13:15:04+00:00"
+  "generated_at": "2026-10-21T13:15:04+00:00"
 }
