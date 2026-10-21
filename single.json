@@ -4,7 +4,13 @@
   "price_usd": 500,
   "on_sale": true,
   "sale": {
-    "state": "none"
+    "limit": 3,
+    "remaining": 3,
+    "closes_at_utc": "2026-10-21T23:30:00+00:00",
+    "closes_at_pt": "Wed Oct 21 · 4:30 PM PT",
+    "selection_date": "2026-10-21",
+    "state": "open",
+    "checkout_url": "https://buy.stripe.com/7sY5kE7DGeXl5qdgqAbZe0n"
   },
   "record": {
     "settled": 5,
@@ -134,5 +140,5 @@
   },
   "what": "ONE high-conviction selection with the full research attached, offered only when the board produces one",
   "disclaimer": "#NotFinancialAdvice — For entertainment only",
-  "generated_at": "2026-10-03T07:33:56+00:00"
+  "generated_at": "2026-10-21T14:59:03+00:00"
 }
