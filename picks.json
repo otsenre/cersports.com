@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-22",
+    "source_sport": "NBA",
+    "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+    "pick": "Philadelphia 76ers -3.5",
+    "pick_display": "Philadelphia 76ers -3.5",
+    "bet_type": "ATS",
+    "line": -3.5,
+    "price": -105.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "aee2ecbec1d64baf132db13806d1e2afdaa032b485ae9d6dcdc7492c07300c4e"
+  },
+  {
     "date": "2026-10-21",
     "source_sport": "WNBA",
     "game": "Golden State Valkyries @ Atlanta Dream",
