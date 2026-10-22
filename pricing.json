@@ -1,11 +1,11 @@
 {
   "fee_share": 0.03,
   "card": {
-    "units_per_day": 5.183,
-    "picks_per_day": 4.84,
+    "units_per_day": 5.186,
+    "picks_per_day": 4.83,
     "mean_units": 1.07,
     "lookback_days": 90,
-    "through": "2026-10-20"
+    "through": "2026-10-21"
   },
   "tiers": [
     {
@@ -29,27 +29,27 @@
       "name": "Monthly",
       "price_usd": 350,
       "window_days": 30,
-      "units_served": 155.5,
-      "built_for_unit_usd": 100
+      "units_served": 155.6,
+      "built_for_unit_usd": 75
     },
     {
       "code": "seat",
       "name": "The Seat",
       "price_usd": 2500,
       "window_days": 365,
-      "units_served": 1891.8,
+      "units_served": 1892.9,
       "built_for_unit_usd": 50
     }
   ],
   "nfl_season": {
-    "price_usd": 499,
-    "weeks_remaining": 12,
-    "units_served": 315.0,
+    "price_usd": 449,
+    "weeks_remaining": 11,
+    "units_served": 282.0,
     "built_for_unit_usd": 75,
     "nfl": {
-      "units_per_week": 26.25,
-      "weeks_measured": 6
+      "units_per_week": 25.64,
+      "weeks_measured": 7
     }
   },
-  "generated_at": "2026-10-21T13:15:04+00:00"
+  "generated_at": "2026-10-22T13:15:04+00:00"
 }
