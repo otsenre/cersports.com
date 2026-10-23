@@ -129,13 +129,6 @@
         "odds": -110.0,
         "rationale": "Atlanta's strong home defense and recent form advantage support the spread pick.",
         "outcome": "W"
-      },
-      {
-        "persona": "Clotho",
-        "ccr": 2.0,
-        "odds": -110.0,
-        "rationale": "",
-        "outcome": "NO_OPINION"
       }
     ],
     "economics": {
@@ -158,5 +151,5 @@
   },
   "what": "ONE high-conviction selection with the full research attached, offered only when the board produces one",
   "disclaimer": "#NotFinancialAdvice — For entertainment only",
-  "generated_at": "2026-10-22T07:03:01+00:00"
+  "generated_at": "2026-10-23T04:46:01+00:00"
 }
