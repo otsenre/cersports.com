@@ -9,21 +9,21 @@
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 49,
+        "wins": 50,
         "losses": 36,
         "pushes": 1,
-        "current": 3,
+        "current": 4,
         "longest": 5,
         "alive": true,
-        "pl_units": -0.28,
-        "pl_priced": 81,
-        "pl_settled": 86,
-        "pl_flat_units": -3.78,
+        "pl_units": 0.59,
+        "pl_priced": 82,
+        "pl_settled": 87,
+        "pl_flat_units": -2.91,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "3 straight, best is 5",
+      "note": "4 straight, best is 5",
       "pick": {
         "pick": "Over 6.5",
         "game": "Carolina Hurricanes @ Edmonton Oilers",
@@ -31,28 +31,28 @@
         "odds": -115,
         "units": 1,
         "start_utc": "2026-10-23T01:10:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 45,
+        "wins": 46,
         "losses": 38,
         "pushes": 1,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": 8.93,
-        "pl_priced": 84,
-        "pl_settled": 84,
-        "pl_flat_units": 1.8,
+        "pl_units": 9.84,
+        "pl_priced": 85,
+        "pl_settled": 85,
+        "pl_flat_units": 2.71,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
         "pick": "Liberty Flames -9.5",
         "game": "Liberty Flames @ Kennesaw State Owls",
@@ -60,7 +60,7 @@
         "odds": -110,
         "units": 1,
         "start_utc": "2026-10-22T23:00:00+00:00",
-        "result": null
+        "result": "W"
       }
     }
   ]
