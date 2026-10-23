@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-23",
+    "source_sport": "NCAAF",
+    "game": "Army Black Knights @ Tulsa Golden Hurricane",
+    "pick": "Army Black Knights +1.5",
+    "pick_display": "Army Black Knights +1.5",
+    "bet_type": "ATS",
+    "line": 1.5,
+    "price": -105.0,
+    "handicap": null,
+    "ccr": 5.33,
+    "ccr_avg": 5.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "63d8ff6848e8818175d0ba3f0ba33f445bbbf6608df9e33af3d1bf9f37a7fe05"
+  },
+  {
     "date": "2026-10-22",
     "source_sport": "NBA",
     "game": "Cleveland Cavaliers @ Philadelphia 76ers",
