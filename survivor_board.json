@@ -3,7 +3,7 @@
   "deadline_utc": "2026-10-23T22:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-10-24T00:00:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -24,7 +24,15 @@
         "loss_run": 0
       },
       "note": "4 straight, best is 5",
-      "pick": null
+      "pick": {
+        "pick": "Army Black Knights +1.5",
+        "game": "Army Black Knights @ Tulsa Golden Hurricane",
+        "sport": "NCAAF",
+        "odds": -110,
+        "units": 1,
+        "start_utc": "2026-10-24T00:30:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
