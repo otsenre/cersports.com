@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:43:55.495219+00:00",
+  "generated_at": "2026-10-24T15:48:59.898453+00:00",
   "run_date": "2026-10-24",
   "as_of": "2026-10-23",
   "anchor": "2026-03-20",
@@ -8348,7 +8348,7 @@
     "free_pick_site_published_at_utc": "2026-10-24T08:04:50-07:00",
     "free_pick_release_state": "released",
     "free_pick_release_at_utc": null,
-    "free_pick_published_at_utc": null
+    "free_pick_published_at_utc": "2026-10-24T15:47:26+00:00"
   },
   "paid_card_delivery": {
     "state": "live",
@@ -8366,7 +8366,7 @@
   "recap": {
     "recap_date": "2026-10-23",
     "run_date": "2026-10-24",
-    "generated_at_utc": "2026-10-24T15:45:42+00:00",
+    "generated_at_utc": "2026-10-24T15:50:43+00:00",
     "final": true,
     "card": {
       "n": 6,
@@ -8733,6 +8733,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-10-24",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "9:30 AM PT",
-    "updated_pt": "8:45 AM PT"
+    "updated_pt": "8:50 AM PT"
   }
 }
