@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-24",
+    "source_sport": "MMA",
+    "game": "Merab Dvalishvili vs Petr Yan",
+    "pick": "Merab Dvalishvili ML",
+    "pick_display": "Merab Dvalishvili ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": 130.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "ef09bc8c6be4914e5eab723420c3ec5ebb65e52b66926bf801f83f052248c638"
+  },
+  {
     "date": "2026-10-23",
     "source_sport": "NCAAF",
     "game": "Army Black Knights @ Tulsa Golden Hurricane",
