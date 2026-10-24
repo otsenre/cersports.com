@@ -9,21 +9,21 @@
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 50,
+        "wins": 51,
         "losses": 36,
         "pushes": 1,
-        "current": 4,
+        "current": 5,
         "longest": 5,
         "alive": true,
-        "pl_units": 0.59,
-        "pl_priced": 82,
-        "pl_settled": 87,
-        "pl_flat_units": -2.91,
+        "pl_units": 1.5,
+        "pl_priced": 83,
+        "pl_settled": 88,
+        "pl_flat_units": -2.01,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "4 straight, best is 5",
+      "note": "5 straight \u2014 best run yet",
       "pick": {
         "pick": "Army Black Knights +1.5",
         "game": "Army Black Knights @ Tulsa Golden Hurricane",
@@ -31,7 +31,7 @@
         "odds": -110,
         "units": 1,
         "start_utc": "2026-10-24T00:30:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
@@ -39,20 +39,20 @@
       "source": "human:reaper",
       "record": {
         "wins": 46,
-        "losses": 38,
+        "losses": 39,
         "pushes": 1,
-        "current": 3,
+        "current": 0,
         "longest": 4,
-        "alive": true,
-        "pl_units": 9.84,
-        "pl_priced": 85,
-        "pl_settled": 85,
-        "pl_flat_units": 2.71,
+        "alive": false,
+        "pl_units": 8.84,
+        "pl_priced": 86,
+        "pl_settled": 86,
+        "pl_flat_units": 1.71,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "3 straight, best is 4",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Milwaukee Brewers -1.5",
         "game": "Tampa Bay Rays @ Milwaukee Brewers",
@@ -60,7 +60,7 @@
         "odds": 126,
         "units": 1,
         "start_utc": "2026-10-24T00:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
