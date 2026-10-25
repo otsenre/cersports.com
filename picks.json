@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-25",
+    "source_sport": "NFL",
+    "game": "Cleveland Browns @ Tennessee Titans",
+    "pick": "Cleveland Browns -2.5",
+    "pick_display": "Cleveland Browns -2.5",
+    "bet_type": "ATS",
+    "line": -2.5,
+    "price": -106.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "031080fe167c2240abe0146d012049b83f7814006f28fbdc9987b583b3d8e032"
+  },
+  {
     "date": "2026-10-24",
     "source_sport": "MMA",
     "game": "Merab Dvalishvili vs Petr Yan",
