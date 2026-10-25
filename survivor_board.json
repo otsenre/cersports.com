@@ -10,20 +10,20 @@
       "source": "human:shark",
       "record": {
         "wins": 51,
-        "losses": 36,
+        "losses": 37,
         "pushes": 1,
-        "current": 5,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 1.5,
-        "pl_priced": 83,
-        "pl_settled": 88,
-        "pl_flat_units": -2.01,
+        "alive": false,
+        "pl_units": 0.5,
+        "pl_priced": 84,
+        "pl_settled": 89,
+        "pl_flat_units": -3.01,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "5 straight \u2014 best run yet",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "BYU Cougars -7",
         "game": "BYU Cougars @ UCF Knights",
@@ -31,7 +31,7 @@
         "odds": -115,
         "units": 1,
         "start_utc": "2026-10-24T19:35:55+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
