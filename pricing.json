@@ -42,14 +42,14 @@
     }
   ],
   "nfl_season": {
-    "price_usd": 449,
+    "price_usd": 909,
     "weeks_remaining": 11,
     "units_served": 282.0,
-    "built_for_unit_usd": 75,
+    "built_for_unit_usd": 125,
     "nfl": {
       "units_per_week": 25.64,
       "weeks_measured": 7
     }
   },
-  "generated_at": "2026-10-26T23:23:01+00:00"
+  "generated_at": "2026-10-26T23:23:41+00:00"
 }
