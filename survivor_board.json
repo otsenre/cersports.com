@@ -1,66 +1,58 @@
 {
-  "day": "2026-10-24",
-  "deadline_utc": "2026-10-24T17:35:55+00:00",
+  "day": "2026-10-26",
+  "deadline_utc": "2026-10-26T21:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-24T19:35:55+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-26T23:40:00+00:00",
+  "submitted_count": 1,
   "entries": [
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 47,
+        "losses": 40,
+        "pushes": 1,
+        "current": 1,
+        "longest": 4,
+        "alive": true,
+        "pl_units": 9.75,
+        "pl_priced": 88,
+        "pl_settled": 88,
+        "pl_flat_units": 1.68,
+        "next_wager_from_base": null,
+        "ramp_units": 0.0,
+        "loss_run": 0
+      },
+      "note": "1 up, building again",
+      "pick": null
+    },
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
         "wins": 51,
-        "losses": 37,
+        "losses": 38,
         "pushes": 1,
         "current": 0,
         "longest": 5,
         "alive": false,
-        "pl_units": 0.5,
-        "pl_priced": 84,
-        "pl_settled": 89,
-        "pl_flat_units": -3.01,
-        "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "BYU Cougars -7",
-        "game": "BYU Cougars @ UCF Knights",
-        "sport": "NCAAF",
-        "odds": -115,
-        "units": 1,
-        "start_utc": "2026-10-24T19:35:55+00:00",
-        "result": "L"
-      }
-    },
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 46,
-        "losses": 40,
-        "pushes": 1,
-        "current": 0,
-        "longest": 4,
-        "alive": false,
-        "pl_units": 6.84,
-        "pl_priced": 87,
-        "pl_settled": 87,
-        "pl_flat_units": 0.71,
+        "pl_units": -1.5,
+        "pl_priced": 85,
+        "pl_settled": 90,
+        "pl_flat_units": -4.01,
         "next_wager_from_base": null,
         "ramp_units": 2.0,
         "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Inter Miami CF ML",
-        "game": "Inter Miami CF @ New York Red Bulls",
-        "sport": "MLS",
-        "odds": -120,
+        "pick": "Boston Celtics ML",
+        "game": "Chicago Bulls @ Boston Celtics",
+        "sport": "NBA",
+        "odds": -750,
         "units": 1,
-        "start_utc": "2026-10-24T21:40:00+00:00",
-        "result": "L"
+        "start_utc": "2026-10-26T23:40:00+00:00",
+        "result": null
       }
     }
   ]
