@@ -1161,9 +1161,9 @@ footer {
 
       <div class="price-card">
         <div class="price-tier">48-Hour Pass</div>
-        <div class="price-amount">$50</div>
+        <div class="price-amount">$100</div>
         <div class="price-period">one-time</div>
-        <div class="price-daily">$25.00 / day</div>
+        <div class="price-daily">$50.00 / day</div>
         <div class="price-builtfor" data-builtfor="day"></div>
         <div class="price-divider"></div>
         <div class="price-features">
@@ -1178,9 +1178,9 @@ footer {
       </div>
       <div class="price-card">
         <div class="price-tier">Week Pass</div>
-        <div class="price-amount">$150</div>
+        <div class="price-amount">$300</div>
         <div class="price-period">7 days</div>
-        <div class="price-daily">$21.43 / day</div>
+        <div class="price-daily">$42.86 / day</div>
         <div class="price-builtfor" data-builtfor="week"></div>
         <div class="price-divider"></div>
         <div class="price-features">
@@ -1194,9 +1194,9 @@ footer {
       </div>
       <div class="price-card featured">
         <div class="price-tier">Monthly</div>
-        <div class="price-amount">$350</div>
+        <div class="price-amount">$700</div>
         <div class="price-period">per month · auto-renews</div>
-        <div class="price-daily">$11.67 / day · save 53%</div>
+        <div class="price-daily">$23.33 / day · save 53%</div>
         <div class="price-builtfor" data-builtfor="monthly"></div>
         <div class="price-divider"></div>
         <div class="price-features">
@@ -1212,7 +1212,7 @@ footer {
            a count from Stripe -- never typed here. Stripe itself refuses seat 26. -->
       <div class="price-card" id="seatCard">
         <div class="price-tier">The Seat <span class="dev-badge">25 seats</span></div>
-        <div class="price-amount">$2,500</div>
+        <div class="price-amount">$5,000</div>
         <div class="price-period">per year · auto-renews</div>
         <div class="price-seats" id="seatCount"></div>
         <div class="price-builtfor" data-builtfor="seat"></div>
@@ -1256,7 +1256,7 @@ footer {
     <div class="not-for">
       <h3>WHO THIS IS <em>NOT</em> FOR</h3>
       <ul>
-        <li><b>If $50 scares you</b>, don't buy anything here. Take the free pick. It comes from the same committee, every day, for nothing, and its record is public too.</li>
+        <li><b>If $100 scares you</b>, don't buy anything here. Take the free pick. It comes from the same committee, every day, for nothing, and its record is public too.</li>
         <li><b>If you bet small units</b>, the math won't work for you. Every plan above says the unit size it's built for. Below that size, the fee is a bigger share of your action than any edge can pay back.</li>
         <li><b>If you want a lock</b>, there isn't one. <span id="notForRecord">The record above is every pick we've sent, losses included.</span> Read it before you pay.</li>
         <li><b>If you want to be told to bet</b>, we won't. We tell you what to bet, how much, and why. Whether you act is your call.</li>
@@ -1717,17 +1717,17 @@ const PAYMENT_LINKS = {
   // Pricing round 2, 2026-10-02. Must match product_registry.PRODUCTS
   // checkout_url; the old links are deactivated in Stripe. The Annual is
   // retired for new buyers (The Seat replaces it once its cap is built).
-  day:     'https://buy.stripe.com/7sY6oI0be9D12e1a2cbZe0g',   // $50 48-hour pass
-  week:    'https://buy.stripe.com/aFacN6gacaH5cSF8Y8bZe0h',   // $150 week pass
-  monthly: 'https://buy.stripe.com/aFa4gA9LO5mLg4RdeobZe0i',   // $350/mo subscription
-  seat:    'https://buy.stripe.com/3cI8wQ6zCg1p9Gta2cbZe0j',   // $2,500/yr, 25 seats (Stripe-capped)
+  day:     'https://buy.stripe.com/7sY3cwcY002rg4ReisbZe0p',   // $100 48-hour pass
+  week:    'https://buy.stripe.com/6oU8wQ2jm5mLcSF8Y8bZe0q',   // $300 week pass
+  monthly: 'https://buy.stripe.com/28E00k3nqcPdcSF3DObZe0r',   // $700/mo subscription
+  seat:    'https://buy.stripe.com/dRmbJ29LOcPdcSF1vGbZe0s',   // $5,000/yr, 25 seats (Stripe-capped)
 };
 
 const TIER_INFO = {
-  day:     { title: '48-HOUR PASS — $50',  sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
-  week:    { title: 'WEEK PASS — $150',    sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
-  monthly: { title: 'MONTHLY — $350/mo',   sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
-  seat:    { title: 'THE SEAT — $2,500/yr', sub: 'Everything, every Single, the NFL season. Twenty-five seats; renews yearly. Cancel anytime.' },
+  day:     { title: '48-HOUR PASS — $100',  sub: 'Full report delivered to your email within 15 minutes of payment. Two complete sessions, whatever time you buy.' },
+  week:    { title: 'WEEK PASS — $300',    sub: '7 days of full reports, plus Telegram delivery. Access begins immediately.' },
+  monthly: { title: 'MONTHLY — $700/mo',   sub: 'Instant recurring access. Cancel anytime from your Stripe customer portal.' },
+  seat:    { title: 'THE SEAT — $5,000/yr', sub: 'Everything, every Single, the NFL season. Twenty-five seats; renews yearly. Cancel anytime.' },
 };
 
 // ── PICKS DATA ───────────────────────────────────────────────────────────────
