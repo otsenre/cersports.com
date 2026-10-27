@@ -6,35 +6,6 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 47,
-        "losses": 40,
-        "pushes": 1,
-        "current": 1,
-        "longest": 4,
-        "alive": true,
-        "pl_units": 9.75,
-        "pl_priced": 88,
-        "pl_settled": 88,
-        "pl_flat_units": 1.68,
-        "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
-      },
-      "note": "1 up, building again",
-      "pick": {
-        "pick": "Under 44",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "sport": "NFL",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-10-27T00:15:00+00:00",
-        "result": null
-      }
-    },
-    {
       "name": "Shark",
       "source": "human:shark",
       "record": {
@@ -61,6 +32,35 @@
         "units": 1,
         "start_utc": "2026-10-26T23:40:00+00:00",
         "result": null
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 47,
+        "losses": 41,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": 8.75,
+        "pl_priced": 89,
+        "pl_settled": 89,
+        "pl_flat_units": 0.68,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Under 44",
+        "game": "Dallas Cowboys @ Philadelphia Eagles",
+        "sport": "NFL",
+        "odds": -110,
+        "units": 1,
+        "start_utc": "2026-10-27T00:15:00+00:00",
+        "result": "L"
       }
     }
   ]
