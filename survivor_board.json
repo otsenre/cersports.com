@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-26",
-  "deadline_utc": "2026-10-26T21:40:00+00:00",
+  "day": "2026-10-27",
+  "deadline_utc": "2026-10-28T00:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-26T23:40:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-28T02:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,12 +25,12 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Boston Celtics ML",
-        "game": "Chicago Bulls @ Boston Celtics",
-        "sport": "NBA",
-        "odds": -750,
+        "pick": "Anaheim Ducks ML",
+        "game": "Vancouver Canucks @ Anaheim Ducks",
+        "sport": "NHL",
+        "odds": -216,
         "units": 1,
-        "start_utc": "2026-10-26T23:40:00+00:00",
+        "start_utc": "2026-10-28T02:10:00+00:00",
         "result": null
       }
     },
@@ -53,15 +53,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Under 44",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "sport": "NFL",
-        "odds": -110,
-        "units": 1,
-        "start_utc": "2026-10-27T00:15:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
