@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-27",
+    "source_sport": "NHL",
+    "game": "Los Angeles Kings @ Chicago Blackhawks",
+    "pick": "Los Angeles Kings -1.5",
+    "pick_display": "Los Angeles Kings -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": 210.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "27b1c5616551785b46f28d9f2fce8383f82ac3a92e065278013d21ad01810638"
+  },
+  {
     "date": "2026-10-26",
     "source_sport": "ATP",
     "game": "Jakub Mensik vs Lukas Neumayer",
