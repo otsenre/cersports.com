@@ -3,7 +3,7 @@
   "deadline_utc": "2026-10-27T21:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-10-27T23:40:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -29,6 +29,7 @@
         "game": "Vancouver Canucks @ Anaheim Ducks",
         "sport": "NHL",
         "odds": -216,
+        "line_pending": false,
         "units": 1,
         "start_utc": "2026-10-28T02:10:00+00:00",
         "result": null
@@ -53,7 +54,16 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Boston Celtics -7.5 (1H)",
+        "game": "Brooklyn Nets @ Boston Celtics",
+        "sport": "NBA",
+        "odds": -108,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-10-27T23:40:00+00:00",
+        "result": null
+      }
     }
   ]
 }
