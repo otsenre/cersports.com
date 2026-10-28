@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-27",
-  "deadline_utc": "2026-10-27T21:40:00+00:00",
+  "day": "2026-10-28",
+  "deadline_utc": "2026-10-28T22:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-27T23:40:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-29T00:00:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,16 +24,7 @@
         "loss_run": 3
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Anaheim Ducks ML",
-        "game": "Vancouver Canucks @ Anaheim Ducks",
-        "sport": "NHL",
-        "odds": -216,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-10-28T02:10:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -55,14 +46,14 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Boston Celtics -7.5 (1H)",
-        "game": "Brooklyn Nets @ Boston Celtics",
-        "sport": "NBA",
-        "odds": -108,
+        "pick": "Over 6.5",
+        "game": "Milwaukee Brewers @ Tampa Bay Rays",
+        "sport": "MLB",
+        "odds": -120,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-10-27T23:40:00+00:00",
-        "result": "L"
+        "start_utc": "2026-10-29T00:00:00+00:00",
+        "result": null
       }
     }
   ]
