@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-28",
-  "deadline_utc": "2026-10-28T22:00:00+00:00",
+  "day": "2026-10-29",
+  "deadline_utc": "2026-10-29T22:15:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-29T00:00:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-30T00:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,16 +24,7 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Los Angeles Lakers -4.5",
-        "game": "Los Angeles Lakers @ Los Angeles Clippers",
-        "sport": "NBA",
-        "odds": -105,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-10-29T02:40:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -55,14 +46,14 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 6.5",
-        "game": "Milwaukee Brewers @ Tampa Bay Rays",
-        "sport": "MLB",
-        "odds": -120,
+        "pick": "Over 47",
+        "game": "Carolina Panthers @ Green Bay Packers",
+        "sport": "NFL",
+        "odds": -112,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-10-29T00:00:00+00:00",
-        "result": "L"
+        "start_utc": "2026-10-30T00:15:00+00:00",
+        "result": null
       }
     }
   ]
