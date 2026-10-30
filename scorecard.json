@@ -1,6 +1,6 @@
 {
   "contract": 2,
-  "generated_utc": "2026-10-30T15:34:43+00:00",
+  "generated_utc": "2026-10-30T15:43:15+00:00",
   "products": {
     "free": {
       "todays_pick": {
@@ -45,12 +45,12 @@
           "vs_all_time": "above",
           "bankroll_return_pct": 4.24,
           "bankroll_units": 100.0,
-          "spx_return_pct": -1.01,
-          "dji_return_pct": 0.19,
-          "ndx_return_pct": -3.16,
-          "vs_spx": 5.25,
-          "vs_dji": 4.05,
-          "vs_ndx": 7.4,
+          "spx_return_pct": -1.19,
+          "dji_return_pct": 0.01,
+          "ndx_return_pct": -3.44,
+          "vs_spx": 5.43,
+          "vs_dji": 4.23,
+          "vs_ndx": 7.68,
           "text": "FREE PICK L10: 7-3 \u00b7 ROI: +33.2%"
         },
         {
@@ -69,12 +69,12 @@
           "vs_all_time": "above",
           "bankroll_return_pct": 9.53,
           "bankroll_units": 100.0,
-          "spx_return_pct": -1.42,
-          "dji_return_pct": 1.73,
-          "ndx_return_pct": -5.86,
-          "vs_spx": 10.95,
-          "vs_dji": 7.8,
-          "vs_ndx": 15.39,
+          "spx_return_pct": -1.6,
+          "dji_return_pct": 1.55,
+          "ndx_return_pct": -6.14,
+          "vs_spx": 11.13,
+          "vs_dji": 7.98,
+          "vs_ndx": 15.67,
           "text": "FREE PICK L25: 18-7-1P \u00b7 ROI: +29.1%"
         },
         {
@@ -93,12 +93,12 @@
           "vs_all_time": "above",
           "bankroll_return_pct": 5.39,
           "bankroll_units": 100.0,
-          "spx_return_pct": -0.79,
-          "dji_return_pct": -1.37,
-          "ndx_return_pct": -3.12,
-          "vs_spx": 6.18,
-          "vs_dji": 6.76,
-          "vs_ndx": 8.51,
+          "spx_return_pct": -0.97,
+          "dji_return_pct": -1.54,
+          "ndx_return_pct": -3.4,
+          "vs_spx": 6.36,
+          "vs_dji": 6.93,
+          "vs_ndx": 8.79,
           "text": "FREE PICK L50: 30-20-1P \u00b7 ROI: +8.9%"
         },
         {
@@ -117,12 +117,12 @@
           "vs_all_time": null,
           "bankroll_return_pct": -32.09,
           "bankroll_units": 100.0,
-          "spx_return_pct": 17.01,
-          "dji_return_pct": 14.23,
-          "ndx_return_pct": 18.24,
-          "vs_spx": -49.1,
-          "vs_dji": -46.32,
-          "vs_ndx": -50.33,
+          "spx_return_pct": 16.8,
+          "dji_return_pct": 14.03,
+          "ndx_return_pct": 17.9,
+          "vs_spx": -48.89,
+          "vs_dji": -46.12,
+          "vs_ndx": -49.99,
           "text": "FREE PICK ALL-TIME: 499-416-6P \u00b7 ROI: -3.0%"
         }
       ],
