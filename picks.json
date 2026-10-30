@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-30",
+    "source_sport": "NBA",
+    "game": "Chicago Bulls @ Boston Celtics",
+    "pick": "Boston Celtics -15.5",
+    "pick_display": "Boston Celtics -15.5",
+    "bet_type": "ATS",
+    "line": -15.5,
+    "price": -104.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "22c72d9ec043b31fcb76ffb4881aa7e03f2faa3815aa3e536b70623a1c908aa4"
+  },
+  {
     "date": "2026-10-29",
     "source_sport": "WNBA",
     "game": "Golden State Valkyries @ Atlanta Dream",
