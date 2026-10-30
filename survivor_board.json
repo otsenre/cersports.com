@@ -46,12 +46,12 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Los Angeles Lakers 1H ATS",
+        "pick": "Los Angeles Lakers -1.5 (1H)",
         "game": "Los Angeles Lakers @ Golden State Warriors",
         "sport": "NBA",
-        "odds": null,
-        "line_pending": true,
-        "units": null,
+        "odds": -108,
+        "line_pending": false,
+        "units": 1,
         "start_utc": "2026-10-31T02:10:00+00:00",
         "result": null
       }
