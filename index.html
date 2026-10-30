@@ -160,6 +160,15 @@ nav {
   font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
   color: var(--muted); margin-top: 8px; margin-bottom: 10px;
 }
+/* MORNING GAME band (2026-10-30): a start before noon PT, said FIRST. The text is
+   scorecard.json's todays_pick.morning_flag, decided server-side by morning_flag.py
+   with the captions' own words; the page never re-decides what "morning" is.
+   10-29: a breakfast-time playoff tip was read as an evening game and missed. */
+.pick-morning {
+  margin: 10px 0 12px; padding: 8px 12px;
+  background: var(--gold); color: var(--black);
+  font: 700 15px/1.2 'Barlow Condensed', sans-serif; letter-spacing: 1.5px; text-transform: uppercase;
+}
 .pick-team {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 48px; letter-spacing: 2px; color: var(--white);
@@ -1034,6 +1043,7 @@ footer {
     <p class="hero-sub">Data-driven CCR picks. Every morning. No gut calls.</p>
 
     <div class="free-pick-card" id="freePickCard">
+      <div class="pick-morning" id="pickMorning" hidden></div>
       <div class="pick-sport-date" id="pickSportDate">NBA · Loading...</div>
       <div class="pick-team" id="pickTeam">—</div>
       <div class="pick-meta">
@@ -1792,6 +1802,15 @@ async function loadPicks() {
       if (ccr >= 9) tagEl.textContent = '⚡ ELITE';
       else if (ccr >= 7) tagEl.textContent = '⚡ STRONG';
       else tagEl.textContent = '✓ QUALIFIED';
+
+      // Morning start: only for THIS designated pick (slot.state 'pick' is today's).
+      const tp = free && free.todays_pick;
+      const flag = tp && tp.hash_id === latest.hash_id ? tp.morning_flag : '';
+      if (flag) {
+        const mEl = document.getElementById('pickMorning');
+        mEl.textContent = flag;
+        mEl.hidden = false;
+      }
     }
 
     // Record grid
