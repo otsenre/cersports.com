@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-29",
-  "deadline_utc": "2026-10-29T22:15:00+00:00",
+  "day": "2026-10-30",
+  "deadline_utc": "2026-10-31T00:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-30T00:15:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-10-31T02:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -24,16 +24,7 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": {
-        "pick": "Green Bay Packers -3.5",
-        "game": "Carolina Panthers @ Green Bay Packers",
-        "sport": "NFL",
-        "odds": -112,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-10-30T00:15:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -55,14 +46,14 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Over 47",
-        "game": "Carolina Panthers @ Green Bay Packers",
-        "sport": "NFL",
-        "odds": -112,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-10-30T00:15:00+00:00",
-        "result": "L"
+        "pick": "Los Angeles Lakers 1H ATS",
+        "game": "Los Angeles Lakers @ Golden State Warriors",
+        "sport": "NBA",
+        "odds": null,
+        "line_pending": true,
+        "units": null,
+        "start_utc": "2026-10-31T02:10:00+00:00",
+        "result": null
       }
     }
   ]
