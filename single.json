@@ -15,10 +15,141 @@
     "roi_pct": 59.43,
     "small_sample": true
   },
-  "history": [],
-  "last_offer_date": null,
-  "sample": null,
+  "history": [
+    {
+      "date": "2026-10-21",
+      "sport": "WNBA",
+      "game": "Golden State Valkyries @ Atlanta Dream",
+      "pick": "Atlanta Dream -3.5",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.8182
+    },
+    {
+      "date": "2026-09-24",
+      "sport": "WNBA",
+      "game": "Chicago Sky @ Washington Mystics",
+      "pick": "Washington Mystics -13.5",
+      "odds": -102.0,
+      "result": "L",
+      "profit_units": -2.0
+    },
+    {
+      "date": "2026-09-23",
+      "sport": "WNBA",
+      "game": "Dallas Wings @ Seattle Storm",
+      "pick": "Dallas Wings -9.5",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.8182
+    },
+    {
+      "date": "2026-09-20",
+      "sport": "WNBA",
+      "game": "Seattle Storm @ Las Vegas Aces",
+      "pick": "Las Vegas Aces -16.5",
+      "odds": -104.0,
+      "result": "W",
+      "profit_units": 1.9231
+    },
+    {
+      "date": "2026-09-18",
+      "sport": "WNBA",
+      "game": "Portland Fire @ Golden State Valkyries",
+      "pick": "Golden State Valkyries -12.5",
+      "odds": -110.0,
+      "result": "W",
+      "profit_units": 1.8182
+    },
+    {
+      "date": "2026-09-17",
+      "sport": "WNBA",
+      "game": "Washington Mystics @ Chicago Sky",
+      "pick": "Washington Mystics -1.5",
+      "odds": -114.0,
+      "result": "W",
+      "profit_units": 1.7544
+    }
+  ],
+  "last_offer_date": "2026-10-21",
+  "sample": {
+    "selection_date": "2026-10-21",
+    "pick": {
+      "sport": "WNBA",
+      "game": "Golden State Valkyries @ Atlanta Dream",
+      "pick": "Atlanta Dream -3.5",
+      "bet_type": "ATS",
+      "line": "-3.5",
+      "odds": -110.0,
+      "ccr": 8.5,
+      "n_sources": 6,
+      "game_time_utc": "2026-10-22T00:00:00Z",
+      "game_time_pt": "Wed Oct 21, 5:00 PM PT",
+      "lead_minutes": 541.7
+    },
+    "sources": [
+      {
+        "persona": "The Shoe",
+        "ccr": 8.5,
+        "odds": -110.0,
+        "rationale": "",
+        "outcome": "W"
+      },
+      {
+        "persona": "The Shark",
+        "ccr": 7.0,
+        "odds": -110.0,
+        "rationale": "Home court advantage, expansion team struggles, and strong defensive matchup.",
+        "outcome": "W"
+      },
+      {
+        "persona": "Unlisted Picker",
+        "ccr": 6.5,
+        "odds": -112.0,
+        "rationale": "",
+        "outcome": "W"
+      },
+      {
+        "persona": "Highwire",
+        "ccr": 6.0,
+        "odds": -110.0,
+        "rationale": "",
+        "outcome": "W"
+      },
+      {
+        "persona": "The Closer",
+        "ccr": 6.0,
+        "odds": -110.0,
+        "rationale": "Home-court advantage plus interior rebounding dominance (Reese) against a Golden State frontcourt that struggles on the glass; Dream's half-court defense limits Valkyries' secondary scoring.",
+        "outcome": "W"
+      },
+      {
+        "persona": "The Dealer",
+        "ccr": 6.0,
+        "odds": -110.0,
+        "rationale": "Atlanta's strong home defense and recent form advantage support the spread pick.",
+        "outcome": "W"
+      }
+    ],
+    "economics": {
+      "assumed_stake_usd": 5000.0,
+      "list_price_usd": 350,
+      "fee_stake_ratio": 0.07,
+      "decimal_odds": 1.9090909090909092,
+      "market_break_even_prob": 0.5238095238095238,
+      "fee_adjusted_break_even_prob": 0.5604761904761906,
+      "formula": "(fee_adjusted = market * (1 + list_price / stake))"
+    },
+    "field": {
+      "candidates": 32,
+      "rows": 40,
+      "events": 20,
+      "min_candidates": 15,
+      "min_events": 6
+    },
+    "result": "W"
+  },
   "what": "ONE high-conviction selection with the full research attached, offered only when the board produces one",
   "disclaimer": "#NotFinancialAdvice — For entertainment only",
-  "generated_at": "2026-10-31T08:28:02+00:00"
+  "generated_at": "2026-10-31T08:33:02+00:00"
 }
