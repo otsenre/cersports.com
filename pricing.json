@@ -1,11 +1,11 @@
 {
   "fee_share": 0.03,
   "card": {
-    "units_per_day": 5.353,
+    "units_per_day": 5.369,
     "picks_per_day": 4.88,
     "mean_units": 1.1,
     "lookback_days": 90,
-    "through": "2026-10-29"
+    "through": "2026-10-30"
   },
   "tiers": [
     {
@@ -21,7 +21,7 @@
       "name": "Week Pass",
       "price_usd": 300,
       "window_days": 7,
-      "units_served": 37.5,
+      "units_served": 37.6,
       "built_for_unit_usd": 275
     },
     {
@@ -29,7 +29,7 @@
       "name": "Monthly",
       "price_usd": 700,
       "window_days": 30,
-      "units_served": 160.6,
+      "units_served": 161.1,
       "built_for_unit_usd": 150
     },
     {
@@ -37,7 +37,7 @@
       "name": "The Seat",
       "price_usd": 5000,
       "window_days": 365,
-      "units_served": 1953.8,
+      "units_served": 1959.7,
       "built_for_unit_usd": 100
     }
   ],
@@ -51,5 +51,5 @@
       "weeks_measured": 8
     }
   },
-  "generated_at": "2026-10-30T13:15:03+00:00"
+  "generated_at": "2026-10-31T13:15:05+00:00"
 }
