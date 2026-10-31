@@ -1,9 +1,9 @@
 {
-  "day": "2026-10-30",
-  "deadline_utc": "2026-10-30T21:40:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-10-30T23:40:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-10-31",
+  "deadline_utc": "2026-10-31T22:50:56+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-11-01T00:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,14 +25,14 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
-        "pick": "Boston Celtics -15",
-        "game": "Chicago Bulls @ Boston Celtics",
+        "pick": "Memphis Grizzlies -8.5",
+        "game": "Sacramento Kings @ Memphis Grizzlies",
         "sport": "NBA",
         "odds": -110,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-10-30T23:40:00+00:00",
-        "result": "L"
+        "start_utc": "2026-11-01T00:10:00+00:00",
+        "result": null
       }
     },
     {
@@ -54,16 +54,7 @@
         "loss_run": 5
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Los Angeles Lakers -1.5 (1H)",
-        "game": "Los Angeles Lakers @ Golden State Warriors",
-        "sport": "NBA",
-        "odds": -108,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-10-31T02:10:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
