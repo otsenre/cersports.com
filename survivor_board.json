@@ -10,20 +10,20 @@
       "source": "human:shark",
       "record": {
         "wins": 53,
-        "losses": 39,
+        "losses": 40,
         "pushes": 1,
-        "current": 2,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 0.2,
-        "pl_priced": 88,
-        "pl_settled": 93,
-        "pl_flat_units": -3.16,
+        "alive": false,
+        "pl_units": -0.8,
+        "pl_priced": 89,
+        "pl_settled": 94,
+        "pl_flat_units": -4.16,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "2 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Boston Celtics -15",
         "game": "Chicago Bulls @ Boston Celtics",
@@ -32,7 +32,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-10-30T23:40:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
