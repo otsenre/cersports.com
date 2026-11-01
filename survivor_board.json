@@ -10,20 +10,20 @@
       "source": "human:shark",
       "record": {
         "wins": 54,
-        "losses": 40,
+        "losses": 41,
         "pushes": 1,
-        "current": 1,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 1.02,
-        "pl_priced": 90,
-        "pl_settled": 95,
-        "pl_flat_units": -3.25,
+        "alive": false,
+        "pl_units": 0.02,
+        "pl_priced": 91,
+        "pl_settled": 96,
+        "pl_flat_units": -4.25,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "1 up, building again",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Over 55",
         "game": "Baltimore Ravens @ Buffalo Bills",
@@ -32,7 +32,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-01T18:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
