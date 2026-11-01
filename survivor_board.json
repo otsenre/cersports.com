@@ -9,21 +9,21 @@
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 53,
+        "wins": 54,
         "losses": 40,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 5,
-        "alive": false,
-        "pl_units": -0.8,
-        "pl_priced": 89,
-        "pl_settled": 94,
-        "pl_flat_units": -4.16,
+        "alive": true,
+        "pl_units": 1.02,
+        "pl_priced": 90,
+        "pl_settled": 95,
+        "pl_flat_units": -3.25,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 0.0,
+        "loss_run": 0
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "note": "1 up, building again",
       "pick": {
         "pick": "Memphis Grizzlies -8.5",
         "game": "Sacramento Kings @ Memphis Grizzlies",
@@ -32,7 +32,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-01T00:10:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
