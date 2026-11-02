@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-01",
-  "deadline_utc": "2026-11-01T17:55:00+00:00",
-  "deadline_reason": "game starts within 35 minutes of the first pick; publishing 5 minutes before first pitch",
-  "earliest_start_utc": "2026-11-01T18:00:00+00:00",
+  "day": "2026-11-02",
+  "deadline_utc": "2026-11-02T23:20:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-11-03T01:20:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -24,7 +24,16 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Seattle Seahawks -3",
+        "game": "Chicago Bears @ Seattle Seahawks",
+        "sport": "NFL",
+        "odds": -118,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-11-03T01:20:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
@@ -45,16 +54,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Over 55",
-        "game": "Baltimore Ravens @ Buffalo Bills",
-        "sport": "NFL",
-        "odds": -111,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-11-01T18:00:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
