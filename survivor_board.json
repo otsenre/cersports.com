@@ -6,6 +6,27 @@
   "submitted_count": 1,
   "entries": [
     {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 48,
+        "losses": 45,
+        "pushes": 1,
+        "current": 1,
+        "longest": 4,
+        "alive": true,
+        "pl_units": -0.25,
+        "pl_priced": 94,
+        "pl_settled": 94,
+        "pl_flat_units": -2.49,
+        "next_wager_from_base": null,
+        "ramp_units": 0.0,
+        "loss_run": 0
+      },
+      "note": "1 up, building again",
+      "pick": null
+    },
+    {
       "name": "Shark",
       "source": "human:shark",
       "record": {
@@ -34,27 +55,6 @@
         "start_utc": "2026-11-01T18:00:00+00:00",
         "result": "L"
       }
-    },
-    {
-      "name": "Reaper",
-      "source": "human:reaper",
-      "record": {
-        "wins": 47,
-        "losses": 45,
-        "pushes": 1,
-        "current": 0,
-        "longest": 4,
-        "alive": false,
-        "pl_units": -5.25,
-        "pl_priced": 93,
-        "pl_settled": 93,
-        "pl_flat_units": -3.32,
-        "next_wager_from_base": null,
-        "ramp_units": 5.0,
-        "loss_run": 5
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
     }
   ]
 }
