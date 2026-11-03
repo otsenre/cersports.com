@@ -3,7 +3,7 @@
   "deadline_utc": "2026-11-03T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-11-04T00:10:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Shark",
@@ -54,7 +54,16 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": null
+      "pick": {
+        "pick": "Montr\u00e9al Canadiens ML",
+        "game": "Winnipeg Jets @ Montr\u00e9al Canadiens",
+        "sport": "NHL",
+        "odds": -172,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-11-04T00:10:00+00:00",
+        "result": null
+      }
     }
   ]
 }
