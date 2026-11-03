@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-02",
-  "deadline_utc": "2026-11-02T23:10:00+00:00",
+  "day": "2026-11-03",
+  "deadline_utc": "2026-11-03T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-03T01:10:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-11-04T00:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -25,14 +25,14 @@
       },
       "note": "1 up, building again",
       "pick": {
-        "pick": "Memphis Grizzlies -2.5 (1H)",
-        "game": "New Orleans Pelicans @ Memphis Grizzlies",
-        "sport": "NBA",
-        "odds": -110,
+        "pick": "Colorado Avalanche ML",
+        "game": "Colorado Avalanche @ Columbus Blue Jackets",
+        "sport": "NHL",
+        "odds": -125,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-11-03T01:10:00+00:00",
-        "result": "W"
+        "start_utc": "2026-11-04T00:10:00+00:00",
+        "result": null
       }
     },
     {
@@ -54,16 +54,7 @@
         "loss_run": 1
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
-      "pick": {
-        "pick": "Seattle Seahawks -3",
-        "game": "Chicago Bears @ Seattle Seahawks",
-        "sport": "NFL",
-        "odds": -118,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-11-03T01:20:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
