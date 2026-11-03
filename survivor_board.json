@@ -6,54 +6,24 @@
   "submitted_count": 2,
   "entries": [
     {
-      "name": "Reaper",
-      "source": "human:reaper",
+      "name": "Shark",
+      "source": "human:shark",
       "record": {
-        "wins": 48,
-        "losses": 45,
+        "wins": 55,
+        "losses": 41,
         "pushes": 1,
         "current": 1,
-        "longest": 4,
+        "longest": 5,
         "alive": true,
-        "pl_units": -0.25,
-        "pl_priced": 94,
-        "pl_settled": 94,
-        "pl_flat_units": -2.49,
+        "pl_units": 1.83,
+        "pl_priced": 92,
+        "pl_settled": 97,
+        "pl_flat_units": -3.34,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Seattle Seahawks -3",
-        "game": "Chicago Bears @ Seattle Seahawks",
-        "sport": "NFL",
-        "odds": -118,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-11-03T01:20:00+00:00",
-        "result": null
-      }
-    },
-    {
-      "name": "Shark",
-      "source": "human:shark",
-      "record": {
-        "wins": 54,
-        "losses": 41,
-        "pushes": 1,
-        "current": 0,
-        "longest": 5,
-        "alive": false,
-        "pl_units": 0.02,
-        "pl_priced": 91,
-        "pl_settled": 96,
-        "pl_flat_units": -4.25,
-        "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
-      },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": {
         "pick": "Memphis Grizzlies -2.5 (1H)",
         "game": "New Orleans Pelicans @ Memphis Grizzlies",
@@ -62,7 +32,37 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-03T01:10:00+00:00",
-        "result": null
+        "result": "W"
+      }
+    },
+    {
+      "name": "Reaper",
+      "source": "human:reaper",
+      "record": {
+        "wins": 48,
+        "losses": 46,
+        "pushes": 1,
+        "current": 0,
+        "longest": 4,
+        "alive": false,
+        "pl_units": -1.25,
+        "pl_priced": 95,
+        "pl_settled": 95,
+        "pl_flat_units": -3.49,
+        "next_wager_from_base": null,
+        "ramp_units": 1.0,
+        "loss_run": 1
+      },
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "pick": {
+        "pick": "Seattle Seahawks -3",
+        "game": "Chicago Bears @ Seattle Seahawks",
+        "sport": "NFL",
+        "odds": -118,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-11-03T01:20:00+00:00",
+        "result": "L"
       }
     }
   ]
