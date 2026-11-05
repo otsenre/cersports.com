@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-05",
+    "source_sport": "NBA",
+    "game": "Miami Heat @ Golden State Warriors",
+    "pick": "Golden State Warriors -7.5",
+    "pick_display": "Golden State Warriors -7.5",
+    "bet_type": "ATS",
+    "line": -7.5,
+    "price": -106.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "eb74ecc5add8e3ccc300fc81e9dfd36f0818dd21e10944cafab8aacd1a80d748"
+  },
+  {
     "date": "2026-11-04",
     "source_sport": "ATP",
     "game": "Alex Michelsen vs Carlos Alcaraz",
