@@ -10,18 +10,18 @@
       "source": "human:shark",
       "record": {
         "wins": 55,
-        "losses": 42,
+        "losses": 43,
         "pushes": 1,
         "current": 0,
         "longest": 5,
         "alive": false,
-        "pl_units": 0.83,
-        "pl_priced": 93,
-        "pl_settled": 98,
-        "pl_flat_units": -4.34,
+        "pl_units": -1.17,
+        "pl_priced": 94,
+        "pl_settled": 99,
+        "pl_flat_units": -5.34,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1
+        "ramp_units": 2.0,
+        "loss_run": 2
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": null
