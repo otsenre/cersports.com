@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-07",
+    "source_sport": "MMA",
+    "game": "Andre Petroski vs Mantas Kondratavicius",
+    "pick": "Under 1.5 Rounds",
+    "pick_display": "Under 1.5 Rounds",
+    "bet_type": "Total Rounds",
+    "line": null,
+    "price": -188.0,
+    "handicap": null,
+    "ccr": 6.33,
+    "ccr_avg": 6.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "efb14b31efc9668f58d677814fa0befb19c3e33c779fcf8cb1c78757f54d322e"
+  },
+  {
     "date": "2026-11-06",
     "source_sport": "NHL",
     "game": "Columbus Blue Jackets @ Buffalo Sabres",
