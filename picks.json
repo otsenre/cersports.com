@@ -10014,8 +10014,8 @@
     "tier": "B",
     "edge": 0,
     "units": 0.5,
-    "result": "L",
-    "profit_units": -0.5,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "09f033741b1f6ca0773e441c069ac5d4a837081182bc3bd42b5e3deb85962c3f"
   },
@@ -14814,8 +14814,8 @@
     "tier": "A",
     "edge": 0,
     "units": 1.25,
-    "result": "L",
-    "profit_units": -1.25,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "legacy_source_report",
     "hash_id": "016ab94bebde1a2a78595b7f073a94c30298a6487616f7594ec0f8f8be24f98b"
   },
