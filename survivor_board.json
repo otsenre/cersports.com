@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-08",
-  "deadline_utc": "2026-11-08T21:10:00+00:00",
+  "day": "2026-11-09",
+  "deadline_utc": "2026-11-09T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-08T23:10:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-11-10T00:10:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -25,14 +25,14 @@
       },
       "note": "2 up, building again",
       "pick": {
-        "pick": "Los Angeles Lakers +4.5",
-        "game": "Los Angeles Lakers @ Detroit Pistons",
+        "pick": "Los Angeles Lakers +1.5",
+        "game": "Los Angeles Lakers @ Atlanta Hawks",
         "sport": "NBA",
-        "odds": -105,
+        "odds": -110,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-11-08T23:10:00+00:00",
-        "result": "W"
+        "start_utc": "2026-11-10T00:10:00+00:00",
+        "result": null
       }
     },
     {
@@ -54,16 +54,7 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": {
-        "pick": "Boston Celtics -7.5 (1H)",
-        "game": "Boston Celtics @ Milwaukee Bucks",
-        "sport": "NBA",
-        "odds": -110,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-11-09T01:10:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     }
   ]
 }
