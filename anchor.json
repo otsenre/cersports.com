@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
   "campaign_date": "2026-11-09",
-  "generated_at_utc": "2026-11-09T17:41:58+00:00",
+  "generated_at_utc": "2026-11-09T18:20:50+00:00",
   "selected": {
     "number": 2,
     "name": "The Lift",
-    "stake_units": 0.2,
+    "risk_units": 0.2,
+    "max_return_units": 0.48518678,
     "legs": [
       {
         "sport": "NBA",
@@ -24,6 +25,55 @@
         "ccr": 7.0
       }
     ]
+  },
+  "metrics": {
+    "as_of": "2026-11-09",
+    "qualified_tickets": 88,
+    "settled_legs": 260,
+    "net_units": 3.23,
+    "roi_pct": 3.71,
+    "selected_group": {
+      "settled": 87,
+      "wins": 27,
+      "losses": 60,
+      "pending": 1,
+      "net_units": 0.9168076618442944,
+      "roi_pct": 4.36
+    },
+    "bands": [
+      {
+        "label": "L10",
+        "record": "6-4",
+        "net_units": 0.94,
+        "roi_pct": 9.41,
+        "vs_all_time": "above"
+      },
+      {
+        "label": "L25",
+        "record": "12-13",
+        "net_units": -0.79,
+        "roi_pct": -3.16,
+        "vs_all_time": "below"
+      },
+      {
+        "label": "L50",
+        "record": "27-23",
+        "net_units": 2.7,
+        "roi_pct": 5.4,
+        "vs_all_time": "above"
+      },
+      {
+        "label": "ALL-TIME",
+        "record": "44-35",
+        "net_units": 3.43,
+        "roi_pct": 4.34,
+        "vs_all_time": null
+      }
+    ],
+    "provisional": {
+      "unresolved": 9,
+      "swing_units": 9.0
+    }
   },
   "explanation": "Anchor is one unit across three fixed wager groups. This post reveals one group chosen at random.",
   "disclaimer": "#NotFinancialAdvice — For entertainment only. Please gamble responsibly.",
