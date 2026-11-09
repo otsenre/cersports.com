@@ -28,7 +28,7 @@ function trackCta(){try{gtag('event','anchor_cta',{destination:'homepage_pricing
 <script>
 const el=id=>document.getElementById(id); const safe=v=>String(v??'');
 function time(v){const d=new Date(v);return Number.isNaN(d.valueOf())?'Time TBD':d.toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});}
-function show(p){if(!p||!p.selected||!Array.isArray(p.selected.legs)||!p.campaign_date)return;el('date').textContent=`Released ${safe(p.campaign_date)}`;el('name').textContent=safe(p.selected.name);el('stake').textContent=`${Number(p.selected.stake_units).toFixed(2)} units`;
+function show(p){if(!p||!p.selected||!Array.isArray(p.selected.legs)||!p.campaign_date)return;el('date').textContent=`Released ${safe(p.campaign_date)}`;el('name').textContent=safe(p.selected.name);el('stake').textContent=`${Number(p.selected.risk_units).toFixed(2)} units risk`;
 el('legs').replaceChildren(...p.selected.legs.map(l=>{const d=document.createElement('article');d.className='leg';const pick=document.createElement('div');pick.className='pick';pick.textContent=safe(l.pick);const game=document.createElement('div');game.className='game';game.textContent=`${safe(l.game)} · ${time(l.game_time_utc)}`;const facts=document.createElement('div');facts.className='facts';for(const text of [safe(l.sport),`CCR ${Number(l.ccr).toFixed(1)}`,`${Number(l.odds)>0?'+':''}${Number(l.odds).toFixed(0)}`]){const x=document.createElement('span');x.className='tag gold';x.textContent=text;facts.append(x);}d.append(pick,game,facts);return d;}));el('campaign').hidden=false;el('unavailable').hidden=true;}
 fetch('/anchor.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(show).catch(()=>{});
 </script>
