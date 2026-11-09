@@ -8534,8 +8534,8 @@
     "tier": "B",
     "edge": 0,
     "units": 1.0,
-    "result": "L",
-    "profit_units": -1.0,
+    "result": "V",
+    "profit_units": 0.0,
     "odds_origin": "odds_api_backfill",
     "hash_id": "e39895d47c3b60027f2b45b9654ec6fc4932fe89775e66c0d9d6499331b0ee5e"
   },
