@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Today's Anchor — CERSports</title>
+<meta name="description" content="One randomly selected group from today's CERSports Anchor ticket, with the line, price, CCR, and start time stated plainly.">
+<meta property="og:title" content="Today's Anchor — CERSports">
+<meta property="og:description" content="One group from today's Anchor ticket. Lines, prices, CCR, and start times stated plainly.">
+<meta property="og:image" content="https://cersports.com/og-image.jpg">
+<link rel="icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MHZXXCT6B"></script>
+<script>
+window.dataLayer=window.dataLayer||[]; function gtag(){dataLayer.push(arguments);} gtag('js',new Date()); gtag('config','G-1MHZXXCT6B');
+(function(){const p=new URLSearchParams(location.search); gtag('event','anchor_landing',{utm_source:p.get('utm_source')||'(typed)',utm_medium:p.get('utm_medium')||'(typed)',utm_campaign:p.get('utm_campaign')||'anchor',utm_content:p.get('utm_content')||'(typed)'});})();
+function trackCta(){try{gtag('event','anchor_cta',{destination:'homepage_pricing'});}catch(_){}}
+</script>
+<style>
+:root{--black:#080808;--surface:#101010;--surface2:#161616;--border:rgba(255,255,255,.12);--white:#fff;--off:#e8e8e8;--muted:#888;--gold:#c9a84c;--goldlight:#e8c96a}*{box-sizing:border-box}body{margin:0;background:var(--black);color:var(--off);font:400 16px/1.55 Barlow,sans-serif}.wrap{width:min(760px,100%);margin:auto;padding:0 24px}nav{height:64px;border-bottom:1px solid var(--border);display:flex;align-items:center}.brand{font:400 26px 'Bebas Neue';letter-spacing:3px;text-decoration:none;color:var(--white)}.brand b{color:var(--gold);font-weight:400}header{padding:76px 0 42px;background:radial-gradient(ellipse at 50% 10%,rgba(201,168,76,.12),transparent 60%)}.eye{font:700 12px 'Barlow Condensed';letter-spacing:4px;color:var(--gold);text-transform:uppercase}.eye::before{content:'— ';opacity:.7}h1,h2{font-family:'Bebas Neue';font-weight:400;line-height:.9;letter-spacing:1px;color:var(--white)}h1{font-size:clamp(64px,15vw,118px);margin:20px 0}h1 em{font-style:normal;color:var(--gold)}.lede{max-width:42ch;color:var(--off);font-size:18px}.card{margin:30px 0;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--gold);padding:25px}.meta{font:700 12px 'Barlow Condensed';letter-spacing:2px;text-transform:uppercase;color:var(--muted)}.name{font:400 48px 'Bebas Neue';letter-spacing:1px;color:var(--goldlight);margin:8px 0}.leg{border-top:1px solid var(--border);padding:18px 0}.leg:first-of-type{border-top:0}.pick{font:400 32px/1 'Bebas Neue';letter-spacing:.5px;color:var(--white)}.game{margin:7px 0;color:var(--muted)}.facts{display:flex;flex-wrap:wrap;gap:7px}.tag{font:700 12px 'Barlow Condensed';letter-spacing:1.5px;text-transform:uppercase;border:1px solid var(--border);padding:3px 7px;color:var(--off)}.tag.gold{color:var(--goldlight);border-color:rgba(201,168,76,.4)}.note{color:var(--muted);max-width:60ch}.btn{display:inline-block;margin:12px 0 60px;padding:15px 24px;background:var(--gold);color:var(--black);text-decoration:none;font:700 14px 'Barlow Condensed';letter-spacing:2px;text-transform:uppercase}.unavailable{padding:42px 0 70px;color:var(--muted)}.disclaimer{padding:28px 0 48px;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}[hidden]{display:none!important}@media(max-width:520px){.wrap{padding:0 18px}.card{padding:20px}.pick{font-size:28px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="brand" href="/">CER<b>SPORTS</b></a></div></nav>
+<header><div class="wrap"><div class="eye">CERSports · Today's free group</div><h1>THE <em>ANCHOR</em></h1><p class="lede">One unit across three fixed groups. This page reveals one group chosen at random after the daily card ships.</p></div></header>
+<main class="wrap"><section id="campaign" hidden><div class="card"><div class="meta" id="date"></div><div class="name" id="name"></div><div class="meta" id="stake"></div><div id="legs"></div></div><p class="note">Lines and prices are the stated selections at release. They are not a prediction or a guarantee.</p><a class="btn" href="/#pricing" onclick="trackCta()">See CERSports plans</a></section><section id="unavailable" class="unavailable"><h2>NO ANCHOR IS OPEN</h2><p>Today's public Anchor group is not available. Check the main board for current CERSports information.</p></section></main>
+<footer class="wrap disclaimer">21+. CERSports does not take bets or hold money. #NotFinancialAdvice — For entertainment only. Please gamble responsibly.</footer>
+<script>
+const el=id=>document.getElementById(id); const safe=v=>String(v??'');
+function time(v){const d=new Date(v);return Number.isNaN(d.valueOf())?'Time TBD':d.toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});}
+function show(p){if(!p||!p.selected||!Array.isArray(p.selected.legs)||!p.campaign_date)return;el('date').textContent=`Released ${safe(p.campaign_date)}`;el('name').textContent=safe(p.selected.name);el('stake').textContent=`${Number(p.selected.stake_units).toFixed(2)} units`;
+el('legs').replaceChildren(...p.selected.legs.map(l=>{const d=document.createElement('article');d.className='leg';const pick=document.createElement('div');pick.className='pick';pick.textContent=safe(l.pick);const game=document.createElement('div');game.className='game';game.textContent=`${safe(l.game)} · ${time(l.game_time_utc)}`;const facts=document.createElement('div');facts.className='facts';for(const text of [safe(l.sport),`CCR ${Number(l.ccr).toFixed(1)}`,`${Number(l.odds)>0?'+':''}${Number(l.odds).toFixed(0)}`]){const x=document.createElement('span');x.className='tag gold';x.textContent=text;facts.append(x);}d.append(pick,game,facts);return d;}));el('campaign').hidden=false;el('unavailable').hidden=true;}
+fetch('/anchor.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(show).catch(()=>{});
+</script>
+</body></html>
