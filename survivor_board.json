@@ -9,21 +9,21 @@
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 51,
+        "wins": 52,
         "losses": 49,
         "pushes": 1,
-        "current": 2,
+        "current": 3,
         "longest": 4,
         "alive": true,
-        "pl_units": -0.74,
-        "pl_priced": 101,
-        "pl_settled": 101,
-        "pl_flat_units": -3.7,
+        "pl_units": 0.17,
+        "pl_priced": 102,
+        "pl_settled": 102,
+        "pl_flat_units": -2.79,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "2 up, building again",
+      "note": "3 straight, best is 4",
       "pick": {
         "pick": "Los Angeles Lakers +1.5",
         "game": "Los Angeles Lakers @ Atlanta Hawks",
@@ -32,28 +32,28 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-10T00:10:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
       "name": "Shark",
       "source": "human:shark",
       "record": {
-        "wins": 58,
+        "wins": 59,
         "losses": 44,
         "pushes": 1,
-        "current": 1,
+        "current": 2,
         "longest": 5,
         "alive": true,
-        "pl_units": 3.39,
-        "pl_priced": 98,
-        "pl_settled": 103,
-        "pl_flat_units": -3.58,
+        "pl_units": 4.37,
+        "pl_priced": 99,
+        "pl_settled": 104,
+        "pl_flat_units": -2.6,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "1 up, building again",
+      "note": "2 up, building again",
       "pick": {
         "pick": "Los Angeles Lakers ML (1Q)",
         "game": "Los Angeles Lakers @ Atlanta Hawks",
@@ -62,7 +62,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-10T00:10:00+00:00",
-        "result": null
+        "result": "W"
       }
     }
   ]
