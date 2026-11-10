@@ -1,9 +1,9 @@
 {
   "day": "2026-11-10",
-  "deadline_utc": "2026-11-10T23:00:00+00:00",
+  "deadline_utc": "2026-11-10T22:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-11T01:00:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-11-11T00:30:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -54,7 +54,16 @@
         "loss_run": 0
       },
       "note": "2 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "New York Knicks ML (1H)",
+        "game": "Milwaukee Bucks @ New York Knicks",
+        "sport": "NBA",
+        "odds": -500,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-11-11T00:30:00+00:00",
+        "result": null
+      }
     }
   ]
 }
