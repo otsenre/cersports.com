@@ -3,7 +3,7 @@
   "deadline_utc": "2026-11-09T22:10:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-11-10T00:10:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -54,7 +54,16 @@
         "loss_run": 0
       },
       "note": "1 up, building again",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Lakers ML (1Q)",
+        "game": "Los Angeles Lakers @ Atlanta Hawks",
+        "sport": "NBA",
+        "odds": -102,
+        "line_pending": false,
+        "units": 1,
+        "start_utc": "2026-11-10T00:10:00+00:00",
+        "result": null
+      }
     }
   ]
 }
