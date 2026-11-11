@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-10",
-  "deadline_utc": "2026-11-10T22:30:00+00:00",
+  "day": "2026-11-11",
+  "deadline_utc": "2026-11-11T22:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-11T00:30:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-11-12T00:30:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -25,14 +25,14 @@
       },
       "note": "4 straight \u2014 best run yet",
       "pick": {
-        "pick": "Boston Celtics -0.5 (1H)",
-        "game": "Boston Celtics @ Philadelphia 76ers",
-        "sport": "NBA",
+        "pick": "Central Michigan Chippewas -17",
+        "game": "Sacramento State Hornets @ Central Michigan Chippewas",
+        "sport": "NCAAF",
         "odds": -110,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-11-11T01:00:00+00:00",
-        "result": "W"
+        "start_utc": "2026-11-12T00:30:00+00:00",
+        "result": null
       }
     },
     {
@@ -54,16 +54,7 @@
         "loss_run": 0
       },
       "note": "3 straight, best is 5",
-      "pick": {
-        "pick": "New York Knicks ML (1H)",
-        "game": "Milwaukee Bucks @ New York Knicks",
-        "sport": "NBA",
-        "odds": -500,
-        "line_pending": false,
-        "units": 1,
-        "start_utc": "2026-11-11T00:30:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     }
   ]
 }
