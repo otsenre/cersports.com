@@ -4,11 +4,11 @@
   "season": 2026,
   "full_price_usd": 1500,
   "on_sale": true,
-  "price_usd": 749,
-  "weeks_remaining": 9,
-  "first_week": 10,
-  "closes_at_utc": "2026-11-11T16:45:00-08:00",
-  "checkout_url": "https://buy.stripe.com/4gM4gAgaccPdf0N3DObZe0v",
+  "price_usd": 659,
+  "weeks_remaining": 8,
+  "first_week": 11,
+  "closes_at_utc": "2026-11-18T16:45:00-08:00",
+  "checkout_url": "https://buy.stripe.com/fZuaEY5vycPdcSF3DObZe0w",
   "includes": "every remaining week's NFL Weekly card, pool sheet included",
-  "generated_at": "2026-11-05T00:50:11+00:00"
+  "generated_at": "2026-11-12T00:50:02+00:00"
 }
