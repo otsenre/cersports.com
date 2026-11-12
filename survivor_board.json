@@ -9,21 +9,21 @@
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 53,
+        "wins": 54,
         "losses": 49,
         "pushes": 1,
-        "current": 4,
-        "longest": 4,
+        "current": 5,
+        "longest": 5,
         "alive": true,
-        "pl_units": 1.08,
-        "pl_priced": 103,
-        "pl_settled": 103,
-        "pl_flat_units": -1.88,
+        "pl_units": 1.99,
+        "pl_priced": 104,
+        "pl_settled": 104,
+        "pl_flat_units": -0.97,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "4 straight \u2014 best run yet",
+      "note": "5 straight \u2014 best run yet",
       "pick": {
         "pick": "Central Michigan Chippewas -17",
         "game": "Sacramento State Hornets @ Central Michigan Chippewas",
@@ -32,7 +32,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-12T00:30:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
@@ -40,20 +40,20 @@
       "source": "human:shark",
       "record": {
         "wins": 60,
-        "losses": 44,
+        "losses": 45,
         "pushes": 1,
-        "current": 3,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 4.57,
-        "pl_priced": 100,
-        "pl_settled": 105,
-        "pl_flat_units": -2.4,
+        "alive": false,
+        "pl_units": 3.57,
+        "pl_priced": 101,
+        "pl_settled": 106,
+        "pl_flat_units": -3.4,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0
+        "ramp_units": 1.0,
+        "loss_run": 1
       },
-      "note": "3 straight, best is 5",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
       "pick": null
     }
   ]
