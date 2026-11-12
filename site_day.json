@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:20:54.864942+00:00",
+  "generated_at": "2026-11-12T18:18:27.853227+00:00",
   "run_date": "2026-11-12",
   "as_of": "2026-11-11",
   "anchor": "2026-03-20",
@@ -8729,12 +8729,12 @@
       "NHL"
     ]
   },
-  "pickers_contributing": 21,
+  "pickers_contributing": 22,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-11-12T08:08:08-08:00",
     "free_pick_release_state": "released",
     "free_pick_release_at_utc": null,
-    "free_pick_published_at_utc": null
+    "free_pick_published_at_utc": "2026-11-12T16:23:42+00:00"
   },
   "paid_card_delivery": {
     "state": "live",
@@ -8753,7 +8753,7 @@
   "recap": {
     "recap_date": "2026-11-11",
     "run_date": "2026-11-12",
-    "generated_at_utc": "2026-11-12T16:21:12+00:00",
+    "generated_at_utc": "2026-11-12T18:18:47+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -8919,7 +8919,24 @@
             "record": "46-37",
             "units": 2.82
           }
-        }
+        },
+        "components": [
+          {
+            "label": "Straight",
+            "result": "W",
+            "units": 0.67
+          },
+          {
+            "label": "Lift",
+            "result": "L",
+            "units": -0.2
+          },
+          {
+            "label": "Reach",
+            "result": "L",
+            "units": -0.1
+          }
+        ]
       },
       {
         "key": "syndicate",
@@ -8946,7 +8963,24 @@
             "record": "103-104",
             "units": -17.47
           }
-        }
+        },
+        "components": [
+          {
+            "label": "Straight",
+            "result": "W",
+            "units": 0.55
+          },
+          {
+            "label": "2-leg",
+            "result": "L",
+            "units": -0.25
+          },
+          {
+            "label": "3-leg",
+            "result": "L",
+            "units": -0.15
+          }
+        ]
       },
       {
         "key": "prizepicks",
@@ -9027,7 +9061,27 @@
             "record": "227-177-4P",
             "units": -2.61
           }
-        }
+        },
+        "market_bands": [
+          {
+            "label": "ML",
+            "record": "88-47-1P",
+            "units": -0.82,
+            "settled": 136
+          },
+          {
+            "label": "ATS",
+            "record": "65-68-3P",
+            "units": -5.04,
+            "settled": 136
+          },
+          {
+            "label": "Totals",
+            "record": "74-62",
+            "units": 3.25,
+            "settled": 136
+          }
+        ]
       },
       {
         "key": "pull",
@@ -9109,6 +9163,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-11-12",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "4:00 PM PT",
-    "updated_pt": "8:21 AM PT"
+    "updated_pt": "10:18 AM PT"
   }
 }
