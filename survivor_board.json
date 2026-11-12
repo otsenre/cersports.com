@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-11",
-  "deadline_utc": "2026-11-11T22:00:00+00:00",
+  "day": "2026-11-12",
+  "deadline_utc": "2026-11-12T23:15:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-12T00:00:00+00:00",
+  "earliest_start_utc": "2026-11-13T01:15:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -25,14 +25,14 @@
       },
       "note": "5 straight \u2014 best run yet",
       "pick": {
-        "pick": "Central Michigan Chippewas -17",
-        "game": "Sacramento State Hornets @ Central Michigan Chippewas",
-        "sport": "NCAAF",
-        "odds": -110,
+        "pick": "Washington Commanders +2",
+        "game": "Washington Commanders @ New York Giants",
+        "sport": "NFL",
+        "odds": -111,
         "line_pending": false,
         "units": 1,
-        "start_utc": "2026-11-12T00:30:00+00:00",
-        "result": "W"
+        "start_utc": "2026-11-13T01:15:00+00:00",
+        "result": null
       }
     },
     {
