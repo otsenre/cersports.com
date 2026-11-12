@@ -879,6 +879,8 @@ footer {
 .recap-row.recap-head { color: var(--muted); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; }
 .recap-row .recap-name { color: var(--off-white); font-weight: 700; }
 .recap-row .recap-name .dev-badge { white-space: nowrap; display: inline-block; margin-top: 3px; }
+.recap-component { display: block; color: var(--muted); font-size: 11px; font-weight: 400; line-height: 1.35; margin-top: 3px; }
+.recap-component strong { color: var(--off-white); font-weight: 600; }
 .recap-row .recap-day { color: var(--off-white); }
 .recap-row .recap-band { color: var(--muted); }
 .recap-free { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
@@ -2729,7 +2731,16 @@ function renderRecap(rc, recapIsYesterday = true) {
     const at = (l.bands || {})['ALL-TIME'] || {}, l25 = (l.bands || {})['L25'] || {};
     const band = b => b.record ? `${b.record} · ${fmtSigned(b.units, 2, 'u')}` : '—';
     const dev = l.in_development ? ' <span class="dev-badge">in development</span>' : '';
-    return `<div class="recap-row"><span class="recap-name">${recapEsc(l.label)}${dev}</span>`
+    const componentText = (l.components || []).map(c => {
+      const outcome = c.result === 'OPEN' ? 'open' : `${recapEsc(c.result)} ${fmtSigned(c.units, 2, 'u')}`;
+      return `<strong>${recapEsc(c.label)}</strong> ${outcome}`;
+    }).join(' · ');
+    const marketText = (l.market_bands || []).filter(b => b.settled).map(b =>
+      `<strong>${recapEsc(b.label)}</strong> ${recapEsc(b.record)} ${fmtSigned(b.units, 2, 'u')}`
+    ).join(' · ');
+    const detail = componentText || marketText;
+    return `<div class="recap-row"><span class="recap-name">${recapEsc(l.label)}${dev}`
+      + (detail ? `<span class="recap-component">${detail}</span>` : '') + `</span>`
       + `<span class="recap-day">${recapDayText(l.day)}</span><span class="recap-band recap-l25">${band(l25)}</span>`
       + `<span class="recap-band">${band(at)}</span></div>`;
   }).join('');
