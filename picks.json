@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-12",
+    "source_sport": "NBA",
+    "game": "Charlotte Hornets @ Phoenix Suns",
+    "pick": "Phoenix Suns -6.5",
+    "pick_display": "Phoenix Suns -6.5",
+    "bet_type": "ATS",
+    "line": -6.5,
+    "price": -105.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 1.25,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "726bea2524d98f930fc87e01fee480827429af0387fa33f7b69baee0df118e61"
+  },
+  {
     "date": "2026-11-11",
     "source_sport": "NHL",
     "game": "Pittsburgh Penguins @ San Jose Sharks",
