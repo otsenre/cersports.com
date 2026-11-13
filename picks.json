@@ -3995,7 +3995,7 @@
     "edge": 0,
     "units": 1.5,
     "result": "L",
-    "profit_units": -1.5,
+    "profit_units": -0.75,
     "odds_origin": "source_report",
     "hash_id": "13fd39d16487d9afecf285481409b8d3f2f1c86c32b0df636b69ed5afdf616a7"
   },
