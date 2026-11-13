@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-13",
+    "source_sport": "NHL",
+    "game": "Nashville Predators @ Vegas Golden Knights",
+    "pick": "Vegas Golden Knights -1.5",
+    "pick_display": "Vegas Golden Knights -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": 160.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.5,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "c80a95f19e9ae13629682a8278fc454f619ed7ba9fc73cc7e6cb5ffe3ff56590"
+  },
+  {
     "date": "2026-11-12",
     "source_sport": "NBA",
     "game": "Charlotte Hornets @ Phoenix Suns",
