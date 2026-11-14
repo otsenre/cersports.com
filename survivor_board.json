@@ -21,7 +21,89 @@
         "pl_flat_units": 0.84,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
-        "loss_run": 0
+        "loss_run": 0,
+        "recent": [
+          {
+            "report_date": "2026-11-13",
+            "pick": "Over 222.5",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.91
+          },
+          {
+            "report_date": "2026-11-12",
+            "pick": "Washington Commanders +2",
+            "odds": -111,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.9
+          },
+          {
+            "report_date": "2026-11-11",
+            "pick": "Central Michigan Chippewas -17",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.91
+          },
+          {
+            "report_date": "2026-11-10",
+            "pick": "Boston Celtics -0.5 (1H)",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.91
+          },
+          {
+            "report_date": "2026-11-09",
+            "pick": "Los Angeles Lakers +1.5",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.91
+          },
+          {
+            "report_date": "2026-11-08",
+            "pick": "Los Angeles Lakers +4.5",
+            "odds": -105,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.95
+          },
+          {
+            "report_date": "2026-11-07",
+            "pick": "Golden State Warriors -5.5",
+            "odds": -112,
+            "outcome": "W",
+            "risk_units": 2.0,
+            "pl_units": 1.79
+          },
+          {
+            "report_date": "2026-11-06",
+            "pick": "Philadelphia 76ers -2.5",
+            "odds": -110,
+            "outcome": "L",
+            "risk_units": 1.0,
+            "pl_units": -1.0
+          },
+          {
+            "report_date": "2026-11-05",
+            "pick": "Jacksonville Jaguars -10",
+            "odds": -106,
+            "outcome": "W",
+            "risk_units": 4.0,
+            "pl_units": 3.77
+          },
+          {
+            "report_date": "2026-11-04",
+            "pick": "Boston Celtics -11.5",
+            "odds": -110,
+            "outcome": "L",
+            "risk_units": 3.0,
+            "pl_units": -3.0
+          }
+        ]
       },
       "note": "7 straight \u2014 best run yet",
       "pick": {
@@ -31,6 +113,11 @@
         "odds": -135,
         "line_pending": false,
         "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 0.0,
+        "risk_units": 1.0,
+        "potential_profit_units": 0.7407,
+        "potential_return_units": 1.7407,
         "start_utc": "2026-11-15T00:00:00+00:00",
         "result": null
       }
@@ -51,7 +138,89 @@
         "pl_flat_units": -3.45,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
-        "loss_run": 0
+        "loss_run": 0,
+        "recent": [
+          {
+            "report_date": "2026-11-13",
+            "pick": "Houston Rockets -9.5 (1H)",
+            "odds": -105,
+            "outcome": "W",
+            "risk_units": 3.0,
+            "pl_units": 2.86
+          },
+          {
+            "report_date": "2026-11-12",
+            "pick": "Phoenix Suns -6.5",
+            "odds": -110,
+            "outcome": "L",
+            "risk_units": 2.0,
+            "pl_units": -2.0
+          },
+          {
+            "report_date": "2026-11-11",
+            "pick": "Boston Celtics ML (1H)",
+            "odds": -172,
+            "outcome": "L",
+            "risk_units": 1.0,
+            "pl_units": -1.0
+          },
+          {
+            "report_date": "2026-11-10",
+            "pick": "New York Knicks ML (1H)",
+            "odds": -500,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.2
+          },
+          {
+            "report_date": "2026-11-09",
+            "pick": "Los Angeles Lakers ML (1Q)",
+            "odds": -102,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.98
+          },
+          {
+            "report_date": "2026-11-08",
+            "pick": "Boston Celtics -7.5 (1H)",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 2.0,
+            "pl_units": 1.82
+          },
+          {
+            "report_date": "2026-11-07",
+            "pick": "Houston Rockets -3.5 (1H)",
+            "odds": -112,
+            "outcome": "L",
+            "risk_units": 1.0,
+            "pl_units": -1.0
+          },
+          {
+            "report_date": "2026-11-06",
+            "pick": "Boston Celtics -5.5 (1H)",
+            "odds": -110,
+            "outcome": "W",
+            "risk_units": 1.0,
+            "pl_units": 0.91
+          },
+          {
+            "report_date": "2026-11-05",
+            "pick": "Jacksonville Jaguars -10",
+            "odds": -106,
+            "outcome": "W",
+            "risk_units": 3.0,
+            "pl_units": 2.83
+          },
+          {
+            "report_date": "2026-11-04",
+            "pick": "Memphis Grizzlies -3.5 (1H)",
+            "odds": -105,
+            "outcome": "L",
+            "risk_units": 2.0,
+            "pl_units": -2.0
+          }
+        ]
       },
       "note": "1 up, building again",
       "pick": {
@@ -61,6 +230,11 @@
         "odds": -110,
         "line_pending": false,
         "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 0.0,
+        "risk_units": 1.0,
+        "potential_profit_units": 0.9091,
+        "potential_return_units": 1.9091,
         "start_utc": "2026-11-14T20:30:00+00:00",
         "result": null
       }
