@@ -9,21 +9,21 @@
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 55,
+        "wins": 56,
         "losses": 49,
         "pushes": 1,
-        "current": 6,
-        "longest": 6,
+        "current": 7,
+        "longest": 7,
         "alive": true,
-        "pl_units": 2.89,
-        "pl_priced": 105,
-        "pl_settled": 105,
-        "pl_flat_units": -0.07,
+        "pl_units": 3.8,
+        "pl_priced": 106,
+        "pl_settled": 106,
+        "pl_flat_units": 0.84,
         "next_wager_from_base": null,
         "ramp_units": 0.0,
         "loss_run": 0
       },
-      "note": "6 straight \u2014 best run yet",
+      "note": "7 straight \u2014 best run yet",
       "pick": {
         "pick": "Over 222.5",
         "game": "Oklahoma City Thunder @ LA Clippers",
@@ -32,7 +32,7 @@
         "line_pending": false,
         "units": 1,
         "start_utc": "2026-11-14T03:30:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
