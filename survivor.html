@@ -55,10 +55,12 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
 .pick .p{font-size:16px;color:var(--white);font-weight:600}
 .pick .odds{color:var(--gold);font-variant-numeric:tabular-nums;margin-left:6px}
 .record-stat .sep{color:var(--muted);padding:0 1px}
-.pick .risk{color:var(--off-white);font-variant-numeric:tabular-nums;margin-left:8px;
-            font-size:12.5px;border:1px solid var(--border);border-radius:4px;
-            padding:1px 6px}
+.economics{color:var(--off-white);font-variant-numeric:tabular-nums;font-size:12.5px;
+           margin-top:6px;padding:5px 7px;border:1px solid var(--border);border-radius:4px}
 .pick .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.recent{margin-top:13px;border-top:1px solid var(--border);padding-top:10px;color:var(--muted);font-size:12px}
+.recent summary{cursor:pointer;color:var(--gold-light);font-weight:600}
+.recent ol{margin:8px 0 0 20px;display:grid;gap:4px;font-variant-numeric:tabular-nums}
 .nopick{color:var(--muted);font-size:13px;font-style:italic;margin-top:13px;
         border-top:1px solid var(--border);padding-top:13px}
 
@@ -118,8 +120,9 @@ footer a{color:var(--gold);text-decoration:none}
        that DID move is a bug fix, and it is named. -->
   <div class="staking">
     <b>Staking starts 2026-08-27.</b> From that day wagers follow <i>the
-    bounce</i>: the ledger's base for that pick, plus 1u after a loss and 2u at
-    most, reset by a win. A push moves nothing and the next wager repeats.
+    bounce</i>: the ledger's base for that pick, plus 1u after each consecutive
+    loss through +5u, then held at that cap; a win resets it. A push moves nothing
+    and the next wager repeats.
     <br><b>Everything before that date keeps its flat stakes</b> — the record is
     not restaked. The rule was picked by testing it against this contest's own
     history, so backfilling it would be scoring a bet after the race; it earns
@@ -233,15 +236,26 @@ function card(e){
   // THE REAL STAKE: the base this pick was sized at, plus what the streak adds.
   // Not an assumed 1u base — the sizing is done at ingest and travels with the
   // pick, so if it is missing we say nothing rather than invent one.
-  function riskTag(rec, pick){
-    const base = pick && pick.units;
-    const ramp = rec && rec.ramp_units;
-    if(base === null || base === undefined) return '';
-    if(ramp === null || ramp === undefined) return '';
-    const total = Number(base) + Number(ramp);
-    const note = Number(ramp) > 0
-      ? ` (${Number(base).toFixed(1)}u base +${Number(ramp).toFixed(1)}u)` : '';
-    return `<span class="risk">&#160;\u00b7&#160;${total.toFixed(1)}u${note}</span>`;
+  function economics(pick){
+    if(!pick || pick.risk_units == null || pick.potential_profit_units == null
+       || pick.potential_return_units == null) return '';
+    const ladder = Number(pick.ramp_units) > 0
+      ? ` (${Number(pick.base_units).toFixed(1)}u base +${Number(pick.ramp_units).toFixed(1)}u ladder)`
+      : '';
+    return `<div class="economics">Risk ${Number(pick.risk_units).toFixed(1)}u · `
+      + `Win +${Number(pick.potential_profit_units).toFixed(2)}u · `
+      + `Return ${Number(pick.potential_return_units).toFixed(2)}u${ladder}</div>`;
+  }
+
+  function recentHistory(rec){
+    const rows = rec && rec.recent;
+    if(!Array.isArray(rows) || !rows.length) return '';
+    const items = rows.map(row => {
+      const odds = row.odds == null ? '' : ` ${esc(signed(row.odds))}`;
+      const pl = row.pl_units == null ? '—' : `${Number(row.pl_units) > 0 ? '+' : ''}${Number(row.pl_units).toFixed(2)}u`;
+      return `<li>${esc(row.report_date)} · ${esc(row.pick)}${odds} · Risk ${Number(row.risk_units).toFixed(1)}u · ${esc(row.outcome)} ${pl}</li>`;
+    }).join('');
+    return `<details class="recent"><summary>Last ${rows.length}</summary><ol>${items}</ol></details>`;
   }
   // TWO DIFFERENT NUMBERS, AND THEY WERE WEARING ONE LABEL.
   //
@@ -311,12 +325,14 @@ function card(e){
              "Seattle Storm -7.5" + "-110" + "3.0u" pasted as
              "-7.5-1103.0u". The page is read by pasting it as often as by
              looking at it. -->
-        <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span>${riskTag(r, e.pick)}</div>
+        <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span></div>
+        ${economics(e.pick)}
         ${meta ? `<div class="meta">${meta}</div>` : ''}
       </div>`);
   } else {
     parts.push(`<div class="nopick">No pick in before the deadline.</div>`);
   }
+  parts.push(recentHistory(r));
   parts.push('</div>');
   return parts.join('');
 }
