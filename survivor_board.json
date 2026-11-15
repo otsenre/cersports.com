@@ -26,91 +26,157 @@
           {
             "report_date": "2026-11-13",
             "pick": "Over 222.5",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.91
+            "pl_units": 0.91,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-12",
             "pick": "Washington Commanders +2",
+            "sport": "NFL",
             "odds": -111,
+            "breakeven": 0.526,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.9
+            "pl_units": 0.9,
+            "flat_pl_units": 0.9
           },
           {
             "report_date": "2026-11-11",
             "pick": "Central Michigan Chippewas -17",
+            "sport": "NCAAF",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.91
+            "pl_units": 0.91,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-10",
             "pick": "Boston Celtics -0.5 (1H)",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.91
+            "pl_units": 0.91,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-09",
             "pick": "Los Angeles Lakers +1.5",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.91
+            "pl_units": 0.91,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-08",
             "pick": "Los Angeles Lakers +4.5",
+            "sport": "NBA",
             "odds": -105,
+            "breakeven": 0.512,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.95
+            "pl_units": 0.95,
+            "flat_pl_units": 0.95
           },
           {
             "report_date": "2026-11-07",
             "pick": "Golden State Warriors -5.5",
+            "sport": "NBA",
             "odds": -112,
+            "breakeven": 0.528,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 2.0,
-            "pl_units": 1.79
+            "pl_units": 1.79,
+            "flat_pl_units": 0.89
           },
           {
             "report_date": "2026-11-06",
             "pick": "Philadelphia 76ers -2.5",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": -1.0
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
           },
           {
             "report_date": "2026-11-05",
             "pick": "Jacksonville Jaguars -10",
+            "sport": "NFL",
             "odds": -106,
+            "breakeven": 0.515,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 4.0,
-            "pl_units": 3.77
+            "pl_units": 3.77,
+            "flat_pl_units": 0.94
           },
           {
             "report_date": "2026-11-04",
             "pick": "Boston Celtics -11.5",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 3.0,
-            "pl_units": -3.0
+            "pl_units": -3.0,
+            "flat_pl_units": -1.0
           }
-        ]
+        ],
+        "l10": {
+          "n": 10,
+          "wins": 8,
+          "losses": 2,
+          "pushes": 0,
+          "priced": 10,
+          "units": 7.05,
+          "flat_units": 5.32,
+          "needs": 0.522,
+          "won_rate": 0.8,
+          "expected_wins": 5.22,
+          "vs_price": 2.78
+        },
+        "banked": "Elite",
+        "next_milestone": {
+          "at": 10,
+          "label": "Legendary",
+          "to_go": 3
+        },
+        "missed_days": 15,
+        "journal": {}
       },
       "note": "7 straight \u2014 best run yet",
+      "milestone_text": "Elite banked \u00b7 3 to Legendary",
+      "l10_text": "L10 8-2 \u00b7 +7.05u (flat +5.32u) \u00b7 needed 52% won 80% \u00b7 +2.8 wins vs price \u00b7 15 days missed",
       "pick": {
         "pick": "Montreal Canadiens ML",
         "game": "Colorado Avalanche @ Montreal Canadiens",
         "sport": "NHL",
         "odds": -135,
+        "line": null,
+        "detail_text": "1u \u00b7 needs 57.4%",
+        "breakeven": 0.5745,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
@@ -143,91 +209,157 @@
           {
             "report_date": "2026-11-13",
             "pick": "Houston Rockets -9.5 (1H)",
+            "sport": "NBA",
             "odds": -105,
+            "breakeven": 0.512,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 3.0,
-            "pl_units": 2.86
+            "pl_units": 2.86,
+            "flat_pl_units": 0.95
           },
           {
             "report_date": "2026-11-12",
             "pick": "Phoenix Suns -6.5",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 2.0,
-            "pl_units": -2.0
+            "pl_units": -2.0,
+            "flat_pl_units": -1.0
           },
           {
             "report_date": "2026-11-11",
             "pick": "Boston Celtics ML (1H)",
+            "sport": "NBA",
             "odds": -172,
+            "breakeven": 0.632,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": -1.0
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
           },
           {
             "report_date": "2026-11-10",
             "pick": "New York Knicks ML (1H)",
+            "sport": "NBA",
             "odds": -500,
+            "breakeven": 0.833,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.2
+            "pl_units": 0.2,
+            "flat_pl_units": 0.2
           },
           {
             "report_date": "2026-11-09",
             "pick": "Los Angeles Lakers ML (1Q)",
+            "sport": "NBA",
             "odds": -102,
+            "breakeven": 0.505,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.98
+            "pl_units": 0.98,
+            "flat_pl_units": 0.98
           },
           {
             "report_date": "2026-11-08",
             "pick": "Boston Celtics -7.5 (1H)",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 2.0,
-            "pl_units": 1.82
+            "pl_units": 1.82,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-07",
             "pick": "Houston Rockets -3.5 (1H)",
+            "sport": "NBA",
             "odds": -112,
+            "breakeven": 0.528,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": -1.0
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
           },
           {
             "report_date": "2026-11-06",
             "pick": "Boston Celtics -5.5 (1H)",
+            "sport": "NBA",
             "odds": -110,
+            "breakeven": 0.524,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 1.0,
-            "pl_units": 0.91
+            "pl_units": 0.91,
+            "flat_pl_units": 0.91
           },
           {
             "report_date": "2026-11-05",
             "pick": "Jacksonville Jaguars -10",
+            "sport": "NFL",
             "odds": -106,
+            "breakeven": 0.515,
             "outcome": "W",
+            "units": 1.0,
             "risk_units": 3.0,
-            "pl_units": 2.83
+            "pl_units": 2.83,
+            "flat_pl_units": 0.94
           },
           {
             "report_date": "2026-11-04",
             "pick": "Memphis Grizzlies -3.5 (1H)",
+            "sport": "NBA",
             "odds": -105,
+            "breakeven": 0.512,
             "outcome": "L",
+            "units": 1.0,
             "risk_units": 2.0,
-            "pl_units": -2.0
+            "pl_units": -2.0,
+            "flat_pl_units": -1.0
           }
-        ]
+        ],
+        "l10": {
+          "n": 10,
+          "wins": 6,
+          "losses": 4,
+          "pushes": 0,
+          "priced": 10,
+          "units": 3.6,
+          "flat_units": 0.89,
+          "needs": 0.561,
+          "won_rate": 0.6,
+          "expected_wins": 5.61,
+          "vs_price": 0.39
+        },
+        "banked": "Contender",
+        "next_milestone": {
+          "at": 3,
+          "label": "Survived",
+          "to_go": 2
+        },
+        "missed_days": 12,
+        "journal": {}
       },
       "note": "1 up, building again",
+      "milestone_text": "Contender banked \u00b7 5 to a new best",
+      "l10_text": "L10 6-4 \u00b7 +3.60u (flat +0.89u) \u00b7 needed 56% won 60% \u00b7 +0.4 wins vs price \u00b7 12 days missed",
       "pick": {
         "pick": "USC Trojans +9.5",
         "game": "USC Trojans @ Indiana Hoosiers",
         "sport": "NCAAF",
         "odds": -110,
+        "line": 9.5,
+        "detail_text": "1u \u00b7 needs 52.4%",
+        "breakeven": 0.5238,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
