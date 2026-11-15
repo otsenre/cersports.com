@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-14",
-  "deadline_utc": "2026-11-14T19:02:56+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-11-14T20:30:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-11-15",
+  "deadline_utc": "2026-11-15T19:30:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-11-15T21:30:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -170,22 +170,22 @@
       "milestone_text": "Elite banked",
       "l10_text": "L10 8-2 \u00b7 +9.05u (flat +5.32u) \u00b7 needed 53% won 80% \u00b7 +2.7 wins vs price \u00b7 15 days missed",
       "pick": {
-        "pick": "Montreal Canadiens ML",
-        "game": "Colorado Avalanche @ Montreal Canadiens",
-        "sport": "NHL",
-        "odds": -135,
-        "line": null,
-        "detail_text": "1u \u00b7 needs 57.4%",
-        "breakeven": 0.5745,
+        "pick": "Charlotte Hornets -1.5",
+        "game": "Charlotte Hornets @ LA Clippers",
+        "sport": "NBA",
+        "odds": -103,
+        "line": -1.5,
+        "detail_text": "1u \u00b7 needs 50.7%",
+        "breakeven": 0.5074,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 1.0,
         "risk_units": 2.0,
-        "potential_profit_units": 1.4815,
-        "potential_return_units": 3.4815,
-        "start_utc": "2026-11-15T00:00:00+00:00",
-        "result": "L"
+        "potential_profit_units": 1.9417,
+        "potential_return_units": 3.9417,
+        "start_utc": "2026-11-15T21:30:00+00:00",
+        "result": null
       }
     },
     {
@@ -352,24 +352,7 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Contender banked",
       "l10_text": "L10 6-4 \u00b7 +4.60u (flat +0.89u) \u00b7 needed 56% won 60% \u00b7 +0.4 wins vs price \u00b7 12 days missed",
-      "pick": {
-        "pick": "USC Trojans +9.5",
-        "game": "USC Trojans @ Indiana Hoosiers",
-        "sport": "NCAAF",
-        "odds": -110,
-        "line": 9.5,
-        "detail_text": "1u \u00b7 needs 52.4%",
-        "breakeven": 0.5238,
-        "line_pending": false,
-        "units": 1,
-        "base_units": 1.0,
-        "ramp_units": 1.0,
-        "risk_units": 2.0,
-        "potential_profit_units": 1.8182,
-        "potential_return_units": 3.8182,
-        "start_utc": "2026-11-14T20:30:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
