@@ -10,19 +10,31 @@
       "source": "human:reaper",
       "record": {
         "wins": 56,
-        "losses": 49,
+        "losses": 50,
         "pushes": 1,
-        "current": 7,
+        "current": 0,
         "longest": 7,
-        "alive": true,
-        "pl_units": 3.8,
-        "pl_priced": 106,
-        "pl_settled": 106,
-        "pl_flat_units": 0.84,
+        "alive": false,
+        "pl_units": 2.8,
+        "pl_priced": 107,
+        "pl_settled": 107,
+        "pl_flat_units": -0.16,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0,
+        "ramp_units": 1.0,
+        "loss_run": 1,
         "recent": [
+          {
+            "report_date": "2026-11-14",
+            "pick": "Montreal Canadiens ML",
+            "sport": "NHL",
+            "odds": -135,
+            "breakeven": 0.574,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 1.0,
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-13",
             "pick": "Over 222.5",
@@ -130,18 +142,6 @@
             "risk_units": 4.0,
             "pl_units": 3.77,
             "flat_pl_units": 0.94
-          },
-          {
-            "report_date": "2026-11-04",
-            "pick": "Boston Celtics -11.5",
-            "sport": "NBA",
-            "odds": -110,
-            "breakeven": 0.524,
-            "outcome": "L",
-            "units": 1.0,
-            "risk_units": 3.0,
-            "pl_units": -3.0,
-            "flat_pl_units": -1.0
           }
         ],
         "l10": {
@@ -150,25 +150,25 @@
           "losses": 2,
           "pushes": 0,
           "priced": 10,
-          "units": 7.05,
+          "units": 9.05,
           "flat_units": 5.32,
-          "needs": 0.522,
+          "needs": 0.527,
           "won_rate": 0.8,
-          "expected_wins": 5.22,
-          "vs_price": 2.78
+          "expected_wins": 5.27,
+          "vs_price": 2.73
         },
         "banked": "Elite",
         "next_milestone": {
-          "at": 10,
-          "label": "Legendary",
+          "at": 3,
+          "label": "Survived",
           "to_go": 3
         },
         "missed_days": 15,
         "journal": {}
       },
-      "note": "7 straight \u2014 best run yet",
-      "milestone_text": "Elite banked \u00b7 3 to Legendary",
-      "l10_text": "L10 8-2 \u00b7 +7.05u (flat +5.32u) \u00b7 needed 52% won 80% \u00b7 +2.8 wins vs price \u00b7 15 days missed",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "milestone_text": "Elite banked",
+      "l10_text": "L10 8-2 \u00b7 +9.05u (flat +5.32u) \u00b7 needed 53% won 80% \u00b7 +2.7 wins vs price \u00b7 15 days missed",
       "pick": {
         "pick": "Montreal Canadiens ML",
         "game": "Colorado Avalanche @ Montreal Canadiens",
@@ -180,12 +180,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 0.0,
-        "risk_units": 1.0,
-        "potential_profit_units": 0.7407,
-        "potential_return_units": 1.7407,
+        "ramp_units": 1.0,
+        "risk_units": 2.0,
+        "potential_profit_units": 1.4815,
+        "potential_return_units": 3.4815,
         "start_utc": "2026-11-15T00:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
@@ -193,19 +193,31 @@
       "source": "human:shark",
       "record": {
         "wins": 61,
-        "losses": 46,
+        "losses": 47,
         "pushes": 1,
-        "current": 1,
+        "current": 0,
         "longest": 5,
-        "alive": true,
-        "pl_units": 4.43,
-        "pl_priced": 103,
-        "pl_settled": 108,
-        "pl_flat_units": -3.45,
+        "alive": false,
+        "pl_units": 3.43,
+        "pl_priced": 104,
+        "pl_settled": 109,
+        "pl_flat_units": -4.45,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0,
+        "ramp_units": 1.0,
+        "loss_run": 1,
         "recent": [
+          {
+            "report_date": "2026-11-14",
+            "pick": "USC Trojans +9.5",
+            "sport": "NCAAF",
+            "odds": -110,
+            "breakeven": 0.524,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 1.0,
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-13",
             "pick": "Houston Rockets -9.5 (1H)",
@@ -313,18 +325,6 @@
             "risk_units": 3.0,
             "pl_units": 2.83,
             "flat_pl_units": 0.94
-          },
-          {
-            "report_date": "2026-11-04",
-            "pick": "Memphis Grizzlies -3.5 (1H)",
-            "sport": "NBA",
-            "odds": -105,
-            "breakeven": 0.512,
-            "outcome": "L",
-            "units": 1.0,
-            "risk_units": 2.0,
-            "pl_units": -2.0,
-            "flat_pl_units": -1.0
           }
         ],
         "l10": {
@@ -333,25 +333,25 @@
           "losses": 4,
           "pushes": 0,
           "priced": 10,
-          "units": 3.6,
+          "units": 4.6,
           "flat_units": 0.89,
-          "needs": 0.561,
+          "needs": 0.562,
           "won_rate": 0.6,
-          "expected_wins": 5.61,
-          "vs_price": 0.39
+          "expected_wins": 5.62,
+          "vs_price": 0.38
         },
         "banked": "Contender",
         "next_milestone": {
           "at": 3,
           "label": "Survived",
-          "to_go": 2
+          "to_go": 3
         },
         "missed_days": 12,
         "journal": {}
       },
-      "note": "1 up, building again",
-      "milestone_text": "Contender banked \u00b7 5 to a new best",
-      "l10_text": "L10 6-4 \u00b7 +3.60u (flat +0.89u) \u00b7 needed 56% won 60% \u00b7 +0.4 wins vs price \u00b7 12 days missed",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "milestone_text": "Contender banked",
+      "l10_text": "L10 6-4 \u00b7 +4.60u (flat +0.89u) \u00b7 needed 56% won 60% \u00b7 +0.4 wins vs price \u00b7 12 days missed",
       "pick": {
         "pick": "USC Trojans +9.5",
         "game": "USC Trojans @ Indiana Hoosiers",
@@ -363,12 +363,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 0.0,
-        "risk_units": 1.0,
-        "potential_profit_units": 0.9091,
-        "potential_return_units": 1.9091,
+        "ramp_units": 1.0,
+        "risk_units": 2.0,
+        "potential_profit_units": 1.8182,
+        "potential_return_units": 3.8182,
         "start_utc": "2026-11-14T20:30:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
