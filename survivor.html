@@ -58,6 +58,8 @@ h1{font-size:26px;letter-spacing:-0.02em;color:var(--white);font-weight:650}
 .economics{color:var(--off-white);font-variant-numeric:tabular-nums;font-size:12.5px;
            margin-top:6px;padding:5px 7px;border:1px solid var(--border);border-radius:4px}
 .pick .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.l10{color:var(--off-white);font-variant-numeric:tabular-nums;font-size:12.5px;margin-top:8px}
+.pick .detail{color:var(--off-white);font-size:12.5px;margin-top:4px;font-variant-numeric:tabular-nums}
 .recent{margin-top:13px;border-top:1px solid var(--border);padding-top:10px;color:var(--muted);font-size:12px}
 .recent summary{cursor:pointer;color:var(--gold-light);font-weight:600}
 .recent ol{margin:8px 0 0 20px;display:grid;gap:4px;font-variant-numeric:tabular-nums}
@@ -253,7 +255,10 @@ function card(e){
     const items = rows.map(row => {
       const odds = row.odds == null ? '' : ` ${esc(signed(row.odds))}`;
       const pl = row.pl_units == null ? '—' : `${Number(row.pl_units) > 0 ? '+' : ''}${Number(row.pl_units).toFixed(2)}u`;
-      return `<li>${esc(row.report_date)} · ${esc(row.pick)}${odds} · Risk ${Number(row.risk_units).toFixed(1)}u · ${esc(row.outcome)} ${pl}</li>`;
+      // What the price needed, so each line is judged against it, not only W/L.
+      const needs = row.breakeven == null ? '' : ` · needs ${(Number(row.breakeven) * 100).toFixed(1)}%`;
+      const conf = row.confidence ? ` · ${esc(row.confidence)}` : '';
+      return `<li>${esc(row.report_date)} · ${esc(row.pick)}${odds}${needs}${conf} · Risk ${Number(row.risk_units).toFixed(1)}u · ${esc(row.outcome)} ${pl}</li>`;
     }).join('');
     return `<details class="recent"><summary>Last ${rows.length}</summary><ol>${items}</ol></details>`;
   }
@@ -309,12 +314,16 @@ function card(e){
            streaks sitting next to each other with one unlabelled invites
            exactly the wrong reading: that a 1-win streak raises the wager. -->
       <span class="stat streak"><span class="v">${r.current|0}</span><span class="k">Win streak</span></span>
-      <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best</span></span>
+      <span class="stat"><span class="v">${r.longest|0}</span><span class="k">Best${r.banked ? ' · ' + esc(r.banked) : ''}</span></span>
       ${wagerStat(r, Boolean(e.pick) && !e.pick.result)}
       ${plStat(r)}
     </div>`);
   }
-  if(e.note) parts.push(`<div class="note">${esc(e.note)}</div>`);
+  const note = [e.note, e.milestone_text].filter(Boolean).join(' · ');
+  if(note) parts.push(`<div class="note">${esc(note)}</div>`);
+  // THE LAST TEN AS A RECORD: units, the break-even the prices needed against
+  // what was won, and wins against the price -- so a streak is never read blind.
+  if(e.l10_text) parts.push(`<div class="l10">${esc(e.l10_text)}</div>`);
 
   if(e.pick){
     const start = localTime(e.pick.start_utc);
@@ -326,6 +335,7 @@ function card(e){
              "-7.5-1103.0u". The page is read by pasting it as often as by
              looking at it. -->
         <div class="p">${esc(e.pick.pick)}<span class="odds">&#160;${esc(signed(e.pick.odds))}</span></div>
+        ${e.pick.detail_text ? `<div class="detail">${esc(e.pick.detail_text)}</div>` : ''}
         ${economics(e.pick)}
         ${meta ? `<div class="meta">${meta}</div>` : ''}
       </div>`);
