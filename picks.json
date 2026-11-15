@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-15",
+    "source_sport": "NHL",
+    "game": "Edmonton Oilers @ Philadelphia Flyers",
+    "pick": "Edmonton Oilers -1.5",
+    "pick_display": "Edmonton Oilers -1.5",
+    "bet_type": "ATS",
+    "line": -1.5,
+    "price": 165.0,
+    "handicap": null,
+    "ccr": 6.67,
+    "ccr_avg": 6.666666666666667,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "06f716b246f935b1e5cadeba82287d6f8e764f23c2208ec9ec0176c7228681ed"
+  },
+  {
     "date": "2026-11-14",
     "source_sport": "NBA",
     "game": "Chicago Bulls @ Minnesota Timberwolves",
