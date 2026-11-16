@@ -10,19 +10,31 @@
       "source": "human:reaper",
       "record": {
         "wins": 56,
-        "losses": 50,
+        "losses": 51,
         "pushes": 1,
         "current": 0,
         "longest": 7,
         "alive": false,
-        "pl_units": 2.8,
-        "pl_priced": 107,
-        "pl_settled": 107,
-        "pl_flat_units": -0.16,
+        "pl_units": 0.8,
+        "pl_priced": 108,
+        "pl_settled": 108,
+        "pl_flat_units": -1.16,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1,
+        "ramp_units": 2.0,
+        "loss_run": 2,
         "recent": [
+          {
+            "report_date": "2026-11-15",
+            "pick": "Charlotte Hornets -1.5",
+            "sport": "NBA",
+            "odds": -103,
+            "breakeven": 0.507,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 2.0,
+            "pl_units": -2.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-14",
             "pick": "Montreal Canadiens ML",
@@ -130,32 +142,20 @@
             "risk_units": 1.0,
             "pl_units": -1.0,
             "flat_pl_units": -1.0
-          },
-          {
-            "report_date": "2026-11-05",
-            "pick": "Jacksonville Jaguars -10",
-            "sport": "NFL",
-            "odds": -106,
-            "breakeven": 0.515,
-            "outcome": "W",
-            "units": 1.0,
-            "risk_units": 4.0,
-            "pl_units": 3.77,
-            "flat_pl_units": 0.94
           }
         ],
         "l10": {
           "n": 10,
-          "wins": 8,
-          "losses": 2,
+          "wins": 7,
+          "losses": 3,
           "pushes": 0,
           "priced": 10,
-          "units": 9.05,
-          "flat_units": 5.32,
+          "units": 3.28,
+          "flat_units": 3.38,
           "needs": 0.527,
-          "won_rate": 0.8,
+          "won_rate": 0.7,
           "expected_wins": 5.27,
-          "vs_price": 2.73
+          "vs_price": 1.73
         },
         "banked": "Elite",
         "next_milestone": {
@@ -168,7 +168,7 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
-      "l10_text": "L10 8-2 \u00b7 +9.05u (flat +5.32u) \u00b7 needed 53% won 80% \u00b7 +2.7 wins vs price \u00b7 15 days missed",
+      "l10_text": "L10 7-3 \u00b7 +3.28u (flat +3.38u) \u00b7 needed 53% won 70% \u00b7 +1.7 wins vs price \u00b7 15 days missed",
       "pick": {
         "pick": "Charlotte Hornets -1.5",
         "game": "Charlotte Hornets @ LA Clippers",
@@ -180,12 +180,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 1.0,
-        "risk_units": 2.0,
-        "potential_profit_units": 1.9417,
-        "potential_return_units": 3.9417,
+        "ramp_units": 2.0,
+        "risk_units": 3.0,
+        "potential_profit_units": 2.9126,
+        "potential_return_units": 5.9126,
         "start_utc": "2026-11-15T21:30:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
