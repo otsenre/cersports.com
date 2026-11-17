@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-17",
+    "source_sport": "ATP",
+    "game": "Alexander Zverev vs Ben Shelton",
+    "pick": "Alexander Zverev ML",
+    "pick_display": "Alexander Zverev ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -200.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "837a05b816a901ca6eacb799cbfd69005526fa8d790f8724bb279683bcad91a3"
+  },
+  {
     "date": "2026-11-16",
     "source_sport": "NBA",
     "game": "Phoenix Suns @ Denver Nuggets",
