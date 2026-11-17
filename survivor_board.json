@@ -3,7 +3,7 @@
   "deadline_utc": "2026-11-18T02:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-11-18T04:00:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -352,7 +352,24 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Contender banked",
       "l10_text": "L10 5-5 \u00b7 +0.37u (flat -1.71u) \u00b7 needed 61% won 50% \u00b7 -1.1 wins vs price \u00b7 12 days missed",
-      "pick": null
+      "pick": {
+        "pick": "Los Angeles Lakers ML (1H)",
+        "game": "Charlotte Hornets @ Los Angeles Lakers",
+        "sport": "NBA",
+        "odds": -230,
+        "line": null,
+        "detail_text": "1u \u00b7 needs 69.7%",
+        "breakeven": 0.697,
+        "line_pending": false,
+        "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 1.0,
+        "risk_units": 2.0,
+        "potential_profit_units": 0.8696,
+        "potential_return_units": 2.8696,
+        "start_utc": "2026-11-18T04:00:00+00:00",
+        "result": null
+      }
     }
   ]
 }
