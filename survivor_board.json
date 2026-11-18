@@ -10,19 +10,31 @@
       "source": "human:reaper",
       "record": {
         "wins": 56,
-        "losses": 52,
+        "losses": 53,
         "pushes": 1,
         "current": 0,
         "longest": 7,
         "alive": false,
-        "pl_units": -2.2,
-        "pl_priced": 109,
-        "pl_settled": 109,
-        "pl_flat_units": -2.16,
+        "pl_units": -6.2,
+        "pl_priced": 110,
+        "pl_settled": 110,
+        "pl_flat_units": -3.16,
         "next_wager_from_base": null,
-        "ramp_units": 3.0,
-        "loss_run": 3,
+        "ramp_units": 4.0,
+        "loss_run": 4,
         "recent": [
+          {
+            "report_date": "2026-11-17",
+            "pick": "Los Angeles Lakers -7.5",
+            "sport": "NBA",
+            "odds": -105,
+            "breakeven": 0.512,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 4.0,
+            "pl_units": -4.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-16",
             "pick": "Baltimore Ravens -4.5",
@@ -130,32 +142,20 @@
             "risk_units": 1.0,
             "pl_units": 0.95,
             "flat_pl_units": 0.95
-          },
-          {
-            "report_date": "2026-11-07",
-            "pick": "Golden State Warriors -5.5",
-            "sport": "NBA",
-            "odds": -112,
-            "breakeven": 0.528,
-            "outcome": "W",
-            "units": 1.0,
-            "risk_units": 2.0,
-            "pl_units": 1.79,
-            "flat_pl_units": 0.89
           }
         ],
         "l10": {
           "n": 10,
-          "wins": 7,
-          "losses": 3,
+          "wins": 6,
+          "losses": 4,
           "pushes": 0,
           "priced": 10,
-          "units": 1.28,
-          "flat_units": 3.38,
-          "needs": 0.527,
-          "won_rate": 0.7,
-          "expected_wins": 5.27,
-          "vs_price": 1.73
+          "units": -4.51,
+          "flat_units": 1.49,
+          "needs": 0.525,
+          "won_rate": 0.6,
+          "expected_wins": 5.25,
+          "vs_price": 0.75
         },
         "banked": "Elite",
         "next_milestone": {
@@ -168,7 +168,7 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
-      "l10_text": "L10 7-3 \u00b7 +1.28u (flat +3.38u) \u00b7 needed 53% won 70% \u00b7 +1.7 wins vs price \u00b7 15 days missed",
+      "l10_text": "L10 6-4 \u00b7 -4.51u (flat +1.49u) \u00b7 needed 52% won 60% \u00b7 +0.8 wins vs price \u00b7 15 days missed",
       "pick": {
         "pick": "Los Angeles Lakers -7.5",
         "game": "Charlotte Hornets @ Los Angeles Lakers",
@@ -180,12 +180,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 3.0,
-        "risk_units": 4.0,
-        "potential_profit_units": 3.8095,
-        "potential_return_units": 7.8095,
+        "ramp_units": 4.0,
+        "risk_units": 5.0,
+        "potential_profit_units": 4.7619,
+        "potential_return_units": 9.7619,
         "start_utc": "2026-11-18T04:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     },
     {
@@ -193,19 +193,31 @@
       "source": "human:shark",
       "record": {
         "wins": 62,
-        "losses": 48,
+        "losses": 49,
         "pushes": 1,
         "current": 0,
         "longest": 5,
         "alive": false,
-        "pl_units": 2.94,
-        "pl_priced": 106,
-        "pl_settled": 111,
-        "pl_flat_units": -5.19,
+        "pl_units": 0.94,
+        "pl_priced": 107,
+        "pl_settled": 112,
+        "pl_flat_units": -6.19,
         "next_wager_from_base": null,
-        "ramp_units": 1.0,
-        "loss_run": 1,
+        "ramp_units": 2.0,
+        "loss_run": 2,
         "recent": [
+          {
+            "report_date": "2026-11-17",
+            "pick": "Los Angeles Lakers ML (1H)",
+            "sport": "NBA",
+            "odds": -230,
+            "breakeven": 0.697,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 2.0,
+            "pl_units": -2.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-16",
             "pick": "Boston Celtics ML (1H)",
@@ -313,18 +325,6 @@
             "risk_units": 2.0,
             "pl_units": 1.82,
             "flat_pl_units": 0.91
-          },
-          {
-            "report_date": "2026-11-07",
-            "pick": "Houston Rockets -3.5 (1H)",
-            "sport": "NBA",
-            "odds": -112,
-            "breakeven": 0.528,
-            "outcome": "L",
-            "units": 1.0,
-            "risk_units": 1.0,
-            "pl_units": -1.0,
-            "flat_pl_units": -1.0
           }
         ],
         "l10": {
@@ -333,12 +333,12 @@
           "losses": 5,
           "pushes": 0,
           "priced": 10,
-          "units": 0.37,
+          "units": -0.63,
           "flat_units": -1.71,
-          "needs": 0.609,
+          "needs": 0.626,
           "won_rate": 0.5,
-          "expected_wins": 6.09,
-          "vs_price": -1.09
+          "expected_wins": 6.26,
+          "vs_price": -1.26
         },
         "banked": "Contender",
         "next_milestone": {
@@ -351,7 +351,7 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Contender banked",
-      "l10_text": "L10 5-5 \u00b7 +0.37u (flat -1.71u) \u00b7 needed 61% won 50% \u00b7 -1.1 wins vs price \u00b7 12 days missed",
+      "l10_text": "L10 5-5 \u00b7 -0.63u (flat -1.71u) \u00b7 needed 63% won 50% \u00b7 -1.3 wins vs price \u00b7 12 days missed",
       "pick": {
         "pick": "Los Angeles Lakers ML (1H)",
         "game": "Charlotte Hornets @ Los Angeles Lakers",
@@ -363,12 +363,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 1.0,
-        "risk_units": 2.0,
-        "potential_profit_units": 0.8696,
-        "potential_return_units": 2.8696,
+        "ramp_units": 2.0,
+        "risk_units": 3.0,
+        "potential_profit_units": 1.3043,
+        "potential_return_units": 4.3043,
         "start_utc": "2026-11-18T04:00:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
