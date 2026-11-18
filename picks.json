@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-18",
+    "source_sport": "NBA",
+    "game": "Milwaukee Bucks @ Miami Heat",
+    "pick": "Miami Heat -11.5",
+    "pick_display": "Miami Heat -11.5",
+    "bet_type": "ATS",
+    "line": -11.5,
+    "price": -113.0,
+    "handicap": null,
+    "ccr": 6.5,
+    "ccr_avg": 6.5,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "e923e8720f7213531308b64b3e140c43c2e4732449dc26dd3f4f566d634bc950"
+  },
+  {
     "date": "2026-11-17",
     "source_sport": "ATP",
     "game": "Alexander Zverev vs Ben Shelton",
