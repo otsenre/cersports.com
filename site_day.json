@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:36:03.898409+00:00",
+  "generated_at": "2026-11-19T16:41:54.773911+00:00",
   "run_date": "2026-11-19",
   "as_of": "2026-11-18",
   "anchor": "2026-03-20",
@@ -2277,12 +2277,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 84,
-        "pending": 0,
+        "pending": 1,
         "net_units": -2.53,
         "roi_pct": -2.8,
         "roi_lcb95": -19.17,
         "start": "2026-03-21",
-        "end": "2026-11-16",
+        "end": "2026-11-19",
         "small_sample": false,
         "picker": "The Rounder",
         "ranked": true,
@@ -2581,12 +2581,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 7,
-            "pending": 0,
+            "pending": 1,
             "net_units": -1.21,
             "roi_pct": -16.15,
             "roi_lcb95": -60.86,
             "start": "2026-04-03",
-            "end": "2026-11-10",
+            "end": "2026-11-19",
             "small_sample": true,
             "lane": "NHL",
             "ranked": false,
@@ -2598,12 +2598,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 5,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -0.64,
                 "roi_pct": -11.7,
                 "roi_lcb95": -69.19,
                 "start": "2026-04-09",
-                "end": "2026-10-20",
+                "end": "2026-11-19",
                 "small_sample": true,
                 "market": "ML",
                 "ranked": false
@@ -8754,7 +8754,7 @@
   "pickers_contributing": 17,
   "morning_state": {
     "free_pick_site_published_at_utc": "2026-11-19T08:23:25-08:00",
-    "free_pick_release_state": "staged",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": null,
     "free_pick_published_at_utc": null
   },
@@ -8774,7 +8774,7 @@
   "recap": {
     "recap_date": "2026-11-18",
     "run_date": "2026-11-19",
-    "generated_at_utc": "2026-11-19T16:38:34+00:00",
+    "generated_at_utc": "2026-11-19T16:44:12+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -9185,6 +9185,6 @@
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-11-19",
     "paid_card_session_state": "RELEASED",
     "first_leg_time": "11:30 AM PT",
-    "updated_pt": "8:38 AM PT"
+    "updated_pt": "8:44 AM PT"
   }
 }

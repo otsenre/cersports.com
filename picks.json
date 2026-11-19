@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-19",
+    "source_sport": "NHL",
+    "game": "Minnesota Wild @ Calgary Flames",
+    "pick": "Minnesota Wild ML",
+    "pick_display": "Minnesota Wild ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -218.0,
+    "handicap": null,
+    "ccr": 7.5,
+    "ccr_avg": 7.5,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "da6b3267b15c5308640ad1e7ace7a5565a7f5c8eb5da0a4d0534b9571fca0fba"
+  },
+  {
     "date": "2026-11-18",
     "source_sport": "NBA",
     "game": "Milwaukee Bucks @ Miami Heat",
