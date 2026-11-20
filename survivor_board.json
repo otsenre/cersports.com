@@ -9,20 +9,32 @@
       "name": "Reaper",
       "source": "human:reaper",
       "record": {
-        "wins": 56,
+        "wins": 57,
         "losses": 54,
         "pushes": 1,
-        "current": 0,
+        "current": 1,
         "longest": 7,
-        "alive": false,
-        "pl_units": -11.2,
-        "pl_priced": 111,
-        "pl_settled": 111,
-        "pl_flat_units": -4.16,
+        "alive": true,
+        "pl_units": -5.75,
+        "pl_priced": 112,
+        "pl_settled": 112,
+        "pl_flat_units": -3.25,
         "next_wager_from_base": null,
-        "ramp_units": 5.0,
-        "loss_run": 5,
+        "ramp_units": 0.0,
+        "loss_run": 0,
         "recent": [
+          {
+            "report_date": "2026-11-19",
+            "pick": "Memphis Grizzlies -6.5",
+            "sport": "NBA",
+            "odds": -110,
+            "breakeven": 0.524,
+            "outcome": "W",
+            "units": 1.0,
+            "risk_units": 6.0,
+            "pl_units": 5.45,
+            "flat_pl_units": 0.91
+          },
           {
             "report_date": "2026-11-18",
             "pick": "Miami Heat -11.5",
@@ -130,18 +142,6 @@
             "risk_units": 1.0,
             "pl_units": 0.91,
             "flat_pl_units": 0.91
-          },
-          {
-            "report_date": "2026-11-09",
-            "pick": "Los Angeles Lakers +1.5",
-            "sport": "NBA",
-            "odds": -110,
-            "breakeven": 0.524,
-            "outcome": "W",
-            "units": 1.0,
-            "risk_units": 1.0,
-            "pl_units": 0.91,
-            "flat_pl_units": 0.91
           }
         ],
         "l10": {
@@ -150,7 +150,7 @@
           "losses": 5,
           "pushes": 0,
           "priced": 10,
-          "units": -10.46,
+          "units": -5.92,
           "flat_units": -0.46,
           "needs": 0.528,
           "won_rate": 0.5,
@@ -161,14 +161,14 @@
         "next_milestone": {
           "at": 3,
           "label": "Survived",
-          "to_go": 3
+          "to_go": 2
         },
         "missed_days": 15,
         "journal": {}
       },
-      "note": "run ended \u2014 back to zero, and everyone starts there",
-      "milestone_text": "Elite banked",
-      "l10_text": "L10 5-5 \u00b7 -10.46u (flat -0.46u) \u00b7 needed 53% won 50% \u00b7 -0.3 wins vs price \u00b7 15 days missed",
+      "note": "1 up, building again",
+      "milestone_text": "Elite banked \u00b7 7 to a new best",
+      "l10_text": "L10 5-5 \u00b7 -5.92u (flat -0.46u) \u00b7 needed 53% won 50% \u00b7 -0.3 wins vs price \u00b7 15 days missed",
       "pick": {
         "pick": "Memphis Grizzlies -6.5",
         "game": "Golden State Warriors @ Memphis Grizzlies",
@@ -180,12 +180,12 @@
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
-        "ramp_units": 5.0,
-        "risk_units": 6.0,
-        "potential_profit_units": 5.4545,
-        "potential_return_units": 11.4545,
+        "ramp_units": 0.0,
+        "risk_units": 1.0,
+        "potential_profit_units": 0.9091,
+        "potential_return_units": 1.9091,
         "start_utc": "2026-11-20T01:00:00+00:00",
-        "result": null
+        "result": "W"
       }
     },
     {
