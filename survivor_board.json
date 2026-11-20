@@ -3,7 +3,7 @@
   "deadline_utc": "2026-11-21T01:00:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-11-21T03:00:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -352,7 +352,24 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Contender banked",
       "l10_text": "L10 3-7 \u00b7 -10.43u (flat -5.60u) \u00b7 needed 63% won 30% \u00b7 -3.3 wins vs price \u00b7 12 days missed",
-      "pick": null
+      "pick": {
+        "pick": "Over 229.5",
+        "game": "Sacramento Kings @ Los Angeles Lakers",
+        "sport": "NBA",
+        "odds": -110,
+        "line": 229.5,
+        "detail_text": "1u \u00b7 needs 52.4%",
+        "breakeven": 0.5238,
+        "line_pending": false,
+        "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 4.0,
+        "risk_units": 5.0,
+        "potential_profit_units": 4.5455,
+        "potential_return_units": 9.5455,
+        "start_utc": "2026-11-21T03:00:00+00:00",
+        "result": null
+      }
     }
   ]
 }
