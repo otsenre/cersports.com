@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:17:53.365090+00:00",
+  "generated_at": "2026-11-20T16:27:22.807597+00:00",
   "run_date": "2026-11-20",
   "as_of": "2026-11-19",
   "anchor": "2026-03-20",
@@ -13,8 +13,8 @@
   "fire": {
     "as_of": "2026-11-20",
     "this_run": {
-      "fire_utc": null,
-      "fire_pt": null
+      "fire_utc": "2026-11-20T08:18:31-08:00",
+      "fire_pt": "2026-11-20 08:18 PST"
     },
     "prior_run": {
       "date": "2026-11-19",
@@ -210,7 +210,7 @@
             "tie_rate": 0.0667,
             "beat_rate": 0.7167,
             "beat_rate_ex_ties": 0.7679,
-            "avg_clv": 0.0077
+            "avg_clv": 0.0079
           },
           "TOTAL": {
             "n": 15,
@@ -229,14 +229,14 @@
           "tie_rate": 0.2,
           "beat_rate": 0.5667,
           "beat_rate_ex_ties": 0.7083,
-          "avg_clv": -0.0459,
+          "avg_clv": -0.0456,
           "meets_threshold": true,
           "meets_threshold_naive": true
         },
         "window": 30,
         "first": "2026-06-17",
         "last": "2026-11-19",
-        "generated_utc": "2026-11-19T17:03:13+00:00"
+        "generated_utc": "2026-11-20T16:20:22+00:00"
       }
     },
     "paid": {
@@ -2277,12 +2277,12 @@
         "pushes": 1,
         "voided": 1,
         "settled": 85,
-        "pending": 0,
+        "pending": 1,
         "net_units": -2.19,
         "roi_pct": -2.4,
         "roi_lcb95": -18.4,
         "start": "2026-03-21",
-        "end": "2026-11-19",
+        "end": "2026-11-20",
         "small_sample": false,
         "picker": "The Rounder",
         "ranked": true,
@@ -2385,12 +2385,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 9,
-            "pending": 0,
+            "pending": 1,
             "net_units": 1.49,
             "roi_pct": 15.33,
             "roi_lcb95": -30.33,
             "start": "2026-04-27",
-            "end": "2026-09-11",
+            "end": "2026-11-20",
             "small_sample": true,
             "lane": "ATP",
             "ranked": false,
@@ -2402,12 +2402,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 7,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -1.12,
                 "roi_pct": -15.99,
                 "roi_lcb95": -60.36,
                 "start": "2026-04-27",
-                "end": "2026-08-04",
+                "end": "2026-11-20",
                 "small_sample": true,
                 "market": "ML",
                 "ranked": false
@@ -4748,12 +4748,12 @@
         "pushes": 2,
         "voided": 1,
         "settled": 132,
-        "pending": 0,
+        "pending": 1,
         "net_units": 0.4,
         "roi_pct": 0.29,
         "roi_lcb95": -12.62,
         "start": "2026-03-21",
-        "end": "2026-11-19",
+        "end": "2026-11-20",
         "small_sample": false,
         "picker": "The Rounder",
         "ranked": true,
@@ -4802,12 +4802,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 10,
-            "pending": 0,
+            "pending": 1,
             "net_units": 5.23,
             "roi_pct": 52.29,
             "roi_lcb95": 18.71,
             "start": "2026-07-07",
-            "end": "2026-09-13",
+            "end": "2026-11-20",
             "small_sample": true,
             "lane": "ATP",
             "ranked": false,
@@ -4819,12 +4819,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 8,
-                "pending": 0,
+                "pending": 1,
                 "net_units": 3.28,
                 "roi_pct": 41.0,
                 "roi_lcb95": 2.92,
                 "start": "2026-07-07",
-                "end": "2026-09-13",
+                "end": "2026-11-20",
                 "small_sample": true,
                 "market": "ML",
                 "ranked": false
@@ -5998,12 +5998,12 @@
         "pushes": 1,
         "voided": 2,
         "settled": 200,
-        "pending": 0,
+        "pending": 2,
         "net_units": -6.48,
         "roi_pct": -2.67,
         "roi_lcb95": -14.81,
         "start": "2026-03-30",
-        "end": "2026-11-18",
+        "end": "2026-11-20",
         "small_sample": false,
         "picker": "The Shark",
         "ranked": true,
@@ -6157,12 +6157,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 23,
-            "pending": 0,
+            "pending": 2,
             "net_units": -1.65,
             "roi_pct": -5.31,
             "roi_lcb95": -39.47,
             "start": "2026-04-07",
-            "end": "2026-11-18",
+            "end": "2026-11-20",
             "small_sample": true,
             "lane": "NBA",
             "ranked": false,
@@ -6174,12 +6174,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 23,
-                "pending": 0,
+                "pending": 2,
                 "net_units": -1.65,
                 "roi_pct": -5.31,
                 "roi_lcb95": -39.47,
                 "start": "2026-04-07",
-                "end": "2026-11-18",
+                "end": "2026-11-20",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -7249,12 +7249,12 @@
         "pushes": 0,
         "voided": 5,
         "settled": 192,
-        "pending": 0,
+        "pending": 1,
         "net_units": -19.43,
         "roi_pct": -9.25,
         "roi_lcb95": -20.23,
         "start": "2026-04-01",
-        "end": "2026-11-18",
+        "end": "2026-11-20",
         "small_sample": false,
         "picker": "The Dealer",
         "ranked": true,
@@ -7604,12 +7604,12 @@
             "pushes": 0,
             "voided": 0,
             "settled": 9,
-            "pending": 0,
+            "pending": 1,
             "net_units": -0.52,
             "roi_pct": -3.81,
             "roi_lcb95": -56.78,
             "start": "2026-04-05",
-            "end": "2026-10-31",
+            "end": "2026-11-20",
             "small_sample": true,
             "lane": "NBA",
             "ranked": false,
@@ -7638,12 +7638,12 @@
                 "pushes": 0,
                 "voided": 0,
                 "settled": 5,
-                "pending": 0,
+                "pending": 1,
                 "net_units": -1.95,
                 "roi_pct": -26.84,
                 "roi_lcb95": -100.0,
                 "start": "2026-04-05",
-                "end": "2026-10-31",
+                "end": "2026-11-20",
                 "small_sample": true,
                 "market": "SPREAD",
                 "ranked": false
@@ -8761,20 +8761,29 @@
       "NBA"
     ]
   },
-  "pickers_contributing": 17,
+  "pickers_contributing": 18,
   "morning_state": {
-    "free_pick_site_published_at_utc": null,
-    "free_pick_release_state": "staged",
+    "free_pick_site_published_at_utc": "2026-11-20T08:18:31-08:00",
+    "free_pick_release_state": "released",
     "free_pick_release_at_utc": null,
     "free_pick_published_at_utc": null
   },
   "paid_card_delivery": {
-    "state": "pending"
+    "state": "live",
+    "delivered_at_pt": "8:24 AM PT",
+    "first_leg_time": "11:30 AM PT",
+    "first_leg_utc": "2026-11-20T19:30:00+00:00",
+    "leg_times_utc": [
+      "2026-11-20T19:30:00+00:00",
+      "2026-11-21T00:30:00+00:00",
+      "2026-11-21T01:00:00+00:00",
+      "2026-11-21T03:00:00+00:00"
+    ]
   },
   "recap": {
     "recap_date": "2026-11-19",
     "run_date": "2026-11-20",
-    "generated_at_utc": "2026-11-20T16:18:31+00:00",
+    "generated_at_utc": "2026-11-20T16:28:03+00:00",
     "final": true,
     "card": {
       "n": 5,
@@ -9184,11 +9193,12 @@
   "status": {
     "contract": 1,
     "date": "2026-11-20",
-    "stage": "paid_card_review",
-    "line": "Today's Paid Card is in review. \u00b7 \u26c8 Weather on 8 games",
+    "stage": "card_shipped",
+    "line": "Paid card shipped 8:24 AM PT \u00b7 4 picks, ATP + NBA \u00b7 first leg fires 11:30 AM PT",
     "parts": [
-      "Today's Paid Card is in review.",
-      "\u26c8 Weather on 8 games"
+      "Paid card shipped 8:24 AM PT",
+      "4 picks, ATP + NBA",
+      "first leg fires 11:30 AM PT"
     ],
     "expected_by": {
       "label": "9:15 AM PT",
@@ -9199,11 +9209,11 @@
       "latest": "1:01 PM",
       "basis": "p90 of 105 measured fires"
     },
-    "free_pick_live": false,
-    "card_live": false,
+    "free_pick_live": true,
+    "card_live": true,
     "paid_card_session_id": "paid_card_session:PAID_CARD_SESSION_V1:2026-11-20",
-    "paid_card_session_state": "REVIEW",
-    "first_leg_time": null,
-    "updated_pt": "8:18 AM PT"
+    "paid_card_session_state": "RELEASED",
+    "first_leg_time": "11:30 AM PT",
+    "updated_pt": "8:28 AM PT"
   }
 }
