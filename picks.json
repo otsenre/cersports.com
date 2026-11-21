@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-21",
+    "source_sport": "NHL",
+    "game": "Edmonton Oilers @ Carolina Hurricanes",
+    "pick": "Carolina Hurricanes ML",
+    "pick_display": "Carolina Hurricanes ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -195.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "ae8c693511b40a77769dab7189bfcfd45cbe425e4258378b16adc94d1f13de16"
+  },
+  {
     "date": "2026-11-20",
     "source_sport": "ATP",
     "game": "Daniil Medvedev vs Frances Tiafoe",
