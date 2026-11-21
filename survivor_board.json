@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-20",
-  "deadline_utc": "2026-11-21T01:00:00+00:00",
-  "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-21T03:00:00+00:00",
-  "submitted_count": 2,
+  "day": "2026-11-21",
+  "deadline_utc": "2026-11-21T19:02:10+00:00",
+  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
+  "earliest_start_utc": "2026-11-21T20:30:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Reaper",
@@ -169,24 +169,7 @@
       "note": "2 up, building again",
       "milestone_text": "Elite banked \u00b7 6 to a new best",
       "l10_text": "L10 5-5 \u00b7 -5.96u (flat -0.50u) \u00b7 needed 53% won 50% \u00b7 -0.3 wins vs price \u00b7 15 days missed",
-      "pick": {
-        "pick": "Denver Nuggets -1.5",
-        "game": "Houston Rockets @ Denver Nuggets",
-        "sport": "NBA",
-        "odds": -115,
-        "line": -1.5,
-        "detail_text": "1u \u00b7 needs 53.5%",
-        "breakeven": 0.5349,
-        "line_pending": false,
-        "units": 1,
-        "base_units": 1.0,
-        "ramp_units": 0.0,
-        "risk_units": 1.0,
-        "potential_profit_units": 0.8696,
-        "potential_return_units": 1.8696,
-        "start_utc": "2026-11-21T03:00:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Shark",
@@ -353,22 +336,22 @@
       "milestone_text": "Contender banked",
       "l10_text": "L10 2-8 \u00b7 -15.63u (flat -6.80u) \u00b7 needed 60% won 20% \u00b7 -4.0 wins vs price \u00b7 12 days missed",
       "pick": {
-        "pick": "Over 229.5",
-        "game": "Sacramento Kings @ Los Angeles Lakers",
-        "sport": "NBA",
-        "odds": -110,
-        "line": 229.5,
-        "detail_text": "1u \u00b7 needs 52.4%",
-        "breakeven": 0.5238,
+        "pick": "UCLA Bruins ML",
+        "game": "UCLA Bruins @ Michigan Wolverines",
+        "sport": "NCAAF",
+        "odds": -180,
+        "line": null,
+        "detail_text": "1u \u00b7 needs 64.3%",
+        "breakeven": 0.6429,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 5.0,
         "risk_units": 6.0,
-        "potential_profit_units": 5.4545,
-        "potential_return_units": 11.4545,
-        "start_utc": "2026-11-21T03:00:00+00:00",
-        "result": "L"
+        "potential_profit_units": 3.3333,
+        "potential_return_units": 9.3333,
+        "start_utc": "2026-11-21T20:30:00+00:00",
+        "result": null
       }
     }
   ]
