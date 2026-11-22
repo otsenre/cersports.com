@@ -3,12 +3,12 @@
   "name": "NFL Season Pass",
   "season": 2026,
   "full_price_usd": 1500,
-  "on_sale": true,
-  "price_usd": 579,
-  "weeks_remaining": 7,
-  "first_week": 12,
-  "closes_at_utc": "2026-11-24T16:30:00-08:00",
-  "checkout_url": "https://buy.stripe.com/8x27sM7DG8yX4m9b6gbZe0x",
+  "on_sale": false,
+  "price_usd": null,
+  "weeks_remaining": 0,
+  "first_week": null,
+  "closes_at_utc": null,
+  "checkout_url": null,
   "includes": "every remaining week's NFL Weekly card, pool sheet included",
-  "generated_at": "2026-11-19T16:34:15+00:00"
+  "generated_at": "2026-11-22T00:50:03+00:00"
 }
