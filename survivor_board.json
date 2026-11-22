@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-21",
-  "deadline_utc": "2026-11-21T19:02:10+00:00",
-  "deadline_reason": "earliest game is soon, so the window was floored at 30 minutes from the first pick",
-  "earliest_start_utc": "2026-11-21T20:30:00+00:00",
+  "day": "2026-11-22",
+  "deadline_utc": "2026-11-22T23:20:00+00:00",
+  "deadline_reason": "120 minutes before the earliest Streak game",
+  "earliest_start_utc": "2026-11-23T01:20:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -336,22 +336,22 @@
       "milestone_text": "Contender banked",
       "l10_text": "L10 2-8 \u00b7 -20.63u (flat -6.80u) \u00b7 needed 60% won 20% \u00b7 -4.0 wins vs price \u00b7 12 days missed",
       "pick": {
-        "pick": "UCLA Bruins ML",
-        "game": "UCLA Bruins @ Michigan Wolverines",
-        "sport": "NCAAF",
-        "odds": -180,
+        "pick": "San Francisco 49ers ML",
+        "game": "Minnesota Vikings @ San Francisco 49ers",
+        "sport": "NFL",
+        "odds": -177,
         "line": null,
-        "detail_text": "1u \u00b7 needs 64.3%",
-        "breakeven": 0.6429,
+        "detail_text": "1u \u00b7 needs 63.9%",
+        "breakeven": 0.639,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 5.0,
         "risk_units": 6.0,
-        "potential_profit_units": 3.3333,
-        "potential_return_units": 9.3333,
-        "start_utc": "2026-11-21T20:30:00+00:00",
-        "result": "L"
+        "potential_profit_units": 3.3898,
+        "potential_return_units": 9.3898,
+        "start_utc": "2026-11-23T01:20:00+00:00",
+        "result": null
       }
     }
   ]
