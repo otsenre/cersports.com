@@ -176,19 +176,31 @@
       "source": "human:shark",
       "record": {
         "wins": 62,
-        "losses": 52,
+        "losses": 53,
         "pushes": 1,
         "current": 0,
         "longest": 5,
         "alive": false,
-        "pl_units": -11.06,
-        "pl_priced": 110,
-        "pl_settled": 115,
-        "pl_flat_units": -9.19,
+        "pl_units": -17.06,
+        "pl_priced": 111,
+        "pl_settled": 116,
+        "pl_flat_units": -10.19,
         "next_wager_from_base": null,
         "ramp_units": 5.0,
-        "loss_run": 5,
+        "loss_run": 6,
         "recent": [
+          {
+            "report_date": "2026-11-21",
+            "pick": "UCLA Bruins ML",
+            "sport": "NCAAF",
+            "odds": -180,
+            "breakeven": 0.643,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 6.0,
+            "pl_units": -6.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-20",
             "pick": "Over 229.5",
@@ -296,18 +308,6 @@
             "risk_units": 2.0,
             "pl_units": -2.0,
             "flat_pl_units": -1.0
-          },
-          {
-            "report_date": "2026-11-11",
-            "pick": "Boston Celtics ML (1H)",
-            "sport": "NBA",
-            "odds": -172,
-            "breakeven": 0.632,
-            "outcome": "L",
-            "units": 1.0,
-            "risk_units": 1.0,
-            "pl_units": -1.0,
-            "flat_pl_units": -1.0
           }
         ],
         "l10": {
@@ -316,12 +316,12 @@
           "losses": 8,
           "pushes": 0,
           "priced": 10,
-          "units": -15.63,
+          "units": -20.63,
           "flat_units": -6.8,
-          "needs": 0.598,
+          "needs": 0.599,
           "won_rate": 0.2,
-          "expected_wins": 5.98,
-          "vs_price": -3.98
+          "expected_wins": 5.99,
+          "vs_price": -3.99
         },
         "banked": "Contender",
         "next_milestone": {
@@ -334,7 +334,7 @@
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Contender banked",
-      "l10_text": "L10 2-8 \u00b7 -15.63u (flat -6.80u) \u00b7 needed 60% won 20% \u00b7 -4.0 wins vs price \u00b7 12 days missed",
+      "l10_text": "L10 2-8 \u00b7 -20.63u (flat -6.80u) \u00b7 needed 60% won 20% \u00b7 -4.0 wins vs price \u00b7 12 days missed",
       "pick": {
         "pick": "UCLA Bruins ML",
         "game": "UCLA Bruins @ Michigan Wolverines",
@@ -351,7 +351,7 @@
         "potential_profit_units": 3.3333,
         "potential_return_units": 9.3333,
         "start_utc": "2026-11-21T20:30:00+00:00",
-        "result": null
+        "result": "L"
       }
     }
   ]
