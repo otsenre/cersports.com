@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-22",
+    "source_sport": "NBA",
+    "game": "Denver Nuggets @ Chicago Bulls",
+    "pick": "Denver Nuggets -9.0",
+    "pick_display": "Denver Nuggets -9.0",
+    "bet_type": "ATS",
+    "line": -9.0,
+    "price": -110.0,
+    "handicap": null,
+    "ccr": 7.33,
+    "ccr_avg": 7.333333333333333,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "52831139c5a35f84d2d2d24f57f10ecc525bd380b1648edb00cd68868f6c24b8"
+  },
+  {
     "date": "2026-11-21",
     "source_sport": "NHL",
     "game": "Edmonton Oilers @ Carolina Hurricanes",
