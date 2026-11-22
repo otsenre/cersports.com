@@ -10,19 +10,31 @@
       "source": "human:reaper",
       "record": {
         "wins": 58,
-        "losses": 54,
+        "losses": 55,
         "pushes": 1,
-        "current": 2,
+        "current": 0,
         "longest": 7,
-        "alive": true,
-        "pl_units": -4.88,
-        "pl_priced": 113,
-        "pl_settled": 113,
-        "pl_flat_units": -2.38,
+        "alive": false,
+        "pl_units": -5.88,
+        "pl_priced": 114,
+        "pl_settled": 114,
+        "pl_flat_units": -3.38,
         "next_wager_from_base": null,
-        "ramp_units": 0.0,
-        "loss_run": 0,
+        "ramp_units": 1.0,
+        "loss_run": 1,
         "recent": [
+          {
+            "report_date": "2026-11-21",
+            "pick": "Over 218.5",
+            "sport": "NBA",
+            "odds": -110,
+            "breakeven": 0.524,
+            "outcome": "L",
+            "units": 1.0,
+            "risk_units": 1.0,
+            "pl_units": -1.0,
+            "flat_pl_units": -1.0
+          },
           {
             "report_date": "2026-11-20",
             "pick": "Denver Nuggets -1.5",
@@ -130,45 +142,33 @@
             "risk_units": 1.0,
             "pl_units": 0.9,
             "flat_pl_units": 0.9
-          },
-          {
-            "report_date": "2026-11-11",
-            "pick": "Central Michigan Chippewas -17",
-            "sport": "NCAAF",
-            "odds": -110,
-            "breakeven": 0.524,
-            "outcome": "W",
-            "units": 1.0,
-            "risk_units": 1.0,
-            "pl_units": 0.91,
-            "flat_pl_units": 0.91
           }
         ],
         "l10": {
           "n": 10,
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "pushes": 0,
           "priced": 10,
-          "units": -5.96,
-          "flat_units": -0.5,
+          "units": -7.87,
+          "flat_units": -2.41,
           "needs": 0.529,
-          "won_rate": 0.5,
+          "won_rate": 0.4,
           "expected_wins": 5.29,
-          "vs_price": -0.29
+          "vs_price": -1.29
         },
         "banked": "Elite",
         "next_milestone": {
           "at": 3,
           "label": "Survived",
-          "to_go": 1
+          "to_go": 3
         },
         "missed_days": 15,
         "journal": {}
       },
-      "note": "2 up, building again",
-      "milestone_text": "Elite banked \u00b7 6 to a new best",
-      "l10_text": "L10 5-5 \u00b7 -5.96u (flat -0.50u) \u00b7 needed 53% won 50% \u00b7 -0.3 wins vs price \u00b7 15 days missed",
+      "note": "run ended \u2014 back to zero, and everyone starts there",
+      "milestone_text": "Elite banked",
+      "l10_text": "L10 4-6 \u00b7 -7.87u (flat -2.41u) \u00b7 needed 53% won 40% \u00b7 -1.3 wins vs price \u00b7 15 days missed",
       "pick": null
     },
     {
