@@ -1,9 +1,9 @@
 {
   "day": "2026-11-22",
-  "deadline_utc": "2026-11-22T23:20:00+00:00",
+  "deadline_utc": "2026-11-22T19:25:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-23T01:20:00+00:00",
-  "submitted_count": 1,
+  "earliest_start_utc": "2026-11-22T21:25:00+00:00",
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -169,7 +169,24 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
       "l10_text": "L10 4-6 \u00b7 -7.87u (flat -2.41u) \u00b7 needed 53% won 40% \u00b7 -1.3 wins vs price \u00b7 15 days missed",
-      "pick": null
+      "pick": {
+        "pick": "Jacksonville Jaguars -6",
+        "game": "Jacksonville Jaguars @ New York Giants",
+        "sport": "NFL",
+        "odds": -109,
+        "line": -6.0,
+        "detail_text": "1u \u00b7 needs 52.2%",
+        "breakeven": 0.5215,
+        "line_pending": false,
+        "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 1.0,
+        "risk_units": 2.0,
+        "potential_profit_units": 1.8349,
+        "potential_return_units": 3.8349,
+        "start_utc": "2026-11-22T21:25:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
