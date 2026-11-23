@@ -1,9 +1,9 @@
 {
-  "day": "2026-11-22",
-  "deadline_utc": "2026-11-22T19:25:00+00:00",
+  "day": "2026-11-23",
+  "deadline_utc": "2026-11-23T23:15:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-22T21:25:00+00:00",
-  "submitted_count": 2,
+  "earliest_start_utc": "2026-11-24T01:15:00+00:00",
+  "submitted_count": 1,
   "entries": [
     {
       "name": "Shark",
@@ -169,24 +169,7 @@
       "note": "1 up, building again",
       "milestone_text": "Contender banked \u00b7 5 to a new best",
       "l10_text": "L10 3-7 \u00b7 -15.24u (flat -5.24u) \u00b7 needed 61% won 30% \u00b7 -3.1 wins vs price \u00b7 12 days missed",
-      "pick": {
-        "pick": "San Francisco 49ers ML",
-        "game": "Minnesota Vikings @ San Francisco 49ers",
-        "sport": "NFL",
-        "odds": -177,
-        "line": null,
-        "detail_text": "1u \u00b7 needs 63.9%",
-        "breakeven": 0.639,
-        "line_pending": false,
-        "units": 1,
-        "base_units": 1.0,
-        "ramp_units": 0.0,
-        "risk_units": 1.0,
-        "potential_profit_units": 0.565,
-        "potential_return_units": 1.565,
-        "start_utc": "2026-11-23T01:20:00+00:00",
-        "result": "W"
-      }
+      "pick": null
     },
     {
       "name": "Reaper",
@@ -353,22 +336,22 @@
       "milestone_text": "Elite banked",
       "l10_text": "L10 3-7 \u00b7 -10.77u (flat -4.31u) \u00b7 needed 53% won 30% \u00b7 -2.3 wins vs price \u00b7 15 days missed",
       "pick": {
-        "pick": "Jacksonville Jaguars -6",
-        "game": "Jacksonville Jaguars @ New York Giants",
+        "pick": "Cincinnati Bengals -6",
+        "game": "Cincinnati Bengals @ Washington Commanders",
         "sport": "NFL",
-        "odds": -109,
+        "odds": -114,
         "line": -6.0,
-        "detail_text": "1u \u00b7 needs 52.2%",
-        "breakeven": 0.5215,
+        "detail_text": "1u \u00b7 needs 53.3%",
+        "breakeven": 0.5327,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 2.0,
         "risk_units": 3.0,
-        "potential_profit_units": 2.7523,
-        "potential_return_units": 5.7523,
-        "start_utc": "2026-11-22T21:25:00+00:00",
-        "result": "L"
+        "potential_profit_units": 2.6316,
+        "potential_return_units": 5.6316,
+        "start_utc": "2026-11-24T01:15:00+00:00",
+        "result": null
       }
     }
   ]
