@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-23",
-  "deadline_utc": "2026-11-23T23:15:00+00:00",
+  "day": "2026-11-24",
+  "deadline_utc": "2026-11-24T20:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-24T01:15:00+00:00",
+  "earliest_start_utc": "2026-11-24T22:30:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -170,22 +170,22 @@
       "milestone_text": "Elite banked",
       "l10_text": "L10 2-8 \u00b7 -14.68u (flat -6.22u) \u00b7 needed 53% won 20% \u00b7 -3.3 wins vs price \u00b7 15 days missed",
       "pick": {
-        "pick": "Cincinnati Bengals -6",
-        "game": "Cincinnati Bengals @ Washington Commanders",
-        "sport": "NFL",
-        "odds": -114,
-        "line": -6.0,
-        "detail_text": "1u \u00b7 needs 53.3%",
-        "breakeven": 0.5327,
+        "pick": "Michigan Wolverines -5.5",
+        "game": "Creighton Bluejays @ Michigan Wolverines",
+        "sport": "NCAAB",
+        "odds": -115,
+        "line": -5.5,
+        "detail_text": "1u \u00b7 needs 53.5%",
+        "breakeven": 0.5349,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 3.0,
         "risk_units": 4.0,
-        "potential_profit_units": 3.5088,
-        "potential_return_units": 7.5088,
-        "start_utc": "2026-11-24T01:15:00+00:00",
-        "result": "L"
+        "potential_profit_units": 3.4783,
+        "potential_return_units": 7.4783,
+        "start_utc": "2026-11-24T22:30:00+00:00",
+        "result": null
       }
     },
     {
