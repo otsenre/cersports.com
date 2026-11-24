@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-24",
+    "source_sport": "MLS",
+    "game": "Houston Dynamo FC @ San Jose Earthquakes",
+    "pick": "Over 2.5",
+    "pick_display": "Over 2.5",
+    "bet_type": "Total",
+    "line": 2.5,
+    "price": -148.0,
+    "handicap": null,
+    "ccr": 5.67,
+    "ccr_avg": 5.666666666666667,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "919d8e967457382a29605b9a7ee2521ad53978ac775956789d2417998d228d94"
+  },
+  {
     "date": "2026-11-23",
     "source_sport": "NHL",
     "game": "Minnesota Wild @ San Jose Sharks",
