@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-24",
-  "deadline_utc": "2026-11-24T20:30:00+00:00",
+  "day": "2026-11-25",
+  "deadline_utc": "2026-11-26T00:40:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-24T22:30:00+00:00",
+  "earliest_start_utc": "2026-11-26T02:40:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -169,7 +169,24 @@
       "note": "1 up, building again",
       "milestone_text": "Contender banked \u00b7 5 to a new best",
       "l10_text": "L10 3-7 \u00b7 -16.20u (flat -5.24u) \u00b7 needed 61% won 30% \u00b7 -3.1 wins vs price \u00b7 12 days missed",
-      "pick": null
+      "pick": {
+        "pick": "Seattle Kraken ML",
+        "game": "Chicago Blackhawks @ Seattle Kraken",
+        "sport": "NHL",
+        "odds": -155,
+        "line": null,
+        "detail_text": "1u \u00b7 needs 60.8%",
+        "breakeven": 0.6078,
+        "line_pending": false,
+        "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 0.0,
+        "risk_units": 1.0,
+        "potential_profit_units": 0.6452,
+        "potential_return_units": 1.6452,
+        "start_utc": "2026-11-26T02:40:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Reaper",
@@ -335,24 +352,7 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
       "l10_text": "L10 2-8 \u00b7 -17.68u (flat -6.22u) \u00b7 needed 53% won 20% \u00b7 -3.3 wins vs price \u00b7 15 days missed",
-      "pick": {
-        "pick": "Michigan Wolverines -5.5",
-        "game": "Creighton Bluejays @ Michigan Wolverines",
-        "sport": "NCAAB",
-        "odds": -115,
-        "line": -5.5,
-        "detail_text": "1u \u00b7 needs 53.5%",
-        "breakeven": 0.5349,
-        "line_pending": false,
-        "units": 1,
-        "base_units": 1.0,
-        "ramp_units": 4.0,
-        "risk_units": 5.0,
-        "potential_profit_units": 4.3478,
-        "potential_return_units": 9.3478,
-        "start_utc": "2026-11-24T22:30:00+00:00",
-        "result": "L"
-      }
+      "pick": null
     }
   ]
 }
