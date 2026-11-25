@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-25",
+    "source_sport": "NHL",
+    "game": "Chicago Blackhawks @ Seattle Kraken",
+    "pick": "Seattle Kraken ML",
+    "pick_display": "Seattle Kraken ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -150.0,
+    "handicap": null,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "8373767b9c26f823d24f7b1c4f6852d788d8161422f1acaba0b5dd78484823ce"
+  },
+  {
     "date": "2026-11-24",
     "source_sport": "MLS",
     "game": "Houston Dynamo FC @ San Jose Earthquakes",
