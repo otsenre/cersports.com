@@ -1,8 +1,8 @@
 {
-  "day": "2026-11-25",
-  "deadline_utc": "2026-11-26T00:40:00+00:00",
+  "day": "2026-11-26",
+  "deadline_utc": "2026-11-26T19:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
-  "earliest_start_utc": "2026-11-26T02:40:00+00:00",
+  "earliest_start_utc": "2026-11-26T21:30:00+00:00",
   "submitted_count": 1,
   "entries": [
     {
@@ -163,12 +163,12 @@
           "label": "Survived",
           "to_go": 3
         },
-        "missed_days": 15,
+        "missed_days": 16,
         "journal": {}
       },
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
-      "l10_text": "L10 2-8 \u00b7 -17.68u (flat -6.22u) \u00b7 needed 53% won 20% \u00b7 -3.3 wins vs price \u00b7 15 days missed",
+      "l10_text": "L10 2-8 \u00b7 -17.68u (flat -6.22u) \u00b7 needed 53% won 20% \u00b7 -3.3 wins vs price \u00b7 16 days missed",
       "pick": null
     },
     {
@@ -336,22 +336,22 @@
       "milestone_text": "Contender banked",
       "l10_text": "L10 2-8 \u00b7 -17.71u (flat -6.49u) \u00b7 needed 59% won 20% \u00b7 -3.9 wins vs price \u00b7 12 days missed",
       "pick": {
-        "pick": "Seattle Kraken ML",
-        "game": "Chicago Blackhawks @ Seattle Kraken",
-        "sport": "NHL",
-        "odds": -155,
-        "line": null,
-        "detail_text": "1u \u00b7 needs 60.8%",
-        "breakeven": 0.6078,
+        "pick": "Over 49.5",
+        "game": "Philadelphia Eagles @ Dallas Cowboys",
+        "sport": "NFL",
+        "odds": -110,
+        "line": 49.5,
+        "detail_text": "1u \u00b7 needs 52.4%",
+        "breakeven": 0.5238,
         "line_pending": false,
         "units": 1,
         "base_units": 1.0,
         "ramp_units": 1.0,
         "risk_units": 2.0,
-        "potential_profit_units": 1.2903,
-        "potential_return_units": 3.2903,
-        "start_utc": "2026-11-26T02:40:00+00:00",
-        "result": "L"
+        "potential_profit_units": 1.8182,
+        "potential_return_units": 3.8182,
+        "start_utc": "2026-11-26T21:30:00+00:00",
+        "result": null
       }
     }
   ]
