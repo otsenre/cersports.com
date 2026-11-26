@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-26",
+    "source_sport": "NFL",
+    "game": "Philadelphia Eagles @ Dallas Cowboys",
+    "pick": "Dallas Cowboys -8.5",
+    "pick_display": "Dallas Cowboys -8.5",
+    "bet_type": "ATS",
+    "line": -8.5,
+    "price": -105.0,
+    "handicap": null,
+    "ccr": 7.0,
+    "ccr_avg": 7.0,
+    "tier": "",
+    "edge": 0,
+    "units": 0.75,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "db43b07a45a308b96b032bd92ee20b73ff8ff3c77301b93c79e4b8ca0087eeed"
+  },
+  {
     "date": "2026-11-25",
     "source_sport": "NHL",
     "game": "Chicago Blackhawks @ Seattle Kraken",
