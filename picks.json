@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-27",
+    "source_sport": "NHL",
+    "game": "New York Rangers @ Chicago Blackhawks",
+    "pick": "New York Rangers ML",
+    "pick_display": "New York Rangers ML",
+    "bet_type": "ML",
+    "line": null,
+    "price": -172.0,
+    "handicap": null,
+    "ccr": 6.0,
+    "ccr_avg": 6.0,
+    "tier": "",
+    "edge": 0,
+    "units": 1.0,
+    "result": null,
+    "profit_units": null,
+    "odds_origin": "free_pick_receipt",
+    "hash_id": "dacec40482eb81d8acc42489ed29806384cc5af0681ed7f8b08610cd327c8eef"
+  },
+  {
     "date": "2026-11-26",
     "source_sport": "NFL",
     "game": "Philadelphia Eagles @ Dallas Cowboys",
