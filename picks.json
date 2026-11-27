@@ -17507,7 +17507,7 @@
     "pick_display": "Nikola Jokic Over 27.5 Points",
     "bet_type": "Prop",
     "line": -115.0,
-    "price": -115.0,
+    "price": -112.0,
     "handicap": 27.5,
     "ccr": 7.0,
     "ccr_avg": 7.0,
@@ -17515,7 +17515,7 @@
     "edge": 0,
     "units": 1.0,
     "result": "W",
-    "profit_units": 0.8696,
+    "profit_units": 0.8929,
     "odds_origin": "legacy_source_report",
     "hash_id": "94cb542c73530a912aec203c81f6cab8ea775a45f6e3832d9f4aaff9534caa7f"
   },
