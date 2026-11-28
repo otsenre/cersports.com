@@ -3,7 +3,7 @@
   "deadline_utc": "2026-11-28T18:30:00+00:00",
   "deadline_reason": "120 minutes before the earliest Streak game",
   "earliest_start_utc": "2026-11-28T20:30:00+00:00",
-  "submitted_count": 1,
+  "submitted_count": 2,
   "entries": [
     {
       "name": "Reaper",
@@ -169,7 +169,24 @@
       "note": "run ended \u2014 back to zero, and everyone starts there",
       "milestone_text": "Elite banked",
       "l10_text": "L10 2-8 \u00b7 -20.68u (flat -6.22u) \u00b7 needed 54% won 20% \u00b7 -3.4 wins vs price \u00b7 17 days missed",
-      "pick": null
+      "pick": {
+        "pick": "Carolina Hurricanes -1.5",
+        "game": "Ottawa Senators @ Carolina Hurricanes",
+        "sport": "NHL",
+        "odds": -106,
+        "line": -1.5,
+        "detail_text": "1u \u00b7 needs 51.5%",
+        "breakeven": 0.5146,
+        "line_pending": false,
+        "units": 1,
+        "base_units": 1.0,
+        "ramp_units": 5.0,
+        "risk_units": 6.0,
+        "potential_profit_units": 5.6604,
+        "potential_return_units": 11.6604,
+        "start_utc": "2026-11-29T00:00:00+00:00",
+        "result": null
+      }
     },
     {
       "name": "Shark",
